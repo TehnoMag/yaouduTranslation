@@ -65,26 +65,26 @@ Locale_Text[460] = "Enhanced Fighter weapon systems"
 
 
 
-Locale_Text[500] = "Gunboat armor 1"
-Locale_Text[501] = "Gunboat armor 2"
-Locale_Text[502] = "Gunboat armor 3"
-Locale_Text[503] = "Gunboat armor 4"
-Locale_Text[504] = "Gunboat armor 5"
-Locale_Text[505] = "Gunboat armor 6"
+Locale_Text[500] = "Corvette armor 1"
+Locale_Text[501] = "Corvette armor 2"
+Locale_Text[502] = "Corvette armor 3"
+Locale_Text[503] = "Corvette armor 4"
+Locale_Text[504] = "Corvette armor 5"
+Locale_Text[505] = "Corvette armor 6"
 
 
-Locale_Text[510] = "Enhanced Gunboat armor and protection systems"
+Locale_Text[510] = "Enhanced Corvette armor and protection systems"
 
 
-Locale_Text[550] = "Gunboat weapon 1"
-Locale_Text[551] = "Gunboat weapon 2"
-Locale_Text[552] = "Gunboat weapon 3"
-Locale_Text[553] = "Gunboat weapon 4"
-Locale_Text[554] = "Gunboat weapon 5"
-Locale_Text[555] = "Gunboat weapon 6"
+Locale_Text[550] = "Corvette weapon 1"
+Locale_Text[551] = "Corvette weapon 2"
+Locale_Text[552] = "Corvette weapon 3"
+Locale_Text[553] = "Corvette weapon 4"
+Locale_Text[554] = "Corvette weapon 5"
+Locale_Text[555] = "Corvette weapon 6"
 
 
-Locale_Text[560] = "Enhanced Gunboat weapon systems"
+Locale_Text[560] = "Enhanced Corvette weapon systems"
 
 Locale_Text[600] = "Frigate armor 1"
 Locale_Text[601] = "Frigate armor 2"
@@ -141,15 +141,15 @@ Locale_Text[475] = "Fighter repair 6"
 
 Locale_Text[480] = "Repair systems for Enhanced Fighters"
 
-Locale_Text[570] = "Gunboat repair 1"
-Locale_Text[571] = "Gunboat repair 2"
-Locale_Text[572] = "Gunboat repair 3"
-Locale_Text[573] = "Gunboat repair 4"
-Locale_Text[574] = "Gunboat repair 5"
-Locale_Text[575] = "Gunboat repair 6"
+Locale_Text[570] = "Corvette repair 1"
+Locale_Text[571] = "Corvette repair 2"
+Locale_Text[572] = "Corvette repair 3"
+Locale_Text[573] = "Corvette repair 4"
+Locale_Text[574] = "Corvette repair 5"
+Locale_Text[575] = "Corvette repair 6"
 
 
-Locale_Text[580] = "Repair systems for Reinforced Gunboats"
+Locale_Text[580] = "Repair systems for Enhanced Corvettes"
 
 Locale_Text[670] = "Frigate repair 1"
 Locale_Text[671] = "Frigate repair 2"
