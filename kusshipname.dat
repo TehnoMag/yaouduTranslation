@@ -1,0 +1,24 @@
+filerange 75001 80000
+rangestart 75001 80000
+
+// Subtitles
+75001 Exile-class battleship
+75002 A battleship equipped with a large number of plasma photon cannons, with good self-healing capabilities
+75005 Pulse weapon platform
+75006 An effective anti-gunship weapon
+75010 Heavy weapons platform
+75011 A defensive platform to effectively defend against enemy battleships
+75015 Fai'ri flagship cluster
+75016 Invite Fai'ri flagship cluster to support, the source of flagships include a dreadnought and several cruisers and aircraft, Fai'ri's help is fast, but the price is high
+75020 Hiigara Flagship Cluster
+75021 Invite Hiigarah flagship cluster to support, source flagships include a dreadnought and several cruisers and aircraft, Hiigarahs are slow to come in, but less expensive
+75025 Wall-class dreadnought
+75026 A powerful warship equipped with siege cannons that can effectively destroy enemy flagship-class units
+75030 Gabithi
+75031 Elite heavy armor carrier with strong survivability
+75035 Wall-class dreadnought
+75036 A dreadnought developed by the Kharak, with strong armor and reliable survivability
+
+
+
+rangeend

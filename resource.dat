@@ -1,0 +1,30 @@
+filerange 2500 2529
+rangestart 2500 2529
+
+// Subtitles
+2500	dust
+2501	a piece of dust
+2502	tiny asteroid
+2503	A tiny asteroid
+2504	small asteroid
+2505	a small asteroid
+2506	medium asteroid
+2507	a medium-sized asteroid¡£
+2508	large asteroid
+2509	a large asteroid
+2510	giant asteroid
+2511	a giant asteroid
+2512	dust cloud
+2513	a cloud of dust
+2520	container
+2521	a container that may contain some cargo
+2522	hyperspace core
+2523	From the Hiigaran Mothership
+2524	nebula
+2525	a nebula
+2526	radiation
+2527	a dangerous cloud of radiation
+2528	wreckage
+2529	space debris
+
+rangeend

@@ -1,0 +1,581 @@
+filerange 60000 69999
+rangestart 60000 69999
+
+// Subtitles
+60000 Battleship  
+60001 Logistic class ships
+60002 Aircraft carrier
+60003 Battleship
+60004 Destroyer
+60005 Frigates
+60006 Fighter
+60007 Small defense platform
+60008 Medium defense platform
+60009 Giant defense platform
+60010 Small floating gun
+60011 Medium rail gun
+60012 Large rail gun
+60013 Escort vessel
+60014 Mothership
+60015 Flagship
+60016 Assault ship
+60017 Mining barge
+60018 Super battleship
+60019 Battleship
+60020 Defensive tower
+60021 Super turret
+60022 Auxiliary battleship
+60023 Reinforced carrier
+60024 Guardian
+60025 Elite tactical ship
+60026 Small frigate
+60027 Heavy frigate
+60028 Heavy fighter
+60029 Mission units
+60030 Civilian units
+60031 Water crystals (the larger the crystal body, the more resources it generates, but the slower it is)
+60035 Experimental battleships
+60040 Giant turret
+60050 Armored ship
+60055 Battlecruiser
+60056 Space Cruiser
+60060 Large defense platform
+60065 Small floating gun
+60070 Flagship railgun
+60075 Elite drones
+60080 Engineering unit
+60100 Large industrial ship
+60105 Large Aircraft Carrier
+60110 Mobile refinement ship
+60115 Dust class engineering ship
+60120 Sheep-class mining barge
+60125 Anti-flagship cruiser
+60130 elite fighter
+60135 Super fighter
+60140 Super carrier
+60141 Bomber - Restraint Frigate and Mainship
+60151 Heavy bomber - anti-flagship
+60152 Star Destroyer - superior anti-flagship
+60153 Heavy fighter - superior air control
+60155 Small merchant ships
+60160 Luxury passenger ship
+60165 Tactical bomber
+60500 Scimitar Fighter
+60505 Scimitar Bomber
+60506 Scimitar Combat Attack
+60510 Strategic Bomber-Dodo
+60511 Sniper Drone
+60512 Soldier Bee Floating Cannon
+60515 Mold Heavy Gunboat
+60520 Mold Missile Boat
+60525 Mold Pulse Boat
+60600 White Sheep Class Ion Gun Frigate
+60605 White Sheep MK2 Multipurpose Frigate
+60610 White Sheep Class Multi-Turret Frigate
+60615 Samoyed Class Heavy Assault Ship
+60620 1400mm Giant Gun Assault Ship
+60700 Exile Destroyer
+60701 Subtle Destroyer
+60705 Subtle Destroyer Anti-Aircraft
+60710 Executioner Cruiser
+60711 Reaper Cruiser
+60712 Remover Cruiser
+60715 Sniper Gun Cruiser
+60720 Broadblade Assault Ship
+60721 Missile Assault Ship
+60725 SR-6 Hunter Assault Ship
+60726 SR-6 Hunter Class Civilian
+60730 Atlanta Cruiser
+60731 Atlanta Armored
+60732 Atlanta Air Defense
+60733 Atlanta Ion Gun
+60735 Fenania Class Cruiser
+60800 Aurora class battleship
+60801 Small Battleship
+60805 Fai'ri Carrier
+60816 Silent Odin-class dreadnought
+60810 Fai'ri Queen
+60815 Odin Dreadnought
+60820 Reincarnation Dreadnought
+60825 Radiant Ruler
+60830 Fai'ri Empress Fleet Type
+60835 Fai'ri Queen Duel
+60840 Fai'ri Empress Fortress
+60845 Dawn II Battleship
+60850 Eternal Dreadnought
+60900 Small Floating Cannon - Ion Cannon
+60905 Small Floating Cannon - Missile
+60910 Small Floating Cannon - Rapid Fire Cannon
+60915 Farseer Battleship
+60920 Havoc Dreadnought
+61000 Small machine gun turret
+61005 Small Ion Cannon Turret
+61010 Small Rapid Fire Turret
+61015 Small Pulse Cannon Turret
+61100 Medium Anti-Aircraft Gun Turret
+61105 Medium Cannon Turret
+61110 Medium ion cannon defense tower
+61115 Fortress Cannon Defense Tower
+61120 Fortress-class high-energy ion beam defense tower
+61125 Ranger-class raider
+61200 Medium Orbital Cannon
+61205 Large Orbital Cannon
+61210 Light Feather Support Carrier
+61215 Shobariya
+61220 Ranger Class Assault Gunboat
+61222 Ranger 2 Assault Gunboat
+61223 Ranger 3 Assault Gunboat
+61225 Sweeper Class Battleship
+61230 Sharjah Class Armored Ship
+61235 Fai'ri
+61236 Scourer-class battleship with special armor
+61240 Hilling's Eye
+61245 Small Traffic Boat
+61250 Messiah Fortress
+61255 Greshia Class Support Battleship
+61260 Forwarder Assault Frigate
+61265 Forwarder Class Air Defense Frigate
+61270 Forwarder Ion Gun Frigate
+61275 Vanguard 425 Gun Support Frigate
+61280 Imperial Admiral Mobile Fortress
+61285 Yuri Fleet Carrier
+61286 Yuri Fleet Carrier Bomber Type
+61287 Yuri Fleet Carrier Missile
+61288 Yuri Fleet Carrier Light
+61290 Judgment Court
+61295 Fourth generation Queen-class giant ship
+61300 Rift Class Battleship
+61305 Fenania Class Light Carrier
+61310 Rift Reaper Battleship
+61315 Imperial Will Battleship
+61400 Slave ship followship
+61405 Imperial Mobile Fortress has arrived at the battlefield and is sweeping all enemies (BGM: Mizuse)
+61410 (BGM: 01. Blazing Gun)
+61415 Anti-ship missile defense platform
+61420 Long Range Missile Defense Platform
+61425 White River Missile Launch Platform
+61430 1400mm cannon platform
+61435 Large ion cannon turret
+61440 Moon Ring Class Raider
+61445 Moonwheel Assault Gunboat
+61450 Dawnbreaker I Battleship
+61455 Civilian Mining Craft
+61460 Reincarnation Class Dreadnought MK2
+61465 5300mm Heavy Gun Group
+61466 Super Caliber Anti-Flagship Mega Gun
+61470 Ion Cannon Mega Cannon Array
+61475 Reincarnation Dreadnought - Heavy Hammer
+61480 Reincarnation Dreadnought - Aurora
+61485 Sharjah Anti-Air Armor Ship
+61490 Mili Engineering Carrier
+61495 Eternal Sweeper Dreadnought
+61500 Sotoya Super Armored Carrier
+61505 305mm ATTIA Defense System
+61510 Lance Interceptor
+61515 Lance Attack Aircraft
+61520 Void Class Dreadnought
+61521 3500mm Cannon Turret
+61525 Stardust Destroyer
+61526 Stardust Destroyer Anti-Air
+61530 6-Link 57mm Rapid Fire Gun
+61535 3 Guns 57mm
+61540 90mm rapid-fire gun
+61545 20mm Close-In Gun
+61550 Rechargeable Ion Cannon
+61555 Thunder Class Railgun
+61560 Sixth-generation Queen's class heavy hammer
+61565 Sixth-generation Queen's ship Thunderbolt
+61570 Sixth-generation Queen's ship Fortress
+61572 Sixth generation Queen-class giant ship Heavenly Punishment
+61575 Triplex 4800 Turret
+61580 Triplex Light Spear Turret
+61585 Duplex Ion Cannon
+61590 black cat class engineering ship
+61595 Dawn 3 Battleship
+61600 Battleship Leylin
+61605 Suribachi Frigate
+61610 SV51
+61615 1000mm quadruple EM gun
+61620 2000mm Duplex Siege Electromagnetic Cannon
+61625 Thunder
+61626 Electromagnetic cannon shipboard
+61630 Third generation Fai'ri Queen class giant ship
+61631 Modernized Third Generation Fai'ri Queen
+61635 Kleya Dahlke
+61636 Sarah Dahlke
+61640 Specially modified third generation queen ship
+61645 Large asteroid mining site
+61650 Super Heavy Bomber - Flying Dragon
+61655 57mm Rapid Fire Machine Cannon
+61660 Eternal-class War Fortress
+61665 Sanctuary War Fortress
+61670 Queen's Hammer
+61671 Heavy Gun Eternal War Fortress
+61675 Hylin's Eye
+61680 5300 Super Long Magnification Siege Cannon
+61685 Super Carrier-Ruling
+61690 Supercarrier - Holy Ruler
+61695 Broadblade 3 Battlecruiser
+61700 Broadblade 3 Battlecruiser Heavy Armor
+61705 Firejack Elite Assault Ship
+61710 Halo
+61715 Sanctuary Carrier
+61720 Impulse Floating Cannon
+61725 Photon Gun Floating Cannon
+61730 Sniper Floating Cannon
+61735 Shield floating cannon
+61740 Dark Goddess Class Dreadnought
+61741 The full name of this ship is United Force Dark Goddess Nidhogg Order Star Moein Hitati Truth White Cap Holy Water Roman Short Sword Cyberus Mogul Union Class
+61745 Glory Goddess class dreadnought
+61746 Close fleet elite flagship
+61750 Duplex Stroboscopic Particle Cannon
+61755 37mm Vulcan Pulse Parallel Turret
+61760 Sword of Judgment
+61770 1000mm Electromagnetic Projectile Cannon
+61780 YJ17K
+61785 Heavy Airborne Anti-Ship Missile
+61790 Heavy Artillery Weapon System
+61795 Rapid Fire Gun Weapon System
+61800 Beam Weapon System
+61805 Energy Projectile Weapon System
+61810 Guided Weapon System
+61820 Kakuzu Class I Elite Battleship Electromagnetic Cannon
+61830 Kakuzu Class I Elite Battleship Light
+61840 Princess Ekurice Class Battleship
+61850 Orion class high-speed transport ship
+61855 Lance Bomber
+61860 Illya-class Cruiser
+61861 Kilometer Class Destroyer
+61865 Duplex Electromagnetic Cannon
+61870 8-linked anti-aircraft rapid-fire turret
+61875 Restraint Cruiser Class Units
+61880 Flagship Class Unit Restraint
+61885 37mm rapid-fire machine gun
+61890 Falcon Wind Class Armor
+61895 Galbalan Armored Assault Ship
+61900 Club Class Battlecruiser
+61905 club class cruise ship
+61910 Space Sports Car
+61915 10-liner 1400 rocket launcher
+61920 Imperial Press General
+61921 Imperial Reporter Sunburst's exclusive ship
+61925 Fai'ri Imperial Constellation Jumpgate
+61930 Space City-Glipus
+61931 Second giant jumpgate city linked to the Fai'ri Empire mainland
+61940 Rift-class battleship MK2A
+61950 Rift Battleship MK2B
+61960 Rift Battleship MK2 Ant Nest
+61970 Rift Class Battleship MK2 Ayntes
+61980 quadruple 1400mm cannon MK3
+61990 Quadruple Electromagnetic Railgun MK3
+62000 Quadruple Electromagnetic Railgun MK3B
+62010 Quadruple Electromagnetic Railgun MK3C
+62020 Twin 175mm rapid-fire gun
+62030 57mm Rapid Fire Close-In Gun
+62040 Small Pulse Launcher
+62050 Pluto Super Heavy Anti-Ship Missile
+62060 Super Combat Drone - Trident
+62070 Super Combat Drone - Trident Ant Nest
+62080 Super Combat Drone - Trident Ayntis
+62090 Valkyrie Transport Vessel
+62100 Triple Electromagnetic Railgun MK4
+62110 Electromagnetic Rail Gun MK4B
+62120 Triple Electromagnetic Railgun MK4C
+62130 Dart-class combat drone
+62131 Dart Class Combat Drone - Bombing Type
+62140 Heavy Anti-Ship Missile - Pale Goblin
+62150 Multipurpose Air Defense Missile - Spike
+62160 Heavy Destroyer
+62170 Saintshield Heavy Destroyer Ghost Fleet
+62175 Strider Destroyer
+62180 Strider Destroyer Anti-Aircraft
+62185 Strangler Destroyer-Franca
+62190 Medium Dwelling Station
+62195 Medium Mining Station
+62200 Medium Grain Farm
+62205 Medium Water Treatment Plant
+62210 Medium Food Processing Plant
+62215 Medium metal smelter
+62220 Medium energy supply center
+62225 Medium security station
+62230 Medium ice mining collection station
+62235 Medium ammunition factory
+62240 Medium Daily Goods Factory
+62245 Medium Meat Processing Plant
+62250 Order Class Raid Dreadnought
+62251 Large Dreadnought
+62255 Selphandina Dreadnought
+62256 Large Dreadnought
+62260 Isu-class Special Dreadnought
+62265 Duplex Plasma Projection Cannon
+62270 Duplex Turbolaser
+62280 Quadruple plasma cannon
+62285 Quadruple Laser Cannon
+62290 Small Anti-Aircraft Plasma Cannon
+62295 Small anti-aircraft laser cannon
+62300 Large Dwelling Station
+62305 Large mining station
+62310 Large Grain Farm
+62315 Large water purification plant
+62320 Large food processing plant
+62325 Large metal smelters
+62330 Large energy supply centers
+62335 Large security station
+62340 Large ice harvesting station
+62345 Large ammunition factory
+62350 Large Daily Goods Factory
+62355 Large Meat Processing Plant
+62360 Rover Class Assault Ship Beam Type
+62365 Heavy Ion Beam Emitter
+62370 Planetary
+62385 Mega Dwelling Station
+62390 Mega Mining Station
+62395 Giant Grain Farm
+62400 Giant Water Purification Plant
+62405 Giant Food Processing Plant
+62410 Giant metal smelter
+62415 Giant Energy Supply Center
+62420 Giant Security Station
+62425 Giant Ice Harvesting Station
+62430 Giant Ammunition Factory
+62445 Giant Daily Goods Factory
+62450 Giant Meat Processing Plant
+62455 SR-6 Hunter Class Command Type
+62460 Aurora G Battleship
+62465 Triplex High Power Beam Turret
+62470 Super Mega Dwelling Station
+62475 Super Mega Mining Station
+62480 Super Mega Grain Farm
+62485 Super Mega Water Treatment Plant
+62490 Mega Food Processing Plant
+62495 Mega metal smelter
+62500 Mega Energy Supply Center
+62505 Mega Security Station
+62510 Super Mega Ice Harvesting Station
+62515 Mega Ammunition Factory
+62520 Mega Daily Goods Factory
+62525 Mega Meat Processing Plant
+62530 Small Flagship Core Component Plant
+62535 Medium Flagship Core Component Plant
+62540 Large Flagship Core Component Plant
+62545 Mega Flagship Core Component Plant
+62550 Super Mega Flagship Core Component Plant
+62555 Small Weapon Accessory Plant
+62560 Medium Weapon Accessory Plant
+62565 Large Weapon Accessory Plant
+62570 Mega Weapon Parts Plant
+62575 Super Mega Weapon Parts Plant
+62580 Small Human Computer Assembly Plant
+62585 Medium Human Computer Assembly Plant
+62590 Large Human Computer Assembly Plant
+62595 Giant Human Computer Assembly Plant
+62600 Super Mega Human Computer Assembly Plant
+62605 Small Colony Dock
+62610 Colony Dock Left
+62615 Colony dock right
+62620 Giant colony dock left
+62625 Giant colony dock right
+62630 Small electronic component factory
+62635 Medium electronic component factory
+62640 Large electronics factory
+62645 Giant Electronics Factory
+62650 Super Mega Electronics Factory
+62655 Seventh Generation Fai'ri Queen-class Star Destroyer
+62660 Destiny Star Destroyer
+62665 Star Destroyer
+62670 2000mm triple electromagnetic rail gun
+62675 Stardust Destroyer Guardian
+62680 Aphyllis
+62685 Elite Farseer Battleship
+62690 Mordechian Light Mining Craft
+62691 Maharaja's Coal Dredger
+62695 Tactical Engineering Ship
+62696 This is actually a Peeper
+62700 Fenania Class MK4 Cruiser
+62705 Radnis Sotoyad
+62706 Tactical Detachment Flagship
+62710 Thunderbolt Class Escort Railgun
+62715 Rift 2E Heavy Cavalry
+62720 Rift 2F Mordechian Maharaja
+62725 Rift 2G Brigade Auxiliary Carrier
+62730 Triple Electromagnetic Railgun MK3E
+62735 Triple Electromagnetic Railgun MK3F
+62740 Barunant Class Railgun
+62745 Large Trade Station
+62750 Large Beam Defense Platform
+62755 Large Artillery Defense Platform
+62760 Large Rocket Defense Platform
+62765 Large Solar Power Array
+62770 Energy Reserve Array
+62775 Large Space Smelter
+62780 Large Resource Storage Array
+62785 Imperial Mega Space City
+62790 Imperial Small Space Community
+62795 Imperial Medium Space City
+62800 Imperial Fresh Water Treatment Plant
+62805 Imperial Trading Post
+62810 Imperial Capital Ships Dock
+62815 Imperial Large Food Processing Plant
+62820 Imperial Large Cargo Storage Array
+62825 Imperial Mega Food Processing Plant
+62830 Imperial Mega Farm
+62835 Imperial Mega Ranch
+62840 Imperial Ore Storage
+62845 Imperial Small Processing Plant
+62850 Imperial Medium Processing Plant
+62855 Imperial Large Processing Plant
+62860 Imperial Large Ore Storage Array
+62865 Imperial Mega Dock Array
+62870 Imperial Mega Dock Array
+62875 Imperial Mega Dock
+62880 Assemble Scimitar Fighter
+62885 Assemble Mold Heavy Gunship
+62890 Assemble Spear Interceptor
+62895 Assemble Scimitar Bomber
+62900 Assemble Mold Missile Boat
+62905 Assemble Dodo Bomber
+62906 Assemble Heavy Drone
+62907 Assemble Blackbird Scout
+62910 Aggressor Missile Attack Ship
+62915 Predator Class Heavy Cruiser
+62920 Destroyer Missile Assault Ship
+62925 Order Keeper Class Logistics Engineering Ship
+62930 Rift 121 Battleship
+62935 Rift 2GFG Battleship
+62940 Princess XIV Dreadnought
+62945 Marie de Leccea
+62950 Medium Solar Power Array
+62955 Super Tactical Carrier
+62960 Trident Fighter
+62965 Angelina Class Pocket Battleship
+62970 Liberator
+62975 Seeker
+62980 Phantom II Trigger
+62985 Phantom III Phoenix Sui
+62990 Phantom IV Ranger
+63005 Illusion V Tsunami
+63010 Illusion VIII Hunter
+63015 Illusion X Nightingale
+63020 Illusion XII Divine Will
+63025 Phantom 4 \n city-breaking artillery suit
+63030 Illusion 5 \n scattered sword soldier
+63035 Farstrider-class battleship MK2
+63040 light battleship
+63045 Adventurer and Mercenary Management Center
+63050 The empire provides a star station that provides comprehensive services to adventurers and mercenaries
+63055 Farstrider-class missile defense platform
+63060 Heavy Area Defense Platform
+63065 Angelina-class heavy aircraft carrier
+63070 Heavy Fleet Carrier
+63075 Farwalker-class cargo ship MK2
+63080 large cargo ship
+63085 Damaged Farstrider-class battleship MK2
+63095 Wrecked Angelina Class Heavy Carrier
+63100 Destroyed Farwalker-class freighter MK2
+63105 Ulysses
+63110 Judgment Day - Maharaja
+63115 Twin Bastion Wave Turrets
+63116 Bastion Class Turret
+63120 Olivier type expedition ship
+63121 Large, substantially refitted multipurpose expedition ship
+63130 Phantom IX Far Mountain
+63131 Phantom 9 Heavy Breaker armor full equipment style
+63140 Future Gospel
+63141 Kingsglaive Fifth Knight Huang's exclusive car
+63150 Zhenglan MK3
+63151 Fanma Special Floating Armor
+63160 Phantom XI Holy Order
+63161 Phantom 11 Holy Judgment Final Battle Style
+63170 future forever
+63171 Old Ones GOSPEL System Prototype
+63180 Sky Wedge
+63181 Future Gospel Special Floating Armor
+63185 Panda 8-unit anti-aircraft turret
+63190 Razor Fighter
+63191 Lightweight High Speed Interceptor
+63200 Haiyan-class transport aircraft
+63201 Large transport aircraft
+63210 Large Transport Barges
+63211 Large container transport barges
+63220 Small nanomaterial processing plants
+63221 Medium-sized nano-material processing plant
+63222 Large-scale nanomaterial processing plant
+63223 Giant Nano Matter Processing Plant
+63224 Super Giant Nano Matter Processing Plant
+63230 Small Colonial Dockyard
+63235 Medium Colonial Shipyard
+63240 Large Colonial Shipyard
+63245 Giant Colony Shipyard
+63250 Small Electronic Component Factory
+63255 Medium Electronic Component Factory
+63260 Large Electronic Component Factory
+63265 Giant Electronic Components Factory
+63270 Super Giant Electronic Components Factory
+63350 Small Fighter Component Factory
+63355 Medium Fighter Component Factory
+63360 Large Fighter Component Factory
+63365 Giant Fighter Component Factory
+63370 Super Giant Fighter Component Factory
+63375 Small Research Station
+63380 Medium Research Station
+63385 Large Research Station
+63390 Giant Research Station
+63450 Small Mechanical Parts Factory
+63455 Medium Machinery Parts Factory
+63460 Large Mechanical Parts Factory
+63465 Giant Mechanical Parts Factory
+63470 Super Giant Mechanical Parts Factory
+63550 Small Hull Component Factory
+63555 Medium Hull Component Factory
+63560 Large Hull Component Factory
+63565 Giant Hull Components Factory
+63570 Super Giant Hull Component Factory
+64000 Roselle
+64005 Natural Selection Class Dreadnought
+64010 Hyperion
+64015 The latest flagship of the ant nest fleet built with disruptive technology
+64020 Sword Fortress of Akasha
+64025 Super Fortress
+64030 Electromagnetic Orbital Cannon
+64045 Heavy Short Range Defense System
+64050 Heavy Electromagnetic Railgun
+64055 Quadruple Heavy Electromagnetic Railgun
+64060 Summon Illusion IX Far Mountain
+64065 Summon Illusion XI Inquisition
+64070 Calling Future Gospel
+64075 Summoning Halo
+64080 Sword Fortress of Akasha under construction
+64085 Sword Fortress of Akasha to be Completed
+64090 Mirror Coffin Annihilation Battle
+64095 Fleet Zero detected a high-energy reaction in the nearby star area, and a strange existence called "mirror" has selected the target to complete the transformation. Please destroy all enemy units in the star area (you need to pay 11 honor points to gain the trust of the commander of fleet zero)
+64100 Torrent-class heavy destroyer
+64105 Frigate Leader
+64106 Arithier Class Broken Dreadnought
+64110 Jormungandr broke delivery dreadnought
+64115 Quadruple 812MM electromagnetic gun
+64120 Quadruple rapid-fire 152MM electromagnetic gun
+64125 Six 356MMAATIS
+64130 Patis integrated anti-aircraft system
+64135 Quadruple 100MM Fragmentation Anti-aircraft Gun
+64140 Dual 25MM anti-aircraft cannon
+64145 Hydra Heavy Anti-Ship Missile
+64150 Venom VI medium anti-ship missile
+64155 Typhon-class battlecruiser
+64160 Twin Pulse Cannon
+64165 Lianfeng-class battlecruiser
+64170 Typhon-class battlecruiser Type D
+64175 Large Long Range Defense Missile Platform
+64180 Guinea Pig-class Frigate
+64185 Mili-class aircraft carrier engineering type
+64190 Super Fighter - God's Punishment
+64191 An advanced fighter designed to destroy powerful single enemies
+64195 Super Fighter-God's Punishment Annihilation Type
+64196 God's Retribution Armored Enhanced Version, used to raid powerful fleets
+64200 Hornet
+64205 Large carrier-based aircraft platform modified from Mili-class aircraft carrier
+64210 Veyron Dreadnought
+64215 A mighty bombardment ship, the backbone of the fleet
+64220 Fulong Carrier
+64225 Multipurpose Combat Support Carrier, Fleet Core
+
+rangeend
