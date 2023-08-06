@@ -70,7 +70,7 @@ Locale_Text[401] = "Defensive Battleship equipped with a large number of heavy g
 
 Locale_Text[405] = "Talos Class Battleship (Beam)"
 Locale_Text[406] = "Talos class with Ion turrets, designed to suppress the enemy.\n<b>Prerequisite:</b> Weapon Tech 4, Hull Tech 4\n<b>Role:</b> Defensive Unit"
-Locale_Text[407] = "Battleship - Indras"
+Locale_Text[407] = "Indellas Class Battleship"
 Locale_Text[408] = "Electromagnetic Gun Battleship, designed to suppress the enemy.\n<b>Prerequisite:</b> Weapon Tech 5, Hull Tech 4\n<b>Role:</b> Defensive Unit"
 
 
