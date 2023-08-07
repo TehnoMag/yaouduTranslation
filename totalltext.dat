@@ -279,56 +279,56 @@ rangestart 12000 50000
 13400 Makahn's Fury Fortress - Iron Faust
 13401 Iron Fausto, out of action
 13405 Sovereign Strategic Flagship
-14000 Abaddon Large Mothership
-14005 Aircraft Carrier
-14010 Unmanned Fighter
-14015 Unmanned Bomber
+14000 Abaddon Class Mothership
+14005 Fimilins Carrier
+14010 Viper MK.I
+14015 Viper MK.II
 14020 Air Control Tower
 14025 Ion gun frigates
-14030 Anti-aircraft frigates
-14035 Heavy missile boats
-14040 Plasma gun assault ship
-14041 Torpedo assault ship
-14045 Ion gun destroyer
-14050 Gun destroyer
-14055 Defensive cruiser
-14060 Battlecruiser-Naberius
-14065 Battlecruiser-Phimeline
-14070 Talos-class battleship
-14075 Talos-class battleship-beam version
+14030 Particle cannon frigates
+14035 Missile Corvettes
+14040 Plasma Assault Frigate
+14041 Torpedo Assault Frigate
+14045 Ion Beam Destroyer
+14050 Cannon Destroyer
+14055 Fimilins Cruiser
+14060 Fimilins Battlecruiser
+14065 Abelian Battlecruiser
+14070 Talos Class Battleship (Cannon)
+14075 Talos Class Battleship (Beam)
 14080 Alos Dreadnought
 14085 Vampire - Super Fighter
-14090 Safrielle Fortress
+14090 Siflier Fortress Ship
 14095 High Power Pulse Cannon Platform
 14100 Heavy Gun Defense Tower
 14105 Quadruple Anti-Aircraft Missile Platform
 14110 Heavy Anti-Ship Missile Platform
 14115 Anti-aircraft turret
-14120 Gravitational field generator
+14120 Gravity field generator
 14125 Large Alos cargo ship
-14130 Alos merchant ship
-14135 Greenbluster Fortress
+14130 Alos Merchant ship
+14135 Green Brewster Fortress
 14136 Fixed Space Fortress
-14140 Indras Class Battleship
+14140 Indellas Class Battleship
 14141 New Electromagnetic Gun Battleship
-14145 Cruise control ship
+14145 Silmeria Experimental Carrier
 14150 Voyage to the Dawn
 14151 Light Cruiser
 14155 Alos Mega Industrial Ship
-14160 Peregrine Falcon
-14165 Plasma Gun Assault Ship
-14170 Plasma Gun Assault Ship
-14175 Grace Marea
+14160 Falcon Aviation Battleship
+14165 Plasma Assault Corvette
+14170 Plasma Assault Corvette
+14175 Gracemeria Carrier
 14176 Carrier Swarm
-14180 Battleship Yao Feng
+14180 Yaofeng Battleship
 14181 Special Customized Super Battleship
-14185 MIG33
-14190 MIG31
-14195 Beam Sniper Ship
-14200 Space Ripper Class Cruiser
+14185 MIG-33 Super Fulcrum
+14190 MIG-31 Foxhound
+14195 Nabehilles Cruiser
+14200 Space Raider Class Cruiser
 14205 Anti-Air Destroyer
-14210 Albedo Super Battleship - Prototype
-14220 Albedo Super Battleship
+14210 Alberdeo Super Battleship - Prototype
+14220 Alberdeo Super Battleship
 14230 Heimdall Class Battlecruiser
 14240 El Nino Class Battlecruiser
 14250 MACRE-01/R Quadruple Heavy Mass Gun
@@ -339,7 +339,7 @@ rangestart 12000 50000
 14300 800mm Triple Cannon
 14310 AWS420-4/AATIS Area Air Defense System
 14320 Medium twin plasma rapid-fire gun
-14325 Judgment day
+14325 Judgement Day
 14500 203mm Heavy Gun
 14501 Pascal Crystal Body
 14502 A gunboat-sized volume crystal that emits pulsed beams

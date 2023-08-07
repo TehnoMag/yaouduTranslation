@@ -12,15 +12,15 @@ Locale_Text[51] = "Standard fighter, used for Anti-Aircraft combat.\n<b>Prerequi
 Locale_Text[60] = "Viper MK.II"
 Locale_Text[61] = "Standard Bomber, used for Anti-Ship combat.\n<b>Prerequisite:</b> Weapon Tech 1\n <b>Role:</b> Offensive Unit"
 
-Locale_Text[100] = "Resource Collector"
+Locale_Text[100] = "Alos Resource Collector"
 Locale_Text[101] = "Resource Collector"
-Locale_Text[105] = "Resource Control Ship"
+Locale_Text[105] = "Alos Resource Control Ship"
 Locale_Text[106] = "Control ship used to unload large amounts of resources at once. Equipped with a heavy Anti-Aircraft turret.\n<b>Prerequisite:</b> Hull Tech 2\n<b>Role:</b> Production Unit"
 
 
 Locale_Text[110] = "Anti-Aircraft Frigate"
 Locale_Text[111] = "Anti-Aircraft Frigate.\n<b>Prerequisite:</b>  Weapon Tech 1, Hull Tech 1\n<b>Role:</b> Defensive Unit"
-Locale_Text[115] = "Ion Beam Frigate" 
+Locale_Text[115] = "Particle Cannon Frigate" 
 Locale_Text[116] = "Anti-Ship Frigate, Capable of effectively attacking larger ship classes in numbers.\n<b>Prerequisite:</b> Weapon Tech 1, Hull Tech 1\n<b>Role:</b> Offensive Unit"
 Locale_Text[120] = "Plasma Assault Frigate"
 Locale_Text[121] = "Assault Frigate armed with a plasma cannon.\n<b>Prerequisite:</b>Weapon Tech 1, Hull Tech 1\n<b>Role:</b> Offensive Unit"
@@ -33,8 +33,8 @@ Locale_Text[151] = "Missile Escort Corvettes, suitable for cluster sorties to de
 
 
 
-Locale_Text[200] = "Ion Beam Destroyer"
-Locale_Text[201] = "Destroyer armed with a Heavy Ion Beam, Capable of effectively attacking larger ship classes in numbers.\n<b>Prerequisite:</b> Weapon Tech 3, Hull Tech 3\n<b>Role:</b> Offensive Unit"
+Locale_Text[200] = "Particle Cannon Destroyer"
+Locale_Text[201] = "Destroyer armed with a Particle Cannon, Capable of effectively attacking larger ship classes in numbers.\n<b>Prerequisite:</b> Weapon Tech 3, Hull Tech 3\n<b>Role:</b> Offensive Unit"
 
 Locale_Text[210] = "Cannon Destroyer"
 Locale_Text[211] = "Destroyer armed with large caliber guns. Low cost, Suitable for suppressing the attack of enemy frigates groups.\n<b>Prerequisite:</b>2 Weapon Tech 2, Hull Tech 2\n<b>Role:</b> Defensive Unit"
@@ -45,7 +45,7 @@ Locale_Text[216] = "Destroyer armed with Anti-Aircraft guns.\n<b>Prerequisite:</
 
 
 
-Locale_Text[250] = "Carrier"
+Locale_Text[250] = "Fimilins Carrier"
 Locale_Text[251] = "Auxiliary carrier, Produces fighters and can call in larger warships for support.\n<b>Prerequisite:</b>Hull Tech 2.\n<b>Role:</b> Production Unit"
 Locale_Text[255] = "Detection System"
 Locale_Text[256] = "Advanced Detection System\n<b>Prerequisite:</b> Weapon Tech 2\n<b>Role:</b> Subsystem"
@@ -53,10 +53,10 @@ Locale_Text[256] = "Advanced Detection System\n<b>Prerequisite:</b> Weapon Tech 
 Locale_Text[260] = "Nabehilles Cruiser"
 Locale_Text[261] = "Cruiser class Ship designed to attack large enemy units at long range.\n<b>Prerequisite:</b>Weapon Tech 3, Hull Tech 3/n<b>Role:</b> Offensive Unit"
 
-Locale_Text[270] = "Femilins Cruiser"
+Locale_Text[270] = "Fimilins Cruiser"
 Locale_Text[271] = "Support cruiser with heavy armor and defensive shields meant to suppress large groups of smaller warships.\n<b>Prerequisite:</b>Weapon Tech 3, Hull Tech 3.\n<b>Role:</b> Defensive Unit"
 
-Locale_Text[300] = "Femilins Battlecruiser"
+Locale_Text[300] = "Fimilins Battlecruiser"
 Locale_Text[301] = "Battlecruiser equipped with large caliber guns. Performance close to a Battleships, in comparison to Battlecruiser-Naberius, has a higher speed and range, slower fire rate.\n<b>Prerequisite:</b> Weapon Tech 3, Hull Tech 4\n<b>Role:</b> Defensive Unit"
 
 
@@ -74,7 +74,7 @@ Locale_Text[407] = "Indellas Class Battleship"
 Locale_Text[408] = "Electromagnetic Gun Battleship, designed to suppress the enemy.\n<b>Prerequisite:</b> Weapon Tech 5, Hull Tech 4\n<b>Role:</b> Defensive Unit"
 
 
-Locale_Text[410] = "Dreadnought"
+Locale_Text[410] = "Alos Dreadnought"
 Locale_Text[411] = "Dreadnought with Heavy Armor and Siege cannons.\n<b>Prerequisite:</b> Weapon Tech 5, Hull Tech 5\n<b>Role:</b> Offensive Unit"
 
 
@@ -114,7 +114,7 @@ Locale_Text[570] = "CFA-44 Nosferatu"
 Locale_Text[580] = "MIG-33 Super Fulcrum"
 Locale_Text[590] = "Su-33 Strigon"
 Locale_Text[600] = "Viper MkI Fighter"
-Locale_Text[610] = "XFA-27 Scarface"
+Locale_Text[610] = "XFA-27 Valkyrie"
 Locale_Text[615] = "Alos Empire's Elite Fighter"
 
 
@@ -123,7 +123,7 @@ Locale_Text[625] = "Assault craft armed with plasma weapons.\n<b>Prerequisite:</
 
 Locale_Text[630] = "Falcon Aviation Battleship"
 Locale_Text[635] = "A new type of warship from the Vaygr.\n<b>Prerequisite:</b> Weapon Tech 3,  Hull Tech 4\n<b>Hero ship:</b> limited hero ship, appearing with ACE fighter squad"
-Locale_Text[640] = "Silmeria Carrier"
+Locale_Text[640] = "Silmeria Experimental Carrier"
 Locale_Text[645] = "Experimental carrier with heavy armor and missile arrays.\n<b>Prerequisite:</b> Weapon Tech 3, Hull Tech 5\n<b>Hero ship:</b> limited hero ship, appearing with ACE fighter squadron"
 Locale_Text[650] = "Gracemeria Carrier"
 Locale_Text[655] = "Experimental carrier with high movement speed.\n<b>Prerequisite:</b> Weapon Tech 3, Hull Tech 5\n<b>Hero ship:</b> limited hero ship, appearing with ACE fighter squadron"
@@ -145,11 +145,11 @@ Locale_Text[721] = "The latest Battlecruiser developed by Alos, with battleship-
 
 
 
-Locale_Text[1000] = "alos_af_unicornI fighter"
-Locale_Text[1005] = "alos_af_unicornII fighter"
-Locale_Text[1010] = "alos_af_unicornIII fighter"
-Locale_Text[1015] = "MIG29 fighter"
-Locale_Text[1020] = "MIG31 fighter"
+Locale_Text[1000] = "Unicorn-I"
+Locale_Text[1005] = "Unicorn-II"
+Locale_Text[1010] = "Unicorn-III"
+Locale_Text[1015] = "MIG-29 Fulcrum"
+Locale_Text[1020] = "MIG-31 Foxhound"
 
 Locale_Text[1030] = "Sheep-class engineering ship"
 Locale_Text[1031] = "Fai'ri Empire-aided battlefield engineering ship, capable of remote repair only, not mining"
@@ -158,4 +158,4 @@ Locale_Text[1040] = "Black Cat-class engineering ship"
 Locale_Text[1041] = "Large engineering ship assisted by the Fai'ri Empire, with powerful repair capabilities"
 
 Locale_Text[1050] = "Judgement Day"
-Locale_Text[1051] = "The Judgment Day of the Rhine Sauron Legion of the Alos Empire is the last hope for the empire"
+Locale_Text[1051] = "The Judgement Day of the Rhine Sauron Legion of the Alos Empire is the last hope for the empire"
