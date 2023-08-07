@@ -1,4 +1,4 @@
-kiLocale_Text = {}
+Locale_Text = {}
 
 
 Locale_Text[5] = "Fighter Hangar"
@@ -45,7 +45,7 @@ Locale_Text[216] = "Destroyer armed with Anti-Aircraft guns.\n<b>Prerequisite:</
 
 
 
-Locale_Text[250] = "Fimilins Aicraft Carrier"
+Locale_Text[250] = "Fimilins Carrier"
 Locale_Text[251] = "Auxiliary carrier, Produces fighters and can call in larger warships for support.\n<b>Prerequisite:</b>Hull Tech 2.\n<b>Role:</b> Production Unit"
 Locale_Text[255] = "Detection System"
 Locale_Text[256] = "Advanced Detection System\n<b>Prerequisite:</b> Weapon Tech 2\n<b>Role:</b> Subsystem"
@@ -125,7 +125,7 @@ Locale_Text[630] = "Falcon Aviation Battleship"
 Locale_Text[635] = "A new type of warship from the Vaygr.\n<b>Prerequisite:</b> Weapon Tech 3,  Hull Tech 4\n<b>Hero ship:</b> limited hero ship, appearing with ACE fighter squad"
 Locale_Text[640] = "Silmeria Experimental Carrier"
 Locale_Text[645] = "Experimental carrier with heavy armor and missile arrays.\n<b>Prerequisite:</b> Weapon Tech 3, Hull Tech 5\n<b>Hero ship:</b> limited hero ship, appearing with ACE fighter squadron"
-Locale_Text[650] = "Gracemeria Aircraft Carrier"
+Locale_Text[650] = "Gracemeria Carrier"
 Locale_Text[655] = "Experimental carrier with high movement speed.\n<b>Prerequisite:</b> Weapon Tech 3, Hull Tech 5\n<b>Hero ship:</b> limited hero ship, appearing with ACE fighter squadron"
 Locale_Text[660] = "Yaofeng Battleship"
 Locale_Text[665] = "Special battleship customized by foreign civilization envoy, with powerful siege main gun and strong firepower.\n<b>Prerequisite:</b> Weapon Tech 5, Hull Tech 4\n<b>Hero ship:</b> limited hero ship, appearing with ACE fighter squad"
