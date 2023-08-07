@@ -1,0 +1,98 @@
+Archive name="yaouduMODPATCH"
+TOCStart name="Data10" alias="Data" relativeroot=""
+FileSettingsStart defcompression="0"
+// Anything less than 100 bytes, just store, don't compress
+Override wildcard="*.*" minsize="-1" maxsize="100" ct="0"
+// Any of these file types we just store, don't compress
+Override wildcard="*.mp3" minsize="-1" maxsize="-1" ct="0"
+Override wildcard="*.wav" minsize="-1" maxsize="-1" ct="0"
+Override wildcard="*.jpg" minsize="-1" maxsize="-1" ct="0"
+// Lua files we always compress, and then decompress in one shot
+Override wildcard="*.lua" minsize="-1" maxsize="-1" ct="2"
+// Skip all files that meet this criteria
+SkipFile wildcard="*emptyfile.txt" minsize="-1" maxsize="-1"
+FileSettingsEnd
+
+leveldata\campaign\tutorial\rpg\script\tradecode.lua
+leveldata\campaign\tutorial\rpg\script\trademenudata_objective.lua
+ship\icons\map\map\totalmap.psd
+ship\icons\map\map\totalmap01.tga
+ship\icons\map\map\totalmap02.tga
+ship\icons\map\map\totalmap03.tga
+ship\icons\map\map\totalmap04.tga
+ship\icons\map\map\totalmap05.tga
+ship\icons\map\map\totalmap06.tga
+ship\icons\map\map\totalmap07.tga
+ship\icons\map\map\totalmap08.tga
+ship\icons\map\map\totalmap09.tga
+ship\icons\map\map\totalmap10.tga
+ship\icons\map\map\totalmap11.tga
+ship\icons\map\map\totalmap12.tga
+ship\icons\map\map\totalmap13.tga
+ship\icons\map\map\totalmap14.tga
+ship\icons\map\map\totalmap15.tga
+ship\icons\map\map\totalmap16.tga
+ship\icons\map\map\totalmap17.tga
+ship\icons\map\map\totalmap18.tga
+ship\icons\map\map\totalmap19.tga
+ship\icons\map\map\totalmap20.tga
+ship\icons\map\map\totalmap21.tga
+ship\icons\map\map\totalmap22.tga
+ship\icons\map\map\totalmap23.tga
+ship\icons\map\map\totalmap24.tga
+ship\icons\map\map\totalmap25.tga
+ship\icons\map\map\totalmap26.tga
+ship\icons\map\map\totalmap27.tga
+ship\icons\map\map\totalmap28.tga
+ship\icons\map\map\totalmap29.tga
+ship\icons\map\map\totalmap30.tga
+ship\icons\map\map\totalmap31.tga
+ship\icons\map\map\totalmap32.tga
+ship\icons\map\map\totalmap33.tga
+ship\icons\map\map\totalmap34.tga
+ship\icons\map\map\totalmap35.tga
+ship\icons\map\map\totalmap36.tga
+ship\icons\map\map\totalmap37.tga
+ship\icons\map\map\totalmap38.tga
+ship\icons\map\map\totalmap39.tga
+ship\icons\map\map\totalmap40.tga
+ship\icons\map\map\totalmap41.tga
+ui\newui\buildsystemneed.lua
+ui\newui\carriernofighter.lua
+ui\newui\ingamemenu.lua
+ui\newui\lw_goodsexchange.lua
+ui\newui\lw_shipmake.lua
+ui\newui\rpgmission\launchmenurpgmissionm01.lua
+ui\newui\rpgmission\launchmenurpgmissionm02.lua
+ui\newui\rpgmission\launchmenurpgmissionm03.lua
+ui\newui\rpgmission\launchmenurpgmissionm04.lua
+ui\newui\rpgmission\launchmenurpgmissionm05.lua
+ui\newui\rpgmission\launchmenurpgmissionm06.lua
+ui\newui\rpgmission\launchmenurpgmissionm07.lua
+ui\newui\rpgmission\launchmenurpgmissionm08.lua
+ui\newui\rpgmission\launchmenurpgmissionm09.lua
+ui\newui\rpgmission\launchmenurpgmissionm12.lua
+ui\newui\rpgmission\launchmenurpgmissionm13.lua
+ui\newui\rpgmission\launchmenurpgmissionm15.lua
+ui\newui\rpgmission\launchmenurpgmissionm18.lua
+ui\newui\rpgmission\launchmenurpgmissionm19.lua
+ui\newui\rpgmission\launchmenurpgmissionm24.lua
+ui\newui\rpgmission\launchmenurpgmissionm27.lua
+ui\newui\rpgmission\launchmenurpgmissionm28.lua
+ui\newui\rpgmission\launchmenurpgmissionm29.lua
+ui\newui\rpgmission\launchmenurpgmissionm31.lua
+ui\newui\rpgmission\launchmenurpgmissionm32.lua
+ui\newui\rpgmission\launchmenurpgmissionm33.lua
+ui\newui\rpgmission\launchmenurpgmissionm34.lua
+ui\newui\rpgmission\launchmenurpgmissionm35.lua
+ui\newui\rpgmission\launchmenurpgmissionm37.lua
+ui\newui\rpgmission\launchmenurpgmissionm40.lua
+ui\newui\trademenu.lua
+ui\newui\typechoose.backup.lua
+ui\newui\typechoose.lua
+ui\newui\launchmenubuildsystemlv10.lua
+ui\newui\launchmenufactroygate.lua
+
+
+
+TOCend
