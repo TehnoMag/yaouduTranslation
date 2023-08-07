@@ -80,7 +80,7 @@ Locale_Text[411] = "Dreadnought with Heavy Armor and Siege cannons.\n<b>Prerequi
 
 
 Locale_Text[450] = "Vampire Super Fighter"
-Locale_Text[451] = "Hi-Tech Fighter with heavy armor and powerful weapons.\n<b>Prerequisite:</b> Weapon Tech 4, Hull Tech 4\n<b>Role:</b> Offensive Unit"
+Locale_Text[451] = "Hi-Tech Fighter with heavy armor and powerful weapons.\n<b>Prerequisite:</b> Weapon Tech 4, Hull Tech 3\n<b>Role:</b> Offensive Unit"
 
 
 Locale_Text[455] = "Siflier Fortress Ship"
