@@ -1,4 +1,4 @@
-Locale_Text = {}
+kiLocale_Text = {}
 
 
 Locale_Text[5] = "Fighter Hangar"
@@ -33,7 +33,7 @@ Locale_Text[151] = "Missile Escort Corvettes, suitable for cluster sorties to de
 
 
 
-Locale_Text[200] = "Particle Cannon Destroyerr"
+Locale_Text[200] = "Particle Cannon Destroyer"
 Locale_Text[201] = "Destroyer armed with a Particle Cannon, Capable of effectively attacking larger ship classes in numbers.\n<b>Prerequisite:</b> Weapon Tech 3, Hull Tech 3\n<b>Role:</b> Offensive Unit"
 
 Locale_Text[210] = "Cannon Destroyer"
