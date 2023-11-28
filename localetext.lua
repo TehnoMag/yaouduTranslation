@@ -1,9 +1,0 @@
-LocaleText = {}
-LocaleText[1] = "We gave a bunch a few days ago"
-LocaleText[2] = "The technical information of a brand-new general-purpose tactical high-energy active particle continuous projection device has changed a lot of RU"
-LocaleText[3] = "Turani"
-LocaleText[4] = "Titan"
-LocaleText[5] = "Hiigara"
-LocaleText[6] = "Kushen"
-LocaleText[7] = "No"
-LocaleText[8] = "Wave"
