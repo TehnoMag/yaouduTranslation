@@ -1,3 +1,2 @@
-WorkshopTool\Archive.exe -c .\build.txt -r ..\ -a ..\.dist\yaoduMODEN.big
-xcopy /y ..\.dist\yaoduMODEN.big ..\..\..\..\data\yaoduMODEN.big
+WorkshopTool\Archive.exe -c .\build.txt -r ..\ -a ..\.dist\english.big
 pause

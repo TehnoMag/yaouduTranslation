@@ -6,19 +6,42 @@ keyHarvestModifier      	= HKEY;
 keyAddModifier          	= SHIFTKEY;
 keyRepairModifier       	= YKEY;
 keySpecialAttackModifier = ZKEY;
+keyNotInStrikeGroupModifier = {SHIFTKEY, AKEY};
 
 -- these should be bound by code incase these change
-AggressiveTactics  = 0
-DefensiveTactics   = 1
+AggressiveTactics	= 0
+DefensiveTactics	= 1
 PassiveTactics      = 2
-
+DamageStance		= 0
+EvasiveStance		= 1
+NeutralStance		= 2
 -- keybinding file
 
 -- These keys will get bound to all scripted screens created for the front end
 --     { uniqueID, binded ability, event, datavalue, description, keybinding }
 fekeys =
 {
-	{ 1, "FE_ExitToWindows()",		INKE_KeyDown,	0,			5300, 				{ALTKEY, F4KEY} },
+	{ 1, "FE_ExitToWindows()",			INKE_KeyDown,	0,	"$5300", {ALTKEY, F4KEY} },
+	{ 300, "UI_UINavAccept()",			INKE_KeyUp,		33, "$4201", { 1011 } },	-- Gameplad A
+	{ 301, "UI_UINavAcceptPressed()",	INKE_KeyDown,	33, "$4201", { 1011 } },	-- Gameplad A
+    { 302, "UI_UINavCancel()",			INKE_KeyUp,		33, "$4202", { 1012 } },	-- Gameplad B
+    { 303, "UI_UINavCancelPressed()",	INKE_KeyDown,	33, "$4202", { 1012 } },	-- Gameplad B
+
+	{ 304, "UI_UINavCancel()",		INKE_KeyDown, 33, "$4202", { ESCKEY } },
+	
+	{ 305, "UI_UINavSelectNextElement()",		INKE_KeyDown, 33, "$4203", { TABKEY } },
+	{ 306, "UI_UINavSelectRelativeDirElement(2)",	    INKE_KeyDown, 33, "$4204", { 1001 } },	-- Gameplad Up
+	{ 307, "UI_UINavSelectRelativeDirElement(3)",		INKE_KeyDown, 33, "$4205", { 1004 } },
+	{ 308, "UI_UINavSelectRelativeDirElement(4)",		INKE_KeyDown, 33, "$4206", { 1002 } },	-- Gameplad Down
+	{ 309, "UI_UINavSelectRelativeDirElement(5)",		INKE_KeyDown, 33, "$4207", { 1003 } },
+	
+	-- Keyboard implementation
+	{ 310, "UI_UINavSelectRelativeDirElement(2)",	    INKE_KeyDown, 33, "$4204", { ARRUP } },	-- Arrow Up
+	{ 311, "UI_UINavSelectRelativeDirElement(3)",		INKE_KeyDown, 33, "$4205", { ARRRIGHT } },
+	{ 312, "UI_UINavSelectRelativeDirElement(4)",		INKE_KeyDown, 33, "$4206", { ARRDOWN } },	
+	{ 313, "UI_UINavSelectRelativeDirElement(5)",		INKE_KeyDown, 33, "$4207", { ARRLEFTP } },
+	{ 314, "UI_UINavAccept()",							INKE_KeyUp,		33, "$4201", { ENTERKEY } },	-- Gameplad A
+	{ 315, "UI_UINavAcceptPressed()",					INKE_KeyDown,	33, "$4201", { ENTERKEY } },	-- Gameplad A
 }
 
 -- in game keys
@@ -51,31 +74,33 @@ keys =
     { 25, eMoveAttack,                  INKE_KeyDown,    0,                 "$5323",                            {CONTROLKEY, AKEY }},
     { 26, eMilitary,                    INKE_KeyDown,    0,                 "$5324",                            {AKEY }},
     { 27, eMilitary,                    INKE_KeyUp,      1,                 "$5325",                            {AKEY }},
+	{ 6,  eNotInStrikeGroup,            INKE_KeyDown,    0,                 "$5520",                            {PLUSKEY }},
+	{ 8,  eNotInStrikeGroup,            INKE_KeyUp,      1,                 "$5520",                            {PLUSKEY }},
 
-    { 28, "formStrikeGroup(0)",         INKE_KeyDown,    0,                 "$5326",                            { F5KEY } },
-    { 29, "formStrikeGroup(1)",         INKE_KeyDown,    0,                 "$5327",                            { F6KEY } },
-    { 30, "formStrikeGroup(2)",         INKE_KeyDown,    0,                 "$5328",                            { F7KEY } },
-    { 103, "formStrikeGroup(3)",        INKE_KeyDown,    0,                 "$5460",                            { SHIFTKEY, F1KEY } },
-    { 104, "formStrikeGroup(4)",        INKE_KeyDown,    0,                 "$5461",                            { SHIFTKEY, F2KEY } },
-    { 105, "formStrikeGroup(5)",        INKE_KeyDown,    0,                 "$5462",                            { SHIFTKEY, F3KEY } },
-    { 106, "formStrikeGroup(6)",        INKE_KeyDown,    0,                 "$5463",                            { SHIFTKEY, F4KEY } },
-    { 107, "formStrikeGroup(7)",        INKE_KeyDown,    0,                 "$5464",                            { SHIFTKEY, F5KEY } },
-    { 108, "formStrikeGroup(8)",        INKE_KeyDown,    0,                 "$5465",                            { SHIFTKEY, F6KEY } },
-    { 31, "leaveStrikeGroup()",         INKE_KeyDown,    0,                 "$3165",                            { F8KEY } },
-
+    { 28, "formStrikeGroup('capital phalanx')",         INKE_KeyDown,    0, "$5326",                            { SHIFTKEY, F1KEY } },
+    { 29, "formStrikeGroup('frigate line')",			INKE_KeyDown,    0, "$5327",                            { SHIFTKEY, F2KEY } },
+    { 30, "formStrikeGroup('fighter screen')",          INKE_KeyDown,    0, "$5328",                            { SHIFTKEY, F3KEY } },
+    { 103, "formStrikeGroup('delta')",					INKE_KeyDown,    0, "$5460",                            { SHIFTKEY, F4KEY } },
+    { 104, "formStrikeGroup('broad')",					INKE_KeyDown,    0, "$5461",                            { SHIFTKEY, F5KEY } },
+    { 105, "formStrikeGroup('x')",						INKE_KeyDown,    0, "$5462",                            { SHIFTKEY, F6KEY } },
+    { 106, "formStrikeGroup('movers')",					INKE_KeyDown,    0, "$5463",                            { SHIFTKEY, F7KEY } },
+    { 107, "formStrikeGroup('wall')",					INKE_KeyDown,    0, "$5464",                            { SHIFTKEY, F8KEY } },
+    { 108, "formStrikeGroup('sphere')",					INKE_KeyDown,    0, "$5465",                            { SHIFTKEY, F9KEY } },
+	-- 31 - Previously Leave
+    { 200, "leaveStrikeGroup()",						INKE_KeyDown,    0, "$5525",                            { SLASHKEY } },
+	{ 201, "leaveStrikeGroupAlt(1)",					INKE_KeyDown,    0, "$5526",                            { SHIFTKEY, SLASHKEY } },
+	--{ 202, "leaveStrikeGroupAlt(2)",					INKE_KeyDown,    0, "$5527",                            { CTRLKEY, SLASHKEY } },
     -- tactics
-    { 32, ePreviousTactic,              INKE_KeyDown,    0,                 "$5330",                            { LBRACK } },
-    { 33, eNextTactic,                  INKE_KeyDown,    0,                 "$5331",                            { RBRACK } },
-    { 34, eTactics,                     INKE_KeyDown,    PassiveTactics,    "$5332",                            { F2KEY } },
+    { 32, ePreviousTactic,              INKE_KeyDown,    0,                 "$5331",                            { RBRACK } },
+    { 33, eNextTactic,                  INKE_KeyDown,    0,                 "$5330",                            { LBRACK } },
+    { 36, eTactics,                     INKE_KeyDown,    AggressiveTactics, "$5334",                            { F2KEY } },
     { 35, eTactics,                     INKE_KeyDown,    DefensiveTactics,  "$5333",                            { F3KEY } },
-    { 36, eTactics,                     INKE_KeyDown,    AggressiveTactics, "$5334",                            { F4KEY } },
+    { 34, eTactics,                     INKE_KeyDown,    PassiveTactics,    "$5332",                            { F4KEY } },
+	{ 37, eStance,						INKE_KeyDown,    DamageStance,		"$5472",                            { F5KEY } },
+    { 38, eStance,						INKE_KeyDown,    EvasiveStance,		"$5473",                            { F6KEY } },
+	{ 39, eStance,						INKE_KeyDown,    NeutralStance,		"$5474",                            { F7KEY } },
 
-    -- game flow
---#if UNIV_TURBOPAUSE_DEBUG
-    -- { 37, eTurboEnable,                 INKE_KeyDown,    4,                "$5335",                          {SHIFTKEY, BACKSLASHKEY} },
-    -- { 38, eTurboEnable,                 INKE_KeyDown,    1,                "$5336",                          {CONTROLKEY, BACKSLASHKEY} },
-    -- { 39, eTurboEnable,                 INKE_KeyDown,    2,                "$5337",                          {BACKSLASHKEY} },
---#endif
+	-- game flow
     { 40, ePause,                       INKE_KeyDown,    4,                "$5338",                             {PAUSEKEY } },
 
     -- focus and view
@@ -137,47 +162,47 @@ keys =
     { 89, "SendBuildOrder(9)",          INKE_KeyDown,    0,                 "$5387",							{ALTKEY,ZEROKEY } },
 
     -- build shortcuts, names must be the same as FamilyList.lua - displayFamily
-    { 90, "SelectBuildFacility('Fighter')", INKE_KeyDown,0,                 "$5388",                            {ALTKEY,FKEY } },
-    { 91, "SelectBuildFacility('Corvette')",INKE_KeyDown,0,                 "$5389",                            {ALTKEY,CKEY } },
-    { 92, "SelectBuildFacility('Frigate')", INKE_KeyDown,0,                 "$5390",                            {ALTKEY,RKEY } },
-    { 93, "SelectBuildFacility('Capital')", INKE_KeyDown,0,                 "$5391",                            {ALTKEY,AKEY } },
-    { 94, "SelectBuildFacility('Utility')", INKE_KeyDown,0,                 "$5392",                            {ALTKEY,TKEY } },
-    { 109, "SelectBuildFacility('Resource')", INKE_KeyDown,0,               "$5470",                            {ALTKEY,YKEY } },
-    { 95, "SelectBuildFacility('SubSystemModule')",INKE_KeyDown,0,          "$5393",                            {ALTKEY,DKEY } },
-    { 110, "SelectBuildFacility('NonCombat')",INKE_KeyDown,0,				"$5471",							{ALTKEY,NKEY } },
-    { 96, "SelectBuildFacility('Platform')",INKE_KeyDown,0,                 "$5394",                            {ALTKEY,WKEY } },
-    { 97, "SelectBuildFacility('SubSystemSensors')",INKE_KeyDown,0,         "$5395",                            {ALTKEY,QKEY } },
+    { 90, "SelectBuildFacility('Fighter')",								INKE_KeyDown,0,                 "$5388",                            {ALTKEY,FKEY } },
+    { 91, "SelectBuildFacility('Corvette')",							INKE_KeyDown,0,                 "$5389",                            {ALTKEY,CKEY } },
+    { 92, "SelectBuildFacility('Frigate')",								INKE_KeyDown,0,                 "$5390",                            {ALTKEY,RKEY } },
+    { 93, "SelectBuildFacility('Capital')",								INKE_KeyDown,0,                 "$5391",                            {ALTKEY,AKEY } },
+    { 94, "SelectBuildFacility('Utility')",								INKE_KeyDown,0,                 "$5392",                            {ALTKEY,TKEY } },
+    { 109, "SelectBuildFacility('Resource')",							INKE_KeyDown,0,               "$5470",                            {ALTKEY,YKEY } },
+    { 95, "SelectBuildFacility('SubSystemModule')",						INKE_KeyDown,0,          "$5393",                            {ALTKEY,DKEY } },
+    { 110, "SelectBuildFacility('NonCombat')",							INKE_KeyDown,0,				"$5471",							{ALTKEY,NKEY } },
+    { 96, "SelectBuildFacility('Platform')",							INKE_KeyDown,0,                 "$5394",                            {ALTKEY,WKEY } },
+    { 97, "SelectBuildFacility('SubSystemSensors')",					INKE_KeyDown,0,         "$5395",                            {ALTKEY,QKEY } },
     -- All is a special case, it is not a family type
-    { 98, "SelectBuildFacility('All')", INKE_KeyDown,    0,                 "$5396",                            {ALTKEY,LKEY } },
+    { 98, "SelectBuildFacility('All')",									INKE_KeyDown,    0,                 "$5396",                            {ALTKEY,LKEY } },
     -- additional build options shortcuts
-    { 99, "SendCancelShipOrder()",      INKE_KeyDown,    0,                 "$5397",                            {ALTKEY,XKEY } },
-    { 100,"SendPauseShipOrder()",       INKE_KeyDown,    0,                 "$5398",                            {ALTKEY,EKEY } },
-    { 101,"SendCancelSubSystemOrder()", INKE_KeyDown,    0,                 "$5399",                            {ALTKEY,VKEY } },
-    { 102,"SendPauseSubSystemOrder()",  INKE_KeyDown,    0,                 "$5400",                            {ALTKEY,GKEY } },
+    { 99, "SendCancelShipOrder()",										INKE_KeyDown,    0,                 "$5397",                            {ALTKEY,XKEY } },
+    { 100,"SendPauseShipOrder()",										INKE_KeyDown,    0,                 "$5398",                            {ALTKEY,EKEY } },
+    { 101,"SendCancelSubSystemOrder()",									INKE_KeyDown,    0,                 "$5399",                            {ALTKEY,VKEY } },
+    { 102,"SendPauseSubSystemOrder()",									INKE_KeyDown,    0,                 "$5400",                            {ALTKEY,GKEY } },
 
-    { 113,eShiftModifier,               INKE_KeyDown,    INKE_KeyDown,      "$5401",							{ keyAddModifier } },
-    { 114,eShiftModifier,               INKE_KeyUp,      INKE_KeyUp,        "$5402",							{ keyAddModifier } },
+    { 113,eShiftModifier,												INKE_KeyDown,    INKE_KeyDown,      "$5401",							{ keyAddModifier } },
+    { 114,eShiftModifier,												INKE_KeyUp,      INKE_KeyUp,        "$5402",							{ keyAddModifier } },
 
-    { 115,eControlModifier,             INKE_KeyDown,    INKE_KeyDown,      "$5403",							{ CONTROLKEY } },		-- Ctrl - Attack
-    { 116,eControlModifier,             INKE_KeyUp,      INKE_KeyUp,        "$5404",							{ CONTROLKEY } },
+    { 115,eControlModifier,												INKE_KeyDown,    INKE_KeyDown,      "$5403",							{ CONTROLKEY } },		-- Ctrl - Attack
+    { 116,eControlModifier,												INKE_KeyUp,      INKE_KeyUp,        "$5404",							{ CONTROLKEY } },
 
-    { 117,eFocusModifier,               INKE_KeyDown,    INKE_KeyDown,      "$5405",							{ keyFocusModifier } },
-    { 118,eFocusModifier,               INKE_KeyUp,      INKE_KeyUp,        "$5406",							{ keyFocusModifier } },
+    { 117,eFocusModifier,												INKE_KeyDown,    INKE_KeyDown,      "$5405",							{ keyFocusModifier } },
+    { 118,eFocusModifier,												INKE_KeyUp,      INKE_KeyUp,        "$5406",							{ keyFocusModifier } },
 
     -- load and save
-    { 125, eQuickSave,            		INKE_KeyDown,    1,                	"$5413",							{CONTROLKEY, F5KEY } },
-    { 126, eQuickLoad,            		INKE_KeyDown,    1,                	"$5414",							{CONTROLKEY, F9KEY } },
-    { 129, eRestartLevel,          		INKE_KeyDown,    1,                	"$5415",							{ SHIFTKEY, F8KEY } },
+    { 125, eQuickSave,            										INKE_KeyDown,    1,                	"$5413",							{CONTROLKEY, F5KEY } },
+    { 126, eQuickLoad,            										INKE_KeyDown,    1,                	"$5414",							{CONTROLKEY, F9KEY } },
+    { 129, eRestartLevel,          										INKE_KeyDown,    1,                	"$5415",							{CONTROLKEY, F8KEY } },
 
 -- #if SCREENSHOT_ENABLE
-     { 130, "screenshot()",		INKE_KeyDown,    0,                "$5416",										{ SCROLLKEY } },
+     { 130, "screenshot()",												INKE_KeyDown,    0,                "$5416",										{ SCROLLKEY } },
 -- #endif
 
     -- chat
-    { 131, eChat,                 	INKE_KeyDown,    0,                	"$5417",                        		{ ENTERKEY } },
+    { 131, eChat,                 																INKE_KeyDown,    0,                	"$5417",                        		{ ENTERKEY } },
     --{ 132, eChat,                 	INKE_KeyDown,    0,                	"$5418",                        	{ TKEY } },
 
-    { 136, eFiltersToggle,          	INKE_KeyDown,    0,            "$5422",									{ NUMLOCKKEY } },
+    { 136, eFiltersToggle,          															INKE_KeyDown,    0,            "$5422",									{ NUMLOCKKEY } },
 
     { 137, "UI_ToggleScreenGameRubrick( 'InGameMenu', 'ObjectivesList', 0, gr_all)",			INKE_KeyDown, 0,	"$5423", 		{ OKEY } },
 --  { 138, "MainUI_UserEvent( eRallyPoint)",		 										INKE_KeyDown, 0, 	"   $5424", 		{ PKEY } },
@@ -197,34 +222,51 @@ keys =
 
 
     -- camera panning
-    { 151, "Camera_PanCmd(INKE_KeyDown,PS_Up)", INKE_KeyDown, 	0, "$5436", { ARRUP }},
-    { 152, "Camera_PanCmd(INKE_KeyUp,PS_Up)"    , INKE_KeyUp,    	0, "$5436", { ARRUP }},
-    { 153, "Camera_PanCmd(INKE_KeyDown,PS_Down)", INKE_KeyDown, 0, "$5437", { ARRDOWN }},
-    { 154, "Camera_PanCmd(INKE_KeyUp,PS_Down)"    , INKE_KeyUp,     0, "$5437", { ARRDOWN }},
-    { 155, "Camera_PanCmd(INKE_KeyDown,PS_Left)", INKE_KeyDown, 0, "$5438", { ARRLEFT }},
-    { 156, "Camera_PanCmd(INKE_KeyUp,PS_Left)"    , INKE_KeyUp,     0, "$5438", { ARRLEFT }},
-    { 157, "Camera_PanCmd(INKE_KeyDown,PS_Right)", INKE_KeyDown, 0, "$5439", { ARRRIGHT }},
-    { 158, "Camera_PanCmd(INKE_KeyUp,PS_Right)"    , INKE_KeyUp,     0, "$5439", { ARRRIGHT }},
-    { 159, "Camera_PanCmd(INKE_KeyDown,PS_ModUp)", INKE_KeyDown, 0, "$5440", { INSERTKEY }},
-    { 160, "Camera_PanCmd(INKE_KeyUp,PS_ModUp)"    , INKE_KeyUp,     0, "$5440", { INSERTKEY }},
-    { 161, "Camera_PanCmd(INKE_KeyDown,PS_ModDown)", INKE_KeyDown, 0, "$5441", { DELETEKEY }},
-    { 162, "Camera_PanCmd(INKE_KeyUp,PS_ModDown)"    , INKE_KeyUp,     0, "$5441", { DELETEKEY }},
+    { 151, "Camera_PanCmd(INKE_KeyDown,PS_Up)",							INKE_KeyDown, 0,	"$5436", { ARRUP }},
+    { 152, "Camera_PanCmd(INKE_KeyUp,PS_Up)"    ,						INKE_KeyUp, 0,		"$5436", { ARRUP }},
+    { 153, "Camera_PanCmd(INKE_KeyDown,PS_Down)",						INKE_KeyDown, 0,	"$5437", { ARRDOWN }},
+    { 154, "Camera_PanCmd(INKE_KeyUp,PS_Down)"    ,						INKE_KeyUp, 0,		"$5437", { ARRDOWN }},
+    { 155, "Camera_PanCmd(INKE_KeyDown,PS_Left)",						INKE_KeyDown, 0,	"$5438", { ARRLEFT }},
+    { 156, "Camera_PanCmd(INKE_KeyUp,PS_Left)"    ,						INKE_KeyUp,   0,	"$5438", { ARRLEFT }},
+    { 157, "Camera_PanCmd(INKE_KeyDown,PS_Right)",						INKE_KeyDown, 0,	"$5439", { ARRRIGHT }},
+    { 158, "Camera_PanCmd(INKE_KeyUp,PS_Right)"    ,					INKE_KeyUp,   0,	"$5439", { ARRRIGHT }},
+    { 159, "Camera_PanCmd(INKE_KeyDown,PS_ModUp)",						INKE_KeyDown, 0,	"$5440", { INSERTKEY }},
+    { 160, "Camera_PanCmd(INKE_KeyUp,PS_ModUp)"    ,					INKE_KeyUp,   0,	"$5440", { INSERTKEY }},
+    { 161, "Camera_PanCmd(INKE_KeyDown,PS_ModDown)",					INKE_KeyDown, 0,	"$5441", { DELETEKEY }},
+    { 162, "Camera_PanCmd(INKE_KeyUp,PS_ModDown)"    ,					INKE_KeyUp,   0,	"$5441", { DELETEKEY }},
 
-    { 163,"FE_FocusOnLastEvent()",  INKE_KeyDown,    0,                 "$5442", {NUMPAD0 } },
-    { 164,"SelectNextIdleHarvester()", INKE_KeyDown,  0,                 "$5443", { GREATERTHAN } },
+    { 163,"FE_FocusOnLastEvent()",										INKE_KeyDown, 0,	"$5442", {NUMPAD0 } },
+    { 164,"SelectNextIdleHarvester()",									INKE_KeyDown, 0,	"$5443", { GREATERTHAN } },
 
-    { 165, eCameraDump, INKE_KeyDown,  0,                 "$5586", { CONTROLKEY, F1KEY } },
+    { 165, eCameraDump,													INKE_KeyDown, 0,	"$5586", { CONTROLKEY, F1KEY } },
 	
-    { 166,"ClearSelectedFromControlGroups()", INKE_KeyDown, 0,	     "$5444", { CONTROLKEY, MINUSKEY } },
-    { 167,"ClearAllControlGroups()", INKE_KeyDown, 0, "$5445", { CONTROLKEY, SHIFTKEY, MINUSKEY } },
+    { 166,"ClearSelectedFromControlGroups()",							INKE_KeyDown, 0,	"$5444", { CONTROLKEY, MINUSKEY } },
+    { 167,"ClearAllControlGroups()",									INKE_KeyDown, 0,	"$5445", { CONTROLKEY, SHIFTKEY, MINUSKEY } },
 
-    { 168, eCustomActivate,												INKE_KeyDown, -1, "$5446", { CONTROLKEY, ZKEY } },
-    { 169, eCustomDeActivate,											INKE_KeyDown, -1, "$5447", { SHIFTKEY, ZKEY } },
-    { 170, eCustomToggle,												INKE_KeyDown, -1, "$5448", { CONTROLKEY, SHIFTKEY, ZKEY } },	-- Gravwell Generator
-    { 171, eKamikaze,													INKE_KeyDown, 0, "$5307", { CONTROLKEY, SHIFTKEY, KKEY } },		-- Kamikaze
-	{ 172, "MainUI_UserEventData2( eSpecialAttack, 0, 7)",				INKE_KeyDown, 0, "$5519", { CONTROLKEY, SHIFTKEY, BKEY } },		-- Burst Attack
-	{ 173, "MainUI_UserEventData( eCustomActivate, 3 )",				INKE_KeyDown, 0, "$5518", { CONTROLKEY, SHIFTKEY, SKEY } },		-- SpeedBurst
-	{ 174, "MainUI_UserEventData( eCustomToggle, 2 )",					INKE_KeyDown, 0, "$5517", { CONTROLKEY, SHIFTKEY, DKEY } },		-- Drone Activate
+    { 168, eCustomActivate,												INKE_KeyDown, -1,	"$5446", { CONTROLKEY, ZKEY } },
+    { 169, eCustomDeActivate,											INKE_KeyDown, -1,	"$5447", { SHIFTKEY, ZKEY } },
+    { 170, eCustomToggle,												INKE_KeyDown, -1,	"$5448", { CONTROLKEY, SHIFTKEY, ZKEY } },	-- Gravwell Generator
+    { 171, eKamikaze,													INKE_KeyDown, 0,	"$5307", { CONTROLKEY, SHIFTKEY, KKEY } },		-- Kamikaze
+	{ 172, "MainUI_UserEventData2( eSpecialAttack, 0, 7)",				INKE_KeyDown, 0,	"$5519", { CONTROLKEY, SHIFTKEY, BKEY } },		-- Burst Attack
+	{ 173, "MainUI_UserEventData( eCustomActivate, 3 )",				INKE_KeyDown, 0,	"$5518", { CONTROLKEY, SHIFTKEY, SKEY } },		-- SpeedBurst
+	{ 174, "MainUI_UserEventData( eCustomToggle, 2 )",					INKE_KeyDown, 0,	"$5517", { CONTROLKEY, SHIFTKEY, DKEY } },		-- Drone Activate
+	{ 180, eSalCap,														INKE_KeyDown, 0,	"$3178", { CONTROLKEY, GKEY } },
+
+
+	-- UI Navigation
+	--{ 300, "UI_UINavAccept()",			INKE_KeyUp,		33, "$4201", { 1011 } },	-- Gameplad A
+	--{ 301, "UI_UINavAcceptPressed()",	INKE_KeyDown,	33, "$4201", { 1011 } },	-- Gameplad A
+    --{ 302, "UI_UINavCancel()",			INKE_KeyUp,		33, "$4202", { 1012 } },	-- Gameplad B
+    --{ 303, "UI_UINavCancelPressed()",	INKE_KeyDown,	33, "$4202", { 1012 } },	-- Gameplad B
+
+	--{ 304, "UI_UINavCancel()",		INKE_KeyDown, 33, "$4202", { ESCKEY } },
+	
+	--{ 305, "UI_UINavSelectNextElement()",		INKE_KeyDown, 33, "$4203", { TABKEY } },
+	--{ 306, "UI_UINavSelectRelativeDirElement(2)",	INKE_KeyDown, 33, "$4204", { 1001 } },	-- Gameplad Up
+	--{ 307, "UI_UINavSelectRelativeDirElement(3)",		INKE_KeyDown, 33, "$4205", { 1004 } },
+	--{ 308, "UI_UINavSelectRelativeDirElement(4)",		INKE_KeyDown, 33, "$4206", { 1002 } },	-- Gameplad Down
+	--{ 309, "UI_UINavSelectRelativeDirElement(5)",		INKE_KeyDown, 33, "$4207", { 1003 } },
+
 }
 
 
