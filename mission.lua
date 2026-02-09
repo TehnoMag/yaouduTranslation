@@ -1,3597 +1,3604 @@
-
 Locale_map = {}
-Locale_map[001] = "Í¨Íù·ÆÑÅÀûÖ®ÃÅ"
-Locale_map[002] = "Í¨ÍùµÛ¹úÖ³ÃñÇø"
-Locale_map[003] = "Í¨ÍùµÛ¹ú²É¿óµã"
-Locale_map[004] = "Í¨ÍùÌ¹ÄáË¹"
-Locale_map[005] = "Í¨ÍùÈûÀÕÄ·"
-Locale_map[006] = "Í¨ÍùÏ£¸ñÀ­Ê×ĞÇ"
-Locale_map[007] = "Í¨ÍùÌìÊ¹Ö®ÔÂ"
-Locale_map[008] = "Í¨ÍùµÚ142ºÅÇ°ÉÚ»ùµØ"
-Locale_map[00802] = "Í¨ÍùµÚ142ºÅÇ°ÉÚ»ùµØ"
-Locale_map[009] = "Í¨ÍùÑÇ¼ÓË¹Ç°ÉÚÕ¾"
-Locale_map[010] = "Í¨ÍùË÷µÂÀ­¸ù°µ½¸ÖæÓò"
-Locale_map[011] = "Í¨Íù°¢À³ÅµÑÇ¿Õ¼ä´¬ÎëÈºÖÜ±ß"
-Locale_map[012] = "Í¨ÍùÖ³ÃñĞĞĞÇÂê¼ÓÈø"
-Locale_map[013] = "Í¨Íù°ÍËşÀû°²Õ½½¢·Ø³¡"
-Locale_map[014] = "Í¨ÍùÄá¸£¶ûº£Ä·"
-Locale_map[015] = "Í¨ÍùºÕ¶ûº£ÀûÄ·"
-Locale_map[016] = "Í¨ÍùÏÈ×æÒÅ¼£"
-Locale_map[017] = "Í¨Íù¶ÀÁ¢ĞÇÇø"
-Locale_map[018] = "Í¨ÍùµÛ¹úÌ«¿ÕÅ©³¡Èº"
-Locale_map[019] = "Í¨ÍùµÛ¹úÇ°Ïß½¢¶Ó¼¯½áµØ"
-Locale_map[020] = "Í¨ÍùÎ¬¸ñ¶ûº£µÁá÷ÁÔ³¡"
-Locale_map[021] = "Í¨ÍùÑÇ»ùÄÉ´Ä³æ×å³²Èº"
-Locale_map[022] = "Í¨ÍùÍ¼À­Äáº£µÁ»î¶¯Çø"
-Locale_map[023] = "Í¨Íù¿¨µÂÊ²´ó½ÌÌÃ"
-Locale_map[024] = "Í¨Íù¿¨À­¿ËĞĞĞÇ"
-Locale_map[025] = "Í¨ÍùÌ©ÍßÂ×¹²ºÍ¹ú±ß¾³"
-Locale_map[026] = "Í¨Íù·ÆÑÅÀûµÛ¹ú´¬ÎëÈº"
-Locale_map[027] = "Í¨Íù³¯Ê¥Õß»î¶¯Çø"
-Locale_map[028] = "Í¨ÍùÎ¬¸ñ¶û¶«Ïß¾ü·§»î¶¯Çø"
-Locale_map[029] = "Í¨ÍùÎ¬¸ñ¶û¶«Ïß¾ü·§¿ØÖÆÇø"
-Locale_map[030] = "Í¨ÍùEDF¿ØÖÆÇø"
-Locale_map[031] = "Í¨ÍùÒÏ³²½¢¶Ó»î¶¯Çø"
-Locale_map[032] = "Í¨ÍùÄª¶ûµÏ»ù°²´ó¾ı±ß¾³"
-Locale_map[033] = "Í¨Íù¿¨¶òË¹ÁªÃË¡ªÇ°ÏßÉÚÕ¾"
-Locale_map[034] = "Í¨Íù¿¨¶òË¹ÁªÃË¡ªÀû±´¶û¹²ºÍ¹ú"
-Locale_map[035] = "Í¨Íù¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØ"
-Locale_map[036] = "Í¨Íù×·ÒäÖ®Í¥ÖØ¹¤×Ü²¿´¬Îë"
-Locale_map[037] = "Í¨Íù¿¨¶òË¹ÁªÃË»ìãçÉÌÈË"
-Locale_map[038] = "Í¨ÍùµÚ58ÌØ»ì½¢¶Ó¼¯½áµØ"
-Locale_map[039] = "Í¨Íù¿¨¶òË¹ÓÀÉúÕßÌ½Ë÷Ö®³õ"
-Locale_map[040] = "Í¨Íù°¢ÒòÌØË¹½¢¶Ó¶¨Ãªµã"
-Locale_map[041] = "Í¨ÍùĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹"
-Locale_map[042] = "Í¨Íù¿¨¶òË¹ÁªÃË¡ªÊ³ÓÃÓÍ¶¯Á¦´¬Îë"
-Locale_map[043] = "Í¨ÍùÖ³ÃñµØ±ß¾³ĞÇÇø"
-Locale_map[044] = "Í¨Íù°¢ÍßËşĞ­»áÌ½Ë÷½¢¶Ó×¤µØ"
-Locale_map[045] = "Í¨ÍùÍßÄÉº£Ä·"
-Locale_map[046] = "Í¨ÍùÅµÑÇ¿âÉêÁªºÏ¹¤ÒµÔ°"
-Locale_map[047] = "Í¨Íù¿ª·¢´úºÅ°¢Ë¹Áá"
-Locale_map[048] = "Í¨Íù²ÔĞÇÕ½ÍÅÑ²º½×ø±ê"
-Locale_map[049] = "Í¨Íù°µÇø"
-Locale_map[050] = "Í¨ÍùCPSRÓÎ»ê½¢¶Ó×¤µØ"
-
+Locale_map[001] = "é€šå¾€è²é›…åˆ©ä¹‹é—¨"
+Locale_map[002] = "é€šå¾€å¸å›½æ®–æ°‘åŒº"
+Locale_map[003] = "é€šå¾€å¸å›½é‡‡çŸ¿ç‚¹"
+Locale_map[004] = "é€šå¾€å¦å°¼æ–¯"
+Locale_map[005] = "é€šå¾€å¡å‹’å§†"
+Locale_map[006] = "é€šå¾€å¸Œæ ¼æ‹‰é¦–æ˜Ÿ"
+Locale_map[007] = "é€šå¾€å¤©ä½¿ä¹‹æœˆ"
+Locale_map[008] = "é€šå¾€ç¬¬142å·å‰å“¨åŸºåœ°"
+Locale_map[00802] = "é€šå¾€ç¬¬142å·å‰å“¨åŸºåœ°"
+Locale_map[009] = "é€šå¾€äºšåŠ æ–¯å‰å“¨ç«™"
+Locale_map[010] = "é€šå¾€ç´¢å¾·æ‹‰æ ¹æš—ç¤å®™åŸŸ"
+Locale_map[011] = "é€šå¾€é˜¿è±è¯ºäºšç©ºé—´èˆ¹åç¾¤å‘¨è¾¹"
+Locale_map[012] = "é€šå¾€æ®–æ°‘è¡Œæ˜Ÿç›åŠ è¨"
+Locale_map[013] = "é€šå¾€å·´å¡”åˆ©å®‰æˆ˜èˆ°åŸåœº"
+Locale_map[014] = "é€šå¾€å°¼ç¦å°”æµ·å§†"
+Locale_map[015] = "é€šå¾€èµ«å°”æµ·åˆ©å§†"
+Locale_map[016] = "é€šå¾€å…ˆç¥–é—è¿¹"
+Locale_map[017] = "é€šå¾€ç‹¬ç«‹æ˜ŸåŒº"
+Locale_map[018] = "é€šå¾€å¸å›½å¤ªç©ºå†œåœºç¾¤"
+Locale_map[019] = "é€šå¾€å¸å›½å‰çº¿èˆ°é˜Ÿé›†ç»“åœ°"
+Locale_map[020] = "é€šå¾€ç»´æ ¼å°”æµ·ç›—ç‹©çŒåœº"
+Locale_map[021] = "é€šå¾€äºšåŸºçº³èŒ¨è™«æ—å·¢ç¾¤"
+Locale_map[022] = "é€šå¾€å›¾æ‹‰å°¼æµ·ç›—æ´»åŠ¨åŒº"
+Locale_map[023] = "é€šå¾€å¡å¾·ä»€å¤§æ•™å ‚"
+Locale_map[024] = "é€šå¾€å¡æ‹‰å…‹è¡Œæ˜Ÿ"
+Locale_map[025] = "é€šå¾€æ³°ç“¦ä¼¦å…±å’Œå›½è¾¹å¢ƒ"
+Locale_map[026] = "é€šå¾€è²é›…åˆ©å¸å›½èˆ¹åç¾¤"
+Locale_map[027] = "é€šå¾€æœåœ£è€…æ´»åŠ¨åŒº"
+Locale_map[028] = "é€šå¾€ç»´æ ¼å°”ä¸œçº¿å†›é˜€æ´»åŠ¨åŒº"
+Locale_map[029] = "é€šå¾€ç»´æ ¼å°”ä¸œçº¿å†›é˜€æ§åˆ¶åŒº"
+Locale_map[030] = "é€šå¾€EDFæ§åˆ¶åŒº"
+Locale_map[031] = "é€šå¾€èšå·¢èˆ°é˜Ÿæ´»åŠ¨åŒº"
+Locale_map[032] = "é€šå¾€è«å°”è¿ªåŸºå®‰å¤§å›è¾¹å¢ƒ"
+Locale_map[033] = "é€šå¾€å¡å„æ–¯è”ç›Ÿâ€”å‰çº¿å“¨ç«™"
+Locale_map[034] = "é€šå¾€å¡å„æ–¯è”ç›Ÿâ€”åˆ©è´å°”å…±å’Œå›½"
+Locale_map[035] = "é€šå¾€å¡å„æ–¯è”ç›Ÿâ€”è”åˆæ³Šåœ°"
+Locale_map[036] = "é€šå¾€è¿½å¿†ä¹‹åº­é‡å·¥æ€»éƒ¨èˆ¹å"
+Locale_map[037] = "é€šå¾€å¡å„æ–¯è”ç›Ÿæ··æ²Œå•†äºº"
+Locale_map[038] = "é€šå¾€ç¬¬58ç‰¹æ··èˆ°é˜Ÿé›†ç»“åœ°"
+Locale_map[039] = "é€šå¾€å¡å„æ–¯æ°¸ç”Ÿè€…æ¢ç´¢ä¹‹åˆ"
+Locale_map[040] = "é€šå¾€é˜¿å› ç‰¹æ–¯èˆ°é˜Ÿå®šé”šç‚¹"
+Locale_map[041] = "é€šå¾€æ˜Ÿé—¨éƒ½å¸‚æ ¼åˆ©æ™®æ–¯"
+Locale_map[042] = "é€šå¾€å¡å„æ–¯è”ç›Ÿâ€”é£Ÿç”¨æ²¹åŠ¨åŠ›èˆ¹å"
+Locale_map[043] = "é€šå¾€æ®–æ°‘åœ°è¾¹å¢ƒæ˜ŸåŒº"
+Locale_map[044] = "é€šå¾€é˜¿ç“¦å¡”åä¼šæ¢ç´¢èˆ°é˜Ÿé©»åœ°"
+Locale_map[045] = "é€šå¾€ç“¦çº³æµ·å§†"
+Locale_map[046] = "é€šå¾€è¯ºäºšåº“ç”³è”åˆå·¥ä¸šå›­"
+Locale_map[047] = "é€šå¾€å¼€å‘ä»£å·é˜¿æ–¯ç²"
+Locale_map[048] = "é€šå¾€è‹æ˜Ÿæˆ˜å›¢å·¡èˆªåæ ‡"
+Locale_map[049] = "é€šå¾€æš—åŒº"
+Locale_map[050] = "é€šå¾€CPSRæ¸¸é­‚èˆ°é˜Ÿé©»åœ°"
 
 Locale_Text = {}
 
---µØÍ¼01µÛ¹úÖ®ÃÅ
-Locale_Text[000] = "·ÆÑÅÀûÖ®ÃÅ(µÚE36C7ºÅ°Í¿ÆÀ­Ö®ÃÅ)"
-Locale_Text[005] = "·ÆÑÅÀûµÛ¹ú±¾ÍÁÍ¨ÏòÒøºÓÏµµÄÎ¨Ò»Í¨µÀ"
-Locale_Text[010] = "ÌØ²ú£º¹¤Òµ²úÆ·"
-Locale_Text[015] = "´óÁ¿À´×Ô·ÆÑÅÀûµÛ¹ú±¾ÍÁµÄÉÌÆ·´ÓÕâÀïÔËËÍµ½ÒøºÓÏµÖĞ"
---µØÍ¼02µÛ¹úÖ³ÃñÇø
-Locale_Text[200] = "µÛ¹úÖ³ÃñÇø"
-Locale_Text[205] = "·ÆÑÅÀûµÛ¹úÔÚÒøºÓÏµµÄÖ÷Òª¾Û¼¯Çø"
-Locale_Text[210] = "ÌØ²ú£ºÎŞ"
-Locale_Text[215] = "´óÁ¿µÄµÛ¹ú¾ÓÃñ¾Ó×¡ÔÚÌ«¿Õ³ÇÊĞÖĞ£¬Ì«¿ÕÅ©³¡ÏòÆä¹©Ó¦Á¸Ê³ºÍ¸÷ÖÖÉú»îÎï×Ê"
---µØÍ¼03µÛ¹ú²É¿óµã
-Locale_Text[300] = "µÛ¹ú²É¿óµã"
-Locale_Text[305] = "µÛ¹úÖ³ÃñÇøµÄÖ÷Òª¿óÊ¯À´Ô´"
-Locale_Text[310] = "ÌØ²ú£º¿óÊ¯"
-Locale_Text[315] = "Ò»Ğ©Î¬¸ñ¶û½¢¶Ó¶¨ÆÚÔÚ´Ë³öÃ»£¬É§ÈÅ¸½½üµÄÃñÓÃ²É¿ó´¬¡£"
---µØÍ¼04Ì¹ÄáË¹
-Locale_Text[400] = "Ì¹ÄáË¹"
-Locale_Text[405] = "Ï£¸ñÀ­ÈËµÄÆì½¢Éú²ú»ùµØ"
-Locale_Text[410] = "ÌØ²ú£º¾ü±¸"
-Locale_Text[415] = "ÕâÀïµÄ¾ŞĞÍ´¬ÎëÔÚ·ÆÑÅÀûÈËµÄÖ§Ô®ÏÂÕıÈÕÒ¹²»Í£µÄÎªÏ£¸ñÀ­ÈËÉú²ú×Å¾ŞĞÍÆì½¢"
---µØÍ¼05ÈûÀÕÄ·
-Locale_Text[500] = "ÈûÀÕÄ·"
-Locale_Text[505] = "Ï£¸ñÀ­ÈËµÄÖ÷Á¦½¢Éú²ú»ùµØ"
-Locale_Text[510] = "ÌØ²ú£ºÎŞ"
-Locale_Text[515] = "¾¡¹ÜÊÇÏ£¸ñÀ­ÈËµÄ½¢¶Ó¼¯½áµØ£¬µ«ÊÇÕâÀï¶¨ÆÚÊÜµ½Î¬¸ñ¶ûÈËµÄÉ§ÈÅĞÔ½ø¹¥¡£"
---µØÍ¼06Ï£¸ñÀ­Ê×ĞÇ
-Locale_Text[600] = "Ï£¸ñÀ­Ê×ĞÇ"
-Locale_Text[605] = "Ï£¸ñÀ­ÈËµÄÄ¸ĞÇ"
-Locale_Text[610] = "ÌØ²ú£ºÅ©Òµ²úÆ·"
-Locale_Text[615] = "ÕâÀï±¥ÊÜÕ½»ğµÄ´İ²Ğ£¬Î¬¸ñ¶ûÈË¶¨ÆÚ¶ÔÕâÀï·¢¶¯´ó¹æÄ£½ø¹¥"
---µØÍ¼07 ÌìÊ¹Ö®ÔÂ
-Locale_Text[700] = "ÌìÊ¹Ö®ÔÂ"
-Locale_Text[705] = "Ï£¸ñÀ­ÈË¹°ÎÀÊ×ĞÇµÄÇ°ÉÚ»ùµØ"
-Locale_Text[710] = "ÌØ²ú£ºÎŞ"
-Locale_Text[715] = "³åÍ»¼¤ÁÒµÄÇ°ÏßÕ½³¡£¬Æ½¾ùÃ¿Ìì¶¼ÓĞÊıÊ®´Î½»»ğÔÚÕâÀï·¢Éú"
---µØÍ¼08 µÚ142ºÅÇ°ÉÚ»ùµØ
-Locale_Text[800] = "µÚ142ºÅÇ°ÉÚ»ùµØ"
-Locale_Text[805] = "Ï£¸ñÀ­ÈË²¿ÊğÔÚ¸çºÍÄÃÉî´¦µÄÒ»´¦Ç°ÉÚ»ùµØ"
-Locale_Text[810] = "ÌØ²ú£º¿óÊ¯"
-Locale_Text[815] = "Î¬¸ñ¶ûÈË¶¨ÆÚ¶ÔÕâÀï·¢¶¯Î§½Ë£¬²Ğ¿áµÄÕ½¶·²»Ê±µÄ±¬·¢"
---µØÍ¼09 VÇ°ÉÚ
-Locale_Text[900] = "ÑÇ¼ÓË¹Ç°ÉÚÕ¾"
-Locale_Text[905] = "Î¬¸ñ¶ûÈëÇÖ½¢¶ÓµÄ¼¯½áµØ"
-Locale_Text[910] = "ÌØ²ú£ºÎŞ"
-Locale_Text[915] = "´óÁ¿µÄÎ¬¸ñ¶ûÖ÷Á¦½¢¶ÓÔÚÕâÀïÓÎµ´£¬·ÆÑÅÀû½¢¶Ó¶ÔÕâÀïµÄÊı´Î·´¹¥¶¼Ôâµ½Ê§°Ü"
---µØÍ¼10 VĞ¡ĞĞĞÇ
-Locale_Text[1000] = "Ë÷µÂÀ­¸ù°µ½¸ÖæÓò"
-Locale_Text[1005] = "Î¬¸ñ¶ûÈË·¢¶¯Õ½ÕùËùĞè×ÊÔ´µÄ²É¼¯µØ"
-Locale_Text[1010] = "ÌØ²ú£º¿óÊ¯"
-Locale_Text[1015] = "ÊıÖ§Î¬¸ñ¶û²É¼¯½¢¶ÓÔÚÕâÀïÊÕ¼¯Õ½ÕùËùĞèµÄ×ÊÔ´£¬Ò»Ğ©Áª¾ü½¢¶Ó¶¨ÆÚµÄ»áÔÚÕâÀï·¢¶¯É§ÈÅ×÷Õ½"
---µØÍ¼11 V´¬ÎëÈº
-Locale_Text[1100] = "°¢À³ÅµÑÇ¿Õ¼ä´¬ÎëÈºÖÜ±ß"
-Locale_Text[1105] = "²»¶ÏÉú²úÕ½½¢µÄ´óĞÍ´¬ÎëÈº"
-Locale_Text[1110] = "ÌØ²ú£º¾ü±¸"
-Locale_Text[1115] = "Î¬¸ñ¶ûÈËÊıÊ®×ù´¬ÎëÈºÖĞµÄÒ»×ù£¬´óÁ¿´¬ÎëÈÕÒ¹²»Í£µÄ¿ª¹¤½¨ÔìĞÂ´¬"
---µØÍ¼12 VÖ³Ãñ
-Locale_Text[1200] = "Ö³ÃñĞĞĞÇÂê¼ÓÈø"
-Locale_Text[1205] = "±»Î¬¸ñ¶ûÈËÕ¼ÁìµÄÒ»¿ÅÖ³ÃñĞÇ"
-Locale_Text[1210] = "ÌØ²ú£ºÉİ³ŞÆ·£¬Å«Á¥"
-Locale_Text[1215] = "Î¬¸ñ¶ûÈËµÄµØÃæ²¿¶ÓÒ»Ö±ÔÚÕâ¿ÅĞĞĞÇÉÏÂÓ¶á×ÊÔ´£¬½øĞĞÑ¹ÆÈÊ½µÄÍ³ÖÎ"
+--Map 01 Gate of the Empire
+Locale_Text[000] = "Fai'ri Gate (Gate of Balcora No. E36C7)"
+Locale_Text[005] = "The only gateway to the galaxy from the Fai'ri Empire proper"
+Locale_Text[010] = "Speciality: industrial products"
+Locale_Text[015] = "A large number of goods from the Fai'ri Empire proper are shipped to the galaxy from here"
+-- Map 02 Imperial Colonies
+Locale_Text[200] = "Imperial Colony"
+Locale_Text[205] = "The main gathering area of the Fai'ri Empire in the galaxy"
+Locale_Text[210] = "Speciality: none"
+Locale_Text[215] = "A large number of Imperial inhabitants live in the space cities, which are supplied with food and various living goods by space farms"
+-- Map 03 Imperial mining sites
+Locale_Text[300] = "Imperial Mining Site"
+Locale_Text[305] = "The main source of ore for the Imperial colonies"
+Locale_Text[310] = "Speciality: ore"
+Locale_Text[315] = "A number of Vaygr fleets regularly frequent this area, harassing nearby civilian mining vessels."
+-- Map 04 Tanis
+Locale_Text[400] = "Tanis"
+Locale_Text[405] = "Hiigaran's flagship production base"
+Locale_Text[410] = "Speciality: armaments"
+Locale_Text[415] = "The giant shipyards here are producing giant flagships for the Hiigara day and night with the support of the Fai'ri"
+-- Map 05 Sarum
+Locale_Text[500] = "Sarum"
+Locale_Text[505] = "Hiigaran's battleship production base"
+Locale_Text[510] = "Speciality: none"
+Locale_Text[515] = "Despite being a staging ground for the Hiigara fleet, it is regularly subject to harassing attacks by the Vaygrs."
+-- Map 06 Hiigara Prime Star
+Locale_Text[600] = "Hiigara Prime"
+Locale_Text[605] = "Hiigarans homeworld"
+Locale_Text[610] = "Speciality: agricultural products"
+Locale_Text[615] = "This place is ravaged by war, and the Vaygrs periodically launch massive attacks on it"
+-- Map 07 Angel Moon
+Locale_Text[700] = "Angel Moon"
+Locale_Text[705] = "A Hiigara outpost defending the first star"
+Locale_Text[710] = "Speciality: none"
+Locale_Text[715] = "A frontline battlefield of intense conflict, where dozens of firefights take place on average every day"
+-- Map 08 Outpost 142
+Locale_Text[800] = "Gohana"
+Locale_Text[805] = "A Highran outpost deployed deep in Gohona"
+Locale_Text[810] = "Speciality: ore"
+Locale_Text[815] = "The Vaygr periodically lay siege to this area, and brutal battles break out from time to time"
+-- Map 09 V Outpost
+Locale_Text[900] = "Vaygr Outpost"
+Locale_Text[905] = "Staging area for the Vaygr invasion fleet"
+Locale_Text[910] = "Speciality: none"
+Locale_Text[915] = "A large number of the main Vaygr fleet roams here, and several counterattacks by the Fai'ri fleet against it have failed"
+-- Map 10 V asteroid
+Locale_Text[1000] = "Sodaragen Reef Sector"
+Locale_Text[1005] = "A gathering place for the resources needed by the Vaygr to wage war"
+Locale_Text[1010] = "Speciality: ore"
+Locale_Text[1015] = "Several Vaygr gathering fleets collect resources for warfare here, and some allied fleets periodically launch harassment campaigns here"
+-- Map 11 V Dockyard Complex
+Locale_Text[1100] = "Alenoa Space Dock Complex"
+Locale_Text[1105] = "Large dock complex with constant production of warships"
+Locale_Text[1110] = "Speciality: armaments"
+Locale_Text[1115] = "One of the dozens of Vaygr dockyards, where a large number of docks are open day and night to build new ships"
+-- Map 12 V Colonization
+Locale_Text[1200] = "Colonized planet Magassa"
+Locale_Text[1205] = "A colony planet occupied by the Vaygr"
+Locale_Text[1210] = "Speciality: luxury goods, slaves"
+Locale_Text[1215] = "Vaygrian ground forces have been plundering this planet for resources and oppressive rule"
 
-Locale_Text[1300] = "°ÍËşÀû°²Õ½½¢·Ø³¡"
-Locale_Text[1305] = "Ò»Ö§¶ÀÁ¢³öÀ´µÄÎ¬¸ñ¶ûÅÑ¾ü¿ØÖÆµÄµØ·½"
-Locale_Text[1310] = "ÌØ²ú£ºÎŞ"
-Locale_Text[1315] = "Ò»ÃûÃûÎªÎ¬¿Ï.Ä©ÊÀµÄÎ¬¸ñ¶ûÕ½ÕùÁìÖ÷¿ØÖÆ×ÅÕâÀï£¬Ëû¶ÔÏ£¸ñÀ­ÈËºÍ·ÆÑÅÀûÈË²ÉÈ¡ÖĞÁ¢µÄÌ¬¶È"
---µØÍ¼14 Ä§×å01
-Locale_Text[1400] = "Äá¸£¶ûº£Ä·"
-Locale_Text[1405] = "°£ºÕÂåË¹¼ÎµÂµÛ¹úÔÚM51ÒøºÓÏµÖĞµÄÇ°ÉÚ»ùµØ"
-Locale_Text[1410] = "ÌØ²ú£º¸ß¿Æ¼¼²úÆ·£¬ÄÉÃ×²úÆ·"
-Locale_Text[1415] = "°£ºÕÂåË¹¼ÎµÂÈË¶ÔÒøºÓÏµÖĞµÄÖÖ×å·îĞĞÖĞÁ¢µÄÌ¬¶È£¬µ«ÊÇ´ËµØ¾­³£Ôâµ½Ò»Ğ©ÑÇ»ù³æ×åµÄÏ®»÷"
---µØÍ¼15 Ä§×å02
-Locale_Text[1500] = "ºÕ¶ûº£ÀûÄ·"
-Locale_Text[1505] = "Ò»¸öÑÇ»ù³æ×åÆµ·±»î¶¯µÄÇøÓò"
-Locale_Text[1510] = "ÌØ²ú£º´¥ÊÖ"
-Locale_Text[1515] = "±äÒìµÄ³æÈºÔÚÕâÀïÊ©Å°£¬°£ºÕÂåË¹¼ÎµÂµÛ¹úÒÑ¾­ÔÚ½¨Á¢ÁËÒ»×ùÇ°ÉÚÕ½¸ºÔğÏûÃğÕâĞ©Òì³æ"
---µØÍ¼16 ÏÈ×æÒÅ¼£
-Locale_Text[1600] = "ÏÈ×æÒÅ¼£"
-Locale_Text[1605] = "³äÂúÁË¸÷ÖÖÏÈ×æÒÅÎïµÄÒÅ¼£Èº"
-Locale_Text[1610] = "°²È«¼¶±ğ£ºÖĞ"
-Locale_Text[1615] = "Ï£¸ñÀ­ÈËÈøÓÈ¿ËÖĞÕÆÎÕµÄÏÈ×æ¼¼Êõ¿ØÖÆ×ÅÕâÀï"
---µØÍ¼17 Î»ÖÃĞÇÇø
-Locale_Text[1700] = "¶ÀÁ¢ĞÇÇø"
-Locale_Text[1705] = "ÔÊĞíÍæ¼Ò×ÔÓÉ¿ª·¢µÄ¶ÀÁ¢ĞÇÇø"
-Locale_Text[1710] = "°²È«¼¶±ğ£ºÎ´Öª"
-Locale_Text[1715] = "¸ÃÇøÓò³äÂúÁËÎ´ÖªĞÔ£¬ÈÎºÎÇé¿ö¶¼¿ÉÄÜ·¢Éú"
---µØÍ¼18 µÛ¹úÅ©³¡Èº
-Locale_Text[3000] = "µÛ¹úÌ«¿ÕÅ©³¡Èº"
-Locale_Text[3005] = "ÎªÌ«¿ÕÖ³ÃñµØÌá¹©Á¸Ê³²¹¸øµÄÅ©³¡Èº"
-Locale_Text[3010] = "ÌØ²ú£ºÅ©³¡Æ·"
-Locale_Text[3015] = "Ã¿Ìì¶¼ÓĞ´óÁ¿µÄÌ«¿ÕÅ©³¡Æ·´ÓÕâÀïÉú²ú³öÀ´£¬ÎªµÛ¹ú½¢¶ÓºÍµÛ¹ú¾ÓÃñÌá¹©²¹¸ø"
---µØÍ¼19 µÛ¹úÇ°Ïß
-Locale_Text[3200] = "µÛ¹úÇ°Ïß½¢¶Ó¼¯½áµØ"
-Locale_Text[3205] = "·ÆÑÅÀûµÛ¹ú½¢¶ÓµÄÕ½ÕùÇ°ÉÚ"
-Locale_Text[3210] = "ÌØ²ú£ºÎäÆ÷Åä¼ş"
-Locale_Text[3215] = "Ã¿Ìì¶¼ÓĞ´óÁ¿µÄµÛ¹ú½¢¶Ó´ÓÕâÀï³ö·¢Ç°ÍùÒøºÓÏµÉî´¦Í¬Î¬¸ñ¶ûÈËÕ½¶·"
---µØÍ¼20 º£µÁ»ùµØ
-Locale_Text[3600] = "Î¬¸ñ¶ûº£µÁá÷ÁÔ³¡"
-Locale_Text[3605] = "Î¬¸ñ¶ûÈËº£µÁµÄ»î¶¯Æµ·±ÇøÓò"
-Locale_Text[3610] = "ÌØ²ú£ºÎäÆ÷Åä¼ş"
-Locale_Text[3615] = "ÕâÀïÊÇÎŞÈË¹ÜÏ½µÄ»ìÂÒÖ®µØ£¬Î¬¸ñ¶ûº£µÁÔÚÕâÀï¹¥»÷ËùÓĞ¿ÉÒÔ¹¥»÷µÄÄ¿±ê£¬°üÀ¨Î¬¸ñ¶ûÈËºÍËüÃÇ×Ô¼º"
---µØÍ¼21 ³æ×å¸¹µØ
-Locale_Text[3400] = "ÑÇ»ùÄÉ´Ä³æ×å³²Èº"
-Locale_Text[3405] = "ÑÇ»ùÄÉ´Ä³æ×åÔÚÒøºÓÏµÖĞ»î¶¯µÄºËĞÄ»ùµØ"
-Locale_Text[3410] = "°²È«µÈ¼¶£ºÎ£ÏÕ"
-Locale_Text[3415] = "´óÁ¿µÄ³æÈº½¢¶ÓÔÚÕâÀï»î¶¯£¬ÕâÀïÊÇ·Ç³£Î£ÏÕµÄÇøÓò£¬ÈÎºÎ½¢¶Ó¶¼¿ÉÄÜÓĞÀ´ÎŞ»Ø¡£"
---µØÍ¼22 Í¼À­Äáº£µÁ»î¶¯Çø
-Locale_Text[8000] = "Í¼À­Äáº£µÁ»î¶¯Çø"
-Locale_Text[8005] = "Í¼À­Äáº£µÁÆµ·±»î¶¯µÄÇøÓò"
-Locale_Text[8010] = "°²È«µÈ¼¶£ºÎ£ÏÕ"
-Locale_Text[8015] = "ÓĞ´óÁ¿µÄÍ¼À­Äáº£µÁÔÚ¸ÃÇøÓò»î¶¯£¬¹ıÍùÉÌ´¬ËæÊ±¿ÉÄÜÔâÓöÏ®»÷¡£"
---µØÍ¼23 ¿¨µÂÊ²´ó½ÌÌÃ
-Locale_Text[8100] = "¿¨µÂÊ²´ó½ÌÌÃ"
-Locale_Text[8105] = "¿¨µÂÊ²ÈËµÄÊ¥µØ£¬ÓĞ¿ÉÄÜÔâÓö¿¨µÂÊ²Ä¸½¢µÄÏ®»÷"
-Locale_Text[8110] = "°²È«µÈ¼¶£ºÎ£ÏÕ"
-Locale_Text[8115] = "ÎŞÂÛÁª¾ü½¢¶ÓÈçºÎÇå½Ë£¬¸ÃÇøÓòµÄ¿¨µÂÊ²Ä¸½¢ÊıÁ¿Ò»Ö±¶¼Ã»ÓĞ¼õÉÙ¡£"
---µØÍ¼24 ¿¨À­¿Ë
-Locale_Text[8200] = "¿¨À­¿ËĞĞĞÇ"
-Locale_Text[8205] = "¹éÏçÕßµÄÉñÊ¥¼ÒÔ°"
-Locale_Text[8210] = "°²È«µÈ¼¶£º°²È«"
-Locale_Text[8215] = "ÖØĞÂ»Øµ½¹ÊÏçµÄ¿âÉê×åÈËµÄÉñÊ¥¼ÒÔ°¡£"
---µØÍ¼25 Ì©ÍßÂ×¹²ºÍ¹ú
-Locale_Text[8300] = "Ì©ÍßÂ×¹²ºÍ¹ú±ß¾³"
-Locale_Text[8305] = "Ò»¸öĞÂĞÍµÄÌ©Ì¹ÈË¹ú¼Ò"
-Locale_Text[8310] = "°²È«µÈ¼¶£º°²È«"
-Locale_Text[8315] = "Ì©Ì¹ÈËÕıÔÚÕâÀïÖØĞÂ½¨Á¢ÊôÓÚ×Ô¼ºµÄÊÆÁ¦¡£"
---µØÍ¼26 ·ÆÑÅÀûµÛ¹ú´¬Îë
-Locale_Text[8310] = "·ÆÑÅÀûµÛ¹ú´¬ÎëÈº"
-Locale_Text[8315] = "µÛ¹úÔÚÒøºÓÏµµÄÇ°Ïß´¬ÎëÈº"
---µØÍ¼27 ³¯Ê¥Õß»î¶¯Çø
-Locale_Text[8320] = "³¯Ê¥Õß»î¶¯Çø"
-Locale_Text[8325] = "µÛ¹ú»®²¦¸ø³¯Ê¥Õß½¢¶ÓµÄ»î¶¯Çø"
---µØÍ¼28 Î¬¸ñ¶û¶«Ïß¾ü·§»î¶¯Çø
-Locale_Text[8330] = "Î¬¸ñ¶û¶«Ïß¾ü·§»î¶¯Çø"
-Locale_Text[8335] = "Ïà¶ÔÖĞÁ¢µÄÎ¬¸ñ¶û¾ü·§»î¶¯Çø"
---µØÍ¼29 Î¬¸ñ¶û¶«Ïß¾ü·§¿ØÖÆÇø
-Locale_Text[8340] = "Î¬¸ñ¶û¶«Ïß¾ü·§¿ØÖÆÇø"
-Locale_Text[8345] = "Ïà¶ÔÖĞÁ¢µÄÎ¬¸ñ¶û¾ü·§¿ØÖÆÇø"
---µØÍ¼30 EDF¿ØÖÆÇø
-Locale_Text[8350] = "EDF¿ØÖÆÇø"
-Locale_Text[8355] = "ºÍ·ÆÑÅÀûµÛ¹úÓµÓĞÃ³Ò×ÃËÔ¼µÄEDF½¨ÉèµÄ¿ØÖÆÇø"
---µØÍ¼31 ÒÏ³²½¢¶Ó»î¶¯Çø
-Locale_Text[8360] = "ÒÏ³²½¢¶Ó»î¶¯Çø"
-Locale_Text[8365] = "·ÆÑÅÀûµÛ¹ú×¨ÃÅÕë¶Ô³æ×å×÷Õ½µÄÒÏ³²½¢¶ÓµÄÇ°ÉÚÕ¾"
---µØÍ¼32 Äª¶ûµÏ»ù°²´ó¾ı
-Locale_Text[8370] = "Äª¶ûµÏ»ù°²´ó¾ı±ß¾³"
-Locale_Text[8375] = "Äª¶ûµÏ»ù°²´ó¾ıµÄ¾üÊÂÇ°ÉÚ"
---µØÍ¼33 ¿¨¶òË¹ÁªÃË¡ªÇ°Ïß
-Locale_Text[8380] = "¿¨¶òË¹ÁªÃË¡ªÇ°ÏßÉÚÕ¾"
-Locale_Text[8385] = "¿¨¶òË¹ÁªÃËÎ»ÓÚM51ÒøºÓÏµµÄÇ°ÏßÒªÈû"
---µØÍ¼34 ¿¨¶òË¹ÁªÃË¡ªÀû±´¶û¹²ºÍ¹ú
-Locale_Text[8390] = "¿¨¶òË¹ÁªÃË¡ªÀû±´¶û¹²ºÍ¹ú"
-Locale_Text[8395] = "ÓÉÆğÒåµÄÅ«Á¥Ëù×é³ÉµÄ×ÔÓÉ¹²ºÍ¹ú£¬ÊÇĞÂ¼ÓÃË¿¨¶òË¹ÁªÃËµÄÒ»¸öÊÆÁ¦"
---µØÍ¼35 ¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØ
-Locale_Text[8400] = "¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØ"
-Locale_Text[8405] = "Îª¿¨¶òË¹ÁªÃËµÄÖ÷Á¦½¢¶ÓÌá¹©±ØĞèµÄÎï×Ê¹©Ó¦ºÍ¸÷ÖÖºóÇÚÖ§³Ö"
---µØÍ¼36 ×·ÒäÖ®Í¥
-Locale_Text[8410] = "×·ÒäÖ®Í¥ÖØ¹¤×Ü²¿´¬Îë"
-Locale_Text[8415] = "ÌØÊâÊÆÁ¦×·ÒäÖ®Í¥µÄ´óĞÍÔì´¬³§"
---µØÍ¼37 ¿¨¶òË¹ÁªÃË»ìãçÉÌÈË
-Locale_Text[8420] = "¿¨¶òË¹ÁªÃË»ìãçÉÌÈË"
+Locale_Text[1300] = "Batalian warship graveyard"
+Locale_Text[1305] = "a place controlled by an independent Vaygr rebel army"
+Locale_Text[1310] = "Speciality: none"
+Locale_Text[1315] = "A Viken. The Vaygr Warlord of the End controls this place, and he takes a neutral stance towards the Hiigara and Fai'ri"
+-- Map 14 Devils 01
+Locale_Text[1400] = "Niflheim"
+Locale_Text[1405] = "Alos Empire outpost in galaxy M51"
+Locale_Text[1410] = "Speciality: high-tech products, nano-products"
+Locale_Text[1415] = "The Alos have a neutral attitude towards the races of the galaxy, but this place is often attacked by some sub-ki insects"
+--Map 15 Magic 02
+Locale_Text[1500] = "Helheim"
+Locale_Text[1505] = "An area frequented by the Yaki insects"
+Locale_Text[1510] = "Speciality: tentacles"
+Locale_Text[1515] = "Mutant swarms are wreaking havoc here, and the Alos Empire has set up an outpost in charge of eliminating them"
+-- Map 16 Ancestral Ruins
+Locale_Text[1600] = "Ancestral ruins"
+Locale_Text[1605] = "A cluster of relics filled with various ancestral relics"
+Locale_Text[1610] = "Security level: medium"
+Locale_Text[1615] = "Ancestral technology mastered in Sajuk the Hiigara controls this place"
+-- Map 17 Location star area
+Locale_Text[1700] = "Independent star area"
+Locale_Text[1705] = "Independent star zones that allow players to develop freely"
+Locale_Text[1710] = "Security level: unknown"
+Locale_Text[1715] = "The area is full of unknowns and any situation can happen"
+-- Map 18 Imperial Farm Cluster
+Locale_Text[3000] = "Imperial farm complex"
+Locale_Text[3005] = "A farm complex that provides food supplies to the space colonies"
+Locale_Text[3010] = "Speciality: farm products"
+Locale_Text[3015] = "Large quantities of space farm goods are produced from here every day to supply the Imperial fleet and the Imperial population"
+--Map 19 Imperial Frontier
+Locale_Text[3200] = "Imperial Front Fleet Staging Area"
+Locale_Text[3205] = "War outpost of the Fai'ri Imperial Fleet"
+Locale_Text[3210] = "Speciality: weapon accessories"
+Locale_Text[3215] = "Every day a large number of Imperial fleets depart from here to fight the Vaygrs deep in the galaxy"
+--Map 20 Pirate base
+Locale_Text[3600] = "Vaygr pirates hunting grounds"
+Locale_Text[3605] = "Area of high Vaygr pirates activity"
+Locale_Text[3610] = "Speciality: weapon accessories"
+Locale_Text[3615] = "This is a place of ungoverned chaos, where Vaygr pirates attack all targets they can, including Vaygrians themselves"
+--Map 21 Vaygr Hinterland
+Locale_Text[3400] = "Yakinac insect nesting colony"
+Locale_Text[3405] = "The core base of the Yakinac insectoid race operating in the galaxy"
+Locale_Text[3410] = "Security level: dangerous"
+Locale_Text[3415] = "A large number of swarm fleets operate here, this is a very dangerous area and any fleet may come and go without return."
+-- Map 22 Tulani pirate activity area
+Locale_Text[8000] = "Turani activity area"
+Locale_Text[8005] = "Area of frequent pirates activity in Tulani"
+Locale_Text[8010] = "Security level: dangerous"
+Locale_Text[8015] = "There are a large number of Turani pirates operating in this area, passing merchant ships may be attacked at any time."
+-- Map 23 Kadesh Cathedral
+Locale_Text[8100] = "Garden of Kadesh"
+Locale_Text[8105] = "Holy place of the Kadesh people, risk of attack by Kadesh mothership"
+Locale_Text[8110] = "Security level: dangerous"
+Locale_Text[8115] = "The number of Kardesh motherships in the area has not been decreasing, regardless of the clearing of the Coalition fleet."
+-- Map 24 Kharak
+Locale_Text[8200] = "Planet Kharak"
+Locale_Text[8205] = "The sacred home of the homeward bound"
+Locale_Text[8210] = "Security level: safe"
+Locale_Text[8215] = "The sacred home of the Kushan who have returned to their homeland."
+--Map 25 Republic of  Taidan
+Locale_Text[8300] = "The border of the Taidan Republic"
+Locale_Text[8305] = "A new type of Taidan nation"
+Locale_Text[8310] = "Security level: safe"
+Locale_Text[8315] = "The Titans are re-establishing their own power here."
+-- Map 26 Fai'riEmpire Dockyard
+Locale_Text[8310] = "Imperial Shipyard"
+Locale_Text[8315] = "The Empire's frontline dock complex in the galaxy."
+-- Map 27 Pilgrim Activity Area
+Locale_Text[8320] = "Pilgrim activity area"
+Locale_Text[8325] = "Activity area allocated to the Pilgrim fleet by the Empire"
+--Map 28 Vaygr's Eastern Front warlord activity zone
+Locale_Text[8330] = "Eastern Front I"
+Locale_Text[8335] = "Relatively neutral Vaygr warlord activity zone"
+-- Map 29 Vaygr Eastern Front Warlord Control Zone
+Locale_Text[8340] = "Eastern Front II"
+Locale_Text[8345] = "Relatively neutral Vaygr warlord controlled area"
+-- Map 30 EDF control area
+Locale_Text[8350] = "EDF control Area"
+Locale_Text[8355] = "EDF-constructed control area with a trade pact with the Fai'ri Empire"
+--Map 31 Ant nest fleet activity area
+Locale_Text[8360] = "Bugs nest fleet activity area"
+Locale_Text[8365] = "An outpost of the Fai'ri Empire's Bugs Nest Fleet dedicated to fighting against the Insects"
+-- Map 32 Mordiggian Maharaja
+Locale_Text[8370] = "Mordiggian Maharaja's border"
+Locale_Text[8375] = "Mordiggian Maharaja's military outposts"
+-- Map 33 Kaas Union - Frontline
+Locale_Text[8380] = "Caius Alliance - Border Outposts"
+Locale_Text[8385] = "Caius Alliance frontline fortress in galaxy M51"
+--Map 34 Caius Union - Libel Republic
+Locale_Text[8390] = "Caius Alliance - Libel Republic"
+Locale_Text[8395] = "A free republic formed by revolting slaves, a new power to join the Caius Aliance"
+-- Map 35 Caius Union - United Berth
+Locale_Text[8400] = "Caius Alliance - Space City"
+Locale_Text[8405] = "Provides essential supplies and various logistical support for the main fleet of the Caius Alliance"
+--Map 36 Court of Memories
+Locale_Text[8410] = "The headquarters shipyard of the Court of Memories Heavy Industries"
+Locale_Text[8415] = "The large shipyard of the special power Court of Memories"
+-- Map 37 Chaos merchants of the Alliance of Caius
+Locale_Text[8420] = "Chaos merchants of the Caius Aliance"
 Locale_Text[8425] = ""
---µØÍ¼38 µÚ58ÌØ»ì½¢¶Ó¼¯½áµØ
-Locale_Text[8430] = "µÚ58ÌØ»ì½¢¶Ó¼¯½áµØ"
-Locale_Text[8435] = "ÁªÃËĞÇÃÅËùÔÚµØ£¬¸ºÔğm101Ïòm51ÒøºÓÍ¶ËÍ°²È«"
---µØÍ¼39 ¿¨¶òË¹ÓÀÉúÕßÌ½Ë÷Ö®³õ
-Locale_Text[8440] = "¿¨¶òË¹ÓÀÉúÕßÌ½Ë÷Ö®³õ"
-Locale_Text[8445] = "ÓÀÉúÕßÌ½Ë÷¾İµã£¬Ç°ÏßÓªµØ"
---µØÍ¼40 Ë÷ÍĞÑÇµØÍ¼
-Locale_Text[8450] = "°¢ÒòÌØË¹½¢¶Ó¶¨Ãªµã"
-Locale_Text[8455] = "°¢ÒòÌØË¹½¢¶ÓÔÚM51ÒøºÓÏµµÄ¶¨Ãªµã£¬´Ó´Ë´¦¿ÉÒÔÖ±½ÓÖ§Ô®Í¨ÏòµÂÎÖ¶÷µÄÃØÃÜĞÇÃÅËùÔÚµÄĞÇÓò¡£"
---µØÍ¼41 ĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹
-Locale_Text[8460] = "ĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹"
-Locale_Text[8465] = "ÁãºÅ½¢¶ÓÔÚM51ÒøºÓÏµµÄºóÇÚºÍ²¹¸øÊàÅ¦"
---µØÍ¼42 ¿¨¶òË¹ÁªÃË¡ªÊ³ÓÃÓÍ¶¯Á¦´¬Îë
-Locale_Text[8470] = "¿¨¶òË¹ÁªÃË¡ªÊ³ÓÃÓÍ¶¯Á¦´¬Îë"
-Locale_Text[8475] = "Ê³ÓÃÓÍ¶¯Á¦´¬ÎëÓÚM51ĞÇÏµµÄ´¬ÎëÈºËùÔÚµØ"
---µØÍ¼43 Ö³ÃñµØ±ß¾³µØÇø
-Locale_Text[8480] = "Ö³ÃñµØ±ß¾³ĞÇÇø"
-Locale_Text[8485] = "Ö³ÃñµØ±ß¾³µÄ»ÄÎßĞÇÇø"
---µØÍ¼44 °¢ÍßËşĞ­»áÌ½Ë÷½¢¶Ó×¤µØ
-Locale_Text[8490] = "°¢ÍßËşĞ­»áÌ½Ë÷½¢¶Ó×¤µØ"
-Locale_Text[8495] = "°¢ÍßËşĞ­»áÌ½Ë÷½¢¶Ó×¤µØÊÇĞ­»áµÄºËĞÄĞĞ¶¯»ùµØÖ®Ò»£¬³ĞÔØ×ÅÈËÃÇ¶ÔÎ´ÖªµÄÌ½Ë÷Óë×·Çó"
---µØÍ¼45 ÍßÄÉº£Ä·
-Locale_Text[8500] = "ÍßÄÉº£Ä·"
-Locale_Text[8505] = "ÂåÉñºÅÕ½½¢×îºóµÄÃÎ¼Æ»®ÒÅÖ·µØ"
---µØÍ¼46 ÅµÑÇ¿âÉêÁªºÏ¹¤ÒµÔ°
-Locale_Text[8510] = "ÅµÑÇ¿âÉêÁªºÏ¹¤ÒµÔ°"
-Locale_Text[8515] = "ÅµÑÇ²ÆÍÅÓë¿âÉêºÏ×÷½¨Á¢µÄ¹¤ÒµÔ°Çø£¬³ö²ú¸÷ÀàÕ½½¢Óë¹¤ÒµÉè±¸£¬Î»ÓÚ¿âÉê±ß½®¿óÇø"
---µØÍ¼47 ¿ª·¢´úºÅ°¢Ë¹Áá
-Locale_Text[8520] = "¿ª·¢´úºÅ°¢Ë¹Áá"
-Locale_Text[8525] = "²¨ÌúÑÇ×åÌ½Ë÷Õß·¢ÏÖµÄĞÇÇòºÍÒÅ¼£Èº£¬ĞÇÇò±íÃæ»·¾³Ê®·ÖÓÅÃÀÊæÊÊ£¬ÒÑ±¨±¸²¢È¡µÃ¿ª·¢È¨"
---µØÍ¼48 ²ÔĞÇÕ½ÍÅÑ²º½×ø±ê
-Locale_Text[8530] = "²ÔĞÇÕ½ÍÅÑ²º½×ø±ê"
-Locale_Text[8535] = "M51Éî¿ÕÖĞµÄÄ³¸ö×ø±ê£¬ÊÜÑûÕß¿ÉÆ¾´ËÔ¾Ç¨ÖÁ³¿·æºÅÕ½¶·ÈºµÄ¹ÜÖÆÇøÓòÄÚ"
---µØÍ¼49 °µÇø
-Locale_Text[8540] = "°µÇø"
-Locale_Text[8545] = "Á¥Êôº£À­Ã×¶û¼¯ÍÅµÄº£Íâ·ÉµØ£¬¹ÍÓ¶±øÃÇµÄÌìÌÃ£¬µ«¾Ã¾ÓÔÚ´ËÒ²Òª¸¶³ö´ú¼Û"
---µØÍ¼50 ÉùÍûµØÍ¼
-Locale_Text[8550] = "CPSRÓÎ»ê½¢¶Ó×¤µØ"
-Locale_Text[8555] = "CPSRÓÎ»ê½¢¶Ó¼°Æäm51ºÓÏµÑĞ¾¿¿Æ¿¼¿Õ¼äÕ¾µÄ×¤µØ"
+--Map 38 58th Task Force Staging Area
+Locale_Text[8430] = "58th Task Force Staging Area"
+Locale_Text[8435] = "Location of the Alliance stargate, responsible for m101 to m51 galactic drop security"
+--Map 39 Beginning of the exploration of the Caius Aeon
+Locale_Text[8440] = "The beginning of the Caius Aeon Quest"
+Locale_Text[8445] = "Aeon Quest stronghold, frontline camp"
+-- Map 40 Map of Sotoa
+Locale_Text[8450] = "Anchor point of the fleet of Ayntes"
+Locale_Text[8455] = "The anchor point of the Ayntes fleet in galaxy M51, from where it can directly support the stellar field where the secret stargate to Dvorn is located."
+-- Map 41 Jumpgate Metropolis Glipus
+Locale_Text[8460] = "Jumpgate Metropolis Glipus"
+Locale_Text[8465] = "Fleet Zero's logistics and supply hub in galaxy M51."
+--åœ°å›¾42 å¡å„æ–¯è”ç›Ÿâ€”é£Ÿç”¨æ²¹åŠ¨åŠ›èˆ¹å
+Locale_Text[8470] = "å¡å„æ–¯è”ç›Ÿâ€”é£Ÿç”¨æ²¹åŠ¨åŠ›èˆ¹å"
+Locale_Text[8475] = "é£Ÿç”¨æ²¹åŠ¨åŠ›èˆ¹åäºM51æ˜Ÿç³»çš„èˆ¹åç¾¤æ‰€åœ¨åœ°"
+--åœ°å›¾43 æ®–æ°‘åœ°è¾¹å¢ƒåœ°åŒº
+Locale_Text[8480] = "æ®–æ°‘åœ°è¾¹å¢ƒæ˜ŸåŒº"
+Locale_Text[8485] = "æ®–æ°‘åœ°è¾¹å¢ƒçš„è’èŠœæ˜ŸåŒº"
+--åœ°å›¾44 é˜¿ç“¦å¡”åä¼šæ¢ç´¢èˆ°é˜Ÿé©»åœ°
+Locale_Text[8490] = "é˜¿ç“¦å¡”åä¼šæ¢ç´¢èˆ°é˜Ÿé©»åœ°"
+Locale_Text[8495] = "é˜¿ç“¦å¡”åä¼šæ¢ç´¢èˆ°é˜Ÿé©»åœ°æ˜¯åä¼šçš„æ ¸å¿ƒè¡ŒåŠ¨åŸºåœ°ä¹‹ä¸€ï¼Œæ‰¿è½½ç€äººä»¬å¯¹æœªçŸ¥çš„æ¢ç´¢ä¸è¿½æ±‚"
+--åœ°å›¾45 ç“¦çº³æµ·å§†
+Locale_Text[8500] = "ç“¦çº³æµ·å§†"
+Locale_Text[8505] = "æ´›ç¥å·æˆ˜èˆ°æœ€åçš„æ¢¦è®¡åˆ’é—å€åœ°"
+--åœ°å›¾46 è¯ºäºšåº“ç”³è”åˆå·¥ä¸šå›­
+Locale_Text[8510] = "è¯ºäºšåº“ç”³è”åˆå·¥ä¸šå›­"
+Locale_Text[8515] = "è¯ºäºšè´¢å›¢ä¸åº“ç”³åˆä½œå»ºç«‹çš„å·¥ä¸šå›­åŒºï¼Œå‡ºäº§å„ç±»æˆ˜èˆ°ä¸å·¥ä¸šè®¾å¤‡ï¼Œä½äºåº“ç”³è¾¹ç–†çŸ¿åŒº"
+--åœ°å›¾47 å¼€å‘ä»£å·é˜¿æ–¯ç²
+Locale_Text[8520] = "å¼€å‘ä»£å·é˜¿æ–¯ç²"
+Locale_Text[8525] = "æ³¢é“äºšæ—æ¢ç´¢è€…å‘ç°çš„æ˜Ÿçƒå’Œé—è¿¹ç¾¤ï¼Œæ˜Ÿçƒè¡¨é¢ç¯å¢ƒååˆ†ä¼˜ç¾èˆ’é€‚ï¼Œå·²æŠ¥å¤‡å¹¶å–å¾—å¼€å‘æƒ"
+--åœ°å›¾48 è‹æ˜Ÿæˆ˜å›¢å·¡èˆªåæ ‡
+Locale_Text[8530] = "è‹æ˜Ÿæˆ˜å›¢å·¡èˆªåæ ‡"
+Locale_Text[8535] = "M51æ·±ç©ºä¸­çš„æŸä¸ªåæ ‡ï¼Œå—é‚€è€…å¯å‡­æ­¤è·ƒè¿è‡³æ™¨é”‹å·æˆ˜æ–—ç¾¤çš„ç®¡åˆ¶åŒºåŸŸå†…"
+--åœ°å›¾49 æš—åŒº
+Locale_Text[8540] = "æš—åŒº"
+Locale_Text[8545] = "éš¶å±æµ·æ‹‰ç±³å°”é›†å›¢çš„æµ·å¤–é£åœ°ï¼Œé›‡ä½£å…µä»¬çš„å¤©å ‚ï¼Œä½†ä¹…å±…åœ¨æ­¤ä¹Ÿè¦ä»˜å‡ºä»£ä»·"
+--åœ°å›¾50 å£°æœ›åœ°å›¾
+Locale_Text[8550] = "CPSRæ¸¸é­‚èˆ°é˜Ÿé©»åœ°"
+Locale_Text[8555] = "CPSRæ¸¸é­‚èˆ°é˜ŸåŠå…¶m51æ²³ç³»ç ”ç©¶ç§‘è€ƒç©ºé—´ç«™çš„é©»åœ°"
 
 Locale_TextMAPOUT = {}
---µØÍ¼01ÍâÎ§ µÛ¹úÖ®ÃÅÍâÎ§
-Locale_TextMAPOUT[8500] = "µÛ¹úÖ®ÃÅÍâÎ§ĞÇÇø"
---µØÍ¼02ÍâÎ§ µÛ¹úÖ³ÃñÇøÍâÎ§ĞÇÇø
-Locale_TextMAPOUT[8501] = "µÛ¹úÖ³ÃñÇøÍâÎ§ĞÇÇø"
---µØÍ¼03ÍâÎ§ µÛ¹ú²É¿óµãÍâÎ§ĞÇÇø
-Locale_TextMAPOUT[8502] = "µÛ¹ú²É¿óµãÍâÎ§ĞÇÇø"
---µØÍ¼04ÍâÎ§ Ì¹ÄáË¹ÍâÎ§ĞÇÇø
-Locale_TextMAPOUT[8503] = "Ì¹ÄáË¹ÍâÎ§ĞÇÇø"
---µØÍ¼05ÍâÎ§ ÈûÀÕÄ·ÍâÎ§ĞÇÇø
-Locale_TextMAPOUT[8504] = "ÈûÀÕÄ·ÍâÎ§ĞÇÇø"
---µØÍ¼06ÍâÎ§ Ï£¸ñÀ­Ê×ĞÇÍâÎ§ĞÇÇø
-Locale_TextMAPOUT[8505] = "Ï£¸ñÀ­Ê×ĞÇÍâÎ§ĞÇÇø"
---µØÍ¼07ÍâÎ§ ÌìÊ¹Ö®ÔÂÍâÎ§ĞÇÇø
-Locale_TextMAPOUT[8506] = "ÌìÊ¹Ö®ÔÂÍâÎ§ĞÇÇø"
---µØÍ¼08ÍâÎ§ µÚ142ºÅÇ°ÉÚ»ùµØÍâÎ§ĞÇÇø
-Locale_TextMAPOUT[8507] = "µÚ142ºÅÇ°ÉÚ»ùµØÍâÎ§ĞÇÇø"
+--åœ°å›¾01å¤–å›´ å¸å›½ä¹‹é—¨å¤–å›´
+Locale_TextMAPOUT[8500] = "å¸å›½ä¹‹é—¨å¤–å›´æ˜ŸåŒº"
+--åœ°å›¾02å¤–å›´ å¸å›½æ®–æ°‘åŒºå¤–å›´æ˜ŸåŒº
+Locale_TextMAPOUT[8501] = "å¸å›½æ®–æ°‘åŒºå¤–å›´æ˜ŸåŒº"
+--åœ°å›¾03å¤–å›´ å¸å›½é‡‡çŸ¿ç‚¹å¤–å›´æ˜ŸåŒº
+Locale_TextMAPOUT[8502] = "å¸å›½é‡‡çŸ¿ç‚¹å¤–å›´æ˜ŸåŒº"
+--åœ°å›¾04å¤–å›´ å¦å°¼æ–¯å¤–å›´æ˜ŸåŒº
+Locale_TextMAPOUT[8503] = "å¦å°¼æ–¯å¤–å›´æ˜ŸåŒº"
+--åœ°å›¾05å¤–å›´ å¡å‹’å§†å¤–å›´æ˜ŸåŒº
+Locale_TextMAPOUT[8504] = "å¡å‹’å§†å¤–å›´æ˜ŸåŒº"
+--åœ°å›¾06å¤–å›´ å¸Œæ ¼æ‹‰é¦–æ˜Ÿå¤–å›´æ˜ŸåŒº
+Locale_TextMAPOUT[8505] = "å¸Œæ ¼æ‹‰é¦–æ˜Ÿå¤–å›´æ˜ŸåŒº"
+--åœ°å›¾07å¤–å›´ å¤©ä½¿ä¹‹æœˆå¤–å›´æ˜ŸåŒº
+Locale_TextMAPOUT[8506] = "å¤©ä½¿ä¹‹æœˆå¤–å›´æ˜ŸåŒº"
+--åœ°å›¾08å¤–å›´ ç¬¬142å·å‰å“¨åŸºåœ°å¤–å›´æ˜ŸåŒº
+Locale_TextMAPOUT[8507] = "ç¬¬142å·å‰å“¨åŸºåœ°å¤–å›´æ˜ŸåŒº"
 
---µØÍ¼14ÍâÎ§ Äá¸£¶ûº£Ä·
-Locale_TextMAPOUT[8508] = "Äá¸£¶ûº£Ä·ÍâÎ§ĞÇÇø"
---µØÍ¼15ÍâÎ§ ºÕ¶ûº£ÀûÄ·
-Locale_TextMAPOUT[8509] = "ºÕ¶ûº£ÀûÄ·ÍâÎ§ĞÇÇø"
---µØÍ¼16ÍâÎ§ ÏÈ×æÒÅ¼£
-Locale_TextMAPOUT[8533] = "ÏÈ×æÒÅ¼£ÍâÎ§ĞÇÇø"
---µØÍ¼18ÍâÎ§ µÛ¹úÌ«¿ÕÅ©³¡Èº
-Locale_TextMAPOUT[8510] = "µÛ¹úÌ«¿ÕÅ©³¡ÈºÍâÎ§ĞÇÇø"
---µØÍ¼19ÍâÎ§ µÛ¹úÇ°Ïß½¢¶Ó¼¯½áµØ
-Locale_TextMAPOUT[8511] = "µÛ¹úÇ°Ïß½¢¶Ó¼¯½áµØÍâÎ§ĞÇÇø"
---µØÍ¼25ÍâÎ§ ¿¨À­¿ËĞĞĞÇ
-Locale_TextMAPOUT[8526] = "¿¨À­¿ËĞĞĞÇÍâÎ§ĞÇÇø"
---µØÍ¼26ÍâÎ§ ·ÆÑÅÀûµÛ¹ú´¬ÎëÈº
-Locale_TextMAPOUT[8512] = "·ÆÑÅÀûµÛ¹ú´¬ÎëÈºÍâÎ§ĞÇÇø"
---µØÍ¼28ÍâÎ§ Î¬¸ñ¶û¶«Ïß¾ü·§»î¶¯Çø
-Locale_TextMAPOUT[8513] = "Î¬¸ñ¶û¶«Ïß¾ü·§»î¶¯ÇøÍâÎ§ĞÇÇø"
---µØÍ¼29ÍâÎ§ Î¬¸ñ¶û¶«Ïß¾ü·§¿ØÖÆÇø
-Locale_TextMAPOUT[8514] = "Î¬¸ñ¶û¶«Ïß¾ü·§¿ØÖÆÇøÍâÎ§ĞÇÇø"
---µØÍ¼31ÍâÎ§ ÒÏ³²½¢¶Ó»î¶¯Çø
-Locale_TextMAPOUT[8515] = "ÒÏ³²½¢¶Ó»î¶¯ÇøÍâÎ§ĞÇÇø"
---µØÍ¼33ÍâÎ§ ¿¨¶òË¹ÁªÃË¡ªÇ°ÏßÉÚÕ¾
-Locale_TextMAPOUT[8516] = "¿¨¶òË¹ÁªÃË¡ªÇ°ÏßÉÚÕ¾ÍâÎ§ĞÇÇø"
---µØÍ¼34ÍâÎ§ ¿¨¶òË¹ÁªÃË¡ªÀû±´¶û¹²ºÍ¹ú
-Locale_TextMAPOUT[8517] = "¿¨¶òË¹ÁªÃË¡ªÀû±´¶û¹²ºÍ¹úÍâÎ§ĞÇÇø"
---µØÍ¼35ÍâÎ§ ¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØ
-Locale_TextMAPOUT[8518] = "¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØÍâÎ§ĞÇÇø"
---µØÍ¼36ÍâÎ§ ×·ÒäÖ®Í¥ÖØ¹¤×Ü²¿´¬Îë
-Locale_TextMAPOUT[8519] = "×·ÒäÖ®Í¥ÖØ¹¤×Ü²¿´¬ÎëÍâÎ§ĞÇÇø"
---µØÍ¼37ÍâÎ§ ¿¨¶òË¹ÁªÃË»ìãçÉÌÈË
-Locale_TextMAPOUT[8520] = "¿¨¶òË¹ÁªÃË»ìãçÉÌÈËÍâÎ§ĞÇÇø"
---µØÍ¼38ÍâÎ§ µÚ58ÌØ»ì½¢¶Ó¼¯½áµØ
-Locale_TextMAPOUT[8521] = "µÚ58ÌØ»ì½¢¶Ó¼¯½áµØÍâÎ§ĞÇÇø"
---µØÍ¼39ÍâÎ§ ¿¨¶òË¹ÓÀÉúÕßÌ½Ë÷Ö®³õ
-Locale_TextMAPOUT[8522] = "¿¨¶òË¹ÓÀÉúÕßÌ½Ë÷Ö®³õÍâÎ§ĞÇÇø"
---µØÍ¼40ÍâÎ§ °¢ÒòÌØË¹½¢¶Ó¶¨Ãªµã
-Locale_TextMAPOUT[8523] = "°¢ÒòÌØË¹½¢¶Ó¶¨ÃªµãÍâÎ§ĞÇÇø"
---µØÍ¼41ÍâÎ§ ĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹
-Locale_TextMAPOUT[8524] = "ĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹ÍâÎ§ĞÇÇø"
-Locale_TextMAPOUT[8525] = "¿¨¶òË¹ÁªÃË¡ªÊ³ÓÃÓÍ¶¯Á¦´¬ÎëÍâÎ§ĞÇÇø"
---µØÍ¼44ÍâÎ§ ĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹
-Locale_TextMAPOUT[8526] = "°¢ÍßËşĞ­»áÌ½Ë÷½¢¶Ó×¤µØÍâÎ§ĞÇÇø"
-Locale_TextMAPOUT[8527] = "ÍßÄÉº£Ä·ÍâÎ§ĞÇÇø"
-Locale_TextMAPOUT[8528] = "ÅµÑÇ¿âÉêÁªºÏ¹¤ÒµÔ°ÍâÎ§ĞÇÇø"
-Locale_TextMAPOUT[8529] = "¿ª·¢´úºÅ¡¤°¢Ë¹ÁáÍâÎ§ĞÇÇø"
-Locale_TextMAPOUT[8530] = "²ÔĞÇÕ½ÍÅÑ²º½×ø±êÍâÎ§ĞÇÇø"
-Locale_TextMAPOUT[8531] = "°µÇøÍâÎ§ĞÇÇø"
-Locale_TextMAPOUT[8532] = "CPSRÓÎ»ê½¢¶Ó×¤µØÍâÎ§ĞÇÇø"
---µØÍ¼13ÍâÎ§ °ÍËşÀû°²Õ½½¢·Ø³¡
-Locale_TextMAPOUT[8533] = "°ÍËşÀû°²Õ½½¢·Ø³¡ÍâÎ§ĞÇÇø"
---µØÍ¼20ÍâÎ§ Î¬¸ñ¶ûº£µÁá÷ÁÔ³¡
-Locale_TextMAPOUT[8534] = "Î¬¸ñ¶ûº£µÁá÷ÁÔ³¡ÍâÎ§ĞÇÇø"
---µØÍ¼25ÍâÎ§ Ì©ÍßÂ×¹²ºÍ¹ú±ß¾³
-Locale_TextMAPOUT[8535] = "Ì©ÍßÂ×¹²ºÍ¹ú±ß¾³ÍâÎ§ĞÇÇø"
---µØÍ¼27ÍâÎ§ ³¯Ê¥Õß»î¶¯Çø
-Locale_TextMAPOUT[8536] = "³¯Ê¥Õß»î¶¯ÇøÍâÎ§ĞÇÇø"
---µØÍ¼30ÍâÎ§ EDF¿ØÖÆÇø
-Locale_TextMAPOUT[8537] = "EDF¿ØÖÆÇøÍâÎ§ĞÇÇø"
---µØÍ¼32ÍâÎ§ Äª¶ûµÏ»ù°²´ó¾ı±ß¾³
-Locale_TextMAPOUT[8538] = "Äª¶ûµÏ»ù°²´ó¾ı±ß¾³ÍâÎ§ĞÇÇø"
+--åœ°å›¾14å¤–å›´ å°¼ç¦å°”æµ·å§†
+Locale_TextMAPOUT[8508] = "å°¼ç¦å°”æµ·å§†å¤–å›´æ˜ŸåŒº"
+--åœ°å›¾15å¤–å›´ èµ«å°”æµ·åˆ©å§†
+Locale_TextMAPOUT[8509] = "èµ«å°”æµ·åˆ©å§†å¤–å›´æ˜ŸåŒº"
+--åœ°å›¾16å¤–å›´ å…ˆç¥–é—è¿¹
+Locale_TextMAPOUT[8533] = "å…ˆç¥–é—è¿¹å¤–å›´æ˜ŸåŒº"
+--åœ°å›¾18å¤–å›´ å¸å›½å¤ªç©ºå†œåœºç¾¤
+Locale_TextMAPOUT[8510] = "å¸å›½å¤ªç©ºå†œåœºç¾¤å¤–å›´æ˜ŸåŒº"
+--åœ°å›¾19å¤–å›´ å¸å›½å‰çº¿èˆ°é˜Ÿé›†ç»“åœ°
+Locale_TextMAPOUT[8511] = "å¸å›½å‰çº¿èˆ°é˜Ÿé›†ç»“åœ°å¤–å›´æ˜ŸåŒº"
+--åœ°å›¾25å¤–å›´ å¡æ‹‰å…‹è¡Œæ˜Ÿ
+Locale_TextMAPOUT[8526] = "å¡æ‹‰å…‹è¡Œæ˜Ÿå¤–å›´æ˜ŸåŒº"
+--åœ°å›¾26å¤–å›´ è²é›…åˆ©å¸å›½èˆ¹åç¾¤
+Locale_TextMAPOUT[8512] = "è²é›…åˆ©å¸å›½èˆ¹åç¾¤å¤–å›´æ˜ŸåŒº"
+--åœ°å›¾28å¤–å›´ ç»´æ ¼å°”ä¸œçº¿å†›é˜€æ´»åŠ¨åŒº
+Locale_TextMAPOUT[8513] = "ç»´æ ¼å°”ä¸œçº¿å†›é˜€æ´»åŠ¨åŒºå¤–å›´æ˜ŸåŒº"
+--åœ°å›¾29å¤–å›´ ç»´æ ¼å°”ä¸œçº¿å†›é˜€æ§åˆ¶åŒº
+Locale_TextMAPOUT[8514] = "ç»´æ ¼å°”ä¸œçº¿å†›é˜€æ§åˆ¶åŒºå¤–å›´æ˜ŸåŒº"
+--åœ°å›¾31å¤–å›´ èšå·¢èˆ°é˜Ÿæ´»åŠ¨åŒº
+Locale_TextMAPOUT[8515] = "èšå·¢èˆ°é˜Ÿæ´»åŠ¨åŒºå¤–å›´æ˜ŸåŒº"
+--åœ°å›¾33å¤–å›´ å¡å„æ–¯è”ç›Ÿâ€”å‰çº¿å“¨ç«™
+Locale_TextMAPOUT[8516] = "å¡å„æ–¯è”ç›Ÿâ€”å‰çº¿å“¨ç«™å¤–å›´æ˜ŸåŒº"
+--åœ°å›¾34å¤–å›´ å¡å„æ–¯è”ç›Ÿâ€”åˆ©è´å°”å…±å’Œå›½
+Locale_TextMAPOUT[8517] = "å¡å„æ–¯è”ç›Ÿâ€”åˆ©è´å°”å…±å’Œå›½å¤–å›´æ˜ŸåŒº"
+--åœ°å›¾35å¤–å›´ å¡å„æ–¯è”ç›Ÿâ€”è”åˆæ³Šåœ°
+Locale_TextMAPOUT[8518] = "å¡å„æ–¯è”ç›Ÿâ€”è”åˆæ³Šåœ°å¤–å›´æ˜ŸåŒº"
+--åœ°å›¾36å¤–å›´ è¿½å¿†ä¹‹åº­é‡å·¥æ€»éƒ¨èˆ¹å
+Locale_TextMAPOUT[8519] = "è¿½å¿†ä¹‹åº­é‡å·¥æ€»éƒ¨èˆ¹åå¤–å›´æ˜ŸåŒº"
+--åœ°å›¾37å¤–å›´ å¡å„æ–¯è”ç›Ÿæ··æ²Œå•†äºº
+Locale_TextMAPOUT[8520] = "å¡å„æ–¯è”ç›Ÿæ··æ²Œå•†äººå¤–å›´æ˜ŸåŒº"
+--åœ°å›¾38å¤–å›´ ç¬¬58ç‰¹æ··èˆ°é˜Ÿé›†ç»“åœ°
+Locale_TextMAPOUT[8521] = "ç¬¬58ç‰¹æ··èˆ°é˜Ÿé›†ç»“åœ°å¤–å›´æ˜ŸåŒº"
+--åœ°å›¾39å¤–å›´ å¡å„æ–¯æ°¸ç”Ÿè€…æ¢ç´¢ä¹‹åˆ
+Locale_TextMAPOUT[8522] = "å¡å„æ–¯æ°¸ç”Ÿè€…æ¢ç´¢ä¹‹åˆå¤–å›´æ˜ŸåŒº"
+--åœ°å›¾40å¤–å›´ é˜¿å› ç‰¹æ–¯èˆ°é˜Ÿå®šé”šç‚¹
+Locale_TextMAPOUT[8523] = "é˜¿å› ç‰¹æ–¯èˆ°é˜Ÿå®šé”šç‚¹å¤–å›´æ˜ŸåŒº"
+--åœ°å›¾41å¤–å›´ æ˜Ÿé—¨éƒ½å¸‚æ ¼åˆ©æ™®æ–¯
+Locale_TextMAPOUT[8524] = "æ˜Ÿé—¨éƒ½å¸‚æ ¼åˆ©æ™®æ–¯å¤–å›´æ˜ŸåŒº"
+Locale_TextMAPOUT[8525] = "å¡å„æ–¯è”ç›Ÿâ€”é£Ÿç”¨æ²¹åŠ¨åŠ›èˆ¹åå¤–å›´æ˜ŸåŒº"
+--åœ°å›¾44å¤–å›´ æ˜Ÿé—¨éƒ½å¸‚æ ¼åˆ©æ™®æ–¯
+Locale_TextMAPOUT[8526] = "é˜¿ç“¦å¡”åä¼šæ¢ç´¢èˆ°é˜Ÿé©»åœ°å¤–å›´æ˜ŸåŒº"
+Locale_TextMAPOUT[8527] = "ç“¦çº³æµ·å§†å¤–å›´æ˜ŸåŒº"
+Locale_TextMAPOUT[8528] = "è¯ºäºšåº“ç”³è”åˆå·¥ä¸šå›­å¤–å›´æ˜ŸåŒº"
+Locale_TextMAPOUT[8529] = "å¼€å‘ä»£å·Â·é˜¿æ–¯ç²å¤–å›´æ˜ŸåŒº"
+Locale_TextMAPOUT[8530] = "è‹æ˜Ÿæˆ˜å›¢å·¡èˆªåæ ‡å¤–å›´æ˜ŸåŒº"
+Locale_TextMAPOUT[8531] = "æš—åŒºå¤–å›´æ˜ŸåŒº"
+Locale_TextMAPOUT[8532] = "CPSRæ¸¸é­‚èˆ°é˜Ÿé©»åœ°å¤–å›´æ˜ŸåŒº"
+--åœ°å›¾13å¤–å›´ å·´å¡”åˆ©å®‰æˆ˜èˆ°åŸåœº
+Locale_TextMAPOUT[8533] = "å·´å¡”åˆ©å®‰æˆ˜èˆ°åŸåœºå¤–å›´æ˜ŸåŒº"
+--åœ°å›¾20å¤–å›´ ç»´æ ¼å°”æµ·ç›—ç‹©çŒåœº
+Locale_TextMAPOUT[8534] = "ç»´æ ¼å°”æµ·ç›—ç‹©çŒåœºå¤–å›´æ˜ŸåŒº"
+--åœ°å›¾25å¤–å›´ æ³°ç“¦ä¼¦å…±å’Œå›½è¾¹å¢ƒ
+Locale_TextMAPOUT[8535] = "æ³°ç“¦ä¼¦å…±å’Œå›½è¾¹å¢ƒå¤–å›´æ˜ŸåŒº"
+--åœ°å›¾27å¤–å›´ æœåœ£è€…æ´»åŠ¨åŒº
+Locale_TextMAPOUT[8536] = "æœåœ£è€…æ´»åŠ¨åŒºå¤–å›´æ˜ŸåŒº"
+--åœ°å›¾30å¤–å›´ EDFæ§åˆ¶åŒº
+Locale_TextMAPOUT[8537] = "EDFæ§åˆ¶åŒºå¤–å›´æ˜ŸåŒº"
+--åœ°å›¾32å¤–å›´ è«å°”è¿ªåŸºå®‰å¤§å›è¾¹å¢ƒ
+Locale_TextMAPOUT[8538] = "è«å°”è¿ªåŸºå®‰å¤§å›è¾¹å¢ƒå¤–å›´æ˜ŸåŒº"
 
+-- Mission F01
+Locale_Text[1800] = "Fai'ri logistics mission"
+Locale_Text[1805] = "Fai'ri Empire border supply base"
+Locale_Text[1810] = "Repair of damaged Fai'ri Empire warships"
+Locale_Text[1815] = "Fierce fighting has left some Fai'ri warships badly damaged, help repairing them will be paid"
+-- Mission F02
+Locale_Text[1900] = "Fai'ri border patrol mission"
+Locale_Text[1905] = "Fai'ri Empire outer defense line"
+Locale_Text[1910] = "Search for and destroy Vaygr warships that infiltrated the area"
+Locale_Text[1915] = "Every day a large number of small Vaygr fleets try to infiltrate the Fai'ri space defenses, finding and destroying these Vaygr ships will result in an additional bounty"
+--Quest F03
+Locale_Text[3100] = "Fai'ri colony escort mission"
+Locale_Text[3105] = "Colony on the border of the Fai'ri Empire"
+Locale_Text[3110] = "Protect independent space colonies"
+Locale_Text[3115] = "There are a large number of colonies and border space cities on the borderlands of the Fai'ri Empire, but such facilities are very vulnerable to Vaygrante attacks"
+-- Mission F04
+Locale_Text[3300] = "Fai'ri merchant ship escort mission"
+Locale_Text[3305] = "Fai'ri Empire trade route"
+Locale_Text[3310] = "Protect stranded Fai'ri merchant ships"
+Locale_Text[3315] = "A Fai'ri merchant convoy escorting supplies to the front lines has been attacked, please go to the rescue."
 
---ÈÎÎñF01
-Locale_Text[1800] = "·ÆÑÅÀûºóÇÚÈÎÎñ"
-Locale_Text[1805] = "·ÆÑÅÀûµÛ¹ú±ß¾³²¹¸ø»ùµØ"
-Locale_Text[1810] = "¶ÔÊÜËğµÄ·ÆÑÅÀûµÛ¹úÕ½½¢½øĞĞÎ¬ĞŞ"
-Locale_Text[1815] = "¼¤ÁÒµÄÕ½¶·ÈÃÒ»Ğ©·ÆÑÅÀûÕ½½¢ÑÏÖØÊÜËğ£¬°ïÃ¦Î¬ĞŞºÃÕâĞ©Õ½½¢½«»áµÃµ½±¨³ê"
---ÈÎÎñF02
-Locale_Text[1900] = "·ÆÑÅÀû±ß¾³Ñ²ÂßÈÎÎñ"
-Locale_Text[1905] = "·ÆÑÅÀûµÛ¹úÍâÎ§·ÀÏß"
-Locale_Text[1910] = "ËÑÑ°²¢´İ»ÙÇ±Èë¸ÃÇøÓòµÄÎ¬¸ñ¶ûÕ½½¢"
-Locale_Text[1915] = "Ã¿Ìì¶¼ÓĞ´óÁ¿µÄĞ¡¹æÄ£Î¬¸ñ¶û½¢¶ÓÊÔÍ¼ÉøÍ¸½ø·ÆÑÅÀûÈËµÄÌ«¿Õ·ÀÏß£¬ÕÒ³ö²¢´İ»ÙÕâĞ©Î¬¸ñ¶ûÕ½½¢½«»áµÃµ½¶îÍâÉÍ½ğ"
---ÈÎÎñF03
-Locale_Text[3100] = "·ÆÑÅÀûÖ³Ãñµã»¤ÎÀÈÎÎñ"
-Locale_Text[3105] = "·ÆÑÅÀûµÛ¹ú±ß¾³µÄÖ³Ãñµã"
-Locale_Text[3110] = "±£»¤¶ÀÁ¢µÄÌ«¿ÕÖ³Ãñµã"
-Locale_Text[3115] = "·ÆÑÅÀûµÛ¹ú±ß¾³µØ´øÓĞ´óÁ¿µÄÖ³ÃñµãºÍ±ß¾³Ì«¿Õ³ÇÊĞ£¬µ«ÊÇÕâÑùµÄÉèÊ©·Ç³£ÈİÒ×ÔâÊÜÎ¬¸ñ¶ûÈËµÄ¹¥»÷"
---ÈÎÎñF04
-Locale_Text[3300] = "·ÆÑÅÀûÉÌ´¬»¤ËÍÈÎÎñ"
-Locale_Text[3305] = "·ÆÑÅÀûµÛ¹úÃ³Ò×º½µÀ"
-Locale_Text[3310] = "±£»¤ÊÜÀ§µÄ·ÆÑÅÀûÉÌ´¬"
-Locale_Text[3315] = "Ò»Ö§ÏòÇ°Ïß»¤ËÍ²¹¸øµÄ·ÆÑÅÀûÉÌ¶ÓÔâÓöÏ®»÷£¬ÇëÇ°Íù¾ÈÔ®¡£"
-
---ÈÎÎñF05
-Locale_Text[3320] = "ÃÖÈüÑÇÒªÈû·ÀÓùÕ½"
-Locale_Text[3325] = "Ğ­ÖúÃÖÈüÑÇÒªÈûµÖµ²Î¬¸ñ¶ûÈËµÄ½ø¹¥"
-
-
---ÈÎÎñA02
-Locale_Text[3500] = "³æ×åÄ¸½¢á÷ÁÔÈÎÎñ"
-Locale_Text[3505] = "³æ×å³²ÈººËĞÄÇøÓò"
-Locale_Text[3510] = "ÔÚ³æ×å³²ÈººËĞÄÇøÓòá÷ÁÔ³æ×åÄ¸½¢"
-Locale_Text[3515] = "°£ºÕÂåË¹¼ÎµÂÈËÒÑ¾­Ëø¶¨ÁË¸ÃÇøÓòÊıÖ§³æ×åÄ¸½¢µÄÎ»ÖÃ£¬´İ»ÙËüÃÇÀ´Ï÷Èõ³æ×åµÄÓĞÉúÁ¦Á¿¡£"
-
---ÈÎÎñH01
-Locale_Text[2000] = "¾İµã¹¥»÷ÈÎÎñ"
-Locale_Text[2005] = "Ï£¸ñÀ­±ß¾³ĞÇÇø"
-Locale_Text[2010] = "¶ÔÎ¬¸ñ¶ûÈËµÄĞ¡ĞÍ±ß¾³»ùµØ½øĞĞÍ»Ï®£¬Ï÷ÈõÎ¬¸ñ¶ûÈËµÄ½ø¹¥Á¦Á¿"
-Locale_Text[2015] = "Ò»Ğ©Î¬¸ñ¶ûÈËÔÚÎÒÃÇµÄ±ß¾³µØÇø²¿ÊğÁË´óÁ¿µÄĞ¡ĞÍ¾İµã×÷Îª½ø¹¥»ùµØ£¬´İ»ÙÕâĞ©»ùµØ¿ÉÒÔ»ñµÃ¶îÍâµÄÉÍ½ğ¡£"
-Locale_Text[2100] = "ÌìÊ¹Ö®ÔÂºËĞÄÕ½³¡"
-Locale_Text[2105] = "´óĞÍ½¢¶Ó»áÕ½ÈÎÎñ"
-Locale_Text[2110] = "ºÍÁª¾ü½¢¶ÓÒ»ÆğÕ½Ê¤Î¬¸ñ¶ûÈËµÄÖ÷Á¦½¢¶Ó"
-Locale_Text[2115] = "Î¬¸ñ¶ûÈËÒÑ¾­¼¯½áÆğÀ´¶ÔÎÒÃÇµÄ·ÀÏß·¢¶¯ÕıÃæ¹¥»÷£¬ºÍ·´»÷µÄÁª¾ü½¢¶ÓÒ»ÆğÕ½Ê¤µĞÈË½«»á»ñµÃ¶îÍâµÄÉÍ½ğ¡£"
-Locale_Text[2200] = "·ÆÑÅÀûÏ£¸ñÀ­Áª¾ü·´¹¥×÷Õ½ÈÎÎñ"
---ÈÎÎñV1
-Locale_Text[2205] = "Î¬¸ñ¶ûÈË½¢¶Ó¼¯½áµØ"
-Locale_Text[2210] = "ºÍ·ÆÑÅÀûÏ£¸ñÀ­Áª¾ü½¢¶ÓÒ»Æğ¶ÔÎ¬¸ñ¶ûÈË¼¯½áÖĞµÄ½¢¶Ó·¢¶¯·´Í»»÷"
-Locale_Text[2215] = "Áª¾üÒÑ¾­×éÖ¯ÁËÒ»Ö§Ç¿´óµÄ½¢¶Ó×¼±¸·´¹¥£¬ÏûÃğ±¾µØÇøËùÓĞµÄÎ¬¸ñ¶ûÕ½½¢½«»á»ñµÃ´óÁ¿µÄÉÍ½ğ¡£"
---ÈÎÎñV2
-Locale_Text[2220] = "Î¬¸ñ¶û¹ìµÀºäÕ¨ÈÎÎñ"
-Locale_Text[2225] = "Ğ­ÖúµÛ¹úµÄ¹ìµÀºäÕ¨½¢¶Ó¶ÔÎ¬¸ñ¶ûÖ³ÃñĞÇ½øĞĞ¹ìµÀºäÕ¨"
---ÈÎÎñV3
-Locale_Text[2230] = "¾Ş½¢½¨ÔìÊØÎÀÈÎÎñ"
-Locale_Text[2235] = "Ò»ËÒ¶«Ïß¾ü·§µÄ³¬¼¶¾Ş½¢ÕıÔÚ½¨Ôìµ±ÖĞ£¬Ğ­ÖúÊØÎÀÆä½¨ÔìÏÖ³¡"
-
---ÈÎÎñX1
-Locale_Text[2240] = "ÁªÃË±ß¾³Ñ²ÂßÈÎÎñ"
-Locale_Text[2245] = "Ğ­ÖúÁªÃË½¢¶ÓÖ´ĞĞ±ß¾³Ñ²ÂßÈÎÎñ"
+-- Mission F05
+Locale_Text[3320] = "Defense of Messiah's Fortress"
+Locale_Text[3325] = "Assist Fortress Messiah in holding off the Vaygr."
 
 
-Locale_Text[2300] = "³æ×åÇå½ÉÈÎÎñ"
-Locale_Text[2305] = "°£ºÕÂåË¹¼ÎµÂ±ß¾³µØÇø"
-Locale_Text[2310] = "ºÍ°£ºÕÂåË¹¼ÎµÂµÛ¹úÒ»ÆğÇå½É¸ÃÇøÓòµÄÒìĞÎ³æ×å"
-Locale_Text[2315] = "Ò»Ğ©ÒìĞÎ³æ×å½¢¶ÓÇ±·üÔÚÁËÕâ¸öÇøÓò£¬½ËÃğÕâĞ©³æ×å½«»á»ñµÃ´óÁ¿µÄÉÍ½ğ¡£"
+-- Mission A02
+Locale_Text[3500] = "Insect mothership hunting mission"
+Locale_Text[3505] = "Insect nesting colony core area"
+Locale_Text[3510] = "Hunt bug motherships in the core area of the bug nesting colony"
+Locale_Text[3515] = "The Alos have targeted the location of several Worm motherships in the region, destroying them to weaken the Worm's living forces."
+
+-- Mission H01
+Locale_Text[2000] = "Stronghold Attack Mission"
+Locale_Text[2005] = "Hiigara Frontier Sector"
+Locale_Text[2010] = "Conduct a raid on a small Vaygr border base to weaken the Vaygr offensive force"
+Locale_Text[2015] = "Some Vaygrs have deployed a large number of small strongholds as offensive bases in our border region, destroy these bases for an additional bounty."
+Locale_Text[2100] = "Angel Moon Core Battlefield"
+Locale_Text[2105] = "Large fleet rendezvous mission"
+Locale_Text[2110] = "Defeat the Vaygr's main fleet with the allied fleet"
+Locale_Text[2115] = "The Vaygrs have rallied to launch a frontal attack on our defenses, defeating the enemy with the counterattacking Coalition fleet will result in an additional bounty."
+Locale_Text[2200] = "Hiigara Fai'ri allied counterattack combat mission"
+-- Mission V1
+Locale_Text[2205] = "Vaygrante fleet staging area"
+Locale_Text[2210] = "Launch a counter-attack with the Hiigara Fai'ri allied fleet against the Vaygr's assembled fleet"
+Locale_Text[2215] = "Allied forces have organized a powerful fleet for a counter-attack, eliminating all Vaygr ships in the region will result in a large reward."
+--QuestV2
+Locale_Text[2220] = "Vaygr orbital bombardment mission"
+Locale_Text[2225] = "Assist the Imperial orbital bombardment fleet in orbital bombardment of Vaygr colonies."
+-- Mission V3
+Locale_Text[2230] = "Giant ship construction guarding mission"
+Locale_Text[2235] = "An Eastern Front warlord's supergiant ship is under construction, assist in guarding its construction site"
+
+-- Mission X1
+Locale_Text[2240] = "Alliance border patrol mission"
+Locale_Text[2245] = "Assist the Alliance fleet with border patrol missions"
 
 
-
-
-Locale_Text[2350] = "Î¬¸ñ¶ûá÷ÁÔÇø"
-Locale_Text[2355] = "Î¬¸ñ¶ûÈËÔÚĞÇÃÅÖ®¼ä¼ÜÉèÁËÒ»Ğ©ÖØÁ¦³¡£¬ÓÃÀ´À¹½Ø¹ıÍùµÄÉÌ´¬²¢ÇÒ½øĞĞÏ®»÷"
-
-Locale_Text[2400] = "Î¬¸ñ¶ûÊØ±¸Çø"
-Locale_Text[2405] = "Î¬¸ñ¶ûÈËÔÚ×Ô¼ºµÄÌ«¿Õ¿ØÖÆÇøÍâÃæ½¨ÉèÁËÒ»ÏµÁĞµÄÌ«¿Õ¾İµã£¬ÓÃÀ´·ÀÖ¹Áª¾üµÄÉøÍ¸"
-
-Locale_Text[2450] = "ÏÈ×æÒÅ¼£Èº"
-Locale_Text[2455] = "Ò»Ğ©ÏÈ×æÒÅ¼£µÄËéÆ¬»áĞÎ³ÉÖØÁ¦³¡£¬¸ÉÈÅ¹ıÍùµÄ½¢¶Ó"
-
-Locale_Text[2500] = "BETA³æÈº»î¶¯Çø"
-Locale_Text[2505] = "Ò»Ğ©³æ³²Ä¸½¢»áÊÍ·ÅÇ¿´óµÄÖØÁ¦³¡À´¸ÉÈÅ¹ıÍùµÄ½¢¶Ó"
-
-Locale_Text[2550] = "Ë®¾§ÌåÈº»î¶¯Çø"
-Locale_Text[2555] = "Ò»Ğ©´óĞÍË®¾§Ìå»áÖ÷¶¯À¹½Ø¹ıÍùµÄÌ«¿Õ½¢´¬²¢ÇÒ½øĞĞ¹¥»÷"
-
-
-Locale_Text[2560] = "Çó¾ÈĞÅºÅ"
-Locale_Text[2565] = "Ò»µÀÀ´×ÔÓÑ¾üµÄ³¬¿Õ¼äÇó¾ÈĞÅºÅÈÃÎÒÃÇÔİÊ±¸Ä±äÁËº½ĞĞÄ¿±ê"
-
-
-
-Locale_Text[2570] = "ÇóÔ®ĞÅºÅ"
-Locale_Text[2575] = "Ò»µÀÀ´×Ô·ÆÑÅÀûÓÑ¾üµÄ³¬¿Õ¼äÇó¾ÈĞÅºÅÈÃÎÒÃÇÔİÊ±¸Ä±äÁËº½ĞĞÄ¿±ê"
-
-
-Locale_Text[2580] = "ÖØÁ¦Òì³£µØ´ø"
-Locale_Text[2585] = "¸ÃÇøÓòÖĞÔÌº¬´óÁ¿¸ßÃÜ¶ÈÎïÖÊµÄĞ¡ĞĞĞÇÓ°ÏìÁË½¢´¬µÄÍ¨ĞĞ£¬ÇëÓÃ³£¹æ·½Ê½Ê»Àë¸ÃÇøÓò"
-
-
---ÈÎÎñZ1
-Locale_Text[2590] = "¾µÖ®¹×º¡¼ßÃğÕ½"
-Locale_Text[2295] = "¼à²âµ½±¾ĞÇÇø¸ßÄÜÁ¿·´Ó¦£¬¡°¾µ¡±ÒÑ¾­Ñ¡¶¨¶ÔÏóÍê³É×ª»¯¡£Çë¼ßÃğĞÇÇøÄÚËùÓĞµĞ·½µ¥Î»"
---ÈÎÎñZ2
-Locale_Text[2600] = "Ôú¶û¿¨À­Ë÷ÁÖ¾ø¾³Õ½"
-Locale_Text[2605] = "Ğ­ÖúÖÙ²ÃÍ¥»òÕßÃØÒøÕù¶áĞÇ¿ÕÁéºË£¬»ñÈ¡µÚ¶şÊ®¾ÅÖùÈ¨ÄÜ¡£"
-
-
---À¹½ØµØÍ¼
-Locale_Text[5000] = "ÌøÔ¾ÖĞ¼Ìµã"
-Locale_Text[5001] = "ÎªÁË½µµÍĞÇÃÅµÄ¹¤×÷Ç¿¶È¶øÉèÖÃµÄÌøÔ¾ÖĞ¼Ìµã"
-Locale_Text[5010] = "Î¬¸ñ¶û±ß¾³ĞÇÇø"
-Locale_Text[5011] = "Î¬¸ñ¶û½¢¶Ó»î¶¯µÄ±ß¾³µØ´ø"
-Locale_Text[5020] = "Ì©ÍßÂ×±ß¾³ĞÇÇø"
-Locale_Text[5021] = "Ì©ÍßÂ×¹²ºÍ¹úµÄ±ß¾³µØ´ø"
-Locale_Text[5030] = "ÏÈ×æÒÅ¼£ÍâÎ§"
-Locale_Text[5031] = "ÏÈ×æÒÅ¼£ÍâÎ§"
-Locale_Text[5040] = "³æ³²»î¶¯ÇøÍâÎ§"
-Locale_Text[5041] = "³æ³²»î¶¯ÇøÍâÎ§"
-Locale_Text[5050] = "ÒøºÓÏµ±ßÔµĞÇÇø"
-Locale_Text[5051] = "ÒøºÓÏµ±ßÔµĞÇÇø"
-Locale_Text[5060] = "¶ÀÁ¢ĞÇÇø"
-Locale_Text[5061] = "¶ÀÁ¢ĞÇÇø"
-
-
-Locale_Text[5100] = "µÛ¹úÖ®ÃÅ-µÛ¹úÖ³ÃñµØ"   --1
-Locale_Text[5105] = "µÛ¹úÖ³ÃñµØ-µÛ¹úÅ©³¡Èº"  --2
-Locale_Text[5110] = "µÛ¹úÖ³ÃñµØ-µÛ¹ú²É¿ó³¡"  --3
-Locale_Text[5115] = "µÛ¹úÖ³ÃñµØ-µÛ¹úÇ°Ïß"  --4
-Locale_Text[5120] = "µÛ¹ú²É¿ó³¡-¶ÀÁ¢ĞÇÇø"  --5
-Locale_Text[5125] = "µÛ¹úÇ°Ïß-ÌìÊ¹Ö®ÔÂ"  --6
-Locale_Text[5130] = "ÌìÊ¹Ö®ÔÂ-¸èºÍÄÃ"  --7
-Locale_Text[5135] = "¸èºÍÄÃ-°ÍËşÀû°²Õ½½¢·Ø³¡"  --8
-Locale_Text[5140] = "°ÍËşÀû°²Õ½½¢·Ø³¡-°£ºÕÂåË¹¼ÎµÂ»ùµØ"  --9
-Locale_Text[5145] = "ÌìÊ¹Ö®ÔÂ-Ï£¸ñÀ­Ê×ĞÇ"  --10
-Locale_Text[5150] = "ÈûÀÕÄ·-Ï£¸ñÀ­Ê×ĞÇ"  --11
-Locale_Text[5155] = "ÈûÀÕÄ·-Ì¹ÄáË¹»ùµØ"  --12
-Locale_Text[5160] = "Í¼À­Äá»î¶¯Çø-¿¨µÂÊ²»¨Ô°"  --13
-Locale_Text[5165] = "¿¨µÂÊ²»¨Ô°-¿¨À­¿Ë"  --14
-Locale_Text[5170] = "¸èºÍÄÃ-ÏÈ×æĞÇÇø"  --15
-Locale_Text[5175] = "°£ºÕÂåË¹¼ÎµÂ»ùµØ-°£ºÕÂåË¹¼ÎµÂÇ°Ïß"  --16
-Locale_Text[5180] = "°£ºÕÂåË¹¼ÎµÂÇ°Ïß-³æ×åĞÇÇø"  --17
-Locale_Text[5185] = "ÌìÊ¹Ö®ÔÂ-Î¬¸ñ¶ûÇ°ÉÚ"  --18
-Locale_Text[5190] = "¸èºÍÄÃ-Î¬¸ñ¶ûÕ¼ÁìĞÇ"  --19
-Locale_Text[5200] = "Î¬¸ñ¶ûº£µÁÇøÓò-°£ºÕÂåË¹¼ÎµÂ»ùµØ"  --20
-Locale_Text[5205] = "Î¬¸ñ¶ûÇ°ÉÚ-Î¬¸ñ¶ûÕ¼ÁìĞÇ"  --21
-Locale_Text[5210] = "Î¬¸ñ¶ûÕ¼ÁìĞÇ-Î¬¸ñ¶ûº£µÁÇøÓò"  --22
-Locale_Text[5215] = "Î¬¸ñ¶ûÇ°ÉÚ-Î¬¸ñ¶ûĞ¡ĞĞĞÇ´ø"  --23
-Locale_Text[5220] = "Î¬¸ñ¶ûÕ¼ÁìĞÇ-Î¬¸ñ¶û´¬ÎëÈº"  --24
-Locale_Text[5225] = "Î¬¸ñ¶ûº£µÁÇøÓò-Ì©ÍßÂ×¹²ºÍ¹úÇ°ÉÚ"  --25
-Locale_Text[5230] = "¶ÀÁ¢ĞÇÇø-Î¬¸ñ¶ûĞ¡ĞĞĞÇ´ø"  --26
-Locale_Text[5235] = "Î¬¸ñ¶ûĞ¡ĞĞĞÇ´ø-Î¬¸ñ¶û´¬Îë"  --27
-Locale_Text[5240] = "Î¬¸ñ¶û´¬Îë-Ì©ÍßÂ×¹²ºÍ¹úÇ°ÉÚ" --28
-Locale_Text[5245] = "Ì¹ÄáË¹»ùµØ-Í¼À­Äá»î¶¯Çø" --29
-Locale_Text[5250] = "µÛ¹ú²É¿ó³¡-µÛ¹ú´¬ÎëÈº" --33
-Locale_Text[5255] = "µÛ¹úÖ®ÃÅ-µÛ¹ú´¬ÎëÈº" --34
-Locale_Text[5260] = "µÛ¹úÇ°Ïß-³¯Ê¥Õß»î¶¯Çø" --35
-Locale_Text[5265] = "ÌìÊ¹Ö®ÔÂ-³¯Ê¥Õß»î¶¯Çø" --36
-Locale_Text[5270] = "Î¬¸ñ¶ûĞ¡ĞĞĞÇ´ø-¶«Ïß¾ü·§»î¶¯Çø" --37
-Locale_Text[5275] = "¶«Ïß¾ü·§»î¶¯Çø-¶«Ïß¾ü·§¿ØÖÆÇø" --38
-Locale_Text[5280] = "¶«Ïß¾ü·§¿ØÖÆÇø-Î¬¸ñ¶û´¬ÎëÈº" --39
-Locale_Text[5285] = "µÛ¹úÅ©³¡Èº-EDFÇ°ÉÚÕ¾" --40
-Locale_Text[5290] = "ÒÏ³²½¢¶Ó»î¶¯Çø-°£ºÕÂåË¹¼ÎµÂÇ°Ïß" --41
-Locale_Text[5295] = "¶«Ïß¾ü·§»î¶¯Çø-Äª¶ûµÏ»ù°²´ó¾ı±ß¾³" --42
-Locale_Text[5300] = "¶ÀÁ¢ĞÇÇø-ÁªÃËÇ°Ïß" --43
-Locale_Text[5305] = "ÁªÃËÀû±´¶û¹²ºÍ¹ú-ÁªÃËÇ°Ïß" --44
-Locale_Text[5310] = "ÁªÃËÀû±´¶û¹²ºÍ¹ú-Î¬¸ñ¶û¶«Ïß¾ü·§»î¶¯Çø" --45
-Locale_Text[5315] = "ÁªÃËÁªºÏ²´µØ-ÁªÃËÇ°Ïß" --46
-Locale_Text[5320] = "×·ÒäÖ®Í¥¡ªµÛ¹ú´¬ÎëÈº" --47
-Locale_Text[5325] = "×·ÒäÖ®Í¥¡ª¿¨¶òË¹ÁªÃË»ìãçÉÌÈË" --48
-Locale_Text[5330] = "¿¨¶òË¹ÁªÃË»ìãçÉÌÈË¡ªµÚ58ÌØ»ì½¢¶Ó¼¯½áµØ" --49
-Locale_Text[5335] = "¿¨¶òË¹ÁªÃË»ìãçÉÌÈË-ÁªÃËÇ°Ïß" --50
-Locale_Text[5340] = "µÚ58ÌØ»ì½¢¶Ó¼¯½áµØ¡ªÁªÃË²´µØ" --51
-Locale_Text[5345] = "µÚ58ÌØ»ì½¢¶Ó¼¯½áµØ¡ª¿¨¶òË¹ÓÀÉúÕßÌ½Ë÷Ö®³õ" --52
-Locale_Text[5350] = "°¢ÒòÌØË¹½¢¶Ó¼¯½áµØ¡ªÒÏ³²½¢¶Ó" --53
-Locale_Text[5355] = "°¢ÒòÌØË¹½¢¶Ó¼¯½áµØ¡ªĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹" --54
-Locale_Text[5360] = "ÁªÃËÁªºÏ²´µØ¡ªÊ³ÓÃÓÍ¶¯Á¦´¬Îë" --55
-Locale_Text[5370] = "°¢ÍßËşĞ­»áÌ½Ë÷½¢¶Ó×¤µØ¡ªÌ¹ÄáË¹»ùµØ" --56
-Locale_Text[5375] = "ÍßÄÉº£Ä·¡ªµÛ¹úÇ°Ïß" --57
-Locale_Text[5380] = "ÅµÑÇ¿âÉêÁªºÏ¹¤ÒµÔ°¡ª¿¨À­¿ËĞĞĞÇ" --58
-Locale_Text[5385] = "¿ª·¢´úºÅ°¢Ë¹Áá¡ªµÛ¹úÅ©³¡" --59
-Locale_Text[5390] = "²ÔĞÇÕ½ÍÅÑ²º½×ø±ê¡ªÁªÃË»ìãçÉÌÈË" --60
-Locale_Text[5395] = "°µÇø¡ªÁªÃËÀû±´¶û¹²ºÍ¹ú" --61
-Locale_Text[5400] = "CPSRÓÎ»ê½¢¶Ó×¤µØ¡ªµÛ¹ú´¬Îë" --62
+Locale_Text[2300] = "Bug clearing mission"
+Locale_Text[2305] = "Alos border area"
+Locale_Text[2310] = "Work with the Alos Empire to clear the area of alien insects"
+Locale_Text[2315] = "Some fleets of alien insects are lurking in the area, eliminating these insects will result in a large bounty."
 
 
 
 
---ÖÖ×åÑ¡Ôñ
-Locale_Text[10001] = "·ÆÑÅÀûÃ°ÏÕÕß"
-Locale_Text[10005] = "·ÆÑÅÀû¹ÍÓ¶±ø"
-Locale_Text[10010] = "¿¨¶òË¹ÉÌÈË"
+Locale_Text[2350] = "Vaygr hunting area"
+Locale_Text[2355] = "The Vaygr have set up some gravity fields between the stargates to intercept passing merchant ships and attack them"
+
+Locale_Text[2400] = "Vaygr guard zone"
+Locale_Text[2405] = "The Vaygrs have built a series of space positions outside their space control zone to prevent infiltration by coalition forces"
+
+Locale_Text[2450] = "cluster of ancestral ruins"
+Locale_Text[2455] = "Some fragments of ancestral relics create gravity fields that interfere with passing fleets"
+
+Locale_Text[2500] = "BETA swarm activity area"
+Locale_Text[2505] = "Some bug nesting motherships will release powerful gravity fields to disrupt passing fleets"
+
+Locale_Text[2550] = "Crystal body swarm activity area"
+Locale_Text[2555] = "Some large crystals will actively intercept and attack passing space ships"
+
+
+Locale_Text[2560] = "distress signal"
+Locale_Text[2565] = "A hyperspace distress signal from friendly forces has caused us to temporarily change our destination"
+
+
+
+Locale_Text[2570] = "SOS signal"
+Locale_Text[2575] = "A hyperspace distress signal from friendly Fai'ri forces has caused us to temporarily change our navigational target"
+
+
+Locale_Text[2580] = "Gravity anomaly zone"
+Locale_Text[2585] = "Asteroids containing large amounts of high-density material in this area are affecting ship traffic, please use conventional means to sail away from the area"
+
+--??Z1
+Locale_Text[2590] = "Mirror Coffin Annihilation Battle"
+Locale_Text[2295] = "The high-energy reaction in the star area has been detected, and the 'mirror' has selected the target to complete the transformation. Please destroy all enemy units in the sector"
+--ä»»åŠ¡Z2
+Locale_Text[2600] = "æ‰å°”å¡æ‹‰ç´¢æ—ç»å¢ƒæˆ˜"
+Locale_Text[2605] = "ååŠ©ä»²è£åº­æˆ–è€…ç§˜é“¶äº‰å¤ºæ˜Ÿç©ºçµæ ¸ï¼Œè·å–ç¬¬äºŒåä¹æŸ±æƒèƒ½ã€‚"
+
+--intercept map
+Locale_Text[5000] = "Jump relay point"
+Locale_Text[5001] = "Jump relay point to reduce the work of the stargate"
+Locale_Text[5010] = "Vaygr border star area"
+Locale_Text[5011] = "border zone where the Vaygr fleet operates"
+Locale_Text[5020] = "Taidan border sector"
+Locale_Text[5021] = "Borderlands of the Taidan Republic"
+Locale_Text[5030] = "The outskirts of the ancestral ruins"
+Locale_Text[5031] = "The periphery of the ancestral ruins"
+Locale_Text[5040] = "Outer edge of bug nest activity zone"
+Locale_Text[5041] = "Outside the nesting area"
+Locale_Text[5050] = "Galactic limb region"
+Locale_Text[5051] = "Galactic limb region"
+Locale_Text[5060] = "independent star area"
+Locale_Text[5061] = "Independent star area"
+
+
+Locale_Text[5100] = "Imperial Gates - Imperial Colonies" --1
+Locale_Text[5105] = "Imperial Colony - Imperial Farm Complex" --2
+Locale_Text[5110] = "Imperial Colony - Imperial Mining Colony" --3
+Locale_Text[5115] = "Imperial Colony - Imperial Front" --4
+Locale_Text[5120] = "Imperial Mining Fields - Independent Sector" --5
+Locale_Text[5125] = "Imperial Frontier - Angel Moon" --6
+Locale_Text[5130] = "Angel Moon - Gohana" --7
+Locale_Text[5135] = "Gohana - Battalion Graveyard" --8
+Locale_Text[5140] = "Battalion Graveyard - Alos Base" --9
+Locale_Text[5145] = "Angel Moon - Hiigara Prime" --10
+Locale_Text[5150] = "Sarum - Hiigara Prime" --11
+Locale_Text[5155] = "Sarum - Tannis Base" --12
+Locale_Text[5160] = "Turani Activity Area - Garden of Kadesh" --13
+Locale_Text[5165] = "Garden of Kadesh - Kharak" --14
+Locale_Text[5170] = "Gohona - Ancestral Star Zone" --15
+Locale_Text[5175] = "Alos Base - Alos Front" --16
+Locale_Text[5180] = "Alos Front - Bug Sector" --17
+Locale_Text[5185] = "Angel Moon - Vaygr Outpost" --18
+Locale_Text[5190] = "Gohana - Vaygr Occupied Star" --19
+Locale_Text[5200] = "Vaygr Pirate Region - Alos Base" --20
+Locale_Text[5205] = "Vaygr Outpost - Vaygr Occupied Star" --21
+Locale_Text[5210] = "Vaygr Occupied Sector - Vaygr Pirate Region" --22
+Locale_Text[5215] = "Vaygr Outpost - Vaygr asteroid belt" --23
+Locale_Text[5220] = "Vaygr Occupied Sector - Vaygr Shipyard" --24
+Locale_Text[5225] = "Vaygr Pirate Region - Taidan Republic Outpost" --25
+Locale_Text[5230] = "Independent Sector - Vaygr Asteroid Belt" --26
+Locale_Text[5235] = "Vaygr Asteroid Belt - Vaygr Dockyard" --27
+Locale_Text[5240] = "Vaygr Shipyard - Taidan Republic Outpost" --28
+Locale_Text[5245] = "Tanis Base - Turani Activity Zone" --29
+Locale_Text[5250] = "Imperial Mining Site - Imperial Shipyard" --33
+Locale_Text[5255] = "Fai'ri Gate - Imperial Shipyard" --34
+Locale_Text[5260] = "Imperial Border - Pilgrim Activity Area" --35
+Locale_Text[5265] = "Angel Moon - Pilgrim Activity Area" --36
+Locale_Text[5270] = "Vaygr Asteroid Belt - Eastern Front I" --37
+Locale_Text[5275] = "Eastern Front I - Eastern Front II" --38
+Locale_Text[5280] = "Eastern Front II - Vaygr Shipyard" --39
+Locale_Text[5285] = "Imperial Farm Complex - EDF Outpost" --40
+Locale_Text[5290] = "Bugs Nest Fleet Activity Zone - Alos Border" --41
+Locale_Text[5295] = "Eastern Front I - Mordiggian Maharaja's Border" --42
+Locale_Text[5300] = "Independent Sector - Caius Alliance Border" --43
+Locale_Text[5305] = "Libel Republic - Calius Alliance Border" --44
+Locale_Text[5310] = "Libel Republic - Eastern Front I" --45
+Locale_Text[5315] = "Caius Alliance Space City - Calius Alliance Border" --46
+Locale_Text[5320] = "Memorial Court - Imperial Shipyard" --47
+Locale_Text[5325] = "memorial Court - Caius Alliance Chaos Merchants" --48
+Locale_Text[5330] = "Caius Alliance Chaos Merchants - 58th Task Force Staging Area" --49
+Locale_Text[5335] = "Caius Alliance Chaos Merchants - Calius Alliance Border" --50
+Locale_Text[5340] = "58th Task Force Staging Area - Caius Alliance Space City" --51
+Locale_Text[5345] = "58th Task Force Staging Area - Origin of Caius' Eternal Exploration" --52
+Locale_Text[5350] = "Maintus Fleet Staging Area - Bugs Nest Fleet" --53
+Locale_Text[5355] = "Maintus Fleet Staging Area - Jumpgate Metropolis Glipus" --54
+Locale_Text[5360] = "è”ç›Ÿè”åˆæ³Šåœ°â€”é£Ÿç”¨æ²¹åŠ¨åŠ›èˆ¹å" --55
+Locale_Text[5370] = "é˜¿ç“¦å¡”åä¼šæ¢ç´¢èˆ°é˜Ÿé©»åœ°â€”å¦å°¼æ–¯åŸºåœ°" --56
+Locale_Text[5375] = "ç“¦çº³æµ·å§†â€”å¸å›½å‰çº¿" --57
+Locale_Text[5380] = "è¯ºäºšåº“ç”³è”åˆå·¥ä¸šå›­â€”å¡æ‹‰å…‹è¡Œæ˜Ÿ" --58
+Locale_Text[5385] = "å¼€å‘ä»£å·é˜¿æ–¯ç²â€”å¸å›½å†œåœº" --59
+Locale_Text[5390] = "è‹æ˜Ÿæˆ˜å›¢å·¡èˆªåæ ‡â€”è”ç›Ÿæ··æ²Œå•†äºº" --60
+Locale_Text[5395] = "æš—åŒºâ€”è”ç›Ÿåˆ©è´å°”å…±å’Œå›½" --61
+Locale_Text[5400] = "CPSRæ¸¸é­‚èˆ°é˜Ÿé©»åœ°â€”å¸å›½èˆ¹å" --62
+
+
+
+--race selection
+Locale_Text[10001] = "Fai'ri Adventurer"
+Locale_Text[10005] = "Fai'ri Mercenarie"
+Locale_Text[10010] = "Caius Merchant"
 
 station_ID = {}
 
-station_ID[10000] = "Ã³Ò×Ì«¿ÕÕ¾"
-station_ID[10001] = "³öÊÛÀ´×ÔµÛ¹ú±¾ÍÁµÄ¸÷ÖÖ»õÎï"
-station_ID[10005] = "È¼ÁÏ¹©Ó¦Õ¾"
-station_ID[10006] = "Õâ¸öÈ¼ÁÏÕ¾¸ºÔğ¸øÀ´ÍùµÄÉÌ¶ÓÌá¹©±ØĞèµÄÈ¼ÁÏ£¬ÊÕ¹ºµ­Ë®¡¢ÕäÏ¡¿óÊ¯"
-station_ID[10010] = "Æì½¢¼¯½áµØ"
-station_ID[10011] = "À´×ÔµÛ¹ú±¾ÍÁµÄ´óĞÍÆì½¢¶¼Í£²´ÔÚ´Ë£¬ÏëÒª¹ºÂòµÄ»°ĞèÒª»¨·ÑÖØ½ğ£¬ÊÕ¹ºÊ³Îï¡¢Å£ÅÅ¡¢ºÏ½ğ"
-station_ID[10050] = "Ì«¿Õ³ÇÊĞÃ³Ò×Õ¾"
-station_ID[10051] = "³öÊÛÒ»Ğ©¸ß¼¶µÄ²¹¸øÎï×Ê£¬ÊÕ¹ºµ­Ë®¡¢Ê³Îï¡¢µçÆ÷¡¢ÈÕÓÃÆ·"
-station_ID[10055] = "Ö÷Á¦½¢´¬Îë"
-station_ID[10056] = "ÕâÀï¸ºÔğÎªÇ°ÏßÉú²ú´óĞÍÖ÷Á¦½¢£¬ÊÕ¹ºÎäÆ÷Åä¼ş¡¢´¬Ìå¹¹¼ş"
-station_ID[10060] = "Ğ¡ÂóÅ©³¡"
-station_ID[10061] = "Îª¸½½üµÄÌ«¿Õ³ÇÊĞ¹©Ó¦¹ÈÎï£¬ÊÕ¹ºµ­Ë®¡¢Éú»îÀ¬»ø"
-station_ID[10065] = "Ì«¿ÕÄÁ³¡"
-station_ID[10066] = "Îª¸½½üµÄÌ«¿Õ³ÇÊĞ¹©Ó¦ÈâÀà£¬ÊÕ¹ºµ­Ë®¡¢¹ÈÎï"
-station_ID[10070] = "Ì«¿ÕÊ³Æ·³§"
-station_ID[10071] = "Îª¸½½üµÄÌ«¿Õ³ÇÊĞ¹©Ó¦Ê³Æ·£¬ÊÕ¹ºµ­Ë®¡¢¹ÈÎï¡¢ÖíÈâ¡¢ºÄ×Ó"
-station_ID[10075] = "µ­Ë®´¦Àí³§"
-station_ID[10076] = "Îª¸½½üµÄÌ«¿Õ³ÇÊĞ¹©Ó¦µ­Ë®£¬ÊÕ¹º±ù¿ó¡¢ºËÈ¼ÁÏ"
-station_ID[10080] = "³öÊÛ¸÷ÖÖ¿óÊ¯£¬ÊÕ¹º£º²¹¸øÆ·¡¢Éú»îÓÃÆ·"
-station_ID[10100] = "ÎªÏ£¸ñÀ­ÈËÖÆÔìÆì½¢£¬ÊÕ¹º£º²¹¸øÆ·¡¢´óĞÍ´¬Ìå¹¹¼ş"
-station_ID[10110] = "Éú²ú¸÷ÖÖÎäÆ÷Åä¼ş£¬ÊÕ¹º£º²¹¸øÆ·¡¢´óĞÍ´¬Ìå¹¹¼şÎäÆ÷¹¹¼ş"
-station_ID[10120] = "Éú²ú´óĞÍÖ÷Á¦½¢£¬ÊÕ¹º£º²¹¸øÆ·¡¢´¬Ìå¹¹¼şºÍÎäÆ÷¹¹¼ş"
-station_ID[10130] = "Éú²ú¸÷ÖÖºÏ½ğ£¬ÊÕ¹º£º½ğÊô¿óÊ¯"
-station_ID[10140] = "Éú²ú´¬Ìå¹¹¼ş£¬ÊÕ¹º£º¸÷ÖÖºÏ½ğ"
-station_ID[10150] = "Éú²ú¸÷ÖÖ²¹¸øÆ·£¬ÊÕ¹º£ºÈâÀà£¬¹ÈÎï£¬Éú»îÓÃÆ·"
-station_ID[10200] = "Éú²ú¸÷ÖÖÅ©³¡Æ·£¬ÊÕ¹º£º¸ß¼¶Ïû·ÑÆ·£¬Éú»îÓÃÆ·"
-station_ID[10250] = "ÊÕ¹º£º¸÷ÖÖ²¹¸øÎï×Ê"
-station_ID[10300] = "µÍ¼Û³öÊÛ¿óÊ¯£¬ÊÕ¹º£º¸÷ÖÖ²¹¸øÎï×Ê"
-station_ID[10400] = "¸ß¼ÛÊÕ¹º¸÷ÖÖ²¹¸øÎï×Ê"
-station_ID[10500] = "Á®¼Û³öÊÛ¸÷ÖÖ¿óÊ¯"
-station_ID[10600] = "Á®¼ÛÌá¹©Î¬¸ñ¶ûÕ½½¢,ÊÕ¹º¸÷ÖÖ²¹¸øÎï×Ê£¬Õ½½¢Éú²ú²ÄÁÏ"
-station_ID[10700] = "³öÊÛÅ«Á¥ºÍÉİ³ŞÆ·£¬ÊÕ¹ºÉú»îÎï×Ê"
-station_ID[10800] = "½ÓÊÜÀ´×Ô·ÆÑÅÀûÈËºÍÏ£¸ñÀ­ÈËµÄ¸÷ÖÖÎï×ÊÔ®Öú£¬ÎªÀ´ÍùµÄ½¢¶ÓÌá¹©²¹¸ø"
-station_ID[10900] = "³öÊÛ¸÷ÖÖÏÈ½øµÄ¿Æ¼¼²úÆ·£¬ÊÕ¹º¸÷ÖÖÕ½ÂÔÎï×Ê"
-station_ID[11000] = "ÊÕ¹º²¹¸øÆ·"
-station_ID[11005] = "³öÊÛÒ»Ğ©ÏÈ½øÕ½½¢£¬¸ß¼ÛÊÕ¹ºÕ½ÂÔÎï×ÊºÍÅ«Á¥"
-station_ID[11010] = "×¼±¸ÏòÎ¬¸ñ¶ûÈË·¢¶¯½ø¹¥µÄµÛ¹ú½¢¶Ó£¬¸ß¼ÛÊÕ¹º²¹¸øÎï×Ê"
-station_ID[11015] = "³öÊÛÒ»Ğ©°£ºÕÂåË¹¼ÎµÂÏÈ½øÕ½½¢£¬¸ß¼ÛÊÕ¹º²¹¸øÎï×Ê"
+station_ID[10000] = "Trading space station"
+station_ID[10001] = "Sells a variety of goods from the Imperial homeland"
+station_ID[10005] = "Fuel supply station"
+station_ID[10006] = "This fuel station is responsible for supplying essential fuel to the incoming and outgoing caravans, buying fresh water, rare ores"
+station_ID[10010] = "Flagship staging area"
+station_ID[10011] = "Large flagships from the Empire's homeland are moored here, and cost a fortune to purchase, buying food, steaks, and alloys"
+station_ID[10050] = "Space city trading post"
+station_ID[10051] = "Sells some high level supplies, buys fresh water, food, appliances, daily necessities"
+station_ID[10055] = "Battleship dock"
+station_ID[10056] = "This place is responsible for producing large battleships for the front line, acquiring weapon parts, hull components"
+station_ID[10060] = "Wheat farm"
+station_ID[10061] = "Supply grain to nearby space cities, acquire fresh water, household waste"
+station_ID[10065] = "Space Ranch"
+station_ID[10066] = "Supply meat to nearby space cities, buy fresh water, grains"
+station_ID[10070] = "Space food factory"
+station_ID[10071] = "Supply food to nearby space cities, buy fresh water, grains, pork, rats"
+station_ID[10075] = "Fresh water treatment plant"
+station_ID[10076] = "Supply fresh water to nearby space cities, acquire ice ore, nuclear fuel"
+station_ID[10080] = "Sells various ores, acquires: supplies, household goods"
+station_ID[10100] = "Build flagships for Highras, buy: supplies, large hull components"
+station_ID[10110] = "Produce various weapon parts, buy: supplies, large hull components weapon components"
+station_ID[10120] = "Produces large battleships, acquires: supplies, hull components and weapon components"
+station_ID[10130] = "Produces various alloys, acquires: metal ores"
+station_ID[10140] = "Produces hull components, acquires: various alloys"
+station_ID[10150] = "Produces various supplies, acquires: meat, grains, household goods"
+station_ID[10200] = "Produces various farm products, acquires: high grade consumer goods, household goods"
+station_ID[10250] = "Acquire: all kinds of supplies"
+station_ID[10300] = "Sell ores at low prices, buy: various supplies"
+station_ID[10400] = "Buy: various supplies at high prices"
+station_ID[10500] = "Sell all kinds of ores cheaply"
+station_ID[10600] = "cheap Vaygr battleship, buy all kinds of supplies, battleship production materials"
+station_ID[10700] = "Sell slaves and luxury goods, buy living materials"
+station_ID[10800] = "Receive all kinds of supplies from Fai'ri and Hiigara, supply the incoming and outgoing fleets"
+station_ID[10900] = "Sells all kinds of advanced technology products and acquires all kinds of strategic materials"
+station_ID[11000] = "Acquire supplies"
+station_ID[11005] = "Selling some advanced warships, acquiring strategic supplies and slaves at high prices"
+station_ID[11010] = "Imperial fleet preparing to launch an attack on the Vaygr, high price for supplies"
+station_ID[11015] = "Selling some Alos advanced warships, buying supplies at high prices"
 -----------------------------------------------------------------------------------------------
-station_ID[12010] = "µÛ¹úÖ®ÃÅÃ³Ò×Õ¾"
-station_ID[12011] = "³öÊÛÀ´×ÔµÛ¹ú±¾ÍÁµÄ¸ß¼ÛÖµÎï×Ê"
-station_ID[12012] = "ÊÕ¹ºÄÉÃ×ÎïÖÊ£¬¼ÒÓÃµçÆ÷£¬ÕäÏ§¿óÊ¯£¬Éİ³ŞÆ·£¬ÈËĞÍµçÄÔ£¬´¥ÊÖ£¬Éİ³ŞÆ·"
-station_ID[12020] = "µÛ¹úÖ®ÃÅÈ¼ÁÏÕ¾"
-station_ID[12021] = "³öÊÛ¸÷ÖÖÈ¼ÁÏ"
-station_ID[12022] = "ÊÕ¹ºµ­Ë®¡¢ÕäÏ§¿óÊ¯"
-station_ID[12030] = "µÛ¹úÖ®ÃÅÆì½¢¼¯½áµØ"
-station_ID[12031] = "³öÊÛÍËÒÛ»òÕß¾ü·½ÌØĞí³öÊÛµÄ¸÷ÖÖ´óĞÍÆì½¢"
-station_ID[12032] = "ÊÕ¹ºÈıÃ÷ÖÎ¡¢Å£ÅÅ¡¢¸ß¼¶ĞŞÀí¹¤¾ß¡¢´óĞÍÎäÆ÷Åä¼ş¡¢×Ô¶¯Î¬ĞŞ»úÆ÷ÈË¡¢¼¦ÍÈ"
-station_ID[12040] = "µÛ¹úÖ®ÃÅÒ±Á¶³§"
-station_ID[12041] = "³öÊÛ»ù´¡ºÏ½ğºÍÌØÖÖºÏ½ğ"
-station_ID[12042] = "ÊÕ¹º½ğÊô¿óÊ¯"
-station_ID[12050] = "µÛ¹úÖ³ÃñµØÃ³Ò×Õ¾"--
-station_ID[12051] = "³öÊÛÆ¡¾Æ¡¢Å£ÅÅ"--
-station_ID[12052] = "ÊÕ¹ºÈÕ³£Éú»îÓÃÆ·¡¢Ğ¡Âó¡¢Ãæ°ü¡¢Å«Á¥"--
-station_ID[12055] = "Ã°ÏÕÕß¹¤»á"--
-station_ID[12060] = "µÛ¹úÖ³ÃñµØÖ÷Á¦½¢´¬Îë"
-station_ID[12061] = "³öÊÛÍËÒÛ»òÕßÌØĞí³öÊÛµÄµÛ¹úÖĞĞÍÕ½½¢"
-station_ID[12062] = "ÊÕ¹º»ù´¡ºÏ½ğ¡¢ÇáĞÍÎäÆ÷Åä¼ş¡¢ÖĞĞÍÎäÆ÷Åä¼ş¡¢Ğ¡ĞÍ´¬Ìå¹¹¼ş¡¢ÖĞĞÍ´¬Ìå¹¹¼ş"
-station_ID[12070] = "µÛ¹úÖ³ÃñµØÌ«¿ÕÅ©³¡"
-station_ID[12071] = "³öÊÛ£ºÌ«¿ÕĞ¡Âó"
-station_ID[12072] = "ÊÕ¹ºÉú»îÀ¬»ø¡¢µ­Ë®"
-station_ID[12080] = "µÛ¹úÖ³ÃñµØÌ«¿ÕÄÁ³¡"
-station_ID[12081] = "³öÊÛÖíÈâ"
-station_ID[12082] = "ÊÕ¹ºĞ¡Âó¡¢µ­Ë®"
-station_ID[12090] = "µÛ¹úÖ³ÃñµØÌ«¿ÕÊ³Æ·³§"
-station_ID[12091] = "³öÊÛÈıÃ÷ÖÎ¡¢¼¦ÍÈ"
-station_ID[12092] = "ÊÕ¹ºÃæ°ü¡¢ÖíÈâ¡¢ºÄ×Ó¡¢Ğ¡Âó"
-station_ID[12100] = "µÛ¹úÖ³ÃñµØµ­Ë®´¦Àí³§"--
-station_ID[12101] = "³öÊÛµ­Ë®"--
-station_ID[12102] = "ÊÕ¹º±ù¿ó"--
-station_ID[12110] = "µÛ¹ú²É¿óÇøÃ³Ò×Õ¾"
-station_ID[12111] = "³öÊÛ£º±ù¿ó"
-station_ID[12112] = "ÊÕ¹º£ºÈıÃ÷ÖÎ"
-station_ID[12120] = "Ï£¸ñÀ­Æì½¢´¬ÎëÃ³Ò×Õ¾"
-station_ID[12121] = "³öÊÛ´óĞÍ´¬Ìå¹¹¼ş"
-station_ID[12122] = "ÊÕ¹º£º´óĞÍÎäÆ÷Åä¼ş¡¢¸ß¼¶ºÏ½ğ¡¢×Ô¶¯Î¬ĞŞ»úÆ÷ÈË¡¢ÌØÖÖºÏ½ğ"
-station_ID[12130] = "Ï£¸ñÀ­Æì½¢´¬ÎëÎäÆ÷ÖÆÔìÖĞĞÄ"
-station_ID[12140] = "Ï£¸ñÀ­Ö÷Á¦½¢´¬ÎëÃ³Ò×Õ¾"
-station_ID[12141] = "³öÊÛ£ºĞ¡ĞÍÎäÆ÷Åä¼ş¡¢¸ß¼¶ĞŞÀí¹¤¾ß"
-station_ID[12142] = "ÊÕ¹º£ºÃæ°ü¡¢±ù¿ó¡¢ÕÂÓãÍè×Ó¡¢»ù´¡ĞŞÀí¹¤¾ß¡¢½ğÊô¿óÊ¯¡¢µÛ¹úÅ£ÅÅ¡¢ÕäÏ¡¿óÊ¯¡¢ÖĞĞÍ´¬Ìå¹¹¼ş¡¢¼¦ÍÈ"
-station_ID[12150] = "Ï£¸ñÀ­Ö÷Á¦½¢´¬Îë´¬Ìå¹¹¼ş¹¤³§"--
-station_ID[12160] = "Ï£¸ñÀ­Ö÷Á¦½¢´¬ÎëÇ°ÏßºóÇÚ¹©Ó¦Õ¾"
-station_ID[12170] = "Ï£¸ñÀ­Ê×ĞÇÃ³Ò×Õ¾"
-station_ID[12171] = "³öÊÛ£ºµ­Ë®¡¢Å£Èâ¡¢ÒÆÃñ´¬Æ±"
-station_ID[12172] = "ÊÕ¹º£ºÈÕ³£Éú»îÓÃÆ·¡¢Ãæ°ü¡¢µÛ¹úÒÆÃñ´¬Æ±¡¢Å£ÅÅ¡¢´¥ÊÖ¡¢ÄÉÃ×ÎïÖÊ¡¢µçÆ÷¡¢Å«Á¥¡¢ÏÈ×æÒÅÎï¡¢¿§·È¡¢ÈËĞÎµçÄÔ¡¢Å®ÆÍ¡¢¼¦ÍÈ¡¢Éİ³ŞÆ·"
-station_ID[12180] = "ÌìÊ¹Ö®ÔÂÃ³Ò×Õ¾"
-station_ID[12181] = "³öÊÛ£º²¹¸øÆ·"
-station_ID[12182] = "ÊÕ¹º£ºÃæ°ü¡¢ÈıÃ÷ÖÎ¡¢ÇáÎäÆ÷Åä¼ş¡¢Æ¡¾Æ¡¢×Ô¶¯²½Ç¹"
-station_ID[12190] = "¸çºÏÄÃÃ³Ò×Õ¾"
-station_ID[12191] = "³öÊÛ½ğÊô¿óÊ¯"
-station_ID[12192] = "ÊÕ¹º£ºÈıÃ÷ÖÎ¡¢Ì«¿ÕÖíÈâ¡¢¸ß¼¶ĞŞÀí¹¤¾ß"
-station_ID[12200] = "Î´ÖªÃ³Ò×Õ¾"--
-station_ID[12201] = "³öÊÛÂí¿¨¶÷Ö®Å­¾Ş½¢"--
-station_ID[12202] = "ÊÕ¹º£ºÈıÃ÷ÖÎ¡¢Ì«¿ÕÃ³Ò×Õ¾¡¢ÇáĞÍÎäÆ÷Åä¼ş¡¢ÕÂÓãÍè×Ó¡¢Æ¡¾Æ¡¢×Ô¶¯²½Ç¹¡¢¼¦ÍÈ"--
-station_ID[12210] = "Î´ÖªÃ³Ò×Õ¾"
-station_ID[12211] = "³öÊÛ£ºÕäÏ§¿óÊ¯"
-station_ID[12212] = "²»ÊÕ¹ºÈÎºÎ¶«Î÷"
-station_ID[12220] = "Î´ÖªÃ³Ò×Õ¾"
-station_ID[12221] = "³öÊÛ£ºÎ¬¸ñ¶ûÖÆÊ½Õ½½¢¡¢´óĞÍÎäÆ÷Åä¼ş"
-station_ID[12222] = "ÊÕ¹º£ºĞ¡Âó¡¢Ğ¡ĞÍ´¬Ìå¹¹¼ş¡¢½ğÊô¿óÊ¯¡¢ÖĞĞÍÎäÆ÷Åä¼ş¡¢»ù´¡ºÏ½ğ¡¢¸ß¼¶ĞŞÀí¹¤¾ß¡¢ÕäÏ§¿óÊ¯¡¢´óĞÍÎäÆ÷Åä¼ş¡¢¸ß¼¶ºÏ½ğ¡¢ÖĞĞÍ´¬Ìå¹¹¼ş¡¢×Ô¶¯Î¬ĞŞ»úÆ÷ÈË¡¢ÌØÖÖºÏ½ğ¡¢ÈËĞÎµçÄÔ"
-station_ID[12230] = "Î´ÖªÃ³Ò×Õ¾"
-station_ID[12231] = "³öÊÛÅ«Á¥¡¢Éİ³ŞÆ·"
-station_ID[12232] = "ÊÕ¹ºÈÕÓÃÆ·¡¢Ğ¡Âó¡¢Ãæ°ü¡¢µ­Ë®¡¢¸ß¼¶Å£Èâ¡¢µÛ¹úÒÆÃñ¡¢´¥ÊÖ¡¢ÄÉÃ×ÎïÖÊ¡¢¼ÒÓÃµçÆ÷¡¢µÛ¹ú¿§·È¡¢µÛ¹úÅ®ÆÍ"
-station_ID[12240] = "°ÍËşÀû°²Õ½½¢·Ø³¡Ã³Ò×Õ¾"
-station_ID[12241] = "³öÊÛ£ºÎ¬¸ñ¶ûÖÆÊ½Õ½½¢¡¢ÖĞĞÍ´¬Ìå¹¹¼ş"
-station_ID[12242] = "ÊÕ¹º£ºÌ«¿ÕĞ¡Âó¡¢Ãæ°ü¡¢ÈıÃ÷ÖÎ¡¢»ù´¡ĞŞÀí¹¤¾ß¡¢Æ¡¾Æ¡¢´óĞÍÎäÆ÷Åä¼ş¡¢¸ß¼¶ºÏ½ğ¡¢´óĞÍ´¬Ìå¹¹¼ş¡¢¼¦ÍÈ¡¢»ù´¡ºÏ½ğ"
-station_ID[12250] = "Äá¸£¶ûº£Ä·Ã³Ò×Õ¾"--
-station_ID[12251] = "³öÊÛ¼ÒÓÃµçÆ÷¡¢¸ß¼¶ºÏ½ğ¡¢×Ô¶¯Î¬ĞŞ»úÆ÷ÈË¡¢ÄÉÃ×ÎïÖÊ"--
-station_ID[12252] = "ÊÕ¹ºÈÕ³£Éú»îÓÃÆ·¡¢Ğ¡Âó¡¢Ãæ°ü¡¢ÈıÃ÷ÖÎ¡¢µ­Ë®¡¢±ù¿ó¡¢ÖíÈâ¡¢Å£Èâ¡¢µÛ¹úÒÆÃñ´¬Æ±¡¢½ğÊô¿óÊ¯¡¢µÛ¹úÅ£ÅÅ¡¢\nÏ£¸ñÀ­ÒÆÃñ¡¢ÕäÏ§¿óÊ¯¡¢Å«Á¥¡¢ÏÈ×æÒÅÎï¡¢¿§·È¡¢ÌØÖÖºÏ½ğ¡¢µÛ¹úÅ®ÆÍ¡¢Éİ³ŞÆ·"--
-station_ID[12260] = "ºÕ¶ûº£ÀûÄ·Ã³Ò×Õ¾"
-station_ID[12261] = "³öÊÛ£ºÕÂÓãÍè×Ó"
-station_ID[12262] = "ÊÕ¹º£ºÇáĞÍÎäÆ÷Åä¼ş¡¢ÕÂÓãÍè×Ó¡¢Æ¡¾Æ¡¢×Ô¶¯²½Ç¹¡¢ÖĞĞÍÎäÆ÷Åä¼ş¡¢¼¦ÍÈ"
-station_ID[12270] = "Î´ÖªÃ³Ò×Õ¾"
-station_ID[12271] = "³öÊÛ£ºÏÈ×æÕ½½¢¡¢ÏÈ×æÒÅÎï"
-station_ID[12272] = "³öÊÛÒ»Ğ©ÌØÊâÕ½½¢"
-station_ID[12282] = "ÊÕ¹ºÈıÃ÷ÖÎ¡¢ÈÕ³£ÓÃÆ·£¬ÄÉÃ×ÎïÖÊ£¬Å®ÆÍ£¬ÈËĞÎµçÄÔ"
-station_ID[12290] = "Î´ÖªÃ³Ò×Õ¾"
-station_ID[12291] = "³öÊÛ£ºÏÈ×æÕ½½¢¡¢ÏÈ×æÒÅÎï"
-station_ID[12292] = "ÊÕ¹º£ºÌ«¿ÕĞ¡Âó¡¢Ãæ°ü¡¢ÈıÃ÷ÖÎ¡¢»ù´¡ĞŞÀí¹¤¾ß¡¢Æ¡¾Æ"
-station_ID[12300] = "Î´ÖªÃ³Ò×Õ¾"--
-station_ID[12310] = "Î´ÖªÃ³Ò×Õ¾"
-station_ID[12330] = "Î´ÖªÃ³Ò×Õ¾"
-station_ID[12335] = "µÛ¹úÇ°Ïß½¢¶Ó²¹¸ø»ùµØ"
-station_ID[12336] = "³öÊÛ£ºÇáĞÍÎäÆ÷Åä¼ş¡¢»ù´¡ĞŞÀí¹¤¾ß¡¢½ÏÎªĞÂÈñµÄÏÖÒÛÕ½½¢"
-station_ID[12337] = "ÊÕ¹º£ºÌ«¿ÕÖíÈâ¡¢Æ¡¾Æ¡¢Ğ¡ĞÍ´¬Ìå¹¹¼ş¡¢ÖĞĞÍÎäÆ÷Åä¼ş¡¢µÛ¹úÅ£ÅÅ¡¢¸ß¼¶ĞŞÀí¹¤¾ß¡¢×Ô¶¯Î¬ĞŞ»úÆ÷ÈË¡¢¼¦ÍÈ"
-station_ID[12340] = "Î´ÖªÃ³Ò×Õ¾"
-station_ID[12350] = "°£ºÕÂåË¹¼ÎµÂ»õ½¢"
-station_ID[12351] = "³öÊÛ°£ºÕÂåË¹¼ÎµÂÌØÖÖÕ½½¢"
-station_ID[12352] = "²»ÊÕ¹ºÈÎºÎ¶«Î÷"
-station_ID[12360] = "Ï£ÁéÖ®ÑÛ"
-station_ID[12361] = "³öÊÛ·ÆÑÅÀûµÛ¹úÌØÖÖÕ½½¢ºÍÀ´×ÔºêÊÀ½çµÄÌØÊâÉÌÆ·"
-station_ID[12362] = "²»ÊÕ¹ºÈÎºÎ¶«Î÷"
-station_ID[12370] = "¿¨À­¿ËÃ³Ò×Õ¾"
-station_ID[12371] = "³öÊÛ£º½ğÊô¿óÊ¯¡¢ÕäÏ§½ğÊô¿óÊ¯"
-station_ID[12372] = "ÊÕ¹º£ºÊ³ÎïºÍ¸÷ÖÖ²¹¸øÎï×Ê"
-station_ID[12380] = "Ì©ÍßÂ×¹²ºÍ¹úÇ°ÉÚÕ¾"
-station_ID[12381] = "³öÊÛ£º´¬Ìå¹¹¼ş"
-station_ID[12382] = "ÊÕ¹º£ºÎäÆ÷Åä¼şºÍ¸÷ÖÖ²¹¸øÎï×Ê£¬½ğÊô¿óÊ¯µÈ"
-station_ID[12390] = "ÃØÃÜÉÌµê"
-station_ID[12391] = "³öÊÛ£ºÒ»Ğ©ÃØÃÜÉÌÆ·"
-station_ID[12400] = "·ÆÑÅÀûµÛ¹úÆì½¢´¬ÎëÈºÃ³Ò×Õ¾"
-station_ID[12401] = "³öÊÛ£ºÆì½¢½¨ÔìÀ¶Í¼"
-station_ID[12402] = "ÊÕ¹º£ºÎäÆ÷Åä¼şºÍ¸÷ÖÖ²¹¸øÎï×Ê£¬½ğÊô²ÄÁÏµÈ"
-station_ID[12410] = "³¯Ê¥ÕßÃ³Ò×Õ¾"
-station_ID[12411] = "³öÊÛ£ºµÍ¼¶ÈËĞÎÔìÎïºÍ³¯Ê¥ÕßÌØ²ú"
-station_ID[12412] = "ÊÕ¹º£º¸÷ÀàÊ³ÎïºÍÉúÎï"
-station_ID[12420] = "¶«Ïß¾ü·§¿ØÖÆÇø"
-station_ID[12421] = "³öÊÛ£ºÎäÆ÷ºÍ´óĞÍÒıÇæ»¹ÓĞÃ¨ßä"
-station_ID[12422] = "ÊÕ¹º£ºÎäÆ÷ºÍ¸÷ÖÖ²¹¸øÎï×Ê£¬Ê³ÎïµÈ"
-station_ID[12425] = "Î¬¸ñ¶û¶«Ïß¾ü·§»î¶¯Çø"
-station_ID[12426] = "³öÊÛ£º"
-station_ID[12427] = "ÊÕ¹º£ºÎäÆ÷ºÍ¸÷ÖÖ²¹¸øÎï×Ê£¬Ê³ÎïµÈ"
-station_ID[12430] = "EDFÃ³Ò×Õ¾"
-station_ID[12431] = "³öÊÛ£º¸÷ÖÖEDFÌØ²ú"
-station_ID[12432] = "ÊÕ¹º£º¸ß¿Æ¼¼²úÆ·£¬¸÷ÖÖ×åÌØ²ú"
-station_ID[12440] = "ÒÏ³²½¢¶Ó²¹¸øÃ³Ò×Õ¾"
-station_ID[12441] = "³öÊÛ£ºÒÏ³²ÌØ²ú"
-station_ID[12442] = "ÊÕ¹º£ºÎäÆ÷Åä¼şºÍ¸÷ÖÖ²¹¸øÎï×Ê£¬Ê³ÎïµÈ"
-station_ID[12450] = "Å©³¡ÈºÃ³Ò×Õ¾"
-station_ID[12451] = "³öÊÛ£º»ù´¡²¹¸ø"
-station_ID[12452] = "ÊÕ¹º£ºÎŞ"
-station_ID[12460] = "ÁªÃËÇ°ÏßÃ³Ò×Õ¾"
-station_ID[12461] = "³öÊÛ£º½´ÓÍ£¬ÉúÎïµçÄÔ"
-station_ID[12462] = "ÊÕ¹º£ºÎäÆ÷Åä¼şºÍ¸÷ÖÖ²¹¸øÎï×Ê"
-station_ID[12470] = "Î´ÖªÃ³Ò×Õ¾"--
-station_ID[12471] = "³öÊÛÌØÊâÕ½½¢"--
+station_ID[12010] = "Empire's Gate Trading Post"
+station_ID[12011] = "Sells high value materials from the Empire proper"
+station_ID[12012] = "Buys nanomaterials, household appliances, precious ores, luxury goods, humanoid computers, tentacles, luxury goods"
+station_ID[12020] = "Empire's Gate Fuel Station"
+station_ID[12021] = "Sells all kinds of fuel"
+station_ID[12022] = "Buys fresh water, precious ores"
+station_ID[12030] = "Empire's Gate Flagship Staging Area"
+station_ID[12031] = "Sells all kinds of large flagships that are decommissioned or licensed for sale by the military"
+station_ID[12032] = "Buys sandwiches, steaks, advanced repair tools, large weapon parts, automated repair robots, chicken legs"
+station_ID[12040] = "Empire's Gate Smelter"
+station_ID[12041] = "Sells basic and special alloys"
+station_ID[12042] = "Buys metal ores"
+station_ID[12050] = "Imperial Colony Trading Post" --
+station_ID[12051] = "Selling beer, steak" --
+station_ID[12052] = "Acquires daily necessities, wheat, bread, slaves" --
+station_ID[12055] = "Adventurer's Guild"--
+station_ID[12060] = "Imperial colony battleship dock"
+station_ID[12061] = "Selling decommissioned or licensed Imperial medium warships"
+station_ID[12062] = "Acquire base alloys; Light, medium Weapon Components; Small, Medium Hull Components"
+station_ID[12070] = "Imperial colony space farms"
+station_ID[12071] = "For sale: space wheat"
+station_ID[12072] = "Acquire domestic garbage, fresh water"
+station_ID[12080] = "Imperial Colony Space Ranch"
+station_ID[12081] = "Selling pork"
+station_ID[12082] = "Buy wheat, fresh water"
+station_ID[12090] = "Imperial Colony Space Food Factory"
+station_ID[12091] = "Selling sandwiches, chicken legs"
+station_ID[12092] = "Buy bread, pork, rats, wheat"
+station_ID[12100] = "Imperial Colony fresh water treatment plant" --
+station_ID[12101] = "Sell fresh water" --
+station_ID[12102] = "Acquire ice mines" --
+station_ID[12110] = "Imperial Mining District Trading Post"
+station_ID[12111] = "For sale: ice ore"
+station_ID[12112] = "Acquire: sandwiches"
+station_ID[12120] = "Hiigara Flagship Dockyard Trading Post"
+station_ID[12121] = "Selling large hull components"
+station_ID[12122] = "Acquire: large weapon components, advanced alloys, auto-repair droids, special alloys"
+station_ID[12130] = "Hiigara Flagship Dockyard Weapons Manufacturing Center"
+station_ID[12140] = "Hiigara Flagship Dockyard Trading Post"
+station_ID[12141] = "For sale: small arms parts, advanced repair tools"
+station_ID[12142] = "Acquire: bread, ice ore, octopus balls, basic repair tools, metal ore, imperial steak, rare ore, medium hull components, chicken legs"
+station_ID[12150] = "Hiigara Battleshipyard Hull Component Factory" --
+station_ID[12160] = "Hiigara Main Dockyard Frontline Logistics Supply Station"
+station_ID[12170] = "Hiigara Prime Star Trading Station"
+station_ID[12171] = "For sale: fresh water, beef, immigrant ship tickets"
+station_ID[12172] = "Acquire: daily necessities, bread, imperial immigrant ship tickets, steaks, tentacles, nanomatter, appliances, slaves, ancestral relics, coffee, humanoid computers, maids, chicken legs, luxury items"
+station_ID[12180] = "Angel Moon Trading Post"
+station_ID[12181] = "For sale: supplies"
+station_ID[12182] = "Acquire: bread, sandwiches, light weapons accessories, beer, automatic rifles"
+station_ID[12190] = "Gohanna Trading Post"
+station_ID[12191] = "Sell metal ore"
+station_ID[12192] = "Buy: sandwiches, space pork, advanced repair tools"
+station_ID[12200] = "Unknown Trading Post" --
+station_ID[12201] = "Sell Makarn's Fury Mega Ship" --
+station_ID[12202] = "Acquire: sandwiches, space trading posts, light weapon parts, octopus balls, beer, automatic rifles, chicken legs" --
+station_ID[12210] = "Unknown Trading Post"
+station_ID[12211] = "For sale: cherished ores"
+station_ID[12212] = "Does not acquire anything"
+station_ID[12220] = "Unknown Trading Post"
+station_ID[12221] = "For sale: Vaygr-made warships, large weapon accessories"
+station_ID[12222] = "Acquire: wheat, small hull components, metal ores, medium weapon parts, basic alloys, advanced repair tools, cherished ores, large weapon parts, advanced alloys, medium hull components, auto repair robots, special alloys, humanoid computers"
+station_ID[12230] = "Unknown Trading Post"
+station_ID[12231] = "Sell slaves, luxury goods"
+station_ID[12232] = "Acquire daily goods, wheat, bread, fresh water, premium beef, imperial immigrants, tentacles, nanomatter, household appliances, imperial coffee, imperial maids"
+station_ID[12240] = "Battalion Battleship Graveyard Trading Post"
+station_ID[12241] = "For sale: Vaygr warships, medium hull components"
+station_ID[12242] = "Acquire: space wheat, bread, sandwiches, basic repair tools, beer, large weapon parts, advanced alloys, large hull components, chicken legs, basic alloys"
+station_ID[12250] = "Niflheim Trading Post" --
+station_ID[12251] = "Selling household appliances, advanced alloys, auto-repair robots, nanomatter, octopus meatballs" --
+station_ID[12252] = "Acquire daily necessities, wheat, bread, sandwiches, fresh water, ice ore, pork, beef, Imperial immigrant ship tickets, metal ore, Imperial steak, \n Hiigara immigrants, cherished ore, slaves, ancestral relics, coffee, special alloys, Imperial maids, luxury goods" --
+station_ID[12260] = "Helheim Trading Post"
+station_ID[12261] = "For sale: Takoyaki"
+station_ID[12262] = "Acquire: light weapon parts, octopus balls, beer, automatic rifles, medium weapon parts, chicken legs"
+station_ID[12270] = "Unknown Trading Post"
+station_ID[12271] = "For sale: ancestral warships, ancestral relics"
+station_ID[12272] = "Selling some special battleships"
+station_ID[12282] = "Acquire sandwiches, everyday items, nanomatter, maids, humanoid computers"
+station_ID[12290] = "Unknown trading post"
+station_ID[12291] = "For sale: ancestral warships, ancestral relics"
+station_ID[12292] = "Acquire: space wheat, bread, sandwiches, basic repair tools, beer"
+station_ID[12300] = "Unknown Trading Post" --
+station_ID[12310] = "Unknown Trading Post"
+station_ID[12320] = "Unknown Trading Post"
+station_ID[12330] = "Unknown Trading Post"
+station_ID[12335] = "Imperial frontline fleet supply base"
+station_ID[12336] = "For sale: light weapon parts, basic repair tools, newer active warships"
+station_ID[12337] = "Acquire: space pork, beer, small hull components, medium weapon parts, imperial steaks, advanced repair tools, auto-repair droids, chicken legs"
+station_ID[12340] = "Unknown Trading Post"
+station_ID[12350] = "Alos Cargo Ship"
+station_ID[12351] = "Alos Special Battleships for sale"
+station_ID[12352] = "Do not acquire anything"
+station_ID[12360] = "Eye of the Hierarchy"
+station_ID[12361] = "Selling Fai'ri Empire special warships and special goods from macro worlds"
+station_ID[12362] = "Do not acquire anything"
+station_ID[12370] = "Kharak Trading Post"
+station_ID[12371] = "For sale: metal ores, precious metal ores"
+station_ID[12372] = "Acquires: food and various supply items"
+station_ID[12380] = "Tevalon Republic Outpost"
+station_ID[12381] = "For sale: hull components"
+station_ID[12382] = "Acquire: weapon parts and various supplies, metal ores, etc."
+station_ID[12390] = "Secret store"
+station_ID[12391] = "For sale: some secret goods"
+station_ID[12400] = "Fai'ri Empire flagship dock complex trading post"
+station_ID[12401] = "For sale: flagship construction blueprints"
+station_ID[12402] = "Acquire: weapon parts and various supplies, metal materials, etc."
+station_ID[12410] = "Pilgrim Trading Post"
+station_ID[12411] = "For sale: low level humanoid artifacts and pilgrim specialties"
+station_ID[12412] = "Acquire: all types of food and creatures"
+station_ID[12420] = "Warlord-controlled areas on the Eastern Front"
+station_ID[12421] = "For sale: weapons and large engines and cats"
+station_ID[12422] = "Acquire: weapons and various supplies, food, etc."
+station_ID[12425] = "Warlord activity area on Vaygr's eastern front"
+station_ID[12426] = "For sale:"
+station_ID[12427] = "Acquire: weapons and various supplies, food, etc."
+station_ID[12430] = "EDF Trading Post"
+station_ID[12431] = "For sale: various EDF specialties"
+station_ID[12432] = "Acquire: high-tech products, various ethnic specialties"
+station_ID[12440] = "Ant nest fleet supply trading station"
+station_ID[12441] = "For sale: anthill specialties"
+station_ID[12442] = "Acquire: weapon parts and various supply items, food, etc."
+station_ID[12450] = "Farm Colony Trading Post"
+station_ID[12451] = "For sale: basic supplies"
+station_ID[12452] = "Acquisitions: none"
+station_ID[12460] = "Alliance frontline trading post"
+station_ID[12461] = "For sale: soy sauce, bio-computer"
+station_ID[12462] = "Acquire: weapon parts and various supply items"
+station_ID[12470] = "Unknown Trading Post" --
+station_ID[12471] = "Special warships for sale" --
 station_ID[12472] = ""--
-station_ID[12480] = "ÁªÃËÖĞ¼ÌµãÃ³Ò×Õ¾"
-station_ID[12481] = "³öÊÛ£º²¹¸øÆ·"
+station_ID[12480] = "Alliance Relay Point Trading Post"
+station_ID[12481] = "For sale: supplies"
 ----------------ST42
-station_ID[12490] = "Ê³ÓÃÓÍ¶¯Á¦´¬ÎëÃ³Ò×Õ¾"
+station_ID[12490] = "é£Ÿç”¨æ²¹åŠ¨åŠ›èˆ¹åè´¸æ˜“ç«™"
 station_ID[12491] = ""
 station_ID[12492] = ""
 -----------------------------------------32-------------
-station_ID[12560] = "Äª¶ûµÏ»ù°²´ó¾ıÃ³Ò×Õ¾"--
-station_ID[12561] = "³öÊÛ£ºÌØÊâÉÌÆ·"--
-station_ID[12562] = "ÊÕ¹º£ºÊ³ÎïºÍ¸ß¼¶ÉÌÆ·"--
------------------------------------------34-------------
-station_ID[12480] = "¿¨¶òË¹ÁªÃË¡ªÀû±´¶û¹²ºÍ¹úÃ³Ò×Õ¾"--
-station_ID[12481] = "³öÊÛ£º²¹¸øÓÃÆ·"--
-station_ID[12482] = "ÊÕ¹º£ºÊ³Æ·ºÍÉú»îÎï×Ê"--
------------------------------------------35-------------
-station_ID[12490] = "¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØÃ³Ò×Õ¾"--
-station_ID[12491] = "³öÊÛ£º¸ß¿Æ¼¼Áã¼ş"--
-station_ID[12492] = "ÊÕ¹º£ºÎäÆ÷Åä¼ş"--
------------------------------------------36-------------
-station_ID[12500] = "×·ÒäÖ®Í¥ÖØ¹¤×Ü²¿´¬ÎëÃ³Ò×Õ¾"--
-station_ID[12501] = "³öÊÛ£º¸ß¿Æ¼¼Áã¼ş"--
-station_ID[12502] = "ÊÕ¹º£ºÏÈ½øµç×Ó²úÆ·"--
-------------------------------------------37------------
-station_ID[12510] = "¿¨¶òË¹ÁªÃË»ìãçÉÌÈËÃ³Ò×Õ¾"--
-station_ID[12511] = "³öÊÛ£ºÁªÃËÌØ²ú"--
-station_ID[12512] = "ÊÕ¹º£º¸÷ÖÖ¸ß¼¶ÉÌÆ·"--
------------------------------------------38-------------
-station_ID[12520] = "µÚ58ÌØ»ì½¢¶Ó¼¯½áµØÃ³Ò×Õ¾"--
-station_ID[12521] = "ÊÕ¹º£ºÎäÆ÷Åä¼ş"--
+station_ID[12560] = "è«å°”è¿ªåŸºå®‰å¤§å›è´¸æ˜“ç«™"--
+station_ID[12561] = "å‡ºå”®ï¼šç‰¹æ®Šå•†å“"--
+station_ID[12562] = "æ”¶è´­ï¼šé£Ÿç‰©å’Œé«˜çº§å•†å“"--
+-----------------------------------------34 -------------
+station_ID[12480] = "Caius Alliance - Libel Republic Trading Post" --
+station_ID[12481] = "For sale: supply items" --
+station_ID[12482] = "Acquire: food and subsistence supplies" --
+-----------------------------------------35 -------------
+station_ID[12490] = "Caius Union - Union Berth Trading Post" --
+station_ID[12491] = "For sale: high-tech parts" --
+station_ID[12492] = "Acquire: Weapon Parts" --
+-----------------------------------------36 -------------
+station_ID[12500] = "Court of Memories Heavy Industries HQ Dockyard Trading Post" --
+station_ID[12501] = "For sale: high-tech parts" --
+station_ID[12502] = "Acquire: Advanced Electronics" --
+------------------------------------------37 ------------
+station_ID[12510] = "Caius Alliance Chaos Trader Trading Post" --
+station_ID[12511] = "For Sale: Alliance Specialties" --
+station_ID[12512] = "Acquire: various premium goods" --
+-----------------------------------------38 -------------
+station_ID[12520] = "58th Task Force Staging Area Trading Post" --
+station_ID[12521] = "Acquisition: weapon accessories" --
 station_ID[12522] = ""
 -----------------------------------------39-------------
-station_ID[12530] = "¿¨¶òË¹ÓÀÉúÕßÌ½Ë÷Ö®³õÃ³Ò×Õ¾"--
-station_ID[12531] = "ÊÕ¹º£ºÉİ³ŞÆ·"--
+station_ID[12530] = "Caius Aeonquist Quest Beginning Trading Post" --
+station_ID[12531] = "Acquisition: Luxury Goods" --
 station_ID[12532] = ""
 ----------------------------------------40--------------
-station_ID[12540] = "°¢ÒòÌØË¹½¢¶Ó¼¯½áµØÃ³Ò×Õ¾"--
-station_ID[12541] = "ÊÕ¹º£ºÎäÆ÷Åä¼şºÍ¸÷ÖÖ²¹¸øÎï×Ê"--
+station_ID[12540] = "Trading post at the Aintex Fleet Staging Area" --
+station_ID[12541] = "Acquisitions: weapon parts and various supply items" --
 station_ID[12542] = ""
-------------------------------------------41------------
-station_ID[12550] = "ĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹Ã³Ò×Õ¾"--
-station_ID[12551] = "ÊÕ¹º£ºÊ³Æ·ºÍÉú»îÎï×Ê"--
+------------------------------------------41 ------------
+station_ID[12550] = "Jumpgate Metropolis Gripes Trading Post" --
+station_ID[12551] = "Acquisition: food and household goods" --
 station_ID[12552] = ""--
 ------------------------------------------42------------
-station_ID[12310] = "Ê³ÓÃÓÍ¶¯Á¦´¬ÎëÃ³Ò×Õ¾"
-station_ID[12311] = "ÊÕ¹º£ºÔ­²ÄÁÏºÍ¹¤ÒµÆ·"
-station_ID[12312] = "³öÊÛ£ºÊ³ÓÃÓÍ"
+station_ID[12310] = "é£Ÿç”¨æ²¹åŠ¨åŠ›èˆ¹åè´¸æ˜“ç«™"
+station_ID[12311] = "æ”¶è´­ï¼šåŸææ–™å’Œå·¥ä¸šå“"
+station_ID[12312] = "å‡ºå”®ï¼šé£Ÿç”¨æ²¹"
+station_ID[12560] = "Mordechian Maharaja border trading post"
+station_ID[12561] = "Acquisition: food, population"
+station_ID[12562] = "For sale: maharajah's quotes, pickup tips"
 ------------------------------------------ST44------------
-station_ID[13330] = "°¢ÍßËşĞ­»áÌ½Ë÷½¢¶ÓÃ³Ò×Õ¾"
-station_ID[13331] = "ÊÕ¹º£ºÍÚ·Ø²úÎï"
-station_ID[13332] = "³öÊÛ£ººÏ³ÉÉñ¾­´Ø"
+station_ID[13330] = "é˜¿ç“¦å¡”åä¼šæ¢ç´¢èˆ°é˜Ÿè´¸æ˜“ç«™"
+station_ID[13331] = "æ”¶è´­ï¼šæŒ–åŸäº§ç‰©"
+station_ID[13332] = "å‡ºå”®ï¼šåˆæˆç¥ç»ç°‡"
 ------------------------------------------ST45------------
-station_ID[12350] = "ÍßÄÉº£Ä·Ã³Ò×Õ¾"
-station_ID[12351] = "ÊÕ¹º£ºÊ³ÎïºÍÁ÷¶¯ÈË¿Ú"
-station_ID[12352] = "³öÊÛ£º¸è¼§ÊÖ°ì"
+station_ID[12350] = "ç“¦çº³æµ·å§†è´¸æ˜“ç«™"
+station_ID[12351] = "æ”¶è´­ï¼šé£Ÿç‰©å’ŒæµåŠ¨äººå£"
+station_ID[12352] = "å‡ºå”®ï¼šæ­Œå§¬æ‰‹åŠ"
 ------------------------------------------46------------
-station_ID[12300] = "ÅµÑÇ¿âÉêÁªºÏ¹¤ÒµÔ°Ã³Ò×Õ¾"--
-station_ID[12301] = "ÊÕ¹º£ººÀ»ª¼Ò¾ß£¬º£ÏÊ£¬Éİ³ŞÆ·£¬ÈÕ³£Éú»îÓÃÆ·"--
+station_ID[12300] = "è¯ºäºšåº“ç”³è”åˆå·¥ä¸šå›­è´¸æ˜“ç«™"--
+station_ID[12301] = "æ”¶è´­ï¼šè±ªåå®¶å…·ï¼Œæµ·é²œï¼Œå¥¢ä¾ˆå“ï¼Œæ—¥å¸¸ç”Ÿæ´»ç”¨å“"--
 station_ID[12302] = ""--
 ------------------------------------------47------------
-station_ID[12320] = "¿ª·¢´úºÅ°¢Ë¹ÁáÃ³Ò×Õ¾"--
-station_ID[12321] = "ÊÕ¹º£º´¬ÌåÅä¼ş£¬ÎäÆ÷Åä¼ş£¬Å«Á¥"--
+station_ID[12320] = "å¼€å‘ä»£å·é˜¿æ–¯ç²è´¸æ˜“ç«™"--
+station_ID[12321] = "æ”¶è´­ï¼šèˆ¹ä½“é…ä»¶ï¼Œæ­¦å™¨é…ä»¶ï¼Œå¥´éš¶"--
 station_ID[12322] = ""--
 ------------------------------------------48------------
-station_ID[12340] = "²ÔĞÇÕ½ÍÅÑ²º½×ø±êÃ³Ò×Õ¾"--
-station_ID[12341] = "ÊÕ¹º£º¸÷ÀàÊ³²Ä"--
-station_ID[12342] = "³öÊÛ£ºÂÃĞĞ¿ÚÁ¸"--
+station_ID[12340] = "è‹æ˜Ÿæˆ˜å›¢å·¡èˆªåæ ‡è´¸æ˜“ç«™"--
+station_ID[12341] = "æ”¶è´­ï¼šå„ç±»é£Ÿæ"--
+station_ID[12342] = "å‡ºå”®ï¼šæ—…è¡Œå£ç²®"--
 ------------------------------------------49------------
-station_ID[12350] = "°µÇøÃ³Ò×Õ¾"--
-station_ID[12351] = "ÊÕ¹º£ºÎ´Öª"--
-station_ID[12352] = "³öÊÛ£ºÎ´Öª"--
+station_ID[12350] = "æš—åŒºè´¸æ˜“ç«™"--
+station_ID[12351] = "æ”¶è´­ï¼šæœªçŸ¥"--
+station_ID[12352] = "å‡ºå”®ï¼šæœªçŸ¥"--
 ------------------------------------------50------------
-station_ID[12330] = "CPSRÓÎ»ê½¢¶Ó×¤µØÃ³Ò×Õ¾"--
-station_ID[12331] = "ÊÕ¹º£º´¬ÌåÅä¼ş£¬ÎäÆ÷Åä¼ş£¬»ù´¡Áã¼ş"--
-station_ID[12332] = "³öÊÛ£ºÑÛÇò°²±£»úÆ÷ÈË"--
-
+station_ID[12330] = "CPSRæ¸¸é­‚èˆ°é˜Ÿé©»åœ°è´¸æ˜“ç«™"--
+station_ID[12331] = "æ”¶è´­ï¼šèˆ¹ä½“é…ä»¶ï¼Œæ­¦å™¨é…ä»¶ï¼ŒåŸºç¡€é›¶ä»¶"--
+station_ID[12332] = "å‡ºå”®ï¼šçœ¼çƒå®‰ä¿æœºå™¨äºº"--
 
 good_ID = {}
-good_ID[50000] = "µ­Ë®"--1
-good_ID[50001] = "¼ò½é£º\nµ­Ë®ÊÇÒøºÓÏµÖĞÊ¹ÓÃ×î¹ã·ºµÄÎïÖÊ¡£ÊÇ×îÖØÒªµÄ²¹¸øÎï×Ê£¬¼¸ºõËùÓĞµÄ½¢´¬ºÍ¿Õ¼äÕ¾¶¼ĞèÒª¡£"
-good_ID[50005] = "Æ¡¾Æ"--2
-good_ID[50006] = "¼ò½é£º\nÆ¡¾ÆÊÇÒ»ÖÖ³£¼ûµÄ¾Æ¾«ÒûÁÏ£¬ºÜÊÜÄÇĞ©Ì«¿Õ·ÉĞĞÔ±µÄ»¶Ó­¡£Æ¡¾ÆÖ÷ÒªÓÉ¹ÈÀàÄğÔì¶ø³É£¬Ò»Ğ©Ì«¿Õ³ÇÊĞºÍÌØÊâµÄÄğÔì´¬¶¼¿ÉÒÔÄğÔìÆ¡¾Æ¡£"
-good_ID[50010] = "¹ş¿Ë°ÂÂŞ¿§·È"--3
-good_ID[50011] = "¼ò½é£º\n¿§·ÈÊÇÒ»ÖÖ¹ÅÀÏµÄÒûÁÏ£¬ºÜÊÜÉÏÁ÷Éç»áÈËÊ¿µÄ»¶Ó­¡£Ï£¸ñÀ­Ê×ĞÇºÍ°£ºÕÂåË¹¼ÎµÂµÛ¹úÇ°ÉÚÕ½µÈµØ¶¼»á¸ß¼ÛÊÕ¹ºÕâÖÖÉÌÆ·"
-good_ID[50100] = "ÇâÈ¼ÁÏ"--4
-good_ID[50101] = "´ó²¿·ÖÕ½¶·»úºÍÅÚÍ§¼¶µ¥Î»¶¼ĞèÒªÌá¹©ÇâÈ¼ÁÏ£¬ÊÕ¹ºÇâÈ¼ÁÏµÄµØ·½²»¶à£¬´ó²¿·Ö¿ÉÒÔ×ÔĞĞÓÃµ­Ë®µç½â¡£"
-good_ID[50105] = "ºËÈ¼ÁÏ"--5
-good_ID[50106] = "´ó²¿·Ö»¤ÎÀ½¢ºÍÖ÷Á¦½¢¶¼ĞèÒªÌá¹©ºËÈ¼ÁÏ£¬ºËÈ¼ÁÏÊÇÖØÒªµÄ²¹¸øÎï×Ê¡£Ò»Ğ©ÖĞĞÍÌ«¿ÕÕ¾Ò²ĞèÒªºËÈ¼ÁÏ×÷ÎªÄÜÔ´"
-good_ID[50110] = "·´ÎïÖÊÄÜÁ¿Ô´"--6
-good_ID[50111] = "·´ÎïÖÊÄÜÁ¿ÊÇÖØÒªÈ¼ÁÏÖ®Ò»£¬Ö÷ÒªÓÃÔÚÆì½¢ºÍ´óĞÍÖ÷Á¦½¢ÉÏ¡£²»¹ı´ó²¿·Ö´óĞÍ¿Õ¼äÕ¾ºÍ´óĞÍ¹¤³§ÖĞÒ²ĞèÒª·´ÎïÖÊÄÜÁ¿Ô´×÷ÎªÄÜÔ´"
-good_ID[50200] = "Ãæ°ü"--7
-good_ID[50201] = "¼ò½é£º\nÃæ°üÊÇÒøºÓÏµÖĞ´ó²¿·ÖÖÖ×åµÄÖ÷Ê³£¬¿ÉÒÔÌá¹©×ã¹»µÄÈÈÁ¿ºÍÑø·Ö¡£Ãæ°üÊÇÒ»Ğ©Ğ¡ĞÍ»¤ÎÀ½¢ºÍÉÌ´¬µÄÖ÷Òª¹©¸øÎï¡£²»ÉÙºóÇÚÉèÊ©ºÍÈË¿Ú¾Û¼¯Çø¶¼»áÊÕ¹ºÃæ°ü¡£"
-good_ID[50205] = "ÈıÃ÷ÖÎ"--8
-good_ID[50206] = "¼ò½é£º\nÈıÃ÷ÖÎ¿ÉÒÔÓĞĞ§µÄ²¹³äÌåÁ¦ºÍÓªÑø£¬ÊÇ´óÖĞĞÍ½¢´¬µÄÖ÷ÒªÊ³Îï²¹¸ø¡£ÈıÃ÷ÖÎ¿ÉÒÔÔÚ¹©Ó¦´¬ÖĞÓÃÃæ°üºÍÖíÈâ×Ô¼ºÖÆ×÷"
-good_ID[50210] = "Ì«¿ÕÅ£ÅÅ"--9
-good_ID[50211] = "¼ò½é£º\nÌ«¿ÕÅ£ÅÅÊÇÒ»ÖÖ¸ßÆ·ÖÊµÄÃÀÊ³£¬ºÜÊÜÌ«¿Õ½¢³¤ºÍÉÏ²ã¹ó×åµÄ»¶Ó­¡£Ò»Ğ©¸ß¼¶Õ½½¢ºÍ´óĞÍÆì½¢ĞèÒª¹©Ó¦ÕâÖÖÊ³Îï"
-good_ID[50300] = "ÈÕ³£Éú»îÓÃÆ·"--10
-good_ID[50301] = "¼ò½é£º\nÈÕ³£Éú»îÓÃÆ·°üÀ¨ÁËÒÂ±»Ğ¬ÍàºÍÃ«½íÑÀË¢Ö®ÀàµÄÁ®¼ÛÎï¡£ÈÕ³£Éú»îÓÃÆ·ÊÇ´ó²¿·ÖÉÌ´¬µÄ±ØĞëÆ·£¬Ò»Ğ©ÈË¿ÚÃÜ¼¯µÄÌ«¿Õ³ÇÊĞºÍĞĞĞÇÒ²ĞèÒªÊÕ¹ºËü¡£"
-good_ID[50305] = "¼ÒÓÃµçÆ÷"--11
-good_ID[50306] = "¼ò½é£º\n¾¡¹ÜºÍÕ½Õù¹ØÏµ²»´ó£¬µ«ÊÇËüÃÇÈ·¿ÉÒÔ´ó´óµÄÌá¸ß´¬Ô±ºÍÆÕÍ¨ÃñÖÚµÄÉú»îÖÊÁ¿¡£·ÆÑÅÀûµÛ¹ú±¾ÍÁºÍÏ£¸ñÀ­Ê×ĞÇ»á¸ß¼ÛÊÕ¹ºÕâÖÖÉÌÆ·¡£"
-good_ID[50310] = "Éİ³ŞÆ·"--12
-good_ID[50311] = "¼ò½é£º\n¾¡¹ÜÕ½ÕùÈÃÒøºÓÏµÖĞµÄ´ó²¿·ÖÃñÖÚÁ÷ÀëÊ§Ëù£¬µ«ÊÇÎ¬¸ñ¶û¹ó×åÈ´ÒÀÈ»Éú²ú²¢ÏíÓÃÕâĞ©×îÉİ»ªµÄÎï×Ê¡£·ÆÑÅÀûµÛ¹ú±¾ÍÁºÍÏ£¸ñÀ­Ê×ĞÇ»á¸ß¼ÛÊÕ¹ºÕâÖÖÉÌÆ·¡£"
-good_ID[50400] = "¹ÈÎï"--13
-good_ID[50401] = "¼ò½é£º\n´ÓÔ¶¹ÅÊ±ÆÚÆğ¹ÈÎï¾ÍÊÇÈËÀàÖØÒªµÄÁ¸Ê³À´Ô´¡£Ì«¿ÕÊ³Æ·³§ºÍÒ»Ğ©²¹¸øÕ¾»áÊÕ¹ºÕâÖÖÊ³Îï£¬²»¹ıĞ¡ÂóµÄÁíÍâÒ»¸öÖØÒªÓÃÍ¾ÊÇÔÚ¹©Ó¦´¬ÖĞ×ÔĞĞÖÆ×÷Ãæ°ü£¬»òÕßÓÃÀ´Î¹ÖíºÍÎ¹Å£¡£"
-good_ID[50405] = "ÖíÈâ"--14
-good_ID[50406] = "¼ò½é£º\nÖíÈâÊÇ´ó²¿·ÖÈâÊ³µÄÖ÷Òª¹©Ó¦À´Ô´£¬¿ÉÒÔÓÃÀ´ÖÆ×÷ÈıÃ÷ÖÎ¡£Ì«¿ÕÊ³Æ·³§ºÍºóÇÚ¹©Ó¦Õ¾»áÖ±½ÓÊÕ¹ºÖíÈâ£¬µ«ÊÇÖíÈâÒ²¿ÉÒÔÓÃÀ´ÔÚ¹©Ó¦´¬ÖĞºÍÃæ°üÒ»ÆğÖÆ×÷ÈıÃ÷ÖÎ¡£"
-good_ID[50410] = "Å£Èâ"--15
-good_ID[50411] = "¼ò½é£º\nÅ£ÈâÊÇ´ó²¿·Ö¸ß¼¶ÁÏÀíµÄÖ÷ÒªÊ³²Ä£¬Î¶µÀÏÊÃÀÉîÊÜÉÏ²ãÈËÊ¿µÄ»¶Ó­¡£Ò»Ğ©´óĞÍÌ«¿Õ³ÇÊĞÖĞ»áÊÕ¹ºÅ£Èâ¡£Å£ÈâÒ²¿ÉÒÔÔÚ¸ß¼¶¹¤Òµ´¬µÄ³ø·¿ÖĞÖÆ×÷³ÉÅ£ÅÅ¡£"
-good_ID[50500] = "»ù´¡Î¬»¤¹¤¾ß"--16
-good_ID[50501] = "¼ò½é£º\n»ù´¡Î¬»¤¹¤¾ßÓÃ¸ø·É´¬ºÍ¸÷ÖÖ»úĞµÉè±¸½øĞĞÈÕ³£µÄÎ¬»¤¡£»ù´¡Î¬»¤¹¤¾ßÖ÷Òª¸ø¹©Ó¦´¬ÈÕ³£Î¬»¤Ê¹ÓÃ£¬µ«ÊÇÒ»Ğ©Æ«Æ§ĞÇÇøµÄ²¹¸ø»ùµØÒ²»á¸ß¼ÛÊÕ¹ºÕâĞ©¶«Î÷"
-good_ID[50505] = "¸ß¼¶¹¤¾ß"--17
-good_ID[50506] = "¼ò½é£º\n¸ß¼¶¹¤¾ßÓÉÒ»Ğ©¸ß¾«¶ÈµÄµç×Ó¼ìĞŞÉè±¸ºÍ±ãĞ¯Ê½µÄ¹¤³ÌµçÄÔËù×é³É¡£¸ß¼¶¹¤¾ßÊÇ¸ß¼¶¹¤Òµ´¬±ØĞëµÄÎ¬»¤¹¤¾ß£¬µ«ÊÇÒ»Ğ©´óĞÍÔì´¬»ùµØºÍ¹¤Òµ»ùµØÒ²ĞèÒªÓÃµ½¡£"
-good_ID[50510] = "×Ô¶¯Î¬ĞŞ»úÆ÷ÈË"--18
-good_ID[50511] = "¼ò½é£º\n×Ô¶¯Î¬ĞŞ»úÆ÷ÈËÊÇ×îÏÈ½øµÄÎ¬»¤µ¥Î»¡£¸ß¼¶µÄ¹¤Òµ½¢ÖĞĞèÒªÓÃµ½Ëü½øĞĞÎ¬»¤£¬Ò»Ğ©Éú²ú´óĞÍÆì½¢µÄ¹¤Òµ»ùµØÒ²»á¸ß¼ÛÊÕ¹ºÕâÖÖ²úÆ·¡£"
-good_ID[50600] = "±ù¿óÊ¯"--19
-good_ID[50601] = "¼ò½é£º\nĞ¡ĞĞĞÇÖĞ¿ª²É³öÀ´µÄ±ù¿óÊ¯ÖĞÔÌº¬ÁË´óÁ¿µÄË®×ÊÔ´¡£Ò»Ğ©²¹¸ø»ùµØºÍµ­Ë®³§»áÊÕ¹ºÕâÖÖ¿óÊ¯£¬µ«ÊÇ±ù¿óÒ²¿ÉÒÔÔÚ¹¤Òµ½¢ÖĞ×ÔĞĞÉú²ú³öµ­Ë®¡£"
-good_ID[50605] = "½ğÊô¿óÊ¯"--20
-good_ID[50606] = "¼ò½é£º\n½ğÊô¿óÊ¯ÊÇ¸÷ÀàºÏ½ğµÄÖ÷Òª²ÄÁÏÀ´Ô´£¬¸÷ÖÖ»ù±¾µÄ½ğÊôÔªËØ¶¼¿ÉÒÔ´ÓÖĞÌáÁ¶µÄµ½¡£Ì«¿ÕÒ±Á¶³§ºÍÒ»Ğ©ºóÇÚ¹¤³§¶¼»áÊÕ¹ºÕâÖÖ¿óÊ¯£¬¹¤Òµ½¢ÖĞÒ²ÓĞÉè±¸¿ÉÒÔ×ÔĞĞÒ±Á¶¡£"
-good_ID[50610] = "ÕäÏ¡¿óÊ¯"--21
-good_ID[50611] = "¼ò½é£º\nÕäÏ¡¿óÊ¯ÖĞÔÌº¬×Å¸÷ÖÖ¸÷ÑùµÄÎ¢Á¿ÔªËØºÍ¹ó½ğÊô£¬ËüÒ²ÊÇÉú²úºËÈ¼ÁÏÉõÖÁÊÇ·´ÎïÖÊÄÜÁ¿Ô´µÄ¹Ø¼ü²ÄÁÏ¡£Ò»Ğ©È¼ÁÏ¹¤³§ºÍºóÇÚ»ùµØ»á¸ß¼ÛÊÕ¹ºÕâÖÖ¿óÊ¯¡£"
-good_ID[50700] = "»ù´¡ºÏ½ğ"--22
-good_ID[50701] = "¼ò½é£º\n»ù´¡ºÏ½ğÊÇÖÆÔì´ó²¿·Ö´¬ÌåºÍÎäÆ÷Éè±¸µÄÖ÷Òª²ÄÁÏ£¬»¹¿ÉÒÔºÍÕäÏ¡¿óÊ¯Ò»Æğ±»ÖÆ×÷³É¸ß¼¶ºÏ½ğ¡£Ò»Ğ©Åä¼ş¹¤³§ºÍÔì´¬³§»á´óÁ¿ÊÕ¹º¡£"
-good_ID[50705] = "¸ßÇ¿¶ÈºÏ½ğ"--23
-good_ID[50706] = "¼ò½é£º\n¸ßÇ¿¶ÈºÏ½ğÖ÷ÒªÓÃÀ´ÖÆÔì·É´¬µÄÁú¹ÇºÍ¸÷ÖÖ×°¼×°å¿éÒÔ¼°³ĞÖØ½á¹¹µÈ¹Ø¼ü²¿¼ş¡£Ò»Ğ©Åä¼ş¹¤³§ºÍÔì´¬³§»á´óÁ¿ÊÕ¹º¡£"
-good_ID[50710] = "ÌØÖÖºÏ½ğ"--24
-good_ID[50711] = "¼ò½é£º\nÌØÖÖºÏ½ğÒ»°ãÓÃÀ´ÖÆÔìÄÜÔ´Â¯ºÍÄÜÁ¿ÎäÆ÷µÄ·¢Éä¹ÜµÀ¡£µ«ÊÇÒ»Ğ©ÌØÖÖ×°¼×ÉÏÒ²»áÌí¼ÓÕâÖÖ²ÄÁÏ¡£Ò»Ğ©Åä¼ş¹¤³§ºÍÔì´¬³§»á´óÁ¿ÊÕ¹º¡£"
-good_ID[50800] = "Ğ¡¿Ú¾¶ÎäÆ÷Åä¼ş"--25
-good_ID[50801] = "¼ò½é£º\nĞ¡ĞÍÎäÆ÷Åä¼şÖ÷Òª¸øÒ»Ğ©Ğ¡¿Ú¾¶ÎäÆ÷½øĞĞÎ¬»¤ºÍ±£Ñø¡£´ó²¿·Ö»¤ÎÀ½¢ºÍÕ½¶·»ú¶¼ĞèÒªÓÃµ½£¬Ò»Ğ©Ôì´¬³§Ò²ĞèÒªÕâÖÖÁãÅä¼ş¡£"
-good_ID[50805] = "ÖĞĞÍÎäÆ÷Åä¼ş"--26
-good_ID[50806] = "¼ò½é£º\nÖĞĞÍÎäÆ÷Åä¼şÖ÷ÒªÓÃÀ´¸øÒ»Ğ©ÖĞ¿Ú¾¶ºÍ´ó¿Ú¾¶µÄ»ğÅÚ½øĞĞ±£Ñø¡£´ó²¿·ÖÖĞĞÍÕ½½¢¶¼ĞèÒªÓÃµ½£¬Ò»Ğ©Ôì´¬³§Ò²ĞèÒªÕâÖÖÁãÅä¼ş¡£"
-good_ID[50810] = "´óĞÍÎäÆ÷Åä¼ş"--27
-good_ID[50811] = "¼ò½é£º\n´óĞÍÎäÆ÷Åä¼şÊÇÒ»Ğ©¾ŞĞÍ»ğÅÚµÄÉí¹Ü»òÕß´óÖ±¾¶Öá³ĞµÈ±¿ÖØµÄ½á¹¹Áã¼şµÄÍ³³Æ£¬ÓîÖæÖĞ¸÷´óÖÖ×åÕ½½¢µÄÖ÷Á¦ÎäÆ÷¶¼ÓĞÓÃµ½¡£Ò»Ğ©´óĞÍÔì´¬³§Ò²»áÊÕ¹º"
-good_ID[50900] = "»ù´¡ÒıÇæÅä¼ş"--XX
-good_ID[50901] = "ºÍÎäÆ÷Ò»Ñù£¬·É´¬µÄÒıÇæÒ²ÓÉ´óÁ¿µÄÁã¼ş²ÄÁÏËù×é³É£¬±ÈÈç¹ÜµÀ£¬½ÓÍ·£¬·§ÃÅ£¬µçÂ·µÈ¡£ÕâĞ©²¿¼şÔÚÒıÇæÈÕ³£µÄ²»¶ÏÔË×ªÖ®ÏÂºÜÈİÒ×Ëğ»µ£¬ĞèÒª¼°Ê±µÄ¸ü»»¡£ÒıÇæ»ù´¡Åä¼ş´ó¶àÓÉ»ù´¡ºÏ½ğÖÆÔì£¬µ«ÊÇÒ²»áÓÃµ½ÉÙÁ¿µÄ¸ßÇ¿¶ÈºÏ½ğ¡£"
-good_ID[50905] = "¸ß¼¶ÒıÇæÅä¼ş"--XX
-good_ID[50906] = "¸ß¼¶ÒıÇæÅä¼şÖ÷ÒªÓÃÔÚÒ»Ğ©´óÖĞĞÍ½¢´¬µÄÒıÇæÉÏ£¬ÓÉÒ»Ğ©½Ï¸ßÇ¿¶ÈµÄ²ÄÁÏÖÆ³É¡£¸ß¼¶ÒıÇæÅä¼şµÄÖÆ×÷¹¤ÒÕ½ÏÎª¸´ÔÓ£¬¶øÇÒÓÃµ½µÄ²ÄÁÏ±È»ù´¡ÒıÇæÅä¼şÒªÀ´µÄ¶à¡£"
-good_ID[50910] = "³¬¿Õ¼äÒıÇæÅä¼ş"--XX
-good_ID[50911] = "³¬¿Õ¼äÒıÇæÒ»°ãÓÉ´óÁ¿µÄÄÜÔ´¹ÜµÀºÍ¸´ÔÓµÄµç×ÓÉè±¸Ëù×é³É£¬ËùÒÔËüËùÓÃµÄÁãÅä¼şÅä¼şÒ²ÒªÇóÒªÓĞ¼«¸ßµÄÖÆÔì¹¤ÒÕ¡£Ä¿Ç°³¬¿Õ¼äÒıÇæÅä¼şÖ»ÓĞ¸÷´óÖÖ×åµÄ´óĞÍ¿ÆÑĞ»ùµØÖĞ²ÅÓĞÉú²ú¡£"
-good_ID[51000] = "Ğ¡ĞÍ´¬Ìå¹¹¼ş"--28
-good_ID[51001] = "¼ò½é£º\nĞ¡ĞÍ´¬Ìå¹¹½¨Ò»°ãÓÉÒ»Ğ©»ù´¡ºÏ½ğÖÆÔìµÄ½ğÊô°åºÍ¸ßÇ¿¶ÈºÏ½ğÖÆ×÷µÄÁú¹ÇËù¹¹³É£¬Êı¿éĞ¡ĞÍ´¬Ìå¹¹¼ş¾Í¿ÉÒÔ×é×°³ÉÒ»ËÒ»¤ÎÀ½¢¼¶ĞÇ½¢µÄ´¬Ìå¡£Ò»Ğ©Ôì´¬³§ºÍºóÇÚ»ùµØ¶¼»áÊÕ¹ºÕâÖÖÉÌÆ·"
-good_ID[51005] = "ÖĞĞÍ´¬Ìå¹¹¼ş"--29
-good_ID[51006] = "¼ò½é£º\nÖĞĞÍ´¬Ìå¹¹¼şÌå»ı¸ü´ó£¬½á¹¹¸ü¼á¹Ì£¬ÊÇ×é×°´óÖĞĞÍ´¬ÌåµÄÖ÷Òª²ÄÁÏ¡£Ò»Ğ©Ôì´¬³§ÖĞÍùÍù»áÏÈ°ÑÖĞĞÍ´¬Ìå¹¹¼şÉú²ú³öÀ´£¬ÔÙËü×é×°´¬Ìå¡£Ò»Ğ©Ôì´¬³§ºÍºóÇÚ»ùµØ¶¼»áÊÕ¹ºÕâÖÖÉÌÆ·"
-good_ID[51010] = "´óĞÍ´¬Ìå¹¹¼ş"--30
-good_ID[51011] = "¼ò½é£º\n´óĞÍ´¬Ìå¹¹¼şÊÇ¾ŞĞÍ´¬ÌåµÄ×éÒª¹¹³É²¿¼ş£¬Ä¿Ç°¸÷´óÖÖ×åµÄ¾ŞĞÍÕ½½¢ÔÚÉú²úÖÆ×÷ÖĞ¶¼ÒªÓÃµ½ÕâĞ©²ÄÁÏ¡£Ò»Ğ©Ôì´¬³§ºÍºóÇÚ»ùµØ¶¼»áÊÕ¹ºÕâÖÖÉÌÆ·"
-good_ID[51100] = "³£¹æÒıÇæ"--XX
-good_ID[51101] = "ÕâÖÖÒıÇæÖ÷Òª×°±¸ÔÚÒ»Ğ©Ğ¡ĞÍ»¤ÎÀ½¢ºÍÖĞĞÍÕ½½¢ÉÏ£¬Í¨¹ıÏûºÄÇâÈ¼ÁÏÀ´²úÉú×ã¹»µÄÍÆ½øÁ¦¡£³£¹æÒıÇæµÄÖÆ×÷½ÏÎª¼òµ¥£¬Ò»Ğ©Ìõ¼ş¼òµ¥µÄ´¬³§¾Í¿ÉÒÔÉú²ú¡£"
-good_ID[51110] = "³¬¿Õ¼äÒıÇæ"--XX
-good_ID[51111] = "³¬¿Õ¼äÒıÇæÊÇÌ«¿ÕÕ½½¢½øĞĞ³¬Ô¶¾àÀëº½ĞĞµÄ±Ø±¸Éè±¸£¬ĞèÒª´óÁ¿µÄÄÜÔ´²ÅÄÜÇı¶¯£¬¶øÇÒÔì¼Û²»·Æ¡£"
-good_ID[51200] = "·ÆÑÅÀûÒÆÃñ"--31
-good_ID[51201] = "¼ò½é£º\n¾¡¹ÜÒøºÓÏµÖĞµÄÉú»îÒª±ÈµÛ¹ú±¾ÍÁÎ£ÏÕµÄ¶à£¬µ«ÊÇÒ²´æÔÚ×Å»úÓö¡£ËùÒÔ·ÆÑÅÀûµÛ¹ú¹úÄÚ»¹ÊÇÓĞÒ»Ğ©ÈË»áÑ¡ÔñÁìÒ»´ó±Ê²¹Ìù×Ê½ğºó½øÈëÒøºÓÏµÖĞ·¢Õ¹¡£"
-good_ID[51205] = "Ï£¸ñÀ­ÒÆÃñ"--32
-good_ID[51206] = "¼ò½é£º\n´¦ÔÚÕ½»ğÇ°ÏßµÄÏ£¸ñÀ­¾­³£ÓĞÒ»Ğ©Ï£ÍûÄÜ¹»Ç¨áãµ½½Ï°²È«µÄµØ·½ÄÜ¹ıÉÏ¸üºÃÉú»îµÄÈË£¬¾¡¹ÜÕâĞ©ÈË´ó¶àÉíÎŞ·ÖÎÄ£¬µ«ÊÇ·ÆÑÅÀûÕş¸®»¹ÊÇÔ¸Òâ»¨Ç®ÊÕÁôËûÃÇ¡£"
-good_ID[51210] = "Î¬¸ñ¶ûÅ«Á¥"--33
-good_ID[51211] = "¼ò½é£º\n´¦ÔÚË®Éú»ğÈÈÖĞµÄÎ¬¸ñ¶ûÅ«Á¥£¬ËûÃÇ¶àÊÇÒ»Ğ©ÔËÆø²»ºÃµÄÕ½·ı»òÕßÕ¼ÁìĞÇ±¾ÍÁµÄÃñÖÚ¡£ÓÉÓÚÕ½·ıµÄ³É·Ö¾Ó¶à£¬ËùÒÔÎŞÂÛÊÇ·ÆÑÅÀûµÛ¹ú»¹ÊÇÏ£¸ñÀ­ÈË¶¼Ô¸Òâ»¨Ç®Êê»ØÕâĞ©ÈË¡£"
-good_ID[51300] = "ºÄ×Ó"--34
-good_ID[51301] = "¼ò½é£º\n¾­¹ıÁËÎŞÊı´ÎÉú´æºÍÌÔÌ­ºó£¬ÕâÖÖÍçÇ¿µÄÉúÎïÒÑ¾­²úÉúÁË½ø»¯£¬»¯Éí³ÉÎªÁËÈË¼ûÈË°®µÄÃÈÎï£¬ÏÖÔÚÃ¿Ò»¸ö·ÆÑÅÀû¼ÒÍ¥¶¼Ï²»¶ÊÕÑøÕâÖÖ¿É°®µÄĞ¡ÉúÎï¡£"
-good_ID[51305] = "·ÆÑÅÀûÅ®ÆÍ"--35
-good_ID[51306] = "¼ò½é£º\n¾­¹ıÁËÏ£ÁéÊ¹Í½×¨ÃÅÑµÁ·µÄ·ÆÑÅÀûÅ®ÆÍ£¬ËıÃÇÊìÁ·ÕÆÎÕÒ»°ÙÖÖÒÔÉÏµÄ¸ñ¶·Êõ¡¢ÔÚ¾µÍ·ÇĞ»»µÄÒ»Ë²¼ä´òÉ¨Õû¸ö³Ç±¤ÄÇÃ´´óµÄ·¿¼ä¡¢ÇáËÉ¼İÊ»°üÀ¨Ì«¿ÕÕ½½¢ÔÚÄÚµÄÖ÷ÈË¿ÉÄÜ»á³Ë×øµÄÈÎºÎÒ»ÖÖ½»Í¨¹¤¾ßµÈ¸÷ÖÖ¼¼ÄÜ£¬ºÜÊÜÒøºÓÏµ¸÷´óÖÖ×åÈ¨¹óµÄ»¶Ó­¡£(Å®ÆÍĞ¯´øÁËÕ¼¾İ´óÁ¿¿Õ¼äµÄÇå½àÓÃ¾ßºÍĞĞÀî£©"
-good_ID[51310] = "ÈËĞÎµçÄÔ"--36
-good_ID[51311] = "¼ò½é£º\n°£ºÕÂåË¹¼ÎµÂµÛ¹úÉú»¯¿Æ¼¼µÄ²úÎï£¬ÓµÓĞÉÙÅ®Ò»ÑùµÄÍâÃ²ºÍÉíÌå£¬ÄÚ²ØÊÀ½çÉÏ×îÇ¿´óµÄºËĞÄ´¦ÀíÆ÷£¬¿ÉÒÔÍâ½Ó¸÷ÖÖÉè±¸×°ÖÃÀ´Ôö¼Ó±¾ÌåµÄĞÔÄÜ¡£°£ºÕÂåË¹¼ÎµÂÈËĞÎµçÄÔÊÇÃ¿¸ö·ÆÑÅÀûÕ¬ÄĞµÄÀíÏë°éÂÂ¡£(ÈËĞÎµçÄÔĞ¯´øÁËÕ¼¾İ´óÁ¿¿Õ¼äµÄÎ¬»¤Éè±¸ºÍ½»Í¨¹¤¾ß£©"
-good_ID[51400] = "´¥ÊÖ"--37
-good_ID[51401] = "¼ò½é£º\n°£ºÕÂåË¹¼ÎµÂµÛ¹úÍ¬ÑÇ»ùÄÉ´Ä³æ×åÕ½¶·ºóµÃµ½µÄÕ½ÀûÆ·£¬ÑÇ»ùÄÉ´Ä³æ×å´¥ÊÖÖĞÔÌº¬×ÅÄÑÒÔÏëÏóµÄÉú»¯¿Æ¼¼£¬¶øÇÒ¸»º¬¸÷ÖÖµ°°×ÖÊºÍÓĞ»úÎï£¬¾İËµÊ³ÓÃÕâĞ©´¥ÊÖÓĞ×³ÑôµÄ¹¦Ğ§¡£"
-good_ID[51405] = "ÄÉÃ×¾ÛºÏÎï"--38
-good_ID[51406] = "¼ò½é£º\nÒ»ÖÖÄÉÃ×¼¶±ğÎïÖÊ×éºÏ³ÉµÄ¾ÛºÏÎï£¬ÕâĞ©ÎïÖÊÔÚ¾ü¹¤ºÍÃñÓÃÁìÓòÓÃ´¦¶¼·Ç³£µÄ´ó¡£"
-good_ID[51410] = "ÕÂÓãÍè×Ó"--39
-good_ID[51411] = "¼ò½é£º\n°£ºÕÂåË¹¼ÎµÂµÛ¹ú·Ç³£Á÷ĞĞµÄÒ»ÖÖÃÀÊ³Ğ¡³Ô£¬¿Ú¸Ğ·Ç³£¶ÀÌØ£¬Ä¿Ç°Ã»ÓĞÈÎºÎÖ¤¾İÖ¤Ã÷ÕâĞ©ÕÂÓãÍè×ÓºÍÑÇ»ùÄÉ´Ä³æ×å´¥ÊÖÓĞÈÎºÎÁªÏµ¡£·ÆÑÅÀûµÛ¹ú±¾ÍÁºÍÏ£¸ñÀ­Ê×ĞÇ´óÁ¿½ø¿ÚÕâÖÖÊ³Îï"
-good_ID[51450] = "ÏÈ×æÒÅÎï"--40
-good_ID[51451] = "¼ò½é£º\n²»ÖªÃûµÄÏÈ×æÒÅ¼£ËéÆ¬£¬ÔÌº¬×Å´óÁ¿µÄÃØÃÜ"
-good_ID[51500] = "Éú»îÀ¬»ø"--41
-good_ID[51501] = "¼ò½é£º\nÈË¿ÚÃÜ¼¯µÄµØ·½Ãâ²»ÁË»á²úÉú´óÁ¿µÄÉú»îÀ¬»ø£¬²¢²»ÊÇËùÓĞµÄ·É´¬¶¼ÓĞÏÈ½øµÄÉú»îÀ¬»ø´¦ÀíÏµÍ³µÄ¡£Ò»Ğ©Ì«¿ÕÅ©³¡»áÊÕ¹ºÕâĞ©Éú»îÀ¬»øÓÃÀ´µ±·ÊÁÏ£¬µ±È»Ò²¿ÉÒÔ½¨ÔìÀ¬»ø»ØÊÕÉè±¸×ÔĞĞ´¦Àí"
-good_ID[51550] = "»ù´¡²¹¸ø"--42
-good_ID[51551] = "ËùÓĞ½¢´¬¶¼ĞèÒªÕâÖÖ»ù´¡µÄ²¹¸øÆ·À´Î¬³Ö´¬Ô±µÄÈÕ³£Éú»î£¬»ù´¡²¹¸øÆ·ÖĞ°üº¬ÁËÖíÈâ£¬µ­Ë®£¬¹ÈÎï£¬ÈÕ³£ÓÃÆ·µÈÎï×Ê£¬ËüÃÇÒÔ×îºÏÀíµÄÅä±ÈÕûºÏÔÚÒ»Æğ¡£"
-good_ID[51600] = "µ¯Ò©"--43
-good_ID[51601] = "Õ½½¢ÔÚ¿ª»ğÊ±ĞèÒªÏûºÄµ¯Ò©£¬±ê×¼µÄµ¯Ò©ÖĞ°üº¬ÁË¸÷ÖÖ¿Ú¾¶ºÍĞÍºÅµÄµ¯Ò©»¹ÓĞÄÜÁ¿ÎäÆ÷Í¨ÓÃµÄÄÜÁ¿°ü£¬µ±È»¸ù¾İĞèÒª²»Í¬Õ½½¢ËùÊ¹ÓÃµÄÎäÆ÷ºÍµ¯Ò©Ò²ÓĞËù²»Í¬¡£"
-good_ID[51650] = "ĞŞÀíÎï×Ê"--44
-good_ID[51651] = "Î¬ĞŞÕ½½¢ËùÓÃµÄ¸÷ÖÖĞŞÀíÎï×Ê£¬°üº¬ÁËÌæ»»ÆÆËğÇøÓòÓÃµÄ´¬Ìå°å²ÄºÍ¸÷ÖÖ¿ÉÒÔ¿ìËÙĞŞ²¹´¬ÌåµÄÄÉÃ×²ÄÁÏ¡£Ö»ÒªÓĞ×ã¹»µÄĞŞÀíÎï×Ê´ó²¿·Ö´¬ÌåÍâ¿Ç¶¼¿ÉÒÔÔÚ¶ÌÊ±¼äÄÚ¿ìËÙĞŞ¸´"
-good_ID[51655] = "Ï¡ÊÍĞÍ¶£µ±Ö­"--45
-good_ID[51656] = "½«Ä³¸öÉúÃüÅ®ÉñµÄÏ´ÔèË®½øĞĞÒÚÍò±¶Ï¡ÊÍºóµÄ²úÎï£¬¾İËµ¿ÉÒÔË²¼äÖÎÓúÒ»ÇĞ¼²²¡£¨Õâ¼şÉÌÆ·ÓÃÒ»Ì×¸ß¹æ¸ñµÄ°²±£»õ¹ñ´¢´æ£© ×îºÃ²»Òª¶ªÆúËü£¬²»È»»áÔì³ÉÑÏÖØµÄºó¹û"
-good_ID[51660] = "Éñ½çÖ®Ê¯"--46
-good_ID[51661] = "ÔÚÏ£ÁéµÛ¹úÊ×¸®´ó½ÖÉÏÕÒµ½µÄÊ¯Í·£¬ÆäÖĞ¼ÛÖµÓĞ´ı·¢¾ò£¨Õâ¼şÉÌÆ·ÓÃÒ»Ì×¸ß¹æ¸ñµÄ°²±£»õ¹ñ´¢´æ£©"
-good_ID[51665] = "ÉñÊ¥Ö®Ï¢"--47
-good_ID[51666] = "Ğé¿ÕÉúÎïºôÎü¹ıµÄ¿ÕÆø£¬¾İËµ¿ÉÒÔ¾»»¯Ò»ÇĞ¸ºÃæÄÜÁ¿£¨Õâ¼şÉÌÆ·ÓÃÒ»Ì×¸ß¹æ¸ñµÄ°²±£»õ¹ñ´¢´æ£©"
-good_ID[51670] = "¼¦ÍÈ"--48
-good_ID[51671] = "ÏãÅçÅçµÄ¼¦ÍÈ£¬ÊÇ·ÆÑÅÀûµÛ¹úÓĞÃûµÄÃÀÊ³£¬¾­¹ıÓÍÕ¨´¦Àí£¬¸»º¬¸ßÈÈÁ¿£¬Ò»¸ö¼¦ÍÈ¾Í¿ÉÒÔÈÃÒ»Ãû´¬Ô±Âú×ãÒ»²ÍµÄÓªÑøĞèÒª"
-good_ID[51675] = "M43Í»»÷²½Ç¹"--49
-good_ID[51676] = "¼ò½é£º\n·ÆÑÅÀûµÛ¹úÏÖÒÛÖ÷Á¦²½±øÎäÆ÷£¬ÊÇÒ»¿îÔÚ¾«¶È£¬É±ÉËÁ¦£¬¿É²Ù×÷ĞÔÖ®¼äÈ¡µÃ½üºõÍêÃÀÆ½ºâµÄÖÂÃüÎäÆ÷¡£ËüµÄ¿ª·¢ÕßÊÇÌ©ÀÕ¡¤ÈüÀ­Ë¹\n£¨STORM TROOPER£©"
-good_ID[51680] = "ÖĞĞÍÄ£¿é»¯¾Ó×¡Çø"--50
-good_ID[51681] = "¼ò½é£º\nÖĞĞÍÖ÷Á¦½¢ËùÊ¹ÓÃµÄÄ£¿é»¯¾Ó×¡Çø£¬¿ÉÒÔÈİÄÉ500µ½1000Ãû´¬Ô±ºÍ¹Ù±ø¾Ó×¡"
-good_ID[51685] = "´óĞÍÄ£¿é»¯¾Ó×¡Çø"--51
-good_ID[51686] = "¼ò½é£º\nÆì½¢¼¶µÄÄ£¿é»¯¾Ó×¡Çø£¬°üº¬ÁË±ØÒªµÄÎ¬ÉúÉèÊ©µÈ×é¼şÒÑ¾­ÅäÌ×µÄ¸÷ÖÖºóÇÚÉèÊ©£¬¿ÉÒÔÈİÄÉ10000ÃûÒÔÉÏ´¬Ô±ºÍ¹Ù±ø¾Ó×¡"
-good_ID[51690] = "Æì½¢¼¶ÎäÆ÷Åä¼ş"--52
-good_ID[51691] = "¼ò½é£º\n´óĞÍÆì½¢ËùÊ¹ÓÃµÄÆì½¢¼¶ÎäÆ÷×é¼ş£¬Ö÷ÒªÓÉ¸ßĞÔÄÜÖ÷ÅÚÄÜÔ´×°ÖÃ£¬µ¯Ò©×°Ìî»ú¹¹£¬ºÍ·À»¤×°¼×µÈ½á¹¹×é³É"
-good_ID[51695] = "Æì½¢¼¶¶¯Á¦×é¼ş"--53
-good_ID[51696] = "¼ò½é£º\n´óĞÍÆì½¢ËùÊ¹ÓÃµÄÆì½¢¼¶¶¯Á¦×é¼ş£¬Ö÷ÒªÓÉ´ó¹¦ÂÊµÄÆì½¢¼¶ÄÜÔ´·´Ó¦¶Ñ£¬¸ßĞ§ÂÊÑ­»·ÀäÈ´×°ÖÃºÍ¶¯Á¦Åç¿ÚËù×é³É"
-good_ID[51700] = "³èÎïÒÏÈº"--54
-good_ID[51701] = "¼ò½é£º\nÓÉÒ»Ö»ÒÏºóÉÙÁ¿¹¤ÒÏ×é³ÉµÄ³õÊ¼ÒÏÈº£¬ÆäÀÍ×÷À©ÕÅµÄ¹ı³Ì¼«ÓĞ¹ÛÉÍĞÔ£¬¾­¹ıÑµÁ·µÄ¹¤ÒÏ¿ÉÒÔÊ¤ÈÎ´òÉ¨ÎÀÉúºÍ²É¿óÍÚ¾òµÈ»ù´¡¹¤×÷"
-good_ID[51705] = "ÒÏ¿ÇËØ"--55
-good_ID[51706] = "¼ò½é£º\n³¬¼¶ÂìÒÏÍâ¿ÇÖĞÌáÈ¡µÄÒÏ¿ÇËØ£¬ÉøÈë×°¼×°åºó¿ÉÒÔ¼«´óµÄÔö¼Ó×°¼×Ç¿¶È"
-good_ID[51710] = "ÊóÁ¸"--56
-good_ID[51711] = "¼ò½é£º\n·±Óı²ÖÊóËùĞèµÄÊıÁ¿£¬ÓÖ¸÷ÖÖÀàĞÍµÄ¹ÈÎï»ìºÏ¶ø³É"
-good_ID[51715] = "³èÎïÃ¨"--57
-good_ID[51716] = "¼ò½é£º\n¿É°®µÄ³èÎïÃ¨£¬Æ½Ê±ÒÔ¸÷ÖÖĞÂÏÊÊ³ÎïÎ¹Ê³£¬Å¼¶û»¹»á²¶×½½¢ÉÏµÄÀÏÊó"
-good_ID[51720] = "ÏÊ»îº£ÏÊ"--58
-good_ID[51721] = "¼ò½é£º\nÌØÊâË®²ÛËùÅàÓıµÄ¸÷ÖÖº£ÏÊÉúÎï£¬Ö÷ÒªÓÉ¸÷ÖÖÓãÀàËù×é³É"
-good_ID[51725] = "ËÀÉñÀ±Ìõ"--59
-good_ID[51726] = "¼ò½é£º\nÒ»ÖÖ¿ÉÅÂµÄÊ³Îï£¬´Ë²úÆ·¿ÉÖÆ³ÉÇ¿ÁÒ´ßÀáµ¯£¬Ê³ÓÃºó»áÅç»ğ£¬²¢µ¼ÖÂ¼¸ÈÕµÄÇ¿ÁÒÍ´¿à¡£¿ÓËÀĞ¡»ï°éµÄ±Ø±¸¼ÑÆ·¡£"
-good_ID[51730] = "µÍµÈÈËĞÎÔìÎï"--60
-good_ID[51731] = "¼ò½é£º\n³¯Ê¥ÕßÖÆÔìµÄÓÃÓÚ¼İÊ»ÅÚ»Òµ¥Î»µÄ·ºÀÄ²úÆ·,Îª¼õÉÙÏûºÄ¶àÓÃÂÜÀòÍâĞÎÏÖÔÚÊÇ³¯Ê¥ÕßÔÚM51µÄÈ­Í·²úÆ·(¿ÉÊ³ÓÃ¶àÖÖ¿ÚÎ¶)"
-good_ID[51735] = "ºÚ°µÊ¥¾­"--61
-good_ID[51736] = "¼ò½é£º\nÔÚÄ³ĞÇÇòËÑ¼¯µÄ·¨ÊõÊé£¬¼ÇÔØ¸÷ÖÖÄ¤·¨ºÍÏ×¼À·½Ê½£¬ÒòÕóÓª³åÍ»µ¼ÖÂÎŞ·¨ÀûÓÃ£¬ÄÃ³öÀ´··Âô¡£"
-good_ID[51740] = "½ğ¿ÀÀ¬"--62
-good_ID[51741] = "¼ò½é£º\n½ğ¿ÀÀ¬ºÃ´¦¶¼ÓĞÉ¶£¬Ë­Ëµ¶ÔÁË£¬¾Í¶¼¸øËû£¡À´×ÔÉÏºÏÉÌÈË¶µÊÛµÄ²úÆ·£¬¾İ´«ÔÚÆäÄ¸ĞÇµØÇò³©Ïú250Äê¡£Ê¹ÓÃºó»á¼Ó±¶Ìá¸ßÅ©×÷Îï²úÁ¿£¬µÛ¹ú¾³ÄÚ¸÷´óÅ©³¡»áÕùÏàÇÀ¹º¡£"
-good_ID[51745] = "ÓÎ»÷Õ½Èı´ó¼ş"--63
-good_ID[51746] = "¼ò½é£º\nAK-47¡¢RPGºÍ107»ğ¼ıÅÚÊÇÀ´×ÔÒ£Ô¶ĞÇÏµµÄÒ¯Ò¯±²ÎäÆ÷£¬ËäÈ»¸÷ÏîĞÔÄÜÔ¶µÍ¼ÒÔ°ĞÇÏµÍ¬Àà²úÆ·¡£µ«ÆäÉ¥ĞÄ²¡¿ñ£¬¼òµ¥ÉÏÊÖ£¬µÍ³É±¾£¬¸ßÉ±ÉËµÄÓÅµãÖğ½¥±»¸÷Õ½ÂÒĞÇÇòµÄÆÕÍ¨Ê¿±ø×·Åõ¡£"
-good_ID[51755] = "À±½·"--64
-good_ID[51756] = "¼ò½é£º\nÉÏºÏÉÌÈË´øÀ´µÄÒ»ÖÖ¸¨ÖúÊ³²Ä£¬ÈÃÕû¸ö¼ÒÔ°ĞÇÏµ»ñµÃÁËÒ»ÖÖĞÂµÄÎ¶¾õ¡°À±¡±¡£°éËæµØÇò¸÷ÖÖÃÀÎ¶¼ÑëÈ½øÈëM51£¬ÍùÍùÒ»Á½Ñù¼òµ¥Ê³ÎïÌí¼Óºó¾Í»á±äµÄÃÀÎ¶¡£´«ËµµÛ¹úÉóÅĞ³¤¶ÔËüÇ×°®ÓĞ¼Ó£¬Ä³Ğ©¿àº®µØÇø¸üÊÓÎªÕä±¦¡£"
-good_ID[51760] = "Éİ»ª¼Ò¾ß"--65
-good_ID[51761] = "¼ò½é£º\n³¬ºÀ»ªµÄÄ¾ÖÊ¼Ò¾ß£¬ÓµÓĞÒ»¼ş¾«ÖÆ×ö¹¤µÄÄ¾ÖÊ¼Ò¾ßÔÚÌ«¿ÕÊ±´ú·´¶øÊÇÒ»ÖÖÄÑµÃÏíÊÜ"
-good_ID[51765] = "ÌØ×°Õ½¶··ş"--66
-good_ID[51766] = "¼ò½é£º\nÌØÊâÇşµÀ½ø¿ÚµÄ°¬¿âÀöË¹ÖÆÕ½¶··ş£¬½áºÏÁË¸ÃĞÇ×îĞÂ¼¼ÊõÎªÊ¹ÓÃÕßÁ¿Éí¶¨ÖÆ£¬ÄÜÓĞĞ§Ó¦¶ÔÈÎºÎÍşĞ²£¬½öÓĞÅ®ĞÔĞÍ¡£"
-good_ID[51770] = "»úĞµÑı¾«"--67
-good_ID[51771] = "¼ò½é£º\n´óĞ¡ÎªÕı³£ÈËÀàÁù·ÖÖ®Ò»µÄÃÔÄãÖÇÄÜÈËĞÎ»úÆ÷ÈËELF£¬ÄÚÖÃ°¬¿âÀöË¹ĞÇÊı¾İ´¦ÀíÖÕ¶Ë£¬½öÓĞÅ®ĞÔĞÍ¡£"
-good_ID[51775] = "ÓùÛàÃÃÃÃ"--68
-good_ID[51776] = "¼ò½é£º\nÀ×öªÆïÊ¿Óù°æÓù°æµÄ¿ËÂ¡Ìå£¬ËäÈ»Éí²Ä±È½ÏÆ½£¬µ«ÊÇÏà¶ÔÎÂË³µÄĞÔ¸ñ»¹ÊÇºÜÊÜÈË»¶Ó­"
-good_ID[51780] = "ÄÌ²è"--69
-good_ID[51781] = "¼ò½é£º\nÀ×öªÆïÊ¿Óù°æÓù°æÔÚ¼æÖ°Å®ÆÍµÄÊ±ºòÇ××Ôµ÷ÖÆµÄÄÌ²è£¬¿Ú¸Ğ¶ÀÌØ£¬ËäÈ»ËıÃ»ÓĞĞØ"
-good_ID[51105] = "´óĞÍÒıÇæ"--70
-good_ID[51106] = "Ò»ÖÖ×°±¸ÔÚ´óÖĞĞÍÕ½½¢ÉÏµÄĞÇ½¢ÒıÇæ£¬Ò»°ã»áÍ¬Ê±×°±¸¶àÌ¨À´Ìá¹©×ã¹»µÄÍÆÁ¦ºÍ×ªÏòÁ¦¡£ÕâÖÖÒıÇæµÄ½¨Ôì³É±¾±ÈĞ¡ĞÍÒıÇæÒª°º¹óµÄ¶à¡£"
-good_ID[51750] = "°×¾Æ"--71
-good_ID[51751] = "¼ò½é£º\n×îÔç³öÏÖÔÚÉÏºÏ×éÖ¯½ø¹±·ÆÑÅÀûÅ®»Ê±İÏÂµÄÑçÏ¯ÉÏ£¬ºóÀ´Á÷Èë·»¼ä£¬±»Ò»Ğ©ÀÏ¾Æ¹í·îÎª×îÄÜ¼¤ÆğÎ¶ÀÙµÄ¼ÑÄğ¡£ÓÉÓÚÂ·Í¾Ò£Ô¶ÔËÊä²»±ã£¬Ò»¶ÈÔÚÊĞÃæÉÏÏûÊ§£¬Ö»ÓĞÔÚEDFËùÊôÃ³Ò×Õ¾ÓĞÊÛ¡£"
-good_ID[51785] = "¹şÊ¿Ææ"--72
-good_ID[51786] = "¼ò½é£º\nÀ´×ÔÀ¶ĞÇµÄ¹ÅÀÏÈ®ÖÖ£¬¾İËµÊÇÉÏÌì´´ÔìÀÇµÄ²İ¸å¡£ËüµÄÒ»¾ÙÒ»¶¯¶¼±¸ÊÜÖ÷ÈË¹Ø×¢£¬µ«ÔËËÍËûÃÇ¿ÉÒªĞ¡ĞÄ£¬ÄãµÄ»õ²ÖÒª×ã¹»½áÊµ¡£"
-good_ID[51790] = "Ê³ÓÃÓÍ"--73
-good_ID[51791] = "¼ò½é£º\nÊ³ÓÃÓÍÊÇ¸÷¹úÈËÃñÈÕ³£Éú»îµÄ±Ø±¸Æ·Ö®Ò»£¬¿¨¶òË¹ÁªÃËÂŞµÂÄáÊ³ÓÃÓÍ¹«Ë¾¿ª·¢ÁËĞÂĞÍµÄ0Ìí¼ÓÊ³ÓÃÓÍ£¬½µµÍÁËÓÍÖ¬ÊÇÒ»ÖÖ½¡¿µÊ³ÓÃÓÍ£¬ÒÔ´ËÂú×ã¸÷¹úÈÕÒæÔö³¤µÄ¿Ú¸¹¼°½¡¿µĞèÇó"
-good_ID[51800] = "ÎŞÎ·½¢À¶Í¼"--74
-good_ID[51801] = "¼ò½é£º\nÔÊĞíÍæ¼Ò½¨ÔìÎŞÎ·½¢¼¶µÄ´óĞÍÕ½½¢"
-good_ID[51810] = "±¸ÓÃ´¬Ô±"--75
-good_ID[51811] = "¼ò½é£º\n¶îÍâµÄ±¸ÓÃ´¬Ô±¿ÉÒÔÔÚ´òÀÌÒ»Ğ©·ÏÆú´¬Ö»µÄÊ±ºòÅÉÉÏÓÃ³¡"
-good_ID[51820] = "Â½Õ½¶ÓÔ±"--76
-good_ID[51821] = "¼ò½é£º\n²»¹ÜÊÇÇåÀí´óĞÍÕ½½¢²Ğº¡»¹ÊÇÊØÎÀÕ½½¢¶¼ĞèÒªÕâĞ©Â½Õ½¶ÓÔ±"
-good_ID[51830] = "±»Õü¾ÈµÄÅ«Á¥"--77
-good_ID[51831] = "¼ò½é£º\nÕâĞ©Å«Á¥¸Õ¸Õ´ÓÕ¼ÁìĞÇÉÏ±»Õü¾È³öÀ´£¬¼±ĞèÔË×ß"
-good_ID[51840] = "½¢¶ÓÊÕ²ØÆå×Ó°ü"--78
-good_ID[51841] = "¼ò½é£º\n×÷ÎªÈ«ÓîÖæ×îÁ÷ĞĞµÄ×ÀÃæÓÎÏ·£¬½¢¶ÓÊÕ²ØµÄºËĞÄÊÇÔ­³§·ÂÔìÏÖÒÛ½¢µÄÈ«¿É¶¯Ä£ĞÍÆå×Ó¡£Æå×Ó°üµÄÄÚÈİÍêÈ«Ëæ»ú¡£"
-good_ID[51850] = "Õ½ÊõÅ®×°"--79
-good_ID[51851] = "¼ò½é£º\nÒ»¿ªÊ¼£¬Õ½ÊõÅ®×°Ö»ÊÇ×÷Îª»ØÀ¡¹Ë¿ÍµÄÀñÎï£¬½á¹ûºóÀ´ÒòÎªÈËÆøÓú·¢¸ßÕÇ£¬·´µ¹³ÉÎªÁË¿¨¶òË¹µÄÖØÒª³ö¿ÚÉÌÆ·¡ªÕâÊÇÎ¨Ò»Ò»ÖÖÈ«ĞÂµÄ²»Èç¶şÊÖµÄ¼Û¸ñ¸ßµÄ²úÆ·¡££¨ÕâÖÖÕ½ÊõÅ®×°ÄĞÅ®¶¼ÄÜ´©£©"
-good_ID[51860] = "¹îÒìµÄÁúĞëÃæ"--80
-good_ID[51861] = "¼ò½é£º\nÕâĞ©ÒâÒå²»Ã÷µÄÁúĞëÃæËÆºõ²»Ó¦¸Ã³öÏÖÔÚÄãµÄ½¢´¬»õ²ÕÖĞ£¬ÖÆ×÷ËüµÄ²ÄÁÏÎŞ·¨¼ø±ğ£¬µ«ÊÇËÆºõ²¢²»ÊÇÆÕÍ¨µÄÊ³²Ä£¬°ÑËü´øµ½Ã°ÏÕÕß¹¤»áÈ¥´¦ÀíËÆºõÊÇ±È½Ï¿¿Æ×µÄÑ¡Ôñ"
-good_ID[51870] = "½ğÊô¿óÊ¯´¢±¸"--81
-good_ID[51871] = "¼ò½é£º\n´¢´æÔÚÖ³ÃñµØ²Ö¿âÖĞµÄ½ğÊô¿óÊ¯´¢±¸£¬²»Õ¼ÓÃ½¢¶Ó¿Õ¼ä£¬µ«ÊÇĞèÒª×ª»»²ÅÄÜ´ø×ß"
-good_ID[51880] = "¹ÈÎï´¢±¸"--82
-good_ID[51881] = "¼ò½é£º\n´¢´æÔÚÖ³ÃñµØ²Ö¿âÖĞµÄ¹ÈÎï´¢±¸£¬²»Õ¼ÓÃ½¢¶Ó¿Õ¼ä£¬µ«ÊÇĞèÒª×ª»»²ÅÄÜ´ø×ß"
-good_ID[51890] = "ÈâÖÆÆ·´¢±¸"--83
-good_ID[51891] = "¼ò½é£º\n´¢´æÔÚÖ³ÃñµØ²Ö¿âÖĞµÄÈâÖÆÆ·´¢±¸£¬²»Õ¼ÓÃ½¢¶Ó¿Õ¼ä£¬µ«ÊÇĞèÒª×ª»»²ÅÄÜ´ø×ß"
-good_ID[51900] = "µ­Ë®´¢±¸"--84
-good_ID[51901] = "¼ò½é£º\n´¢´æÔÚÖ³ÃñµØ²Ö¿âÖĞµÄµ­Ë®´¢±¸£¬²»Õ¼ÓÃ½¢¶Ó¿Õ¼ä£¬µ«ÊÇĞèÒª×ª»»²ÅÄÜ´ø×ß"
-good_ID[51910] = "Ê³Æ·´¢±¸"--85
-good_ID[51911] = "¼ò½é£º\n´¢´æÔÚÖ³ÃñµØ²Ö¿âÖĞµÄÊ³Æ·´¢±¸£¬²»Õ¼ÓÃ½¢¶Ó¿Õ¼ä£¬µ«ÊÇĞèÒª×ª»»²ÅÄÜ´ø×ß"
-good_ID[51920] = "ºÏ½ğ´¢±¸"--86
-good_ID[51921] = "¼ò½é£º\n´¢´æÔÚÖ³ÃñµØ²Ö¿âÖĞµÄºÏ½ğ´¢±¸£¬²»Õ¼ÓÃ½¢¶Ó¿Õ¼ä£¬µ«ÊÇĞèÒª×ª»»²ÅÄÜ´ø×ß"
-good_ID[51930] = "ÄÜÁ¿¿é"--87
-good_ID[51931] = "¼ò½é£º\n´¢´æÔÚÖ³ÃñµØ²Ö¿âÖĞµÄÄÜÁ¿¿é£¬²»Õ¼ÓÃ½¢¶Ó¿Õ¼ä£¬¸ºÔğÖ³ÃñµØµÄ¸÷ÖÖ¹¤ÒµÉÌÆ·ÔË×ª"
-good_ID[51940] = "Ö³ÃñµØµ¯Ò©´¢±¸"--88
-good_ID[51941] = "¼ò½é£º\n´¢´æÔÚÖ³ÃñµØ²Ö¿âÖĞµÄÖ³ÃñµØµ¯Ò©´¢±¸£¬²»Õ¼ÓÃ½¢¶Ó¿Õ¼ä£¬µ«ÊÇĞèÒª×ª»»²ÅÄÜ´ø×ß"
-good_ID[51950] = "Éú»îÓÃÆ·´¢±¸"--89
-good_ID[51951] = "¼ò½é£º\n´¢´æÔÚÖ³ÃñµØ²Ö¿âÖĞµÄÉú»îÓÃÆ·´¢±¸£¬²»Õ¼ÓÃ½¢¶Ó¿Õ¼ä£¬µ«ÊÇĞèÒª×ª»»²ÅÄÜ´ø×ß"
-good_ID[51960] = "±ù¿ó´¢±¸"--90
-good_ID[51961] = "¼ò½é£º\n´¢´æÔÚÖ³ÃñµØ²Ö¿âÖĞµÄ±ù¿ó´¢±¸£¬²»Õ¼ÓÃ½¢¶Ó¿Õ¼ä£¬µ«ÊÇĞèÒª×ª»»²ÅÄÜ´ø×ß"
-good_ID[51970] = "°²±£Á¦Á¿"--91
-good_ID[51971] = "¼ò½é£º\nÖ³ÃñµØÖĞµÄ°²±£ÈËÔ±Á¦Á¿£¬²»Õ¼ÓÃ½¢¶Ó¿Õ¼ä£¬µ«ÊÇµ¯Ò©ºÍÎï×Ê¹©Ó¦²ÅÄÜ±£³Ö¹¤×÷"
-good_ID[51980] = "Ö³ÃñµØ¹¤ÈË"--92
-good_ID[51981] = "¼ò½é£º\n¸ºÔğÎ¬³ÖÕû¸öÖ³ÃñµØÔË×ªµÄ¹¤×÷ÈËÔ±£¬ËûÃÇ¹¤×÷Ò»¶ÎÊ±¼äºó¾ÍĞèÒªĞİ¼Ù²ÅÄÜ»Ö¸´¹¤×÷"
-good_ID[51990] = "Æ£±¹µÄÖ³ÃñµØ¹¤ÈË"--93
-good_ID[51991] = "¼ò½é£º\n¹¤×÷ÁËÒ»¶ÎÊ±¼äµÄÖ³ÃñµØ¹¤ÈË£¬ËûÃÇĞèÒªÎï×ÊºÍ²¹¸ø»¹ÓĞ×¡·¿²ÅÄÜ»Ö¸´¹¤×÷×´Ì¬"
-good_ID[52000] = "Î´Õû±¸µÄ°²±£Á¦Á¿"--94
-good_ID[52001] = "¼ò½é£º\n³¤Ê±¼äÖµ°àºóµÄ°²±£ÈËÔ±£¬ĞèÒªĞŞÕıºÍ²¹³äµ¯Ò©ºó²ÅÄÜ¼ÌĞø¹¤×÷"
-good_ID[52010] = "½´ÓÍ"--95
-good_ID[52011] = "¼ò½é£º\nÔ´ÓÚÉúÌ¬Å©Òµ¼¼Êõ£¬Éú²úµÄÌØ¼¶ÄğÔì½´ÓÍ£¬±£Ö¤É¹×ã1800Ìì£¬Î¶´¼É«ÔóºÃ¡£"
-good_ID[52020] = "ÉúÎïµçÄÔ"--96
-good_ID[52021] = "¼ò½é£º\nÒÁ¸ñÎ÷¶÷µç×ÓÌåµÄÎïÀí·şÎñÆ÷£¬²ÉÓÃ¶¥¼âÉúÎï¿Æ¼¼´òÔìµÄÉúÎï¼ÆËã»ú£¬¿ÉÓÃÓÚÌá¹©¹æÄ£»¯µÄµç×ÓÌå·şÎñ¡£"
-good_ID[52030] = "½¢¶ÓÊÕ²ØÆå×Ó°ü"--97
-good_ID[52031] = "¼ò½é£º\n×÷ÎªÈ«ÓîÖæ×îÁ÷ĞĞµÄ×ÀÃæÓÎÏ·£¬½¢¶ÓÊÕ²ØµÄºËĞÄÊÇÔ­³§·ÂÔìÏÖÒÛ½¢µÄÈ«¿É¶¯Ä£ĞÍÆå×Ó¡£Æå×Ó°üµÄÄÚÈİÍêÈ«Ëæ»ú¡£¡£"
-good_ID[52040] = "Õ½ÊõÅ®×°"--98
-good_ID[52041] = "¼ò½é£º\nÒ»¿ªÊ¼£¬Õ½ÊõÅ®×°Ö»ÊÇ×÷Îª»ØÀ¡¹Ë¿ÍµÄÀñÎï£¬½á¹ûºóÀ´ÒòÎªÈËÆøÓú·¢¸ßÕÇ£¬·´µ¹³ÉÎªÁË¿¨¶òË¹µÄÖØÒª³ö¿ÚÉÌÆ·¡ªÕâÊÇÎ¨Ò»Ò»ÖÖÈ«ĞÂµÄ²»Èç¶şÊÖµÄ¼Û¸ñ¸ßµÄ²úÆ·¡£"
-good_ID[52050] = "ÁúĞëÃæ"--99
-good_ID[52051] = "¼ò½é£º\nÒÔ¼ÄÉúÔÚ¿¨¶òË¹¿ó³¡£¬ĞÎÈçÁúĞëµÄÉúÎïÎª²ÄÁÏ£¬ °ü¹üÃæ½îÊÖß¦³ÉµÄÀ­Ãæ¡£ ÓĞ½À¾¢£¬ ¿Ú¸Ğ¼«¼Ñ¡£-ÆäÊµÖ»ÊÇ·½±ãÃæµÄÒ»ÖÖ"
-good_ID[52060] = "Æì½¢¼¶ºËĞÄ×é¼ş´¢±¸"--100
-good_ID[52061] = "¼ò½é£º\nÓÃÀ´½¨Ôì´óĞÍÆì½¢µÄºËĞÄ×é¼ş£¬°üÀ¨Æì½¢¼¶ÎäÆ÷ÏµÍ³ºÍ¶¯Á¦ÏµÍ³"
-good_ID[52070] = "ÈËĞÍµçÄÔ´¢±¸"--101
-good_ID[52071] = "¼ò½é£º\nÕâĞ©ÖÆÔìºÃµÄÈËĞÎµçÄÔ±»·â´æÔÚÌØÊâµÄÈİÆ÷ÖĞ£¬ËæÊ±¶¼¿ÉÒÔÆô·âÊ¹ÓÃ"
-good_ID[52080] = "´óĞÍ´¬Ìå´¢±¸"--102
-good_ID[52081] = "¼ò½é£º\n¸Õ´ÓÁ÷Ë®ÏßÉú²úºÃµÄ´óĞÍ´¬Ìå×é¼ş£¬»¹Î´½øĞĞ¿É×°ÔËµÄ´ò°ü"
-good_ID[52090] = "µç×ÓÔª¼ş´¢±¸"--103
-good_ID[52091] = "¼ò½é£º\nĞ¡µ½¹âÑ§Ğ¾Æ¬´óµ½¸´ÔÓµÄ¼¯³ÉµçÂ·Ãæ°å£¬ËüÃÇ¿ÉÒÔÒıÓÃÔÚ¸÷ÖÖµç×Ó²úÆ·ÉÏ"
-good_ID[52100] = "´óĞÍÎäÆ÷Åä¼ş´¢±¸"--104
-good_ID[52101] = "¼ò½é£º\n¸÷ÖÖ¿Ú¾¶µÄ½¢ÔØÎäÆ÷Åä¼ş£¬±ÈÈç´ó¿Ú¾¶½¢ÅÚÉí¹ÜºÍÄÜÁ¿ÎäÆ÷·¢Éä×°ÖÃ"
-good_ID[52110] = "Âí¿¨¶÷Ö®Å­À¶Í¼"--105
-good_ID[52111] = "¼ò½é£º\nĞèÒª10ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52120] = "µÚ3´úÅ®»Ê¼¶À¶Í¼"--106
-good_ID[52121] = "¼ò½é£º\nĞèÒª10ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52130] = "µÚËÄ´úÅ®»ÊB¼¶À¶Í¼"--107
-good_ID[52131] = "¼ò½é£º\nĞèÒª10ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52140] = "¿ËÀÙÑÅ-´ï¶û¿ËºÅÀ¶Í¼"--108
-good_ID[52141] = "¼ò½é£º\nĞèÒª10ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52150] = "É¯À­-´ï¶û¿ËºÅÀ¶Í¼"--109
-good_ID[52151] = "¼ò½é£º\nĞèÒª10ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52160] = "ÓÀºã2¼¶À¶Í¼"--110
-good_ID[52161] = "¼ò½é£º\nĞèÒª20ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52170] = "Å®»ÊÖ®´¸À¶Í¼"--111
-good_ID[52171] = "¼ò½é£º\nĞèÒª20ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52180] = "µÚÎå´úÅ®»Ê¼¶À¶Í¼"--112
-good_ID[52181] = "¼ò½é£º\nĞèÒª20ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52190] = "µÚËÄ´úÅ®»Ê¼¶À¶Í¼"--113
-good_ID[52191] = "¼ò½é£º\nĞèÒª10ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52200] = "µÚ¶ş´úÂí¿¨¶÷Ö®Å­À¶Í¼"--114
-good_ID[52201] = "¼ò½é£º\nĞèÒª20ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52210] = "ÉóÅĞÍ¥ºÅÀ¶Í¼"--115
-good_ID[52211] = "¼ò½é£º\nĞèÒª20ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52220] = "°¢Ü½ÀÖ¶û¼¶À¶Í¼"--116
-good_ID[52221] = "¼ò½é£º\nĞèÒª20ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52230] = "µÚÎå´úÅ®»Ê¼¶Í´À¶Í¼"--117
-good_ID[52231] = "¼ò½é£º\nĞèÒª20ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52240] = "°¢Ü½ÀÖ¶û¼¶¸ÄÁ¼ĞÍÀ¶Í¼"--118
-good_ID[52241] = "¼ò½é£º\nĞèÒª20ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52250] = "Ê¥ÓòºÅÀ¶Í¼"--119
-good_ID[52251] = "¼ò½é£º\nĞèÒª20ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52260] = "ËşÄÉÍĞË¹¼¶À¶Í¼"--120
-good_ID[52261] = "¼ò½é£º\nĞèÒª20ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52270] = "µÚÁù´úÅ®»Ê¼¶BĞÍÀ¶Í¼"--121
-good_ID[52271] = "¼ò½é£º\nĞèÒª20ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52280] = "µÛ¹úÉÏ½«À¶Í¼"--122
-good_ID[52281] = "¼ò½é£º\nĞèÒª20ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52290] = "Âí¿¨¶÷Ö®Å­3À¶Í¼"--123
-good_ID[52291] = "¼ò½é£º\nĞèÒª20ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52300] = "µÚ6´úÅ®»Ê¼¶CĞÍÀ¶Í¼"--124
-good_ID[52301] = "¼ò½é£º\nĞèÒª20ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52310] = "µÚÁù´úÅ®»Ê¼¶AĞÍÀ¶Í¼"--125
-good_ID[52311] = "¼ò½é£º\nĞèÒª20ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52320] = "³¯Ê¥Õß¼¶À¶Í¼"--126
-good_ID[52321] = "¼ò½é£º\nĞèÒª30ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52330] = "°¢¶û±´µÏÅ·ºÅÀ¶Í¼"--127
-good_ID[52331] = "¼ò½é£º\nĞèÒª30ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52340] = "µÚÁù´úÅ®»Ê¼¶DĞÍÀ¶Í¼"--128
-good_ID[52341] = "¼ò½é£º\nĞèÒª30ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52350] = "´ó¾ı¼¶´İĞÇÀ¶Í¼"--129
-good_ID[52351] = "¼ò½é£º\nĞèÒª40ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52360] = "µÚÆß´úÅ®»Ê´ßĞÇÀ¶Í¼"--130
-good_ID[52361] = "¼ò½é£º\nĞèÒª40ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52370] = "ÃüÔË¼¶´ßĞÇ¾Ş½¢À¶Í¼"--131
-good_ID[52371] = "¼ò½é£º\nĞèÒª40ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52380] = "ÈüÜ½Àò¶ûºÅÀ¶Í¼"--132
-good_ID[52381] = "¼ò½é£º\nĞèÒª40ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52390] = "µç×ÓÔª¼ş"--133
-good_ID[52391] = "¼ò½é£º\nÉú²ú¸÷ÖÖÏÈ½øÉè±¸Ëø±ØĞëµÄµç×ÓÔª¼ş£¬°üÀ¨ÁË¼Ì³ĞĞ¾Æ¬ºÍ¸÷ÖÖµçÂ·°åµÈ¡£¸Ã²úÆ·ÒÑ¾­´ò°üºÃ¿ÉÒÔ³öÊÛ¸ø¸÷¸öÊÆÁ¦"
-good_ID[52400] = "Ò»·İ»úÃÜÎÄ¼ş"--134
-good_ID[52401] = "¼ò½é£º\nÃ»ÈËÖªµÀÕâ¸öÎÄ¼şÄÚ²¿ÓµÓĞÊ²Ã´Êı¾İ£¬ÄãÖ»ĞèÒª°ÑËüËÍµ½Ä¿µÄµØ¾ÍºÃ"
-good_ID[52410] = "Ò»ÅúÓ¦¼±Ê³Æ·"--135
-good_ID[52411] = "¼ò½é£º\nÒ»ÅúÓÃÀ´¾ÈÔÖµÄÊ³Æ·£¬Ëü¿ÉÒÔÍì¾ÈÊıÊ®ÍòÆ½ÃñµÄÉúÃü"
-good_ID[52420] = "Ò»ÅúÌØÊâ¿óÊ¯"--136
-good_ID[52421] = "¼ò½é£º\nÒ»Åúº¬ÓĞÌØÊâ¿óÎïÔªËØµÄ½ğÊô¿óÊ¯£¬¿ÉÒÔÉú²ú¸÷ÖÖ¸ßĞÔÄÜºÏ½ğ"
-good_ID[52430] = "ÌØÊâÉúÎï²ÄÁÏ"--137
-good_ID[52431] = "¼ò½é£º\nÒ»ÕûÅúµÄÌØÊâÉúÎï²ÄÁÏ£¬ÓÃÀ´ÅàÑøÌØÊâµÄÉúÎïÎïÖÊ½øĞĞ¸÷ÖÖÌØ±ğÓÃÍ¾"
-good_ID[52440] = "Ò»Ö§È«¸±Îä×°µÄµÛ¹ú±øÍÅ"--138
-good_ID[52441] = "¼ò½é£º\nÊıÊ®ÍòÈËµÄµØÃæ²¿¶Ó£¬´îÅäÓĞ´óÁ¿µÄÏÈ½øÔØ¾ßºÍÎäÆ÷×°±¸£¬ËüÃÇ¿ÉÒÔÇáËÉµÄ¹¥Õ¼Ò»¿ÅĞĞĞÇ"
-good_ID[52450] = "Î¬¸ñ¶ûÕ½ÁĞ½¢ĞüÉÍ"--139
-good_ID[52451] = "¼ò½é£º\nÒ»ËÒÌØÊâµÄÎ¬¸ñ¶ûÕ½ÁĞ½¢ÕıÔÚÌìÊ¹Ö®ÔÂĞÇÇø»î¶¯£¬´İ»ÙËü¿ÉÒÔµÃµ½¾Ş¶î½±Àø"
-good_ID[52460] = "Î¬¸ñ¶ûÎŞÎ·½¢ĞüÉÍ"--140
-good_ID[52461] = "¼ò½é£º\nÒ»ËÒÌØÊâµÄÎ¬¸ñ¶ûÎŞÎ·½¢ÕıÔÚÎ¬¸ñ¶ûĞ¡ĞĞĞÇ´ø»î¶¯£¬´İ»ÙËü¿ÉÒÔµÃµ½¾Ş¶î½±Àø"
-good_ID[52470] = "Î¬¸ñ¶ûº½¿ÕÕ½ÁĞ½¢ĞüÉÍ"--141
-good_ID[52471] = "¼ò½é£º\nÒ»ËÒÌØÊâµÄÎ¬¸ñ¶ûº½¿ÕÕ½ÁĞ½¢ÕıÔÚ¸èºÍÄÃĞÇÇø»î¶¯£¬´İ»ÙËü¿ÉÒÔµÃµ½¾Ş¶î½±Àø"
-good_ID[52480] = "Î¬¸ñ¶ûÕ½Õù±¤ÀİĞüÉÍ"--142
-good_ID[52481] = "¼ò½é£º\nÒ»ËÒÌØÊâµÄÎ¬¸ñ¶ûÕ½Õù±¤ÀİÕıÔÚÎ¬¸ñ¶û´¬ÎëĞÇÇø»î¶¯£¬´İ»ÙËü¿ÉÒÔµÃµ½¾Ş¶î½±Àø"
-good_ID[52490] = "Î¬¸ñ¶û´İĞÇ¾Ş½¢ĞüÉÍ"--143
-good_ID[52491] = "¼ò½é£º\nÒ»ËÒÌØÊâµÄÎ¬¸ñ¶û´İĞÇ¾Ş½¢ÕıÔÚÎ¬¸ñ¶ûÇ°ÉÚĞÇÇø»î¶¯£¬´İ»ÙËü¿ÉÒÔµÃµ½¾Ş¶î½±Àø"
-good_ID[52500] = "¾«Ó¢ĞÍÔ¶ĞĞÕßÀ¶Í¼"--144
-good_ID[52501] = "¼ò½é£º\nĞèÒª10ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52510] = "Ìú¸¡Í¼¼¶À¶Í¼"--145
-good_ID[52511] = "¼ò½é£º\nĞèÒª10ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52520] = "¾ıÍõ¼¶À¶Í¼"--146
-good_ID[52521] = "¼ò½é£º\nĞèÒª10ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52530] = "Ò»·İÉÌÒµºÏÍ¬"--147
-good_ID[52531] = "¼ò½é£º\nÒ»·İÌØÊâµÄÉÌÒµºÏÍ¬£¬±³ºóÊÇ¾Ş¶îÉÌÒµÃ³Ò×ÄÚÈİ¡£"
-good_ID[52540] = "Ò»·İ½¨ÔìºÏÔ¼"--148
-good_ID[52541] = "¼ò½é£º\nÒ»·İÌØÊâµÄÎ¯ÍĞ½¨ÔìºÏÔ¼£¬Î¯ÍĞÕßÏ£Íû¿¨¶òË¹ÁªÃË°ïÃ¦½¨ÔìĞ©Ê²Ã´ÌØÊâµÄ¹¤³Ì¡£"
-good_ID[52550] = "ÁÑºÛ2EĞÍÀ¶Í¼"--149
-good_ID[52551] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52560] = "ÁÑºÛ2FĞÍÀ¶Í¼"--150
-good_ID[52561] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52570] = "ÁÑºÛ2GĞÍÀ¶Í¼"--151
-good_ID[52571] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52580] = "Í»Ï®Õß¼¶À¶Í¼"--152
-good_ID[52581] = "¼ò½é£º\nĞèÒª4ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52590] = "·À·ç¼¶À¶Í¼"--153
-good_ID[52591] = "¼ò½é£º\nĞèÒª10ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52595] = "·â×°µÄÇáĞÍÕ½¶·»ú×é¼ş"--154
-good_ID[52596] = "ÕâÖÖ·â×°µÄÕ½¶·»úÖ»ÓĞ¶ÔÓ¦º½Ä¸µÄÎ¬»¤³µ¼ä²ÅÄÜ½øĞĞ×°Åä²¢²¿Êğ¡£"
-good_ID[52605] = "·â×°µÄÖØĞÍÕ½¶·»ú×é¼ş"--155
-good_ID[52606] = "ÕâÖÖ·â×°µÄÕ½¶·»úÖ»ÓĞ¶ÔÓ¦º½Ä¸µÄÎ¬»¤³µ¼ä²ÅÄÜ½øĞĞ×°Åä²¢²¿Êğ¡£"
-good_ID[52615] = "·â×°µÄÅÚÍ§×é¼ş"--156
-good_ID[52616] = "ÕâÖÖ·â×°µÄÕ½¶·»úÖ»ÓĞ¶ÔÓ¦º½Ä¸µÄÎ¬»¤³µ¼ä²ÅÄÜ½øĞĞ×°Åä²¢²¿Êğ¡£"
-good_ID[52625] = "·â×°µÄÏÈ½øÕ½¶·»ú×é¼ş"--157
-good_ID[52626] = "ÕâÖÖ·â×°µÄÕ½¶·»úÖ»ÓĞ¶ÔÓ¦º½Ä¸µÄÎ¬»¤³µ¼ä²ÅÄÜ½øĞĞ×°Åä²¢²¿Êğ¡£"
-good_ID[52635] = "·â×°µÄÖØĞÍºäÕ¨»ú×é¼ş"--158
-good_ID[52636] = "ÕâÖÖ·â×°µÄÕ½¶·»úÖ»ÓĞ¶ÔÓ¦º½Ä¸µÄÎ¬»¤³µ¼ä²ÅÄÜ½øĞĞ×°Åä²¢²¿Êğ¡£"
-good_ID[52645] = "·â×°µÄ³¬¼¶Õ½¶·»ú×é¼ş"--159
-good_ID[52646] = "ÕâÖÖ·â×°µÄÕ½¶·»úÖ»ÓĞ¶ÔÓ¦º½Ä¸µÄÎ¬»¤³µ¼ä²ÅÄÜ½øĞĞ×°Åä²¢²¿Êğ¡£"
-good_ID[52650] = "½ø¹¥¾¯¸æ"--160
-good_ID[52651] = "ÕâÊÇÒ»Ôò½ø¹¥ÌáĞÑ£¬Ò»Ö§Î¬¸ñ¶û½¢¶ÓÕıÔÚÈëÇÖÄãµÄÖ³ÃñµØ£¬Çë¾¡¿ì¸Ï»ØÈ¥Ğ­Öú·ÀÓù"
-good_ID[52660] = "´ó¾ıÓïÂ¼"--161
-good_ID[52661] = "ÈËÀàÊÇÎŞ·¨»¥ÏàÀí½âµÄ£¡ÄãÃÇÓÖÒªÌôÆğÕ½ÕùÂğ£¿"
-good_ID[52670] = "°ÑÃÃÊÖ²á"--162
-good_ID[52671] = "ÄÇÀïÓĞÒ»Ö»³¬À«°®µÄÃ¨ÄïÚÀ£¬ÈÃÎÒ·­·­ÊÖ²á¿µ¿µÔõÃ´°ÑËı¹Õ»Ø¼Ò£¬emmmm·¼Ïãòîó¢£¿"
-good_ID[52680] = "¹ÜÀíÔ±"--163
-good_ID[52681] = "ÕâÃ´³ôµÄ¹ÜÀíÔ±ÕæµÄÓĞµØ·½»áÊÕÂğ.jpg ÕâÊÇºÜÌÖÑáµÄ¹ÜÀíÔ±£¬ÏÖÔÚÎÒÃÇÒªÂô¸øË­ÄØ£¬ßõÕâ¸ö¼úÙâÙâµÄ±íÇé£¬Òª²»ÎÒÃÇÏÈ´òÒ»¶ÙÔÙËµ"
-good_ID[52690] = "Ê®ËÄ¹«Ö÷À¶Í¼"--164
-good_ID[52691] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52700] = "ÁÑºÛ121À¶Í¼"--165
-good_ID[52701] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52710] = "ÁÑºÛ2FGFÀ¶Í¼"--166
-good_ID[52711] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52720] = "Ë÷ÍĞÑÇÂêÀ­ĞÍÀ¶Í¼"--167
-good_ID[52721] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52730] = "Ò»ÍòÃûÌØÊâµÄ½ğ·¢Å«Á¥"--168
-good_ID[52731] = "¼ò½é£º\nÕâÊÇÒ»ÍòÃûÌØÊâµÄ½ğ·¢Å®Å«Á¥£¬ÊÇ´ó¾ıÌØÒâËÍ¸øÑ¦¿ÆÎ¬´ÄµÄ¡£"
-good_ID[52740] = "³æ³²Ä¸½¢ĞüÉÍ"--169
-good_ID[52741] = "¼ò½é£º\nÒ»ËÒÌØÊâµÄ³æ³²Ä¸½¢ÕıÔÚ³æ³²ĞÇÇø»î¶¯£¬½«Ëü»÷»Ù¿ÉÒÔ»ñµÃÌØÊâ½±Àø¡£"
-good_ID[52750] = "ÌØÊâµÄÀñÎï"--170
-good_ID[52751] = "¼ò½é£º\n°¢ÒòÌØË¹´úÖÙ²ÃÍ¥°¢ÂÜÀ­¸øÄª¶ûµÏ»ù°²´ó¾ıµÄÖØÒª°ü¹ü¡£"
-
-good_ID[52760] = "ºÕÀû°ÂË¹À¶Í¼"--171
-good_ID[52761] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52770] = "»ìãçÖ®ÈĞÀ¶Í¼"--172
-good_ID[52771] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[52780] = "¹şµÏË¹¼¶À¶Í¼"--173
-good_ID[52781] = "¼ò½é£º\nĞèÒª20ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[52790] = "ÓÈÀïÎ÷Ë¹À¶Í¼"--174
-good_ID[52791] = "¼ò½é£º\nĞèÒª40ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[52800] = "Avalon°¢ÍßÂ¡À¶Í¼"--175
-good_ID[52801] = "¼ò½é£º\nĞèÒª40ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52810] = "ExcaliburÊ¤ÀûÖ®½£À¶Í¼"--176
-good_ID[52811] = "¼ò½é£º\nĞèÒª40ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52820] = "Ì¾Ï¢Ö®Ç½À¶Í¼"--177
-good_ID[52821] = "¼ò½é£º\nĞèÒª40ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[52830] = "»úĞµÁã¼ş"--178
-good_ID[52831] = "¼ò½é£º\n¸÷ÖÖ´óĞÍ¹¤³ÌÉè±¸ºÍ»úĞµÉè±¸¶¼ĞèÒªµÄ»ù´¡Áã¼ş£¬ÓÉÂİË¿£¬Á¬½Ó¼şºÍ¸÷ÖÖ¸´ÔÓµÄ½ğÊô¹¹¼şËù×é³É¡£"
-good_ID[52840] = "±¤Àİ¼¶À¶Í¼ËéÆ¬"--179
-good_ID[52841] = "¼ò½é£º\nÍ¨¹ı¶Ô±¤Àİ¼¶½¢´¬À¶Í¼½øĞĞÄæÏò·Ö½âËùµÃµ½µÄÑĞ¾¿Êı¾İ£¬ÓĞ¿ÉÄÜ×éºÏ³öĞÂµÄ±¤Àİ¼¶½¢´¬À¶Í¼¡£"
-good_ID[52850] = "ÈÙÓşÑ«ÕÂ"--180
-good_ID[52851] = "¼ò½é£º\nÌØÊâµÄÈÙÓşÑ«ÕÂ£¬µ±ÄãÎªÒ»Ğ©´óĞÍÊÆÁ¦Ìá¹©°ïÖúºóÓĞ¿ÉÄÜ»ñµÃ£¬¿ÉÒÔÊ¹ÓÃµ½Ò»Ğ©ÌØÊâµÄµØ·½¡£"
-
-
-
-good_ID[52860] = "Ô¾Ç¨ÄÜÁ¿"--181
-good_ID[52861] = "¼ò½é£º\nÖ³ÃñµØĞÇÃÅËù´¢±¸µÄÔ¾Ç¨ÄÜÁ¿£¬Ö»ÓĞÓµÓĞ×ã¹»µÄÔ¾Ç¨ÄÜÁ¿´¢±¸Ö³ÃñµØĞÇÃÅ²ÅÄÜÕ¹¿ª³¬¿Õ¼äÖ®ÃÅÓÖ»òÕßÊÇÒıµ¼½¢¶ÓÔ¾Ç¨·µ»Ø¡£"
-good_ID[52870] = "½¢¶ÓµãÊı"--182
-good_ID[52871] = "¼ò½é£º\nÖ³ÃñµØÉú²úµÄ¸÷ÖÖ½¢´¬»»ËãµÄµãÊı£¬¿ÉÒÔÓÃÀ´¶Ò»»Õ½½¢£¬ÓÖ»òÕßÊÇÔÚÆäËûµØÍ¼ÕÙ»½Ö§Ô®¡£"
-
-good_ID[52880] = "»úĞµÁã¼ş´¢±¸"--183
-good_ID[52881] = "¼ò½é£º\nÖ³ÃñµØÉú²úµÄ»úĞµÁã¼ş£¬ÕâĞ©Áã¼şÓÃ¼¯×°Ïä´¢´æÔÚÖ³ÃñµØµÄ´óĞÍ²Ö¿âÖĞ¡£"
-
-good_ID[52890] = "ÄÉÃ×ÎïÖÊ´¢±¸"--184
-good_ID[52891] = "¼ò½é£º\nÖ³ÃñµØÉú²úµÄÄÉÃ×ÎïÖÊ£¬ÕâĞ©ÄÉÃ×ÎïÖÊÓÃÌØÊâµÄ¸ß¼¶ÈİÆ÷´¢´æÔÚÖ³ÃñµØµÄ´óĞÍ²Ö¿âÖĞ¡£"
-
-good_ID[52900] = "½¢ÔØ»ú×é¼ş´¢±¸"--185
-good_ID[52901] = "¼ò½é£º\nÖ³ÃñµØÉú²úµÄ½¢ÔØ»ú×é¼ş£¬ÕâĞ©½¢ÔØ»ú×é¼ş´¢´æÔÚÖ³ÃñµØµÄ²Ö¿âÖĞ£¬ËæÊ±¿ÉÒÔ×é×°³É½¢ÔØ»ú¡£"
-
-good_ID[52910] = "ÎÚÀ¼°ÍÍĞ¼¶Ö¸»ÓÄ¸½¢À¶Í¼"--186
-good_ID[52911] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52920] = "ÏÈ½ø±¤Àİ¼¶À¶Í¼ËéÆ¬"--187
-good_ID[52921] = "¼ò½é£º\nÍ¨¹ı¶ÔÏÈ½ø±¤Àİ¼¶½¢´¬À¶Í¼½øĞĞÄæÏò·Ö½âËùµÃµ½µÄÑĞ¾¿Êı¾İ£¬ÓĞ¿ÉÄÜ×éºÏ³öĞÂµÄ±¤Àİ¼¶½¢´¬À¶Í¼¡£"
-good_ID[52930] = "´İĞÇ¼¶À¶Í¼ËéÆ¬"--188
-good_ID[52931] = "¼ò½é£º\nÍ¨¹ı¶ÔÏÈ½ø´İĞÇ¼¶½¢´¬À¶Í¼½øĞĞÄæÏò·Ö½âËùµÃµ½µÄÑĞ¾¿Êı¾İ£¬ÓĞ¿ÉÄÜ×éºÏ³öĞÂµÄ´İĞÇ¼¶½¢´¬À¶Í¼¡£"
-
-
-good_ID[52940] = "ÏÈ½øÆì½¢À¶Í¼ËéÆ¬"--189
-good_ID[52941] = "¼ò½é£º\nÍ¨¹ı¶ÔÏÈ½øÆì½¢¼¶½¢´¬À¶Í¼½øĞĞÄæÏò·Ö½âËùµÃµ½µÄÑĞ¾¿Êı¾İ£¬ÓĞ¿ÉÄÜ×éºÏ³öĞÂµÄÏÈ½øÆì½¢¼¶½¢´¬À¶Í¼¡£"
-good_ID[52950] = "ÂåÉñºÅÀ¶Í¼"--190
-good_ID[52951] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52960] = "ĞŞ²®Àû°²À¶Í¼"--191
-good_ID[52961] = "¼ò½é£º\nĞèÒª40ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[52970] = "¹â»ÔÅ®Éñ¼¶ÎŞÎ·½¢À¶Í¼"--192
-good_ID[52971] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52980] = "ºÆ½Ù¼¶ÎŞÎ·½¢À¶Í¼"--193
-good_ID[52981] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[52990] = "°µÒ¹Å®Éñ¼¶ÎŞÎ·½¢À¶Í¼"--194
-good_ID[52991] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[53000] = "ÓÀºã¼¶ÎŞÎ·½¢À¶Í¼"--195
-good_ID[53001] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[53010] = "°¬ÈğÏ£¶û¼¶À¶Í¼"--196
-good_ID[53011] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[53020] = "Ò®ÃÎ¼ÓµÃºÅÀ¶Í¼"--197
-good_ID[53021] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[53030] = "³¿·æ¼¶À¶Í¼"--198
-good_ID[53031] = "¼ò½é£º\nĞèÒª40ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[53040] = "Ê¥±®¼¶À¶Í¼"--199
-good_ID[53041] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[53050] = "Éñ·£¼ßÃğÌ×¼şÀ¶Í¼"--200
-good_ID[53051] = "¼ò½é£º\nĞèÒª30ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-
-good_ID[53060] = "¸£ÁúºÅÀ¶Í¼"--201
-good_ID[53061] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[53070] = "ÍşÁúºÅÀ¶Í¼"--202
-good_ID[53071] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-
-
-good_ID[53080] = "»ÔÒ¹-ÎÚ¶ûµÂÀ¶Í¼"--203
-good_ID[53081] = "¼ò½é£º\nĞèÒª40ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-good_ID[53090] = "ÌìÓğ-Ë¹¿¨µÙÀ¶Í¼"--204
-good_ID[53091] = "¼ò½é£º\nĞèÒª40ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53100] = "ÃüÔËÕ½ÕùÄ¸½¢"--205
-good_ID[53101] = "¼ò½é£º\nĞèÒª40ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53110] = "ÁÑºÛ2HĞÍÀ¶Í¼"--206
-good_ID[53111] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53120] = "Ç°Ïß¾ü±¨"--207
-good_ID[53121] = "¼ò½é£º\nÕâÊÇÒ»·İÇ°Ïß¾ü±¨£¬ÄãĞèÒª°ÑËüËÍµ½µÛ¹úÖ®ÃÅ´¦½øĞĞ»ã±¨¡£"
-
-good_ID[53130] = "¶÷ÆæÀ­·½ÖÛÀ¶Í¼"--208
-good_ID[53131] = "¼ò½é£º\nĞèÒª40ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53140] = "³¿êØºÅÀ¶Í¼"--209
-good_ID[53141] = "¼ò½é£º\nĞèÒª20ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53150] = "µòÁãÕß¼¶Õ½ÁĞ½¢À¶Í¼"--210
-good_ID[53151] = "¼ò½é£º\nĞèÒª3ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53160] = "ÌìÔÖ¼¶ÔËÔØ½¢À¶Í¼"--211
-good_ID[53161] = "¼ò½é£º\nĞèÒª3ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-
-good_ID[53170] = "ÏÉÅ®Ä¾¼¶À¶Í¼"--212
-good_ID[53171] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53180] = "·äÏä¼¶À¶Í¼"--213
-good_ID[53181] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53190] = "°¢¿ËË÷¼¶Î¬ĞŞ½¢À¶Í¼"--214
-good_ID[53191] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53200] = "±©Óê¼¶¹âÊø¹ìµÀÅÚÀ¶Í¼"--good215
-good_ID[53201] = "¼ò½é£º\nĞèÒª3ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53210] = "´ó¼üÇÙ¼¶À¶Í¼"--good216
-good_ID[53211] = "¼ò½é£º\nĞèÒª3ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-
-
-good_ID[53230] = "ÂÖ»Ø¼¶À¶Í¼"--good217
-good_ID[53231] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53240] = "ÄÉ¶ûÑ·¼¶Á¿²úÕ½ÁĞ½¢"--good218
-good_ID[53241] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53250] = "ÂŞµÂÄá¼¶¾«Ó¢¸ÄÕ½ÁĞ½¢"--good219
-good_ID[53251] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53260] = "ºìÍÃ×ÓÂŞµÂÄáºÅ"--good220
-good_ID[53261] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53270] = "Ö§µã¼¶À¶Í¼"--good221
-good_ID[53271] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53280] = "ÅÁ¶ûĞŞË¹ºÅÀ¶Í¼"--good222
-good_ID[53281] = "¼ò½é£º\nĞèÒª40ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53290] = "Ö§µãÌ©Ì¹ĞÍÀ¶Í¼"--good223
-good_ID[53291] = "¼ò½é£º\nĞèÒª3ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53300] = "Ñ¤ÀöÉîÔ¨¼¶À¶Í¼"--good224
-good_ID[53301] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-
-good_ID[53310] = "¼²·ç¼¶À¶Í¼"--good225
-good_ID[53311] = "¼ò½é£º\nĞèÒª3ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53320] = "Ä§Å®¼¶À¶Í¼"--good226
-good_ID[53321] = "¼ò½é£º\nĞèÒª3ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53330] = "Å®Î×¼¶À¶Í¼"--good227  
-good_ID[53331] = "¼ò½é£º\nĞèÒª3ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53340] = "ÓÄ»ê¼¶À¶Í¼"--good228  
-good_ID[53341] = "¼ò½é£º\nĞèÒª3ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53350] = "ÈÙ¹âÁªºÏ¼¶À¶Í¼"--good229  
-good_ID[53351] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53360] = "Íß¶û¼¶À¶Í¼"--good230 
-good_ID[53361] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53370] = "Íß¶ûÖØ´¸À¶Í¼"--good231 
-good_ID[53371] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-
-good_ID[53380] = "ĞşÁé¼¶À¶Í¼"--good232 
-good_ID[53381] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-
-good_ID[53390] = "ÕæÒøÖ®·æÀ¶Í¼"--good233 
-good_ID[53391] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53400] = "»ª¸ñÄÇÀ¶Í¼"--good234
-good_ID[53401] = "¼ò½é£º\nĞèÒª40ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53410] = "ÂåÂ×Ï£À¶Í¼"--good235 
-good_ID[53411] = "¼ò½é£º\nĞèÒª40ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53420] = "µÛ¹úÍ¨ÓÃÖ÷Á¦½¢À¶Í¼"--good236 
-good_ID[53421] = "¼ò½é£º\n°üº¬ÁË·ÆÑÅÀûµÛ¹úÖ÷Á¦½¢µÄÍ¨ÓÃÉè±¸½¨Ôì·½·¨£¬±ÈÈç¹ÜµÀÏßÂ·ÄÚ²¿¾Ó×¡ÉèÊ©ºÍ¸÷ÖÖ¸½ÊôÉè±¸µÈ£¬¶ÔÓÚ½¨ÔìÒ»ËÒÖ÷Á¦½¢À´Ëµ·Ç³£ÖØÒª¡£"
-
-good_ID[53430] = "ÁªÃËÍ¨ÓÃÖ÷Á¦½¢À¶Í¼"--good237 
-good_ID[53431] = "¼ò½é£º\n°üº¬ÁË¿¨¶òË¹ÁªÃËÖ÷Á¦½¢µÄÍ¨ÓÃÉè±¸½¨Ôì·½·¨£¬±ÈÈç¹ÜµÀÏßÂ·ÄÚ²¿¾Ó×¡ÉèÊ©ºÍ¸÷ÖÖ¸½ÊôÉè±¸µÈ£¬¶ÔÓÚ½¨ÔìÒ»ËÒÖ÷Á¦½¢À´Ëµ·Ç³£ÖØÒª¡£"
-
-good_ID[53440] = "Î¬¸ñ¶ûÍ¨ÓÃÖ÷Á¦½¢À¶Í¼"--good238 
-good_ID[53441] = "¼ò½é£º\n°üº¬ÁËÎ¬¸ñ¶ûÖ÷Á¦½¢µÄÍ¨ÓÃÉè±¸½¨Ôì·½·¨£¬±ÈÈç¹ÜµÀÏßÂ·ÄÚ²¿¾Ó×¡ÉèÊ©ºÍ¸÷ÖÖ¸½ÊôÉè±¸µÈ£¬¶ÔÓÚ½¨ÔìÒ»ËÒÖ÷Á¦½¢À´Ëµ·Ç³£ÖØÒª¡£"
-
-good_ID[53450] = "Ï£¸ñÀ­Í¨ÓÃÖ÷Á¦½¢À¶Í¼"--good239 
-good_ID[53451] = "¼ò½é£º\n°üº¬ÁËÏ£¸ñÀ­Ö÷Á¦½¢µÄÍ¨ÓÃÉè±¸½¨Ôì·½·¨£¬±ÈÈç¹ÜµÀÏßÂ·ÄÚ²¿¾Ó×¡ÉèÊ©ºÍ¸÷ÖÖ¸½ÊôÉè±¸µÈ£¬¶ÔÓÚ½¨ÔìÒ»ËÒÖ÷Á¦½¢À´Ëµ·Ç³£ÖØÒª¡£"
-
-good_ID[53460] = "°¬ÂåË¹Í¨ÓÃÖ÷Á¦½¢À¶Í¼"--good240
-good_ID[53461] = "¼ò½é£º\n°üº¬ÁË°¬ÂåË¹Ö÷Á¦½¢µÄÍ¨ÓÃÉè±¸½¨Ôì·½·¨£¬±ÈÈç¹ÜµÀÏßÂ·ÄÚ²¿¾Ó×¡ÉèÊ©ºÍ¸÷ÖÖ¸½ÊôÉè±¸µÈ£¬¶ÔÓÚ½¨ÔìÒ»ËÒÖ÷Á¦½¢À´Ëµ·Ç³£ÖØÒª¡£"
-
-good_ID[53470] = "½¢¶ÓµãÊı"--good241 
-good_ID[53471] = "´ú±íÖ³ÃñµØ½¢¶ÓÊµÁ¦µÄÍ¨ÓÃµãÊı£¬¿ÉÒÔÓÃµ½¸÷ÖÖ·½Ãæ"
-
-good_ID[53480] = "Ö³ÃñµØ×ÊÔ´ÊÕ¼¯½¢¶Ó"--good242 
-good_ID[53481] = "ÄãµÄÒ»Ö§½¢¶ÓÕıÔÚ½øĞĞ×ÊÔ´ÊÕ¼¯£¨¾¯¸æ£¬¶ªÆú¸ÃÉÌÆ·»áµ¼ÖÂÔ¶Õ÷½¢¶ÓÊ§Áª£¬½¢¶ÓµãÊı¶ªÊ§£©"
-
-good_ID[53490] = "Ö³ÃñµØÔ¶Õ÷½¢¶Ó"--good243
-good_ID[53491] = "ÄãµÄÒ»Ö§½¢¶ÓÕıÔÚ½øĞĞÔ¶Õ÷£¨¾¯¸æ£¬¶ªÆú¸ÃÉÌÆ·»áµ¼ÖÂÔ¶Õ÷½¢¶ÓÊ§Áª£¬½¢¶ÓµãÊı¶ªÊ§£©"
-
-good_ID[53500] = "Ö³ÃñµØÍşÉå"--good244
-good_ID[53501] = "ÄãµÄ½¢¶ÓµÄÖ÷¶¯³ö»÷ĞĞ¶¯Ê®·Ö³É¹¦£¬²¢¶ÔÖÜÎ§ÆäËûÊÆÁ¦²úÉúÁËÕğÉå£¬¶ÌÊ±¼äÄÚ²»ÔÙ³öÏÖĞÂµÄÖ³ÃñµØÍşĞ²£¨¶ªÆú¸ÃÉÌÆ·»áµ¼ÖÂÖ³ÃñµØÍşĞ²ÔÙ´Î³öÏÖ£©"
-
-good_ID[53510] = "»·´ø¼¶´İĞÇ¾Ş½¢À¶Í¼"--good245
-good_ID[53511] = "¼ò½é£º\nĞèÒª40ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53520] = "¸æ½ë¼¶À¶Í¼"--good246
-good_ID[53521] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53530] = "SSC¼¶À¶Í¼"--good247
-good_ID[53531] = "¼ò½é£º\nĞèÒª3ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53540] = "ÖÙ²ÃÍ¥µÄÑûÇëº¯"--good248
-good_ID[53541] = "³ÖÓĞ´ËÆ¾Ö¤½øÈëÕ½³¡£¬ÓëÎÒ¹²Õ½"
-
-good_ID[53550] = "ÃØÒøÖØ¹¤µÄÑûÇëº¯"--good249
-good_ID[53551] = "³ÖÓĞ´ËÆ¾Ö¤½øÈëÕ½³¡£¬ÓëÎÒ¹²Õ½"
-
-good_ID[53560] = "±ø·ä¿ØÖÆÏµÍ³"--good250
-good_ID[53561] = "¸øÄã¼ÒÉè±¸Ò»¸ö³É¾«µÄ»ú»á"
-
-good_ID[53640] = "ÏÈ½øµ¥±øµç»÷Ç¹"--good251
-good_ID[53641] = "ÏÈ½øµÄ·ÇÖÂÃü°²±£×°±¸"
-
-good_ID[53650] = "¶ÀÑÛÈ«×Ô¶¯°²±£ÑÛÇò»úÆ÷ÈË"--good252
-good_ID[53651] = "×°±¸ÁË¶àÖÖ·ÇÖÂÃü°²±£×°±¸µÄ°²±£ĞÍ¸¡¿Õ»úÆ÷ÈË"
-good_ID[53660] = "ºÏ³ÉÉñ¾­´Ø"--good253
-good_ID[53661] = "Ê¹ÓÃ³¬ÕÅÁ¦ËÜÁÏÓë²¡¶¾ÔÚÌØÊâ»·¾³ÏÂºÏ³ÉµÄÈË¹¤Éñ¾­´Ø£¬Ò»°ã±»ÓÃÔÚ»úĞµ¹¹×°ÌåÉÏÄ£ÄâÉúÎïÉñ¾­ÏµÍ³µÄ¹¦ÄÜ"
-
-
-good_ID[53670] = "Ã¨·¹"--good253
-good_ID[53671] = "·ÆÀòæ§°¬ÈËÓÃÓÚêûÀÍĞĞÕßµÄÄÍ´¢Ê³Æ·£¬Ö»Ğè´ò¿ªÈİÆ÷²¢Ê¹ÓÃ×Ô´ø¹¤¾ßÅëâ¿£¬¼´¿ÉÏíÓÃ·áÊ¢ÃÀÎ¶"
-
-good_ID[53680] = "Ñ¹Ëõ½ºÄÒ"--good254
-good_ID[53681] = "Ê¹ÓÃÎïÖÊÑ¹Ëõ¼¼Êõ·â×°µÄ±ê×¼»¯½ºÄÒ£¬ÓĞÒ½»¤ÓÃÆ·¡¢¾ÈÄÑ¹¤¾ßµÈÀàĞÍ£¬¿ÉÔÚ¸÷ÖÖ¼«¶Ë»·¾³ÖĞÊ¹ÓÃ"
-
-good_ID[53690] = "´üµ×Á¸"--good255
-good_ID[53691] = "ĞÎËÆ±ı¸ÉµÄ¸ßÄÜÊ³Æ·£¬ÓªÑø·á¸»£¬ĞÔÖÊÊ®·ÖÎÈ¶¨£¬·şÓÃºóÄÜ×ÌÑøÒâÖ¾¡¢Ìá¹©ÄÍÁ¦£¬ÉõÖÁ¼Ó¿ìÉË²¡È¬Óú"
-
-good_ID[53700] = "¸è¼§ÊÖ°ì"--good256
-good_ID[53701] = "³¡··µÄÕıÆ·±¬¿î£¬ÉîÊÜ·ÛË¿Ï²°®£¬¾İËµÓĞĞ©´÷ÑÛÕÖµÄ´¬³¤»á×¨ÃÅ¶¨ÖÆ´óºÅ´¬Í·µñÏñ¿î¡£"
-
-
-
-good_ID[53750] = "Ä©ÊÀ¼¶ÎŞÎ·½¢À¶Í¼"--good260
-good_ID[53751] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-
-good_ID[53760] = "ÊÄÔ¼¼¶ÎŞÎ·½¢À¶Í¼"--good261
-good_ID[53761] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53770] = "ĞÇÖı¼¶À¶Í¼"--good262
-good_ID[53771] = "¼ò½é£º\nĞèÒª30ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53780] = "°ÂÌØÁÖµÂ¼¶À¶Í¼"--good263
-good_ID[53781] = "¼ò½é£º\nĞèÒª30ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53790] = "öïÅô¼¶À¶Í¼"--good264
-good_ID[53791] = "¼ò½é£º\nĞèÒª10ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53800] = "ÁÑºÛ3AÀ¶Í¼"--good265
-good_ID[53801] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53810] = "ÁÑºÛ3CÀ¶Í¼"--good266
-good_ID[53811] = "¼ò½é£º\nĞèÒª5ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53820] = "SAA¼¶À¶Í¼"--good267
-good_ID[53821] = "¼ò½é£º\nĞèÒª20ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-good_ID[53830] = "ĞÇÖı¹¤³ÌÄ¸½¢À¶Í¼"--good268
-good_ID[53831] = "¼ò½é£º\nĞèÒª30ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-
-good_ID[53840] = "µÚ°Ë´úÅ®»ÊÀ¶Í¼"--good269
-good_ID[53841] = "¼ò½é£º\nĞèÒª40ÕÅ²ÅÄÜ½¨Ôì\n½¨ÔìÕ½½¢Ëù±ØĞëµÄÊı¾İÀ¶Í¼£¬ÖÆ×÷ËüµÄ¹¤ÒÕ¼«Îª¸´ÔÓ¶øÇÒ¾­¹ıÁË¸ßÇ¿¶ÈµÄÊı¾İ¼ÓÃÜ£¬ÊôÓÚ²»¿É¸´ÖÆµÄÏûºÄÆ·¡£ÓĞµÄÊ±ºòÎªÁË½¨ÔìÒ»ËÒ¸ßÄÑ¶ÈÕ½½¢»¹ĞèÒªĞí¶à·İÏàÍ¬µÄÀ¶Í¼²ÅĞĞ¡£"
-
-
-
-
---good251µ½--good300
-good_ID[53562] = "µÛ¹úÖ³ÃñÇøÈëÇÖ"
-good_ID[53563] = "µÛ¹ú²É¿óµãÈëÇÖ"
-good_ID[53564] = "µÛ¹úÌ«¿ÕÅ©³¡ÈºÈëÇÖ"
-good_ID[53565] = "µÛ¹úÇ°Ïß½¢¶Ó¼¯½áµØÈëÇÖ"
-good_ID[53566] = "·ÆÑÅÀûµÛ¹ú´¬ÎëÈºÈëÇÖ"
-good_ID[53567] = "Ì¹ÄáË¹ÈëÇÖ"
-good_ID[53568] = "ÈûÀÕÄ·ÈëÇÖ"
-good_ID[53569] = "Ï£¸ñÀ­Ê×ĞÇÈëÇÖ"
-good_ID[53570] = "ÌìÊ¹Ö®ÔÂÈëÇÖ"
-good_ID[53571] = "µÚ142ºÅÇ°ÉÚ»ùµØÈëÇÖ"
-good_ID[53572] = "Äá¸£¶ûº£Ä·ÈëÇÖ"
-good_ID[53573] = "ºÕ¶ûº£ÀûÄ·ÈëÇÖ"
-good_ID[53574] = "ÒÏ³²½¢¶Ó»î¶¯ÇøÈëÇÖ"
-good_ID[53575] = "°¢ÒòÌØË¹½¢¶Ó¶¨ÃªµãÈëÇÖ"
-good_ID[53576] = "ĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹ÈëÇÖ"
-good_ID[53577] = "Î¬¸ñ¶û¶«Ïß¾ü·§»î¶¯ÇøÈëÇÖ"
-good_ID[53578] = "Î¬¸ñ¶û¶«Ïß¾ü·§¿ØÖÆÇøÈëÇÖ"
-good_ID[53579] = "¿¨¶òË¹ÁªÃË¡ªÇ°ÏßÉÚÕ¾ÈëÇÖ"
-good_ID[53580] = "¿¨¶òË¹ÁªÃË¡ªÀû±´¶û¹²ºÍ¹úÈëÇÖ"
-good_ID[53581] = "¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØÈëÇÖ"
-good_ID[53582] = "×·ÒäÖ®Í¥ÖØ¹¤×Ü²¿´¬ÎëÈëÇÖ"
-good_ID[53583] = "¿¨¶òË¹ÁªÃË»ìãçÉÌÈËÈëÇÖ"
-good_ID[53584] = "µÚ58ÌØ»ì½¢¶Ó¼¯½áµØÈëÇÖ"
-good_ID[53585] = "¿¨¶òË¹ÓÀÉúÕßÌ½Ë÷Ö®³õÈëÇÖ"
-good_ID[53586] = "·ÆÑÅÀûÖ®ÃÅ·ÀÓùµÈ¼¶"
-good_ID[53587] = "µÛ¹úÖ³ÃñÇø·ÀÓùµÈ¼¶"
-good_ID[53588] = "µÛ¹ú²É¿óµã·ÀÓùµÈ¼¶"
-good_ID[53589] = "µÛ¹úÌ«¿ÕÅ©³¡Èº·ÀÓùµÈ¼¶"
-good_ID[53590] = "µÛ¹úÇ°Ïß½¢¶Ó¼¯½áµØ·ÀÓùµÈ¼¶"
-good_ID[53591] = "·ÆÑÅÀûµÛ¹ú´¬ÎëÈº·ÀÓùµÈ¼¶"
-good_ID[53592] = "Ì¹ÄáË¹·ÀÓùµÈ¼¶"
-good_ID[53593] = "ÈûÀÕÄ··ÀÓùµÈ¼¶"
-good_ID[53594] = "Ï£¸ñÀ­Ê×ĞÇ·ÀÓùµÈ¼¶"
-good_ID[53595] = "ÌìÊ¹Ö®ÔÂ·ÀÓùµÈ¼¶"
-good_ID[53596] = "µÚ142ºÅÇ°ÉÚ»ùµØ·ÀÓùµÈ¼¶"
-good_ID[53597] = "Äá¸£¶ûº£Ä··ÀÓùµÈ¼¶"
-good_ID[53598] = "ºÕ¶ûº£ÀûÄ··ÀÓùµÈ¼¶"
-good_ID[53599] = "ÒÏ³²½¢¶Ó»î¶¯Çø·ÀÓùµÈ¼¶"
-good_ID[53600] = "°¢ÒòÌØË¹½¢¶Ó¶¨Ãªµã·ÀÓùµÈ¼¶"
-good_ID[53601] = "ĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹·ÀÓùµÈ¼¶"
-good_ID[53602] = "Î¬¸ñ¶û¶«Ïß¾ü·§»î¶¯Çø·ÀÓùµÈ¼¶"
-good_ID[53603] = "Î¬¸ñ¶û¶«Ïß¾ü·§¿ØÖÆÇø·ÀÓùµÈ¼¶"
-good_ID[53604] = "¿¨¶òË¹Ç°ÏßÉÚÕ¾·ÀÓùµÈ¼¶"
-good_ID[53605] = "Àû±´¶û¹²ºÍ¹ú·ÀÓùµÈ¼¶"
-good_ID[53606] = "¿¨¶òË¹ÁªºÏ²´µØ·ÀÓùµÈ¼¶"
-good_ID[53607] = "×·ÒäÖ®Í¥·ÀÓùµÈ¼¶"
-good_ID[53608] = "¿¨¶òË¹ÁªÃË»ìãçÉÌÈË·ÀÓùµÈ¼¶"
-good_ID[53609] = "µÚ58ÌØ»ì½¢¶Ó¼¯½áµØ·ÀÓùµÈ¼¶"
-good_ID[53610] = "¿¨¶òË¹ÓÀÉúÕßÌ½Ë÷Ö®³õ·ÀÓùµÈ¼¶"
-
-good_ID[53620] = "Õâ¸öµØÍ¼Ôâµ½ÁËÌìÔÖµÄÈëÇÖ£¬Èç¹ûÈëÇÖµÈ¼¶¹ı¸ß£¬¸ÃµØÍ¼µÄÉÌÒµÉèÊ©½«»áÎŞ·¨Ê¹ÓÃ"
-good_ID[53630] = "Õâ¸öµØÍ¼µÄ·ÀÓùµÈ¼¶£¬µÈÓÚÔ½¸ßÌìÔÖµÄÈëÇÖÔ½²»»áÔì³ÉÓ°Ïì"
+good_ID[50000] = "Freshwater" --1
+good_ID[50001] = "Description:\n Fresh water is the most widely used substance in the galaxy. It is the most important supply material and is needed by almost all ships and space stations."
+good_ID[50005] = "Beer" --2
+good_ID[50006] = "Description:\n Beer is a common alcoholic beverage that is very popular with those space pilots. Beer is mainly brewed from cereals, and some space cities and special brewing ships can brew beer."
+good_ID[50010] = "Hark Oro Coffee" --3
+good_ID[50011] = "Description:\n Coffee is an ancient drink that is very popular among the upper class. Places such as Hiigara Prime and the Alos Empire outposts buy this commodity at high prices"
+good_ID[50100] = "Hydrogen fuel" --4
+good_ID[50101] = "Most fighter and gunboat class units need to be supplied with hydrogen fuel, there are few places to acquire it, most can electrolyze it themselves with fresh water."
+good_ID[50105] = "Nuclear fuel" --5
+good_ID[50106] = "Most frigates and battleships need to be supplied with nuclear fuel, which is an important resupply item. Some medium-sized space stations also require nuclear fuel as an energy source"
+good_ID[50110] = "AM fuel" --6
+good_ID[50111] = "Antimatter energy is one of the important fuels, mainly used in flagships and large battleships. But antimatter energy sources are also needed as an energy source in most large space stations and large factories"
+good_ID[50200] = "Bread" --7
+good_ID[50201] = "Description:\n bread is a staple food for most races in the galaxy, providing enough calories and nutrients. Bread is the main supply for some small frigates and merchant ships. Many logistical facilities and population centers acquire bread."
+good_ID[50205] = "Sandwiches" --8
+good_ID[50206] = "Description:\n sandwiches can effectively replenish physical strength and nutrition, and are a major food supply for medium and large ships. Sandwiches can be made in the supply ship itself with bread and pork"
+good_ID[50210] = "Space Steak" --9
+good_ID[50211] = "Description:\n Space steak is a high quality delicacy popular with space captains and upper class nobility. Some high-ranking warships and large flagships need to serve this food"
+good_ID[50300] = "Everyday living goods" --10
+good_ID[50301] = "Description:\n Daily necessities include cheap things like clothes, shoes and socks and towels and toothbrushes. Daily necessities are a necessity for most merchant ships, and some densely populated space cities and planets also need to acquire it."
+good_ID[50305] = "Household appliances" --11
+good_ID[50306] = "Description:\n Although not very relevant to warfare, they can indeed greatly improve the quality of life of the crew and the general population. The Fai'ri Empire proper and the Hiigara Prime Star will buy such goods at high prices."
+good_ID[50310] = "luxury goods" --12
+good_ID[50311] = "Description:\n Despite the war that has displaced much of the galaxy's population, the Vaygr nobility continues to produce and enjoy these most luxurious of goods. The Fai'ri Empire proper and the Hiigara Prime will buy such goods at high prices."
+good_ID[50400] = "grains" --13
+good_ID[50401] = "Description:\nGrains have been an important source of food for humans since ancient times. Space food factories and some supply stations buy this food, but another important use of wheat is to make your own bread in supply ships, or to feed pigs and cattle."
+good_ID[50405] = "Pork" --14
+good_ID[50406] = "Description:\n Pork is the main source of supply for most meat and can be used to make sandwiches. Space food factories and logistics supply depots will buy pork directly, but pork can also be used to make sandwiches in supply ships along with bread."
+good_ID[50410] = "Beef" --15
+good_ID[50411] = "Description:\n Beef is the main ingredient of most high class cuisine, and its delicious taste is popular among the upper class. Beef is acquired in some large space cities. Beef can also be made into steak in the kitchens of high class industrial ships."
+good_ID[50500] = "Basic Maintenance Tools" --16
+good_ID[50501] = "Description:\n Basic maintenance tools are used to give the ship and various mechanical equipment for daily maintenance. Basic maintenance tools are mainly used for the daily maintenance of supply ships, but some supply bases in remote star areas will also buy these things at a high price"
+good_ID[50505] = "Advanced Tools" --17
+good_ID[50506] = "Description:\n Advanced Tools consists of some high-precision electronic overhaul equipment and portable engineering computers. Advanced tools are a necessary maintenance tool for advanced industrial ships, but some large shipbuilding bases and industrial bases also need to use them."
+good_ID[50510] = "Automatic maintenance robot" --18
+good_ID[50511] = "Description:\n Automatic maintenance robot is the most advanced maintenance unit. It is needed for maintenance in advanced industrial ships, and some industrial bases that produce large flagships also acquire such products at high prices."
+good_ID[50600] = "Ice Ore" --19
+good_ID[50601] = "Description:\n The ice ore mined from asteroids contains a large amount of water. Some supply bases and freshwater plants will acquire this ore, but ice ore can also produce freshwater on its own in industrial ships."
+good_ID[50605] = "Metal Ore" --20
+good_ID[50606] = "Description:\n metal ore is the main source of materials for all kinds of alloys, from which all kinds of basic metal elements can be extracted. Space smelters and some logistics factories will acquire this ore, and industrial ships have equipment to smelt it themselves."
+good_ID[50610] = "Rare Ores" --21
+good_ID[50611] = "Description:\n Rare ore contains a variety of trace elements and precious metals, it is also a key material for the production of nuclear fuel and even antimatter energy sources. Some fuel plants and logistics bases will buy this ore at high prices."
+good_ID[50700] = "Base Alloy" --22
+good_ID[50701] = "Description:\n base alloy is the main material for making most of the hull and weapon equipment, also can be made into advanced alloy together with rare ores. Some parts factories and shipyards will buy it in large quantities."
+good_ID[50705] = "High strength alloys" --23
+good_ID[50706] = "Description:\n high-strength alloy is mainly used to manufacture the keel of the ship and various armor plates and load-bearing structures and other key components. Some parts factories and shipyards will buy it in large quantities."
+good_ID[50710] = "Special alloys" --24
+good_ID[50711] = "Description:\n special alloy is generally used to manufacture energy furnaces and energy weapons launch tubes. But some special armor will also add this material. Some parts factories and shipyards will buy it in large quantities."
+good_ID[50800] = "Small caliber weapon accessories" --25
+good_ID[50801] = "Description:\n small arms accessories mainly give some small caliber weapons for maintenance and repair. Most frigates and fighters need to be used, and some shipyards also need such spare parts."
+good_ID[50805] = "Medium Weapon Parts" --26
+good_ID[50806] = "Description:\n medium-sized weapons accessories are mainly used to give some medium and large caliber guns for maintenance. Most medium-sized warships need to be used, and some shipyards also need such spare parts."
+good_ID[50810] = "Large Weapon Accessories" --27
+good_ID[50811] = "Description:\n large weapons accessories is the collective name of some giant artillery body tube or large diameter bearings and other bulky structural parts, the main weapons of the major races of warships in the universe are useful to. Some large shipyards will also acquire "
+good_ID[50900] = "Basic engine parts" --XX
+good_ID[50901] = "Like weapons, a ship's engine is also made up of a large number of parts and materials, such as pipes, joints, valves, circuits and so on. These parts are easily damaged under the daily operation of the engine and need to be replaced in time. Most of the basic engine parts are made of basic alloys, but a small amount of high-strength alloys are also used."
+good_ID[50905] = "Advanced Engine Parts" --XX
+good_ID[50906] = "Advanced engine parts are mainly used in the engines of some large and medium-sized ships and are made of some higher strength materials. The production process of advanced engine parts is more complex, and the materials used are more than the basic engine parts."
+good_ID[50910] = "Hyperspace engine parts" --XX
+good_ID[50911] = "Hyperspace engines are generally composed of a large number of energy pipes and complex electronic equipment, so the parts and accessories it uses also require a very high manufacturing process. At present, hyperspace engine parts are only produced in the large research bases of the major races."
+good_ID[51000] = "small hull components" --28
+good_ID[51001] = "Description:\n small hull construction is generally made of some basic alloy manufactured metal plate and high-strength alloy made of keel, several small hull components can be assembled into the hull of a frigate class starship. Some shipyards and logistics bases acquire this commodity"
+good_ID[51005] = "Medium hull components" --29
+good_ID[51006] = "Description:\n Medium-sized hull components are larger in size and stronger in structure, and are the main material for assembling large and medium-sized hulls. Some shipyards in tend to produce the medium-sized hull components first, and then it assembles the hull. Some shipbuilders and logistics bases will acquire this commodity"
+good_ID[51010] = "Large hull components" --30
+good_ID[51011] = "Description:\n large hull components is the group of giant hull components, the current major races of giant warships in the production of production to use these materials. Some shipyards and logistics bases acquire this commodity"
+good_ID[51100] = "Conventional Engine" --XX
+good_ID[51101] = "These engines are mainly used in small frigates and medium-sized warships to generate enough propulsion by consuming hydrogen fuel. The production of conventional engines is relatively simple, and some shipyards with simple conditions can produce them."
+good_ID[51110] = "Hyperspace engine" --XX
+good_ID[51111] = "Hyperspace engines are necessary for space warships to make ultra-long distance voyages and require a lot of energy to drive them, and they are expensive to build."
+good_ID[51200] = "Fai'ri Migration" --31
+good_ID[51201] = "Description:\n Although life in the galaxy is much more dangerous than in the Empire proper, there are also opportunities. So there are still some people within the Fai'ri Empire who will choose to receive a large amount of subsidized funds and then enter the galaxy to develop."
+good_ID[51205] = "Hiigara Migration" --32
+good_ID[51206] = "Description:\n the front line of the war in Hiigara often have some people who wish to migrate to a safer place to live a better life, although most of these people are penniless, but the Fai'ri government is willing to pay to take them."
+good_ID[51210] = "Vaygr slaves" --33
+good_ID[51211] = "Description:\n in the water and hot Vaygr slaves, they are mostly some bad luck prisoners of war or occupation star native population. Because of the predominantly POW component, both the Fai'ri Empire and the Highras are willing to pay to redeem these people."
+good_ID[51300] = "Rats" --34
+good_ID[51301] = "Description:\n after countless times of survival and elimination, this tenacious creature has produced an evolution, incarnated into a cute creature that people love, and now every Fai'ri family likes to adopt this cute little creature."
+good_ID[51305] = "Fai'ri Maid" --35
+good_ID[51306] = "Description:\n specially trained Fiyali maids by the Shilling Apostles, they are skilled in more than a hundred kinds of fighting techniques, cleaning a room as big as the whole castle in a moment of camera switching, easily driving any kind of transportation that the master may take including space battleships, and other various skills, very popular with the major races of the galaxy's powerful and noble. (The maid carries cleaning utensils and luggage that take up a lot of space)"
+good_ID[51310] = "Humanoid computer" --36
+good_ID[51311] = "Description:\n Alos Empire biochemical technology products, with a girl-like appearance and body, the world's most powerful core processor inside, can be connected to a variety of equipment devices to increase the performance of the body. Alos humanoid computer is the ideal companion for every Fai'ri geek. (The humanoid computer carries maintenance equipment and transportation that takes up a lot of space)"
+good_ID[51400] = "Tentacles" --37
+good_ID[51401] = "Description:\n The spoils of war obtained by the Alos Empire after fighting with the Yakinazi insects, the Yakinazi tentacles contain unimaginable biochemical technology, and are rich in various proteins and organic matter, it is said that the consumption of these tentacles have the effect of aphrodisiac."
+good_ID[51405] = "Nanopolymer" --38
+good_ID[51406] = "Description:\n a combination of nanoscale substances into a polymer, these substances are very useful in the military and civilian fields."
+good_ID[51410] = "octopus balls" --39
+good_ID[51411] = "Description:\n A very popular gourmet snack in the Alos Empire with a very unique taste, there is no evidence of any connection between these octopus balls and the Yakinac insect tentacles. The Fai'ri Empire proper and the Hiigara Prime Star import this food in large quantities"
+good_ID[51450] = "Ancestral relics" --40
+good_ID[51451] = "Description:\n unknown fragment of an ancestral relic that holds a great deal of secrets"
+good_ID[51500] = "Living trash" --41
+good_ID[51501] = "Description:\n densely populated places will inevitably produce a lot of domestic garbage, not all ships have advanced domestic garbage disposal system. Some space farms will buy this garbage to use as fertilizer, but of course, you can also build garbage recycling equipment to handle it yourself"
+good_ID[51550] = "Basic supplies" --42
+good_ID[51551] = "All ships need this basic supply to maintain the daily life of their crew. The basic supply contains pork, fresh water, grains, and daily supplies, which are integrated in the most reasonable ratio."
+good_ID[51600] = "Ammunition" --43
+good_ID[51601] = "Battleships must use up ammo when firing. Standard ammunition contains cartridges of various calibers and types for any type of weapon."
+good_ID[51650] = "repair supplies" --44
+good_ID[51651] = "Repair supplies for repairing warships, including hull plates for replacing broken areas and various nano-materials that can quickly repair the hull. With enough repair supplies most hull shells can be repaired quickly in a short time"
+good_ID[51655] = "Diluted Tinker Juice" --45
+good_ID[51656] = "The product of diluting some goddess of life's bath water a billion times, said to cure all diseases instantly (this item is stored in a set of high-spec security cargo containers). It's best not to discard it, or it will cause serious consequences."
+good_ID[51660] = "Stone of the Divine Realm" --46
+good_ID[51661] = "A stone found on the streets of the capital of the Hierarchy, the value of which is yet to be discovered (this item is stored in a high-spec security container)"
+good_ID[51665] = "Sacred Breath" --47
+good_ID[51666] = "The air breathed by creatures of the void, said to purify all negative energies (this item is stored in a high-spec security container)"
+good_ID[51670] = "chicken legs" --48
+good_ID[51671] = "Fragrant chicken thighs, a famous delicacy of the Fai'ri Empire, deep-fried and rich in calories, one thigh can satisfy the nutritional needs of a crew member for one meal"
+good_ID[51675] = "M43 Assault Rifle" --49
+good_ID[51676] = "Description:\n The Fai'ri Empire's main active infantry weapon, a lethal weapon with a near-perfect balance between accuracy, lethality, and maneuverability. It was developed by Taylor Sellars\n (STORM TROOPER)"
+good_ID[51680] = "Medium Modular Habitat" --50
+good_ID[51681] = "Description:\n Modular living quarters used by medium-sized battleships, capable of housing 500 to 1000 crew and officers"
+good_ID[51685] = "Large modular living quarters" --51
+good_ID[51686] = "Description:\n flagship-class modular settlement, contains the necessary components such as life-support facilities have been supporting a variety of logistical facilities, can accommodate more than 10,000 crew and officers and soldiers live"
+good_ID[51690] = "Flagship-class weapons accessories" --52
+good_ID[51691] = "Description:\n flagship-class weapon components used by large flagships, mainly composed of high-performance main gun energy devices, ammunition loading mechanisms, and protective armor and other structures"
+good_ID[51695] = "Flagship-class power components" --53
+good_ID[51696] = "Description:\n flagship-class power components used by large flagships, mainly composed of high-power flagship-class energy reactor, high-efficiency circulation cooling device and power vents"
+good_ID[51700] = "Pet Colony" --54
+good_ID[51701] = "Description:\nThe initial colony consisting of a queen with a small number of worker ants, whose labor expansion process is extremely ornamental, and trained worker ants can perform basic tasks such as cleaning and mining excavation"
+good_ID[51705] = "antshellin" --55
+good_ID[51706] = "Description:\n The anthocyanin extracted from the shell of super ants can greatly increase the strength of armor when infiltrated into the armor plate"
+good_ID[51710] = "Rat food" --56
+good_ID[51711] = "Description:\n the amount needed to breed hamsters, and various types of grain mixed together"
+good_ID[51715] = "pet cat" --57
+good_ID[51716] = "Description:\nLovely pet cat, usually fed with a variety of fresh food, and occasionally catches mice on the ship"
+good_ID[51720] = "fresh seafood" --58
+good_ID[51721] = "Description:\n special water tank cultivated by a variety of seafood creatures, mainly composed of a variety of fish"
+good_ID[51725] = "death chili" --59
+good_ID[51726] = "Description:\n a terrible food, this product can be made into a strong tear gas, after consumption will spew fire and cause several days of intense pain. A must-have food for the little ones in the pit."
+good_ID[51730] = "Low humanoid creature" --60
+good_ID[51731] = "Description:\n pilgrim-made for driving cannon fodder units of the panoply of products, in order to reduce the consumption of more loli shape is now the pilgrim in the M51 fist product (edible multiple flavors)"
+good_ID[51735] = "Dark Bible" --61
+good_ID[51736] = "Description:\n spell book collected on a planet, documenting the various ways of membrane and sacrifice, due to the conflict of camps led to the inability to use, take out to sell."
+good_ID[51740] = "Goldbluff" --62
+good_ID[51741] = "Description:\n What are all the benefits of gold bumpkins, whoever is right, give it all to him! A product peddled by traders from SCO, rumored to be a best seller on its home planet Earth for 250 years. The use will double the crop yield and the major farms within the Empire will be scrambling to buy it."
+good_ID[51745] = "Guerrilla Warfare Trio" --63
+good_ID[51746] = "Description:\nAK-47, RPG and 107 rocket launcher is a grandfather weapon from a distant galaxy, although all performance is far lower than similar products in the home galaxy. But its heartless, simple to get started, low cost, high kill advantage gradually sought after by ordinary soldiers of various war-torn planets."
+good_ID[51755] = "Chili" --64
+good_ID[51756] = "Description:\n Shanghe traders brought an auxiliary ingredients, so that the entire home galaxy has gained a new taste spicy. Along with the various delicacies of Earth into M51, often one or two simple foods added to become delicious. Legend has it that the Imperial Inquisitor is dear to it, and certain bitterly cold regions consider it a treasure."
+good_ID[51760] = "Luxury Furniture" --65
+good_ID[51761] = "Description:\n ultra-luxurious wooden furniture, having a piece of finely crafted workmanship wooden furniture in the space age is instead a rare enjoyment"
+good_ID[51765] = "special combat suit" --66
+good_ID[51766] = "Description:\n special channel imports of the Ekurice system battle suit, combined with the latest technology of the star tailored for the user, can effectively respond to any threat, only female type."
+good_ID[51770] = "Mechanical Goblin" --67
+good_ID[51771] = "Description:\n miniature intelligent humanoid robot ELF of one-sixth the size of a normal human, with built-in data processing terminal of the planet Ekulis, female type only."
+good_ID[51775] = "Misaka sister" --68
+good_ID[51776] = "Description:\n Thunder Knight Mikoto version of the clone of Mikoto, although the body is relatively flat, but the relatively docile personality is still very popular"
+good_ID[51780] = "milk tea" --69
+good_ID[51781] = "Description:\n Thunder Knight Royal version of the Royal version of the milk tea made by herself while working part-time as a maid, the taste is unique, although she does not have breasts"
+good_ID[51105] = "large engine" --70
+good_ID[51106] = "A type of starship engine that is equipped on medium and large warships, usually with multiple units at the same time to provide sufficient thrust and steering power. Such engines are much more expensive to build than smaller engines."
+good_ID[51750] = "white wine" --71
+good_ID[51751] = "Description:\n was first seen at the banquet of SCO's tribute to Her Majesty Queen Fai'ri and later flowed into the community, and was regarded by some old wine drinkers as the best wine to excite the taste buds. Due to the long distance and inconvenience of transportation, it once disappeared from the market and was only available at EDF-owned trading posts."
+good_ID[51785] = "Husky" --72
+good_ID[51786] = "Description:\n ancient breed of dog from the Blue Star, it is said to be the draft of the creation of wolves in heaven. Its every move is of great concern to its owner, but transport them with care, and your cargo hold should be strong enough."
+good_ID[51790] = "Cooking Oil" --73
+good_ID[51791] = "Description:\n cooking oil is one of the necessities of daily life of people in all countries, Caius Union Rodney Cooking Oil Company has developed a new 0-add cooking oil, reduced grease is a healthy cooking oil, so as to meet the growing oral and health needs of countries"
+good_ID[51800] = "Dreadnought Blueprint" --74
+good_ID[51801] = "Description:\n allows players to build large warships of the dreadnought class"
+good_ID[51810] = "Standby Crew" --75
+good_ID[51811] = "Description:\n Standby crew can come in handy when salvaging some derelict ships"
+good_ID[51820] = "Marines" --76
+good_ID[51821] = "Synopsis: \nThese marines are needed whether you're cleaning up the wreckage of a large warship or guarding a warship"
+good_ID[51830] = "rescued slaves" --77
+good_ID[51831] = "Description:\nThese slaves have just been rescued from the occupation star and are in desperate need of transport"
+good_ID[51840] = "Fleet Collection Pawn Pack" --78
+good_ID[51841] = "Description:\n As the most popular tabletop game in the universe, the core of Fleet Collection is a full movable model of the original replica active ship pieces. The contents of the pawn pack are completely random."
+good_ID[51850] = "Tactical Female" --79
+good_ID[51851] = "Description:\n At first, the tactical women's clothing was only as a gift back to customers, but it turned out that because of the growing popularity, it became an important export item for Caius instead - it was the only product that was not as expensive new as used. (This tactical women's clothing can be worn by both men and women)"
+good_ID[51860] = "Weird Dragon Beard Noodles" --80
+good_ID[51861] = "Description:\nThese weird dragon beard noodles should not appear in your ship's cargo hold. The materials used to make them cannot be identified, but they don't seem to be common ingredients. reliable choice"
+good_ID[51870] = "metal ore reserves" --81
+good_ID[51871] = "Description:\n the metal ore reserves stored in the colony's warehouses, which do not take up fleet space, but need to be converted to be taken away"
+good_ID[51880] = "grain reserves" --82
+good_ID[51881] = "Description:\n grain reserves stored in colony depots, does not take up fleet space, but requires conversion to take away"
+good_ID[51890] = "Meat stockpile" --83
+good_ID[51891] = "Description:\n meat stockpile stored in colony depot, does not take up fleet space, but needs to be converted to take away"
+good_ID[51900] = "fresh water reserves" --84
+good_ID[51901] = "Description:\n fresh water reserves stored in the colony's depot, does not take up fleet space, but requires conversion to take away"
+good_ID[51910] = "Food stockpile" --85
+good_ID[51911] = "Description:\n food reserves stored in the colony's depot, does not take up fleet space, but requires conversion to take away"
+good_ID[51920] = "alloy reserves" --86
+good_ID[51921] = "Description:\n the alloy reserves stored in the colony's depot, does not occupy fleet space, but requires conversion to take away"
+good_ID[51930] = "energy block" --87
+good_ID[51931] = "Description:\n energy block stored in the colony's warehouse, does not occupy fleet space, responsible for running the colony's various industrial goods"
+good_ID[51940] = "Colony ammunition stockpile" --88
+good_ID[51941] = "Description:\n Colonial ammunition stockpile stored in colony depots, does not take up fleet space, but requires conversion to take away"
+good_ID[51950] = "subsistence stockpile" --89
+good_ID[51951] = "Description:\n A stockpile of household goods stored in the colony depot that does not take up fleet space, but requires conversion to take away"
+good_ID[51960] = "ice ore reserves" --90
+good_ID[51961] = "Description:\n Stockpile of ice ore stored in colony depot, does not take up fleet space, but needs to be converted to take away"
+good_ID[51970] = "Security force" --91
+good_ID[51971] = "Description:\n security force in the colony, does not take up fleet space, but ammo and supplies to keep working"
+good_ID[51980] = "Colony workers" --92
+good_ID[51981] = "Description:\n the staff responsible for keeping the entire colony running, they work for a period of time before needing leave to resume work"
+good_ID[51990] = "Tired colony workers" --93
+good_ID[51991] = "Description:\n workers of the colony who have been working for a while and need supplies and supplies and housing to get back into working condition"
+good_ID[52000] = "Unprepared security force" --94
+good_ID[52001] = "Description:\n Security personnel after a long shift who need to be corrected and resupplied with ammunition before they can continue working"
+good_ID[52010] = "Sauce" --95
+good_ID[52011] = "Description:\n originated from ecological agriculture technology, the production of extra brewing soy sauce, to ensure that the sun full 1800 days, taste mellow color good."
+good_ID[52020] = "Bio-computer" --96
+good_ID[52021] = "Description:\n physical server of Iggesian e-body, a bio-computer built with top biotechnology, which can be used to provide e-body services at scale."
+good_ID[52030] = "Fleet Collection Pawn Pack" --97
+good_ID[52031] = "Description:\n as the most popular tabletop game in the universe, the core of Fleet Collection is the original replica of the current ship's fully movable model chess pieces. The contents of the pawn pack are completely random."
+good_ID[52040] = "Tactical Female" --98
+good_ID[52041] = "Description:\n At first, the tactical women's clothing was only used as a gift back to customers, but it turned out that because of its growing popularity, it became an important export item for Caius instead - it was the only product that was not as expensive new as it was used."
+good_ID[52050] = "Dragon's beard noodles" --99
+good_ID[52051] = "Description:\n Hand-rolled noodles made from a creature shaped like a dragon's whiskers, wrapped in gluten, that lives in the Caius mines. It is chewy and has a good taste. -It's just a kind of instant noodle."
+good_ID[52060] = "Flagship Core Component Reserve" --100
+good_ID[52061] = "Description:\n used to build the core components of large flagships, including flagship weapons systems and power systems"
+good_ID[52070] = "Humanoid Computer Reserve" --101
+good_ID[52071] = "Description:\nThese manufactured humanoid computers are sealed in special containers and can be unsealed and used at any time"
+good_ID[52080] = "Large hull reserve" --102
+good_ID[52081] = "Description:\n large hull components just produced from the assembly line and not yet packaged in a shipment-ready manner"
+good_ID[52090] = "Electronic component stockpile" --103
+good_ID[52091] = "Description:\n small to optical chips to complex integrated circuit panels, they can be referenced in a variety of electronic products"
+good_ID[52100] = "Large stockpile of weapons accessories" --104
+good_ID[52101] = "Description:\n shipboard weapon accessories of various calibers, such as large-caliber gun body tubes and energy weapon launchers"
+good_ID[52110] = "blueprints for Makarn's Wrath" --105
+good_ID[52111] = "Description:\n need 10 to build \n the data blueprint necessary to build a warship, the process of making it is extremely complex and after a high level of data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52120] = "3rd generation Queen-class blueprints" --106
+good_ID[52121] = "Description:\n need 10 to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high level of data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52130] = "Fourth Empress B Class Blueprints" --107
+good_ID[52131] = "Description:\n need 10 to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high level of data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52140] = "Blueprints for the Kleya Dalk" --108
+good_ID[52141] = "Description:\n need 10 copies to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high level of data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52150] = "Blueprints for the Sarah Darke" --109
+good_ID[52151] = "Description:\n need 10 to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high level of data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52160] = "Eternal Level 2 Blueprints" --110
+good_ID[52161] = "Description:\n need 20 to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high level of data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52170] = "Queen's Hammer Blueprints" --111
+good_ID[52171] = "Description:\n need 20 to build \n the data blueprint necessary to build a warship, the process of making it is extremely complex and after a high level of data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52180] = "Fifth generation Queen-class blueprints" --112
+good_ID[52181] = "Description:\n need 20 to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high level of data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52190] = "Fourth generation Queen-class blueprints" --113
+good_ID[52191] = "Description:\n need 10 to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high level of data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52200] = "Blueprints for the second generation of Makarn's Fury" --114
+good_ID[52201] = "Description:\n need 20 to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high level of data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52210] = "Blueprints for the Judgment Court" --115
+good_ID[52211] = "Description:\n need 20 to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high level of data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52220] = "Avril Class Blueprints" --116
+good_ID[52221] = "Description:\n need 20 to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high level of data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52230] = "Fifth generation Queen-class pain blueprints" --117
+good_ID[52231] = "Description:\n need 20 to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high strength data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52240] = "Avril Class Improved Blueprints" --118
+good_ID[52241] = "Description:\n need 20 to build \n the data blueprints necessary to build warships, the process of making it is extremely complex and after a high strength data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52250] = "Blueprints for the Sanctuary" --119
+good_ID[52251] = "Description:\n need 20 to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high strength data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52260] = "Tanatos Class Blueprints" --120
+good_ID[52261] = "Description:\n need 20 to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high level of data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52270] = "Blueprints for the Sixth Generation Empress Class B" --121
+good_ID[52271] = "Description:\n need 20 to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high strength data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52280] = "Imperial Admiral Blueprints" --122
+good_ID[52281] = "Description:\n need 20 to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high level of data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52290] = "Makarn's Wrath 3 Blueprints" --123
+good_ID[52291] = "Description:\n need 20 to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high strength data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52300] = "6th generation Queen C blueprints" --124
+good_ID[52301] = "Description:\n need 20 copies to build \n the data blueprints necessary to build a battleship, the process of making it is extremely complex and after a high level of data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52310] = "Sixth Generation Queen A blueprints" --125
+good_ID[52311] = "Description:\n need 20 to build \n the data blueprints necessary to build warships, the process of making it is extremely complex and after a high strength data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52320] = "Pilgrim Class Blueprints" --126
+good_ID[52321] = "Description:\n need 30 to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high level of data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52330] = "Blueprints for the Alberdio" --127
+good_ID[52331] = "Description:\n need 30 to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high level of data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52340] = "Sixth Generation Queen Class D Blueprints" --128
+good_ID[52341] = "Description:\n need 30 to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high strength data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52350] = "Maharaja Class Star Destroyer Blueprints" --129
+good_ID[52351] = "Description:\n need 40 to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high strength data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52360] = "Blueprints for the Seventh Queen's Star Rush" --130
+good_ID[52361] = "Description:\n need 40 to build \n the data blueprints necessary to build a battleship, the process of making it is extremely complex and after a high strength data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52370] = "Blueprints for the Destiny-class star-catcher" --131
+good_ID[52371] = "Description:\n need 40 to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high strength data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52380] = "Blueprints for the Safrielle" --132
+good_ID[52381] = "Description:\n need 40 copies to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high level of data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52390] = "Electronic Components" --133
+good_ID[52391] = "Description:\n electronic components necessary for the production of various advanced equipment locks, including the succession of chips and various circuit boards, etc.. The product has been packaged ready for sale to various forces"
+good_ID[52400] = "a confidential document" --134
+good_ID[52401] = "Description:\n Nobody knows what data this file holds inside, you just need to get it to its destination"
+good_ID[52410] = "a batch of emergency food" --135
+good_ID[52411] = "Description:\n A batch of food used for disaster relief, it can save hundreds of thousands of civilian lives"
+good_ID[52420] = "a batch of special ore" --136
+good_ID[52421] = "Description:\n A batch of metal ores containing special mineral elements, which can produce various high-performance alloys"
+good_ID[52430] = "special biological materials" --137
+good_ID[52431] = "Description:\n A whole batch of special biological materials, used to cultivate special biological substances for various special purposes"
+good_ID[52440] = "A heavily armed Imperial Corps" --138
+good_ID[52441] = "Description:\n hundreds of thousands of ground troops, paired with a large number of advanced carriers and weaponry, they can easily take over a planet"
+good_ID[52450] = "Vaygr Battleship Bounty" --139
+good_ID[52451] = "Description:\n A special Vaygr battleship is operating in the Angel Moon sector, destroy it for a huge reward"
+good_ID[52460] = "Vaygr Dreadnought Bounty" --140
+good_ID[52461] = "Description:\n A special Vaygr dreadnought is operating in the Vaygr asteroid belt, destroy it for a huge reward"
+good_ID[52470] = "Vaygr Air Battleship Bounty" --141
+good_ID[52471] = "Description:\n A special Vaygr Air Battleship is operating in the Gohana sector, destroy it for a huge reward"
+good_ID[52480] = "Vaygr War Fortress Bounty" --142
+good_ID[52481] = "Description:\n A special Vaygr War Fortress is operating in the Vaygr Dock Sector, destroy it for a huge reward"
+good_ID[52490] = "Vaygr Star Destroyer Mega Ship Bounty" --143
+good_ID[52491] = "Description:\n A special Vaygr Destroyer Giant is operating in the Vaygr Outpost sector, destroy it for a huge reward"
+good_ID[52500] = "Elite type Farseer blueprint" --144
+good_ID[52501] = "Description:\n need 10 to build \n the data blueprint necessary to build a warship, the process of making it is extremely complex and after a high level of data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52510] = "Iron Float Class Blueprints" --145
+good_ID[52511] = "Description:\n need 10 copies to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high level of data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52520] = "Monarch Blueprints" --146
+good_ID[52521] = "Description:\n need 10 to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high level of data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52530] = "A commercial contract" --147
+good_ID[52531] = "Description:\n A special business contract with huge commercial trade content behind it."
+good_ID[52540] = "A construction contract" --148
+good_ID[52541] = "Description:\n A special commissioned construction contract, the commissioner wants the Caius Union to help build some special project."
+good_ID[52550] = "Rift 2E type blueprints" --149
+good_ID[52551] = "Description:\n need 5 to build \n the data blueprint necessary to build a warship, the process of making it is extremely complex and after a high strength data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52560] = "Rift 2F Blueprints" --150
+good_ID[52561] = "Description:\n need 5 in order to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high level of data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52570] = "Rift 2G blueprints" --151
+good_ID[52571] = "Description:\n need 5 to build \n the data blueprints necessary to build a battleship, the process of making it is extremely complex and after a high strength data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52580] = "Raider Class Blueprints" --152
+good_ID[52581] = "Description:\n need 4 to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high level of data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52590] = "Blueprints for the Windproof class" --153
+good_ID[52591] = "Description:\n need 10 to build \n the data blueprints necessary to build warships, the process of making it is extremely complex and after a high level of data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52595] = "Light Fighter Kit" --154
+good_ID[52596] = "This fighter can only be assembled and deployed in the maintenance shop of the corresponding aircraft carrier."
+good_ID[52605] = "Heavy Fighter Kit" --155
+good_ID[52606] = "This fighter can only be assembled and deployed in the maintenance shop of the corresponding carrier."
+good_ID[52615] = "Gunboat Kit" --156
+good_ID[52616] = "This gunboat can only be assembled and deployed by the maintenance shop of the corresponding carrier."
+good_ID[52625] = "Advanced Fighter Kit" --157
+good_ID[52626] = "This fighter can only be assembled and deployed in the maintenance shop of the corresponding carrier."
+good_ID[52635] = "Bomber Kit" --158
+good_ID[52636] = "This bomber can only be assembled and deployed in the maintenance shop of the corresponding carrier."
+good_ID[52645] = "Super Fighter Kit" --159
+good_ID[52646] = "This fighter can only be assembled and deployed in the maintenance shop of the corresponding carrier."
+good_ID[52650] = "Attack Warning" --160
+good_ID[52651] = "This is an attack alert, a Vaygr fleet is invading your colony, please return as soon as possible to assist in the defense"
+good_ID[52660] = "Quotes from the Maharaja" --161
+good_ID[52661] = "Humans can't understand each other! Are you going to start a war again?"
+good_ID[52670] = "Handbook for getting girls" --162
+good_ID[52671] = "There is a super broad love cat lady eh, let me flip through the manual Kang how to abduct her home, emmm aromatic salamander?"
+good_ID[52680] = "admin" --163
+good_ID[52681] = "so smelly administrator really have a place will take it.jpg This is very annoying administrator, now we have to sell to who it is, tsk this bitchy expression, or we first beat up to say"
+good_ID[52690] = "Fourteen Princess Blueprint" --164
+good_ID[52691] = "Description:\n need 5 to build \n the data blueprint necessary to build a warship, the process of making it is extremely complex and after a high strength data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52700] = "Rift 121 Blueprints" --165
+good_ID[52701] = "Description:\n need 5 to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high strength data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52710] = "Rift 2FGF Blueprints" --166
+good_ID[52711] = "Description:\n need 5 to build \n the data blueprint necessary to build a warship, the process of making it is extremely complex and after a high strength data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52720] = "blueprints for the Sothoamara" --167
+good_ID[52721] = "Description:\n need 5 to build \n the data blueprints necessary to build a warship, the process of making it is extremely complex and after a high level of data encryption, belong to the irreproducible consumables. Sometimes many copies of the same blueprints are needed in order to build a high difficulty battleship."
+good_ID[52730] = "10,000 special blonde slaves" --168
+good_ID[52731] = "Description:\n These are 10,000 special blonde female slaves, specially given to Shekhovets by the Maharaja."
+good_ID[52740] = "Worm nest mothership bounty" --169
+good_ID[52741] = "Description:\n A special insect nest mothership is operating in the insect nest star area, destroying it will give you a special reward."
+good_ID[52750] = "A special gift" --170
+good_ID[52751] = "Description:\n An important package from Arola, the Arbitral Tribunal of Ayintes, to the Mordiggian Archon."
+
+good_ID[52760] = "Helios Blueprint"--171
+good_ID[52761] = "Description:\n It takes 5 pieces to build\n the data blueprint necessary for building a battleship. The process of making it is extremely complicated and has undergone high-intensity data encryption, which is a consumable that cannot be copied. Sometimes it takes many copies of the same blueprint to build a difficult battleship."
+good_ID[52770] = "Chaos Blade Blueprint"--172
+good_ID[52771] = "Description:\ nIt takes 5 pieces to build\n the data blueprint necessary for building a battleship. The process of making it is extremely complicated and has undergone high-intensity data encryption, which is a consumable that cannot be copied. Sometimes it takes many copies of the same blueprint to build a difficult battleship."
+
+good_ID[52780] = "Hades Class Blueprint"--173
+good_ID[52781] = "Description:\n It takes 20 pieces to construct\nthe necessary data blueprints for building a warship. Sometimes it takes many copies of the same blueprint to build a difficult battleship."
+
+good_ID[52790] = "Ulysses Blueprint"--174
+good_ID[52791] = "Description:\n It takes 40 pieces to construct\n the necessary data blueprints for building a battleship. The process of making it is extremely complicated and has undergone high-intensity data encryption, which is a consumable that cannot be copied. Sometimes it takes many copies of the same blueprint to build a difficult battleship."
+
+good_ID[52800] = "Avalon Blueprint"--175
+good_ID[52801] = "Description:\n It takes 40 pieces to construct\n the necessary data blueprints for building a battleship. The process of making it is extremely complicated and has undergone high-intensity data encryption, which is a consumable that cannot be copied. Sometimes it takes many copies of the same blueprint to build a difficult battleship."
+good_ID[52810] = "Excalibur Blueprint"--176
+good_ID[52811] = "Description:\n It takes 40 pieces to construct\n the necessary data blueprints for building a battleship. The process of making it is extremely complicated and has undergone high-intensity data encryption, which is a consumable that cannot be copied. Sometimes it takes many copies of the same blueprint to build a difficult battleship."
+good_ID[52820] = "Wall of Sighs Blueprint"--177
+good_ID[52821] = "Description:\n It takes 40 pieces to construct\n the necessary data blueprints for building a battleship. The process of making it is extremely complicated and has undergone high-intensity data encryption, which is a consumable that cannot be copied. Sometimes it takes many copies of the same blueprint to build a difficult battleship."
+
+good_ID[52830] = "Mechanical Parts"--178
+good_ID[52831] = "Description:\n The basic parts required by various large-scale engineering equipment and mechanical equipment are composed of screws, connectors and various complex metal components."
+good_ID[52840] = "Bastion Blueprint Fragments"--179
+good_ID[52841] = "Description:\n Through the research data obtained by reverse decomposition of the blueprint of the fortress-class ship, it is possible to combine a new blueprint of the fortress-class ship."
+good_ID[52850] = "Medal of Honor"--180
+good_ID[52851] = "Description:\n Special Medal of Honor, which may be obtained when you provide assistance to some large forces, and can be used in some special places."
+
+
+
+good_ID[52860] = "Transition Energy"--181
+good_ID[52861] = "Description:\n The transition energy stored in the colony stargate, only with enough transition energy reserves can the colony stargate be able to open the hyperspace gate or guide the fleet to transition back."
+good_ID[52870] = "Fleet Points"--182
+good_ID[52871] = "Description:\n The points converted from various ships produced by the colony can be used to exchange for warships, or to call for support on other maps."
+
+good_ID[52880] = "Mechanical Parts Reserve"--183
+good_ID[52881] = "Description:\n Mechanical parts produced by the colony, which are stored in large warehouses in the colony in containers."
+
+good_ID[52890] = "Nanomaterial reserve"--184
+good_ID[52891] = "Description:\n Nano substances produced by the colony, these nano substances are stored in the colony's large warehouse in special advanced containers."
+
+good_ID[52900] = "Carrier Components Reserve"--185
+good_ID[52901] = "Description:\n The carrier components produced by the colony are stored in the colony's warehouse and can be assembled into carrier at any time."
+
+good_ID[52910] = "Ulaanbaatar-class command carrier blueprint"--186
+good_ID[52911] = "Description:\n It takes 5 pieces to build\n the data blueprint necessary for building a battleship. The process of making it is extremely complicated and has undergone high-intensity data encryption, which is a consumable that cannot be copied. Sometimes it takes many copies of the same blueprint to build a difficult battleship."
+good_ID[52920] = "Advanced Bastion Blueprint Fragments"--187
+good_ID[52921] = "Description:\n Through the research data obtained by reverse decomposition of the blueprint of advanced Bastion-class ships, it is possible to combine new blueprints of Bastion-class ships."
+good_ID[52930] = "Destroyer Star Blueprint Fragment"--188
+good_ID[52931] = "Description:\n Through the research data obtained from the reverse decomposition of the blueprints of advanced destroyer-class ships, it is possible to combine new blueprints for destroyer-class ships."
+
+
+good_ID[52940] = "Advanced Flagship Blueprint Fragments"--189
+good_ID[52941] = "Description:\n Through the research data obtained by reverse decomposition of the advanced flagship ship blueprint, it is possible to combine a new advanced flagship ship blueprint."
+good_ID[52950] = "Roselle Blueprint"--190
+good_ID[52951] = "Description:\n It takes 5 pieces to build\n the data blueprint necessary for building a battleship. The process of making it is extremely complicated and has undergone high-intensity data encryption, which is a consumable that cannot be copied. Sometimes it takes many copies of the same blueprint to build a difficult battleship."
+good_ID[52960] = "Hyperion Blueprint"--191
+good_ID[52961] = "Description:\n It takes 40 pieces to construct\n the necessary data blueprints for building a battleship. The process of making it is extremely complicated and has undergone high-intensity data encryption, which is a consumable that cannot be copied. Sometimes it takes many copies of the same blueprint to build a difficult battleship."
+
+good_ID[52970] = "Radiant-class Dreadnought Blueprint"--192
+good_ID[52971] = "Description:\n It takes 5 pieces to build\n the data blueprint necessary for building a battleship. The process of making it is extremely complicated and has undergone high-intensity data encryption, which is a consumable that cannot be copied. Sometimes it takes many copies of the same blueprint to build a difficult battleship."
+good_ID[52980] = "Havoc-class Dreadnought Blueprint"--193
+good_ID[52981] = "Description: \nIt takes 5 pieces to build\n the data blueprint necessary for building a battleship. The process of making it is extremely complicated and has undergone high-intensity data encryption, which is a consumable that cannot be copied. Sometimes it takes many copies of the same blueprint to build a difficult battleship."
+good_ID[52990] = "Night Lady Dreadnought Blueprint"--194
+good_ID[52991] = "Description:\n It takes 5 pieces to build\n the data blueprint necessary for building a battleship. The process of making it is extremely complicated and has undergone high-intensity data encryption, which is a consumable that cannot be copied. Sometimes it takes many copies of the same blueprint to build a difficult battleship."
+good_ID[53000] = "Eternal-class Dreadnought Blueprint"--195
+good_ID[53001] = "Description:\n It takes 5 pieces to build\n the data blueprint necessary for building a battleship. The process of making it is extremely complicated and has undergone high-intensity data encryption, which is a consumable that cannot be copied. Sometimes it takes many copies of the same blueprint to build a difficult battleship."
+good_ID[53010] = "Arethel Class Blueprint"--196
+good_ID[53011] = "Description:\n It takes 5 pieces to build\n the data blueprint necessary for building a battleship. The process of making it is extremely complicated and has undergone high-intensity data encryption, which is a consumable that cannot be copied. Sometimes it takes many copies of the same blueprint to build a difficult battleship."
+good_ID[53020] = "Blueprint for the Jormungandr"--197
+good_ID[53021] = "Description:\n It takes 5 pieces to build\n the data blueprint necessary for building a battleship. The process of making it is extremely complicated and has undergone high-intensity data encryption, which is a consumable that cannot be copied. Sometimes it takes many copies of the same blueprint to build a difficult battleship."
+good_ID[53030] = "Morning Herald Blueprint"--198
+good_ID[53031] = "Description:\n It takes 40 pieces to construct\n the necessary data blueprints for building a battleship. The process of making it is extremely complicated and has undergone high-intensity data encryption, which is a consumable that cannot be copied. Sometimes it takes many copies of the same blueprint to build a difficult battleship."
+good_ID[53040] = "Monument Blueprint"--199
+good_ID[53041] = "Description:\n It takes 5 pieces to build\n the data blueprint necessary for building a battleship. The process of making it is extremely complicated and has undergone high-intensity data encryption, which is a consumable that cannot be copied. Sometimes it takes many copies of the same blueprint to build a difficult battleship."
+good_ID[53050] = "God's Retribution Annihilation Kit Blueprint"--200
+good_ID[53051] = "Description:\n It takes 30 pieces to construct\n the necessary data blueprints for building a battleship. The process of making it is extremely complicated and has undergone high-intensity data encryption, which is a consumable that cannot be copied. Sometimes it takes many copies of the same blueprint to build a difficult battleship."
+
+
+good_ID[53060] = "Fulong Blueprint"--201
+good_ID[53061] = "Description:\n It takes 5 pieces to build\n the data blueprint necessary for building a battleship. The process of making it is extremely complicated and has undergone high-intensity data encryption, which is a consumable that cannot be copied. Sometimes it takes many copies of the same blueprint to build a difficult battleship."
+good_ID[53070] = "Veyron Blueprint"--202
+good_ID[53071] = "Description:\n It takes 5 pieces to build\n the data blueprint necessary for building a battleship. The process of making it is extremely complicated and has undergone high-intensity data encryption, which is a consumable that cannot be copied. Sometimes it takes many copies of the same blueprint to build a difficult battleship."
+
+good_ID[53080] = "è¾‰å¤œ-ä¹Œå°”å¾·è“å›¾"--203
+good_ID[53081] = "ç®€ä»‹ï¼š\néœ€è¦40å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+good_ID[53090] = "å¤©ç¾½-æ–¯å¡è’‚è“å›¾"--204
+good_ID[53091] = "ç®€ä»‹ï¼š\néœ€è¦40å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53100] = "å‘½è¿æˆ˜äº‰æ¯èˆ°"--205
+good_ID[53101] = "ç®€ä»‹ï¼š\néœ€è¦40å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53110] = "è£‚ç—•2Hå‹è“å›¾"--206
+good_ID[53111] = "ç®€ä»‹ï¼š\néœ€è¦5å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53120] = "å‰çº¿å†›æŠ¥"--207
+good_ID[53121] = "ç®€ä»‹ï¼š\nè¿™æ˜¯ä¸€ä»½å‰çº¿å†›æŠ¥ï¼Œä½ éœ€è¦æŠŠå®ƒé€åˆ°å¸å›½ä¹‹é—¨å¤„è¿›è¡Œæ±‡æŠ¥ã€‚"
+
+good_ID[53130] = "æ©å¥‡æ‹‰æ–¹èˆŸè“å›¾"--208
+good_ID[53131] = "ç®€ä»‹ï¼š\néœ€è¦40å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53140] = "æ™¨æ›¦å·è“å›¾"--209
+good_ID[53141] = "ç®€ä»‹ï¼š\néœ€è¦20å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53150] = "å‡‹é›¶è€…çº§æˆ˜åˆ—èˆ°è“å›¾"--210
+good_ID[53151] = "ç®€ä»‹ï¼š\néœ€è¦3å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53160] = "å¤©ç¾çº§è¿è½½èˆ°è“å›¾"--211
+good_ID[53161] = "ç®€ä»‹ï¼š\néœ€è¦3å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+
+good_ID[53170] = "ä»™å¥³æœ¨çº§è“å›¾"--212
+good_ID[53171] = "ç®€ä»‹ï¼š\néœ€è¦5å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53180] = "èœ‚ç®±çº§è“å›¾"--213
+good_ID[53181] = "ç®€ä»‹ï¼š\néœ€è¦5å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53190] = "é˜¿å…‹ç´¢çº§ç»´ä¿®èˆ°è“å›¾"--214
+good_ID[53191] = "ç®€ä»‹ï¼š\néœ€è¦5å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53200] = "æš´é›¨çº§å…‰æŸè½¨é“ç‚®è“å›¾"--good215
+good_ID[53201] = "ç®€ä»‹ï¼š\néœ€è¦3å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53210] = "å¤§é”®ç´çº§è“å›¾"--good216
+good_ID[53211] = "ç®€ä»‹ï¼š\néœ€è¦3å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+
+
+good_ID[53230] = "è½®å›çº§è“å›¾"--good217
+good_ID[53231] = "ç®€ä»‹ï¼š\néœ€è¦5å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53240] = "çº³å°”é€Šçº§é‡äº§æˆ˜åˆ—èˆ°"--good218
+good_ID[53241] = "ç®€ä»‹ï¼š\néœ€è¦5å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53250] = "ç½—å¾·å°¼çº§ç²¾è‹±æ”¹æˆ˜åˆ—èˆ°"--good219
+good_ID[53251] = "ç®€ä»‹ï¼š\néœ€è¦5å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53260] = "çº¢å…”å­ç½—å¾·å°¼å·"--good220
+good_ID[53261] = "ç®€ä»‹ï¼š\néœ€è¦5å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53270] = "æ”¯ç‚¹çº§è“å›¾"--good221
+good_ID[53271] = "ç®€ä»‹ï¼š\néœ€è¦5å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53280] = "å¸•å°”ä¿®æ–¯å·è“å›¾"--good222
+good_ID[53281] = "ç®€ä»‹ï¼š\néœ€è¦40å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53290] = "æ”¯ç‚¹æ³°å¦å‹è“å›¾"--good223
+good_ID[53291] = "ç®€ä»‹ï¼š\néœ€è¦3å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53300] = "ç»šä¸½æ·±æ¸Šçº§è“å›¾"--good224
+good_ID[53301] = "ç®€ä»‹ï¼š\néœ€è¦5å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+
+good_ID[53310] = "ç–¾é£çº§è“å›¾"--good225
+good_ID[53311] = "ç®€ä»‹ï¼š\néœ€è¦3å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53320] = "é­”å¥³çº§è“å›¾"--good226
+good_ID[53321] = "ç®€ä»‹ï¼š\néœ€è¦3å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53330] = "å¥³å·«çº§è“å›¾"--good227  
+good_ID[53331] = "ç®€ä»‹ï¼š\néœ€è¦3å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53340] = "å¹½é­‚çº§è“å›¾"--good228  
+good_ID[53341] = "ç®€ä»‹ï¼š\néœ€è¦3å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53350] = "è£å…‰è”åˆçº§è“å›¾"--good229  
+good_ID[53351] = "ç®€ä»‹ï¼š\néœ€è¦5å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53360] = "ç“¦å°”çº§è“å›¾"--good230 
+good_ID[53361] = "ç®€ä»‹ï¼š\néœ€è¦5å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53370] = "ç“¦å°”é‡é”¤è“å›¾"--good231 
+good_ID[53371] = "ç®€ä»‹ï¼š\néœ€è¦5å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+
+good_ID[53380] = "ç„çµçº§è“å›¾"--good232 
+good_ID[53381] = "ç®€ä»‹ï¼š\néœ€è¦5å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+
+good_ID[53390] = "çœŸé“¶ä¹‹é”‹è“å›¾"--good233 
+good_ID[53391] = "ç®€ä»‹ï¼š\néœ€è¦5å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53400] = "åæ ¼é‚£è“å›¾"--good234
+good_ID[53401] = "ç®€ä»‹ï¼š\néœ€è¦40å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53410] = "æ´›ä¼¦å¸Œè“å›¾"--good235 
+good_ID[53411] = "ç®€ä»‹ï¼š\néœ€è¦40å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53420] = "å¸å›½é€šç”¨ä¸»åŠ›èˆ°è“å›¾"--good236 
+good_ID[53421] = "ç®€ä»‹ï¼š\nåŒ…å«äº†è²é›…åˆ©å¸å›½ä¸»åŠ›èˆ°çš„é€šç”¨è®¾å¤‡å»ºé€ æ–¹æ³•ï¼Œæ¯”å¦‚ç®¡é“çº¿è·¯å†…éƒ¨å±…ä½è®¾æ–½å’Œå„ç§é™„å±è®¾å¤‡ç­‰ï¼Œå¯¹äºå»ºé€ ä¸€è‰˜ä¸»åŠ›èˆ°æ¥è¯´éå¸¸é‡è¦ã€‚"
+
+good_ID[53430] = "è”ç›Ÿé€šç”¨ä¸»åŠ›èˆ°è“å›¾"--good237 
+good_ID[53431] = "ç®€ä»‹ï¼š\nåŒ…å«äº†å¡å„æ–¯è”ç›Ÿä¸»åŠ›èˆ°çš„é€šç”¨è®¾å¤‡å»ºé€ æ–¹æ³•ï¼Œæ¯”å¦‚ç®¡é“çº¿è·¯å†…éƒ¨å±…ä½è®¾æ–½å’Œå„ç§é™„å±è®¾å¤‡ç­‰ï¼Œå¯¹äºå»ºé€ ä¸€è‰˜ä¸»åŠ›èˆ°æ¥è¯´éå¸¸é‡è¦ã€‚"
+
+good_ID[53440] = "ç»´æ ¼å°”é€šç”¨ä¸»åŠ›èˆ°è“å›¾"--good238 
+good_ID[53441] = "ç®€ä»‹ï¼š\nåŒ…å«äº†ç»´æ ¼å°”ä¸»åŠ›èˆ°çš„é€šç”¨è®¾å¤‡å»ºé€ æ–¹æ³•ï¼Œæ¯”å¦‚ç®¡é“çº¿è·¯å†…éƒ¨å±…ä½è®¾æ–½å’Œå„ç§é™„å±è®¾å¤‡ç­‰ï¼Œå¯¹äºå»ºé€ ä¸€è‰˜ä¸»åŠ›èˆ°æ¥è¯´éå¸¸é‡è¦ã€‚"
+
+good_ID[53450] = "å¸Œæ ¼æ‹‰é€šç”¨ä¸»åŠ›èˆ°è“å›¾"--good239 
+good_ID[53451] = "ç®€ä»‹ï¼š\nåŒ…å«äº†å¸Œæ ¼æ‹‰ä¸»åŠ›èˆ°çš„é€šç”¨è®¾å¤‡å»ºé€ æ–¹æ³•ï¼Œæ¯”å¦‚ç®¡é“çº¿è·¯å†…éƒ¨å±…ä½è®¾æ–½å’Œå„ç§é™„å±è®¾å¤‡ç­‰ï¼Œå¯¹äºå»ºé€ ä¸€è‰˜ä¸»åŠ›èˆ°æ¥è¯´éå¸¸é‡è¦ã€‚"
+
+good_ID[53460] = "è‰¾æ´›æ–¯é€šç”¨ä¸»åŠ›èˆ°è“å›¾"--good240
+good_ID[53461] = "ç®€ä»‹ï¼š\nåŒ…å«äº†è‰¾æ´›æ–¯ä¸»åŠ›èˆ°çš„é€šç”¨è®¾å¤‡å»ºé€ æ–¹æ³•ï¼Œæ¯”å¦‚ç®¡é“çº¿è·¯å†…éƒ¨å±…ä½è®¾æ–½å’Œå„ç§é™„å±è®¾å¤‡ç­‰ï¼Œå¯¹äºå»ºé€ ä¸€è‰˜ä¸»åŠ›èˆ°æ¥è¯´éå¸¸é‡è¦ã€‚"
+
+good_ID[53470] = "èˆ°é˜Ÿç‚¹æ•°"--good241 
+good_ID[53471] = "ä»£è¡¨æ®–æ°‘åœ°èˆ°é˜Ÿå®åŠ›çš„é€šç”¨ç‚¹æ•°ï¼Œå¯ä»¥ç”¨åˆ°å„ç§æ–¹é¢"
+
+good_ID[53480] = "æ®–æ°‘åœ°èµ„æºæ”¶é›†èˆ°é˜Ÿ"--good242 
+good_ID[53481] = "ä½ çš„ä¸€æ”¯èˆ°é˜Ÿæ­£åœ¨è¿›è¡Œèµ„æºæ”¶é›†ï¼ˆè­¦å‘Šï¼Œä¸¢å¼ƒè¯¥å•†å“ä¼šå¯¼è‡´è¿œå¾èˆ°é˜Ÿå¤±è”ï¼Œèˆ°é˜Ÿç‚¹æ•°ä¸¢å¤±ï¼‰"
+
+good_ID[53490] = "æ®–æ°‘åœ°è¿œå¾èˆ°é˜Ÿ"--good243
+good_ID[53491] = "ä½ çš„ä¸€æ”¯èˆ°é˜Ÿæ­£åœ¨è¿›è¡Œè¿œå¾ï¼ˆè­¦å‘Šï¼Œä¸¢å¼ƒè¯¥å•†å“ä¼šå¯¼è‡´è¿œå¾èˆ°é˜Ÿå¤±è”ï¼Œèˆ°é˜Ÿç‚¹æ•°ä¸¢å¤±ï¼‰"
+
+good_ID[53500] = "æ®–æ°‘åœ°å¨æ…‘"--good244
+good_ID[53501] = "ä½ çš„èˆ°é˜Ÿçš„ä¸»åŠ¨å‡ºå‡»è¡ŒåŠ¨ååˆ†æˆåŠŸï¼Œå¹¶å¯¹å‘¨å›´å…¶ä»–åŠ¿åŠ›äº§ç”Ÿäº†éœ‡æ…‘ï¼ŒçŸ­æ—¶é—´å†…ä¸å†å‡ºç°æ–°çš„æ®–æ°‘åœ°å¨èƒï¼ˆä¸¢å¼ƒè¯¥å•†å“ä¼šå¯¼è‡´æ®–æ°‘åœ°å¨èƒå†æ¬¡å‡ºç°ï¼‰"
+
+good_ID[53510] = "ç¯å¸¦çº§æ‘§æ˜Ÿå·¨èˆ°è“å›¾"--good245
+good_ID[53511] = "ç®€ä»‹ï¼š\néœ€è¦40å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53520] = "å‘Šè¯«çº§è“å›¾"--good246
+good_ID[53521] = "ç®€ä»‹ï¼š\néœ€è¦5å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53530] = "SSCçº§è“å›¾"--good247
+good_ID[53531] = "ç®€ä»‹ï¼š\néœ€è¦3å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53540] = "ä»²è£åº­çš„é‚€è¯·å‡½"--good248
+good_ID[53541] = "æŒæœ‰æ­¤å‡­è¯è¿›å…¥æˆ˜åœºï¼Œä¸æˆ‘å…±æˆ˜"
+
+good_ID[53550] = "ç§˜é“¶é‡å·¥çš„é‚€è¯·å‡½"--good249
+good_ID[53551] = "æŒæœ‰æ­¤å‡­è¯è¿›å…¥æˆ˜åœºï¼Œä¸æˆ‘å…±æˆ˜"
+
+good_ID[53560] = "å…µèœ‚æ§åˆ¶ç³»ç»Ÿ"--good250
+good_ID[53561] = "ç»™ä½ å®¶è®¾å¤‡ä¸€ä¸ªæˆç²¾çš„æœºä¼š"
+
+good_ID[53640] = "å…ˆè¿›å•å…µç”µå‡»æª"--good251
+good_ID[53641] = "å…ˆè¿›çš„éè‡´å‘½å®‰ä¿è£…å¤‡"
+
+good_ID[53650] = "ç‹¬çœ¼å…¨è‡ªåŠ¨å®‰ä¿çœ¼çƒæœºå™¨äºº"--good252
+good_ID[53651] = "è£…å¤‡äº†å¤šç§éè‡´å‘½å®‰ä¿è£…å¤‡çš„å®‰ä¿å‹æµ®ç©ºæœºå™¨äºº"
+good_ID[53660] = "åˆæˆç¥ç»ç°‡"--good253
+good_ID[53661] = "ä½¿ç”¨è¶…å¼ åŠ›å¡‘æ–™ä¸ç—…æ¯’åœ¨ç‰¹æ®Šç¯å¢ƒä¸‹åˆæˆçš„äººå·¥ç¥ç»ç°‡ï¼Œä¸€èˆ¬è¢«ç”¨åœ¨æœºæ¢°æ„è£…ä½“ä¸Šæ¨¡æ‹Ÿç”Ÿç‰©ç¥ç»ç³»ç»Ÿçš„åŠŸèƒ½"
+
+
+good_ID[53670] = "çŒ«é¥­"--good253
+good_ID[53671] = "è²è‰å¦²è‰¾äººç”¨äºçŠ’åŠ³è¡Œè€…çš„è€å‚¨é£Ÿå“ï¼Œåªéœ€æ‰“å¼€å®¹å™¨å¹¶ä½¿ç”¨è‡ªå¸¦å·¥å…·çƒ¹é¥ªï¼Œå³å¯äº«ç”¨ä¸°ç››ç¾å‘³"
+
+good_ID[53680] = "å‹ç¼©èƒ¶å›Š"--good254
+good_ID[53681] = "ä½¿ç”¨ç‰©è´¨å‹ç¼©æŠ€æœ¯å°è£…çš„æ ‡å‡†åŒ–èƒ¶å›Šï¼Œæœ‰åŒ»æŠ¤ç”¨å“ã€æ•‘éš¾å·¥å…·ç­‰ç±»å‹ï¼Œå¯åœ¨å„ç§æç«¯ç¯å¢ƒä¸­ä½¿ç”¨"
+
+good_ID[53690] = "è¢‹åº•ç²®"--good255
+good_ID[53691] = "å½¢ä¼¼é¥¼å¹²çš„é«˜èƒ½é£Ÿå“ï¼Œè¥å…»ä¸°å¯Œï¼Œæ€§è´¨ååˆ†ç¨³å®šï¼Œæœç”¨åèƒ½æ»‹å…»æ„å¿—ã€æä¾›è€åŠ›ï¼Œç”šè‡³åŠ å¿«ä¼¤ç—…ç—Šæ„ˆ"
+
+good_ID[53700] = "æ­Œå§¬æ‰‹åŠ"--good256
+good_ID[53701] = "åœºè´©çš„æ­£å“çˆ†æ¬¾ï¼Œæ·±å—ç²‰ä¸å–œçˆ±ï¼Œæ®è¯´æœ‰äº›æˆ´çœ¼ç½©çš„èˆ¹é•¿ä¼šä¸“é—¨å®šåˆ¶å¤§å·èˆ¹å¤´é›•åƒæ¬¾ã€‚"
+
+
+
+good_ID[53750] = "æœ«ä¸–çº§æ— ç•èˆ°è“å›¾"--good260
+good_ID[53751] = "ç®€ä»‹ï¼š\néœ€è¦5å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+
+good_ID[53760] = "èª“çº¦çº§æ— ç•èˆ°è“å›¾"--good261
+good_ID[53761] = "ç®€ä»‹ï¼š\néœ€è¦5å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53770] = "æ˜Ÿé“¸çº§è“å›¾"--good262
+good_ID[53771] = "ç®€ä»‹ï¼š\néœ€è¦30å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53780] = "å¥¥ç‰¹æ—å¾·çº§è“å›¾"--good263
+good_ID[53781] = "ç®€ä»‹ï¼š\néœ€è¦30å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53790] = "é²²é¹çº§è“å›¾"--good264
+good_ID[53791] = "ç®€ä»‹ï¼š\néœ€è¦10å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53800] = "è£‚ç—•3Aè“å›¾"--good265
+good_ID[53801] = "ç®€ä»‹ï¼š\néœ€è¦5å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53810] = "è£‚ç—•3Cè“å›¾"--good266
+good_ID[53811] = "ç®€ä»‹ï¼š\néœ€è¦5å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53820] = "SAAçº§è“å›¾"--good267
+good_ID[53821] = "ç®€ä»‹ï¼š\néœ€è¦20å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+good_ID[53830] = "æ˜Ÿé“¸å·¥ç¨‹æ¯èˆ°è“å›¾"--good268
+good_ID[53831] = "ç®€ä»‹ï¼š\néœ€è¦30å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+
+good_ID[53840] = "ç¬¬å…«ä»£å¥³çš‡è“å›¾"--good269
+good_ID[53841] = "ç®€ä»‹ï¼š\néœ€è¦40å¼ æ‰èƒ½å»ºé€ \nå»ºé€ æˆ˜èˆ°æ‰€å¿…é¡»çš„æ•°æ®è“å›¾ï¼Œåˆ¶ä½œå®ƒçš„å·¥è‰ºæä¸ºå¤æ‚è€Œä¸”ç»è¿‡äº†é«˜å¼ºåº¦çš„æ•°æ®åŠ å¯†ï¼Œå±äºä¸å¯å¤åˆ¶çš„æ¶ˆè€—å“ã€‚æœ‰çš„æ—¶å€™ä¸ºäº†å»ºé€ ä¸€è‰˜é«˜éš¾åº¦æˆ˜èˆ°è¿˜éœ€è¦è®¸å¤šä»½ç›¸åŒçš„è“å›¾æ‰è¡Œã€‚"
+
+
+
+
+--good251åˆ°--good300
+good_ID[53562] = "å¸å›½æ®–æ°‘åŒºå…¥ä¾µ"
+good_ID[53563] = "å¸å›½é‡‡çŸ¿ç‚¹å…¥ä¾µ"
+good_ID[53564] = "å¸å›½å¤ªç©ºå†œåœºç¾¤å…¥ä¾µ"
+good_ID[53565] = "å¸å›½å‰çº¿èˆ°é˜Ÿé›†ç»“åœ°å…¥ä¾µ"
+good_ID[53566] = "è²é›…åˆ©å¸å›½èˆ¹åç¾¤å…¥ä¾µ"
+good_ID[53567] = "å¦å°¼æ–¯å…¥ä¾µ"
+good_ID[53568] = "å¡å‹’å§†å…¥ä¾µ"
+good_ID[53569] = "å¸Œæ ¼æ‹‰é¦–æ˜Ÿå…¥ä¾µ"
+good_ID[53570] = "å¤©ä½¿ä¹‹æœˆå…¥ä¾µ"
+good_ID[53571] = "ç¬¬142å·å‰å“¨åŸºåœ°å…¥ä¾µ"
+good_ID[53572] = "å°¼ç¦å°”æµ·å§†å…¥ä¾µ"
+good_ID[53573] = "èµ«å°”æµ·åˆ©å§†å…¥ä¾µ"
+good_ID[53574] = "èšå·¢èˆ°é˜Ÿæ´»åŠ¨åŒºå…¥ä¾µ"
+good_ID[53575] = "é˜¿å› ç‰¹æ–¯èˆ°é˜Ÿå®šé”šç‚¹å…¥ä¾µ"
+good_ID[53576] = "æ˜Ÿé—¨éƒ½å¸‚æ ¼åˆ©æ™®æ–¯å…¥ä¾µ"
+good_ID[53577] = "ç»´æ ¼å°”ä¸œçº¿å†›é˜€æ´»åŠ¨åŒºå…¥ä¾µ"
+good_ID[53578] = "ç»´æ ¼å°”ä¸œçº¿å†›é˜€æ§åˆ¶åŒºå…¥ä¾µ"
+good_ID[53579] = "å¡å„æ–¯è”ç›Ÿâ€”å‰çº¿å“¨ç«™å…¥ä¾µ"
+good_ID[53580] = "å¡å„æ–¯è”ç›Ÿâ€”åˆ©è´å°”å…±å’Œå›½å…¥ä¾µ"
+good_ID[53581] = "å¡å„æ–¯è”ç›Ÿâ€”è”åˆæ³Šåœ°å…¥ä¾µ"
+good_ID[53582] = "è¿½å¿†ä¹‹åº­é‡å·¥æ€»éƒ¨èˆ¹åå…¥ä¾µ"
+good_ID[53583] = "å¡å„æ–¯è”ç›Ÿæ··æ²Œå•†äººå…¥ä¾µ"
+good_ID[53584] = "ç¬¬58ç‰¹æ··èˆ°é˜Ÿé›†ç»“åœ°å…¥ä¾µ"
+good_ID[53585] = "å¡å„æ–¯æ°¸ç”Ÿè€…æ¢ç´¢ä¹‹åˆå…¥ä¾µ"
+good_ID[53586] = "è²é›…åˆ©ä¹‹é—¨é˜²å¾¡ç­‰çº§"
+good_ID[53587] = "å¸å›½æ®–æ°‘åŒºé˜²å¾¡ç­‰çº§"
+good_ID[53588] = "å¸å›½é‡‡çŸ¿ç‚¹é˜²å¾¡ç­‰çº§"
+good_ID[53589] = "å¸å›½å¤ªç©ºå†œåœºç¾¤é˜²å¾¡ç­‰çº§"
+good_ID[53590] = "å¸å›½å‰çº¿èˆ°é˜Ÿé›†ç»“åœ°é˜²å¾¡ç­‰çº§"
+good_ID[53591] = "è²é›…åˆ©å¸å›½èˆ¹åç¾¤é˜²å¾¡ç­‰çº§"
+good_ID[53592] = "å¦å°¼æ–¯é˜²å¾¡ç­‰çº§"
+good_ID[53593] = "å¡å‹’å§†é˜²å¾¡ç­‰çº§"
+good_ID[53594] = "å¸Œæ ¼æ‹‰é¦–æ˜Ÿé˜²å¾¡ç­‰çº§"
+good_ID[53595] = "å¤©ä½¿ä¹‹æœˆé˜²å¾¡ç­‰çº§"
+good_ID[53596] = "ç¬¬142å·å‰å“¨åŸºåœ°é˜²å¾¡ç­‰çº§"
+good_ID[53597] = "å°¼ç¦å°”æµ·å§†é˜²å¾¡ç­‰çº§"
+good_ID[53598] = "èµ«å°”æµ·åˆ©å§†é˜²å¾¡ç­‰çº§"
+good_ID[53599] = "èšå·¢èˆ°é˜Ÿæ´»åŠ¨åŒºé˜²å¾¡ç­‰çº§"
+good_ID[53600] = "é˜¿å› ç‰¹æ–¯èˆ°é˜Ÿå®šé”šç‚¹é˜²å¾¡ç­‰çº§"
+good_ID[53601] = "æ˜Ÿé—¨éƒ½å¸‚æ ¼åˆ©æ™®æ–¯é˜²å¾¡ç­‰çº§"
+good_ID[53602] = "ç»´æ ¼å°”ä¸œçº¿å†›é˜€æ´»åŠ¨åŒºé˜²å¾¡ç­‰çº§"
+good_ID[53603] = "ç»´æ ¼å°”ä¸œçº¿å†›é˜€æ§åˆ¶åŒºé˜²å¾¡ç­‰çº§"
+good_ID[53604] = "å¡å„æ–¯å‰çº¿å“¨ç«™é˜²å¾¡ç­‰çº§"
+good_ID[53605] = "åˆ©è´å°”å…±å’Œå›½é˜²å¾¡ç­‰çº§"
+good_ID[53606] = "å¡å„æ–¯è”åˆæ³Šåœ°é˜²å¾¡ç­‰çº§"
+good_ID[53607] = "è¿½å¿†ä¹‹åº­é˜²å¾¡ç­‰çº§"
+good_ID[53608] = "å¡å„æ–¯è”ç›Ÿæ··æ²Œå•†äººé˜²å¾¡ç­‰çº§"
+good_ID[53609] = "ç¬¬58ç‰¹æ··èˆ°é˜Ÿé›†ç»“åœ°é˜²å¾¡ç­‰çº§"
+good_ID[53610] = "å¡å„æ–¯æ°¸ç”Ÿè€…æ¢ç´¢ä¹‹åˆé˜²å¾¡ç­‰çº§"
+
+good_ID[53620] = "è¿™ä¸ªåœ°å›¾é­åˆ°äº†å¤©ç¾çš„å…¥ä¾µï¼Œå¦‚æœå…¥ä¾µç­‰çº§è¿‡é«˜ï¼Œè¯¥åœ°å›¾çš„å•†ä¸šè®¾æ–½å°†ä¼šæ— æ³•ä½¿ç”¨"
+good_ID[53630] = "è¿™ä¸ªåœ°å›¾çš„é˜²å¾¡ç­‰çº§ï¼Œç­‰äºè¶Šé«˜å¤©ç¾çš„å…¥ä¾µè¶Šä¸ä¼šé€ æˆå½±å“"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 shipyard_ID = {}
-shipyard_ID[53005] = "ÒÀ¿¿Ö³ÃñµØÖĞ´¢±¸µÄÎï×Ê½¨ÔìÒ»ËÒÕ½½¢"
-shipyard_ID[53080] = "µÚËÄ´úÅ®»Ê¼¶Õ½Õù±¤Àİ"
-shipyard_ID[53000] = "Âí¿¨¶÷Ö®Å­"
-shipyard_ID[53010] = "µÚÈı´úÅ®»Ê¼¶Õ½Õù±¤Àİ"
-shipyard_ID[53020] = "µÚËÄ´úÅ®»Ê¼¶Õ½Õù±¤Àİ¾«Ó¢ĞÍ"
-shipyard_ID[53030] = "¿ËÀÙÑÅ-´ï¶û¿ËºÅ"
-shipyard_ID[53040] = "É¯À­-´ï¶û¿ËºÅ"
-shipyard_ID[53050] = "ÓÀºã2¼¶Õ½Õù±¤Àİ"
-shipyard_ID[53060] = "Å®»ÊÖ®´¸"
-shipyard_ID[53070] = "µÚÎå´úÅ®»Ê¼¶Õ½Õù±¤Àİ"
-shipyard_ID[53090] = "µÚ¶ş´úÂí¿¨¶÷Ö®Å­Õ½Õù±¤Àİ"
-shipyard_ID[53100] = "ÉóÅĞÍ¥ºÅÕ½Õù±¤Àİ"
-shipyard_ID[53110] = "°¢Ü½ÀÖ¶û¼¶³¬¼¶Îä¿â½¢"
-shipyard_ID[53120] = "µÚÎå´úÅ®»Ê¼¶Õ½Õù±¤ÀİÍ´"
-shipyard_ID[53130] = "Ê¥ÓòºÅÕ½Õù±¤Àİ"
-shipyard_ID[53140] = "°¢Ü½ÀÖ¶û¼¶¸Ä"
-shipyard_ID[53150] = "ËşÄÉÍĞË¹¼¶³¬¼¶Îä¿â½¢"
-shipyard_ID[53160] = "µÚÁù´úÅ®»Ê¼¶BĞÍ"
-shipyard_ID[53170] = "µÛ¹úÉÏ½«"
-shipyard_ID[53180] = "µÚÈı´úÂí¿¨¶÷Ö®Å­¾Ş½¢"
-shipyard_ID[53190] = "µÚÁù´úÅ®»Ê¼¶CĞÍ"
-shipyard_ID[53200] = "µÚÁù´úÅ®»Ê¼¶AĞÍ"
-shipyard_ID[53210] = "³¯Ê¥Õß¼¶³¬¼¶º½Ä¸"
-shipyard_ID[53220] = "°¢¶û±´µÏÅ·ºÅ"
-shipyard_ID[53230] = "µÚÁù´úµÛ¹úÅ®»Ê¼¶Ìì·£ĞÍ"
-shipyard_ID[53240] = "Äª¶ûµÏ»ù°²´ó¾ı¼¶´İĞÇ¾Ş½¢"
-shipyard_ID[53250] = "µÚÆß´úÅ®»Ê¼¶´ßĞÇ¾Ş½¢"
-shipyard_ID[53260] = "ÃüÔË¼¶´ßĞÇ¾Ş½¢"
-shipyard_ID[53270] = "Ë¹¿¨·¨Èê¼¶ÇıÖğ½¢·À¿ÕĞÍ"
-shipyard_ID[53280] = "·ÑÄÈÄáÑÇ¼¶"
-shipyard_ID[53290] = "Ä°µ¶¼¶ÇıÖğ½¢"
-shipyard_ID[53300] = "Ë¹¿¨·¨Èê¼¶½¢ÅÚĞÍ"
-shipyard_ID[53310] = "¶À½ÇÊŞ¼¶ÖØĞÍÑ²Ñó½¢"
-shipyard_ID[53320] = "À«ÈĞ¼¶Ï®»÷½¢"
-shipyard_ID[53330] = "ÁÔöè¼¶Ï®»÷½¢"
-shipyard_ID[53340] = "Ô¶ĞĞÕß¼¶Õ½ÁĞ½¢"
-shipyard_ID[53350] = "Ô¶ĞĞÕß¼¶Õ½ÁĞ½¢¾«Ó¢ĞÍ"
-shipyard_ID[53350] = "Í»Ï®Õß¼¶ÇáĞÍÕ½Êõ½¢"
+shipyard_ID[53005] = "Build a battleship from supplies stockpiled in the colony"
+shipyard_ID[53080] = "Build a 4th generation Empress-class war fortress"
+shipyard_ID[53000] = "Build the Fury of Makarn"
+shipyard_ID[53010] = "Build the 3rd generation Queen's War Fortress"
+shipyard_ID[53020] = "Build 4th generation Queen's Warfortress Elite"
+shipyard_ID[53030] = "Build the Kleya Dalk"
+shipyard_ID[53040] = "Build the Sarah Dahlke"
+shipyard_ID[53050] = "Build Eternal 2 War Fortress"
+shipyard_ID[53060] = "Build Queen's Hammer"
+shipyard_ID[53070] = "Build the 5th generation Empress-class War Fortress"
+shipyard_ID[53090] = "Build the second generation of the Makarn's Wrath War Fortress"
+shipyard_ID[53100] = "Build the Inquisitorial War Fortress"
+shipyard_ID[53110] = "Build Avril-class super arsenal ship"
+shipyard_ID[53120] = "Build the 5th generation Empress-class War Fortress Pain"
+shipyard_ID[53130] = "Build the Sanctuary Warfortress"
+shipyard_ID[53140] = "Build the Aurora class"
+shipyard_ID[53150] = "Build the Thanatos-class super arsenal ship"
+shipyard_ID[53160] = "Build the 6th generation Empress Class B"
+shipyard_ID[53170] = "Build Imperial Admiral"
+shipyard_ID[53180] = "Build 3rd generation Makarn's Fury megaship"
+shipyard_ID[53190] = "Build the 6th generation Empress Class C"
+shipyard_ID[53200] = "Build 6th generation Queen A"
+shipyard_ID[53210] = "Build Pilgrim-class supercarrier"
+shipyard_ID[53220] = "Build the USS Alberdior"
+shipyard_ID[53230] = "Build the 6th generation Imperial Empress-class Skyrim"
+shipyard_ID[53240] = "Build the Mordiggian Archon Star Destroyer"
+shipyard_ID[53250] = "Build the seventh generation of Empress-class Star Destroyer"
+shipyard_ID[53260] = "Build the Destiny-class Star Destroyer"
+shipyard_ID[53270] = "Build the Scafaru destroyer anti-aircraft type"
+shipyard_ID[53280] = "Build Feneria class"
+shipyard_ID[53290] = "Build Strider class destroyer"
+shipyard_ID[53300] = "Build Scafaru gun type"
+shipyard_ID[53310] = "Build Unicorn class heavy cruiser"
+shipyard_ID[53320] = "Build Broadblade class assault ships"
+shipyard_ID[53330] = "Build Shark Hunter class assault ships"
+shipyard_ID[53340] = "Build Farseer class battleships"
+shipyard_ID[53350] = "Build Farseer Elite battleship"
+shipyard_ID[53350] = "Build Raider class light tactical ships"
 
 
 
 
-shipyard_ID[53420] = "·À·ç¼¶³¬¼¶»õ½¢"
-shipyard_ID[53430] = "·ÑÄÈÄáÑÇMK4ĞÍ"
+shipyard_ID[53420] = "Build Windproof Supercargo"
+shipyard_ID[53430] = "Build Fenania MK4"
 
 
-shipyard_ID[53345] = "Î¯ÍĞµ±µØÔì´¬³§½¨ÔìÒ»ËÒ·É´¬"
-shipyard_ID[53350] = "À«ÈĞ¼¶Ï®»÷½¢"
-shipyard_ID[53360] = "Ñ²»ØÕß¼¶Ï®»÷½¢"
-shipyard_ID[53370] = "Õ½ÁĞÑ²Ñó½¢-ÄÈ±´ÁğË¹"
-shipyard_ID[53380] = "·ÆÃ×ÁÕË¹"
-shipyard_ID[53390] = "µ¼µ¯Ï®»÷½¢"
-shipyard_ID[53400] = "öÀ·ç×°¼×½¢"
-shipyard_ID[53410] = "SR6¿ìËÙÏ®»÷½¢"
-shipyard_ID[53420] = "Í¼À­ÄáÔËÔØ½¢"
-shipyard_ID[53435] = "À«ÈĞ3×°¼×ĞÍ"
-shipyard_ID[53440] = "À«ÈĞ3"
-shipyard_ID[53450] = "ÉÁ¹âÖ®ÈĞ¼¶Õ½ÁĞÑ²Ñó½¢"
-shipyard_ID[53460] = "¾ãÀÖ²¿¼¶Õ½ÁĞÑ²Ñó½¢"
-shipyard_ID[53470] = "¾ãÀÖ²¿¼¶ºÀ»ªÓÎÂÖ"
-shipyard_ID[53480] = "ÓñÃÅ¼¶³¬´óĞÍÂëÍ·½¢"
-shipyard_ID[53490] = "Ô¶ĞĞÕß¼¶Õ½ÁĞ½¢"
+shipyard_ID[53345] = "Commission a ship from a local shipyard"
+shipyard_ID[53350] = "Commission a Broadblade class assault ship"
+shipyard_ID[53360] = "Commission a Rover-class raider"
+shipyard_ID[53370] = "Commissioned Battlecruiser - Naberius"
+shipyard_ID[53380] = "Commissioned Femilynx"
+shipyard_ID[53390] = "Commissioned Missile Assault Ship"
+shipyard_ID[53400] = "Commissioned Hayabusa armored ship"
+shipyard_ID[53410] = "Commissioned SR6 fast assault ship"
+shipyard_ID[53420] = "Commissioned Tulani Carrier"
+shipyard_ID[53435] = "Commissioned Broadblade 3 armored type"
+shipyard_ID[53440] = "Commissioned Broadblade 3"
+shipyard_ID[53450] = "Commissioned Flashblade class battlecruiser"
+shipyard_ID[53460] = "Commissioned Club-class battlecruiser"
+shipyard_ID[53470] = "Commissioned Club-class luxury cruise ship"
+shipyard_ID[53480] = "Commissioned Yumen-class super dock ship"
+shipyard_ID[53490] = "Commissioned a Farseer-class battleship"
 
 
-shipyard_ID[53500] = "Ô¶ĞĞÕß¼¶»õÔË½¢"
-shipyard_ID[53510] = "½ÌÖ÷¼¶Ö§Ô®Õ½ÁĞ½¢"
-shipyard_ID[53520] = "ÒÁÀûÑÇÑ²¿Õ½¢"
-shipyard_ID[53530] = "Êï¹â¼¶Õ½ÁĞ½¢"
-shipyard_ID[53540] = "Êï¹âC"
-shipyard_ID[53550] = "ÑªÈĞ¼¶Õ½ÁĞ½¢"
-shipyard_ID[53560] = "ÁìÖ÷¼¶Õ½ÁĞ½¢"
-shipyard_ID[53570] = "Ëş¶ûÂåË¹¼¶Õ½ÁĞ½¢"
-shipyard_ID[53580] = "Ëş¶ûÂåË¹¼¶Õ½ÁĞ½¢¹âÊø"
-shipyard_ID[53590] = "ËÀÍöÖ®êª"
-shipyard_ID[53600] = "¿âÉêÕ½ÁĞ½¢"
-shipyard_ID[53610] = "Ì©Ì¹Õ½ÁĞ"
-shipyard_ID[53620] = "ÁÑºÛ¼¶Õ½ÁĞ½¢"
-shipyard_ID[53630] = "ÁÑºÛC"
-shipyard_ID[53640] = "ÔÂ»·"
-shipyard_ID[53650] = "Í´ÔÂ»·"
-shipyard_ID[53660] = "ÆÆÏşI"
-shipyard_ID[53670] = "ÆÆÏş3"
-shipyard_ID[53680] = "ÁÑºÛ2A"
-shipyard_ID[53690] = "ÁÑºÛ2B"
-shipyard_ID[53700] = "¼áÒã¼¶Õ½ÁĞ½¢"
-shipyard_ID[53710] = "¿ËÀ×Äª¶ûÖ®ÈĞ¼¶Õ½ÁĞ½¢"
-shipyard_ID[53720] = "ÑÅµäÄÈ¼¶ÖØĞÍº½Ä¸"
-shipyard_ID[53730] = "°Â¶¡"
-shipyard_ID[53740] = "ÖØ´¸ÂÖ»Ø"
-shipyard_ID[53750] = "¼«¹âÂÖ»Ø"
-shipyard_ID[53760] = "¿âÉêÎŞÎ·½¢"
-shipyard_ID[53770] = "Ä©ÊÀÎŞÎ·½¢"
-shipyard_ID[53780] = "Ğé¿Õ"
-shipyard_ID[53790] = "°µÒ¹Å®Éñ"
-shipyard_ID[53800] = "Ç£ĞÇ¼¶¾ŞĞÍÂëÍ·½¢"
-shipyard_ID[53810] = "·ÀÓùÎŞÎ·½¢"
-shipyard_ID[53820] = "ÖÈĞò¼¶ÎŞÎ·½¢"
-shipyard_ID[53830] = "°¢ÇĞÂåÌØ¼¶¾ŞĞÍ¹¤³Ì´¬Îë½¢"
-shipyard_ID[53840] = "Ì©Ì¹ÎŞÎ·"
-shipyard_ID[53850] = "°¬ÂåË¹ÎŞÎ·½¢"
-shipyard_ID[53860] = "·À·ç¼¶³¬¼¶»õ½¢"
-shipyard_ID[53870] = "Å®»Ê4´ú"
-shipyard_ID[53880] = "°¬ÂåË¹ÔËÊä½¢"
-shipyard_ID[53890] = "Ä§×å´óĞÍ»õ½¢"
+shipyard_ID[53500] = "Commissioned Farseer-class freighter"
+shipyard_ID[53510] = "Commissioned Patriarch-class support battleship"
+shipyard_ID[53520] = "Commissioned Ilya class cruiser"
+shipyard_ID[53530] = "Commissioned Aurora-class battleship"
+shipyard_ID[53540] = "Commission Aurora C"
+shipyard_ID[53550] = "Commissioned Bloodshed class battleship"
+shipyard_ID[53560] = "Commissioned Lordship battleship"
+shipyard_ID[53570] = "Commissioned Talos-class battleship"
+shipyard_ID[53580] = "Commissioned Talos-class battleship beam"
+shipyard_ID[53590] = "Commissioned the Halberd of Death"
+shipyard_ID[53600] = "Commissioned Cushin battleship"
+shipyard_ID[53610] = "Commissioned Titan battleship"
+shipyard_ID[53620] = "Commissioned Rift-class battleship"
+shipyard_ID[53630] = "Commission Rift C"
+shipyard_ID[53640] = "Commission Moon Ring"
+shipyard_ID[53650] = "Commissioning the Pain Moon Ring"
+shipyard_ID[53660] = "Commission Dawn I"
+shipyard_ID[53670] = "Commission Dawn 3"
+shipyard_ID[53680] = "Commission Rift 2A"
+shipyard_ID[53690] = "Commission Rift 2B"
+shipyard_ID[53700] = "Commissioning of the Fortitude class battleship"
+shipyard_ID[53710] = "Commissioned Cremour's Edge class battleship"
+shipyard_ID[53720] = "Commissioned Athena-class heavy carrier"
+shipyard_ID[53730] = "Commissioned Odin"
+shipyard_ID[53740] = "Commissioned Heavy Hammer Reincarnation"
+shipyard_ID[53750] = "Commissioned Aurora Reincarnation"
+shipyard_ID[53760] = "Commissioned Cushin Dreadnought"
+shipyard_ID[53770] = "Commissioning of the Mordecai Dreadnought"
+shipyard_ID[53780] = "Commissioned Void"
+shipyard_ID[53790] = "Commissioned Dark Goddess"
+shipyard_ID[53800] = "Commissioning a star-holding mega-dock"
+shipyard_ID[53810] = "Commission a defense dreadnought"
+shipyard_ID[53820] = "Commissioned Order-class dreadnought"
+shipyard_ID[53830] = "Commissioned Achelote class mega-engineering dock ship"
+shipyard_ID[53840] = "Commissioned Titan Dreadnought"
+shipyard_ID[53850] = "Commissioning the Eros Dreadnought"
+shipyard_ID[53860] = "Commissioned Windproof-class supercargo"
+shipyard_ID[53870] = "Commissioned Queen 4"
+shipyard_ID[53880] = "Commissioned Elos transport"
+shipyard_ID[53890] = "Commissioned Demon Large Cargo Ship"
 
-shipyard_ID[53895] = "´¦Àí·ÏÆú½¢´¬"
-shipyard_ID[53900] = "²ğ½â»òÕßĞŞ¸´ÕâËÒĞÇ½¢"
+shipyard_ID[53895] = "Dispose of abandoned ships"
+shipyard_ID[53900] = "Dismantle or repair this starship"
 
-shipyard_ID[53905] = "¹ºÂò"
-
-
+shipyard_ID[53905] = "Buy"
 
 
-shipyard_ID[53943] = "Ğé¿ÕÒÏ³²½¢¶ÓĞÍ"
-
-shipyard_ID[53950] = "µÚÈı´úÅ®»Ê¼¶"
-shipyard_ID[53960] = "ÓÀºã¼¶ÎŞÎ·½¢"
-shipyard_ID[53970] = "°Â¶¡¾«Ó¢ĞÍ"
-shipyard_ID[53980] = "Âí¿¨¶÷Ö®Å­"
-shipyard_ID[53990] = "²ğ·Ö´òÀÌÓÎÆï±ø"
-
-shipyard_ID[54000] = "¹ºÂòÂÓ¶áÕß¼¶Ñ²Ñó½¢"
-shipyard_ID[54010] = "¹ºÂòÇÖÂÔÕß¼¶µ¼µ¯¹¥³Ç½¢"
-shipyard_ID[54020] = "¹ºÂò»ÙÃğÕßµ¼µ¯Ï®»÷½¢"
-
-shipyard_ID[54030] = "ÏòÃØÃÜÉÌÈË¹ºÂò½¢´¬"
-shipyard_ID[54040] = "¶òÈğ²£Ë¹¼¶ÌØ×°Õ½ÁĞ½¢"
-
-shipyard_ID[54050] = "Ó¢µÂÀ­Ë¹¼¶Õ½ÁĞ½¢"
-shipyard_ID[54060] = "ÁÔöÀºÅ"
-shipyard_ID[54070] = "ÒÀÎÄ½àÁÕºÅÕ½ÁĞ½¢"
-shipyard_ID[54080] = "Ñ²º½¹ÜÖÆ½¢"
-shipyard_ID[54090] = "ê×·æºÅÕ½ÁĞ½¢"
-
-shipyard_ID[54100] = "ÑÅµäÄÈ¾«Ó¢1ºÅ½¢"
-shipyard_ID[54110] = "ÑÅµäÄÈ¾«Ó¢3ºÅ½¢"
-shipyard_ID[54120] = "ÑÅµäÄÈ¾«Ó¢2ºÅ½¢"
-
-shipyard_ID[54130] = "¾¯¸æ¸ÃĞÍ½¢Ö»ÄÜÔì1ËÒ£¬¶îÍâ½¨Ôì»áÒı·¢BUG"
 
 
-shipyard_ID[54140] = "Èû¶û·ÒµÏÄÈ¼¶"
-shipyard_ID[54150] = "¾üÍÅÆïÊ¿"
-shipyard_ID[54160] = "ÓÎÆï±øº½Ä¸"
-shipyard_ID[54170] = "¸ñÀÙË¿ÂíÈğÑÇ"
-shipyard_ID[54180] = "ÈüÜ½Àò¶ûºÅ"
-shipyard_ID[54190] = "Í»Ï®Õß"
-shipyard_ID[54200] = "¾«Ó¢Ô¶ĞĞÕß"
-shipyard_ID[54210] = "ÁÑºÛ2EĞÍÖØÆï±øĞÍ"
+shipyard_ID[53943] = "Build Void Ant Nest fleet type"
 
-shipyard_ID[54220] = "ÁÑºÛ2FÄª¶ûµÏ»ù°²´ó¾ıĞÍ"
+shipyard_ID[53950] = "Build third generation Queen class"
+shipyard_ID[53960] = "Build the Eternal Dreadnought"
+shipyard_ID[53970] = "Commissioned Odin Elite"
+shipyard_ID[53980] = "Commissioned the Makarn Fury"
+shipyard_ID[53990] = "Split salvage Rangers"
 
-shipyard_ID[54230] = "ÁÑºÛ2GĞÍÂÃÍÅ¸¨Öúº½Ä¸"
-shipyard_ID[54240] = "Ê®ËÄ¹«Ö÷"
-shipyard_ID[54250] = "ÁÑºÛ121"
-shipyard_ID[54260] = "ÁÑºÛ2GFG"
+shipyard_ID[54000] = "Buy Marauder class cruiser"
+shipyard_ID[54010] = "Buy Aggressor Class Missile Siege Ship"
+shipyard_ID[54020] = "Buy Destroyer missile assault ship"
 
-shipyard_ID[54270] = "Ë÷ÍĞÑÇÂêÀ­ĞÍ"
-shipyard_ID[54280] = "ÌúÂí¿¨¶÷Ö®Å­¸¡ÍÀºÅ"
+shipyard_ID[54030] = "Buy ships from secret merchants"
+shipyard_ID[54040] = "Build Erebus-class special battleship"
 
-shipyard_ID[54290] = "¾ıÍõ¼¶Õ½ÂÔÆì½¢"
-shipyard_ID[54300] = "Ë÷ÍĞÑÇ¼¶³¬¼¶º½Ä¸"
-shipyard_ID[54310] = "Ë÷ÍĞÑÇ¼¶¾«Ó¢ĞÍ"
-shipyard_ID[54320] = "°²¼ªÀöÄÈ¼¶"
-shipyard_ID[54330] = "ºÕÀû°ÂË¹¼¶ÎŞÎ·½¢"
-shipyard_ID[54340] = "»ìãçÖ®ÈĞ¼¶ÎŞÎ·½¢"
+shipyard_ID[54050] = "Build Indras-class battleship"
+shipyard_ID[54060] = "Build the Falcon"
+shipyard_ID[54070] = "Build the battleship Evangeline"
+shipyard_ID[54080] = "Build cruise control ship"
+shipyard_ID[54090] = "Build the battleship Thermaltake"
 
-shipyard_ID[54350] = "°²¼ªÀöÄÈ¼¶ÖØĞÍº½Ä¸"
-shipyard_ID[54360] = "Ô¶ĞĞÕßMK2¼¶ĞäÕäÕ½ÁĞ½¢"
-shipyard_ID[54370] = "Ô¶ĞĞÕßMK2¼¶»õ½¢"
+shipyard_ID[54100] = "Build Athena Elite 1"
+shipyard_ID[54110] = "Build Athena Elite 3"
+shipyard_ID[54120] = "Build Athena Elite 2"
 
-shipyard_ID[54380] = "Ñô·«¼¶»¤ÎÀÕ½Ñ²"
+shipyard_ID[54130] = "Warning only 1 ship of this type can be built, additional builds will cause bugs"
 
-shipyard_ID[54390] = "¹şµÏË¹¼¶ÒÆ¶¯º½¿Õ»ùµØ"
-shipyard_ID[54400] = "ÓÈÀïÎ÷Ë¹"
-shipyard_ID[54410] = "Avalon°¢ÍßÂ¡"
-shipyard_ID[54420] = "ExcaliburÊ¤ÀûÖ®½£"
-shipyard_ID[54430] = "Ì¾Ï¢Ö®Ç½"
-shipyard_ID[54440] = "Í¼ÌÚ¼¶Õ½ÁĞ½¢"
-shipyard_ID[54450] = "Í¼ÌÚ¼¶º½Ä¸"
-shipyard_ID[54460] = "Í¼ÌÚ¼¶»õ½¢"
-shipyard_ID[54470] = "ÎÚÀ¼°ÍÍĞ¼¶"
 
-shipyard_ID[54480] = "ÓÀºã¼¶"
-shipyard_ID[54490] = "°µÒ¹Å®Éñ¼¶"
-shipyard_ID[54500] = "ºÆ½Ù¼¶"
-shipyard_ID[54510] = "¹â»ÔÅ®Éñ¼¶"
-shipyard_ID[54520] = "ÂåÉñ¼¶"
-shipyard_ID[54530] = "Ğİ²®Àû°²ºÅ"
+shipyard_ID[54140] = "Build Serfendina class"
+shipyard_ID[54150] = "Build Legionnaire"
+shipyard_ID[54160] = "Build Ranger carriers"
+shipyard_ID[54170] = "Build Grace Marea"
+shipyard_ID[54180] = "Build the Saphir"
+shipyard_ID[54190] = "Build Raider"
+shipyard_ID[54200] = "Build the Elite Farseer"
+shipyard_ID[54210] = "Build Rift 2E Heavy Cavalry type"
 
-shipyard_ID[54540] = "°¬ÈğÏ£¶û"
-shipyard_ID[54550] = "Ò®ÃÎ¼ÓµÃºÅ"
+shipyard_ID[54220] = "Build Rift 2F Mordechian Maharaja"
 
-shipyard_ID[54560] = "Ìá·á¼¶Õ½Ñ²"
-shipyard_ID[54570] = "Á¶·ç¼¶Õ½Ñ²"
-shipyard_ID[54580] = "Ìá·á¼¶Õ½Ñ²DĞÍ"
+shipyard_ID[54230] = "Build Rift 2G Brigade Auxiliary Carrier"
+shipyard_ID[54240] = "Build Princess XIV"
+shipyard_ID[54250] = "Build Rift 121"
+shipyard_ID[54260] = "Build Rift 2GFG"
 
-shipyard_ID[54590] = "³¿·æ¼¶"
-shipyard_ID[54591] = "êØ¾°Õ¿È»£¬ÈĞÒ÷Èç¸è¡£²ÔĞÇÕ½ÍÅÖ±ÎÀ£¬ÎªÖÕ½áÕ½ÕùÀ´´Ë"
-shipyard_ID[54600] = "ÓÈÀïÎ÷Ë¹"
-shipyard_ID[54601] = "ÉóÅĞÈÕµÄÌØÊâ¸Ä½øĞÍ"
+shipyard_ID[54270] = "Build Sottoamara"
+shipyard_ID[54280] = "Build the Iron Horse Kahn Fury Faust"
 
-shipyard_ID[54610] = "Ê¥±®¼¶¼¤¹âÎŞÎ·½¢"
-shipyard_ID[54611] = "´óĞÍ¼¤¹âÅÚÎŞÎ·½¢£¬¿ÉÒÔ·¢Éä¸ßÄÜ¼¤¹âÊøÀ´´İ»ÙÄ¿±ê"
+shipyard_ID[54290] = "Build Monarch-class strategic flagship"
+shipyard_ID[54300] = "Build the Sotoya-class supercarrier"
+shipyard_ID[54310] = "Build Sotoya Elite"
+shipyard_ID[54320] = "Build Angelina class"
+shipyard_ID[54330] = "Build a Helios-class dreadnought"
+shipyard_ID[54340] = "Build a Chaos Blade-class Dreadnought"
 
-shipyard_ID[54620] = "Éñ·£¼ßÃğĞÍ"
-shipyard_ID[54621] = "Éñ·£µÄÎä×°Ç¿»¯°æ±¾£¬ÓÃÀ´Í»Ï®Ç¿´óµÄ½¢¶Ó"
+shipyard_ID[54350] = "Build an Angelina-class heavy carrier"
+shipyard_ID[54360] = "Build the Farstrider MK2 class pocket battleship"
+shipyard_ID[54370] = "Build the Farstrider MK2 class cargo ship"
 
-shipyard_ID[54630] = "µãÊı¶Ò»»"
-shipyard_ID[54635] = "¶Ò»»µãÊı"
-shipyard_ID[54640] = "²ğ½â"
-shipyard_ID[54645] = "½¨Ôì"
+shipyard_ID[54380] = "Build the Sunsail Class Guardian Battlecruiser"
+
+shipyard_ID[54390] = "Build a Hades-class mobile aviation base"
+shipyard_ID[54400] = "Build Ulysses"
+shipyard_ID[54410] = "Build Avalon"
+shipyard_ID[54420] = "Build Excalibur"
+shipyard_ID[54430] = "Build the Wall of Sighs"
+shipyard_ID[54440] = "Build a Totem-class battleship"
+shipyard_ID[54450] = "Build a Totem-class carrier"
+shipyard_ID[54460] = "Build a Totem-class cargo ship"
+shipyard_ID[54470] = "Build the Ulaanbaatar class"
+
+shipyard_ID[54480] = "Build the Eternal"
+shipyard_ID[54490] = "Build the Night Goddess"
+shipyard_ID[54500] = "Build Havoc"
+shipyard_ID[54510] = "Build the Radiant Goddess"
+shipyard_ID[54520] = "Build the Roselle"
+shipyard_ID[54530] = "Build the Hyperion"
+
+shipyard_ID[54540] = "Build Arithil"
+shipyard_ID[54550] = "Build the Jormungandr"
+
+shipyard_ID[54560] = "Build a Typhon-class Battlecruiser"
+shipyard_ID[54570] = "Build a Refined Battlecruiser"
+shipyard_ID[54580] = "Build a Typhon-class Battlecruiser D-Type"
+
+shipyard_ID[54590] = "Build the Morning Herald"
+shipyard_ID[54591] = "Xi Jing is clear, and the blade sings like a song. The direct guard of the Cangxing War Group came here to end the war"
+shipyard_ID[54600] = "Build Ulysses"
+shipyard_ID[54601] = "Special Modification of Judgment Day"
+
+shipyard_ID[54610] = "Build the Monument-class Laser Dreadnought"
+shipyard_ID[54611] = "Large laser cannon dreadnought that fires high-powered laser beams to destroy targets"
+
+shipyard_ID[54620] = "Build God's Punishment Annihilation Type"
+shipyard_ID[54621] = "An enhanced version of God's Punishment, used to raid powerful fleets"
+
+shipyard_ID[54630] = "ç‚¹æ•°å…‘æ¢"
+shipyard_ID[54635] = "å…‘æ¢ç‚¹æ•°"
+shipyard_ID[54640] = "æ‹†è§£"
+shipyard_ID[54645] = "å»ºé€ "
 
  g_sellposition = {} 
- g_sellposition[1]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ®ÃÅÈ¼ÁÏÕ¾\nµÛ¹úÖ³ÃñµØÌ«¿ÕÅ©³¡\nµÛ¹úÖ³ÃñµØÌ«¿ÕÄÁ³¡\n¿¨À­¿Ë\n¿¨¶òË¹ÁªÃË»ìãçÉÌÈË\nĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹\n" 
- g_sellposition[2]="ÊÕ¹ºµØµã£º\nÌìÊ¹Ö®ÔÂÃ³Ò×Õ¾\nÌ¹ÄáË¹Æì½¢´¬ÎëÃ³Ò×Õ¾\nµÛ¹úÖ®ÃÅÆì½¢¼¯½áµØ\nµÛ¹úÇ°Ïß\n°ÍËşÀû°²Õ½½¢·Ø³¡Ã³Ò×Õ¾\n¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØ\nĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹\n" 
- g_sellposition[3]="ÊÕ¹ºµØµã£º\nÏ£¸ñÀ­Ê×ĞÇÃ³Ò×Õ¾\nÄá¸£¶ûº£Ä·Ã³Ò×Õ¾\nÎ¬¸ñ¶û¶«Ïß¾ü·§¿ØÖÆÇø\nEDF¿ØÖÆÇø\n¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØ\nÍßÄÉº£Ä·\n" 
- g_sellposition[4]="ÊÕ¹ºµØµã£º\nÃ»ÓĞµØ·½ÊÕ¹º\n" 
- g_sellposition[5]="ÊÕ¹ºµØµã£º\nµÛ¹ú²É¿óÇøÃ³Ò×Õ¾\nEDF¿ØÖÆÇø\nÄª¶ûµÏ»ù°²´ó¾ıĞÇÇø\n" 
- g_sellposition[6]="ÊÕ¹ºµØµã£º\nÕâ¶«Î÷ÊÇ³¬¿Õ¼äÌøÔ¾ÓÃµÄ£¬ËùÓĞÉÌµê¶¼²»»áÊÕ¹º£¬Çë²»Òª°ÑËüÂôÁË\n" 
- g_sellposition[7]="ÊÕ¹ºµØµã£º\nÌìÊ¹Ö®ÔÂÃ³Ò×Õ¾\nµÛ¹ú²É¿óÇøÃ³Ò×Õ¾\nÏ£¸ñÀ­Ê×ĞÇÃ³Ò×Õ¾\n³¯Ê¥Õß»î¶¯Çø\nÄª¶ûµÏ»ù°²´ó¾ıĞÇÇø\n¿¨¶òË¹ÁªÃË¡ªÀû±´¶û¹²ºÍ¹ú\n" 
- g_sellposition[8]="ÊÕ¹ºµØµã£º\nÌìÊ¹Ö®ÔÂÃ³Ò×Õ¾\nÌ¹ÄáË¹Æì½¢´¬ÎëÃ³Ò×Õ¾\nÏÈ×æÒÅ¼£\nµÛ¹úÇ°Ïß\n¿¨À­¿Ë\n³¯Ê¥Õß»î¶¯Çø\nÒÏ³²½¢¶Ó»î¶¯Çø\nĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹\nÍßÄÉº£Ä·\n" 
- g_sellposition[9]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ®ÃÅÆì½¢´¬ÎëÈº\nÏ£¸ñÀ­Ê×ĞÇÃ³Ò×Õ¾\nºÕ¶ûº£ÀûÄ·Ã³Ò×Õ¾\n³¯Ê¥Õß»î¶¯Çø\nĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹\nÅµÑÇ¿âÉêÁªºÏ¹¤ÒµÔ°\n²ÔĞÇÕ½ÍÅÑ²º½×ø±ê\nÍßÄÉº£Ä·\n" 
- g_sellposition[10]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ³ÃñµØÃ³Ò×Õ¾\nÏ£¸ñÀ­Ê×ĞÇÃ³Ò×Õ¾\nÏ£¸ñÀ­Ê×ĞÇÃ³Ò×Õ¾\n¿¨À­¿Ë\nÌ©ÍßÂ×¹²ºÍ¹ú\n¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØ\nÅµÑÇ¿âÉêÁªºÏ¹¤ÒµÔ°\n" 
- g_sellposition[11]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ®ÃÅÃ³Ò×Õ¾\nÌ©ÍßÂ×¹²ºÍ¹ú\nEDF¿ØÖÆÇø\n×·ÒäÖ®Í¥ĞÇÇø\n²ÔĞÇÕ½ÍÅÑ²º½×ø±ê\n" 
- g_sellposition[12]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ®ÃÅÃ³Ò×Õ¾\nÏ£¸ñÀ­Ê×ĞÇÃ³Ò×Õ¾\n³¯Ê¥Õß»î¶¯Çø\n¿¨¶òË¹ÁªÃË»ìãçÉÌÈË\nÅµÑÇ¿âÉêÁªºÏ¹¤ÒµÔ°\n°¢ÍßËşĞ­»áÌ½Ë÷½¢¶Ó×¤µØ\n²ÔĞÇÕ½ÍÅÑ²º½×ø±ê\n" 
- g_sellposition[13]="ÊÕ¹ºµØµã£º\nµÛ¹úÅ©³¡Ê³Æ·³§\nµÛ¹úÖ³ÃñµØÃ³Ò×Õ¾\nÎ¬¸ñ¶ûÖ³ÃñĞÇÇø\nÄª¶ûµÏ»ù°²´ó¾ıĞÇÇø\nĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹\n¿¨À­¿Ë\n²ÔĞÇÕ½ÍÅÑ²º½×ø±ê\n" 
- g_sellposition[14]="ÊÕ¹ºµØµã£º\nµÛ¹úÅ©³¡Èº\n³¯Ê¥Õß»î¶¯Çø\nÎ¬¸ñ¶û¶«Ïß¾ü·§¿ØÖÆÇø\nÄª¶ûµÏ»ù°²´ó¾ıĞÇÇø\nĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹\n²ÔĞÇÕ½ÍÅÑ²º½×ø±ê\n" 
- g_sellposition[15]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ³ÃñµØÃ³Ò×Õ¾\n³¯Ê¥Õß»î¶¯Çø\nĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹\n²ÔĞÇÕ½ÍÅÑ²º½×ø±ê\n" 
- g_sellposition[16]="ÊÕ¹ºµØµã£º\nµÛ¹ú²É¿óÇøÃ³Ò×Õ¾\n°ÍËşÀû°²Õ½½¢·Ø³¡Ã³Ò×Õ¾\n¿¨¶òË¹ÁªÃË¡ªÀû±´¶û¹²ºÍ¹ú\n×·ÒäÖ®Í¥ĞÇÇø\n" 
- g_sellposition[17]="ÊÕ¹ºµØµã£º\nÏ£¸ñÀ­Ê×ĞÇÃ³Ò×Õ¾\n°ÍËşÀû°²Õ½½¢·Ø³¡Ã³Ò×Õ¾\nµÛ¹úÇ°Ïß\nÎ¬¸ñ¶û¶«Ïß¾ü·§»î¶¯Çø\n" 
- g_sellposition[18]="ÊÕ¹ºµØµã£º\n¸çºÏÄÃÃ³Ò×Õ¾\nÌ©ÍßÂ×¹²ºÍ¹ú\nÎ¬¸ñ¶û¶«Ïß¾ü·§»î¶¯Çø\n×·ÒäÖ®Í¥ĞÇÇø\nÊ³ÓÃÓÍ¶¯Á¦´¬Îë\n" 
- g_sellposition[19]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ³ÃñµØ\n¿¨À­¿Ë\n¿¨¶òË¹ÁªÃË¡ªÀû±´¶û¹²ºÍ¹ú\nĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹\n" 
- g_sellposition[20]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ®ÃÅÆì½¢´¬Îë\nÌ¹ÄáË¹Æì½¢´¬ÎëÃ³Ò×Õ¾\nÄá¸£¶ûº£Ä·Ã³Ò×Õ¾\n¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØ\n" 
- g_sellposition[21]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ®ÃÅÆì½¢´¬Îë\nÄá¸£¶ûº£Ä·Ã³Ò×Õ¾\n¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØ\n" 
- g_sellposition[22]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ³ÃñµØÖ÷Á¦½¢´¬Îë\n°ÍËşÀû°²Õ½½¢·Ø³¡Ã³Ò×Õ¾\n·ÆÑÅÀûµÛ¹ú´¬Îë\n¿¨¶òË¹ÁªÃË¡ªÇ°Ïß\n" 
- g_sellposition[23]="ÊÕ¹ºµØµã£º\nÌ¹ÄáË¹Æì½¢´¬ÎëÃ³Ò×Õ¾\nÌ©ÍßÂ×¹²ºÍ¹ú\n×·ÒäÖ®Í¥ĞÇÇø\nCPSRÓÎ»ê½¢¶Ó×¤µØ\n" 
- g_sellposition[24]="ÊÕ¹ºµØµã£º\nÌ¹ÄáË¹Æì½¢´¬ÎëÃ³Ò×Õ¾\nÄá¸£¶ûº£Ä·Ã³Ò×Õ¾\n¿¨¶òË¹ÁªÃË»ìãçÉÌÈË\nÊ³ÓÃÓÍ¶¯Á¦´¬Îë\n°¢ÍßËşĞ­»áÌ½Ë÷½¢¶Ó×¤µØ\n" 
- g_sellposition[25]="ÊÕ¹ºµØµã£º\nÌìÊ¹Ö®ÔÂÃ³Ò×Õ¾\nµÛ¹úÖ³ÃñµØÖ÷Á¦½¢´¬Îë\nÈûÀÕÄ·Ö÷Á¦½¢´¬ÎëÃ³Ò×Õ¾\nÎ¬¸ñ¶û¶«Ïß¾ü·§»î¶¯Çø\nEDF¿ØÖÆÇø\n¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØ\n" 
- g_sellposition[26]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ³ÃñµØÖ÷Á¦½¢´¬Îë\nÌìÊ¹Ö®ÔÂÃ³Ò×Õ¾\nEDF¿ØÖÆÇø\n¿¨¶òË¹ÁªÃË¡ªÇ°Ïß\n¿ª·¢´úºÅ°¢Ë¹Áá\nCPSRÓÎ»ê½¢¶Ó×¤µØ\n" 
- g_sellposition[27]="ÊÕ¹ºµØµã£º\nÌ¹ÄáË¹Æì½¢´¬ÎëÃ³Ò×Õ¾\nEDF¿ØÖÆÇø\nÒÏ³²½¢¶Ó»î¶¯Çø\n¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØ\nÊ³ÓÃÓÍ¶¯Á¦´¬Îë\n" 
- g_sellposition[28]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ³ÃñµØÖ÷Á¦½¢´¬Îë\nEDF¿ØÖÆÇø\n¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØ\n¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØ\n" 
- g_sellposition[29]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ³ÃñµØÖ÷Á¦½¢´¬Îë\nÈûÀÕÄ·Ö÷Á¦½¢´¬ÎëÃ³Ò×Õ¾\nµÛ¹úÇ°Ïß\nEDF¿ØÖÆÇø\n¿¨¶òË¹ÁªÃË¡ªÇ°Ïß\n¿ª·¢´úºÅ°¢Ë¹Áá\nCPSRÓÎ»ê½¢¶Ó×¤µØ\n" 
- g_sellposition[30]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ®ÃÅÆì½¢¼¯½áµØ\nÄá¸£¶ûº£Ä·Ã³Ò×Õ¾\nº£µÁ»ùµØ\n·ÆÑÅÀûµÛ¹ú´¬ÎëÈº\nEDF¿ØÖÆÇø\nÒÏ³²½¢¶Ó»î¶¯Çø\n¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØ\nÊ³ÓÃÓÍ¶¯Á¦´¬Îë\n¿ª·¢´úºÅ°¢Ë¹Áá\nCPSRÓÎ»ê½¢¶Ó×¤µØ\n" 
- g_sellposition[31]="ÊÕ¹ºµØµã£º\nµÛ¹ú²É¿óÇøÃ³Ò×Õ¾\nÏ£¸ñÀ­Ê×ĞÇÃ³Ò×Õ¾\nÒÏ³²½¢¶Ó»î¶¯Çø\nÄª¶ûµÏ»ù°²´ó¾ıĞÇÇø\n¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØ\n¿¨¶òË¹ÁªÃË»ìãçÉÌÈË\nÍßÄÉº£Ä·\n" 
- g_sellposition[32]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ³ÃñµØÃ³Ò×Õ¾\nÄª¶ûµÏ»ù°²´ó¾ıĞÇÇø\n¿¨¶òË¹ÁªÃË»ìãçÉÌÈË\nÍßÄÉº£Ä·\n" 
- g_sellposition[33]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ³ÃñµØÃ³Ò×Õ¾\n³¯Ê¥Õß»î¶¯Çø\nÄª¶ûµÏ»ù°²´ó¾ıĞÇÇø\n¿ª·¢´úºÅ°¢Ë¹Áá\n" 
- g_sellposition[34]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ®ÃÅÃ³Ò×Õ¾\nµÛ¹úÅ©³¡Èº\n³¯Ê¥Õß»î¶¯Çø\n" 
- g_sellposition[35]="ÊÕ¹ºµØµã£º\nÄá¸£¶ûº£Ä·Ã³Ò×Õ¾\nÄª¶ûµÏ»ù°²´ó¾ıĞÇÇø\n¿¨¶òË¹ÁªÃË»ìãçÉÌÈË\nÍßÄÉº£Ä·\n" 
- g_sellposition[36]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ®ÃÅÃ³Ò×Õ¾\nEDF¿ØÖÆÇø\nÄª¶ûµÏ»ù°²´ó¾ıĞÇÇø\n×·ÒäÖ®Í¥ĞÇÇø\nÍßÄÉº£Ä·\n" 
- g_sellposition[37]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ®ÃÅÃ³Ò×Õ¾\n³¯Ê¥Õß»î¶¯Çø\n×·ÒäÖ®Í¥ĞÇÇø\nÎ´ÖªÃ³Ò×Õ¾\n²ÔĞÇÕ½ÍÅÑ²º½×ø±ê\nÍßÄÉº£Ä·\n" 
- g_sellposition[38]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ®ÃÅÃ³Ò×Õ¾\n·ÆÑÅÀûµÛ¹ú´¬ÎëÈº\n×·ÒäÖ®Í¥ĞÇÇø\n¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØ\n" 
- g_sellposition[39]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ³ÃñµØÃ³Ò×Õ¾\nÏ£¸ñÀ­Ê×ĞÇÃ³Ò×Õ¾\n¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØ\n" 
- g_sellposition[40]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ®ÃÅÃ³Ò×Õ¾\nÄá¸£¶ûº£Ä·Ã³Ò×Õ¾\n×·ÒäÖ®Í¥ĞÇÇø\n¿ª·¢´úºÅ°¢Ë¹Áá\n°¢ÍßËşĞ­»áÌ½Ë÷½¢¶Ó×¤µØ\n" 
- g_sellposition[41]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ®ÃÅÆì½¢´¬Îë\nµÛ¹úÅ©³¡\n" 
- g_sellposition[42]="ÊÕ¹ºµØµã£º\nºÕ¶ûº£ÀûÄ·Ã³Ò×Õ¾\n" 
- g_sellposition[43]="ÊÕ¹ºµØµã£º\nºÕ¶ûº£ÀûÄ·Ã³Ò×Õ¾\n" 
- g_sellposition[44]="ÊÕ¹ºµØµã£ºÎŞ\n" 
- g_sellposition[45]="ÊÕ¹ºµØµã£º\nÏ£¸ñÀ­Ê×ĞÇÃ³Ò×Õ¾\n" 
- g_sellposition[46]="ÊÕ¹ºµØµã£º\nÎ´ÖªÃ³Ò×Õ¾\n" 
- g_sellposition[47]="ÊÕ¹ºµØµã£º\nÎ´ÖªÃ³Ò×Õ¾\n" 
- g_sellposition[48]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ³ÃñµØÃ³Ò×Õ¾\nº£µÁ»ùµØ\nÎ¬¸ñ¶û¶«Ïß¾ü·§¿ØÖÆÇø\n" 
- g_sellposition[49]="ÊÕ¹ºµØµã£º\nÌìÊ¹Ö®ÔÂÃ³Ò×Õ¾\n°ÍËşÀû°²Õ½½¢·Ø³¡Ã³Ò×Õ¾\n·ÆÑÅÀûµÛ¹ú´¬ÎëÈº\nÎ¬¸ñ¶û¶«Ïß¾ü·§»î¶¯Çø\n¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØ\n" 
- g_sellposition[50]="ÊÕ¹ºµØµã£º\nÈûÀÕÄ·Ö÷Á¦½¢´¬ÎëÃ³Ò×Õ¾\nÄá¸£¶ûº£Ä·Ã³Ò×Õ¾\nµÚ58ÌØ»ì½¢¶Ó¼¯½áµØ\n" 
- g_sellposition[51]="ÊÕ¹ºµØµã£º\nÌ¹ÄáË¹Æì½¢´¬ÎëÃ³Ò×Õ¾\n¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØ\nÊ³ÓÃÓÍ¶¯Á¦´¬Îë\n" 
- g_sellposition[52]="ÊÕ¹ºµØµã£º\nÌ¹ÄáË¹Æì½¢´¬ÎëÃ³Ò×Õ¾\nÎ¬¸ñ¶û´¬ÎëÈº\n·ÆÑÅÀûµÛ¹ú´¬ÎëÈº\n¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØ\n" 
- g_sellposition[53]="ÊÕ¹ºµØµã£º\nÌ¹ÄáË¹Æì½¢´¬ÎëÃ³Ò×Õ¾\nÎ¬¸ñ¶û´¬ÎëÈº\n·ÆÑÅÀûµÛ¹ú´¬ÎëÈº\n¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØ\n" 
- g_sellposition[54]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ®ÃÅÃ³Ò×Õ¾\n³¯Ê¥Õß»î¶¯Çø\n" 
- g_sellposition[55]="ÊÕ¹ºµØµã£º\n·ÆÑÅÀûµÛ¹ú´¬ÎëÈº\n" 
- g_sellposition[56]="ÊÕ¹ºµØµã£º\n¿¨¶òË¹ÁªÃË¡ªÀû±´¶û¹²ºÍ¹ú\n³¯Ê¥Õß»î¶¯Çø" 
- g_sellposition[57]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ®ÃÅÃ³Ò×Õ¾\nÏ£¸ñÀ­Ê×ĞÇÃ³Ò×Õ¾\n¿¨À­¿Ë\n³¯Ê¥Õß»î¶¯Çø\n" 
- g_sellposition[58]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ³ÃñµØÃ³Ò×Õ¾\nµÛ¹úÅ©³¡\n¿¨À­¿Ë\n²ÔĞÇÕ½ÍÅÑ²º½×ø±ê\nÍßÄÉº£Ä·\n" 
- g_sellposition[59]="ÊÕ¹ºµØµã£º\n°ÍËşÀû°²Õ½½¢·Ø³¡Ã³Ò×Õ¾\n¿¨¶òË¹ÁªÃË¡ªÀû±´¶û¹²ºÍ¹ú\nÍßÄÉº£Ä·\n" 
- g_sellposition[60]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ³ÃñµØÃ³Ò×Õ¾\nÏ£¸ñÀ­Ê×ĞÇÃ³Ò×Õ¾\n×·ÒäÖ®Í¥ĞÇÇø\n" 
- g_sellposition[61]="ÊÕ¹ºµØµã£º\n°ÍËşÀû°²Õ½½¢·Ø³¡Ã³Ò×Õ¾\n¿¨À­¿Ë\n×·ÒäÖ®Í¥ĞÇÇø\n°¢ÍßËşĞ­»áÌ½Ë÷½¢¶Ó×¤µØ\n" 
- g_sellposition[62]="ÊÕ¹ºµØµã£º\nÏ£¸ñÀ­Ê×ĞÇÃ³Ò×Õ¾\nÄª¶ûµÏ»ù°²´ó¾ıĞÇÇø\n" 
- g_sellposition[63]="ÊÕ¹ºµØµã£º\nº£µÁ»ùµØ\nÎ¬¸ñ¶û¶«Ïß¾ü·§¿ØÖÆÇø\n" 
- g_sellposition[64]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ³ÃñµØÃ³Ò×Õ¾\nµÛ¹úÅ©³¡\n¿¨¶òË¹ÁªÃË¡ªÀû±´¶û¹²ºÍ¹ú\n²ÔĞÇÕ½ÍÅÑ²º½×ø±ê\n" 
- g_sellposition[65]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ®ÃÅÃ³Ò×Õ¾\n¿¨¶òË¹ÓÀÉúÕßÌ½Ë÷Ö®³õ\nÅµÑÇ¿âÉêÁªºÏ¹¤ÒµÔ°\n" 
- g_sellposition[66]="ÊÕ¹ºµØµã£º\nÏ£¸ñÀ­Ê×ĞÇÃ³Ò×Õ¾\nº£µÁ»ùµØ\nµÚ58ÌØ»ì½¢¶Ó¼¯½áµØ\n" 
- g_sellposition[67]="ÊÕ¹ºµØµã£º\nÏ£¸ñÀ­Ê×ĞÇÃ³Ò×Õ¾\nÄá¸£¶ûº£Ä·Ã³Ò×Õ¾\nÄª¶ûµÏ»ù°²´ó¾ıĞÇÇø\n" 
- g_sellposition[68]="ÊÕ¹ºµØµã£º\nÄá¸£¶ûº£Ä·Ã³Ò×Õ¾\n" 
- g_sellposition[69]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ³ÃñµØÃ³Ò×Õ¾\n¿¨À­¿Ë\nĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹\nÍßÄÉº£Ä·\n"  
- g_sellposition[70]="ÊÕ¹ºµØµã£º\nÌ¹ÄáË¹Æì½¢´¬ÎëÃ³Ò×Õ¾\n°ÍËşÀû°²Õ½½¢·Ø³¡Ã³Ò×Õ¾\n·ÆÑÅÀûµÛ¹ú´¬ÎëÈº\nÅµÑÇ¿âÉêÁªºÏ¹¤ÒµÔ°\n" 
- g_sellposition[71]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ³ÃñµØÃ³Ò×Õ¾\n°ÍËşÀû°²Õ½½¢·Ø³¡Ã³Ò×Õ¾\n¿¨¶òË¹ÓÀÉúÕßÌ½Ë÷Ö®³õ\nÅµÑÇ¿âÉêÁªºÏ¹¤ÒµÔ°\n"   
- g_sellposition[72]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ®ÃÅÃ³Ò×Õ¾\nÏ£¸ñÀ­Ê×ĞÇÃ³Ò×Õ¾\n°ÍËşÀû°²Õ½½¢·Ø³¡Ã³Ò×Õ¾\nÄª¶ûµÏ»ù°²´ó¾ıĞÇÇø\n"   
- g_sellposition[73]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ³ÃñµØÃ³Ò×Õ¾\nÏ£¸ñÀ­Ê×ĞÇÃ³Ò×Õ¾\n¿¨¶òË¹ÁªÃË»ìãçÉÌÈË\nĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹\nÅµÑÇ¿âÉêÁªºÏ¹¤ÒµÔ°\n"   
- g_sellposition[74]="Éú²ú200ĞèÒª£º\nÄÜÁ¿¿é1000\nÖ³ÃñµØ¹¤ÈË500" 
- g_sellposition[78]="Éú²úĞèÒª£º\n" 
- g_sellposition[79]="Éú²úĞèÒª£º\n"  
- g_sellposition[80]="Éú²úĞèÒª£º\n" 
- g_sellposition[81]="Éú²ú200ĞèÒª£º\nÄÜÁ¿¿é1000\nÖ³ÃñµØ¹¤ÈË500\n" 
- g_sellposition[82]="Éú²ú2000ĞèÒª£º\nÄÜÁ¿¿é50\nµ­Ë®´¢±¸250\nÖ³ÃñµØ¹¤ÈË50\n" 
- g_sellposition[83]="Éú²ú1000ĞèÒª£º\nÖ³ÃñµØ¹¤ÈË100\n¹ÈÎï´¢±¸1000\nÄÜÁ¿¿é500\nµ­Ë®´¢±¸500\n¹ÈÎï´¢±¸1000\nÖ³ÃñµØ¹¤ÈË100\n" 
- g_sellposition[84]="Éú²ú2000ĞèÒª£º\nÄÜÁ¿¿é400\n±ù¿ó´¢±¸1600\n¹ÈÎï´¢±¸1000\nÖ³ÃñµØ¹¤ÈË40\n" 
- g_sellposition[85]="Éú²ú2000ĞèÒª£º\nÄÜÁ¿¿é800\nÈâÖÆÆ·´¢±¸1000\n¹ÈÎï´¢±¸2000\nÄÜÁ¿¿é800\nµ­Ë®´¢±¸200\n¹ÈÎï´¢±¸1000\nÈâÖÆÆ·´¢±¸1000\nÖ³ÃñµØ¹¤ÈË40\n" 
- g_sellposition[86]="Éú²ú500ĞèÒª£º\nÖ³ÃñµØ¹¤ÈË10\n½ğÊô¿óÊ¯´¢±¸100\n" 
- g_sellposition[87]="Éú²ú10000ĞèÒª£º\nÖ³ÃñµØ¹¤ÈË50\nµ­Ë®´¢±¸1000\n" 
- g_sellposition[88]="Éú²ú1000ĞèÒª£º\nÖ³ÃñµØ¹¤ÈË50\nÄÜÁ¿¿é300\nºÏ½ğ´¢±¸200\nÄÜÁ¿¿é400\n" 
- g_sellposition[89]="Éú²ú1000ĞèÒª£º\nÖ³ÃñµØ¹¤ÈË10\nÄÜÁ¿¿é20\nºÏ½ğ´¢±¸50\n" 
- g_sellposition[90]="Éú²ú2000ĞèÒª£º\nÖ³ÃñµØ¹¤ÈË50\nÄÜÁ¿¿é2000\n" 
- g_sellposition[91]="»Ö¸´200ĞèÒª£º\nÖ³ÃñµØ¹¤ÈË100\nÊ³Æ·´¢±¸200\nÉú»îÓÃÆ·´¢±¸200\nµ¯Ò©´¢±¸1000\nÄÜÁ¿¿é800\n" 
- g_sellposition[92]="»Ö¸´2000ĞèÒª£º\nÊ³Æ·´¢±¸2000\nÉú»îÓÃÆ·´¢±¸2000\nµ­Ë®´¢±¸2000\nÄÜÁ¿¿é2000\n" 
- g_sellposition[93]="Éú²úĞèÒª£º\n" 
- g_sellposition[94]="Éú²úĞèÒª£º\n" 
- g_sellposition[95]="ÊÕ¹ºµØµã£º\nÏ£¸ñÀ­Ê×ĞÇÃ³Ò×Õ¾\nµÛ¹úÖ³ÃñµØÃ³Ò×Õ¾\nÄá¸£¶ûº£Ä·Ã³Ò×Õ¾\n" 
- g_sellposition[96]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ®ÃÅÃ³Ò×Õ¾\nÄá¸£¶ûº£Ä·Ã³Ò×Õ¾\n·ÆÑÅÀûµÛ¹ú´¬ÎëÈº\nEDF¿ØÖÆÇø\nĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹\n" 
- g_sellposition[97]="ÊÕ¹ºµØµã£º\n°ÍËşÀû°²Õ½½¢·Ø³¡Ã³Ò×Õ¾\n" 
- g_sellposition[98]="ÊÕ¹ºµØµã£º\n°ÍËşÀû°²Õ½½¢·Ø³¡Ã³Ò×Õ¾\nÎ¬¸ñ¶û¶«Ïß¾ü·§»î¶¯Çø\n" 
- g_sellposition[99]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ®ÃÅÃ³Ò×Õ¾\nÏ£¸ñÀ­Ê×ĞÇÃ³Ò×Õ¾\n¿¨¶òË¹ÁªÃË¡ªÀû±´¶û¹²ºÍ¹ú\n¿¨¶òË¹ÓÀÉúÕßÌ½Ë÷Ö®³õ\nÍßÄÉº£Ä·\n" 
- g_sellposition[100]="Éú²ú1¸öĞèÒª£º\nÖ³ÃñµØ¹¤ÈË1000\nÄÜÁ¿¿é1000\n´óĞÍÎäÆ÷Åä¼ş10\nµç×ÓÔª¼ş´¢±¸1000\nºÏ½ğ´¢±¸100\n" 
- g_sellposition[101]="Éú²ú5ĞèÒª£º\nÖ³ÃñµØ¹¤ÈË200\nÄÜÁ¿¿é20000\nÈâÖÆÆ·´¢±¸100\nµç×ÓÔª¼ş´¢±¸100\nºÏ½ğ´¢±¸10\n" 
- g_sellposition[102]="Éú²ú10ĞèÒª£º\nÖ³ÃñµØ¹¤ÈË100\nÄÜÁ¿¿é1000\nµç×ÓÔª¼ş´¢±¸200\nºÏ½ğ´¢±¸500\n" 
- g_sellposition[103]="Éú²ú1000ĞèÒª£º\nÖ³ÃñµØ¹¤ÈË100\nÄÜÁ¿¿é1000\n¹ÈÎï´¢±¸400\nºÏ½ğ´¢±¸500\n" 
- g_sellposition[104]="Éú²ú10ĞèÒª£º\nÖ³ÃñµØ¹¤ÈË50\nÄÜÁ¿¿é2000\nµç×ÓÔª¼ş´¢±¸200\nºÏ½ğ´¢±¸10\n" 
- g_sellposition[133]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ®ÃÅÃ³Ò×Õ¾\nÄá¸£¶ûº£Ä·Ã³Ò×Õ¾\n·ÆÑÅÀûµÛ¹ú´¬ÎëÈº\n¿¨¶òË¹ÓÀÉúÕßÌ½Ë÷Ö®³õ\nĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹\nÄª¶ûµÏ»ù°²´ó¾ıĞÇÇø\nCPSRÓÎ»ê½¢¶Ó×¤µØ\n" 
- g_sellposition[161]="ÊÕ¹ºµØµã£º\n°ÍËşÀû°²Õ½½¢·Ø³¡Ã³Ò×Õ¾\nº£µÁ»ùµØ\nÎ¬¸ñ¶û¶«Ïß¾ü·§¿ØÖÆÇø\n¿¨¶òË¹ÓÀÉúÕßÌ½Ë÷Ö®³õ\nĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹\n" 
- g_sellposition[162]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ³ÃñµØÃ³Ò×Õ¾\nÏ£¸ñÀ­Ê×ĞÇÃ³Ò×Õ¾\nÄá¸£¶ûº£Ä·Ã³Ò×Õ¾\nÌ©ÍßÂ×¹²ºÍ¹ú\n¿¨¶òË¹ÁªÃË¡ªÀû±´¶û¹²ºÍ¹ú\n¿¨¶òË¹ÁªÃË»ìãçÉÌÈË\n" 
- g_sellposition[163]="ÊÕ¹ºµØµã£º\nÏÈ×æÒÅ¼£\n" 
- g_sellposition[178]="ÊÕ¹ºµØµã£º\nÌ¹ÄáË¹Æì½¢´¬ÎëÃ³Ò×Õ¾\nÄá¸£¶ûº£Ä·Ã³Ò×Õ¾\n·ÆÑÅÀûµÛ¹ú´¬ÎëÈº\nÊ³ÓÃÓÍ¶¯Á¦´¬Îë\n" 
- g_sellposition[250]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ®ÃÅÃ³Ò×Õ¾\nÈûÀÕÄ·Ö÷Á¦½¢´¬ÎëÃ³Ò×Õ¾\nÄá¸£¶ûº£Ä·Ã³Ò×Õ¾\n¿¨¶òË¹ÁªÃË»ìãçÉÌÈË\n" 
- g_sellposition[251]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ³ÃñµØÃ³Ò×Õ¾\nÏ£¸ñÀ­Ê×ĞÇÃ³Ò×Õ¾\°ÍËşÀû°²Õ½½¢·Ø³¡Ã³Ò×Õ¾\n¿¨¶òË¹ÁªÃË¡ªÀû±´¶û¹²ºÍ¹ú\nĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹\n" 
- g_sellposition[252]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ®ÃÅÃ³Ò×Õ¾\nºÕ¶ûº£ÀûÄ·Ã³Ò×Õ¾\nÌ¹ÄáË¹Æì½¢´¬ÎëÃ³Ò×Õ¾\n¿¨À­¿Ë\nµÚ58ÌØ»ì½¢¶Ó¼¯½áµØ\n" 
- g_sellposition[253]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ³ÃñµØÃ³Ò×Õ¾\n°ÍËşÀû°²Õ½½¢·Ø³¡Ã³Ò×Õ¾\nÒÏ³²½¢¶Ó»î¶¯Çø\nÄª¶ûµÏ»ù°²´ó¾ıĞÇÇø\n×·ÒäÖ®Í¥ĞÇÇø\nCPSRÓÎ»ê½¢¶Ó×¤µØ\n" 
- g_sellposition[254]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ³ÃñµØÃ³Ò×Õ¾\nÏ£¸ñÀ­Ê×ĞÇÃ³Ò×Õ¾\nÏ£¸ñÀ­Ê×ĞÇÃ³Ò×Õ¾\n°ÍËşÀû°²Õ½½¢·Ø³¡Ã³Ò×Õ¾\nÎ¬¸ñ¶û¶«Ïß¾ü·§»î¶¯Çø\nÊ³ÓÃÓÍ¶¯Á¦´¬Îë\n" 
- g_sellposition[255]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ®ÃÅÃ³Ò×Õ¾\nÌ¹ÄáË¹Æì½¢´¬ÎëÃ³Ò×Õ¾\nÄá¸£¶ûº£Ä·Ã³Ò×Õ¾\nÄª¶ûµÏ»ù°²´ó¾ıĞÇÇø\nĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹\n" 
- g_sellposition[256]="ÊÕ¹ºµØµã£º\nµÛ¹ú²É¿óÇøÃ³Ò×Õ¾\nºÕ¶ûº£ÀûÄ·Ã³Ò×Õ¾\nº£µÁ»ùµØ\nÎ¬¸ñ¶û¶«Ïß¾ü·§¿ØÖÆÇø\n" 
- g_sellposition[257]="ÊÕ¹ºµØµã£º\nµÛ¹úÖ³ÃñµØÃ³Ò×Õ¾\nÏ£¸ñÀ­Ê×ĞÇÃ³Ò×Õ¾\nÄá¸£¶ûº£Ä·Ã³Ò×Õ¾\nÌ©ÍßÂ×¹²ºÍ¹ú\n¿¨¶òË¹ÁªÃË»ìãçÉÌÈË\nĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹\n" 
- 
+ g_sellposition[1]="Buys:\n Empire Gate Fuel Station \n Empire Colony Space Farm \n Empire Colony Space Ranch \n Kharak \n Caius Alliance Chaos Trader \n Jumpgate Metropolis Glipus \n" 
+ g_sellposition[2]="Buys:\n Angel Moon Trading Post\n Tanis Flagship Dockyard Trading Post\n Empire Gate Flagship Staging Ground\n Empire Front\n Battalion Battleship Graveyard Trading Post\n Caius Alliance - United Berth\n Jumpgate Metropolis Glipus\n" 
+ g_sellposition[3]="Buys:\n Hiigara Prime Trading Post\n Niflheim Trading Post\n Vaygr Eastern Front Warlord Control Zone\n EDF Control Zone\n Caius Alliance-United Berth\n" 
+ g_sellposition[4]="Buys:\n No place to acquire\n" 
+ g_sellposition[5]="Buys:\n Imperial Mining District Trading Post \n EDF-controlled area \n Mordechian Maharaja Star District \n" 
+ g_sellposition[6]="This item is for hyperspace jumping, not all stores will stock it, please don't sell it.\n" 
+ g_sellposition[7]="Buys:\n Angel Moon Trading Post\n Imperial Mining District Trading Post\n Hiigara Prime Trading Post\n Pilgrim Activity Zone\n Mordiggian Maharaja Star Zone\n Caius Alliance-Libel Republic\n" 
+ g_sellposition[8]="Buys:\n Angel Moon Trading Post\n Tanis Flagship Dockyard Trading Post\n Relics of the Ancestors\n Imperial Frontier\n Kharak\n Pilgrim Activity Zone\n Ant Nest Fleet Activity Zone\n Jumpgate Metropolis Glipus\n" 
+ g_sellposition[9]="Buys:\n Empire Gate Flagship Dock Complex\n Hiigara Prime Trading Post\n Helheim Trading Post\n Pilgrim Activity Zone\n Jumpgate Metropolis Glipus\n" 
+ g_sellposition[10]="Buys:\n Imperial Colony Trading Post\n Hiigara Prime Trading Post\n Hiigara Prime Trading Post\n Kharak\n Tyvalanian Republic\n Caius Union - United Berth\n" 
+ g_sellposition[11]="Buys:\n Empire Gate Trading Post\n  Taidan Republic\nEDF Control Zone\n Court of Memories Star Area\n" 
+ g_sellposition[12]="Buys:\n Empire's Gate Trading Post \n Hiigara Prime Trading Post \n Pilgrim Activity Zone \n Chaos Traders of the Caius Alliance \n" 
+ g_sellposition[13]="Buys:\n Imperial Farm Food Factory\n Imperial Colony Trading Post\n Vaygr Colonial Star District\n Mordiggian Maharaja Star District\n Jumpgate Metropolis Glipus\n Kharak\n" 
+ g_sellposition[14]="Buys:\n Imperial Farm Cluster\n Pilgrim Activity Zone\n Vaygr Eastern Warlord Control Zone\n Mordiggian Maharaja Sector\n Jumpgate Metropolis Glipus\n" 
+ g_sellposition[15]="Buys:\n Imperial Colony Trading Post \n Pilgrim Activity Zone \n Jumpgate Metropolis Glipus \n" 
+ g_sellposition[16]="Buys:\n Imperial Mining District Trading Post \n Batalian Battleship Graveyard Trading Post \n Kaas League-Libel Republic \n Court of Memories Star District \n" 
+ g_sellposition[17]="Buys:\n Hiigaran First Star Trading Station\n Batalian Battleship Cemetery Trading Station\n Empire Frontline\n Vaygr Eastern Front Warlord Activity Area\n" 
+ g_sellposition[18]="Buys:\n Gohanna Trading Post\n Tevarren Republic\n Vaygr's Eastern Front Warlord Activity Zone\n Court of Remembrance Star Area\n" 
+ g_sellposition[19]="Buys:\n Imperial Colony\n Kharak\n Kaas Alliance-Libel Republic\n Jumpgate Metropolis Glipus\n" 
+ g_sellposition[20]="Buys:\n Imperial Gate Flagship Dockyard\n Tanis Flagship Dockyard Trading Post\n Niflheim Trading Post\n Caius Union-Union Berth\n" 
+ g_sellposition[21]="Buys:\n Empire's Gate Flagship Dock \n Niflheim Trading Post \n Caius Union - United Berth \n" 
+ g_sellposition[22]="Buys:\n Imperial Colony Mainship Dockyard\n Batalian Battleship Graveyard Trading Post\n Fai'ri Imperial Dockyard\n Caius Alliance - Frontline\n" 
+ g_sellposition[23]="Buys:\n Tanis Flagship Dockyard Trading Post \n  Taidan Republic \n Court of Remembrance Star Area \n" 
+ g_sellposition[24]="Buys:\n Tanis Flagship Dockyard Trading Post \n Niflheim Trading Post \n Chaos Merchants of the Caius Alliance \n" 
+ g_sellposition[25]="Buys:\n Angel Moon Trading Post\n Imperial Colony Mainship Dockyard\n Sarum Mainship Dockyard Trading Post\n Vaygr East Warlord Activity Zone\n EDF Controlled Zone\n Caius Alliance - United Berth\n" 
+ g_sellposition[26]="Buys:\n Imperial Colony Mainship Dockyard\n Angel Moon Trading Post\nEDF Control Zone\n Caius Union-Front \n" 
+ g_sellposition[27]="Buys:\n Tanis Flagship Dockyard Trading Post\n Fai'ri Empire Dockyard Complex\nEDF Control Zone\n Ant Nest Fleet Activity Zone\n Caius Alliance-United Berth\n" 
+ g_sellposition[28]="Buys:\n Imperial Colony Mainship Dockyard\nEDF Control Area\nCaussian Alliance-Joint Berth\nCaussian Alliance-Joint Berth\n" 
+ g_sellposition[29]="Buys:\n Imperial Colony Battleship Dock \n Sarum Battleship Dock Trading Post \n Imperial Front \n EDF Control \n Caius Alliance - Front \n" 
+ g_sellposition[30]="Buys:\n Empire Gate Flagship Staging Area\n Niflheim Trading Post\n Pirate Base\n Fai'ri Empire Dockyard Complex\nEDF Control Area\n Ant Nest Fleet Activity Area\n Caius Alliance - Joint Berth\n" 
+ g_sellposition[31]="Buys:\n Imperial Mining District Trading Post\n Hiigara Prime Trading Post\n Ant Nest Fleet Activity Area\n Mordecian Maharaja Star Area\n Caius Alliance - United Berth\n Caius Alliance Chaos Trader\n" 
+ g_sellposition[32]="Buys:\n Imperial Colony Trading Post \n Mordiggian Maharaja Sector \n Caius Alliance Chaos Trader \n" 
+ g_sellposition[33]="Buys:\n Imperial Colony Trading Post \n Pilgrim Activity Zone \n Mordiggian Archon Sector \n" 
+ g_sellposition[34]="Buys:\n Imperial Gate Trading Post \n Imperial Farm Cluster \n Pilgrim Activity Zone \n" 
+ g_sellposition[35]="Buys:\n Niflheim Trading Post \n Mordiggian Archon Star Sector \n Caius Alliance Chaos Merchants \n" 
+ g_sellposition[36]="Buys:\n Empire Gate Trading Post \n EDF Control Zone \n Mordiggian Archon Star Zone \n Court of Memories Star Zone \n" 
+ g_sellposition[37]="Buys:\n Empire's Gate Trading Post \n Pilgrim's Activity Zone \n Court of Remembrance Star Area \n Unknown Trading Post \n" 
+ g_sellposition[38]="Buys:\n Empire's Gate Trading Post\n Fai'ri Empire Dockyard Complex\n Court of Remembrance Star Area\n Caius Alliance-United Berth\n" 
+ g_sellposition[39]="Buys:\n Imperial Colony Trading Post\n Hiigara Prime Trading Post\n Caius Union - United Berth\n" 
+ g_sellposition[40]="Buys:\n Imperial Gate Trading Post \n Niflheim Trading Post \n Court of Remembrance Star Area \n" 
+ g_sellposition[41]="Buys:\n Empire's Gate Flagship Dock \n Empire's Farm \n" 
+ g_sellposition[42]="Buys:\n Helheim Trading Post\n" 
+ g_sellposition[43]="Buys:\n Helheim Trading Post \n" 
+ g_sellposition[44]="Buys:\n Helheim Trading Post \n" 
+ g_sellposition[45]="Buys:\n Hiigara Prime Star Trading Post \n" 
+ g_sellposition[46]="Buys:\n unknown trading post \n" 
+ g_sellposition[47]="Buys:\n unknown trading post \n" 
+ g_sellposition[48]="Buys:\n Imperial Colony Trading Post \n Pirate Base \n Warlord-controlled area on Vaygr's Eastern Front \n" 
+ g_sellposition[49]="Buys:\n Angel Moon Trading Post\n Batalian Battleship Graveyard Trading Post\n Fai'ri Empire Dockyard Complex\n Vaygr Eastern Front Warlord Activity Zone\n Caius Alliance-United Berth\n" 
+ g_sellposition[50]="Buys:\n Sarum Mainship Dockyard Trading Post\n Niflheim Trading Post\n 58th Task Force Staging Area\n" 
+ g_sellposition[51]="Buys:\n Tanis Flagship Dockyard Trading Post \n Caius Alliance - Joint Berth \n" 
+ g_sellposition[52]="Buys:\n Tanis Flagship Dockyard Trading Post\n Vaygr Dockyard Complex\n Fai'ri Empire Dockyard Complex\n Caius Alliance - United Berth\n" 
+ g_sellposition[53]="Buys:\n Tanis Flagship Dockyard Trading Post\n Vaygr Dockyard Complex\n Fai'ri Empire Dockyard Complex\n Caius Alliance - United Berth\n" 
+ g_sellposition[54]="Buys:\n Empire Gate Trading Post \n Pilgrim Activity Zone \n" 
+ g_sellposition[55]="Buys:\n Fai'ri Empire Dockyard Complex\n" 
+ g_sellposition[56]="Buys:\n Kaas Union - Libel Republic \n Pilgrim Activity Zone" 
+ g_sellposition[57]="Buys:\n Imperial Gate Trading Post \n Hiigara Prime Trading Post \n Kharak \n Pilgrim Activity Zone \n" 
+ g_sellposition[58]="Buys:\n Imperial Colony Trading Post\n Imperial Farm\n Kharak\n" 
+ g_sellposition[59]="Buys:\n Battalion Battleship Graveyard Trading Post \n Kaas Union - Libel Republic \n" 
+ g_sellposition[60]="Buys:\n Imperial Colony Trading Post \n Hiigara Prime Trading Post \n Court of Remembrance Star Area \n" 
+ g_sellposition[61]="Buys:\n Battalion Battleship Graveyard Trading Post \n Kharak \n Court of Remembrance Sector \n" 
+ g_sellposition[62]="Buys:\n Hiigara Prime Trading Post \n Mordiggian Archon Star Area \n" 
+ g_sellposition[63]="Buys:\n Pirate Base\n Vaygr's Eastern Warlord Control Zone\n" 
+ g_sellposition[64]="Buys:\n Imperial Colony Trading Post \n Imperial Farm \n Kaas Union - Libel Republic \n" 
+ g_sellposition[65]="Buys:\n Empire Gate Trading Post\n Caius Aeon Quest Beginning\n" 
+ g_sellposition[66]="Buys:\n Hiigara Prime Trading Post\n Pirate Base\n 58th Task Force Staging Area\n" 
+ g_sellposition[67]="Buys:\n Hiigara Prime Trading Post \n Niflheim Trading Post \n Mordiggian Maharaja Sector \n" 
+ g_sellposition[68]="Buys:\n Niflheim Trading Post\n" 
+ g_sellposition[69]="Buys:\n Imperial Colony Trading Post \n Kharak \n Jumpgate Metropolis Glipus \n"  
+ g_sellposition[70]="Buys:\n Tanis Flagship Dockyard Trading Post\n Batalian Battleship Graveyard Trading Post\n Fai'ri Imperial Dockyard Complex\n" 
+ g_sellposition[71]="Buys:\n Imperial Colony Trading Post\n Batalian Warship Graveyard Trading Post\n Caius Aeon Quest Beginning\n"   
+ g_sellposition[72]="Buys:\n Imperial Gate Trading Post\n Hiigara Prime Trading Post\n Battalion Battleship Graveyard Trading Post\n Mordiggian Archon Star Sector\n"   
+ g_sellposition[73]="Buys:\n Hiigara Prime Trading Post\n Caius Alliance Chaos Trader\n Jumpgate Metropolis Glipus\n"   
+ g_sellposition[74]="Production of 200 requires: \n energy blocks 1000\n colony workers 500" 
+ g_sellposition[78]="Production needs:\n" 
+ g_sellposition[79]="Production needs:\n"  
+ g_sellposition[80]="Production needs:\n" 
+ g_sellposition[81]="Production 200 needs:\n energy blocks 1000\n colony workers 500\n" 
+ g_sellposition[82]="Production of 2000 requires:\n energy blocks 50\n fresh water reserves 250\n colony workers 50\n" 
+ g_sellposition[83]="Production of 1000 requires:\n colony workers 100\n grain reserves 1000\n energy blocks 500\n fresh water reserves 500\n grain reserves 1000\n colony workers 100\n" 
+ g_sellposition[84]="Production 2000 requires:\n energy blocks 400\n ice reserves 1600\n grain reserves 1000\n colony workers 40\n" 
+ g_sellposition[85]="Production 2000 requires:\n energy block 800\n meat product reserve 1000\n grain reserve 2000\n energy block 800\n fresh water reserve 200\n grain reserve 1000\n meat product reserve 1000\n colony workers 40\n" 
+ g_sellposition[86]="Production of 500 requires:\n colony workers 10\n metal ore reserves 100\n" 
+ g_sellposition[87]="Production of 10000 requires:\n colony workers 50\n fresh water reserves 1000\n" 
+ g_sellposition[88]="Production of 1000 requires:\n colony workers 50\n energy blocks 300\n alloy reserves 200\n energy blocks 400\n" 
+ g_sellposition[89]="Production of 1000 requires:\n colony workers 10\n energy blocks 20\n alloy reserves 50\n" 
+ g_sellposition[90]="Production of 2000 requires:\n colony workers 50\n energy blocks 2000\n" 
+ g_sellposition[91]="Recovery 200 requires:\n colony workers 100\n food stockpile 200\n subsistence stockpile 200\n ammo stockpile 1000\n energy blocks 800\n" 
+ g_sellposition[92]="Restoring 2000 requires:\n food stockpile 2000\n subsistence stockpile 2000\n fresh water stockpile 2000\n energy blocks 2000\n" 
+ g_sellposition[93]="Production needs:\n" 
+ g_sellposition[94]="Production needs:\n" 
+ g_sellposition[95]="Buys:\n Hiigara Prime Trading Post \n Imperial Colony Trading Post \n Niflheim Trading Post \n" 
+ g_sellposition[96]="Buys:\n Empire Gate Trading Post \n Niflheim Trading Post \n Fai'ri Empire Dockyard Complex \n EDF Control Area \n Jumpgate Metropolis Glipus \n" 
+ g_sellposition[97]="Buys:\nBatalian Battleship Graveyard Trading Post\n" 
+ g_sellposition[98]="Buys:\n Batalian Battleship Graveyard Trading Post\n Vaygr East Warlord Activity Zone\n" 
+ g_sellposition[99]="Buys:\n Empire Gate Trading Post\n Hiigara Prime Trading Post\n Kaas Alliance-Libel Republic\n Kaas Aeon Quest Beginning\n" 
+ g_sellposition[100]="Production of 1 requires:\n colony workers 1000\n energy blocks 1000\n large weapon parts 10\n electronic component reserves 1000\n alloy reserves 100\n" 
+ g_sellposition[101]="Production 5 requires:\n colony workers 200\n energy blocks 20000\n meat product stockpile 100\n electronic component stockpile 100\n alloy stockpile 10\n" 
+ g_sellposition[102]="Production 10 requires:\n colony workers 100\n energy blocks 1000\n electronic components stockpile 200\n alloy stockpile 500\n" 
+ g_sellposition[103]="Production 1000 requires:\n colony workers 100\n energy blocks 1000\n grain reserves 400\n alloy reserves 500\n" 
+ g_sellposition[104]="Production 10 requires:\n colony workers 50\n energy blocks 2000\n electronics reserve 200\n alloy reserve 10\n" 
+ g_sellposition[133]="Buys:\n Empire Gate Trading Post\n Niflheim Trading Post\n Fai'ri Empire Dockyard Complex\n Caius Aeon Explorer Beginning\n Jumpgate Metropolis Glipus\n Mordiggian Maharaja Star Area\n" 
+ g_sellposition[161]="Buys:\n Batalian Battleship Graveyard Trading Post\n Pirate Base\n Vaygr's Eastern Front Warlord Control Zone\n Caius Alliance-Libel Republic\n Caius Alliance Chaos Traders\n" 
+ g_sellposition[162]="Buys:\n Imperial Colony Trading Post\n Hiigara Prime Trading Post\n Niflheim Trading Post\n Tyvalen Republic\n Caius Alliance-Libel Republic\n Caius Alliance Chaos Trader\n" 
+ g_sellposition[163]="Buys:\n Ancestral Ruins\n" 
+ g_sellposition[178]="Buys:\n Stargate City Grips\n Cairus Alliance - United Berth\n Imperial Frontline\n Niflheim Trading Post\n Batalian Battleship Graveyard Trading Station\n Tannis Flagship Dockyard Trading Post\n Empire Colony Capital Ship Dock\n" 
+ g_sellposition[250]="æ”¶è´­åœ°ç‚¹ï¼š\nå¸å›½ä¹‹é—¨è´¸æ˜“ç«™\nå¡å‹’å§†ä¸»åŠ›èˆ°èˆ¹åè´¸æ˜“ç«™\nå°¼ç¦å°”æµ·å§†è´¸æ˜“ç«™\nå¡å„æ–¯è”ç›Ÿæ··æ²Œå•†äºº\n" 
+ g_sellposition[251]="æ”¶è´­åœ°ç‚¹ï¼š\nå¸å›½æ®–æ°‘åœ°è´¸æ˜“ç«™\nå¸Œæ ¼æ‹‰é¦–æ˜Ÿè´¸æ˜“ç«™\å·´å¡”åˆ©å®‰æˆ˜èˆ°åŸåœºè´¸æ˜“ç«™\nå¡å„æ–¯è”ç›Ÿâ€”åˆ©è´å°”å…±å’Œå›½\næ˜Ÿé—¨éƒ½å¸‚æ ¼åˆ©æ™®æ–¯\n" 
+ g_sellposition[252]="æ”¶è´­åœ°ç‚¹ï¼š\nå¸å›½ä¹‹é—¨è´¸æ˜“ç«™\nèµ«å°”æµ·åˆ©å§†è´¸æ˜“ç«™\nå¦å°¼æ–¯æ——èˆ°èˆ¹åè´¸æ˜“ç«™\nå¡æ‹‰å…‹\nç¬¬58ç‰¹æ··èˆ°é˜Ÿé›†ç»“åœ°\n" 
+ g_sellposition[253]="æ”¶è´­åœ°ç‚¹ï¼š\nå¸å›½æ®–æ°‘åœ°è´¸æ˜“ç«™\nå·´å¡”åˆ©å®‰æˆ˜èˆ°åŸåœºè´¸æ˜“ç«™\nèšå·¢èˆ°é˜Ÿæ´»åŠ¨åŒº\nè«å°”è¿ªåŸºå®‰å¤§å›æ˜ŸåŒº\nè¿½å¿†ä¹‹åº­æ˜ŸåŒº\nCPSRæ¸¸é­‚èˆ°é˜Ÿé©»åœ°\n" 
+ g_sellposition[254]="æ”¶è´­åœ°ç‚¹ï¼š\nå¸å›½æ®–æ°‘åœ°è´¸æ˜“ç«™\nå¸Œæ ¼æ‹‰é¦–æ˜Ÿè´¸æ˜“ç«™\nå¸Œæ ¼æ‹‰é¦–æ˜Ÿè´¸æ˜“ç«™\nå·´å¡”åˆ©å®‰æˆ˜èˆ°åŸåœºè´¸æ˜“ç«™\nç»´æ ¼å°”ä¸œçº¿å†›é˜€æ´»åŠ¨åŒº\né£Ÿç”¨æ²¹åŠ¨åŠ›èˆ¹å\n" 
+ g_sellposition[255]="æ”¶è´­åœ°ç‚¹ï¼š\nå¸å›½ä¹‹é—¨è´¸æ˜“ç«™\nå¦å°¼æ–¯æ——èˆ°èˆ¹åè´¸æ˜“ç«™\nå°¼ç¦å°”æµ·å§†è´¸æ˜“ç«™\nè«å°”è¿ªåŸºå®‰å¤§å›æ˜ŸåŒº\næ˜Ÿé—¨éƒ½å¸‚æ ¼åˆ©æ™®æ–¯\n" 
+ g_sellposition[256]="æ”¶è´­åœ°ç‚¹ï¼š\nå¸å›½é‡‡çŸ¿åŒºè´¸æ˜“ç«™\nèµ«å°”æµ·åˆ©å§†è´¸æ˜“ç«™\næµ·ç›—åŸºåœ°\nç»´æ ¼å°”ä¸œçº¿å†›é˜€æ§åˆ¶åŒº\n" 
+ g_sellposition[257]="æ”¶è´­åœ°ç‚¹ï¼š\nå¸å›½æ®–æ°‘åœ°è´¸æ˜“ç«™\nå¸Œæ ¼æ‹‰é¦–æ˜Ÿè´¸æ˜“ç«™\nå°¼ç¦å°”æµ·å§†è´¸æ˜“ç«™\næ³°ç“¦ä¼¦å…±å’Œå›½\nå¡å„æ–¯è”ç›Ÿæ··æ²Œå•†äºº\næ˜Ÿé—¨éƒ½å¸‚æ ¼åˆ©æ™®æ–¯\n" 
    
  Locale_ship = {}
 
 -------------------------------------------------------------------------------
-Locale_ship[0001] = "Ğ¡ĞÍµÛ¹úÉÌ´¬"
-Locale_ship[0002] = "FY1000¶Ö¼¶Ğ¡ĞÍ»õ´¬£¬Ò»ÖÖ×î³£¼ûµÄĞ¡ĞÍ»õ´¬£¬×°ÁËÒ»²¿ÖÊÁ¿µÍÁÓµÄÌøÔ¾ÒıÇæ¡£¶øÇÒ·ÀÓùÁ¦Ê®·Ö´àÈõ£¬Ã»ÓĞÎä×°¡£ÓÅµãÊÇ¼Û¸ñ±ãÒË£¬ÏûºÄ½ÏµÍ¡£  "
-Locale_ship[0005] = "Ë«Í·öè¼¶Ï®»÷½¢"
-Locale_ship[0006] = "ÓÉÁ½ËÒÕ½ÁĞÑ²Ñó½¢´¬Ìå×é³ÉµÄ´óĞÍÕ½½¢£¬ÓµÓĞ²»´íµÄÉúÃüÁ¦ºÍÔØ»õÁ¿£¬ÊÇÎ¬¸ñ¶ûÈË·¢¶¯Ï®»÷×÷Õ½µÄÊ×Ñ¡±øÖÖ"
-Locale_ship[0010] = "°×Ñò¼¶»¤ÎÀ½¢MK2ĞÍ"
-Locale_ship[0011] = "ĞÂĞÍµÄÍ¨ÓÃĞÍ»¤ÎÀ½¢£¬Ò²¿ÉÒÔ¶Ô»¤ÎÀ½¢½øĞĞ¹¥»÷£¬ÓÅµãÊÇÏûºÄ½ÏµÍ£¬²»ĞèÒªÌ«¶à²¹¸ø¡£  "
-Locale_ship[0015] = "ÖØĞÍÍ»»÷½¢"
-Locale_ship[0016] = "ÓµÓĞ¸ß³¬ĞÔ¼Û±ÈµÄÖØĞÍ»¤ÎÀ½¢£¬ºñÖØµÄ×°¼×ÈÃËü¿ÉÒÔÍ¬Ö÷Á¦½¢¿¹ºâ£¬²»´íµÄ»õ²ÖÈİÁ¿Ò²ÊÊºÏÓÃÀ´ÔËÔØÒ»Ğ©ÉÌÆ·£¬¸Ã½¢»¹ÓĞÒ»¸öĞ¡ĞÍ»ú¿âÓÃÀ´Ğ¯´øÎŞÈË»ú¡£  "
-Locale_ship[0020] = "Ï£¸ñÀ­ÓãÀ×½¢"
-Locale_ship[0021] = "Í¨ÓÃĞÔ½ÏÇ¿µÄÒ»ÖÖ»¤ÎÀ½¢£¬¿ÉÒÔ·¢Éä·´½¢ÓãÀ×ºÍ·´»¤º½Í§ÓãÀ×¡£  "
-Locale_ship[0025] = "µ¼µ¯»¤ÎÀ½¢"
-Locale_ship[0026] = "×°±¸ÁËÇ¿Á¦·´½¢µ¼µ¯µÄ»¤ÎÀ½¢£¬¿ÉÒÔ¶ÔµĞÈËµÄÖ÷Á¦½¢Ôì³ÉÓĞĞ§ÍşĞ²¡£  "
-Locale_ship[0030] = "Í»Ï®½¢"
-Locale_ship[0031] = "×°±¸ÁËÊıÃÅĞ¡¿Ú¾¶·À¿ÕÅÚµÄ·À¿ÕÕ½½¢£¬Ò²¿ÉÒÔÖ´ĞĞÒ»Ğ©Ï®»÷ÈÎÎñ¡£  "
-Locale_ship[0035] = "°£ºÕÂåË¹¼ÎµÂÓãÀ×½¢"
-Locale_ship[0036] = "ÖØ×°¼×ĞÍÓãÀ×»¤ÎÀ½¢£¬ËüÃÇÓµÓĞ±È³£¹æ»¤ÎÀ½¢¸ü¼ÓºñÖØµÄ×°¼×£¬¿ÉÒÔÔÚÕ½¶·ÖĞ¸ü¼Ó³Ö¾ÃµÄ·¢»Ó»ğÁ¦  "
+Locale_ship[0001] = "Small Imperial Merchant Ship"
+Locale_ship[0002] = "FY1000 class small freighter, a most common type of small freighter, fitted with a low quality jump engine. It is also very weakly defended and unarmed. The advantage is that it is cheap and has low consumption.  "
+Locale_ship[0005] = "Double-headed Shark class assault ship"
+Locale_ship[0006] = "A large warship consisting of two battlecruiser hulls with good vitality and cargo capacity, the Vaygr's preferred class for launching assault operations"
+Locale_ship[0010] = "White Sheep class frigate MK2 type"
+Locale_ship[0011] = "A new general purpose frigate that can also attack against frigates, with the advantage of lower consumption and not requiring much resupply.  "
+Locale_ship[0015] = "Heavy assault ship"
+Locale_ship[0016] = "Heavy frigate with excellent cost performance, heavy armor allows it to compete with battleships, good cargo capacity for carrying some commodities, the ship also has a small hangar for carrying drones.  "
+Locale_ship[0020] = "Hiigara Torpedo Ship"
+Locale_ship[0021] = "A more versatile type of frigate that can fire anti-ship torpedoes and anti-escort torpedoes.  "
+Locale_ship[0025] = "Missile frigate"
+Locale_ship[0026] = "A frigate equipped with powerful anti-ship missiles that can pose an effective threat to the enemy's battleships.  "
+Locale_ship[0030] = "Raid ship"
+Locale_ship[0031] = "Anti-aircraft warship armed with several small caliber anti-aircraft guns that can also perform some raid missions.  "
+Locale_ship[0035] = "Alos torpedo ship"
+Locale_ship[0036] = "Heavily armored torpedo frigates that have heavier armor than conventional frigates, allowing for more sustained firepower in combat "
 -------------------------------------------------------------------------------
-Locale_ship[0100] = "ÖĞĞÍµÛ¹ú»õ´¬"
-Locale_ship[0101] = "FY2000¶Ö¼¶ÖĞĞÍ»õ´¬£¬1000¶Ö¼¶Ğ¡ĞÍÉÌ´¬µÄÉı¼¶°æ£¬ÔÚÈİÁ¿´ó´óÌáÉıµÄÇé¿öÏÂÌøÔ¾ĞÔÄÜÈ´ÏÔÖøÌá¸ß£¬ÊÇ´ó²¿·ÖĞ¡ĞÍÉÌ´¬¶ÓµÄ×î¼ÑÑ¡Ôñ¡£¶øÇÒ·ÀÓùÁ¦Ê®·Ö´àÈõ£¬Ã»ÓĞÎä×°¡£  "
-Locale_ship[0105] = "Ğ¡ĞÍ½»Í¨Í§"
-Locale_ship[0106] = "·½±ã¿ì½İµÄ½»Í¨ÔËÊäÍ§£¬×¨ÃÅÎª´óĞÍÆì½¢Ôö¼ÓĞ¶»õĞ§ÂÊ¶øÉè¼Æ¡£¿ÉÒÔ¸ßĞ§ÂÊµÄÔËÊäÈËÔ±£¬²¹¸ø£¬»¹ÓĞ¸÷ÖÖÎï×Ê"
-Locale_ship[0110] = "Á¿²úĞÍÇıÖğ½¢"
-Locale_ship[0111] = "Ò»ÖÖ³É±¾µÍÁ®µÄĞ¡ĞÍÖ÷Á¦½¢£¬ºÜÊÊºÏÎªÒ»Ğ©Ğ¡ĞÍÉÌÒµ½¢¶Ó»¤º½£¬Ò²ÊÊºÏ¶À×ÔÔËÔØ»õÎï£¬¼Û¸ñ±ãÒËÊÇËüµÄ×î´óÓÅµã¡£  "
-Locale_ship[0115] = "Ï£¸ñÀ­ÇıÖğ½¢"
-Locale_ship[0116] = "Ï£¸ñÀ­ÈËµÄÖÆÊ½Ö÷Á¦½¢£¬´óÁ¿ÖĞ¿Ú¾¶»ğÅÚ¿ÉÒÔÇáËÉµÄÏûÃğĞ¡ĞÍÕ½½¢£¬´¬Í·×°±¸µÄÖØĞÍÓãÀ×¿ÉÒÔÓĞĞ§µÄ¶ÔÖ÷Á¦½¢Ôì³ÉÉËº¦  "
-Locale_ship[0120] = "ÖØÅÚÇıÖğ½¢"
-Locale_ship[0121] = "ÇáÇÉ¿ìËÙµÄÖØÅÚÇıÖğ½¢£¬ÕâÖÖÇıÖğ½¢ÓµÓĞÓÅĞãµÄ»ú¶¯Á¦ºÍ´ó¿Ú¾¶µÄÖØĞÍ»ğÅÚ£¬¿ÉÒÔÓĞĞ§µÄ¶ÔµĞÈËÇáĞ¡ĞÍÕ½½¢Ôì³ÉÉËº¦¡£²»¹ı×°¼×½ÏÎª´àÈõÊÇËüµÄ×î´óÈ±µã  "
-Locale_ship[0125] = "¸ñÀÙË¿ÂíÈğÑÇ"
-Locale_ship[0126] = "ÓµÓĞ½Ï¸ßÒÆ¶¯ËÙ¶ÈµÄÊµÑéĞÍº½Ä¸£¬Ëæ´¬Ğ¯´øÒ»¶ÑÏÈ½øµÄ¾«ÈñÕ½¶·»ú²ÎÕ½£¨½¢¶ÓÖĞ½öÄÜ×°±¸Ò»ËÒ¸ÃÀàĞÍµÄÕ½½¢£©"
+Locale_ship[0100] = "Medium Imperial Cargo Ship"
+Locale_ship[0101] = "FY2000 class medium cargo ship, an upgraded version of the FY1000 class small merchant ship, with a significantly higher jump performance despite a much higher capacity, the best choice for most small merchant fleets. And the defense is very weak and unarmed.  "
+Locale_ship[0105] = "small transport craft"
+Locale_ship[0106] = "A convenient and fast transportation boat, designed specifically for large flagships to increase unloading efficiency. It can efficiently transport people, supplies, and various materials."
+Locale_ship[0110] = "Mass-produced destroyer"
+Locale_ship[0111] = "A small, inexpensive mainship, good for escorting some small commercial fleets, and for carrying cargo alone, with cheapness being its biggest advantage.  "
+Locale_ship[0115] = "Hiigara destroyer"
+Locale_ship[0116] = "The Hiigara's standard battleship, a large number of medium caliber guns can easily destroy small warships, and the heavy torpedoes on the bow of the ship can effectively damage the battleship "
+Locale_ship[0120] = "Heavy Gun Destroyer"
+Locale_ship[0121] = "Light and fast heavy gun destroyer, this destroyer has excellent mechanical power and large caliber heavy guns, which can effectively inflict damage on enemy light and small warships. However, the weak armor is its biggest drawback "
+Locale_ship[0125] = "Grace Marea"
+Locale_ship[0126] = "Experimental carrier with high movement speed, carries a bunch of advanced elite fighters with her into battle (only one ship of this type can be equipped in the fleet)"
 -------------------------------------------------------------------------------
-Locale_ship[0200] = "´óĞÍ»õ´¬"
-Locale_ship[0201] = "FY3000¶Ö¼¶´óĞÍ»õ´¬£¬3000¶Ö¼¶»õ´¬¼Ì³ĞÁËFYÏµÁĞÉÌ´¬µÄÒ»¹áÓÅµãºÍÈ±µã£¬ÏûºÄµÍ£¬¼Û¸ñ±ãÒË¡£µ«ÊÇ·ÀÓù´àÈõ£¬ËÙ¶È»ºÂı  "
-Locale_ship[0205] = "×°¼×ĞÍÑÇÌØÀ¼´ó¼¶Ñ²Ñó½¢"
-Locale_ship[0206] = "ÓµÓĞºñÖØ×°¼×ºÍ¿í´ó»õ²ÖµÄ¸¨ÖúĞÍÑ²Ñó½¢£¬¿ÉÒÔÔÚÎ£ÏÕµÄµĞÕ¼ÇøÔËËÍ´óÁ¿»õÎïºÍÉÌÆ·"
-Locale_ship[0207] = "ÑÇÌØÀ¼´ó×°¼×¼ÓÇ¿ĞÍ"
-Locale_ship[0208] = "ÑÇÌØÀ¼´ó¼¶µÄ×°¼×¼ÓÇ¿ĞÍ£¬ÓµÓĞºñÖØ×°¼×ºÍ¿í´ó»õ²Ö£¬¿ÉÒÔÔÚÎ£ÏÕµÄµĞÕ¼ÇøÔËËÍ´óÁ¿»õÎïºÍÉÌÆ·"
-Locale_ship[0210] = "ÏÈ·æMK2¼¶ÇáĞÍÑ²Ñó½¢"
-Locale_ship[0211] = "Ò»ÖÖÔì¼ÛµÍÁ®µÄ¸ßĞ§ÄÜÑ²Ñó½¢£¬¿ÉÒÔÓÃÀ´Ö´ĞĞ¸÷ÖÖÕ½¶·ÈÎÎñ¡£  "
-Locale_ship[0215] = "Ï£¸ñÀ­ÖØÑ²Ñó½¢"
-Locale_ship[0216] = "Ï£¸ñÀ­½¢¶ÓÖĞ×î³£¼ûµÄÒ»ÖÖÖ÷Á¦½¢£¬ÓµÓĞÁ¼ºÃµÄ·ºÓÃĞÔÄÜ£¬¿ÉÒÔÓĞĞ§µÄÖ´ĞĞ¸÷ÖÖÈÎÎñ¡£  "
-Locale_ship[0220] = "·ÑÄÉÄáÑÇ¼¶Ñ²Ñó½¢"
-Locale_ship[0221] = "Ò»ÖÖ¼Û¸ñ¸üµÍÁ®µÄÁ¿²úĞÍÑ²Ñó½¢£¬Ïà¶Ô²»´íµÄĞÔ¼Û±ÈÃÖ²¹ÁËÖÊÁ¿ÉÏµÄÈ±Ïİ"
-Locale_ship[0225] = "¶À½ÇÊŞ¼¶ÖØÑ²Ñó½¢"
-Locale_ship[0226] = "Ò»ÖÖÓµÓĞºñÖØ×°¼×µÄÇ¿´óÕ½½¢£¬ÊÇÕ½³¡ÉÏ³å·æÏİÕóµÄÖ÷Á¦¡£  "
+Locale_ship[0200] = "Large cargo ship"
+Locale_ship[0201] = "FY3000 class large freighter, inherits the usual advantages and disadvantages of FY series merchant ships, low consumption and cheap. But weak defense and slow speed "
+Locale_ship[0205] = "Armored Atlanta-class cruiser"
+Locale_ship[0206] = "Auxiliary cruiser with heavy armor and wide cargo bays that can carry large amounts of cargo and merchandise in dangerous enemy-held territory"
+Locale_ship[0207] = "Atlanta armored reinforced"
+Locale_ship[0208] = "An armored reinforced version of the Atlanta class, with heavy armor and large cargo bays, capable of carrying large amounts of cargo and merchandise in dangerous enemy-occupied territory"
+Locale_ship[0210] = "Light cruiser"
+Locale_ship[0211] = "An inexpensive, highly efficient cruiser that could be used for a variety of combat missions.  "
+Locale_ship[0215] = "Hiigara heavy cruiser"
+Locale_ship[0216] = "The most common type of battleship in the Hiigara fleet, with good general performance and can be used effectively for a variety of missions.  "
+Locale_ship[0220] = "Fenania class cruiser"
+Locale_ship[0221] = "A cheaper mass-produced cruiser whose relatively good price/performance ratio makes up for its lack of quality"
+Locale_ship[0225] = "Unicorn-class heavy cruiser"
+Locale_ship[0226] = "A powerful warship with heavy armor that is the mainstay of battlefield charges.  "
 -------------------------------------------------------------------------------
-Locale_ship[0300] = "Ï£¸ñÀ­½¢¶Óº½Ä¸"
-Locale_ship[0301] = "Ï£¸ñÀ­ÈËµÄ½¢¶Óº½Ä¸£¬³ıÁËÄÜĞ¯´ø´óÁ¿½¢ÔØ»úÍâ£¬»¹ÄÜÉú²ú²¿·ÖµÄ²¹¸ø¡£Í¬Ê±Ò²¿ÉÒÔÉú²úÒ»Ğ©²¹¸øÆ·£¨±¾½¢ÔÚ³¬¿Õ¼äÄ£¿éºó¿ÉÒÔ´øÁìÆäËû½¢´¬½øĞĞÌøÔ¾£©"
-Locale_ship[0305] = "ÖØĞÍº½Ä¸"
-Locale_ship[0306] = "Î¬¸ñ¶ûÈË³£ÓÃµÄ½¢¶Óº½Ä¸£¬ÓµÓĞºñÖØµÄ×°¼×ºÍËùÓĞº½Ä¸ÖĞ×î´óµÄ»õ²Ö¡£Í¬Ê±Ò²¿ÉÒÔÉú²úÒ»Ğ©²¹¸øÆ·£¨±¾½¢ÔÚ³¬¿Õ¼äÄ£¿éºó¿ÉÒÔ´øÁìÆäËû½¢´¬½øĞĞÌøÔ¾£©"
-Locale_ship[0310] = "Îä×°º½Ä¸"
-Locale_ship[0311] = "×°±¸ÁË´óÁ¿»ğÅÚºÍÎäÆ÷µÄÎä×°º½Ä¸£¬¾­³£ÓÃÀ´ÉîÈëµĞºóÖ´ĞĞÒ»Ğ©Ï®»÷ÈÎÎñ¡£Í¬Ê±Ò²¿ÉÒÔÉú²úÒ»Ğ©²¹¸øÆ·£¨±¾½¢ÔÚ³¬¿Õ¼äÄ£¿éºó¿ÉÒÔ´øÁìÆäËû½¢´¬½øĞĞÌøÔ¾£©"
-Locale_ship[0315] = "ÃÖÁ§¼¶½¢¶Óº½Ä¸"
-Locale_ship[0316] = "·ÆÑÅÀûÈËµÄ½¢¶Óº½Ä¸£¬³ıÁËÄÜĞ¯´ø´óÁ¿½¢ÔØ»úÍâ£¬»¹ÓµÓĞ²»´íµÄ¸ÄÔìÇ±Á¦¡£Í¬Ê±Ò²¿ÉÒÔÉú²úÒ»Ğ©²¹¸øÆ·£¨±¾½¢ÔÚ³¬¿Õ¼äÄ£¿éºó¿ÉÒÔ´øÁìÆäËû½¢´¬½øĞĞÌøÔ¾£©"
+Locale_ship[0300] = "Hiigara fleet carrier"
+Locale_ship[0301] = "A Hiigara fleet carrier that, in addition to being able to carry a large number of carrier aircraft, can also produce some of its supplies. It can also produce some supplies (this ship can lead other ships to jump after the hyperspace module)"
+Locale_ship[0305] = "Heavy carrier"
+Locale_ship[0306] = "A common fleet carrier used by the Vaygr, with heavy armor and the largest cargo bay of all carriers. Can also produce some supplies (this ship can lead other ships in jumps after hyperspace module)"
+Locale_ship[0310] = "Armed aircraft carrier"
+Locale_ship[0311] = "Armed carrier equipped with a lot of guns and weapons, often used to go deep behind enemy lines for some raiding missions. It can also produce some supplies (this ship can lead other ships to jump after the hyperspace module)"
+Locale_ship[0315] = "Mili-class fleet carrier"
+Locale_ship[0316] = "Fai'ri fleet carrier that has good potential for transformation in addition to being able to carry a large number of carrier aircraft. Also can produce some supplies (this ship can lead other ships to jump after hyperspace module)"
 -------------------------------------------------------------------------------
-Locale_ship[0400] = "ÖØĞÍµÛ¹ú»õ½¢"
-Locale_ship[0401] = "¸Ã½¢µÄÅÓ´ó»õ²Ö¿ÉÒÔÔËËÍÒ»Ğ©³¬´óÌå»ıµÄ»õÎï£¬ËüµÄ·ÀÓùÁ¦²»×ã£¬Ö»ÊÊºÏÔÚÓĞ´óÁ¿½¢¶Ó»¤º½»òÊÇ½ÏÎª°²È«µÄµØ·½º½ĞĞ¡£  "
-Locale_ship[0405] = "Ö÷½Ì¼¶»õ½¢"
-Locale_ship[0406] = "Ï£¸ñÀ­ÈË×î³£ÓÃµÄ»õÎïÔËÊä½¢£¬¿ÉÒÔÔËÔØ´óÁ¿µÄÎï×Ê£¬Í¬Ê±×°¼×Ò²±È½ÏºñÖØ  "
-Locale_ship[0410] = "°£ºÕÂåË¹¼ÎµÂ¾ŞĞÍÔËÊä½¢"
-Locale_ship[0411] = "Ò»ÖÖ¾Ş´óµÄÔËÊä»õ½¢£¬Ô­±¾ÓÃÀ´×÷ÎªĞĞĞÇ¼äµÄÒÆÃñÔËÊä´¬Ê¹ÓÃ£¬ÓµÓĞÄÑÒÔÏëÏóµÄÅÓ´ó»õ²ÖºÍ¼«Æä»ºÂıµÄÒÆ¶¯ËÙ¶È¡£  "
-Locale_ship[0415] = "Ô¶ĞĞÕß¼¶Õ½ÁĞ½¢"
-Locale_ship[0416] = "ÓÉ¾ŞĞÍ»õ½¢¸Ä×°¶øÀ´µÄÖ§Ô®ĞÍÕ½ÁĞ½¢£¬ÓµÓĞºñÖØµÄ×°¼×ºÍÏà¶ÔµÍÁ®µÄ¼Û¸ñÒÔ¼°¿í´óµÄ»õ²ÖºÍ»ú¿â"
-Locale_ship[0420] = "°£ºÕÂåË¹¼ÎµÂ¾ŞĞÍ¹¤Òµ½¢"
-Locale_ship[0421] = "Ò»ÖÖ¾Ş´óµÄÔËÊä»õ½¢£¬Ô­±¾ÓÃÀ´×÷ÎªĞĞĞÇ¼äµÄÒÆÃñÔËÊä´¬Ê¹ÓÃ£¬ÓµÓĞÄÑÒÔÏëÏóµÄÅÓ´ó»õ²ÖºÍ¼«Æä»ºÂıµÄÒÆ¶¯ËÙ¶È¡£  "
+Locale_ship[0400] = "Heavy Imperial Cargo Ship"
+Locale_ship[0401] = "This ship's massive cargo bay can carry some oversized cargo, it has insufficient defenses and is only suitable for sailing with a large fleet escort or in safer places.  "
+Locale_ship[0405] = "Bishop-class cargo ship"
+Locale_ship[0406] = "The most common cargo ship used by the Highras, it can carry large amounts of supplies and is also heavily armored "
+Locale_ship[0410] = "Alos giant transport ship"
+Locale_ship[0411] = "A huge transport freighter, originally used as an interplanetary migrant transport ship, with an unimaginably large cargo hold and extremely slow movement speed.  "
+Locale_ship[0415] = "Farseer-class battleship"
+Locale_ship[0416] = "Support battleship converted from a giant cargo ship, with heavy armor and relatively low cost as well as generous cargo bays and hangars"
+Locale_ship[0420] = "Alos giant industrial ship"
+Locale_ship[0421] = "A huge transport freighter, originally used as an interplanetary migrant transport ship, with unimaginably large cargo bays and an extremely slow movement speed.  "
 -------------------------------------------------------------------------------
-Locale_ship[0500] = "À«ÈĞ¼¶Ï®»÷½¢"
-Locale_ship[0501] = "Ò»ÖÖÒÔºñÖØ×°¼×ÎÅÃûµÄ³¬ÖØĞÍÕ½½¢£¬À«ÈĞ¼¶Ï®»÷½¢ÓµÓĞºñÖØµÄ´¬ÌåºÍ¿í´óµÄ»õ²Ö£¬½¢ÔØ»ú¿âÈÃËü¿ÉÒÔ¶ÀÁ¢½øĞĞÑ²º½¡£²»¹ıĞĞ¶¯»ºÂıÊÇËü×î´óµÄÈ±Ïİ"
-Locale_ship[0505] = "Ñ²»ØÕß¼¶Ï®»÷½¢"
-Locale_ship[0506] = "Ñ²»ØÕß¼¶ÊÇÒ»ÖÖÕæÕıÒâÒåÉÏµÄÏ®»÷½¢£¬ËüÓµÓĞÍêÃÀµÄÕ½¶·Á¦ºÍ½Ï¸ßµÄÑ²º½ËÙ¶È£¬¿í´óµÄ»õ²ÖºÍ½¢ÔØ»ú¿âÈÃËü¿ÉÒÔÔÚµĞÈËºó·½ÓÎ×ß"
-Locale_ship[0510] = "Õ½ÁĞÑ²Ñó½¢-·ÆÃ×ÁÕË¹"
-Locale_ship[0511] = "×°±¸ÁË´óÁ¿´ó¿Ú¾¶¾ŞÅÚµÄ°£ºÕÂåË¹¼ÎµÂÕ½ÁĞÑ²Ñó½¢£¬¿ÉÒÔÓĞĞ§µÄ¶ÔµĞÈË½¢Èº½øĞĞÑ¹ÖÆ"
-Locale_ship[0515] = "½ÌÖ÷¼¶Ö§Ô®Õ½ÁĞ½¢"
-Locale_ship[0516] = "Ò»ÖÖÖ§Ô®ĞÍµÄÕ½ÁĞ½¢£¬ÓµÓĞ´óÁ¿Àë×ÓÅÚËşºÍ¿í´óµÄ»õ²Ö£¬¿ÉÒÔ½øĞĞ¸÷ÖÖÈÎÎñ¡£"
+Locale_ship[0500] = "Broadblade class assault ship"
+Locale_ship[0501] = "A super-heavy warship known for its heavy armor, the Broadblade class assault ship has a heavy hull and wide cargo bays, with an onboard hangar that allows it to cruise independently. But slow movement is its biggest flaw"
+Locale_ship[0505] = "Rover-class raider"
+Locale_ship[0506] = "The Rover class is a true assault ship in the sense that it has perfect combat power and high cruising speed, with a wide cargo bay and hangar that allows it to roam behind enemy lines"
+Locale_ship[0510] = "Battlecruiser - Femilynes"
+Locale_ship[0511] = "Alos battlecruiser equipped with a large number of large-caliber cannons, which can effectively suppress enemy ships"
+Locale_ship[0515] = "Patriarch-class support battleship"
+Locale_ship[0516] = "A support battleship with a large number of ion turrets and a wide cargo bay for a variety of missions."
 -------------------------------------------------------------------------------
-Locale_ship[0605] = "Êï¹â¼¶Õ½ÁĞ½¢"
-Locale_ship[0606] = "·ÆÑÅÀûµÛ¹ú½¢¶ÓµÄºËĞÄÁ¦Á¿£¬×°±¸ÁË´óÁ¿¾ŞÅÚµÄ¾ŞĞÍÕ½½¢£¬Êï¹â¼¶Õ½ÁĞ½¢¿ÉÒÔºÍÈÎºÎÒ»ÖÖÎ¬¸ñ¶ûÕ½½¢Ïà¿¹ºâ£¬²»¹ıÅÓ´óµÄ´¬ÌåĞèÒª´óÁ¿µÄºóÇÚÎï×Ê²ÅÄÜ¹©Ñø¡£"
-Locale_ship[0607] = "Êï¹âCĞÍÕ½ÁĞ½¢"
-Locale_ship[0608] = "×°±¸ÁËË«Áª×°µç´Å¹ìµÀÅÚÊï¹â¼¶Õ½ÁĞ½¢£¬Éä»÷¼ä¸ô½Ï³¤£¬Ö÷ÒªÓÃÀ´·´ÖÆµĞ·½Æì½¢"
-Locale_ship[0609] = "Êï¹âGĞÍÕ½ÁĞ½¢"
-Locale_ship[0610] = "×°±¸ÁËÈıÁª×°¹âÊøÖ÷ÅÚµÄÊï¹â¼¶Õ½ÁĞ½¢£¬ÊÊºÏÑ¹ÖÆµĞÈËµÄ´óĞÍÆì½¢"
+Locale_ship[0605] = "Aurora-class battleship"
+Locale_ship[0606] = "The core of the Fai'ri Empire fleet, a giant battleship equipped with a large number of huge guns, the Aurora-class battleship can compete with any kind of Vaygr battleship, though the massive hull requires a lot of logistical supplies to be able to feed it."
+Locale_ship[0607] = "Aurora C-class battleship"
+Locale_ship[0608] = "Aurora-class battleship equipped with twin electromagnetic railguns with long firing intervals, mainly used to counter enemy flagships"
+Locale_ship[0609] = "Aurora G battleship"
+Locale_ship[0610] = "Aurora-class battleship equipped with triple beam main guns, suitable for suppressing large enemy flagships"
 
 
 
-Locale_ship[0615] = "ÑªÈĞ¼¶Õ½ÁĞ½¢"
-Locale_ship[0616] = "Î¬¸ñ¶ûÈËµÄ½¢¶ÓºËĞÄÁ¦Á¿£¬ÓµÓĞÇ¿´óµÄ¼¤¹âÖ÷ÅÚºÍ´óÁ¿¹¥¼áÎäÆ÷£¬²»¹ıĞèÒª´óÁ¿µÄ²¹¸ø²ÅÄÜ±£³ÖÕ½¶·Á¦"
-Locale_ship[0620] = "ÁìÖ÷¼¶Õ½ÁĞ½¢"
-Locale_ship[0621] = "Ï£¸ñÀ­ÈË½¢¶ÓµÄºËĞÄÁ¦Á¿£¬×°±¸ÁË´óÁ¿µÄÖØĞÍÀë×ÓÅÚºÍ¸ßĞÔÄÜµÄ·´½¢ÓãÀ×·¢ÉäÆ÷Éú´æÄÜÁ¦Ê®·ÖÇ¿´ó"
+Locale_ship[0615] = "Bloodshed-class battleship"
+Locale_ship[0616] = "The core of the Vaygr's fleet, with powerful laser main guns and a large number of offensive weapons, though it needs a lot of supplies to stay in combat"
+Locale_ship[0620] = "Lordship class battleship"
+Locale_ship[0621] = "The core of the Highran fleet, equipped with a large number of heavy ion cannons and high-performance anti-ship torpedo launchers with a very high survivability"
 -------------------------------------------------------------------------------
-Locale_ship[0700] = "ÂÖ»Ø¼¶ÎŞÎ·½¢MK2"
-Locale_ship[0701] = "Ò»ÖÖ¿ÉÅÂµÄ¾ŞĞÍÕ½½¢£¬´îÔØµÄ°Ë×ù¾ŞÅÚÓµÓĞ»ÙÌìÃğµØµÄÍşÁ¦¡£"
-Locale_ship[0705] = "·ÀÓùÎŞÎ·½¢"
-Locale_ship[0706] = "Ò»ÖÖÓµÓĞºñÖØ×°¼×µÄ¾ŞĞÍÕ½½¢£¬¿ÉÒÔµÖµ²×îÃÍÁÒµÄ¹¥»÷¡£"
-Locale_ship[0710] = "Ä©ÊÀ¼¶ÎŞÎ·½¢"
-Locale_ship[0711] = "Ò»ÖÖÇ¿´óµÄµ¼µ¯ÎŞÎ·½¢£¬Ëù·¢ÉäµÄºìÁ«µ¼µ¯¿ÉÒÔÇáËÉ´İ»ÙÈÎºÎÒ»ËÒµĞ½¢"
-Locale_ship[0715] = "°£ºÕÂåË¹¼ÎµÂÎŞÎ·½¢"
-Locale_ship[0716] = "ÓµÓĞºñÖØ×°¼×ºÍ2×ù³¬¼¶Ö÷ÅÚËşµÄ¾ŞĞÍÕ½½¢£¬ËüÊÇ°£ºÕÂåË¹¼ÎµÂµÛ¹úµÄºËĞÄÁ¦Á¿"
+Locale_ship[0700] = "Reincarnation-class dreadnought MK2"
+Locale_ship[0701] = "A terrifyingly huge warship with eight huge guns that have the power to destroy the world."
+Locale_ship[0705] = "Defense dreadnought"
+Locale_ship[0706] = "A giant warship with heavy armor that can withstand the fiercest of attacks."
+Locale_ship[0710] = "Endbringer-class dreadnought"
+Locale_ship[0711] = "A powerful missile dreadnought that fires Red Lotus missiles that can easily destroy any enemy ship"
+Locale_ship[0715] = "Alos dreadnought"
+Locale_ship[0716] = "A giant warship with heavy armor and 2 superb main turrets, it is the heart of the Alos Empire"
 -------------------------------------------------------------------------------
-Locale_ship[0800] = "±ø·æ¼¶ÎŞÈË»ú"
-Locale_ship[0801] = "·ÆÑÅÀûµÛ¹ú×î³£¼ûµ½µÄÒ»ÖÖÕ½¶·ÎŞÈË»ú£¬Çá±ãĞ¡ÇÉ£¬ÏûºÄµÍÁ®¡£"
-Locale_ship[0805] = "Ï£¸ñÀ­À¹½Ø»ú"
-Locale_ship[0806] = "Ï£¸ñÀ­ÈËµÄ×¨ÓÃÖÆ¿ÕÕ½¶·»ú£¬ÓµÓĞ²»´íµÄĞÔÄÜ¡£"
-Locale_ship[0810] = "Í»»÷»ú"
-Locale_ship[0811] = "Î¬¸ñ¶ûÈËµÄ³£ÓÃÕ½¶·»ú£¬ÓµÓĞ´ó¿Ú¾¶»úÇ¹ºÍ½ÏµÍµÄÖÆÔì³É±¾¡£"
+Locale_ship[0800] = "Soldier Blade class drones"
+Locale_ship[0801] = "One of the most commonly seen combat drones in the Fai'ri Empire, light, small and inexpensive to consume."
+Locale_ship[0805] = "Hiigara interceptor"
+Locale_ship[0806] = "A special Hiigara air fighter with good performance."
+Locale_ship[0810] = "Assault aircraft"
+Locale_ship[0811] = "A common Vaygr fighter with a large caliber machine gun and low manufacturing cost."
 -------------------------------------------------------------------------------
-Locale_ship[0900] = "Ã¹¾ú¼¶ÖØÅÚÍ§"
-Locale_ship[0901] = "·ÆÑÅÀûµÛ¹ú×îĞÂ¿ª·¢µÄÖØĞÍ»¤º½Í§£¬¿ÉÒÔÓĞĞ§µÄÇıÖğµĞÈËµÄÕ½¶·»úÈº¡££¨¸Ãµ¥Î»Ö»ÓĞÌå»ı½Ï´óµÄ»ú¿â²ÅÄÜ´îÔØ£©"
-Locale_ship[0910] = "·´½¢ÎŞÈË»ú±à¶Ó"
-Locale_ship[0911] = "×°ÔØÁË´óÍşÁ¦·´½¢·Éµ¯µÄ¹¥»÷ĞÍÎŞÈË»ú£¬¿ÉÒÔÇáËÉµÄ´İ»ÙµĞÈËµÄÖ÷Á¦½¢¡££¨¶ÔÑ²Ñó½¢¼¶±ğµ¥Î»ÓĞ¶îÍâ¹¥»÷ÓÅÊÆ£©"
-Locale_ship[0915] = "Âö³åÍ§±à¶Ó"
-Locale_ship[0916] = "Ï£¸ñÀ­Âö³åÍ§±à¶Ó£¬¿ÉÒÔÓÃÀ´´İ»ÙµĞÈËµÄÕ½¶·»ú»òÕßÅÚÍ§¡££¨¸Ãµ¥Î»Ö»ÓĞÌå»ı½Ï´óµÄ»ú¿â²ÅÄÜ´îÔØ£©"
-Locale_ship[0920] = "µ¼µ¯Í§±à¶Ó"
-Locale_ship[0921] = "ÓµÓĞ½ÏÇ¿Í¨ÓÃĞÔµÄµ¼µ¯Í§£¬ÁéÇÉµÄµ¼µ¯¿ÉÒÔ¶Ô¸¶¸÷ÖÖµĞÈË¡££¨¸Ãµ¥Î»Ö»ÓĞÌå»ı½Ï´óµÄ»ú¿â²ÅÄÜ´îÔØ£©"
+Locale_ship[0900] = "Mold-class heavy gunship"
+Locale_ship[0901] = "The latest heavy escort craft developed by the Fai'ri Empire to effectively repel enemy fighter groups. (This unit can only be carried by larger hangars)"
+Locale_ship[0910] = "Formation of anti-ship drones"
+Locale_ship[0911] = "Attack drones loaded with high-powered anti-ship missiles that can easily destroy the enemy's battleships. (Additional attack advantage against cruiser class units)"
+Locale_ship[0915] = "Formation of pulse boats"
+Locale_ship[0916] = "A Hiigara pulse boat formation that can be used to destroy enemy fighters or gunboats. (This unit can only be carried by larger hangars)"
+Locale_ship[0920] = "Formation of missile boats"
+Locale_ship[0921] = "Missile boats with greater versatility and deft missiles to deal with a variety of enemies. (This unit can only be carried by larger hangars)"
 -------------------------------------------------------------------------------
-Locale_ship[1000] = "³¾°£¼¶¹¤³ÌÍ§"
-Locale_ship[1001] = "ÕâÖÖĞÂ³öÏÖµÄĞ¡ĞÍ¹¤³Ìµ¥Î»Ñ¸ËÙµÄÔÚµÛ¹úÃñ¼äºÍ¾ü·½ÖĞÁ÷ĞĞÆğÀ´"
-Locale_ship[1005] = "Ï£¸ñÀ­²É¿óÍ§"
-Locale_ship[1006] = "Ï£¸ñÀ­ÈË³£ÓÃµÄÒ»ÖÖ²É¿óÉè±¸£¬¿ÉÒÔÔÙÌ«¿ÕÖĞ¿ª²É¿óÊ¯£¬Ò²¿ÉÒÔÓÃÀ´ĞŞ²¹Õ½½¢£¨¸Ãµ¥Î»Ö»ÓĞÌå»ı½Ï´óµÄ»ú¿â²ÅÄÜ´îÔØ£©"
-Locale_ship[1010] = "Î¬¸ñ¶û²É¿óÍ§"
-Locale_ship[1011] = "Î¬¸ñ¶û¾ü¶ÓÖĞ³£ÓÃµÄ²É¿óÉè±¸£¬Ò²¿ÉÒÔÓÃÀ´ĞŞ²¹Õ½½¢£¨¸Ãµ¥Î»Ö»ÓĞÌå»ı½Ï´óµÄ»ú¿â²ÅÄÜ´îÔØ£©"
-Locale_ship[1015] = "°£ºÕÂåË¹¼ÎµÂ²É¿óÍ§"
-Locale_ship[1016] = "°£ºÕÂåË¹¼ÎµÂµÛ¹úµÄÒ»ÖÖÖÆÊ½²É¿óÉè±¸£¬ÕâÖÖ²É¿óÍ§·şÒÛÄê´ú±È½Ï¾ÃÔ¶"
-Locale_ship[1100] = "ÔÂÓ°¼¶Ì½ÏÕ´¬"
-Locale_ship[1101] = "ÔÂ»·ÖØ¹¤×¨ÃÅ¿ª·¢µÄÒ»ÖÖÃñÓÃÌ½ÏÕ´¬£¬ÓµÓĞ¸ßº½ËÙºÍµÍÏûºÄ¡£Ö÷Òª·ÀÎÀÎäÆ÷Îª¸Ã¹«Ë¾×îĞÂ¿ª·¢µÄ³¤³ÌÀë×Ó¹âÊø\nÉè¼ÆÕß£º»ÃÌìÆÆ"
-Locale_ship[1150] = "Ñı¼§ÔËÔØ½¢"
-Locale_ship[1151] = "Ò»ÖÖÓµÓĞÇ¿´óÕ½¶·Á¦µÄ¾ŞĞÍÄ¸½¢£¬ÓµÓĞ¿í´óµÄ»õ²ÖºÍ´óÍşÁ¦µÄÖ÷ÅÚ£¬»¹¿ÉÒÔ×ÔĞĞÉú²úÉÌÆ·ºÍ²¹¸øÎï×Ê£¨¸Ã½¢¿ÉÒÔ´îÔØ5¸ö¹¤ÒµÄ£¿é£©"
-Locale_ship[1200] = "ÈøÓÈ¿ËÖ®Ô¿"
-Locale_ship[1201] = "Ò»ÖÖÓµÓĞ¸ßÍşÁ¦Ö÷ÅÚµÄÏÈ×æÕ½½¢£¬ËäÈ»ÄÑÒÔ¶ÔÆä¼¶±ğ½øĞĞÃ÷È·µÄÅĞ¶¨£¬µ«ÊÇ¿ÉÒÔÈ·¶¨¸Ã½¢¶ÓÓµÓĞÇ¿´óµÄÕ½¶·Á¦"
-Locale_ship[1210] = "ÊØ»¤Õß"
-Locale_ship[1211] = "Ò»ÖÖÇıÖğ½¢¼¶±ğµÄÏÈ×æÕ½½¢"
-Locale_ship[1220] = "ĞÛ·åÕ½¶·»ú"
-Locale_ship[1221] = "ÏÈ×æ¿Æ¼¼ÏÂµÄ²úÎï£¬ÄÑÒÔ´İ»Ù£¬¶øÇÒÍşÁ¦Ç¿´ó"
-Locale_ship[1250] = "¶ÉÑ»ºäÕ¨»ú"
-Locale_ship[1251] = "Ò»ÖÖ×¨ÃÅÓÃÀ´¹¥»÷Ö÷Á¦½¢µÄÕ½ÂÔºäÕ¨»ú£¬×°±¸ÁËÍşÁ¦Ç¿´óµÄµÈÀë×ÓÕ¨µ¯¡£ÔÚÍ¶µ¯ºóĞèÒª½øĞĞ³¤Ê±¼äµÄĞîÄÜÍ¶µ¯£¨¸Ãµ¥Î»Ö»ÓĞÌå»ı½Ï´óµÄ»ú¿â²ÅÄÜ´îÔØ£©"
-Locale_ship[1300] = "º½ÏòÀèÃ÷ºÅ"
-Locale_ship[1301] = "°£ºÕÂåË¹¼ÎµÂµÛ¹ú²Î¿¼UNSC¼¼Êõ·ÂÖÆ¶øÀ´µÄÒ»ÖÖÏÈ½øÕ½½¢£¬ÓµÓĞÇ¿´óµÄ´¬Ê×µç´ÅÅÚºÍ²»´íµÄÕ½¶·Á¦"
-Locale_ship[1305] = "Ó¢µÂÀ­Ë¹¼¶Õ½ÁĞ½¢"
-Locale_ship[1306] = "°£ºÕÂåË¹¼ÎµÂµÛ¹úµÄĞÂÈñÕ½ÁĞ½¢£¬ÓµÓĞÇ¿´óµÄµç´ÅÅÚÎäÆ÷¡£  "
-Locale_ship[1310] = "ÁÔöè¼¶Ï®»÷½¢"
-Locale_ship[1311] = "Î¬¸ñ¶ûÈËµÄĞÂĞÍÄ£¿é»¯Õ½½¢£¬ÓµÓĞ²»´íµÄº½³ÌºÍ×ã¹»Ç¿´óµÄÕ½¶·Á¦£¬³É±¾È´ºÜµÍÁ®"
-Locale_ship[1350] = "Ï£¸ñÀ­½¢ÔØ¹¥»÷»ú"
-Locale_ship[1351] = "Ï£¸ñÀ­ÈËµÄÖÆÊ½½¢ÔØ»ú£¬¿ÉÒÔÓĞĞ§µÄ¶ÔµĞÈËµÄÖĞĞ¡ĞÍÕ½½¢½øĞĞÑ¹ÖÆ¡£¿ÉÒÔÍ£²´ÓÚ´ó²¿·ÖÓĞ»ú¿âµÄ½¢´¬ÉÏ"
-Locale_ship[1355] = "ÁÔöÀºÅ"
-Locale_ship[1356] = "°£ºÕÂåË¹¼ÎµÂµÛ¹ú½ÓÊÕµÄVGRÅÑ¾üÎªÆäËù½¨ÔìµÄÆì½¢£¬×÷Îª¶à¹¦ÄÜÕ½½¢Í¬Ê±¾ßÓĞ¿É¹ÛµÄ»ğÁ¦Óë·À»¤²¢¾ß±¸ÁËÉú²úÄÜÁ¦¡£"
-Locale_ship[1360] = "Ñ²º½¹ÜÖÆ½¢"
-Locale_ship[1361] = "Ï£¶ûÃ·ÀïÑÇºÅ£¬°£ºÕÂåË¹¼ÎµÂµÛ¹ú½¨ÔìµÄÒ»ËÒÑéÖ¤ĞÍÕ½½¢£¬ÓÃÓÚĞÂĞÍÉè±¸µÄ²âÊÔ¹¤×÷¡£´îÔØÓĞ×îĞÂµÄµÈÀë×ÓÒıÇæ¡£"
-Locale_ship[1365] = "ĞØ¼×Æï±ø¼¶ÇıÖğ½¢"
-Locale_ship[1366] = "ÏÈ½øµÄ¶à¹¦ÄÜÇıÖğ½¢£¬Ç¿´óµÄ¹âÊøÎäÆ÷¿ÉÒÔÓĞĞ§µÄÓ¦¸¶¸÷ÖÖÇé¿ö¡£"
-Locale_ship[1370] = "Çå³ıÕß"
-Locale_ship[1371] = "Ò»ÖÖ»ú¶¯Áé»î£¬ÓµÓĞ³ÖĞøĞÔ»ğÁ¦µÄÏÈ½øÑ²Ñó½¢¡£¸Ã½¢µÄÏÈ½øµÄ×Ô¶¯Î¬ĞŞÏµÍ³»¹¿ÉÒÔÈÃÆäÔÚÕ½¶·ÖĞ¿ìËÙµÄĞŞ¸´ËğÉË"
-Locale_ship[1375] = "ÆÆÏşII¼¶"
-Locale_ship[1376] = "Ñı¾«ÖØ¹¤ÖØĞÍÕ½Êõ½¢¸Ä×°¶øÀ´µÄÏÈ½øÕ½ÁĞ½¢£¬ÓµÓĞÍşÁ¦Ç¿´óµÄ3500ËÄÁª×°¹¥³Ç»ğÅÚºÍºñÖØµÄ×°¼×"
-Locale_ship[1380] = "ÇáÓğ¼¶Ö§Ô®º½Ä¸"
-Locale_ship[1381] = "Ò»ÖÖ×¨ÃÅÎªÁË±ß¾³Ñ²Âß¶øÉè¼ÆµÄ³¬ÇáĞÍº½Ä¸£¬ËüµÄÈİÁ¿ºÍ»õ²Ö¶¼Ê®·ÖÓĞÏŞ£¬Ôì¼Û±ãÒËºÍ¿ÉÒÔĞ¯´øĞ¡¹æÄ£½¢¶Ó½øĞĞ³¬¿Õ¼äÌøÔ¾ÊÇ×î´óµÄÓÅµã"
-Locale_ship[1385] = "Ñı¾«Å®»ÊºÅ"
-Locale_ship[1386] = "·ÆÑÅÀûµÛ¹úµÄÕ½Õù·½ÖÛ£¬ÓµÓĞÍşÁ¦Ç¿´óµÄÖ÷ÅÚºÍ¼á²»¿É´İµÄ×°¼×¡£ËüÊÇ·ÆÑÅÀûµÛ¹úµÄ¾«ÉñÏóÕ÷¡££¨×¢Òâ£¬Ñı¾«Å®»ÊºÅµÄ¹©¸øÒªÇó¼«¸ß£¬Ò»µ©²¹¸øºÄ¾¡ºÍ×Ê½ğºÄ¾¡¸Ã½¢»á×Ô¶¯Àë¿ª½¢¶Ó)"
-Locale_ship[1390] = "É³åÈ¼¶×°¼×½¢"
-Locale_ship[1391] = "×°¼×ºñÖØµÄÖØĞÍÕ½½¢£¬¿ÉÒÔ³ĞÊÜÇ¿»ğÁ¦µÄ¹¥»÷£¬¾Ş¶ÜµÄÉı¼¶°æ"
-Locale_ship[1395] = "Ñ²¿ÕÕßMK3Í»»÷½¢"
-Locale_ship[1396] = "ÓµÓĞÁ¼ºÃÉú´æÁ¦µÄĞ¡ĞÍÍ»»÷½¢£¬×°±¸ÁËÆµÉä»ğÅÚºÍÅÓ´óµÄÔØ»õ»ú²Ö"
-Locale_ship[1400] = "É¨µ´Õß¼¶Õ½ÁĞ½¢"
-Locale_ship[1401] = "¿ÉÒÔ¸ßËÙÇåÉ¨Ğ¡ĞÍÕ½½¢µÄÏÈ½øÕ½ÁĞ½¢£¬ÓµÓĞÁ¼ºÃµÄ¹¥·ÀÄÜÁ¦"
-Locale_ship[1405] = "°Â¶¡¼¶ÎŞÎ·½¢"
-Locale_ship[1406] = "ÉèÊ©ÍêÉÆµÄÏÈ½øÎŞÎ·½¢£¬ÓµÓĞ¶À×Ô×÷Õ½µÄÇ¿´óÊµÁ¦"
-Locale_ship[1410] = "Âí¿¨¶÷Ö®Å­"
-Locale_ship[1411] = "Î¬¸ñ¶ûÈËµÄ¾ŞĞÍÕ½Õù±¤Àİ£¬Ò»Ğ©Î¬¸ñ¶ûµÄ´ó¾ü·§Í¬Òâ½«Æä³öÊÛ¸øµÛ¹úÉÌÈËÒÔ»»È¡×ã¹»µÄÀûÈó"
-Locale_ship[1415] = "ÓÀºã¼¶ÎŞÎ·½¢"
-Locale_ship[1416] = "²Î¿¼Ï£ÁéÈË¼¼ÊõÖÆ×÷³öµÄÏÈ½øÎŞÎ·½¢£¬Ç¿´óµÄÖ÷ÅÚ¿ÉÒÔ´İ»ÙÒ»ÇĞÆì½¢¼¶µ¥Î»"
-Locale_ship[1420] = "Ä§·½¼¶×°¼×Í»»÷´¬"
-Locale_ship[1421] = "Ğ¡ÇÉ¼á¹ÌµÄ×°¼×Í»»÷½¢£¬¿ÉÒÔÔÚµĞÈËµÄĞ×ÃÍ»ğÁ¦ÖĞÉú´æÏÂÀ´£¬µ«ÊÇ½ÏÎª±¿×¾"
-Locale_ship[1425] = "ĞÇ³½Õ½¶·»ú"
-Locale_ship[1426] = "¾«ÈñµÄÏÈ½øÕ½¶·»ú£¬·ÆÑÅÀûµÛ¹úÖ»»á½«ÕâÖÖÏÈ½øÕ½¶·»ú³öÊÛ¸ø¶ÔµÛ¹úÓĞÖØ´ó¹±Ï×µÄÈË"
-Locale_ship[1430] = "Ò«·åÕ½ÁĞ½¢"
-Locale_ship[1431] = "ÍâÀ´ÎÄÃ÷ÔÚ°£ºÕÂåË¹¼ÎµÂµÛ¹ú¶¨ÖÆµÄÒ»ËÒÏÈ½øÕ½ÁĞ½¢£¬¸Ã½¢»¹Ëæ´¬Ğ¯´øÁËÒ»¶ÓÏÈ½øÕ½¶·»ú£¨½¢¶ÓÖĞ½öÄÜ×°±¸Ò»ËÒ¸ÃÀàĞÍµÄÕ½½¢£©"
-Locale_ship[1440] = "°£ºÕÂåË¹¼ÎµÂ²É¿óÍ§"
-Locale_ship[1441] = "ÓµÓĞÓÅĞãÊÕ¼¯ÄÜÁ¦µÄ°£ºÕÂåË¹¼ÎµÂ²É¿óÍ§£¬Í¬Ê±»¹¿ÉÒÔ¸ßĞ§ÂÊĞŞ¸´´¬Ìå"
-Locale_ship[1442] = "ÂòÁËÕâËÒÌØÊâµÄ°£ºÕÂåË¹¼ÎµÂ²É¿óÍ§Ö®ºó,ÎÒ¸Ğ¾õ×Ô¼ºÕû¸öÈË¶¼±äµÃÃÈÃÈßÕ£¡"
-Locale_ship[1450] = "Ï£¸ñÀ­Àë×ÓÅÚ»¤ÎÀ½¢"
-Locale_ship[1451] = "Ï£¸ñÀ­ÈËµÄÒ»ÖÖÖ÷Á¦·´Ö÷Á¦ÎäÆ÷£¬¿ÉÒÔÇáËÉµÄ´İ»ÙµĞÈËµÄÑ²Ñó½¢ºÍÇıÖğ½¢¡£"
-Locale_ship[1460] = "·ÆÑÅÀûµÛ¹ú·À¿ÕÇıÖğ½¢"
-Locale_ship[1461] = "Ò»ÖÖÖÆÊ½·À¿ÕÇıÖğ½¢£¬¿ÉÒÔÓÃÀ´ÓĞĞ§µÄÇå³ıµĞÈËµÄÕ½¶·»úºÍÅÚÍ§¡£"
-Locale_ship[1470] = "Ï£¸ñÀ­È¨ÕÈ¼¶Ñ²Ñó½¢"
-Locale_ship[1471] = "Ï£¸ñÀ­µÄĞÂÈñÖĞ¼áÁ¦Á¿£¬¿ÉÒÔÓĞĞ§µÄ¶Ô¸¶»¤ÎÀ½¢ºÍÇıÖğ½¢"
-Locale_ship[1480] = "°£ºÕÂåË¹¼ÎµÂËºÁÑÕßÑ²Ñó½¢"
-Locale_ship[1481] = "Ò»ÖÖ¿ÉÒÔ¸ßĞ§ÂÊÇå³ıĞ¡ĞÍÕ½½¢µÄ°£ºÕÂåË¹¼ÎµÂÕ½½¢"
-Locale_ship[1490] = "ºìÁ«¼¶¹¥³ÇÑ²Ñó½¢"
-Locale_ship[1491] = "×°±¸ÁËºìÁ«¼¶³¬ÖØĞÍµ¼µ¯µÄ¹¥³ÇÑ²Ñó½¢£¬×¨ÃÅÓÃÀ´´İ»ÙµĞÈËµÄ´óĞÍÆì½¢ºÍ½¨ÖşµÄÌ«¿Õ½¨Öş"
-Locale_ship[1500] = "·½Õó¼¶µç´ÅÅÚÑ²Ñó½¢"
-Locale_ship[1501] = "×°±¸ÁËµç´Å¹ìµÀÅÚµÄ´óĞÍÑ²Ñó½¢£¬×¨ÃÅÓÃÀ´Ñ¹ÖÆµĞÈËµÄ´óĞÍÆì½¢µÄ½ø¹¥"
-Locale_ship[1510] = "°£ºÕÂåË¹¼ÎµÂ¾Ñ»÷½¢"
-Locale_ship[1511] = "Ç¿´óµÄÆì½¢É±ÊÖ£¬Ö»Òª×ã¹»ÊıÁ¿µÄ°£ºÕÂåË¹¼ÎµÂ¾Ñ»÷½¢³öÏÖÔÚÕ½³¡ÉÏ¾ÍÒâÎ¶×ÅµĞÈË´óĞÍÆì½¢µÄÔÖÄÑ"
-Locale_ship[1520] = "À­¸ñÄÉµÄ»ìĞ¡×Ó"
-Locale_ship[1521] = "Ò»ËÒÌØÖÖÕ½½¢£¬ÓµÓĞ¼«¸ßµÄËÙ¶ÈºÍ²»´íµÄÕ½¶·Á¦ºÍ²»Ğ¡µÄ»õ²Õ"
-Locale_ship[1530] = "Ô¶ĞĞÕß¼¶»õÔË½¢"
-Locale_ship[1531] = "ÌåĞÎÅÓ´óÓµÓĞ¼á¹Ì×°¼×µÄ¾ŞĞÍ»õ½¢£¬ËüÊÇ·ÆÑÅÀûµÛ¹úÌ«¿ÕÔËÊäÁ¦Á¿µÄÖ÷Á¦¡£"
-Locale_ship[1540] = "öÀ·ç¼¶¸ßËÙ×°¼×½¢"
-Locale_ship[1541] = "Ò»ÖÖÕ½ÁĞÑ²Ñó½¢´óĞ¡µÄ¸ßËÙ×°¼×½¢£¬ÓµÓĞÓÅĞãµÄÌøÔ¾ËÙ¶ÈºÍ³£¹æº½ĞĞµÄËÙ¶È£¬Í¬Ê±»¹ÓĞÁ¼ºÃµÄ·ºÓÃĞÔºÍ¾­¼Ã³É±¾¡£"
-Locale_ship[1550] = "ËÀÍöÖ®êª"
-Locale_ship[1551] = "ÑªÈĞ¼¶Õ½ÁĞ½¢µÄÌØÊâ¸ÄĞÍ£¬ÓµÓĞ×ã¹»Ç¿´óµÄÕ½¶·Á¦£¬Í¬Ê±»¹ÓĞ×ã¹»µÄ»õ²ÕÓÃÀ´×°ÔØ²¹¸øÎï×Ê¡£"
-Locale_ship[1560] = "ºÆ½Ù¼¶ÎŞÎ·½¢"
-Locale_ship[1561] = "×¨ÃÅÎªÁËÍ»ÆÆµĞÈË·ÀÏß¶øÉè¼ÆµÄ¾Ş´ó¸ÖÌú¹ÖÊŞ£¬ÓµÓĞ²»´íµÄËÙ¶ÈºÍ¼á¹ÌµÄ×°¼×ÒÔ¼°´óÈİÁ¿»õ²Õ£¬È±·¦·´Æì½¢ÎäÆ÷ÊÇ×î´óµÄÈ±µã"
-Locale_ship[1570] = "ÁúÇ¹½¢ÔØ»ú"
-Locale_ship[1571] = "µÛ¹úÆïÊ¿ÍÅ¸ß½×ÆïÊ¿µÄ×ù»ú£¬Ã¿Ò»¼Ü¶¼ÓµÓĞÄæÌìµÄÕ½¶·Á¦"
-Locale_ship[1580] = "ÒÀÎÄ½àÁÕºÅÕ½ÁĞ½¢"
-Locale_ship[1581] = "·ÆÑÅÀûµÛ¹úÆïÊ¿ÍÅÍÅ³¤µÄ×ù½¢£¬ÓµÓĞÇ¿´óµÄ¹¥·ÀÄÜÁ¦"
-Locale_ship[1590] = "ÈüÜ½Àò¶ûºÅÒªÈû½¢"
-Locale_ship[1591] = "°£ºÕÂåË¹¼ÎµÂµÛ¹úµÄ×îÇ¿´óÕ½½¢£¬¾İËµÒ»ËÒ¿ÉÒÔÆ¥µĞ2ËÒÒÔÉÏµÄÅ®»ÊºÅ¡£"
-Locale_ship[1600] = "Âí¿¨¶÷Ö®Å­2ĞÍ"
-Locale_ship[1601] = "¸ü¼ÓÇ¿´óµÄÎ¬¸ñ¶ûÕ½Õù±¤Àİ£¬ÓµÓĞÇáËÉ»ÙÃğÒ»Ö§½¢¶ÓµÄÊµÁ¦"
+Locale_ship[1000] = "Dust-class engineering craft"
+Locale_ship[1001] = "This newly emerged small engineering unit is rapidly gaining popularity among Imperial civilians and the military"
+Locale_ship[1005] = "Hiigara Mining Craft"
+Locale_ship[1006] = "A mining device commonly used by the Highras to mine ore in space again and also to repair warships (this unit can only be carried by larger hangars)"
+Locale_ship[1010] = "Vaygr mining ship"
+Locale_ship[1011] = "Mining equipment commonly used in Vaygr armies, can also be used to repair battleships (this unit can only be carried by larger hangars)"
+Locale_ship[1015] = "Alos mining vessel"
+Locale_ship[1016] = "A standard mining equipment of the Alos Empire, this mining ship is older in service"
+Locale_ship[1100] = "Moonshadow-class expedition ship"
+Locale_ship[1101] = "A civilian expedition ship specially developed by Lunar Ring Heavy Industries, with high speed and low consumption. The main defense weapon is the company's newly developed long-range ion beam \n designer: phantom skybreaker"
+Locale_ship[1150] = "Demon Girl Carrier"
+Locale_ship[1151] = "A giant mothership with powerful combat capabilities, a large cargo bay and powerful main gun, and the ability to produce its own goods and supplies (the ship can carry 5 industrial modules)"
+Locale_ship[1200] = "Key of Sayuk"
+Locale_ship[1201] = "An ancestral warship with a high-powered main gun, it is difficult to make a definitive determination of its class, but it is certain that the fleet has a strong combat capability"
+Locale_ship[1210] = "Guardian"
+Locale_ship[1211] = "An ancestor warship of the destroyer class"
+Locale_ship[1220] = "Xiongfeng fighter"
+Locale_ship[1221] = "A product of Ancestor technology, hard to destroy and powerful"
+Locale_ship[1250] = "Dodo Bomber"
+Locale_ship[1251] = "A strategic bomber designed to attack battleships, equipped with powerful plasma bombs. Requires a long energy storage drop after dropping the bomb (the unit can only be carried by larger hangars)"
+Locale_ship[1300] = "Voyage to the Dawn"
+Locale_ship[1301] = "An advanced warship copied from UNSC technology by the Alos Empire, with a powerful bow electromagnetic cannon and good combat power"
+Locale_ship[1305] = "Indras-class battleship"
+Locale_ship[1306] = "An up-and-coming battleship of the Alos Empire, with powerful electromagnetic cannon weapons.  "
+Locale_ship[1310] = "Shark-hunting class assault ship"
+Locale_ship[1311] = "The Vaygr's new modular warship with good range and enough combat power at a low cost"
+Locale_ship[1350] = "Hiigara shipborne attack aircraft"
+Locale_ship[1351] = "The Hiigara's standard ship-based aircraft that can effectively suppress small and medium-sized enemy warships. Can be moored on most ships with hangars"
+Locale_ship[1355] = "Peregrine Falcon"
+Locale_ship[1356] = "The flagship built for the VGR rebels that the Alos Empire received, it has considerable firepower and protection as a multipurpose warship and is capable of production."
+Locale_ship[1360] = "Cruise control ship"
+Locale_ship[1361] = "The Hilmeria, a proof ship built by the Alos Empire to test new equipment. Equipped with the latest plasma engines."
+Locale_ship[1365] = "Exile-class destroyer"
+Locale_ship[1366] = "An advanced multipurpose destroyer with powerful beam weapons that can effectively handle a variety of situations."
+Locale_ship[1370] = "Eraser"
+Locale_ship[1371] = "An advanced cruiser that is maneuverable and agile, with sustained firepower. The ship's advanced automatic repair system also allows it to repair damage quickly in combat"
+Locale_ship[1375] = "Dawn II class"
+Locale_ship[1376] = "Advanced battleship converted from a Fai'ri Heavy Industries heavy tactical ship, with powerful 3500 quadruple siege guns and heavy armor"
+Locale_ship[1380] = "Light Feather class support carrier"
+Locale_ship[1381] = "An ultralight carrier designed specifically for border patrol, it has very limited capacity and cargo holdings, its cheap cost and ability to carry small fleets for hyperspace jumps are its greatest advantages"
+Locale_ship[1385] = "Fai'ri Empress"
+Locale_ship[1386] = "The war ark of the Fai'ri Empire, with its powerful main cannon and indestructible armor. It is the spiritual symbol of the Fai'ri Empire. (Note that the Fai'ri Empress has extremely high supply requirements, and the ship will automatically leave the fleet once supplies are depleted and funds are exhausted)"
+Locale_ship[1390] = "Sharjah-class armored ship"
+Locale_ship[1391] = "A heavily armored heavy warship that can withstand heavy firepower, an upgraded version of the Giant Shield"
+Locale_ship[1395] = "Air Ranger MK3 assault ship"
+Locale_ship[1396] = "Small assault ship with good survivability, equipped with strafing guns and a large cargo bay"
+Locale_ship[1400] = "Sweeper-class battleship"
+Locale_ship[1401] = "Advanced battleship that can clear small battleships at high speed, with good offensive and defensive capabilities"
+Locale_ship[1405] = "Odin-class dreadnought"
+Locale_ship[1406] = "Advanced dreadnought with good facilities and great strength to fight alone"
+Locale_ship[1410] = "Fury of Makarn"
+Locale_ship[1411] = "Huge war fortress of the Vaygrs, some of the great Vaygr warlords agreed to sell it to Imperial merchants for enough profit"
+Locale_ship[1415] = "Eternal-class dreadnought"
+Locale_ship[1416] = "An advanced dreadnought made with reference to the technology of the Hierarchs, with a powerful main gun that can destroy all flagship-class units"
+Locale_ship[1420] = "Tesseract-class armored assault ship"
+Locale_ship[1421] = "Small, sturdy armored assault ship that can survive fierce enemy fire, but is clumsy"
+Locale_ship[1425] = "Starfighter"
+Locale_ship[1426] = "Elite advanced fighter, the Fai'ri Empire will only sell such advanced fighters to those who have made significant contributions to the Empire"
+Locale_ship[1430] = "Yewfang Battleship"
+Locale_ship[1431] = "An advanced battleship customized by an alien civilization in the Alos Empire, which also carries a fleet of advanced fighters with it (only one ship of this type can be equipped in the fleet)"
+Locale_ship[1440] = "Alos mining vessel"
+Locale_ship[1441] = "An Alos mining ship with excellent collection capabilities, as well as efficient hull repair"
+Locale_ship[1442] = "After buying this special Alos mining ship, I feel like I've become a whole new person!"
+Locale_ship[1450] = "Hiigara ion cannon frigate"
+Locale_ship[1451] = "One of the Hiigara's main anti-major weapons that can easily destroy enemy cruisers and destroyers."
+Locale_ship[1460] = "Fai'ri Imperial Anti-Air Destroyer"
+Locale_ship[1461] = "A standard anti-air destroyer that can be used to effectively remove enemy fighters and gunboats."
+Locale_ship[1470] = "Hiigara Scepter-class cruiser"
+Locale_ship[1471] = "Hiigara's newest midshipman, can be effective against frigates and destroyers"
+Locale_ship[1480] = "Alos ripper cruiser"
+Locale_ship[1481] = "An Alos warship that can efficiently remove small warships"
+Locale_ship[1490] = "Red Lotus-class siege cruiser"
+Locale_ship[1491] = "A siege cruiser equipped with Red Lotus-class super-heavy missiles, designed to destroy large enemy flagships and buildings in space architecture"
+Locale_ship[1500] = "Square-formation-class electromagnetic gun cruiser"
+Locale_ship[1501] = "Large cruiser equipped with electromagnetic railguns, designed to suppress attacks by large enemy flagships"
+Locale_ship[1510] = "Alos sniper ship"
+Locale_ship[1511] = "A powerful flagship killer, the presence of enough Alos sniper ships on the battlefield would mean disaster for large enemy flagships"
+Locale_ship[1520] = "Ragnar's bastard"
+Locale_ship[1521] = "A special warship with great speed and decent combat power and a decent cargo hold"
+Locale_ship[1530] = "A Farseer class freighter"
+Locale_ship[1531] = "A massive cargo ship with strong armor, it is the mainstay of the Fai'ri Empire's space transport force."
+Locale_ship[1540] = "Falconwind-class high-speed armored ship"
+Locale_ship[1541] = "A battlecruiser-sized, high-speed armored ship with excellent jump speed and regular sailing speed, along with good general availability and economic cost."
+Locale_ship[1550] = "Halberd of Death"
+Locale_ship[1551] = "A special variant of the Bloodblade-class battleship, with enough combat power, as well as enough cargo space to carry supplies."
+Locale_ship[1560] = "Havoc-class dreadnought"
+Locale_ship[1561] = "A huge steel monster designed to break through enemy lines, with good speed and solid armor and large cargo hold, lack of anti-flagship weapons is the biggest drawback"
+Locale_ship[1570] = "Dragon gun carrier"
+Locale_ship[1571] = "The seat of the high ranking knights of the Imperial Order, each one has an unbelievable combat power"
+Locale_ship[1580] = "The battleship Evangeline"
+Locale_ship[1581] = "The ship of the leader of the Imperial Order of Fai'ri with great offensive and defensive capabilities"
+Locale_ship[1590] = "Fortress ship Sevryll"
+Locale_ship[1591] = "The most powerful warship of the Alos Empire, one is said to rival more than 2 Empress ships."
+Locale_ship[1600] = "Makarn's Fury Type 2"
+Locale_ship[1601] = "An even more powerful Vaygr War Fortress, with the power to destroy a fleet with ease"
 --------------------------------------------
 
 
 
-Locale_ship[1605] = "¿¨À­¿ËÇıÖğ½¢"
-Locale_ship[1606] = "ÓµÓĞ¼á¹Ì×°¼×µÄÇıÖğ½¢£¬¿¨À­¿ËÈËÔÚ»Ø¹é¿¨À­¿ËÖ®ºó£¬Ò»Ö±ÔÚ¼á³ÖÊ¹ÓÃÕâ¿îÀÏ¾Éµ«ÊÇ¿É¿¿µÄÇıÖğ½¢½øĞĞÕ½¶·"
-Locale_ship[1610] = "¿¨À­¿ËÔËÔØ½¢"
-Locale_ship[1611] = "ÕâÖÖ¹ÅÀÏµÄÔËÔØ½¢ÓµÓĞ·Ç³£¼á¹ÌµÄ×°¼×£¬µ«ÊÇÔËÔØÄÜÁ¦ÂÔÓĞÇ·È±"
-Locale_ship[1615] = "¿¨À­¿ËÖØÑ²Ñó½¢"
-Locale_ship[1616] = "ÕâÖÖ×°¼×¼á¹ÌµÄÑ²Ñó½¢Ò»Ö±ÔÚ¿¨À­¿Ë½¢¶ÓÖĞ°çÑİÕßÖĞ¼áÁ¦Á¿µÄ½ÇÉ«"
-Locale_ship[1620] = "·ÅÖğ¼¶Õ½ÁĞ½¢"
-Locale_ship[1621] = "×°±¸ÁË¶àÁª×°¹â×ÓÂö³åÅÚµÄÖØ¼×Õ½ÁĞ½¢£¬ÓµÓĞ³Ö¾ÃµÄ×÷Õ½ÄÜÁ¦"
+Locale_ship[1605] = "Kharak destroyer"
+Locale_ship[1606] = "A destroyer with sturdy armor, the Kharak have stuck with this old but reliable destroyer in battle since their return to Kharak"
+Locale_ship[1610] = "Kharak Carrier Ship"
+Locale_ship[1611] = "This ancient carrier has very strong armor, but lacks a little carrying capacity"
+Locale_ship[1615] = "Kharak heavy cruiser"
+Locale_ship[1616] = "This heavily armored cruiser has always played a central role in the Kharak fleet"
+Locale_ship[1620] = "Exile-class battleship"
+Locale_ship[1621] = "A heavily armored battleship armed with multiple photon pulse cannons for long-lasting combat capability"
 
-Locale_ship[1620] = "·ÅÖğ¼¶Õ½ÁĞ½¢"
-Locale_ship[1621] = "×°±¸ÁË¶àÁª×°¹â×ÓÂö³åÅÚµÄÖØ¼×Õ½ÁĞ½¢£¬ÓµÓĞ³Ö¾ÃµÄ×÷Õ½ÄÜÁ¦"
+Locale_ship[1620] = "Exile-class battleship"
+Locale_ship[1621] = "A heavily armored battleship armed with multiple photon pulse cannons with sustained combat capability"
 
-Locale_ship[1622] = "Á÷ÀËºÅÕ½ÁĞ½¢"
-Locale_ship[1623] = "·ÅÖğ¼¶µÄ¶şºÅ½¢£¬ÓµÓĞ¶àÃÅµç´Å¹ìµÀÅÚ£¬Ç¿´óµÄ»ğÁ¦´ú¼ÛÊÇ´àÈõµÄ·ÀÓùºÍ½Ï²îµÄĞøº½"
+Locale_ship[1622] = "Battleship Wanderer"
+Locale_ship[1623] = "Second ship of the Exile class with multiple electromagnetic railguns, powerful firepower at the cost of weak defenses and poor endurance"
 
-Locale_ship[1625] = "±ÚÀİ¼¶ÎŞÎ·½¢"
-Locale_ship[1626] = "ÒÆ¶¯µÄÕ½Õù±¤Àİ£¬¿í´óµÄ´¢±¸¿Õ¼ä¿ÉÒÔÖ§³Ö³¤Ê±¼äµÄÑ²º½×÷Õ½"
-
-
-
-Locale_ship[1630] = "Ì©Ì¹ÇıÖğ½¢"
-Locale_ship[1631] = "ÕâÖÖÀÏÊ½ÇıÖğ½¢ÓµÓĞ¿É¿¿µÄĞÔÄÜ£¬¿ÉÒÔÊ¤ÈÎ´ó²¿·ÖÕ½¶·"
-
-Locale_ship[1635] = "Ì©Ì¹º½Ä¸"
-Locale_ship[1636] = "ÕâÖÖº½Ä¸ÔÚÌ©Ì¹½¢¶ÓÖĞ·şÒÛ¶àÄê£¬ÓµÓĞ½Ï´óµÄÔØ»úÁ¿ºÍ½Ï¸ßµÄº½ËÙ"
-
-Locale_ship[1640] = "Ì©Ì¹ÖØÑ²Ñó½¢"
-Locale_ship[1641] = "Ôø¾­³Æ°ÔÒøºÓµÄÒ»ÖÖ¹ÅÀÏÕ½½¢£¬ÏÖÔÚÒÀÈ»ÔÚÌ©Ì¹½¢¶ÓÖĞ°çÑİÖ÷Á¦½¢µÄ½ÇÉ«"
-
-Locale_ship[1645] = "ÅÁÀ­¶¡¼¶Õ½ÁĞ½¢"
-Locale_ship[1646] = "Ì©Ì¹ÈË×îĞÂ¿ª·¢µÄÕ½ÁĞ½¢£¬ÓµÓĞ¶àÃÅÀë×ÓÊøÅÚËş£¬³É±¾½ÏµÍ£¬º½ËÙ½Ï¿ì"
-Locale_ship[1649] = "ÁÔ±ø¼¶Ï®»÷½¢"
-Locale_ship[1650] = "ÁÔ±ø¼¶Ï®»÷½¢ÃñÓÃĞÍ"
-Locale_ship[1651] = "·ÆÑÅÀû¾ü·½ĞÂĞÍÏ®»÷½¢µÄÃñÓÃĞÍ£¬º½ËÙ½Ï¿ì£¬»õ²Ö¿Õ¼ä½Ï´ó£¬¿ÉÒÔÊ¤ÈÎÌ½ÏÕ£¬Õ½¶·µÈ¶àÖÖÈÎÎñ"
-
-Locale_ship[1652] = "ÁÔ±ø¼¶Ï®»÷½¢¾üÓÃĞÍ"
-Locale_ship[1653] = "Õ½¶·Á¦Ç¿º·µÄ¾üÓÃĞÍSR6ÁÔ±ø¼¶Ï®»÷½¢£¬ÈÃËüÔÚÕ½¶·Á¦ÉÏ¿ÉÒÔºÍÕ½ÁĞÑ²Ñó½¢Æ¥µĞ£¬µ«ÊÇÔØ»õÄÜÁ¦ÓĞËù¼õĞ¡£¬"
-
-Locale_ship[165202] = "ÁÔ±ø¼¶Ï®»÷½¢Ö¸»ÓĞÍ"
-Locale_ship[165302] = "Õ½¶·Á¦Ç¿º·µÄÖ¸»ÓĞÍSR6ÁÔ±ø¼¶Ï®»÷½¢£¨¿´ÎÒÑÛÉ«ĞĞÊÂ£©£¬ÔÚÕ½¶·Á¦ÉÏ¿ÉÒÔºÍÕ½ÁĞÑ²Ñó½¢Æ¥µĞ£¬µ«ÊÇÔØ»õÄÜÁ¦ÓĞËù¼õĞ¡£¬"
+Locale_ship[1625] = "Barrier-class dreadnought"
+Locale_ship[1626] = "A mobile war fortress with generous reserve space to support long cruise operations"
 
 
 
+Locale_ship[1630] = "Titan destroyer"
+Locale_ship[1631] = "This vintage destroyer has reliable performance and can handle most battles"
 
-Locale_ship[1655] = "¿¨À­¿ËÖØÅÚÍ§"
-Locale_ship[1656] = "ÓµÓĞºñÖØ×°¼×µÄÖØĞÍÅÚÍ§£¬¿ÉÒÔÔÚÕ½¶·ÖĞ³¤Ê±¼äÉú´æ¡££¬"
+Locale_ship[1635] = "Titan Aircraft Carrier"
+Locale_ship[1636] = "This carrier has served in the Titan fleet for many years, and has a large cargo capacity and high speed"
 
-Locale_ship[1660] = "Ì©Ì¹ÖØÅÚÍ§"
-Locale_ship[1661] = "ÓµÓĞÇ¿º·»ğÁ¦µÄÖØĞÍÅÚÍ§£¬¿ÉÒÔ¸ßĞ§ÂÊµÄ¼ßÃğµĞÈËµÄ¿ÕÖĞµ¥Î»¡££¬"
+Locale_ship[1640] = "Titan heavy cruiser"
+Locale_ship[1641] = "An ancient warship that once dominated the galaxy and still plays a major role in the Titan fleet"
+
+Locale_ship[1645] = "Paladin-class battleship"
+Locale_ship[1646] = "The latest battleship developed by the Titans, with multiple ion beam turrets, lower cost and faster speed"
+Locale_ship[1649] = "Hunter-class assault ship"
+Locale_ship[1650] = "Hunter-class assault ship civilian version"
+Locale_ship[1651] = "A civilian version of the Fai'ri military's new raid ship, with a faster speed and more cargo space, capable of a variety of missions such as exploration and combat"
+
+Locale_ship[1652] = "Military version of the hunter class raider"
+Locale_ship[1653] = "A military version of the SR6 hunter-class assault ship, which can rival battlecruisers in terms of combat power, but with reduced cargo capacity,"
+
+Locale_ship[165202] = "A hunter-class assault ship command type"
+Locale_ship[165302] = "A command type SR6 hunter raider (look me in the eye) that is a match for a battlecruiser in terms of combat power, but has a reduced cargo capacity,"
 
 
 
-Locale_ship[1665] = "¿¨À­¿Ë»¤º½»ú"
-Locale_ship[1666] = "ÓµÓĞºñÖØ×°¼×µÄ»¤º½»ú£¬¿ÉÒÔÔÚ´óĞÍ½¢´¬ÖÜÎ§¸ßĞ§ÂÊµÄ¼ßÃğµĞÈË¿ÕÖĞµ¥Î»"
+
+Locale_ship[1655] = "Kharak heavy gunboat"
+Locale_ship[1656] = "A heavy gunboat with heavy armor that can survive long periods of time in combat. ,"
+
+Locale_ship[1660] = "Titan heavy gunboat"
+Locale_ship[1661] = "A heavy gunboat with strong firepower that can efficiently annihilate enemy air units. ,"
 
 
-Locale_ship[1670] = "Í¼À­ÄáÔËÔØ½¢"
-Locale_ship[1671] = "ÕâÖÖ×¨ÃÅ¸Ä×°µÄº£µÁÔËÔØ½¢ÓµÓĞÑ²Ñó½¢µÄ»ğÁ¦ºÍº½Ä¸µÄÔØ»úÄÜÁ¦£¬ºÍÍ¼À­ÄáÈË¹ØÏµ·ËÇ³µÄÌ©Ì¹ÈËÒ²»á³öÊÛÕâÖÖÕ½½¢"
 
-Locale_ship[1675] = "·ı»ñµÄ¿¨µÂÊ²ÔÆÄ¸"
-Locale_ship[1676] = "Ò»ÖÖÓµÓĞÇ¿´óÔØ»úÄÜÁ¦ºÍ¹âÊøÖ÷ÅÚµÄ¾Ş´óÄ¸½¢£¬¿¨À­¿ËÈË½«Æä·ı»ñºó¹«¿ª³öÊÛÒÔ»»È¡×ÊÔ´ºÍÎï×Ê"
+Locale_ship[1665] = "Kharak escort aircraft"
+Locale_ship[1666] = "Escort aircraft with heavy armor that can annihilate enemy air units around large ships with high efficiency"
+
+
+Locale_ship[1670] = "Turani carrier"
+Locale_ship[1671] = "This specially modified pirate carrier has the firepower of a cruiser and the aircraft-carrying capacity of a carrier, and is sold by the Titans, who have strong ties with the Turani"
+
+Locale_ship[1675] = "Captured Kadesh Mica"
+Locale_ship[1676] = "A huge mothership with great aircraft capacity and beam main guns, captured by the Kharak and sold openly for resources and supplies"
 
 
 
 --------------------------------------------
-Locale_ship[1685] = "SV51³¬¼¶½¢ÔØ»ú"  --125
-Locale_ship[1686] = "Ò»ÖÖ³¬ÏÈ½øµÄÕ½¶·»ú£¬ËüµÄÉè¼Æ·½ÊÇÒ»¸öÃÔ"
-Locale_ship[1695] = "VF25³¬¼¶Õ½¶·»ú"  --126
-Locale_ship[1696] = "ÓµÓĞÇ¿´óĞÔÄÜµÄ×ÛºÏĞÍÕ½¶·»ú"
-Locale_ship[1705] = "¿¥ÆïºÅÉøÍ¸»¤ÎÀ½¢"  --127
-Locale_ship[1706] = "×°±¸ÁË4×ùĞ¡¿Ú¾¶ËÙÉäÅÚºÍÀë×Ó¹âÊøµÄ¸ßËÙ»¤ÎÀ½¢"
-Locale_ship[1715] = "ÆÆÏş3ĞÍÕ½ÁĞ½¢"  --128
-Locale_ship[1716] = "×°±¸ÓĞ2×ùËÄÁª×°µç´Å¹ìµÀÅÚµÄÏÈ½øÕ½ÁĞ½¢"
-Locale_ship[1725] = "À×ÁéºÅÕ½ÁĞ½¢"  --129
-Locale_ship[1726] = "À×öªÆïÊ¿Óù°æÓù°æµÄ×ù½¢"
+Locale_ship[1685] = "SV51 supercarrier" --125
+Locale_ship[1686] = "A super-advanced fighter whose designer is a mystery"
+Locale_ship[1695] = "VF25 Superfighter" --126
+Locale_ship[1696] = "An all-around fighter with great performance"
+Locale_ship[1705] = "Surgeon infiltration frigate" --127
+Locale_ship[1706] = "High-speed frigate equipped with four small-caliber rapid-fire guns and ion beam"
+Locale_ship[1715] = "Dawn 3 battleship" --128
+Locale_ship[1716] = "Advanced battleship armed with 2 quadruple electromagnetic railguns"
+Locale_ship[1725] = "Battleship Leylin" --129
+Locale_ship[1726] = "Thunder Knight Imperial Edition's seat ship"
 
-Locale_ship[1735] = "Ë÷ÍĞÑÇ¼¶³¬¼¶×°¼×º½Ä¸"  --130
-Locale_ship[1736] = "ÓµÓĞ³¬´ó½¢ÔØ»úÈİÁ¿µÄ¾ŞĞÍ×°¼×º½Ä¸£¬¼á¹ÌµÄ×°¼×¿ÉÒÔµÖµ²Ò»ÇĞ¹¥»÷£¬»ú¿âÈİÁ¿£º150¶Ó"
-Locale_ship[1745] = "¾«Ó¢ĞÍË÷ÍĞÑÇ¼¶³¬¼¶×°¼×º½Ä¸"  --131
-Locale_ship[1746] = "×°±¸ÁË8×ùµç´Å¹ìµÀÅÚºÍ¸üÇ¿´ó×°¼×µÄË÷ÍĞÑÇ³¬¼¶º½Ä¸£¬»ú¿âÈİÁ¿£º150¶Ó"
-Locale_ship[1755] = "½Ù»ğ¼¶Ï®»÷½¢"  --132
-Locale_ship[1756] = "ÓÉµÚÈı´úÀ«ÈĞ¼¶Õ½ÁĞÑ²Ñó½¢¸ÄÁ¼À´µÄÏÈ½øÏ®»÷½¢£¬ÓµÓĞºñÖØµÄ×°¼×ºÍ½ô´ÕµÄÌåĞÍ"
-Locale_ship[1765] = "À«ÈĞ3×°¼×ĞÍ"  --133
-Locale_ship[1766] = "À«ÈĞ3¼¶Õ½ÁĞÑ²Ñó½¢¸ÄÁ¼À´µÄ×°¼×½¢£¬ÓµÓĞºñÖØµÄ¶¥²¿×°¼×ºÍ·´Æì½¢¹âÊø"
-Locale_ship[1775] = "À«ÈĞ3ĞÍÕ½ÁĞÑ²Ñó½¢"  --134
-Locale_ship[1776] = "µÚÈı´úµÄÀ«ÈĞ¼¶Õ½ÁĞÑ²Ñó½¢£¬ÓµÓĞ¸ü´óµÄÌåĞÍºÍ¸üÎÈ¶¨µÄÕ½¶·Á¦"
+Locale_ship[1735] = "Sotoya-class super armored carrier" --130
+Locale_ship[1736] = "Giant armored carrier with large carrier capacity, strong armor to withstand all attacks, hangar capacity: 150 teams"
+Locale_ship[1745] = "Elite Sotoya-class super armored carrier" --131
+Locale_ship[1746] = "Sotoya supercarrier with 8 electromagnetic railguns and more powerful armor, hangar capacity: 150 teams"
+Locale_ship[1755] = "Firejack class assault ship" --132
+Locale_ship[1756] = "Advanced assault ship from the third generation of Broadblade class battlecruisers, with heavy armor and compact size"
+Locale_ship[1765] = "Broadblade 3 armor type" --133
+Locale_ship[1766] = "A modified armor ship from the Broadblade 3 class of battlecruisers, with heavy top armor and anti-flagship beams"
+Locale_ship[1775] = "Broadblade 3 battlecruiser" --134
+Locale_ship[1776] = "Third generation of the Broadblade-class battlecruisers, with a larger size and more stable combat power"
 --------------
-Locale_ship[1785] = "ĞÇ³¾¼¶ÇıÖğ½¢"  --135
-Locale_ship[1786] = "ÓµÓĞ¿ÉÅÂ·À¿ÕÄÜÁ¦µÄÏÈ½øÇıÖğ½¢£¬Ç¿´óµÄ·À¿Õµ¯Ä»¿ÉÒÔÇáËÉÉ¨µ´Ò»ÇĞÕ½¶·»úºÍĞ¡ĞÍÕ½½¢"
-Locale_ship[1795] = "ĞÇ³¾¼¶ÇıÖğ½¢·À¿ÕĞÍ"  --136
-Locale_ship[1796] = "×°±¸ÁË¸ü¶à57ºÁÃ×·À¿Õµ¯Ä»µÄ·À¿ÕĞÍĞÇ³¾¼¶ÇıÖğ½¢"
-Locale_ship[1805] = "Ğé¿Õ¼¶ÎŞÎ·½¢"  --137
-Locale_ship[1806] = "ÓµÓĞ8×ùË«Áª×°3500¾ŞÅÚµÄ´óĞÍÎŞÎ·½¢£¬¿ÉÅÂµÄ3500ºÁÃ×¾ŞÅÚµ¯Ä»¿ÉÒÔ´İ»ÙÒ»ÇĞ¶ÔÊÖ"
-Locale_ship[1815] = "Ğé¿Õ¼¶ÎŞÎ·½¢¾«Ó¢ĞÍ"  --138
-Locale_ship[1816] = "¾«Ó¢ĞÍµÄĞé¿Õ¼¶ÎŞÎ·½¢£¬ÓµÓĞ¸ü¼á¹ÌµÄ×°¼×¿ÉÒÔµÖÓù¹¥»÷"
-Locale_ship[1825] = "°µÒ¹Å®Éñ¼¶ÎŞÎ·½¢"  --139
-Locale_ship[1826] = "¶à·½ÊÆÁ¦ÁªºÏ³ö×ÊÖÆÔìµÄÒ»ËÒÏÈ½øÎŞÎ·½¢£¬ÓµÓĞÈ«·½Î»µÄÕ½¶·Á¦"
+Locale_ship[1785] = "Stardust-class destroyer" --135
+Locale_ship[1786] = "An advanced destroyer with terrific anti-aircraft capabilities, its powerful anti-aircraft barrage can easily sweep away all fighters and small warships"
+Locale_ship[1795] = "Stardust-class destroyer anti-aircraft type" --136
+Locale_ship[1796] = "Anti-aircraft Stardust-class destroyer with more 57mm anti-aircraft barrage"
+Locale_ship[1805] = "Void-class dreadnought" --137
+Locale_ship[1806] = "A large dreadnought with eight twin 3500 cannons and a fearsome 3500mm barrage that can destroy all opponents"
+Locale_ship[1815] = "Void-class dreadnought elite" --138
+Locale_ship[1816] = "Elite Void-class dreadnought with stronger armor to withstand attacks"
+Locale_ship[1825] = "Dark Goddess-class dreadnought" --139
+Locale_ship[1826] = "An advanced dreadnought jointly funded by multiple powers with full combat capabilities"
 
-Locale_ship[1835] = "¹â»ÔÅ®Éñ¼¶ÎŞÎ·½¢"  --140
-Locale_ship[1836] = "°µÒ¹Å®Éñ¼¶ÎŞÎ·½¢ÓÉµÛ¹ú¾ü·½×¨ÃÅ¸ÄÔìµÄÌØÊâ¸Ä½øĞÍ£¬ÓµÓĞ¸üÇ¿´óµÄÕ½¶·Á¦"
-Locale_ship[1845] = "ºÚÃ¨¼¶¹¤³Ì½¢"  --141
-Locale_ship[1846] = "ÓµÓĞÏÈ½øÔ¶³ÌĞŞÀíÄÜÁ¦µÄÕ½ÁĞÑ²Ñó½¢¼¶¹¤³Ì½¢"
-Locale_ship[1855] = "À×Ãù¼¶¾Ñ»÷½¢"  --142
-Locale_ship[1856] = "»¤ÎÀ½¢¼¶µÄ¹âÊø¾Ñ»÷½¢£¬¿ÉÒÔÓĞĞ§µÄ·´ÖÆ¶Ô·½µÄ´óĞÍÆì½¢"
-Locale_ship[1865] = "ÓÀºã2¼¶Õ½Õù±¤Àİ"  --143
-Locale_ship[1866] = "µÚÒ»´úÓÀºã¼¶ÎŞÎ·½¢µÄÀ©´óÇ¿»¯°æ£¬ÓµÓĞ¸üÇ¿´óµÄÉú´æÁ¦ºÍ¸üºñÖØµÄ×°¼×"
-Locale_ship[1875] = "Ê¥ÓòºÅÕ½Õù±¤Àİ"  --144
-Locale_ship[1876] = "ÒÏ³²½¢¶ÓÌØÓĞµÄ¾«Ó¢Õ½Õù±¤Àİ£¬ÓµÓĞ¸üºñÖØµÄ×°¼×À´µÖµ²¹¥»÷"
-
---------------
-Locale_ship[1885] = "ÉóÅĞÍ¥ºÅÕ½Õù±¤Àİ"  --145
-Locale_ship[1886] = "ÓÀºã2Õ½Õù±¤ÀİµÄÌØÊâ¸Ä½øĞÍÖ®Ò»£¬ÓµÓĞ¸üÇ¿´óµÄ×°¼×ºÍ¿¸´ò»÷Á¦"
-Locale_ship[1895] = "Å®»ÊÖ®´¸"  --146
-Locale_ship[1896] = "ÓÀºã2¼¶Õ½Õù±¤ÀİµÄ¸Ä½øĞÍ£¬³¬¼¶¹âÊøÖ÷ÅÚ±»Ìæ»»³ÉÒ»ÃÅÍşÁ¦³¬Ç¿µÄ5300¼ÓÅ©ÅÚ"
-Locale_ship[1905] = "µÚÈı´úÅ®»Ê¼¶Õ½Õù±¤Àİ"  --147
-Locale_ship[1906] = "ÖØĞÂ·­ĞÂ¹ıµÄµÚÈı´úÅ®»Ê¼¶Õ½Õù±¤Àİ£¬ËäÈ»Éè¼ÆÒÑ¾­¹ıÊ±£¬µ«ÊÇÒÀÈ»ÓµÓĞ²»¿ÉĞ¡ÊÓµÄÕ½¶·Á¦"
-Locale_ship[1915] = "É¯À­-´ï¶û¿ËºÅ"  --148
-Locale_ship[1916] = "ÌØÊâ¸Ä½øµÄµÚÈı´úÅ®»Ê¼¶Õ½Õù±¤Àİ£¬ÒÔÄ³Î»µÛ¹ú¸ß¼¶Ö¸»Ó¹Ù°®ÆŞµÄÃû×ÖÃüÃû"
-Locale_ship[1925] = "¿ËÀÙÑÅ-´ï¶û¿ËºÅ"  --149¿ËÀÙÑÅ-´ï¶û¿ËºÅ
-Locale_ship[1926] = "ÌØÊâ¸Ä½øµÄµÚÈı´úÅ®»Ê¼¶Õ½Õù±¤Àİ£¬ÒÔÄ³Î»µÛ¹ú¸ß¼¶Ö¸»Ó¹Ù°®ÆŞµÄÃû×ÖÃüÃû"
-
-Locale_ship[1935] = "³¯Ê¥Õß¼¶³¬¼¶º½Ä¸"  --150
-Locale_ship[1936] = "³¯Ê¥ÕßÂÃÍÅµÄ³¬¼¶Ä¸½¢£¬´îÔØÁËÏÈ½øµÄÔìÎï±øÆ÷"
-Locale_ship[1945] = "µÚÈı´úÂí¿¨¶÷Ö®Å­¾Ş½¢"  --151
-Locale_ship[1946] = "Î¬¸ñ¶ûÈË×îĞÂÒ»´úµÄÕ½Õù±¤Àİ£¬ÓµÓĞ×îÇ¿´óµÄÕ½¶·Á¦"
-Locale_ship[1955] = "À×öª½¢ÔØ»ú"  --152
-Locale_ship[1956] = "Óù°æÓù°æÆïÊ¿µÄ³¬¼¶½¢ÔØ»ú£¬ÓµÓĞÇ¿´óµÄ»úÔØ·´Æì½¢µç´ÅÖ÷ÅÚ"
-Locale_ship[1965] = "¹âÔÎ³¬¼¶½¢ÔØ»ú"  --153
-Locale_ship[1966] = "¹âÔÎÆïÊ¿µÄ³¬¼¶½¢ÔØ»ú£¬Ç¿´óµÄ¸¡ÓÎÅÚÈº¿ÉÒÔÕ½Ê¤Ò»ÇĞ¶ÔÊÖ"
-Locale_ship[1975] = "ÉóÅĞÖ®½£ºÅ³¬¼¶½¢ÔØ»ú"  --154
-Locale_ship[1976] = "¹âÔÎ½¢ÔØ»úµÄÌØÊâ¸Ä½øĞÍ£¬×¨ÃÅÎªµÛ¹úÉóÅĞ³¤×¼±¸"
-
+Locale_ship[1835] = "Glory Goddess Dreadnought" -- 140
+Locale_ship[1836] = "A specially modified version of the Dark Goddess Dreadnought specially modified by the Imperial military to have a more powerful combat capability"
+Locale_ship[1845] = "Black Cat class engineering ship" --141
+Locale_ship[1846] = "Battlecruiser-class engineering ship with advanced long-range repair capabilities"
+Locale_ship[1855] = "Thunderbolt-class sniper ship" --142
+Locale_ship[1856] = "Frigate-class beam sniper ship that can effectively counter opposing large flagships"
+Locale_ship[1865] = "Eternal 2 class war fortress" --143
+Locale_ship[1866] = "An expanded and enhanced version of the first generation Eternal-class dreadnought, with greater survivability and heavier armor"
+Locale_ship[1875] = "War Fortress of the Sanctuary" --144
+Locale_ship[1876] = "An elite war fortress unique to the Anthem fleet, with heavier armor to withstand attacks"
 
 --------------
-Locale_ship[1985] = "³¬¼¶½¢ÔØ»úÊ¥²Ã"  --155
-Locale_ship[1986] = "ÓµÓĞÏÈ½ø´©¼×Ö÷ÅÚµÄ³¬¼¶½¢ÔØ»ú£¬ºñÖØµÄ×°¼×¿ÉÒÔµÖÓù¸÷ÖÖÉËº¦"
-Locale_ship[1995] = "²Ã¾ö½¢ÔØ»ú"  --156
-Locale_ship[1996] = "Ê¥²Ã½¢ÔØ»úµÄÁ¿²ú°æ£¬ÓÃÀ´Ìæ»»ÀÏ¾ÉµÄÁúÓ¥½¢ÔØ»ú"
-Locale_ship[2005] = "·ÉÁú³¬ÖØĞÍºäÕ¨»ú"  --157
-Locale_ship[2006] = "×°±¸ÁË³¬ÖØĞÍ·´Æì½¢·Éµ¯µÄ³¬ÖØĞÍºäÕ¨»ú£¬Ò»´ÎÍ¶ÉäºóĞèÒª·µº½×°Ìî"
-Locale_ship[2015] = "ÖÕÑÉÖ®¼¬³¬¼¶Õ½¶·»ú"  --158
-Locale_ship[2016] = "ÓµÓĞ³¬¼¶¹âÊøÖ÷ÅÚºÍ³¬¼¶»úÅÚµÄ³¬ÖØĞÍÕ½¶·»ú"
-Locale_ship[2025] = "°Ú¶ÉÈËÖØĞÍºäÕ¨»ú"  --159
-Locale_ship[2026] = "×°±¸ÓĞÊıßãÖØĞÍ·´Æì½¢µ¼µ¯µÄÖØĞÍºäÕ¨»ú£¬¿ÉÒÔÇáËÉ´İ»Ù¶Ô·½µÄÆì½¢"
+Locale_ship[1885] = "War Fortress of the Inquisitorial Court" --145
+Locale_ship[1886] = "One of the special improvements to the Eternal 2 War Fortress, with stronger armor and blow carrying power"
+Locale_ship[1895] = "Hammer of the Empress" --146
+Locale_ship[1896] = "An improved version of the Eternal 2 War Fortress, with the Super Beam main cannon replaced with a super-powerful 5300 cannon"
+Locale_ship[1905] = "Third generation Queen-class War Fortress" --147
+Locale_ship[1906] = "A refurbished third-generation Queen's War Fortress, with an obsolete design, but still with significant combat power"
+Locale_ship[1915] = "USS Sarah Dahlke" -- 148
+Locale_ship[1916] = "Specially improved third-generation Empress-class war fortress named after the beloved wife of a senior Imperial commander"
+Locale_ship[1925] = "Kleya Dahlke" --149 Kleya Dahlke
+Locale_ship[1926] = "Specially improved third-generation Empress-class war fortress named after the beloved wife of a high-ranking Imperial commander"
 
-Locale_ship[2035] = "Ñ³µÀÕßÕ½¶·»ú"  --160
-Locale_ship[2036] = "³¯Ê¥ÕßÂÃÍÅµÄ×î»ù´¡½¢ÔØ»úµ¥Î»£¬ÒÀ¿¿ÊıÁ¿Ñ¹ÖÆµĞÈË"
-Locale_ship[2045] = "Ñ³µÀÕßºäÕ¨»ú"  --161
-Locale_ship[2046] = "³¯Ê¥ÕßÂÃÍÅµÄ×î»ù´¡½¢ÔØºäÕ¨»úµ¥Î»£¬ÒÀ¿¿ÊıÁ¿Ñ¹ÖÆµĞÈË"
-Locale_ship[2055] = "Ì«¿ÕÃñÓÃÆû³µ01"  --162
-Locale_ship[2056] = "Ò»ÖÖ×î»ù´¡µÄÃñÓÃÆû³µ£¬µÛ¹úÆ½ÃñÈÕ³£½»Í¨ËùÊ¹ÓÃ¡£"
-Locale_ship[2065] = "Ì«¿ÕÃñÓÃÆû³µ02"  --163
-Locale_ship[2066] = "Ò»ÖÖ×î»ù´¡µÄÃñÓÃÆû³µ£¬µÛ¹úÆ½ÃñÈÕ³£½»Í¨ËùÊ¹ÓÃ¡£"
-Locale_ship[2075] = "Ì«¿ÕÃñÓÃ¿¨³µ01"  --164
-Locale_ship[2076] = "ÓµÓĞ»ù´¡ÔËÔØÄÜÁ¦µÄÃñÓÃ¿¨³µ"
+Locale_ship[1935] = "Pilgrim-class supercarrier" -- 150
+Locale_ship[1936] = "Pilgrim Brigade supercarrier, carrying advanced artifact-building weaponry"
+Locale_ship[1945] = "Third generation Makarn's Wrath megaship" -- 151
+Locale_ship[1946] = "The latest generation of the Vaygr's war fortress, with the most powerful combat capabilities"
+Locale_ship[1955] = "Thunderbolt carrier" --152
+Locale_ship[1956] = "Imperial version of the Imperial Edition Knight's supercarrier with powerful on-board anti-flagship electromagnetic main cannon"
+Locale_ship[1965] = "Halo supercarrier" --153
+Locale_ship[1966] = "Halo Knight's supercarrier with a powerful floating cannon swarm that can defeat all opponents"
+Locale_ship[1975] = "Supercarrier of the Sword of Judgment" -- 154
+Locale_ship[1976] = "A special improved version of the Halo carrier plane, specially prepared for the Imperial Inquisitor"
+
 
 --------------
-Locale_ship[2085] = "Ì«¿ÕÃñÓÃ¿¨³µ02"  --165
-Locale_ship[2086] = "ÓµÓĞ»ù´¡ÔËÔØÄÜÁ¦µÄÃñÓÃ¿¨³µ"
-Locale_ship[2095] = "ÃñÓÃ²É¿ó²µ´¬"  --166
-Locale_ship[2096] = "ÓµÓĞ½ÏÇ¿ÔËÔØÄÜÁ¦µÄ´óĞÍ²É¿ó²µ´¬£¬ÊÇÃñÓÃ»õÔË´¬Ö»ÖĞµÄÖ÷Á¦"
-Locale_ship[2105] = "µÚÁù´úÅ®»Ê¼¶AĞÍ"  --167
-Locale_ship[2106] = "×îĞÂÒ»´úµÄÅ®»Ê¼¶£¬×°±¸ÁË9×ù3Áª×°4800¾ŞÅÚµÄ³¬¼¶¾Ş½¢£¬ÓµÓĞ¿ÉÅÂµÄÕ½¶·Á¦"
-Locale_ship[2115] = "µÚÁù´úÅ®»Ê¼¶BĞÍ"  --168
-Locale_ship[2116] = "×îĞÂÒ»´úµÄÅ®»Ê¼¶£¬×°±¸ÁË9×ù3Áª×°Æì½¢¼¶¹âÊøÖ÷ÅÚ£¬ÓµÓĞ¿ÉÅÂµÄÕ½¶·Á¦"
-Locale_ship[2125] = "µÚÁù´úÅ®»Ê¼¶CĞÍ"  --169
-Locale_ship[2126] = "×îĞÂÒ»´úµÄÅ®»Ê¼¶£¬×°±¸ÁË5×ù3Áª×°4800¾ŞÅÚºÍ³¬ÖØĞÍñ·¼×µÄ³¬¼¶¾Ş½¢£¬ÓµÓĞ¿ÉÅÂµÄÕ½¶·Á¦ºÍ·ÀÓùÁ¦"
+Locale_ship[1985] = "Supercarrier Holy Cut" --155
+Locale_ship[1986] = "Supercarrier with an advanced armor-piercing main gun and heavy armor to withstand all kinds of damage"
+Locale_ship[1995] = "Ruling ship carrier" -- 156
+Locale_ship[1996] = "A mass-produced version of the Holy Ruler carrier aircraft, used to replace the older Dragonhawk carrier aircraft"
+Locale_ship[2005] = "Flying Dragon Super Heavy Bomber" --157
+Locale_ship[2006] = "Super-heavy bomber equipped with super-heavy anti-flagship missiles that require return reloads after a single drop"
+Locale_ship[2015] = "Final Thorn super fighter" --158
+Locale_ship[2016] = "Super heavy fighter with super beam main cannon and super machine gun"
+Locale_ship[2025] = "Pendulum Heavy Bomber" -- 159
+Locale_ship[2026] = "A heavy bomber equipped with several baa heavy anti-flagship missiles that can easily destroy the opponent's flagship"
 
-Locale_ship[2135] = "³¤Ã¬ºäÕ¨»ú"  --170
-Locale_ship[2136] = "×°±¸ÁËÁ½¿Å·´Æì½¢·Éµ¯µÄÖØĞÍºäÕ¨»ú£¬ÓµÓĞ¿ËÖÆ¶Ô·½Æì½¢µÄÄÜÁ¦"
-Locale_ship[2145] = "³¤Ã¬¹¥»÷»ú"  --171
-Locale_ship[2146] = "×°±¸ÁËÁ½×ù·´Ö÷Á¦½¢µ¼µ¯·¢ÉäÕóÁĞµÄÖØĞÍ¹¥»÷»ú£¬ÓµÓĞ¿ËÖÆ¶Ô·½Ö÷Á¦½¢µÄÄÜÁ¦"
-Locale_ship[2155] = "³¤Ã¬½Ø»÷»ú"  --172
-Locale_ship[2156] = "×°±¸ÁËÁ½×ùÖØĞÍ»úÅÚµÄÖØĞÍ½Ø»÷»ú£¬¿ÉÒÔÈ·±£µÛ¹ú½¢¶ÓµÄÖÆ¿ÕÈ¨"
+Locale_ship[2035] = "Martyr Fighter" --160
+Locale_ship[2036] = "The most basic ship-based unit of the Pilgrim Brigade, relying on numbers to overwhelm the enemy"
+Locale_ship[2045] = "Martyr Bomber" --161
+Locale_ship[2046] = "The most basic ship-based bomber unit of the Pilgrim Brigade, relying on numbers to overwhelm the enemy"
+Locale_ship[2055] = "Space Civilian Vehicle 01" --162
+Locale_ship[2056] = "One of the most basic civilian vehicles, used by Imperial civilians for daily transportation."
+Locale_ship[2065] = "Space Civilian Vehicle 02" --163
+Locale_ship[2066] = "A civilian vehicle of the most basic type, used by Imperial civilians for daily transportation."
+Locale_ship[2075] = "Space Civilian Truck 01" --164
+Locale_ship[2076] = "A civilian truck with basic carrying capacity"
 
+--------------
+Locale_ship[2085] = "Space Civilian Truck 02" --165
+Locale_ship[2086] = "Civilian truck with base capacity"
+Locale_ship[2095] = "Civilian Mining Barge" --166
+Locale_ship[2096] = "Large mining barges with high carrying capacity, the mainstay of civilian cargo ships"
+Locale_ship[2105] = "Sixth generation Queen Class A" --167
+Locale_ship[2106] = "The newest generation of the Empress class, a super ship with nine triple 4800 cannons and a formidable combat power"
+Locale_ship[2115] = "The sixth generation of Empress B" --168
+Locale_ship[2116] = "The newest generation of the Empress class, equipped with nine 3-cell flagship beam cannons, has a formidable combat power"
+Locale_ship[2125] = "Sixth-generation Empress Class C" --169
+Locale_ship[2126] = "The newest generation of the Empress class, a super ship with five 3-mounted 4800 cannons and super heavy dome armor, with terrific combat and defense power"
 
+Locale_ship[2135] = "Lance Bomber" --170
+Locale_ship[2136] = "Heavy bomber equipped with two anti-flagship missiles, with the ability to restrain the opponent's flagship"
+Locale_ship[2145] = "Spear attacker" --171
+Locale_ship[2146] = "Heavy attack aircraft equipped with two anti-flagship missile arrays, with the ability to restrain the opponent's battleship"
+Locale_ship[2155] = "Lance interceptor" --172
+Locale_ship[2156] = "A heavy interceptor equipped with two heavy cannons to ensure air control of the Imperial fleet"
 
 
 
-Locale_ship[10000] = "»ù±¾ĞÍ"
 
-Locale_ship[10005] = "·À¿ÕĞÍ"
-Locale_ship[10010] = "¹¤³ÌĞÍ"
-Locale_ship[10011] = "ÓµÓĞĞŞÀíÄÜÁ¦µÄ¹¤³ÌĞÍ¸ÄÔìĞÍ"
 
-Locale_ship[10209] = "ÑÇÌØÀ¼´ó·À¿Õ¼ÓÇ¿ĞÍ"
-Locale_ship[10210] = "ÑÇÌØÀ¼´ó¼¶µÄ·À¿Õ¸Ä×°ĞÍ£¬ÓµÓĞ´óÁ¿·À¿ÕÅÚËş£¬¿ÉÒÔ¸ßĞ§ÂÊµÄÇıÖğµĞÈËµÄ¿ÕÖĞµ¥Î»"
-Locale_ship[10211] = "ÑÇÌØÀ¼´ó¹âÏßĞÍ"
-Locale_ship[10212] = "ÑÇÌØÀ¼´ó¼¶µÄ·´½¢Ç¿»¯ĞÍ£¬ÓµÓĞ´óÁ¿µÄÀë×ÓÅÚËş£¬ÓµÓĞÇ¿´óµÄ¹¥»÷Á¦"
+Locale_ship[10000] = "Standard"
 
+Locale_ship[10005] = "Anti-aircraft"
+Locale_ship[10010] = "Engineering type"
+Locale_ship[10011] = "Engineered modified type with repair capability"
 
-Locale_ship[10251] = "ÊÕ¸îÕß¼¶Ñ²Ñó½¢"
-Locale_ship[10252] = "É¨µ´Õß¼¶Ñ²Ñó½¢µÄÉı¼¶°æ£¬ÓµÓĞÇ¿´óµÄ¹¥»÷Á¦ºÍ·ÀÓùÁ¦£¬É¨Éä¹âÊø¿ÉÒÔÇáËÉ´İ»ÙËùÓĞ¼¶±ğµÄÖĞĞ¡ĞÍÕ½½¢"
+Locale_ship[10209] = "Atlanta Air Defense Plus"
+Locale_ship[10210] = "Air defense modified version of the Atlanta class, with a large number of air defense turrets to efficiently expel enemy air units"
+Locale_ship[10211] = "Atlanta Light type"
+Locale_ship[10212] = "Anti-ship enhanced version of the Atlanta class, with a large number of ion turrets and a powerful attack power"
 
 
+Locale_ship[10251] = "Reaper-class cruiser"
+Locale_ship[10252] = "An upgraded version of the Sweeper class cruiser with powerful attack and defense, sweeping beams that can easily destroy small to medium sized warships of all classes"
 
 
-Locale_ship[10301] = "ÀÇÑÀ¼¶Õ½ÁĞ½¢"
-Locale_ship[10302] = "Í¼À­ÄáÈËÔÚÌ©Ì¹Õ½ÁĞ½¢»ù´¡ÉÏ¿ª·¢À´µÄ¸Ä½øĞÍ£¬ºÍÌ©Ì¹Õ½ÁĞ½¢Ïà±È£¬ËüÓµÓĞ¸ü¼Ó¿í´óµÄ»õ²ÖºÍ¸ü¸ßµÄº½ËÙ£¬µ«ÊÇÉú´æÁ¦´ó´ó½µµÍ"
 
 
-Locale_ship[10351] = "µ¼µ¯ĞÍ"
-Locale_ship[10352] = "ÔÚ±ê×¼ÇıÖğ½¢´¬ÌåÉÏ¼Ó×°ÁË´óÁ¿µÄµ¼µ¯·¢ÉäÕóÁĞ£¬¿ÉÒÔÍ¬Ê±·¢Éä´óÁ¿µ¼µ¯"
+Locale_ship[10301] = "Wolfsbane class battleship"
+Locale_ship[10302] = "An improved version of the Titan battleship developed by the Turanians. Compared to the Titan battleship, it has a wider cargo hold and higher speed, but is much less survivable"
 
 
-Locale_ship[10401] = "ÃÖÀë¼¶µ¼µ¯ĞÍ"
-Locale_ship[10402] = "ÔÚÃÖÀë¼¶´¬ÌåÁ½²à¼Ó×°ÁË´óĞÍµ¼µ¯·¢ÉäÕóÁĞ£¬¿ÉÒÔÔÚÕ½¶·ÖĞ½øĞĞÓĞĞ§µÄ»ğÁ¦Ö§Ô®"
+Locale_ship[10351] = "Missile type"
+Locale_ship[10352] = "A large number of missile arrays were added to the hull of the standard destroyer, allowing a large number of missiles to be fired simultaneously"
 
-Locale_ship[10405] = "ÃÖÀë¼¶¹âÏßĞÍ"
-Locale_ship[10406] = "ÔÚÃÖÀë¼¶´¬ÌåÁ½²à¼Ó×°ÁË´óĞÍÀë×ÓÅÚ·¢ÉäÕóÁĞ£¬¿ÉÒÔÔÚÕ½¶·ÖĞ½øĞĞÓĞĞ§µÄ»ğÁ¦Ö§Ô®"
 
-Locale_ship[10410] = "ÃÖÀë¼¶ºäÕ¨ĞÍ"
-Locale_ship[10411] = "ÔÚÃÖÀë¼¶´¬ÌåÁ½²à¼Ó×°ÁË´óĞÍµÄÌØÊâµÄ¸ñÄÉ¿â£¬¿ÉÒÔÔÚÕ½¶·ÖĞÊÍ·Å¶ÉÑ»ºäÕ¨»ú½øĞĞÕ½ÊõÖ§Ô®"
+Locale_ship[10401] = "Yayoi-class missile type"
+Locale_ship[10402] = "A large missile firing array was added to both sides of the Yayoi-class hull, allowing for effective fire support in combat"
 
-Locale_ship[10420] = "ÁÑºÛ¼¶Õ½ÁĞ½¢"
-Locale_ship[10421] = "Êï¹â¼¶Õ½ÁĞ½¢µÄºóĞø¼Ì³ĞÕß£¬ÓµÓĞ¸ü¼Ó¼á¹ÌµÄ×°¼×ºÍ¸ü¼Ó¿É¿¿µÄÕ½¶·Á¦¡£ÊÇÈÎºÎÉÌ»áÖĞÆÚ×î¿É¿¿µÄÑ¡Ôñ"
+Locale_ship[10405] = "Yawari-class light type"
+Locale_ship[10406] = "A large ion cannon firing array has been added to both sides of the Mile class hull, allowing for effective fire support in combat"
 
-Locale_ship[10430] = "ÁÑºÛ¼¶Õ½ÁĞ½¢CĞÍ"
-Locale_ship[10431] = "»»×°ÁË4×ùÈıÁª×°µç´ÅÅÚµÄ£»ÁÑºÛ¼¶Õ½ÁĞ½¢£¬ÓµÓĞÇ¿´óµÄ·´Æì½¢ÄÜÁ¦¡£"
+Locale_ship[10410] = "Bombardment type of the Yayoi class"
+Locale_ship[10411] = "Large, special gnarls have been added to both sides of the Yayoi-class hull, allowing for the release of dodo bombers for tactical support in battle"
 
-Locale_ship[10440] = "ÁÑºÛÉ¨µ´Õß¼¶Õ½ÁĞ½¢"
-Locale_ship[10441] = "½«ÁÑºÛ¼¶ºÍÉ¨µ´Õß¼¶ºÏ¶şÎªÒ»ºóµÄ²úÎï£¬ÓµÓĞÁ½ÖÖÆì½¢¶¼ÓĞµÄÓÅµã¡£"
+Locale_ship[10420] = "Rift-class battleship"
+Locale_ship[10421] = "The successor to the Aurora-class battleship, with stronger armor and more reliable combat power. It is the most reliable choice for any Chamber of Commerce in the mid-term"
 
-Locale_ship[10450] = "µÛ¹úÒâÖ¾¼¶Õ½ÁĞ½¢"
-Locale_ship[10451] = "×°±¸ÁË´óÁ¿ÏÈ½øµç´ÅÅÚµÄÇ¿´óÕ½ÁĞ½¢£¬ÓµÓĞ¼á¹ÌµÄ×°¼×ºÍ½Ï¸ßµÄº½ËÙºÍ¼«ÆäºÀ»ªµÄÄÚ²¿Éè±¸£¬²»¹ıÔì¼Û·Ç³£¸ß°º£¬¾İËµ¶¨ÖÆ¸Ã½¢µÄÀïË¹åúÌØÉÌ»áÒòÎªÆä¸ß°ºµÄÔì¼Û¼¸ºõÆÆ²ú£¬ÉÌ»áÇ§½ğ¶¼ÂôÉíÎªÅ«¡£"
+Locale_ship[10430] = "Rift Class Battleship Type C"
+Locale_ship[10431] = "A Rift-class battleship with a powerful anti-flagship capability, having been retrofitted with four triple EM cannons."
 
-Locale_ship[10460] = "ÔÂ»·¼¶ÆÆÏ®½¢"
-Locale_ship[10461] = "Ò»ÖÖÕ½ÁĞ½¢¼¶±ğµÄÇ¿´óÕ½½¢£¨ÓÉ»ÃÌìÆÆ»æÖÆ£©£¬ÓµÓĞ¿í´óµÄ»õ²ÖºÍ½Ï¸ßµÄº½ËÙ£¬Æä×°±¸µÄ4ÃÅ¸ßÄÜÀë×Ó¼ÓÅ©ÅÚ¿ÉÒÔÓĞĞ§¶Ô¿¹Í¬¼¶µ¥Î»"
+Locale_ship[10440] = "Rift sweeper class battleship"
+Locale_ship[10441] = "The product of combining the Rift and Sweeper classes into one, with the advantages of both flagships."
 
-Locale_ship[10465] = "ÔÂ»·¼¶ÆÆÏ®½¢-Í´"
-Locale_ship[10466] = "ÓµÓĞÌØÊâÍ¿×°µÄÔÂ»·¼¶ÆÆÏ®½¢£¬ËäÈ»ËµĞÔÄÜÉÏºÍÔ­ĞÍÏà±ÈÃ»ÓĞÌ«´óµÄ²»Í¬£¬µ«ÊÇÓÉÓÚÆäÌØ±ğµÄÔìĞÍÈÃËü·Ç³£ÄÑÒÔ¹ºÂòµ½"
+Locale_ship[10450] = "Imperial Will-class battleship"
+Locale_ship[10451] = "A powerful battleship equipped with a large number of advanced electromagnetic cannons, with strong armor and high speed and extremely luxurious interior equipment, but the cost is very high, it is said that the Risfet Chamber of Commerce, which customized the ship, almost went bankrupt because of its high cost, and the Chamber's thousands of gold sold themselves into slavery."
 
+Locale_ship[10460] = "Lunar Ring Class Raider"
+Locale_ship[10461] = "A powerful battleship of the battleship class (drawn by Phantom Skybreaker) with a wide cargo bay and high speed, its 4 high-powered ion cannons can be effective against units of its class"
 
-Locale_ship[10470] = "ÔÂÂÖ¼¶Í»»÷ÅÚÍ§"
-Locale_ship[10471] = "Ò»ÖÖ×°±¸ÁËÈ«ÏòÉä½ç»·ĞÎ¹ìµÀÎäÆ÷µÄÏÈ½øÍ»»÷ÅÚÍ§£¨ÓÉ»ÃÌìÆÆ»æÖÆ£©£¬¿ÉÒÔÓĞĞ§À¹½ØµØ·½µÄ¿ÕÖĞµ¥Î»"
+Locale_ship[10465] = "Lunar Ring Class Raider - Pain"
+Locale_ship[10466] = "A specially painted Moon Ring class destroyer, although its performance is not much different from the prototype, its special shape makes it very difficult to buy"
 
-Locale_ship[10480] = "ÆÆÏş¼¶Õ½ÁĞ½¢"
-Locale_ship[10481] = "·Ç³£¹ÅÀÏµÄÒ»¿îÕ½ÁĞ½¢£¬ÆäÀúÊ·¿ÉÒÔ×·Êöµ½200ÄêÇ°µÛ¹ú¸Õ¸Õ½øÈëM51ÒøºÓÏµÊ±ÆÚ¡£ÔÚÒ»Ğ©Ãñ¼äºÍ¾ü·½°®ºÃÕßµÄÇ¿ÁÒÒªÇóÏÂ£¬·ÆÑÅÀû¾ü·½½«·â´æµÄÉÙÁ¿ÆÆÏş¼¶Æô·â³öÊÛ"
 
+Locale_ship[10470] = "Moonwheel-class assault gunboat"
+Locale_ship[10471] = "An advanced assault gunship (drawn by Phantom Skybreaker) equipped with an omni-directional launch sector circular orbital weapon that can effectively intercept local air units"
 
-Locale_ship[10490] = "ÑÇ·ÆÀöË¿ºÅ"
-Locale_ship[10491] = "¾İËµÊÇ·ÆÑÅÀûÅ®»ÊµÄ×ù½¢£¬ÓµÓĞÈ«ÒøºÓÏµ×îÇ¿´óµÄĞÔÄÜºÍÕ½¶·Á¦¡£Ö»Òª98ÒÚ8Ç§Íò8888888£¬Äã¾Í¿ÉÒÔ°ÑÑı¾«Å®»Ê±§»Ø¼Ò"
-Locale_ship[10500] = "µÛ¹úºÅÒÆ¶¯ÒªÈû"
-Locale_ship[10501] = "·ÆÑÅÀûµÛ¹ú×îÇ¿´óµÄÒÆ¶¯Õ½Õù±¤Àİ£¬Õ½³¡ÉÏ¼¸ºõÎŞ·¨Æ¥µĞ£¬È»¶øÒÆ¶¯»ºÂıÊÇ¾Ş´óµÄÈ±µã"
+Locale_ship[10480] = "Dawnbreaker-class battleship"
+Locale_ship[10481] = "A very old battleship, dating back 200 years to the time when the Empire first entered the M51 galaxy. After strong demand from some civilian and military enthusiasts, the Fai'ri military unsealed a small number of sealed Dawn-class for sale"
 
-Locale_ship[10510] = "Ç°½øÕß¼¶»¤ÎÀ½¢"
-Locale_ship[10511] = "×°±¸ÁËÍ¨ÓÃÅÚËşµÄÏÈ½ø»¤ÎÀ½¢£¬ÓµÓĞ³öÉ«µÄ·ÀÓùÄÜÁ¦"
-Locale_ship[10512] = "Í»»÷ĞÍ"
-Locale_ship[10513] = "×°±¸ÁËÁ½×ù175ºÁÃ×Í¨ÓÃÅÚËş£¬¿ÉÒÔÓĞĞ§µÄÖ´ĞĞ·´»¤ÎÀ½¢ÈÎÎñ"
-Locale_ship[10514] = "·À¿ÕĞÍ"
-Locale_ship[10515] = "×°±¸ÁËÁ½×ùËÄÁª×°75ºÁÃ×·À¿ÕÅÚËş£¬¿ÉÒÔÓĞĞ§µÄÖ´ĞĞ·À¿ÕÈÎÎñ"
-Locale_ship[10516] = "Àë×ÓÅÚĞÍ"
-Locale_ship[10517] = "×°±¸ÁËÁ½×ùÀë×ÓÅÚËş£¬¿ÉÒÔÓĞĞ§µÄÖ´ĞĞ·´Ö÷Á¦½¢ÈÎÎñ"
-Locale_ship[10518] = "Ö§Ô®ĞÍ"
-Locale_ship[10519] = "×°±¸ÁËÒ»×ù425ºÁÃ×¼ÓÅ©ÅÚËş£¬¿ÉÒÔÓĞĞ§µÄÔ¶³Ì»ğÁ¦Ö§Ô®ÈÎÎñ"
 
-Locale_ship[10550] = "ÃñÓÃ²É¿óÍ§"
-Locale_ship[10551] = "µÛ¹úÃñ¼äÊ¹ÓÃµÄĞ¡ĞÍ²É¿óÍ§£¬Ìå»ıĞ¡ÇÉµ«ÊÇÄÜÁ¦ÓĞÏŞ"
+Locale_ship[10490] = "USS Aphilis"
+Locale_ship[10491] = "Said to be the ship of Queen Fai'ri with the most powerful performance and combat power in the galaxy. For 9.88 billion 88888888, you can take the Fai'ri Queen home"
+Locale_ship[10500] = "The Imperial Mobile Fortress"
+Locale_ship[10501] = "The most powerful mobile war fortress of the Fai'ri Empire, almost unmatched on the battlefield, however slow movement is a huge drawback"
 
--------------------------------------Õ½¶·»ú
-Locale_ship[11000] = "Íäµ¶Õ½¶·»ú"
-Locale_ship[11001] = "×°±¸ÁË57ºÁÃ×»úÅÚµÄÁ¿²úĞÍ½¢ÔØ»ú£¬ÔÚ¸÷ÖÖ³¡ºÏ¶¼ÓĞºÜºÃµÄ·¶ÓÃĞÔ"
-Locale_ship[11010] = "Õ½¶·¹¥»÷ĞÍ"
-Locale_ship[11011] = "×°±¸ÁË57ºÁÃ×»úÅÚºÍ·À¿Õµ¼µ¯µÄÁ¿²úĞÍ½¢ÔØ»ú£¬¿ÉÒÔÓĞĞ§·´Í§"
-Locale_ship[11020] = "ºäÕ¨ĞÍ"
-Locale_ship[11021] = "×°±¸ÁË·´½¢µ¼µ¯·¢Éä¼ÜµÄÁ¿²úĞÍÕ½¶·»ú£¬¿ÉÒÔÒÀ¿¿ÊıÁ¿ÓÅÊÆ¶ÔµØ·½¿ÕÖĞµ¥Î»Ôì³É¾Ş´óÍşĞ²"
-Locale_ship[11025] = "ºËµ¯ĞÍ"
-Locale_ship[11026] = "×°±¸ÁËºËµ¼µ¯µÄ¶ÉÑ»ºäÕ¨»ú£¬¿ÉÒÔÓĞĞ§µÄ½øĞĞ·¶Î§É±ÉË"
-Locale_ship[11030] = "ÁúÓ¥ºäÕ¨»ú"
-Locale_ship[11031] = "¾«ÈñµÄ·´½¢¹¥»÷µ¥Î»£¬ÓµÓĞºáÉ¨Ò»Ö§½¢¶ÓµÄÊµÁ¦"
-Locale_ship[11040] = "·ÉÁú¹¥»÷»ú"
-Locale_ship[11041] = "×°±¸ÁË·´Ö÷Á¦½¢ÓãÀ×µÄ¹¥»÷ĞÍµ¥Î»£¬ÓµÓĞ³¤º½³Ì¡£×°±¸ÁËÁ½×ùË«Áª×°37ºÁÃ×»úÅÚËş¿ÉÒÔÓĞĞ§¶Ô·½µĞÈËµÄ¿ÕÖĞµ¥Î»"
+Locale_ship[10510] = "Forwarder-class frigate"
+Locale_ship[10511] = "Advanced frigate with universal turrets and excellent defensive capabilities"
+Locale_ship[10512] = "Assault type"
+Locale_ship[10513] = "Equipped with two 175mm general purpose turrets for effective anti-frigate duties"
+Locale_ship[10514] = "Anti-aircraft type"
+Locale_ship[10515] = "Equipped with two quadruple 75mm anti-aircraft turrets for effective anti-aircraft duties"
+Locale_ship[10516] = "Ion gun type"
+Locale_ship[10517] = "Equipped with two ion turrets for effective anti-mainship duties"
+Locale_ship[10518] = "Support type"
+Locale_ship[10519] = "Equipped with a 425mm cannon turret for effective long-range fire support missions"
 
-Locale_Text[11045] = "ÆÆÈĞ¼¶ÖØĞÍÀ¹½Ø»ú"   --192
-Locale_Text[11046] = "×°±¸ËÙÉä»úÅÚ£¬¿ÉÒÔÓĞĞ§ÏûÃğµĞÈË¿ÕÖĞµ¥Î»"
-Locale_Text[11050] = "ÆÆÈĞ¼¶ÖØĞÍ¹¥»÷»ú"    --193
-Locale_Text[11051] = "×°±¸ÏÈ½øÆÆ¼×·Éµ¯£¬¿ÉÒÔÓĞĞ§ÏûÃğµĞÈËÑ²Ñó½¢µ¥Î»"
+Locale_ship[10550] = "Civilian mining vessel"
+Locale_ship[10551] = "A small mining boat for Imperial civilian use, small in size but limited in capability"
 
-Locale_Text[11055] = "ÆÆÈĞ¼¶ÖØĞÍÀ¹½Ø»úÁãÊ½"   --194
-Locale_Text[11056] = "×°±¸ËÙÉä»úÅÚ£¬¿ÉÒÔÓĞĞ§ÏûÃğµĞÈË¿ÕÖĞµ¥Î»"
-Locale_Text[11060] = "ÆÆÈĞ¼¶ÖØĞÍ¹¥»÷»úÁãÊ½"    --195
-Locale_Text[11061] = "×°±¸ÏÈ½øÆÆ¼×·Éµ¯£¬¿ÉÒÔÓĞĞ§ÏûÃğµĞÈËÑ²Ñó½¢µ¥Î»"
+-------------------------------------
+Locale_ship[11000] = "Machete fighter"
+Locale_ship[11001] = "A mass-produced naval aircraft equipped with a 57mm gun, good for paradigm use in a variety of situations"
+Locale_ship[11010] = "Combat attack type"
+Locale_ship[11011] = "A mass-produced ship-based aircraft equipped with 57mm guns and anti-aircraft missiles, effective in anti-ship"
+Locale_ship[11020] = "Bombing type"
+Locale_ship[11021] = "A mass-produced fighter equipped with anti-ship missile launchers that can rely on numerical superiority to pose a significant threat to local air units"
+Locale_ship[11025] = "Nuclear bomb type"
+Locale_ship[11026] = "A Dodo bomber equipped with nuclear missiles that can be effective for ranged kills"
+Locale_ship[11030] = "Dragonhawk bomber"
+Locale_ship[11031] = "Elite anti-ship attack unit with the power to sweep through a fleet"
+Locale_ship[11040] = "Flying Dragon attacker"
+Locale_ship[11041] = "Attack unit equipped with anti-mainship torpedoes with long range. Equipped with two twin 37mm gun turrets that can effectively oppose enemy air units"
 
+Locale_Text[11045] = "Broken Blade class heavy interceptor" --192
+Locale_Text[11046] = "Equipped with rapid-fire cannons that can effectively destroy enemy air units"
+Locale_Text[11050] = "Blade breaker heavy attacker" --193
+Locale_Text[11051] = "Equipped with advanced armor-breaking missiles, can effectively destroy enemy cruiser units"
 
-Locale_Text[11075] = "ÁÔĞÇÕß½¢ÔØ»ú"   --201
-Locale_Text[11076] = "×°±¸ÁË×Ï¾§µ¼µ¯ºÍËÙÉä»úÅÚµÄÖØĞÍ½¢ÔØ¹¥»÷»ú"
-Locale_Text[11080] = "ÁÔĞÇÕß½¢ÔØ»ú¿ÕÓÅĞÍ"    --202
-Locale_Text[11081] = "×°±¸ÁËËÙÉä»úÅÚºÍÏÈ½ø·À¿Õµ¼µ¯µÄÖØĞÍ½¢ÔØÀ¹½Ø»ú"
+Locale_Text[11055] = "Broken Blade Class Heavy Interceptor - Zero" --194
+Locale_Text[11056] = "Equipped with rapid-fire cannons, can effectively destroy enemy air units"
+Locale_Text[11060] = "Blade Heavy Attacker - Zero" --195
+Locale_Text[11061] = "Equipped with advanced armor-breaking missiles, it can effectively destroy enemy cruiser units"
 
-Locale_Text[11090] = "ºÀ»ªÅÜ³µ"    --ship205-208
-Locale_Text[11091] = "Ìå»ıĞ¡ÇÉµÄÃñÓÃ³µÁ¾£¬ËäÈ»¹¤ÒÕ¾«Õ¿£¬µ«ÊÇÔÚÌ«¿ÕÃ³Ò×ºÍÕ½¶·ÖĞºÁÎŞÓÃ´¦"
 
-Locale_Text[11100] = "Á÷ĞÇ½¢ÔØ»ú"    --210
-Locale_Text[11101] = "¿¨¶òË¹ÁªÃËµÄÒ»ÖÖÖÆÊ½¿ÕÓÅ½¢ÔØ»ú"
+Locale_Text[11075] = "Starhunter carrier aircraft" --201
+Locale_Text[11076] = "Heavy ship-based attack aircraft equipped with amethyst missiles and rapid-fire cannons"
+Locale_Text[11080] = "Starhunter air superiority type" --202
+Locale_Text[11081] = "Heavy naval interceptor with rapid-fire cannons and advanced anti-aircraft missiles"
 
-Locale_Text[11110] = "Á÷ĞÇ½¢ÔØ»ú-¸Ä"    --211
-Locale_Text[11111] = "Á÷ĞÇ½¢ÔØ»úµÄ¸Ä×°ĞÍ£¬×°±¸ÁË6¿ÅÊ¯Ó¢·´½¢µ¼µ¯"
+Locale_Text[11090] = "Luxury sports car" --205-208
+Locale_Text[11091] = "compact civilian vehicle, superbly crafted but useless in space trade and combat"
 
-Locale_Text[11120] = "Á÷ĞÇ½¢ÔØ»ú-¸Ä¶ş"    --212
-Locale_Text[11121] = "Á÷ĞÇ½¢ÔØ»úµÄ¾«Ó¢¸Ä×°ĞÍ£¬×°±¸ÁË4¿Å×Ï¾§·´½¢µ¼µ¯£¬¶øÇÒÓµÓĞ¸üºñÖØµÄ×°¼×"
+Locale_Text[11100] = "Meteor carrier aircraft" --210
+Locale_Text[11101] = "A standard air superiority carrier aircraft of the Caius Alliance"
 
-Locale_Text[11130] = "¼¯×°Ïä¿¨³µ"    --213
-Locale_Text[11131] = "Ò»ÖÖĞ¡ĞÍ¿¨³µ£¬ÓÃÓÚÔËÊä¼¯×°Ïä"
+Locale_Text[11110] = "Meteor carrier-alter" --211
+Locale_Text[11111] = "A modified version of the Meteor carrier, equipped with six quartz anti-ship missiles"
 
-Locale_Text[11140] = "¼¯×°ÏäÍĞÅÌ"    --214
-Locale_Text[11141] = "Ò»ÖÖ´øÓĞÒıÇæµÄ¼¯×°ÏäÍĞÅÌ£¬¿ÉÒÔÔËÔØ¶à¸ö¼¯×°Ïä½øĞĞÎïÁ÷"
+Locale_Text[11120] = "Meteor carrier-change II" --212
+Locale_Text[11121] = "Elite modification of the Meteor Carrier, equipped with 4 Amethyst anti-ship missiles and with heavier armor"
 
+Locale_Text[11130] = "Container truck" --213
+Locale_Text[11131] = "A small truck for transporting containers"
 
-Locale_Text[11150] = "Ì«¿Õ°ÍÊ¿"    --232
-Locale_Text[11151] = "Ì«¿Õ´ó°Í£¬Ö÷ÒªÓÃÀ´ÔËÊä´óÁ¿µÄÈËÔ±ºÍÆ½Ãñ"
+Locale_Text[11140] = "container pallet" --214
+Locale_Text[11141] = "a container pallet with an engine to carry multiple containers for logistics"
 
 
-Locale_Text[11160] = "Ì«¿ÕÆû³µ"    --233
-Locale_Text[11161] = "µ¥ÈËµÄÃñÓÃ³µÁ¾£¬Ö÷Òª·½±ãÆ½ÃñµÄ×ÔÓÉ³öĞĞ"
+Locale_Text[11150] = "space bus" --232
+Locale_Text[11151] = "space bus, mainly used to transport large numbers of people and civilians"
 
-Locale_Text[11170] = "Ì«¿Õ¿¨³µ"    --234
-Locale_Text[11171] = "Ì«¿Õ¿¨³µ£¬Ö÷ÒªÓÃÀ´ÔËÊäÊıÁ¿½ÏÉÙµÄ»õÎï"
 
-Locale_Text[11180] = "Ğ¡ĞÍÌ«¿Õ²µ´¬"    --235
-Locale_Text[11181] = "Ğ¡ĞÍÌ«¿Õ²µ´¬£¬Ö÷ÒªÓÃÀ´ÔÚÌ«¿Õ³ÇÊĞ¸½½üÔËÊä´óÊıÁ¿µÄ»õÎï"
+Locale_Text[11160] = "space vehicle" --233
+Locale_Text[11161] = "single-person civilian vehicle, mainly to facilitate free travel for civilians"
 
+Locale_Text[11170] = "space truck" --234
+Locale_Text[11171] = "space truck, mainly used to transport smaller quantities of cargo"
 
-Locale_Text[11190] = "Ì«¿Õ²µ´¬"    --236
-Locale_Text[11191] = "Ì«¿Õ²µ´¬£¬Ö÷ÒªÓÃÀ´ÔËÊä´óÊıÁ¿µÄ»õÎï£¬±ÈÈç¸¨Öú´óĞÍĞÇ½¢Ğ¶ÔØ»õÎï"
+Locale_Text[11180] = "small space barge" --235
+Locale_Text[11181] = "small space barges, mainly used to transport large quantities of cargo around space cities"
 
-Locale_Text[11200] = "Õ½¶·ÎŞÈË»ú-·ÉïÚ"    --248
-Locale_Text[11201] = "Ò»ÖÖÁ¿²úĞÍÕ½¶·ÎŞÈË»ú£¬Ö÷ÒªÒÀ¿¿ÊıÁ¿À´ÖÆ¿Õ"
 
-Locale_Text[11210] = "ºäÕ¨ÎŞÈË»ú-·ÉïÚ"    --249
-Locale_Text[11211] = "Ò»ÖÖÁ¿²úĞÍºäÕ¨ÎŞÈË»ú£¬ÒÀ¿¿ÊıÁ¿ÓÅÊÆÀ´¿ìËÙÏûÃğµĞ½¢Èº"
+Locale_Text[11190] = "Space barge" --236
+Locale_Text[11191] = "Space barges, mainly used to transport large quantities of cargo, such as assisting large starships in unloading cargo"
 
+Locale_Text[11200] = "Combat drones - darts" --248
+Locale_Text[11201] = "A mass-produced combat drone that relies primarily on numbers for air control"
 
-Locale_Text[11220] = "³¬¼¶Õ½¶·ÎŞÈË»ú-Èı²æêª"    --244
-Locale_Text[11221] = "°²×°ÓĞ×Ô¶¯»úÅÚºÍ´óÁ¿ÎäÆ÷µÄ³¬¼¶ÎŞÈËÕ½¶·»ú£¬ÓµÓĞÇ¿´óµÄÕ½¶·Á¦"
+Locale_Text[11210] = "Bombing Drone - Dart" --249
+Locale_Text[11211] = "A mass-produced bombing drone that relies on sheer numbers to quickly destroy enemy ship groups"
 
-Locale_Text[11230] = "³¬¼¶Õ½¶·ÎŞÈË»ú-Èı²æêªÒÏ³²ĞÍ"    --245
-Locale_Text[11231] = "°²×°ÓĞ×Ô¶¯»úÅÚºÍ´óÁ¿ÎäÆ÷µÄ³¬¼¶ÎŞÈËÕ½¶·»ú£¬ÓµÓĞÇ¿´óµÄÕ½¶·Á¦"
 
-Locale_Text[11240] = "³¬¼¶Õ½¶·ÎŞÈË»ú-Èı²æêª°¢ÒòÌØË¹ĞÍ"    --246
-Locale_Text[11241] = "°²×°ÓĞ×Ô¶¯»úÅÚºÍ´óÁ¿ÎäÆ÷µÄ³¬¼¶ÎŞÈËÕ½¶·»ú£¬ÓµÓĞÇ¿´óµÄÕ½¶·Á¦"
+Locale_Text[11220] = "Super Combat Drone - Trident" --244
+Locale_Text[11221] = "A super fighter drone with powerful combat capabilities mounted with automatic cannons and a large number of weapons"
 
-Locale_Text[11250] = "Å®ÎäÉñ¼¶ÔËÊäÍ§"    --247
-Locale_Text[11251] = "Ò»ÖÖµÍ³É±¾¿ÉÒÔ¿ìËÙ·´Ó¦µÄĞ¡ĞÍÔËÊäÍ§£¬¿ÉÒÔ¿ìËÙ²¿ÊğĞ¡¹æÄ£µØÃæ²¿¶Ó"
+Locale_Text[11230] = "Super combat drone - Trident anthill type" --245
+Locale_Text[11231] = "Super unmanned fighter with automatic cannons and a large number of weapons with great combat power"
 
-Locale_Text[11260] = "ĞÅÍ½¼¶½¢ÔØ»ú-¿ÕÓÅĞÍ"        --258
-Locale_Text[11261] = "Ï£¸ñÀ­×îĞÂ¿ª·¢µÄÀ¹½Ø»ú£¬ÓµÓĞ¼á¹ÌµÄ×°¼×ºÍ²»ÈõµÄĞÔÄÜ"
+Locale_Text[11240] = "Super Combat Drone - Trident Ayntis" --246
+Locale_Text[11241] = "Super unmanned fighter with automatic cannons and a large number of weapons with great combat power"
 
-Locale_Text[11270] = "ĞÅÍ½¼¶½¢ÔØ»ú-ºäÕ¨ĞÍ"        --259
-Locale_Text[11271] = "ĞÅÍ½¼¶½¢ÔØ»úµÄºäÕ¨ĞÍ£¬Ë«¹Ü»úÅÚ±»Ìæ»»³ÉÁËÁ½×ùµ¼µ¯·¢ÉäÆ÷"
+Locale_Text[11250] = "Valkyrie class transport craft" --247
+Locale_Text[11251] = "A low-cost, rapid-response, small transport craft that can rapidly deploy small ground forces"
 
-Locale_Text[11280] = "ĞÅÍ½¼¶½¢ÔØ»ú-Õì²ìĞÍ"        --260
-Locale_Text[11281] = "ĞÅÍ½¼¶½¢ÔØ»úµÄÕì²ìĞÍ£¬ÏÂ·½Ğü¹ÒÒ»¸ö´óĞÍ¼àÊÓµõ²Õ¼àÊÓÖÜÎ§Õ½³¡»·¾³"
+Locale_Text[11260] = "Believer-class carrier - air superiority type" --258
+Locale_Text[11261] = "Hiigara's latest interceptor development, with sturdy armor and not weak performance"
 
-Locale_Text[11290] = "Éñ¸¦¼¶Âö³åÍ§"        --261
-Locale_Text[11291] = "×îĞÂ¿ª·¢µÄÒ»ÖÖ×°¼×Âö³åÍ§£¬Âö³å¹âÏß¿ÉÒÔ·´Õ½»úÒ²¿ÉÒÔ¶Ô¿¹ÅÚÍ§"
+Locale_Text[11270] = "Believer-class carrier aircraft - bombing type" --259
+Locale_Text[11271] = "The bombardment version of the Believer class, with the twin cannons replaced with two missile launchers"
 
-Locale_Text[11300] = "Éñ¸¦¼¶µ¼µ¯Í§"        --262
-Locale_Text[11301] = "×°±¸ÁËÁ½×ù¿É¿ìËÙ×°ÌîµÄÖØĞÍµ¼µ¯·¢ÉäÆ÷£¬¿ÉÒÔÓĞĞ§¶Ô¿¹Ö÷Á¦½¢"
+Locale_Text[11280] = "Believer-class carrier aircraft - reconnaissance" --260
+Locale_Text[11281] = "A reconnaissance version of the Believer class, with a large surveillance pod suspended below to monitor the surrounding battlefield environment"
 
-Locale_Text[11310] = "Éñ¸¦¼¶¹¤³ÌÍ§"        --263
-Locale_Text[11311] = "¿ÉÒÔ¿ª²É×ÊÔ´Ò²¿ÉÒÔÓÃÎ¬ĞŞ¼¤¹âĞŞ¸´Õ½½¢"
+Locale_Text[11290] = "Shen Fu class pulse boat" --261
+Locale_Text[11291] = "The latest development of an armored pulse boat, pulse light can be anti-fighter or against gunboats"
 
-Locale_Text[11320] = "À×Äñ³¬¼¶Õ½ÂÔºäÕ¨»ú"        --287
-Locale_Text[11321] = "Ò»ÖÖ³¬ÖØĞÍµÄÕ½ÂÔºäÕ¨»ú£¬ÓÉÓÚÌåĞÍ¹ı´ó£¬Ö»ÄÜÔÚÉÙÁ¿ÓµÓĞÌØÊâÆğ½µÍ¨µÀµÄÕ½½¢ÉÏÍ£¿¿"
+Locale_Text[11300] = "Shen Fu class missile boat" --262
+Locale_Text[11301] = "equipped with two heavy missile launchers that can be loaded quickly and can be effective against main force ships"
 
-Locale_Text[11330] = "À×Äñ³¬¼¶Ô¤¾¯»ú"        --288
-Locale_Text[11331] = "Ò»ÖÖ´îÔØÁËÏÈ½øÌ½²âÉè±¸µÄ´óĞÍÔ¤¾¯»ú£¬¿ÉÒÔÌ½²â´ó·¶Î§ÍâµÄµĞÈË½¢¶Ó¶¯Ïò£¬ÓÉÓÚÌåĞÍ¹ı´ó£¬Ö»ÄÜÔÚÉÙÁ¿ÓµÓĞÌØÊâÆğ½µÍ¨µÀµÄÕ½½¢ÉÏÍ£¿¿"
+Locale_Text[11310] = "Shenfu-class engineering boat" --263
+Locale_Text[11311] = "Can mine resources as well as repair warships with repair lasers"
 
-Locale_Text[11335] = "ASSC-152AÒ¹İº"        --289
-Locale_Text[11336] = "ÏÈ½øµÄÕ½Êõ¹¥»÷»ú£¬¿ÉÒÔ¶ÔµĞÈË´óĞÍÆì½¢½øĞĞµÈÀë×ÓÕ¨µ¯ºäÕ¨"
+Locale_Text[11320] = "Thunderbird Super Strategic Bomber" --287
+Locale_Text[11321] = "A super-heavy strategic bomber that can only dock on a small number of battleships with special landing lanes due to its large size"
 
-Locale_Text[11340] = "ASSC-152BÒ¹İº"        --290
-Locale_Text[11341] = "ÏÈ½øµÄÕ½Êõ¹¥»÷»ú£¬¿ÉÒÔ¶ÔµĞÈË´óĞÍÆì½¢½øĞĞµÈÀë×ÓÕ¨µ¯ºäÕ¨"
+Locale_Text[11330] = "Thunderbird Super AWACS" --288
+Locale_Text[11331] = "A large early warning aircraft equipped with advanced detection equipment, can detect enemy fleet movements over a wide area, due to its size, can only be docked on a small number of warships with special landing and take-off lanes"
 
-Locale_Text[11350] = "¿¨¶ûÍßÂŞÑÇ"        --291
-Locale_Text[11351] = "×·ÒäÖ®Í¥Ëõ×°±¸µÄÒ¹İº¸Ä½øĞÍ£¬¿ÉÒÔ¶ÔµĞÈË´óĞÍÆì½¢½øĞĞµÈÀë×ÓÕ¨µ¯ºäÕ¨"
+Locale_Text[11335] = "ASSC-152A Nightingale" --289
+Locale_Text[11336] = "Advanced tactical attack aircraft that can bombard large enemy flagships with plasma bombs"
 
+Locale_Text[11340] = "ASSC-152B Nightingale" --290
+Locale_Text[11341] = "Advanced tactical attack aircraft that can plasma bomb large enemy flagships"
 
-Locale_Text[11360] = "ÃÀ¶ÅÉ¯¾«Ó¢Õ½¶·»ú"        --294
-Locale_Text[11361] = "¿¨¶òË¹ÁªÃË×¨ÃÅ¿ª·¢µÄÔ¶³Ì½Ø»÷»ú£¬Ğ¯´øµÄÔ¶³Ì¶Ô¿Õµ¼µ¯¿ÉÒÔÔÚÔ¶¾àÀë´İ»ÙµĞÈË»úÈº"
-Locale_Text[11370] = "ÃÀ¶ÅÉ¯¾«Ó¢½Ø»÷»ú-·À¿ÕºËµ¯ĞÍ"        --295
-Locale_Text[11371] = "¿¨¶òË¹ÁªÃË×¨ÃÅ¿ª·¢µÄÔ¶³Ì½Ø»÷»ú£¬Ğ¯´øµÄÕ½ÊõºËµ¯¿ÉÒÔÔÚÔ¶¾àÀë´İ»ÙµĞÈË»úÈº"
-Locale_Text[11380] = "Ë÷¶û¼Ó¶ûÍß"        --296
-Locale_Text[11381] = "×·ÒäÖ®Í¥×¨ÃÅ¿ª·¢µÄÒ»ÖÖÌØ±ğĞÍ½Ø»÷»ú£¬È¡ÏûÁËµ¼µ¯¸ÄÎª¿ÉÒÔ³¤Ê±¼äÕ½¶·µÄ¹âÊøÎäÆ÷"
+Locale_Text[11350] = "Calvaroa" --291
+Locale_Text[11351] = "Improved version of the Nightingale equipped by the Court of Memories shrinkage, can plasma bomb large enemy flagships"
 
 
-Locale_Text[11390] = "·½ÖÛ¹¤³Ì½¢"        --327
-Locale_Text[11391] = "°¢ÒòÌØË¹½¢¶ÓµÄÍ¨ÓÃ¹¤³Ì½¢£¬³ıÁË²É¼¯×ÊÔ´»¹¿ÉÒÔ³Ğµ£ÇáÁ¿¼¶Î¬ĞŞÈÎÎñ¡£"
-Locale_Text[11400] = "´ó¾ıµÄÍÚÃº´¬"        --328
-Locale_Text[11401] = "Äª¶ûµÏ»ù°²´ó¾ı½¢¶Ó×¨ÓÃ¹¤³Ì½¢µÄ...ÍâÃ³°æ£¬¸ú´ó¾ı½¢¶ÓµÄĞÍºÅËÆºõÒ²Ã»ÓĞÊ²Ã´²»Í¬¡£"
+Locale_Text[11360] = "Medusa elite fighter" --294
+Locale_Text[11361] = "Long-range interceptor specially developed by the Caius Alliance, carrying long-range air-to-air missiles that can destroy enemy fleets at long range"
+Locale_Text[11370] = "Medusa Elite interceptor - anti-aircraft nuclear bomb type" --295
+Locale_Text[11371] = "Long-range interceptor specially developed by the Caius Alliance, carrying tactical nukes that can destroy enemy fleets at long range"
+Locale_Text[11380] = "Solgarva" --296
+Locale_Text[11381] = "A special type of interceptor specially developed by the Court of Memories, eliminating missiles and replacing them with beam weapons that can fight for a long time"
 
-Locale_Text[11410] = "»ÃÏóIVÓÎÏÀ"        --162
-Locale_Text[11411] = "¿É×°±¸²»Í¬Îä×°µÄ°¢ÒòÌØË¹¾öÕ½ĞÍµ¥±øµ¥Î»£»4ºÅÆÆ³ÇÅÚ±ø×°×¨ÓÃÓÚÇ¿»÷´óĞÍÄ¿±ê¡£"
-Locale_Text[11420] = "»ÃÏóVĞ¥ÔÂ"        --163
-Locale_Text[11421] = "¿É×°±¸²»Í¬Îä×°µÄ°¢ÒòÌØË¹¾öÕ½ĞÍµ¥±øµ¥Î»£»5ºÅÉ¢½£±ø×°×¨ÓÃÓÚ¸ß»ú¶¯Ñ¹ÖÆÕ½¶·¡£"
 
-Locale_Text[11430] = "ĞşÄñ¼¶Õì²ì»ú"        --355
-Locale_Text[11431] = "Í¨ÓÃĞ¡ĞÍÕì²ì»ú£¬ÄÜÔÚ¸÷ÖÖÌõ¼şÏÂÓ¦ÓÃ¡£"
+Locale_Text[11390] = "Ark engineering ship" --327
+Locale_Text[11391] = "A general purpose engineering ship for the Ayntes fleet, in addition to gathering resources can also undertake light maintenance tasks."
+Locale_Text[11400] = "Maharaja's coal dredger" --328
+Locale_Text[11401] = "The special engineering ship of the Mordiggian fleet of the... The foreign trade version, which doesn't seem to be different from the model of the Maharajah's fleet."
 
+Locale_Text[11410] = "Phantom IV Ranger" --162
+Locale_Text[11411] = "Can be equipped with differently armed Ayntes dueling one-man units; the No. 4 city-breaking artillery suit is dedicated to strong-arming large targets."
+Locale_Text[11420] = "Phantom V Tsunami Moon" --163
+Locale_Text[11421] = "Can be equipped with differently armed Ayntes Dueling Warfighter units; Scattered Sword Trooper Suit #5 is dedicated to high mobility suppression combat."
+Locale_Text[11430] = "Backbird Scout"        --355
+Locale_Text[11431] = "A general-purpose small reconnaissance aircraft that can be used in various conditions."
 
 
 
--------------------------------------»¤º½Í§
-Locale_ship[11500] = "µ¼µ¯ĞÍ"
-Locale_ship[11501] = "×°±¸ÁË·À¿Õµ¼µ¯£¬¿ÉÒÔÓĞĞ§¶Ô¸¶¸÷ÀàÇá×°¼×Ä¿±ê£¬°üÀ¨Õ½¶·»úºÍÅÚÍ§"
-Locale_ship[11510] = "Âö³åĞÍ"
-Locale_ship[11511] = "×°±¸ÁËÂö³å·¢Éä×°ÖÃ£¬¿ÉÒÔÓĞĞ§¶Ô¸¶ÅÚÍ§ºÍ»¤ÎÀ½¢"
 
-Locale_ship[11520] = "½â·ÅÕß"
-Locale_ship[11521] = "°¢ÒòÌØË¹×ÛºÏÍâÓò¼¼ÊõÉè¼Æ¶ø³ÉµÄ³¬ÖØĞÍÅÚÍ§µ¥Î»£¬ÓµÓĞ±äĞÎÎªÖØÅÚÄ£Ê½µÄÂÓÏ®ĞÎÌ¬¡£"
+-------------------------------------
+Locale_ship[11500] = "Missile type"
+Locale_ship[11501] = "Equipped with anti-aircraft missiles, effective against all types of lightly armored targets, including fighters and gunboats"
+Locale_ship[11510] = "Pulse type"
+Locale_ship[11511] = "Equipped with pulse launchers, effective against gunboats and frigates"
 
-Locale_ship[11530] = "Ì½Ë÷Õß"
-Locale_ship[11531] = "ÕâÊÇÒ»Ö»ÃÈÃÈßÕOB£¬±ğ´ò£¬ÅÂÌÛ£¬»á±¬¡£"
+Locale_ship[11520] = "Liberator"
+Locale_ship[11521] = "A super-heavy gunship unit designed by Ayntes to synthesize outer-domain technology, with a swept attack form that morphs into heavy gun mode."
 
+Locale_ship[11530] = "Seeker"
+Locale_ship[11531] = "This is a budding OB, don't hit it, it's afraid of pain and will explode."
 
--------------------------------------»¤ÎÀ½¢
-Locale_ship[12000] = "ÃàÑò¼¶¹¤³Ì½¢"
-Locale_ship[12001] = "ÓÉÃàÑò¼¶²É¿ó´¬Éı¼¶¶øÀ´µÄ¹¤³Ì½¢£¬×°±¸ËÄÁª×°³¤³ÌĞŞÀí¹âÊø"
 
-Locale_ship[12005] = "Ê¬¹í¼¶ÖØĞÍÍ»»÷½¢"
-Locale_ship[12006] = "ÏÈ½øµÄ¿ìËÙÍ»»÷½¢£¬¿ÉÒÔÊ¤ÈÎÈÎºÎÕ½¿ö"
-Locale_ship[12010] = "Òµ»ğ¼¶µ¼µ¯Í»»÷½¢"
-Locale_ship[12011] = "·¢Éäºì±¦Ê¯µ¼µ¯½øĞĞÕ½¶·µÄÖ§Ô®ĞÍÍ»»÷½¢£¬¿ÉÒÔ¶Ô´óĞÍÆì½¢Ôì³ÉÓĞĞ§ÉËº¦"
+-------------------------------------
+Locale_ship[12000] = "Sheep-class engineering ship"
+Locale_ship[12001] = "Engineering ship upgraded from a Sheep-class mining ship, equipped with a quadruple long-range repair beam"
 
+Locale_ship[12005] = "Ghoul-class heavy assault ship"
+Locale_ship[12006] = "Advanced fast assault ship, capable of handling any battle situation"
+Locale_ship[12010] = "Karma-class missile assault ship"
+Locale_ship[12011] = "A support assault ship that fires ruby missiles for combat and can deal effective damage to large flagships"
 
-Locale_ship[13075] = "Ğ¡ĞÍÄª¶ûµÏ»ù°²Ã³Ò×´¬"
-Locale_ship[13076] = "Ò»ÖÖĞ¡ĞÍµÄÄª¶ûµÏ»ù°²Ã³Ò×´¬£¬ºÍÍ¬ÀàÉÌ´¬Ïà±ÈÓµÓĞ½ÏÎª¼á¹ÌµÄ´¬Ìå"
 
+Locale_ship[13075] = "Small Mordechian trade ship"
+Locale_ship[13076] = "A small Mordechian trading ship with a sturdier hull compared to similar merchant ships"
 
-Locale_ship[12020] = "½ğÏßÍÅ¼¶Ã³Ò×´¬"  --228
-Locale_ship[12021] = "Ò»ÖÖ±ê×¼µÄÁªÃËÉÌ´¬£¬»¤ÎÀ½¢¼¶µÄÌå»ı£¬¿ÉÒÔÔÚÁªÃËÈÎºÎµØ·½¼ûµ½"
 
-Locale_ship[12030] = "Î÷Î÷¸¥Ë¹¼¶¹¤³ÌÍ§"  --231
-Locale_ship[12031] = "ÁªÃËµÄÍ¨ÓÃ¹¤³ÌÍ§£¬¿ÉÒÔ²É¿óºÍÔËÊäÉÙÁ¿µÄ»õÎï£¬»¹¿ÉÒÔ½øĞĞ¹¤³ÌÎ¬ĞŞ"
+Locale_ship[12020] = "Golden Thread class trading ship" --228
+Locale_ship[12021] = "A standard Alliance merchant ship, frigate class in size, can be seen anywhere in the Alliance"
 
+Locale_ship[12030] = "Sisyphus-class engineering vessel" --231
+Locale_ship[12031] = "Alliance general purpose engineering ship, can mine and transport small amounts of cargo, can also perform engineering repairs"
 
-Locale_Text[12040] = "¿¨°ÂË¹¼¶»¤ÎÀ½¢-Àë×ÓÅÚĞÍ"        --264
-Locale_Text[12041] = "×°±¸ÓĞÒ»ÃÅÀë×ÓÅÚ£¬¿ÉÒÔÓĞĞ§»÷»ÙÖ÷Á¦½¢"
 
-Locale_Text[12050] = "¿¨°ÂË¹¼¶»¤ÎÀ½¢-·À¿ÕÅÚĞÍ"        --265
-Locale_Text[12051] = "×°±¸ÓĞ·À¿ÕÅÚ£¬¿ÉÒÔÓĞ·À¿ÕºÍ»÷ÂäµĞ»ú"
+Locale_Text[12040] = "Kaos-class frigate - Ion Cannon type" --264
+Locale_Text[12041] = "Armed with an ion cannon, it can effectively destroy battleships"
 
-Locale_Text[12060] = "¿¨°ÂË¹¼¶»¤ÎÀ½¢-ÓãÀ×ĞÍ"        --266
-Locale_Text[12061] = "×°±¸ÓĞÁ½×ùÓãÀ×·¢ÉäÆ÷£¬¿ÉÒÔÓĞĞ§»÷»ÙÖ÷Á¦½¢ºÍÖĞĞ¡ĞÍ½¢Í§"
+Locale_Text[12050] = "Caius-class frigate - anti-aircraft gun type" --265
+Locale_Text[12051] = "Equipped with anti-aircraft guns, can have anti-aircraft and shoot down enemy aircraft"
 
-Locale_Text[12070] = "¿¨°ÂË¹¼¶»¤ÎÀ½¢-Í»»÷ĞÍ"        --267
-Locale_Text[12071] = "×°±¸ÓĞÒ»ÃÅÀë×ÓÅÚ£¬¿ÉÒÔÓĞĞ§»÷»ÙÖ÷Á¦½¢"
+Locale_Text[12060] = "Caius-class frigate - torpedo type" --266
+Locale_Text[12061] = "equipped with two torpedo launchers, can effectively destroy battleships and small and medium-sized ships"
 
-Locale_Text[12080] = "¿¨°ÂË¹¼¶»¤ÎÀ½¢-Ö§Ô®ĞÍ"        --268
-Locale_Text[12081] = "×°±¸ÓĞ¶àÃÅËÙÉäÅÚºÍµç½¬ÅÚµ¯·¢ÉäÆ÷£¬¿ÉÒÔÍ»ÆÆµĞÈË½¢¶ÓµÄ·ÀÏß"
+Locale_Text[12070] = "Kaos-class frigate - assault type" --267
+Locale_Text[12071] = "Equipped with an ion cannon that can effectively destroy battleships"
 
-Locale_Text[12090] = "¿¨°ÂË¹¼¶»¤ÎÀ½¢-Õì²ìĞÍ"        --269
-Locale_Text[12091] = "×°±¸ÓĞÏÈ½øÕì²ìÉè±¸£¬¿ÉÒÔÓĞĞ§µÄÕì²ìµĞÈË½¢¶ÓÇé¿ö"
+Locale_Text[12080] = "Kaos-class frigate - support" --268
+Locale_Text[12081] = "Armed with multiple rapid-fire cannons and plasma shell launchers, it can break through enemy fleet defenses"
 
-Locale_Text[12100] = "¿¨°ÂË¹¼¶»¤ÎÀ½¢-ÖÎ°²ĞÍ"        --270
-Locale_Text[12101] = "Ò»ÖÖÖÎ°²½¢£¬Ö÷ÒªÓÃÀ´½øĞĞÇøÓòÑ²ÂßºÍÎ¬»¤ÖÎ°²"
+Locale_Text[12090] = "Kaos-class frigate - reconnaissance" --269
+Locale_Text[12091] = "equipped with advanced reconnaissance equipment, can effectively reconnoitre the enemy fleet"
 
-Locale_Text[12110] = "¿¨°ÂË¹¼¶»¤ÎÀ½¢-¾«Ó¢ĞÍ"        --271
-Locale_Text[12111] = "×°±¸ÓĞ¶àÃÅËÙÉäÅÚ£¬Àë×Ó·¢ÉäÆ÷ºÍÁ½×ùµ¼µ¯·¢Éä×°ÖÃ£¬ÓµÓĞÇ¿´óµÄ»ğÁ¦Êä³ö"
+Locale_Text[12100] = "Caius-class frigate - security type" --270
+Locale_Text[12101] = "A type of security ship, mainly used for area patrols and security maintenance"
 
-Locale_Text[12120] = "su33strigon¾«Ó¢Õ½¶·»ú"        --282
-Locale_Text[12121] = "×°±¸ÓĞ¸÷ÖÖÎäÆ÷¿ÉÒÔÓĞĞ§·´½¢µÄ¾«Ó¢Õ½¶·ºäÕ¨»ú"
+Locale_Text[12110] = "Caius-class frigate - Elite" --271
+Locale_Text[12111] = "Armed with multiple rapid-fire guns, ion launchers and two missile launchers, it has a powerful firepower output"
 
-Locale_Text[12130] = "xfa27¾«Ó¢Õ½¶·»ú"        --282
-Locale_Text[12131] = "×°±¸ÓĞ¸÷ÖÖÎäÆ÷¿ÉÒÔÓĞĞ§ÖÆ¿ÕµÄ¾«Ó¢Õ½¶·»ú"
+Locale_Text[12120] = "su33strigon elite fighter" --282
+Locale_Text[12121] = "elite fighter-bomber equipped with a variety of weapons that can effectively fight against ships"
 
-Locale_Text[12140] = "strigonEXÎüÑª¹í³¬¼¶Õ½¶·»ú"        --282
-Locale_Text[12141] = "×°±¸ÓĞ¸÷ÖÖÎäÆ÷¿ÉÒÔ½øĞĞÇ¿´ó»ğÁ¦Êä³öµÄ³¬¼¶Õ½¶·»ú"
+Locale_Text[12130] = "xfa27 elite fighter" --282
+Locale_Text[12131] = "elite fighter aircraft equipped with a variety of weapons for effective air control"
 
-Locale_Text[12150] = "ÎŞÈËÕ½¶·»ú"        --282
-Locale_Text[12151] = "¿ÉÒÔÓĞĞ§ÖÆ¿ÕµÄĞ¡ĞÍÕ½¶·»ú"
+Locale_Text[12140] = "strigonEX vampire super fighter" --282
+Locale_Text[12141] = "super fighter equipped with a variety of weapons for powerful firepower output"
 
+Locale_Text[12150] = "unmanned fighter" --282
+Locale_Text[12151] = "a small fighter that can effectively control air"
 
-Locale_Text[12160] = "ÈëÇÖÕßÕ½¶·»ú¼×"        --304
-Locale_Text[12161] = "Ò»ÖÖ18Ã×¸ßµÄÕ½¶·»ú¼×£¬ÓµÓĞÓÅĞãµÄÖÆ¿ÕÄÜÁ¦"
 
-Locale_Text[12170] = "ÈëÇÖÕßÕ½¶·»ú¼×-µ¼µ¯Îä×°"        --305
-Locale_Text[12171] = "Ò»ÖÖ18Ã×¸ßµÄÕ½¶·»ú¼×£¬×°±¸Ò»ÃÅ¼ÓÇ¿ĞÍµÄ·´Æì½¢µ¼µ¯·¢ÉäÆ÷"
+Locale_Text[12160] = "Intruder fighter mech" --304
+Locale_Text[12161] = "An 18 meter tall fighter mech with excellent air control capabilities"
 
-Locale_Text[12180] = "ÈëÇÖÕßÕ½¶·»ú¼×-Âö³åÅÚÎä×°"        --306
-Locale_Text[12181] = "Ò»ÖÖ18Ã×¸ßµÄÕ½¶·»ú¼×£¬×°±¸Ò»ÃÅ¼ÓÇ¿ĞÍµÄÂö³åÅÚ·¢ÉäÆ÷"
+Locale_Text[12170] = "Intruder Fighter Armor - Missile Armed" --305
+Locale_Text[12171] = "An 18 meter tall fighter mech armed with a reinforced anti-flagship missile launcher"
 
+Locale_Text[12180] = "Intruder fighter mech - pulse cannon armed" --306
+Locale_Text[12181] = "An 18 meter tall fighter mech armed with a reinforced pulse cannon launcher"
 
-Locale_Text[12190] = "ÍºğÕ¼¶Õ½ÊõºäÕ¨»ú"        --309
-Locale_Text[12191] = "¿ÉÒÔÍ¶ÖÀ1400ÅÚµ¯µÄÕ½ÊõºäÕ¨»ú£¬¿ÉÒÔÓĞĞ§¶Ô¿¹Ö÷Á¦½¢"
 
-Locale_Text[12200] = "Ä§Ìº¼¶ºäÕ¨»ú"        --310
-Locale_Text[12201] = "¿ÉÒÔ·¢Éä»¤ÎÀ½¢µ¼µ¯µÄÇáĞÍºäÕ¨»ú£¬¿ÉÒÔÓĞÑ¹ÖÆµĞÈËµÄ»¤ÎÀ½¢Èº"
+Locale_Text[12190] = "Vulture-class tactical bomber" --309
+Locale_Text[12191] = "A tactical bomber that can drop 1400 shells and can be effective against main force ships"
 
-Locale_Text[12210] = "ÈëÇÖÕßÕ½¶·»ú¼×-Æï±øĞÍ"        --311
-Locale_Text[12211] = "´î³ËÄ§ÌººäÕ¨»úµÄÈëÇÖÕß»ú¼×£¬¿ÉÒÔ·¢Éäºì±¦Ê¯µ¼µ¯Ñ¹ÖÆµĞÈËÖ÷Á¦½¢"
+Locale_Text[12200] = "Magic carpet class bomber" --310
+Locale_Text[12201] = "A light bomber that can fire frigate missiles and can have suppress enemy frigate groups"
 
-Locale_Text[12220] = "³¤Ç¹Õ½¶·»úMK2"        --312
-Locale_Text[12221] = "´î³ËÄ§ÌººäÕ¨»úµÄÈëÇÖÕß»ú¼×£¬¿ÉÒÔ·¢Éäºì±¦Ê¯µ¼µ¯Ñ¹ÖÆµĞÈËÖ÷Á¦½¢"
+Locale_Text[12210] = "Intruder fighter mech - cavalry type" --311
+Locale_Text[12211] = "Intruder mech aboard magic carpet bomber that can have suppressed enemy battleships by firing ruby missiles"
 
-Locale_Text[12230] = "³¤Ç¹Õ½¶·»úMK2ÀØÉäĞÍ"        --313
-Locale_Text[12231] = "´î³ËÄ§ÌººäÕ¨»úµÄÈëÇÖÕß»ú¼×£¬¿ÉÒÔ·¢Éäºì±¦Ê¯µ¼µ¯Ñ¹ÖÆµĞÈËÖ÷Á¦½¢"
+Locale_Text[12220] = "Lance Fighter MK2" --312
+Locale_Text[1221] = "Intruder mechs aboard magic carpet bombers that can fire ruby missiles to suppress enemy battleships"
 
+Locale_Text[12230] = "Lance Fighter MK2 Laser" --313
+Locale_Text[12231] = "Intruder mech aboard magic carpet bomber that can fire ruby missiles to suppress enemy battleships"
 
-Locale_Text[12240] = "Á÷ĞÇÕ½¶·»ú ¸ÄÈı"    --318
-Locale_Text[12241] = "Îä±¸´îÔØÄ£¿é¾­¹ı¸ÄÔìµÄ¡°Á÷ĞÇ¡±Õ½¶·»ú£¬¿ÉÒÔ´îÔØ¡°Éñ½£¡±ÖØĞÍ¿Õ¿Õµ¼µ¯"
 
+Locale_Text[12240] = "Meteor Fighter Mod III" --318
+Locale_Text[12241] = "Meteor fighter with modified armament module, capable of carrying Excalibur heavy air-to-air missiles"
 
-Locale_Text[12250] = "ĞÇÓê¼¶»¤ÎÀ½¢"    --319
-Locale_Text[12251] = "ÁªÃËµÄÒ»ÖÖÁ¿²úĞÍ»¤ÎÀ½¢£¬ÓµÓĞ²»´íµÄ¾­¼ÃĞÔ"
 
-Locale_Text[12260] = "·À¿ÕĞÍ"    --319
-Locale_Text[12261] = "´îÔØÁË·À¿ÕĞÍÄ£¿é£¬¿ÉÒÔ¸ßĞ§ÂÊ·À¿Õ"
+Locale_Text[12250] = "Starry Rain frigate" --319
+Locale_Text[12251] = "A mass-produced frigate of the Alliance, with good economy"
 
-Locale_Text[12270] = "·´½¢ĞÍ"    --319
-Locale_Text[12271] = "´îÔØÁË·´½¢µ¼µ¯Ä£¿é£¬¿ÉÒÔÓĞĞ§¹¥»÷Ö÷Á¦½¢"
+Locale_Text[12260] = "Anti-aircraft type" --319
+Locale_Text[12261] = "Air defense module on board, can be highly efficient in air defense"
 
-Locale_Text[12280] = "ĞÇ³¾¼¶ÇıÖğ½¢ÊØ»¤ĞÍ"    --322
-Locale_Text[12281] = "ÓµÓĞ¸üÇ¿»ğÁ¦µÄĞÇ³¾¼¶ÇıÖğ½¢£¬¿ÉÒÔÓĞĞ§¶Ô¿¹Ö÷Á¦½¢"
+Locale_Text[12270] = "Anti-ship type" --319
+Locale_Text[12271] = "Anti-ship missile module on board, can effectively attack the battleship"
 
-Locale_Text[12290] = "À×Ãù¼¶¹ìµÀÅÚGĞÍ"    --330
-Locale_Text[12291] = "¸Ä×°×Ô·ÆÑÅÀûµÛ¹úµÄÀ×Ãù¼¶»¤ÎÀ½¢£¬Æä×î´óµÄ¸Ä¶¯ÊÇÖÕÓÚÊµÏÖÁËÎŞÈË¼İÊ»...¿ÉÒÔ»»Õ½ËğÁË"
+Locale_Text[12280] = "Stardust-class destroyer guardian type" --322
+Locale_Text[12281] = "Stardust-class destroyer with more firepower, can effectively fight against battleships"
 
-Locale_Text[12300] = "°ÍÂ×°²ÌØ¼¶¹ìµÀÅÚ"    --330
-Locale_Text[12301] = "¸ù¾İÃüÔË¼¶°éËæÎäÆ÷¸ÄÔì¶øÀ´µÄ°ÍÂ×°²ÌØ¼¶¹ìµÀÅÚ£¬Ê¹ÓÃÁËÈË¹¤ÖÇÄÜÌæ»»èóÂê¿ØÖÆÄ£¿é¡£"
+Locale_Text[12290] = "Thunder Class Railgun G" --330
+Locale_Text[12291] = "The most significant change to the Thunder class frigate from the Fai'ri Empire is that it is finally unmanned... It is possible to change battle damage"
 
+Locale_Text[12300] = "Barunant-class railgun" --330
+Locale_Text[12301] = "The Barunant-class railgun, modified from the Destiny-class accompanying weapon, uses artificial intelligence to replace the Vanmar control module."
 
--------------------------------------Ö÷Á¦½¢
-Locale_ship[13000] = "ÄÈ±´ÁòË¿"   --ÄÈ±´ÁòË¿·ÆÃ×ÁÕË¹
-Locale_ship[13001] = "ÄÈ±´ÁğË¹¼¶µÄÑÜÉú¹âÏßĞÍ£¬ÓµÓĞ²»´íµÄ·´Æì½¢ÄÜÁ¦"
-Locale_ship[13010] = "·À¿ÕĞÍ"
-Locale_ship[13011] = "É³åÈ¼¶×°¼×½¢µÄ·À¿ÕĞÍ£¬ÓÃ´óÁ¿·À¿Õ»ğÅÚÀ´Çå³ı¿ÕÓò"
 
-Locale_ship[13015] = "¹¤³ÌĞÍ"
-Locale_ship[13016] = "ÃÖÁ§¼¶º½Ä¸µÄ¹¤³ÌĞÍ£¬×°±¸ÁË´óÁ¿µÄĞŞÀí¹âÊø·¢ÉäÆ÷£¬¿ÉÒÔ¸ßĞ§ÂÊµÄĞŞ¸´ÊÜËğµÄÕ½½¢"
-Locale_ship[13020] = "´óĞÍ¹ìµÀÅÚ"
-Locale_ship[13021] = "Ò»ÖÖÒÆ¶¯»ºÂıµ«ÊÇ´àÈõ£¬µ«ÊÇÍşÁ¦Ç¿´óÉä³Ì¼«Ô¶µÄ¹¥³ÇÎäÆ÷"
-Locale_ship[13030] = "µ¼µ¯Ï®»÷½¢"
-Locale_ship[13031] = "×°±¸´óÁ¿·´Æì½¢µ¼µ¯µÄ¹¥³ÇÖ÷Á¦½¢£¬×¨ÃÅÓÃÀ´´İ»ÙµĞ·½Æì½¢ºÍ´óĞÍÒªÈû£¨×¢Òâ£¬¸Ã½¢»áÏûºÄË«±¶µÄµ¯Ò©£©"
-Locale_ship[13040] = "ÁÔ»§×ù¼¶¸ßËÙÔËÊä½¢"   --176
-Locale_ship[13041] = "ÖØ×°¼×³¬¸ßËÙµÄÔËÊä½¢£¬¿ÉÒÔÔËÔØ´óÁ¿ÉÌÆ·¸ßËÙ´©Ô½·ÀÏß"
-Locale_ship[13050] = "ÒÁÀûÑÇ¼¶Ñ²¿Õ½¢"   --176
-Locale_ship[13051] = "³¬¾«ÈñµÄÒ»¹«Àï¼¶ÇıÖğ½¢£¬ÓµÓĞ¿ÉÅÂµÄÕ½¶·Á¦ºÍÍ¬Ñù¾ªÈËµÄÔì¼Û¡£"
+-------------------------------------
+Locale_ship[13000] = "Naberthios"   --
+Locale_ship[13001] = "Derivative ray type of Naberius class with good anti-flagship capability"
+Locale_ship[13010] = "Anti-aircraft type"
+Locale_ship[13011] = "Anti-air type of Sharjah-class armored ship, clears airspace with lots of anti-aircraft guns"
 
-Locale_ship[13060] = "¼Ó¶û°ÍÀ¼×°¼×Ï®»÷½¢"   --181
-Locale_ship[13061] = "¸ßËÙÖØ×°¼×ºÍÊÊµ±µÄ»ğÁ¦µÄÍêÃÀ½áºÏ£¬ÕâËÒÕ½½¢¿ÉÒÔÊ¤ÈÎ´ó²¿·ÖµÄÖĞµÍ¶ËÕ½¶·ÈÎÎñ"
+Locale_ship[13015] = "Engineering type"
+Locale_ship[13016] = "The engineering type of the Myrmidon class carriers, equipped with a large number of repair beam emitters to efficiently repair damaged warships"
+Locale_ship[13020] = "Large railgun"
+Locale_ship[13021] = "A slow-moving but fragile, but powerful siege weapon with a very long range"
+Locale_ship[13030] = "Missile attack ship"
+Locale_ship[13031] = "A main siege ship equipped with a large number of anti-flagship missiles, designed to destroy enemy flagships and large fortresses (note that this ship consumes double the ammunition)"
+Locale_ship[13040] = "Orion class high-speed transport ship" --176
+Locale_ship[13041] = "A heavily armored, ultra-high speed transport ship that can carry large amounts of commodities across defenses at high speed"
+Locale_ship[13050] = "Ilya-class cruiser" --176
+Locale_ship[13051] = "Ultra-elite kilometer-class destroyer with terrifying combat power and equally impressive cost."
 
-Locale_ship[13065] = "ÉÁ¹âÖ®ÈĞ¼¶Õ½ÁĞÑ²Ñó½¢"   --198
-Locale_ship[13066] = "ÓµÓĞ³¬¼¶¼¤¹âÊøÖ÷ÅÚµÄÕ½ÁĞÑ²Ñó½¢£¬¿ÉÒÔÓĞĞ§µÄ½øĞĞºóÅÅµÄÖ§Ô®"
+Locale_ship[13060] = "Galbalan armored assault ship" --181
+Locale_ship[13061] = "The perfect combination of high speed heavy armor and proper firepower, this battleship can handle most low to mid-range combat missions"
 
-Locale_ship[13070] = "¾ÉÈÕÖ§ÅäÕß"   --199
-Locale_ship[13071] = "¸Õ´ïÄáÄ·¼¶³¬¼¶Õ½¶·»ú-ÓµÓĞÇ¿´óµÄÕ½¶·ĞÔÄÜÑ¹ÖÆËùÓĞµ¥Î»"
+Locale_ship[13065] = "Flashblade class battlecruiser" --198
+Locale_ship[13066] = "Battlecruiser with a super laser beam main gun for effective rear support"
 
+Locale_ship[13070] = "Old Day Dominator" --199
+Locale_ship[13071] = "Gundanium-class super fighter - has powerful combat performance to overwhelm all units"
 
 
-Locale_ship[13080] = "¾ãÀÖ²¿¼¶Õ½ÁĞÑ²Ñó½¢"   --203
-Locale_ship[13081] = "ÓÉºÀ»ªÓÎÍ§¸Ä×°À´µÄÕ½ÁĞÑ²Ñó½¢£¬ÓµÓĞ¼«Îª¼á¹ÌµÄÍâ¿Ç×°¼×£¬10Áª×°»ğ¼ıÅÚ¿ÉÒÔÌá¹©Ò»¶¨µÄ»ğÁ¦"
 
-Locale_ship[13090] = "¾ãÀÖ²¿¼¶ºÀ»ªÓÎÂÖ"   --204
-Locale_ship[13091] = "ÓĞ¾ãÀÖ²¿ÍÁºÀ×¨ÃÅ¶¨ÖÆµÄºÀ»ªÓÎÂÖ£¬×Ô´øÓĞÄ£ÄâÉúÌ¬Ô°ÁÖÏµÍ³ºÍ¸÷ÖÖÓéÀÖÉèÊ©£¬»¹ÓĞÒ»¸ö´óĞÍ³µ¿â¿ÉÒÔÍ£¿¿³µÁ¾"
+Locale_ship[13080] = "Club Class Battlecruiser" --203
+Locale_ship[13081] = "Battlecruiser converted from a luxury yacht, with extremely strong shell armor and a 10-port rocket launcher to provide some firepower"
 
-Locale_ship[13095] = "µÛ¹úĞÂÎÅ×ÜÊğºÅ"   --204
-Locale_ship[13096] = "µÛ¹úµÚÒ»¼ÇÕßĞñÈÕµÄ×¨Êô×ù½¢£¬ÓµÓĞ¾ªÈËµÄº½ËÙºÍ´óÁ¿µÄĞÂÎÅÉè±¸"
+Locale_ship[13090] = "Club-class luxury cruise ship" --204
+Locale_ship[13091] = "A club-class luxury cruise ship with a simulated eco-garden system and various entertainment facilities, as well as a large garage for parking vehicles"
 
-Locale_ship[13100] = "¹¥³Çµ¼µ¯·¢ÉäÆ½Ì¨-ºÕÄ«À­"   --215
-Locale_ship[13101] = "Ò»ÖÖ×°±¸ÁË³¬Ô¶³Ì²ÔÀ¼µ¼µ¯µÄ¹ìµÀ·¢ÉäÆ½Ì¨£¬¿ÉÒÔÔ¶¾àÀë½øĞĞ»ğÁ¦Ö§Ô®"
+Locale_ship[13095] = "The Imperial Press Administration" -- 204
+Locale_ship[13096] = "The exclusive seat ship of the Empire's first journalist, the Rising Sun, with an amazing speed and a large amount of journalistic equipment"
 
-Locale_ship[13100] = "¹¥³Çµ¼µ¯·¢ÉäÆ½Ì¨-ºÕÄ«À­"   --215
-Locale_ship[13101] = "Ò»ÖÖ×°±¸ÁË³¬Ô¶³Ì²ÔÀ¼µ¼µ¯µÄ¹ìµÀ·¢ÉäÆ½Ì¨£¬¿ÉÒÔÔ¶¾àÀë½øĞĞ»ğÁ¦Ö§Ô®"
+Locale_ship[13100] = "Siege Missile Launching Platform - Hermola" --215
+Locale_ship[13101] = "An orbital launch platform equipped with ultra-long-range Aran missiles for long-range fire support"
 
-Locale_ship[13110] = "°¢ËşÀ¼ß¯¼¶ÖØĞÍÇıÖğ½¢"   --ship217
-Locale_ship[13111] = "¿¨¶òË¹ÁªÃËµÄ±ê×¼Ö÷Á¦½¢£¬×°±¸220ºÁÃ×Ö÷ÅÚ£¬ÓµÓĞ¶àÖÖ¸ÄĞÍ"
+Locale_ship[13100] = "Siege missile launch platform-Hermola" --215
+Locale_ship[13101] = "An orbital launch platform equipped with ultra-long-range Ceylon missiles for long-range fire support"
 
-Locale_ship[13120] = "°¢ËşÀ¼ß¯¼¶-Ï£¶û·Ò·À¿ÕĞÍ"   --218
-Locale_ship[13121] = "°¢ËşÀ¼ß¯¼¶ÖØĞÍÇıÖğ½¢µÄÌØÊâ¸ÄÔìĞÍ£¬ºÍÏ£¶û·ÒÁªºÏ¿ª·¢£¬ÓµÓĞÏÈ½øµÄ·À¿ÕÎäÆ÷ÏµÍ³"
+Locale_ship[13110] = "Atalanta-class heavy destroyer" --217
+Locale_ship[13111] = "Standard battleship of the Caius Alliance, armed with a 220mm main gun, with multiple variants"
 
-Locale_ship[13130] = "°¢ËşÀ¼ß¯¼¶ÖØĞÍÇıÖğ½¢-Ç¾Ş±ĞÍ"   --219
-Locale_ship[13131] = "°¢ËşÀ¼ß¯¼¶ÖØĞÍÇıÖğ½¢µÄÌØÊâ¸ÄÔìĞÍ£¬Æä×Ï¾§µ¼µ¯·¢ÉäÕóÁĞ±»Ìæ»»³ÉÁËÔ¶³ÌµÄÇ¾Ş±Ñ²º½µ¼µ¯·¢Éä¼Ü£¬ÓµÓĞÓÅĞãµÄ·´Æì½¢ÄÜÁ¦"
+Locale_ship[13120] = "Atalanta Class - Sylphon Anti-Aircraft" --218
+Locale_ship[13121] = "Special modification of the Atalanta-class heavy destroyer, developed jointly with the Sylphon, with advanced anti-aircraft weapon systems"
 
-Locale_ship[13140] = "°¢ËşÀ¼ß¯¼¶ÖØĞÍÇıÖğ½¢-ÌØ×°ĞÍ"   --220
-Locale_ship[13141] = "°¢ËşÀ¼ß¯¼¶ÖØĞÍÇıÖğ½¢µÄÌØ¾«Ó¢ĞÍ£¬ÓµÓĞ¸üºñÖØµÄ×°¼×ºÍ¸üÇ¿´óµÄ·À¿Õ»ğÁ¦"
+Locale_ship[13130] = "Atalanta Heavy Destroyer - Rosebud" --219
+Locale_ship[13131] = "A specially modified version of the Atalanta-class Heavy Destroyer, its Amethyst missile array has been replaced with a long-range Rosebud cruise missile launcher, with excellent anti-flagship capabilities"
 
-Locale_ship[13150] = "°¢ËşÀ¼ß¯¼¶ÖØĞÍÇıÖğ½¢-µç½¬ĞÍ"   --221
-Locale_ship[13151] = "°¢ËşÀ¼ß¯¼¶ÖØĞÍÇıÖğ½¢µÄ·À¿ÕÓÅ»¯ĞÍ£¬ÓÃÏÈ½øµÄµç½¬·À¿ÕÅÚÌæ»»ÁË220ºÁÃ×Ö÷ÅÚ"
+Locale_ship[13140] = "Atalanta-class Heavy Destroyer-Special Modification" --220
+Locale_ship[13141] = "A special elite version of the Atalanta-class Heavy Destroyer, with heavier armor and more anti-aircraft firepower"
 
-Locale_ship[13160] = "°¢ËşÀ¼ß¯¼¶ÖØĞÍÇıÖğ½¢-¹¤³ÌĞÍ"   --222
-Locale_ship[13161] = "°¢ËşÀ¼ß¯¼¶ÖØĞÍÇıÖğ½¢µÄ¹¤³Ì¸ÄÔìĞÍ£¬È¡ÏûÁËËùÓĞÎäÆ÷²¢°Ñ´¬Í·Ö÷ÅÚÌæ»»³ÉÁËÒ»Ì×ĞŞÀí¹âÊø·¢ÉäÏµÍ³"
+Locale_ship[13150] = "Atalanta-class Heavy Destroyer - Electroplasma" --221
+Locale_ship[13151] = "Optimized anti-aircraft version of the Atalanta-class Heavy Destroyer, replacing the 220mm main gun with an advanced plasma anti-aircraft gun"
 
-Locale_ship[13170] = "°¢ËşÀ¼ß¯¼¶ÖØĞÍÇıÖğ½¢-EDFÍâÃ³ĞÍ"   --223
-Locale_ship[13171] = "°¢ËşÀ¼ß¯¼¶ÖØĞÍÇıÖğ½¢µÄEDFÍâÃ³ĞÍ£¬×¨ÃÅÕë¶Ô¶©¹º·½EDF½øĞĞÁËÒ»ÏµÁĞµÄ¸ÄÔìºÍµ÷Õû£¬±ÈÈçÊ¹ÓÃ·ÆÑÅÀûµÛ¹úÍ¨ÓÃµÄÍ¨ÓÃÎäÆ÷ÏµÍ³ÒÑ¾­×¨ÃÅÉè¼ÆÁËÏÈ½øÖ÷ÅÚµÈµÈ"
+Locale_ship[13160] = "Atalanta-class Heavy Destroyer - Engineering" --222
+Locale_ship[13161] = "An engineered version of the Atalanta Heavy Destroyer, removing all weapons and replacing the bow gun with a repair beam firing system"
 
+Locale_ship[13170] = "Atalanta Heavy Destroyer - EDF Foreign Trade" --223
+Locale_ship[13171] = "EDF foreign trade version of the Atalanta-class Heavy Destroyer, with a series of modifications and adjustments specifically for the subscriber's EDF, such as the use of the Fai'ri Empire's common weapon system and the specially designed advanced main gun, etc."
 
-Locale_ship[13175] = "°¢ÇĞÂåÌØ¼¶¾ŞĞÍ¹¤³Ì´¬Îë½¢"   --224
-Locale_ship[13176] = "¾Ş´óµÄ´¬ÎëĞÍĞÇ½¢£¬ÓµÓĞÇ¿´óµÄ½¢¶ÓÎ¬ĞŞÄÜÁ¦£¬»¹¿ÉÒÔÊÍ·Å´óÁ¿µÄĞ¡ĞÍ¹¤³Ì½¢Î¬ĞŞÕû¸ö½¢¶Ó"
 
-Locale_ship[13185] = "´óÁ¦Éñ¼¶¼¯×°ÏäÔËÊä½¢"   --227
-Locale_ship[13186] = "³¬´óĞÍµÄ¼¯×°ÏäÔËÊä½¢£¬¿ÉÒÔÔËÊäº£Á¿µÄÎï×Ê£¬Ö»ÊÇ½á¹¹±È½Ï´àÈõ£¬ĞèÒª¸ü¶àµÄ·ÀÓùºÍ±£»¤¡£"
+Locale_ship[13175] = "Achelote class giant engineering dock ship" --224
+Locale_ship[13176] = "Huge dock-type starship with great fleet repair capabilities, can also release a large number of smaller engineering ships to repair the entire fleet"
 
+Locale_ship[13185] = "Hercules-class container transport ship" --227
+Locale_ship[13186] = "Super large container transport ship, can transport massive amounts of supplies, just has a weak structure and needs more defense and protection."
 
-Locale_ship[13190] = "ÓñÃÅ¼¶³¬´óĞÍÂëÍ·½¢"   --230
-Locale_ship[13191] = "¾ŞĞÍµÄÂëÍ·½¢£¬ÓÃÀ´¿ìËÙµÄ×°Ğ¶Îï×Ê£¬Ëü±¾ÉíÒ²ÓĞÉÙÁ¿¿Õ¼ä×÷ÎªÖĞ×ªÓÃ"
 
-Locale_ship[13200] = "ĞÇÃÅÍ¶Éä×°ÖÃ"   --239
-Locale_ship[13201] = "³¬¼¶ĞÇÃÅ¶¼ÊĞµÄÄÜÁ¿Í¶Éä×°ÖÃ£¬¿ÉÒÔ¿ç¿Õ¼äÍ¶Éä´óÁ¿ÄÜÁ¿´İ»ÙµĞ½¢"
+Locale_ship[13190] = "Yumen-class mega dock ship" --230
+Locale_ship[13191] = "A giant dock ship, used to load and unload supplies quickly, it also has a small amount of space for staging itself"
 
-Locale_ship[13210] = "Ê¥¶Ü¼¶ÇıÖğ½¢"   --250
-Locale_ship[13211] = "Ò»ÖÖÖØ×°¼×ÇıÖğ½¢£¬ÓµÓĞºñÖØµÄ×°¼×"
+Locale_ship[13200] = "Jumpgate projection device" --239
+Locale_ship[13201] = "A super stargate metropolis energy projection device that can project large amounts of energy across space to destroy enemy ships"
 
-Locale_ship[13220] = "Ê¥¶Ü¼¶ÇıÖğ½¢ÓÄÁé½¢¶ÓĞÍ"   --251
-Locale_ship[13221] = "¸üÏÈ½øµÄÊ¥¶ÜÇıÖğ½¢£¬ÓµÓĞ¸ü¼á¹ÌµÄ³äÄÜ·ÀÓù×°¼×ºÍ²Ô°×Ñı¾«µ¼µ¯ÏµÍ³"
+Locale_ship[13210] = "Holy Shield-class destroyer" --250
+Locale_ship[13211] = "A heavily armored destroyer with heavy armor"
 
-Locale_ship[13230] = "Ä°µ¶¼¶ÇıÖğ½¢"   --252
-Locale_ship[13231] = "Ò»ÖÖ¾­µäµÄÁ¿²úĞÍÇıÖğ½¢£¬ÓµÓĞ¼«¸ßµÄĞÔ¼Û±È¡£"
+Locale_ship[13220] = "Saintshield-class destroyer Ghost Fleet type" --251
+Locale_ship[13221] = "A more advanced Saint's Shield destroyer with stronger recharged defensive armor and pale goblin missile systems"
 
-Locale_ship[13240] = "Ä°µ¶¼¶ÇıÖğ½¢·À¿ÕĞÍ"   --253
-Locale_ship[13241] = "Ä°µ¶¼¶ÇıÖğ½¢µÄ·À¿ÕĞÍ£¬×°±¸ÓĞ´óÁ¿·À¿ÕÎäÆ÷"
+Locale_ship[13230] = "Strider-class destroyer" --252
+Locale_ship[13231] = "A classic mass-produced destroyer with a great price/performance ratio."
 
-Locale_ship[13250] = "Ä°µ¶¼¶ÇıÖğ½¢-Ü½À¼¿¨ºÅ"   --254
-Locale_ship[13251] = "Ò»ËÒÌØÊâĞÍµÄÄ°µ¶¼¶ÇıÖğ½¢"
+Locale_ship[13240] = "Strider-class destroyer anti-aircraft type" --253
+Locale_ship[13241] = "An anti-aircraft version of the Strider-class destroyer, equipped with a large number of anti-aircraft weapons"
 
-Locale_Text[13260] = "Ë¹¿¨·¨Èê¼¶ÇıÖğ½¢"        --
-Locale_Text[13261] = "×°±¸ÓĞ¶àÖÖÎäÆ÷£¬¿ÉÒÔÁé»îµÄÓ¦¶Ô¸÷ÖÖÖĞĞ¡ĞÍÄ¿±ê£¬Ò²¿ÉÒÔ¶Ô¿¹Ö÷Á¦½¢"
+Locale_ship[13250] = "Strider-class destroyer - Franco" --254
+Locale_ship[13251] = "A special type of Strider-class destroyer"
 
-Locale_Text[13270] = "Ë¹¿¨·¨Èê¼¶ÇıÖğ½¢-·À¿ÕĞÍ"        --
-Locale_Text[13271] = "×°±¸ÓĞ´óÁ¿·À¿ÕÎäÆ÷£¬¿ÉÒÔÓĞĞ§µÄÑ¹ÖÆ¿ÕÓò"
+Locale_Text[13260] = "Scafaru-class destroyer" --
+Locale_Text[13261] = "Armed with a variety of weapons, it is flexible enough to deal with a variety of small and medium-sized targets, and can also fight against battleships"
 
-Locale_Text[13280] = "Ë¹¿¨·¨Èê¼¶ÇıÖğ½¢-¾Ñ»÷ĞÍ"        --
-Locale_Text[13281] = "×°±¸ÓĞÒ»ÃÅÔ¶³ÌÆì½¢¼¶Àë×ÓÊø·¢ÉäÆ÷£¬¿ÉÒÔÓĞĞ§µÄ¹¥»÷¶Ô·½Æì½¢"
+Locale_Text[13270] = "Scafaru-class destroyer - anti-aircraft" --
+Locale_Text[13271] = "Equipped with a large number of anti-aircraft weapons, it can effectively suppress airspace"
 
-Locale_Text[13290] = "Ë¹¿¨·¨Èê¼¶ÇıÖğ½¢-Í»»÷ĞÍ"        --
-Locale_Text[13291] = "×°±¸ÓĞ¶à×ùÖØÅÚºÍÓãÀ×·¢ÉäÆ÷£¬¿ÉÒÔÓĞĞ§Í»ÈëµĞÈË½¢¶ÓÕóÁĞ"
+Locale_Text[13280] = "Scafaru-class destroyer - sniper type" --
+Locale_Text[13281] = "Equipped with a long-range flagship-class ion beam emitter that can effectively attack opposing flagships"
 
+Locale_Text[13290] = "Scafaru-class destroyer - Assault" --
+Locale_Text[13291] = "Equipped with multiple heavy guns and torpedo launchers, it can effectively break into enemy fleet arrays"
 
-Locale_Text[13300] = "Ë¹¿¨·¨Èê¼¶ÇıÖğ½¢-Ö§Ô®ĞÍ"        --
-Locale_Text[13301] = "×°±¸Ò»ÃÅ´óĞÍĞŞÀí¹âÊø·¢ÉúÆ÷£¬¿ÉÒÔÓĞĞ§µÄ½øĞĞÔ¶¾àÀëĞŞÀí"
 
+Locale_Text[13300] = "Scafaru-class destroyer - support" --
+Locale_Text[13301] = "Equipped with a large repair beam generator for effective long-range repair"
 
-Locale_Text[13310] = "Ë¹¿¨·¨Èê¼¶ÇıÖğ½¢-¾«Ó¢ĞÍ"        --
-Locale_Text[13311] = "×°±¸ÓĞ¶àÖÖÎäÆ÷£¬ÓµÓĞ²»ÑÇÓÚÑ²Ñó½¢µÄÕ½¶·Á¦"
 
-Locale_Text[13310] = "Ë¹¿¨·¨Èê¼¶ÇıÖğ½¢-¾«Ó¢ĞÍ"        --
-Locale_Text[13311] = "×°±¸ÓĞ¶àÖÖÎäÆ÷£¬ÓµÓĞ²»ÑÇÓÚÑ²Ñó½¢µÄÕ½¶·Á¦"
+Locale_Text[13310] = "Scafaru-class destroyer - Elite" --
+Locale_Text[13311] = "Equipped with a wide range of weapons, has a combat power as good as a cruiser"
 
-Locale_Text[13320] = "º£Ä·µÀ¶û¼¶Õ½ÁĞÑ²Ñó½¢"   --272
-Locale_Text[13321] = "°¬ÂåË¹×îĞÂÑĞ·¢µÄÒ»ÖÖÕ½ÁĞÑ²Ñó½¢£¬ÓµÓĞÕ½ÁĞ½¢¼¶µÄÖ÷ÅÚºÍ´óÁ¿´ó¿Ú¾¶Ö÷ÅÚ"
+Locale_Text[13310] = "Scafaru-class destroyer - elite" --
+Locale_Text[13311] = "Equipped with a variety of weapons, has the combat power of a cruiser"
 
-Locale_Text[13330] = "¶ò¶ûÄáÅµ¼¶Õ½ÁĞÑ²Ñó½¢"   --273
-Locale_Text[13331] = "°¬ÂåË¹ºÍ¿¨¶òË¹ÁªºÏÑĞ·¢µÄÒ»ÖÖÕ½ÁĞÑ²Ñó½¢£¬ÓµÓĞÕ½ÁĞ½¢¼¶µÄÖ÷ÅÚºÍ´óÁ¿´ó¿Ú¾¶Ö÷ÅÚ"
+Locale_Text[13320] = "Heimdall-class battlecruiser" -- 272
+Locale_Text[13321] = "One of the latest battlecruisers developed by Airos, with battleship-class main guns and a large number of large-caliber main guns"
 
-Locale_Text[13340] = "Ñ²»ØÕß¹âÊø°æ"   --286
-Locale_Text[13341] = "Ñ²»ØÕßÏ®»÷½¢µÄ¸ÄÁ¼ĞÍ£¬½«µç´ÅÅÚºÍÊµµ¯ÅÚÌæ»»³ÉÁËÈ«Ì×µÄÀë×Ó¼ÓÅ©ÅÚ·¢ÉäÆ÷"
+Locale_Text[13330] = "El Ni?o-class battlecruiser" --273
+Locale_Text[13331] = "A battlecruiser jointly developed by Airos and Caius, with battleship-class main guns and a large number of large-caliber main guns"
 
-Locale_Text[13350] = "ÈıÒ¶¼¶ÔËÊä´¬"   --297
-Locale_Text[13351] = "Ò»ÖÖÌØÊâµÄÊµÑéĞÍÔËÊä´¬£¬ÓÃÀ´ÑéÖ¤¹â¶¯Á¦·«´ó¹æÄ£°²×°ÔÚĞÇ½¢ÉÏµÄ¿ÉÄÜĞÔ"
+Locale_Text[13340] = "Rover Beam version" --286
+Locale_Text[13341] = "An improved version of the Rover Raider, replacing the electromagnetic and live-fire cannons with a full set of ion cannon launchers"
 
-Locale_Text[13360] = "×¿Ô½¼¶Ï®»÷½¢"   --300
-Locale_Text[13361] = "Ò»ËÒÌØÊâµÄµ¼µ¯Ï®»÷½¢£¬ÓµÓĞºÏÀíµÄ·ÀÓù½á¹¹ºÍ×ã¹»µÄµ¼µ¯ÍşÁ¦"
+Locale_Text[13350] = "Trilogy-class transport ship" --297
+Locale_Text[13351] = "A special experimental transport ship to verify the possibility of mass installation of photodynamic sails on starships"
 
-Locale_Text[13370] = "Ã×ÅµÌÕË¹¼¶·À¿ÕÑ²Ñó½¢"   --314
-Locale_Text[13371] = "ÓÅĞãµÄÏÈ½ø·À¿ÕÑ²Ñó½¢£¬ÓµÓĞ·Ç³£³öÉ«µÄ·À¿ÕÄÜÁ¦"
+Locale_Text[13360] = "Excellence-class assault ship" --300
+Locale_Text[13361] = "A special missile assault ship with a reasonable defense structure and sufficient missile power"
 
-Locale_Text[13380] = "ÍÌĞÇÕß¼¶ÖØĞÍ¾«Á¶´¬"   --315
-Locale_Text[13381] = "³¬´óĞÍµÄ×ÊÔ´¾«Á¶´¬£¬¿ÉÒÔÔÚ×î¶ÌÊ±¼äÄÚËÑ¹Î¹âÒ»Æ¬Ğ¡ĞĞĞÇ´ø"
+Locale_Text[13370] = "Minotaur-class anti-aircraft cruiser" --314
+Locale_Text[13371] = "Excellent advanced anti-aircraft cruiser with very good anti-aircraft capabilities"
 
-Locale_Text[13390] = "ÃÀÒò´Ä¼¶ÌØÇ²½¢"   --7
-Locale_Text[13391] = "·şÒÛÓÚ£¨´úÀíÈË£©×éÖ¯µÄĞÍºÅ£¬ÆäÄÚ²¿¾­¹ıÁËÌØÊâ¸Ä×°"
+Locale_Text[13380] = "Star Swallower class heavy refiners" --315
+Locale_Text[13381] = "Very large resource refining ship that can scour an asteroid belt in the shortest possible time"
 
-Locale_Text[13400] = "Í»Ï®Õß¼¶ÇáĞÍÕ½Êõ½¢»ù´¡ĞÍ"   --6
-Locale_Text[13401] = "º£ÀïÃ×¶û·şÒÛµÄĞÂÒ»´úÇáĞÍÕ½Êõ½¢"
+Locale_Text[13390] = "Mainz-class task force ship" --7
+Locale_Text[13391] = "model in service with (proxy) organization, with special internal modifications"
 
-Locale_Text[13420] = "Í»Ï®Õß¼¶ÇáĞÍÕ½Êõ½¢º£¾üĞÍ"   --8
-Locale_Text[13421] = "·şÒÛÓÚº£¾üµÄÍ»Ï®ÕßĞÍºÅ£¬Æä×°±¸ÊÊÓ¦º£¾üÒªÇó½øĞĞÁË¸Ä½ø"
+Locale_Text[13400] = "Raider class light tactical ship base type" --6
+Locale_Text[13401] = "A new generation of light tactical ships in service with Helimir"
 
-Locale_Text[13410] = "Í»Ï®Õß¼¶ÇáĞÍÕ½Êõ½¢°µÇøĞÍ"   --9
-Locale_Text[13411] = "·şÒÛÓÚ°µÇøµÄÍ»Ï®ÕßĞÍºÅ£¬Æä×°±¸ÊÊÓ¦°µÇø»·¾³¾­¹ıÁËÌØ»¯"
+Locale_Text[13420] = "Raider Class Light Tactical Ship Navy" --8
+Locale_Text[13421] = "Raider type in naval service with improved equipment to suit naval requirements"
 
-Locale_Text[13430] = "¾«Ó¢ĞÍÔ¶ĞĞÕß¼¶Õ½ÁĞ½¢"   --323
-Locale_Text[13431] = "½øĞĞ´ó¹æÄ£Ç¿»¯¸ÄÔìµÄÔ¶ĞĞÕß¼¶Õ½ÁĞ½¢£¬ÓµÓĞ³¬¹ıÁ¿²úÕ½ÁĞ½¢µÄĞÔ¼Û±È"
+Locale_Text[13410] = "Raider class light tactical ship Dark Zone type" --9
+Locale_Text[13411] = "Raider type in service in the Dark Zone, its equipment has been adapted to the Dark Zone environment"
 
-Locale_Text[13450] = "·ÑÄÉÄáÑÇ¼¶MK4ĞÍÑ²Ñó½¢"   --329
-Locale_Text[13451] = "Ò»ÖÖÔì¼ÛµÍÁ®µÄÍ¨ÓÃĞÍÑ²Ñó½¢£¬¾­¹ıÁËÊı´úÉı¼¶£¬¿ÉÒÔÇáËÉ´óÁ¿Éú²ú"
+Locale_Text[13430] = "Elite Farseer-class battleship" --323
+Locale_Text[13431] = "A Farseer-class battleship that has undergone a massive enhancement and has a price/performance ratio that exceeds that of mass-produced battleships"
 
-Locale_Text[13460] = "ÂÓ¶áÕß¼¶ÖØĞÍÑ²Ñó½¢"   --338
-Locale_Text[13461] = "µÛ¹ú×îĞÂ¿ª·¢µÄÖØĞÍÑ²Ñó½¢£¬¿ÉÒÔ¿ìËÙ´óÁ¿Éú²ú£¬ÓµÓĞ¿É¿¿µÄ·ÀÓùÁ¦"
+Locale_Text[13450] = "Feneria-class MK4 cruiser" --329
+Locale_Text[13451] = "An inexpensive general purpose cruiser that has been upgraded over several generations and can be easily produced in large numbers"
 
-Locale_Text[13470] = "ÇÖÂÔÕß¼¶µ¼µ¯¹¥³Ç½¢"   --339
-Locale_Text[13471] = "Ò»ÖÖÔì¼ÛµÍÁ®µÄµ¼µ¯¹¥³Ç½¢£¬·¢Éä³¬ÖØĞÍ·´½¢µ¼µ¯À´´İ»ÙµĞÈËÆì½¢"
+Locale_Text[13460] = "Predator-class heavy cruiser" --338
+Locale_Text[13461] = "The latest heavy cruiser developed by the Empire, can be produced in large numbers quickly and has reliable defense"
 
-Locale_Text[13480] = "»ÙÃğÕßµ¼µ¯Ï®»÷½¢"   --340
-Locale_Text[13481] = "Ò»ÖÖÌØÊâµÄÕ½½¢£¬¾İËµÀ´×ÔÒ»Ğ©µÛ¹ú·Ç¹Ù·½ÊÆÁ¦µÄÃØÃÜ¸ÄÔì"
+Locale_Text[13470] = "Aggressor-class missile siege ship" --339
+Locale_Text[13471] = "An inexpensive missile siege ship that fires super-heavy anti-ship missiles to destroy enemy flagships"
 
-Locale_Text[13490] = "°²¼ªÀöÄÈ¼¶ĞäÕäÕ½ÁĞ½¢"   --113
-Locale_Text[13491] = "Ò»¿î×îĞÂ¿ª·¢µÄÒÔ»ğÁ¦Ö§Ô®ÎªÖ÷µÄ´óĞÍÖ÷Á¦½¢"
+Locale_Text[13480] = "Destroyer missile attack ship" --340
+Locale_Text[13481] = "A special kind of warship, supposedly from some secret modification by unofficial Imperial forces"
 
-Locale_Text[13500] = "Ñô·«¼¶»¤ÎÀÕ½Ñ²"   --354
-Locale_Text[13501] = "´îÔØÄÜÁ¿ÎäÆ÷µÄ´óĞÍ»¤ÎÀ½¢Í§£¬ÅäÊôµ½M51ÒÔ½øĞĞÊÊÓ¦ĞÔÑéÖ¤¡£"
+Locale_Text[13490] = "Angelina-class pocket battleship" --113
+Locale_Text[13491] = "A newly developed large battleship with a focus on fire support"
 
+Locale_Text[13500] = "Yangfan Class Guardian Battle Cruiser"   --354
+Locale_Text[13501] = "A large frigate equipped with energy weapons, assigned to M51 for adaptability verification."
 
 
--------------------------------------Æì½¢
-Locale_ship[15000] = "µÚËÄ´úÅ®»Ê¼¶"
-Locale_ship[15001] = "Ç¿´óµÄÕ½Õù·½ÖÛ£¬ÎªÁË¿¹ºâÊıÁ¿ÅÓ´óµÄÎ¬¸ñ¶û¾Ş½¢¶ø½¨Ôì¡£ËäÈ»ĞÔÄÜÉÏ½ÏµÚÈı´úÅ®»Ê¼¶ÓĞËùÏÂ½µ£¬µ«ÊÇÒÀÈ»ÊÇÇ¿´óµÄÕ½Õù±¤Àİ"
-Locale_ship[15010] = "¾«Ó¢ĞÍ"
-Locale_ship[15011] = "¾«Ó¢ĞÍµÄµÚËÄ´úÅ®»Ê¼¶£¬ÓµÓĞ²»ÊäÓÚµÚÈı´úÅ®»Ê¼¶µÄÕ½¶·Á¦"
-Locale_ship[15015] = "¾«Ó¢ĞÍ°Â¶¡ÎŞÎ·½¢"
-Locale_ship[15016] = "¾«Ó¢ĞÍµÄ°Â¶¡ÎŞÎ·½¢£¬ÓµÓĞÇ¿´óµÄ¹¥·ÀÄÜÁ¦£¬¿ÉÒÔ¶Ô¿¹Âí¿¨¶÷Ö®Å­ÕâÑùµÄ¾Ş½¢"
-Locale_ship[15020] = "ÖØ´¸ÂÖ»Ø"
-Locale_ship[15021] = "´îÔØÁË8ÃÅ5300¾ŞÅÚ£¬ÓµÓĞ¿ÉÅÂµÄ¹¥¼áÄÜÁ¦£¬¿ÉÒÔ´İ»ÙÈÎºÎÖØĞÍÕ½½¢"
-Locale_ship[15025] = "¼«¹âÂÖ»Ø"
-Locale_ship[15026] = "ÂÖ»Ø¼¶ÎŞÎ·½¢µÄ¼ò»¯°æ£¬´îÔØÁË8ÃÅÆµÉäÀë×Ó¼ÓÅ©¾ŞÅÚ£¬ÓµÓĞÇ¿´óµÄ³ÖĞøÊä³öÄÜÁ¦"
 
-Locale_ship[15100] = "Ëş¶ûÂåË¹¼¶Õ½ÁĞ½¢"
-Locale_ship[15101] = "°£ºÕÂåË¹¼ÎµÂµÛ¹úµÄÖ÷Á¦Õ½ÁĞ½¢£¬ÓµÓĞÇ¿´óµÄ¹¥·ÀÊµÁ¦ºÍ°º¹óµÄ¼Û¸ñ"
-Locale_ship[15105] = "»ğÅÚ°æ"
-Locale_ship[15106] = "´îÔØÁË1200¾ŞÅÚ£¬ÓµÓĞ³öÉ«µÄ·´Ö÷Á¦½¢ÄÜÁ¦ºÍ·´Æì½¢ÄÜÁ¦"
-Locale_ship[15110] = "¹âÊø°æ"
-Locale_ship[15111] = "´îÔØÁË¾ŞĞÍÀë×ÓÅÚ¾ŞÅÚ£¬ÓµÓĞ³öÉ«µÄ·´Æì½¢ÄÜÁ¦"
+-------------------------------------
+Locale_ship[15000] = "Fourth generation Empress class"
+Locale_ship[15001] = "A powerful war ark, built to counteract the huge number of Vaygr. Although its performance has been reduced compared to the third generation Empress class, it is still a powerful war fortress"
+Locale_ship[15010] = "Elite type"
+Locale_ship[15011] = "Elite type of the 4th generation Empress class, with a combat power no less than that of the 3rd generation Empress class"
+Locale_ship[15015] = "Elite Odin Dreadnought"
+Locale_ship[15016] = "Elite Odin dreadnought with great offensive and defensive capabilities against giant ships like the Fury of Makarn"
+Locale_ship[15020] = "Heavy hammer rotation"
+Locale_ship[15021] = "Armed with eight 5300 megacannons, it has a formidable offensive capability that can destroy any heavy warship"
+Locale_ship[15025] = "Aurora Reincarnation"
+Locale_ship[15026] = "A simplified version of the Reincarnation-class dreadnought, carrying 8 strobe-firing ion cannon megacannons with powerful sustained output"
 
-Locale_ship[15150] = "ÓÀºãÉ¨µ´Õß"
-Locale_ship[15151] = "Ò»ËÒ¾­¹ıÌØÊâ»¯¸Ä×°µÄÓÀºã¼¶ÎŞÎ·½¢"
+Locale_ship[15100] = "Talos-class battleship"
+Locale_ship[15101] = "The main battleship of the Alos Empire, with great offensive and defensive strength and an expensive price"
+Locale_ship[15105] = "Artillery version"
+Locale_ship[15106] = "Armed with 1200 huge guns, has excellent anti-mastership and anti-flagship capabilities"
+Locale_ship[15110] = "Beam version"
+Locale_ship[15111] = "Armed with a giant ion cannon mega cannon, has excellent anti-flagship capabilities"
 
-Locale_ship[15155] = "°£ºÕÂåË¹¼ÎµÂ³¬¼¶¹¤Òµ½¢"
-Locale_ship[15156] = "°£ºÕÂåË¹¼ÎµÂÈËÔÚÌ«¿ÕÖĞÉú²úÎï×Ê¾ü±¸µÄ¾ŞĞÍĞÇ½¢£¬ÓµÓĞÒ»¶¨µÄÔØ»úÄÜÁ¦£¬µ«ÊÇÌå»ıÅÓ´ó"
+Locale_ship[15150] = "Eternal Sweeper"
+Locale_ship[15151] = "An Eternal-class dreadnought with specialization modifications"
 
-Locale_ship[15160] = "¾ŞĞ·×ù¼¶ÎŞÎ·½¢"
-Locale_ship[15161] = "Ì©Ì¹×îĞÂ¿ª·¢µÄÇ¿´óÕ½ÕùÆ½Ì¨£¬ÓµÓĞ¿ÉÅÂµÄ¹¥·À»ğÁ¦ºÍÉä³Ì£¬¿ÉÒÔÓ¦¸¶×î²Ğ¿áµÄÕ½¿ö"
+Locale_ship[15155] = "Alos super-industrial ship"
+Locale_ship[15156] = "A giant starship for the Alos to produce material armaments in space, with some aircraft-carrying capability, but large in size"
 
-Locale_ship[15170] = "½ÇËŞÒ»¼¶¾«Ó¢Õ½ÁĞ½¢µç´ÅÅÚĞÍ"--173
-Locale_ship[15171] = "°¬¿âÀöË¹ÈËºÍµÛ¹úÁªºÏ¿ª·¢µÄÒ»ÖÖ¸ßËÙĞÍµÄĞÂÈñµç´ÅÅÚÕ½ÁĞ½¢£¬ÓµÓĞ³öÉ«µÄ»ğÁ¦ºÍ³¬¸ßµÄº½ËÙ"
-Locale_ship[15180] = "½ÇËŞÒ»¼¶¾«Ó¢Õ½ÁĞ½¢¹âÊøĞÍ"  --174
-Locale_ship[15181] = "°¬¿âÀöË¹ÈËºÍµÛ¹úÁªºÏ¿ª·¢µÄÒ»ÖÖ¸ßËÙĞÍµÄĞÂÈñ¹âÊøÕ½ÁĞ½¢£¬ÓµÓĞ³öÉ«µÄ»ğÁ¦ºÍ³¬¸ßµÄº½ËÙ"
-Locale_ship[15190] = "°¬¿âÀöË¹¹«Ö÷¼¶Õ½ÁĞ½¢"   --175
-Locale_ship[15191] = "·ÆÑÅÀûµÛ¹úºÍ°¬¿âÀöË¹ÈËÁªºÏ¿ª·¢½ÇËŞ1ĞÍÕ½ÁĞ½¢Ê±µÄÑÜÉú²úÆ·£º×°±¸ÁËµÛ¹úÎäÆ÷ºÍ×°±¸µÄÍâÃ³Õ½ÁĞ½¢\n±»³ÆºôÎª¹«Ö÷¼¶ÊÇÒòÎªÓĞÈı¹«Ö÷Õâ¸ö´ÂºÅ"
+Locale_ship[15160] = "Cancer-class dreadnought"
+Locale_ship[15161] = "Titan's latest development of a powerful war platform with terrific offensive and defensive firepower and range to handle the most brutal battle situations"
 
-Locale_ship[15200] = "¿ËÀ×Äª¶û¼¶Õ½ÁĞ½¢"   --179
-Locale_ship[15201] = "Ï£¸ñÀ­ÈËºÍÒ»¸öÃûÎªÏ£¶û·ÒµÄ·ÆÑÅÀûÃñ¼äÉÌ»áºÏ×÷¿ª·¢µÄÒ»ÖÖĞÂĞÍÕ½ÁĞ½¢"
-Locale_ship[15210] = "Ë«ÂíÎ²ÆïÊ¿ºÅÕ½ÁĞ½¢"   --180
-Locale_ship[15211] = "Ï£¶û·ÒÄ³²¿ÃÅ³¤Îäß÷µÄ×ù½¢,×÷ÎªÏ£¸ñÀ­ĞéÄâÅ¼ÏñµÄ·ÛË¿ÆïÊ¿ÍÅ¶ø×÷ÁËÌØÊâÍ¿×°"
+Locale_ship[15170] = "Kakuzu Class I Elite Battleship Electromagnetic Cannon Type" --173
+Locale_ship[15171] = "A new high speed electromagnetic battleship jointly developed by the Ekurians and the Empire, with excellent firepower and high speed"
+Locale_ship[15180] = "Kakuzu first-class elite battleship beam type" --174
+Locale_ship[15181] = "A new high-speed beam battleship jointly developed by the Ekurians and the Empire, with excellent firepower and high speed"
+Locale_ship[15190] = "Princess Ekulis-class battleship" --175
+Locale_ship[15191] = "A derivative of the Fai'ri Empire and the Ekuriths' joint development of the Kakuzu-1 battleship: a foreign trade battleship equipped with imperial weapons and equipment \n called the Princess class because of the nickname Three Princesses"
 
+Locale_ship[15200] = "Cremour-class battleship" --179
+Locale_ship[15201] = "A new type of battleship developed by the Highras in cooperation with a private chamber of commerce of the Fai'ri named Sylphon"
+Locale_ship[15210] = "Battleship Knight of the Two Ponytails" --180
+Locale_ship[15211] = "The ship of the head of a department of Sylphon, Takeshi Meow, painted as a fan ship of the virtual idol of Hiigara"
 
-Locale_ship[15215] = "µÚÁù´úµÛ¹úÅ®»Ê¼¶Ìì·£ĞÍ"   --182
-Locale_ship[15216] = "½øĞĞ×îÖÕ¸ÄÔìµÄ¹âÊøĞÍÅ®»Ê¼¶£¬´îÔØÁË³¬Ç¿Á¦µÄ9×ùË«Áª×°³¬¼¶Æì½¢¼¶¹âÊø·¢ÉäÆ÷¡£"
 
+Locale_ship[15215] = "Sixth generation Imperial Empress-class Heavenly Punishment type" --182
+Locale_ship[15216] = "The final transformation of the beam type Empress class, equipped with a super powerful 9-seat twin super flagship beam launcher."
 
-Locale_ship[15220] = "Äª¶ûµÏ»ù°²´ó¾ı¼¶´İĞÇ¾Ş½¢"   --191
-Locale_ship[15221] = "×°±¸ÁË³¬¼¶¼¤¹âÕóÁĞÖ÷ÅÚµÄ³¬¼¶¾Ş½¢¡£"
 
+Locale_ship[15220] = "Mordechian Maharajah-class star-destroying giant" --191
+Locale_ship[15221] = "Super megaship equipped with super laser array main guns."
 
-Locale_ship[15225] = "Äª¶ûµÏ»ù°²´ó¾ıĞÍ"   --151
-Locale_ship[15226] = "Éı¼¶ÁË½¢ÔØÖ÷ÅÚÈÃÆäÓµÓĞ·´´İĞÇÄÜÁ¦µÄÌØÊâ¸ÄĞÍ"
 
-Locale_ship[15230] = "¶òÈğ²£Ë¹¼¶ÌØ×°Õ½ÁĞ½¢"   --216
-Locale_ship[15231] = "Ò»ÖÖ¼¯ºÏÁË¸÷ÖÖÇ¿´óÉè±¸µÄÏÈ½øÕ½ÁĞ½¢£¬ÓµÓĞ¼«ÎªÇ¿´óµÄ×ÛºÏÕ½¶·Á¦"
+Locale_ship[15225] = "Mordecian Maharaja" --151
+Locale_ship[15226] = "A special variant with upgraded main cannons to give it anti-star-destruction capabilities"
 
+Locale_ship[15230] = "Erebus-class special battleship" --216
+Locale_ship[15231] = "An advanced battleship with a combination of powerful equipment and an extremely powerful overall combat capability"
 
 
-Locale_ship[15245] = "°¢Ü½ÀÖ¶û¼¶³¬¼¶Îä¿â½¢"   --225
-Locale_ship[15246] = "»õ½¢¸Ä×°À´µÄ³¬¼¶Õ½½¢,ÓµÓĞÇ¿´óµÄÔ¶³ÌÍ¶ËÍ»ğÁ¦ºÍÃÜ¼¯µÄµ¼µ¯ÕóÁĞ,Ëü¿ÉÒÔÔÚÉä³ÌÍâÇáËÉµÄ´İ»ÙÍ¬¼¶±ğÕ½½¢£¬µ«ÊÇ½á¹¹Ïàµ±´àÈõ"
 
-Locale_ship[15250] = "³¬¼¶»õ½¢"   --226
-Locale_ship[15251] = "¿ÉÒÔÈİÄÉº£Á¿Îï×ÊµÄ³¬¼¶»õ½¢£¬ÓµÓĞÅÓ´óµÄÌå»ıºÍ¿ÉÅÂµÄÔØ»õÄÜÁ¦"
+Locale_ship[15245] = "Avril-class super arsenal ship" --225
+Locale_ship[15246] = "A super battleship converted from a cargo ship, with powerful long-range projectile firepower and a dense missile array, it can easily destroy ships of its class out of range, but its structure is quite fragile"
 
+Locale_ship[15250] = "Super Cargo Ship" --226
+Locale_ship[15251] = "A super cargo ship that can hold a huge amount of supplies, with a huge size and a terrible cargo capacity"
 
-Locale_ship[15260] = "Ç£ĞÇ¼¶¾ŞĞÍÂëÍ·½¢"   --229
-Locale_ship[15261] = "³¬¾ŞĞÍµÄÂëÍ·½¢£¬ÓÃÀ´¿ìËÙµÄ×°Ğ¶Îï×Ê£¬Ëü±¾ÉíÒ²ÓĞ¾Ş´óµÄÖĞ×ª¿Õ¼äºÍ´óÁ¿µÄÉú»îÉèÊ©¡£"
 
-Locale_ship[15270] = "°¢Ü½ÀÖ¶û¼¶³¬¼¶Îä¿â½¢¸ÄÁ¼ĞÍ"   --237
-Locale_ship[15271] = "£¨×¢Òâ£¬ÓÎÏ·ÖĞ°´ÓÒÏÂ½ÇµÄ¼¼ÄÜÍ¼±ê½âËøÌØÊâ¹¥»÷£©°¢Ü½ÀÖ¶û¼¶³¬¼¶Îä¿â½¢µÄ¸ÄÁ¼ĞÍ£¬²ğ³ıÁË²¿·ÖµÄÖĞĞÍµ¼µ¯·¢Éä¼Ü²¢¸Ä×°ÁËÁ½×ù³¬¾Ş´óµÄÂüÍÓÂŞ·Éµ¯·¢Éä×°ÖÃ£¬ÓµÓĞ¿ÉÅÂµÄÉ±ÉËÁ¦"
+Locale_ship[15260] = "A giant dock ship with a star rating" --229
+Locale_ship[15261] = "Super giant dock ship for fast loading and unloading of supplies, it also has huge staging space and lots of living facilities itself."
 
-Locale_ship[15280] = "ËşÄÉÍĞË¹¼¶³¬¼¶Îä¿â½¢"   --238
-Locale_ship[15281] = "£¨×¢Òâ£¬ÓÎÏ·ÖĞ°´ÓÒÏÂ½ÇµÄ¼¼ÄÜÍ¼±ê½âËøÌØÊâ¹¥»÷£©°¢Ü½ÀÖ¶û¼¶³¬¼¶Îä¿â½¢µÄÁªÃËÁ¿²úĞÍ£¬ÔÚ¼Ó×°ÁËÂüÍÓÂŞ³¬¼¶·Éµ¯µÄÍ¬Ê±£¬½«´óÁ¿µÄÎäÆ÷Ìæ»»ÎªÁËÁªÃËµÄÖÆÊ½ÎäÆ÷"
+Locale_ship[15270] = "Improved version of the Avril-class super arsenal ship" --237
+Locale_ship[15271] = "(Note, press the skill icon in the lower right corner of the game to unlock special attacks) A modified version of the Afril-class Super Arsenal, with some of the medium missile launchers removed and two super huge Mandalorian missile launchers modified for terrifying lethality"
 
+Locale_ship[15280] = "Thanatos-class super arsenal ship" --238
+Locale_ship[15281] = "(Note, press the skill icon in the lower right corner of the game to unlock special attacks) A mass-produced Alliance version of the Avror-class Super Arsenal ship, with a large number of weapons replaced with Alliance standard weapons while adding the Mandalorian Super Missile"
 
-Locale_ship[15290] = "ÁÑºÛ¼¶Õ½ÁĞ½¢MK2ĞÍ"   --240
-Locale_ship[15291] = "ĞÂÒ»´úµÄµÛ¹úÖÆÊ½Õ½ÁĞ½¢£¬×°±¸ÓĞ´óÁ¿µÄ1400Ö÷ÅÚºÍ´¬Í·¹âÊøÖ÷ÅÚ"
 
+Locale_ship[15290] = "Rift-class battleship MK2 type" --240
+Locale_ship[15291] = "A new generation of Imperial standard battleships, equipped with a large number of 1400 main guns and bow beam main guns"
 
-Locale_ship[15300] = "ÁÑºÛ¼¶Õ½ÁĞ½¢MK2BĞÍ"   --241
-Locale_ship[15301] = "×°±¸ÁËÈıÁª×°1500ºÁÃ×µç´Å¹ìµÀÅÚµÄÁÑºÛ2ĞÍÕ½ÁĞ½¢£¬¿ÉÒÔÓĞĞ§µÄ¶Ô´óĞÍÆì½¢½øĞĞ¹¥»÷"
 
-Locale_ship[15310] = "ÁÑºÛ¼¶Õ½ÁĞ½¢MK2ÒÏ³²ĞÍ"   --242
-Locale_ship[15311] = "×°±¸ÁËÈıÁª×°1500ºÁÃ×µç´Å¹ìµÀÅÚµÄÁÑºÛ2ĞÍÕ½ÁĞ½¢£¬×°±¸ÓĞÏÈ½øµÄÒÏ³²ËØ×°¼×ºÍ³¬¼¶¼ÓËÙ×°ÖÃ"
+Locale_ship[15300] = "Rift-class battleship MK2B type" --241
+Locale_ship[15301] = "Rift 2 battleship armed with a triple 1500mm EM rail gun that can effectively take on large flagships"
 
-Locale_ship[15320] = "ÁÑºÛ¼¶Õ½ÁĞ½¢MK2¾ø¿ÕĞÍ"   --243
-Locale_ship[15321] = "ÁÑºÛ2ĞÍÕ½ÁĞ½¢°¢ÒòÌØË¹·À¿ÕÌØ»¯ĞÍ£¬Í¨³£×÷ÎªÆì½¢µ¥Î»µÄÄÚÈ¦·ÀÓù½¢´¬°éËæ³öÕ½¡£"
+Locale_ship[15310] = "Rift-class battleship MK2 ant nest type" --242
+Locale_ship[15311] = "Rift 2 battleship armed with triple 1500mm EM railguns, equipped with advanced anthropoid armor and super acceleration devices"
 
-Locale_ship[15330] = "ÖÈĞò¼¶ÎŞÎ·½¢"   --245
-Locale_ship[15331] = "·ÆÑÅÀûµÛ¹úĞÂ¿ª·¢µÄÇ¿Ï®ÎŞÎ·½¢£¬Ğ¯´ø´óÁ¿»¤ÎÀ½¢Ö§Ô®Õ½¶·"
+Locale_ship[15320] = "Rift-class battleship MK2 Jedi Air type" --243
+Locale_ship[15321] = "Rift 2 battleship Aintus anti-air specialization type, usually accompanying flagship units in battle as an inner circle defense ship."
 
-Locale_ship[15340] = "Èû¶û·ÒµÏÄÈ¼¶ÎŞÎ·½¢"   --246
-Locale_ship[15341] = "Ğ¯´øÁËÊıÃÅ¹ìµÀÅÚÖ§Ô®Õ½¶·µÄ´óĞÍÎŞÎ·½¢£¬ÓµÓĞ¿É¹ÛµÄ»ğÁ¦"
+Locale_ship[15330] = "Order-class dreadnought" --245
+Locale_ship[15331] = "A newly developed strong-raid dreadnought of the Fai'ri Empire, carrying a large number of frigates to support the battle"
 
-Locale_ship[15350] = "ÒÁËÕ¼¶ÌØÖÖÎŞÎ·½¢"   --247
-Locale_ship[15351] = "×·ÒäÖ®Í¥ÃØÃÜ¿ª·¢µÄÌØÖÖÎŞÎ·½¢£¬ÒÔ¹ìµÀÅÚ×÷ÎªÖ÷Òª»ğÁ¦"
+Locale_ship[15340] = "Selphandina-class dreadnought" --246
+Locale_ship[15341] = "A large dreadnought carrying several railguns to support the battle, with considerable firepower"
 
+Locale_ship[15350] = "Isu-class special dreadnought" --247
+Locale_ship[15351] = "A special dreadnought developed in secret by the Court of Memories, with railguns as its main firepower"
 
-Locale_Text[15350] = "DENEB"   --274
-Locale_Text[15351] = "Ò»ËÒÆ¯Á÷ÖÁ´ËµÄÉñÃØÕ½½¢£¬ÓµÓĞÇ¿´óµÄÕ½¶·Á¦£¬¾İ³Æ´Ë½¢ÕıÔâµ½×·¼©£¬½«ÆäÀ­Èë÷âÏÂ¿ÉÄÜ»áÒıÀ´²»±ØÒªµÄÂé·³"
 
-Locale_Text[15360] = "°¢¶û±´µÏÅ·ºÅ³¬¼¶Õ½ÁĞ½¢"    --275
-Locale_Text[15361] = "¿¨¶òË¹ºÍ°¬ÂåË¹×îĞÂÁªºÏÑĞ·¢µÄÒ»ÖÖ³¬¼¶Õ½ÁĞ½¢£¬ÓµÓĞÇ¿´óµÄÎä±¸ºÍ¸¡ÓÎÅÚÈº"
+Locale_Text[15350] = "DENEB" --274
+Locale_Text[15351] = "a mysterious warship that drifted here, has a powerful fighting force, it is said that this ship is being hunted, pulling it into the command may lead to unnecessary trouble"
 
-Locale_Text[15370] = "ÑÅµäÄÈ¼¶½¢¶Óº½Ä¸"    --292
-Locale_Text[15371] = "¿¨¶òË¹ÁªÃËµÄ´óĞÍ½¢¶Óº½Ä¸£¬ÓµÓĞ³ä×ãµÄÔØ»úÁ¿£¬»¹¿ÉÒÔÆğ½µ³¬¼¶ºäÕ¨»ú½øĞĞÕ½¶·"
+Locale_Text[15360] = "Super Battleship Alberdio" --275
+Locale_Text[15361] = "The latest joint development of Caius and Airos, a super battleship with powerful armaments and floating gun groups"
 
-Locale_Text[15380] = "ÑÅµäÄÈ¼¶½¢¶Óº½Ä¸¾«Ó¢ĞÍ"    --293
-Locale_Text[15381] = "°£¹ïË¹ºÅ ¿¨¶òË¹ÁªÃËµÄ´óĞÍ½¢¶Óº½Ä¸£¬ÓµÓĞ³ä×ãµÄÔØ»úÁ¿£¬Åä±¸ÓĞ³¬¼¶ºäÕ¨»ú¿ÉÒÔ»ÙÃğµĞÈËÆì½¢"
+Locale_Text[15370] = "Athena-class fleet carrier" --292
+Locale_Text[15371] = "A large fleet carrier of the Caius Alliance, with ample aircraft capacity and the ability to land and take off super bombers for combat"
 
-Locale_Text[15390] = "ÌØÀÙÜçæ«¼¶½¢¶Óº½Ä¸"    --294
-Locale_Text[15391] = "¿¨¶òË¹ÁªÃËµÄ´óĞÍ½¢¶Óº½Ä¸£¬ÓµÓĞ³ä×ãµÄÔØ»úÁ¿£¬Åä±¸ÓĞ³¬¼¶ºäÕ¨»ú¿ÉÒÔ»ÙÃğµĞÈËÆì½¢"
+Locale_Text[15380] = "Elite Athena-class fleet carrier" --293
+Locale_Text[15381] = "Decis, a large fleet carrier of the Caius Alliance, with a large aircraft capacity, equipped with super bombers that can destroy enemy flagships"
 
-Locale_Text[15400] = "Í¼¹şµÂ´ïÄÈ¼¶½¢¶Óº½Ä¸"    --295
-Locale_Text[15401] = "×·ÒäÖ®Í¥µÄ´óĞÍ½¢¶Óº½Ä¸£¬ÓµÓĞ³ä×ãµÄÔØ»úÁ¿£¬Åä±¸ÓĞ×ã¹»ÊıÁ¿µÄºäÕ¨»ú£¬»¹¿ÉÒÔÆğ½µ³¬¼¶ºäÕ¨»ú½øĞĞÕ½¶·"
+Locale_Text[15390] = "Teresia-class fleet carrier" --294
+Locale_Text[15391] = "Large fleet carrier of the Caius Alliance, with sufficient aircraft capacity, equipped with super bombers that can destroy enemy flagships"
 
-Locale_Text[15410] = "ÑªÈĞ2ĞÍÕ½ÁĞ½¢"    --301
-Locale_Text[15411] = "Î÷Ïß¾ü·§ĞÂ¿ª·¢µÄĞÂĞÍÕ½ÁĞ½¢£¬ÊÇÑªÈĞµÄÈ«ÃæÉı¼¶°æ"
-Locale_Text[15420] = "ÑªÈĞ2ĞÍÕ½ÁĞ½¢Ìú±ÚĞÍ"    --302
-Locale_Text[15421] = "°²×°ÁË´¬Í·×°¼×µÄÑªÈĞ2ĞÍÕ½ÁĞ½¢£¬µ«ÊÇÎşÉüÁË²¿·Ö»ğÁ¦"
-Locale_Text[15430] = "¼áÒã¼¶Õ½ÁĞ½¢"    --303
-Locale_Text[15431] = "¿¨¶òË¹ÁªÃË¸ÄÔìµÄÑªÈĞ2ĞÍÕ½ÁĞ½¢£¬ÓµÓĞ¸üÇ¿µÄ»ğÁ¦"
+Locale_Text[15400] = "Tuhaddana-class fleet carrier" --295
+Locale_Text[15401] = "Large fleet carrier of the Court of Memories, with a sufficient number of aircraft, equipped with a sufficient number of bombers, and also able to land and take off super bombers for combat"
 
-Locale_Text[15440] = "ÓÎÆï±ø¼¶½¢¶Óº½Ä¸"    --307
-Locale_Text[15441] = "Ò»ÖÖ¿ÉÒÔ¿ìËÙÊÍ·Å½¢ÔØ»úÈºµÄÕ½ÁĞ¼¶º½Ä¸£¬µ«ÊÇ½á¹¹·Ç³£´àÈõ£¬ÈİÒ×±»¼¯»ğ´İ»Ù"
-Locale_Text[15450] = "¾üÍÅÆïÊ¿¼¶º½¿ÕÕ½ÁĞ½¢"    --308
-Locale_Text[15451] = "Õ½ÁĞ½¢ºÍº½Ä¸ºÏÌåºóµÄ²úÎï£¬ÔÚ±£Ö¤Õ½ÁĞ½¢»ğÁ¦µÄÍ¬Ê±»¹ÓµÓĞÅÓ´óÔØ»úÁ¿"
+Locale_Text[15410] = "Blood Blade Type 2 Battleship" --301
+Locale_Text[15411] = "The new battleship developed by the Western Front warlords, a fully upgraded version of the Blood Blade"
+Locale_Text[15420] = "Blood Blade 2 battleship Iron Wall type" --302
+Locale_Text[15421] = "Blood Blade 2 battleship with bow armor installed, but at the expense of some firepower"
+Locale_Text[15430] = "Perseverance-class battleship" --303
+Locale_Text[15431] = "Caius Alliance modified Bloodblade 2 battleship with more firepower"
 
-Locale_Text[15460] = "Ê¥Ä§¼¶³¬¼¶Õ½ÁĞ½¢ ÑÇ²®"    --316
-Locale_Text[15461] = "ÁªÃËº£¾üËù¿ª·¢µÄ¸ÃÒşæ¢ÃÃ½¢£¬ÓÃÓÚĞÂÊÀ´ú¸÷ÖÖÏµÍ³µÄ×ÛºÏÑéÖ¤"
-Locale_Text[15470] = "Ê¥Ä§¼¶³¬¼¶Õ½ÁĞ½¢ ¸ÃÒş"    --317
-Locale_Text[15471] = "ÓÀÉúÕßÒ»×å¿ª·¢µÄÒ»ËÒÏÈ½øÕ½ÁĞ½¢£¬×÷ÎªÆä½¢¶ÓÆì½¢·şÒÛ"
+Locale_Text[15440] = "Ranger-class fleet carrier" --307
+Locale_Text[15441] = "A battlecruiser class carrier that can quickly release a fleet of ships, but has a very fragile structure and is easily destroyed by concentrated fire"
+Locale_Text[15450] = "Legionnaire-class air battleship" --308
+Locale_Text[15451] = "The product of the combination of battleship and aircraft carrier, which has a large aircraft capacity while ensuring the firepower of the battleship"
 
-Locale_Text[15480] = "µÚÆß´úÅ®»Ê¼¶´İĞÇ¾Ş½¢"    --320
-Locale_Text[15481] = "·ÆÑÅÀûµÛ¹ú»ÊÊÒ×¨ÃÅÎªÁË¿¹ºâÍ¬¼¶±ğ´İĞÇ¾Ş½¢¶ø½¨ÔìµÄ³¬¼¶¾Ş½¢"
-Locale_Text[15490] = "ÃüÔË¼¶´İĞÇ¾Ş½¢"    --321
-Locale_Text[15491] = "ÃüÔËÖ®¸ô£¬Á½Ïà½»´í£»ÁÒÑæÇã¸²£¬ÓÀÊÀ÷öÂä£»ÏÈÏÍÖ®áÛ£¬Ãá¹Ú×ÔÄ¬£»Åû¾£¶øĞĞ£¬½£Ãûçúçê¡£"
+Locale_Text[15460] = "Saint Demon class super battleship Abe" --316
+Locale_Text[15461] = "Cain sister ship developed by the Alliance Navy for the comprehensive verification of various systems of the new generation"
+Locale_Text[15470] = "Holy Ghost-class super battleship Cain" --317
+Locale_Text[15471] = "An advanced battleship developed by the Aeon, serving as the flagship of its fleet"
 
-Locale_Text[15495] = "ÑÇ·ÆÀòË¿ºÅ"    --322
-Locale_Text[15496] = "ÌØÊâ¸ÄÔìµÄµÚÎå´úÅ®»Ê¼¶£¬¿ÉÒÔ²¿Êğ»¤ÎÀ½¢Ö§Ô®Õ½¶·£¬ÓµÓĞÌØÊâµÄ³¬¼¶Ö÷ÅÚ¡£"
+Locale_Text[15480] = "The seventh generation of Queen-class star-destroying giants" --320
+Locale_Text[15481] = "A super-giant ship built by the Fai'ri Empire royal family to counteract star-destroying ships of the same class"
+Locale_Text[15490] = "Destiny-class Star Destroyer" --321
+Locale_Text[15491] = "The fate of the separation, the two intersect; flames overturned, eternal eclipse; the top of the sage, crowned since silent; cloak and walk, sword name amber."
 
-Locale_Text[15505] = "Âí¿¨¶÷Ö®Å­±¤Àİ½¢-Ìú¸¡ÍÀºÅ"    --325
-Locale_Text[15506] = "ÓÉº£µÁÍõ¸ÄÔìµÄÂí¿¨¶÷Ö®Å­±¤Àİ½¢£¬¿ÉÒÔÊÍ·Å´óÁ¿µÄ½¢ÔØÕ½¶·»ú½øĞĞÕ½¶·"
-Locale_Text[15515] = "¾ıÍõ¼¶Õ½ÂÔÆì½¢"    --326
-Locale_Text[15516] = "¾ıÍõ¼¶Õ½ÂÔÆì½¢ÊÇÄùÃ×Î÷Ë¹Ôø¾­µÄ½¾°Á£¬ÍêÈ«·­ĞÂºóµÄËıÃÇÓµÓĞ×ÅÓëÏÖÊ±Í¬¼¶½¢ÏàÆ¥µĞµÄ»ğÁ¦"
+Locale_Text[15495] = "The Aphilis" -- 322
+Locale_Text[15496] = "Specially modified fifth generation Empress class, can deploy frigates to support battles, has special super main guns."
 
-Locale_Text[15525] = "ÁÑºÛ2EĞÍÖØÆï±øĞÍ"    --331
-Locale_Text[15526] = "ÁÑºÛ2ĞÍÓÄÁéÖØÆï±øĞÍ£¬ÌØÊâ»¯¸ÄÔìÍÆ½øÆ÷ºÍÎäÆ÷ÏµÍ³ÈÃËü¿ÉÒÔ³å·æ²¢ÔÚ½ü¾àÀë¼ßÃğµĞÈË¡£"
-Locale_Text[15535] = "ÁÑºÛ2FÄª¶ûµÏ»ù°²´ó¾ıĞÍ"    --332
-Locale_Text[15536] = "ÁÑºÛ2ĞÍÄª¶ûµÏ»ù°²´ó¾ı¶¨ÖÆÇ¿»¯ĞÍ£¬ÆäÎª´ó¾ıµÚ¶ş½¢¶ÓÕ½³¡ÖĞÁ÷íÆÖùÖ®Ò»¡£"
-Locale_Text[15545] = "ÁÑºÛ2GĞÍÂÃÍÅ¸¨Öúº½Ä¸"    --333
-Locale_Text[15546] = "ÁÑºÛ2ĞÍ³¯Ê¥ÕßÊ¥°¬¶÷ÂÃÍÅ¸ÄÔìµÄ¸¨Öúº½Ä¸£¬×÷Îª±Ë°¶±à¶ÓµÄÑÓÉì¶ø½øÈëÕ½³¡¡£"
+Locale_Text[15505] = "Makarn's Fury Fortress Ship - Iron Faust" --325
+Locale_Text[15506] = "Makarn's Fury Bastion ship converted by the Pirate King, can release a large number of shipboard fighters for combat"
+Locale_Text[15515] = "Sovereign-class strategic flagship" -- 326
+Locale_Text[15516] = "The Sovereign-class strategic flagships are the former pride of Nemesis, and when fully refurbished they have firepower to match their current class"
 
-Locale_Text[15550] = "°Â¶¡¼¶ÎŞÎ·½¢¾«Ó¢ĞÍ"
-Locale_Text[15551] = "Éı¼¶°æµÄ°Â¶¡¼¶ÎŞÎ·½¢£¬ÓµÓĞ¸üÇ¿´óµÄ¹¥·À»ğÁ¦"
+Locale_Text[15525] = "Rift 2E Heavy Cavalry type" --331
+Locale_Text[15526] = "Rift 2 Ghost Heavy Cavalry type, special modification of thrusters and weapon systems allows it to charge and destroy enemies at close range."
+Locale_Text[15535] = "Rift 2F Mordiggian Archon type" --332
+Locale_Text[15536] = "Rift 2 Mordechian Maharaja Custom Enhanced, its one of the mainstays of the Maharaja's Second Fleet battlefield."
+Locale_Text[15545] = "Rift 2G Brigade Auxiliary Carrier" --333
+Locale_Text[15546] = "Rift 2 type Pilgrim St. Aeon Brigade converted auxiliary carrier that entered the battlefield as an extension of the Other Side formation."
 
+Locale_Text[15550] = "Odin-class dreadnought elite"
+Locale_Text[15551] = "An upgraded version of the Odin-class dreadnought with greater offensive and defensive firepower"
 
-Locale_Text[15555] = "ÑÅµäÄÈ¼¶½¢¶Óº½Ä¸¾«Ó¢ĞÍ"    --½¢´¬Ãû³Æship342
-Locale_Text[15556] = "Ë¹ÄÚ¿ËË¹ºÅ ¿¨¶òË¹ÁªÃËµÄ´óĞÍ½¢¶Óº½Ä¸£¬ÓµÓĞ³ä×ãµÄÔØ»úÁ¿£¬Åä±¸ÓĞ³¬¼¶ºäÕ¨»ú¿ÉÒÔ»ÙÃğµĞÈËÆì½¢"
 
-Locale_Text[15565] = "ÑÅµäÄÈ¼¶½¢¶Óº½Ä¸¾«Ó¢ĞÍ"    --½¢´¬Ãû³Æship343
-Locale_Text[15566] = "°ÂÎ¬ÀûÑÇºÅ ¿¨¶òË¹ÁªÃËµÄ´óĞÍ½¢¶Óº½Ä¸£¬ÓµÓĞ³ä×ãµÄÔØ»úÁ¿£¬Åä±¸ÓĞ³¬¼¶ºäÕ¨»ú¿ÉÒÔ»ÙÃğµĞÈËÆì½¢"
+Locale_Text[15555] = "Athena Class Fleet Carrier Elite"    --
+Locale_Text[15556] = "Sneakers, the large fleet carrier of the Caius Alliance, has a large aircraft capacity and is equipped with super bombers that can destroy enemy flagships."
 
-Locale_Text[15575] = "Ê®ËÄ¹«Ö÷"    --½¢´¬Ãû³Æship341
-Locale_Text[15576] = "·ÆÑÅÀûµÛ¹ú°µÒ¹Å®Éñ¼¶µÄ°¢ÒòÌØË¹½¢¶Ó¸Ä½øĞÍ¡£Ò»°ãÔÚ´ó¹æÄ£±à¶ÓÖĞ×÷Îª²¹³ä·´³¬Æì»ğÁ¦¶ø¶îÍâÔö±à¡£"
+Locale_Text[15565] = "Athena Class Fleet Carrier Elite"    --
+Locale_Text[15566] = "The Ovillia, a large fleet carrier of the Caius Alliance, has an ample aircraft capacity and is equipped with super bombers that can destroy enemy flagships."
 
-Locale_Text[15585] = "ÁÑºÛ121¼¶Õ½ÁĞ½¢"    --½¢´¬Ãû³Æship345
-Locale_Text[15586] = "ÒÏ³²½¢¶ÓÁÑºÛ121¼¶Õ½ÁĞ½¢¡£ÓÉÁÑºÛ2Æ´½ÓÁ½ÌõÁÑºÛ1¹¹³ÉµÄÊÔ×öĞÍÕ½³¡±ÚÀİ¡£"
+Locale_Text[15575] = "Princess XIV"    --
+Locale_Text[15576] = "A modified version of the Fai'ri Empire's Dark Lady-class fleet of Ayntes. Generally added extra in large formations as a supplement to anti-surgeon firepower."
 
-Locale_Text[15595] = "ÁÑºÛ2GFG¼¶Õ½ÁĞº½Ä¸"    --½¢´¬Ãû³Æship183
-Locale_Text[15596] = "Äª¶ûµÏ»ù°²³¬Ä§¸Äº½¿ÕÕ½ÁĞ½¢¡£ÓÉ´ó¾ıĞÍÁÑºÛ2Æ´½Ó2ÌõGĞÍºÅÁÑºÛ2º½Ä¸¶ø×é³É¡£"
+Locale_Text[15585] = "Rift 121 Class Battleship"    --
+Locale_Text[15586] = "Antennas Fleet Rift 121 class battleship. A pilot battlefield barrier made up of Rift 2 spliced with two Rift 1s."
 
-Locale_Text[15601] = "ÂêÀö¡¤µÂÀ³Î÷æ«"    --½¢´¬Ãû³Æship345
-Locale_Text[15602] = "¾«ÈñĞÍ×°¼×º½Ä¸Ğ¯µÛ¹ú½¢ÔØ»ú±à¶Ó£¬Ì«Ì«Èü¸ß£¡"
+Locale_Text[15595] = "Rift 2GFG class battlecruiser"    --
+Locale_Text[15596] = "Mordechian super magic reform air battleship. It is composed by splicing 2 G-type Rift 2 carriers with Maharaja-type Rift 2."
 
-Locale_ship[15610] = "°¢Ü½ÀÖ¶û¼¶³¬¼¶Îä¿â½¢µ¼µ¯ĞÍ"   --186
+Locale_Text[15601] = "Mary Dressier"    --
+Locale_Text[15602] = "Elite type armored carriers with Imperial carrier formations, Mrs. Segal!"
 
-Locale_Text[15605] = "ºÕÀû°ÂË¹¼¶µ¼µ¯ÎŞÎ·½¢"    --½¢´¬Ãû³Æship348
-Locale_Text[15606] = "ÒÔÔËÓÃ¡°ÂüÍÓÂŞ¡±³¤³Ì·´½¢µ¼µ¯ÎªºËĞÄ£¬×°±¸¶àÖÖÔ¶³ÌÖ§Ô®Îä±¸£¬Í¬Ê±¼æ¹ËÔ¶½üÄ¿±êµÄÖ÷Á¦µ¼µ¯ÎŞÎ·½¢"
+Locale_ship[15610] = "Avril-class super arsenal ship missile type"   --186
 
-Locale_Text[15610] = "»ìãçÖ®ÈĞ¼¶ÎŞÎ·½¢"    --½¢´¬Ãû³Æship349
-Locale_Text[15611] = "ºÕÀû°ÂË¹¼¶ÎŞÎ·½¢¾üÍÅÁªºÏÕ½ÏßÊÚÈ¨Éú²ú°æ±¾£¬Ê¹ÓÃÎ¬¸ñ¶ûÌåÏµÎä×°£¬²¢ÔÚÊı¸öÖ¸±êÉÏÊÜµ½ÁËÇÉÃîµÄÏŞÖÆ"
+Locale_Text[15605] = "Helios-class missile dreadnought"    --????ship348
+Locale_Text[15606] = "Focusing on the use of the 'Mandala' long-range anti-ship missile, it is equipped with a variety of long-range support armaments and is the main missile dreadnought ship that takes into account both near and far targets."
 
-Locale_Text[15620] = "°²¼ªÀöÄÈ¼¶ÖØĞÍ½¢¶Óº½Ä¸"    --½¢´¬Ãû³Æship350
-Locale_Text[15621] = "°²¼ªÀöÄÈ¼¶ĞäÕäÕ½ÁĞ½¢¸Ä×°µÄ½¢¶Óº½Ä¸£¬ËäÈ»ËµÖØĞÍÕ½¶·»ú´îÔØÁ¿²»×ã£¬µ«ÊÇÓĞÒ»¶¨µÄ·´½¢»ğÁ¦½øĞĞ²¹³ä"
+Locale_Text[15610] = "Chaos Blade Dreadnought"    --????ship349
+Locale_Text[15611] = "The Helios-class Dreadnought Corps United Front authorized production version, armed with the Vegel system, and has been subtly restricted in several indicators"
 
-Locale_Text[15640] = "Ô¶ĞĞÕßMK2ĞÍÕ½ÁĞ½¢"    --½¢´¬Ãû³Æship351
-Locale_Text[15641] = "ĞÂÒ»´úµÄÔ¶ĞĞÕß¼¶Õ½ÁĞ½¢£¬ËäÈ»Ëµ½µµÍÁË³É±¾£¬µ«ÊÇÓµÓĞ¸ü¶àµÄ·ºÓÃĞÔ"
+Locale_Text[15620] = "Angelina-class heavy fleet carrier"    --????ship350
+Locale_Text[15621] = "The fleet carrier converted from the Angelina-class pocket battleship, although it is said that the carrying capacity of heavy fighters is insufficient, but it has a certain amount of anti-ship firepower to supplement"
 
-Locale_Text[15650] = "Ô¶ĞĞÕßMK2ĞÍ»õ½¢"    --½¢´¬Ãû³Æship352
-Locale_Text[15651] = "ĞÂÒ»´úµÄÔ¶ĞĞÕß¼¶»õ½¢£¬ÓµÓĞ¸üµÍÁ®µÄ³É±¾ºÍ¸üºÏÊÊµÄ×°ÔØÄÜÁ¦"
+Locale_Text[15640] = "Farstrider MK2 battleship"    --????ship351
+Locale_Text[15641] = "The new generation of Farstrider-class battleships, although the cost has been reduced, has more versatility"
 
-Locale_Text[15660] = "ÈıÒ¶¼¶µ¼µ¯ĞÍ"    --½¢´¬Ãû³Æship353
-Locale_Text[15661] = "ÈıÒ¶¼¶ÔËÊä½¢µÄ½ø»¯ĞÎÌ¬£¬ÎŞÈË×ÔÖ÷×÷Õ½£¬Ğ¡ĞÍÉÌ¶Ó»¤º½µÄ¾­¼ÃÑ¡Ôñ"
+Locale_Text[15650] = "Far Traveler MK2 cargo ship"    --????ship352
+Locale_Text[15651] = "A new generation of Far Traveler-class cargo ships with lower cost and more suitable loading capacity"
 
-Locale_Text[15670] = "¹şµÏË¹¼¶ÒÆ¶¯º½¿Õ»ùµØ"    --½¢´¬Ãû³Æship356
-Locale_Text[15671] = "¾Ş´óµÄÒÆ¶¯Ê½º½¿Õ»ùµØ£¬ÓµÓĞÔ¶³¬³£¹æº½¿ÕÄ¸½¢µÄÔØ»úÁ¿£¬¿ÉÖ§³Ö³¬ÖØĞÍ½¢ÔØ»úµÄ´óÅúÁ¿Æğ½µ×÷Òµ¡£"
-Locale_Text[15680] = "º¬¹âÏÈ½øÕ½¶·»ú"    --½¢´¬Ãû³Æship357
-Locale_Text[15681] = "ÒÔÖĞ¾à¿Õ¿Õµ¼µ¯ÎªÖ÷Òª´ò»÷ÊÖ¶ÎµÄÈ«Óò×÷Õ½¿ÕÓÅÕ½¶·»ú£¬¿ÉÓĞĞ§·´ÖÆÖØĞÍÕ½»ú"
-Locale_Text[15690] = "º¬¹âÏÈ½øÕ½¶·»ú¸ñ¶·ĞÍ"    --½¢´¬Ãû³Æship358
-Locale_Text[15691] = "º¬¹âÕ½¶·»úµÄ³£¹æÒıÇæ°æ±¾£¬ÎäÆ÷´îÅä¸üÆ«ÏòÓÚ½ü¾àÀëÕ½¶·£¬¿ÉÍ¬Ê±ÓĞĞ§¶Ô¿¹ÇáÖØĞÍµ¥Î»"
+Locale_Text[15660] = "Clover-class missile type"    --????ship353
+Locale_Text[15661] = "The evolutionary form of the Sanye-class transport ship, unmanned autonomous operations, an economic choice for small caravan escorts"
 
-Locale_Text[15700] = "ÓÈÀûÎ÷Ë¹"    --½¢´¬Ãû³Æship359
-Locale_Text[15701] = "ÉóÅĞÈÕµÄÌØÊâ¸Ä½øĞÍ"
+Locale_Text[15670] = "Hades Class Mobile Air Base"    --????ship356
+Locale_Text[15671] = "The huge mobile aviation base has a carrying capacity far exceeding that of a conventional aircraft carrier, and can support a large number of take-off and landing operations of super-heavy carrier-based aircraft."
+Locale_Text[15680] = "Hanguang Advanced Fighter"    --????ship357
+Locale_Text[15681] = "An all-area combat air superiority fighter with medium-range air-to-air missiles as the main strike method, which can effectively counter heavy fighters"
+Locale_Text[15690] = "Hanguang Advanced Fighter Combat Type"    --????ship358
+Locale_Text[15691] = "The conventional engine version of the Hanguang fighter, the weapon configuration is more inclined to close combat, and can effectively fight against light and heavy units at the same time"
 
+Locale_Text[15700] = "Ulysses"    --????ship359
+Locale_Text[15701] = "Special Modification of Judgment Day"
 
-Locale_Text[15710] = "°ÂÀûÎ¬¶ûĞÍÌ½ÏÕ´¬"    --½¢´¬Ãû³Æship360
-Locale_Text[15711] = "¾­¹ı´ó·ù¶È¸Ä×°µÄ´óĞÍ¶à¹¦ÄÜÌ½ÏÕ´¬"
-Locale_Text[15720] = "ÌìÕ¶ĞÍ»¤ÎÀÅÚÍ§"    --½¢´¬Ãû³Æship361
-Locale_Text[15721] = "µ£¸º»ú¶¯·À¿ÕÈÎÎñµÄÖØĞÍÅÚÍ§"
 
+Locale_Text[15710] = "Olivier type expedition ship"    --????ship360
+Locale_Text[15711] = "A substantially refitted large multipurpose expedition vessel"
+Locale_Text[15720] = "Sky Zhan type escort gunboat"    --????ship361
+Locale_Text[15721] = "A heavy gunboat for mobile air defense"
 
 
-Locale_Text[15730] = "Avalon°¢ÍßÂ¡"    --½¢´¬Ãû³Æship362
-Locale_Text[15731] = "Äª¶ûµÏ»ù°²µÚ¶ş¾üÍÅÆì½¢Avalon°¢ÍßÂ¡"
-Locale_Text[15740] = " ExcaliburÊ¤ÀûÖ®½£"    --½¢´¬Ãû³Æship363
+
+Locale_Text[15730] = "Avalon"    --????ship362
+Locale_Text[15731] = "Avalon, flagship of Mordiggian's Second Legion"
+Locale_Text[15740] = "Excalibur"    --????ship363
 Locale_Text[15741] = "For The One True King"
-Locale_Text[15750] = "Ì¾Ï¢Ö®Ç½"    --½¢´¬Ãû³Æship364
-Locale_Text[15751] = "¾ŞĞÍÕ½Õù±¤Àİ£¬ÓµÓĞËÄÃÅ³¬¼¶Àë×Ó¼ÓÅ©ÅÚ"
+Locale_Text[15750] = "wall of sighs"    --????ship364
+Locale_Text[15751] = "A giant war fortress with four super ion cannons"
 
 
-Locale_Text[15760] = "»ÃÏóIXÔ¶É½"    --½¢´¬Ãû³Æship365
-Locale_Text[15761] = "»ÃÏó9ĞÍ ÖØÆÆÕß±ø×° È«×°±¸Ê½Ñù"
-Locale_Text[15770] = "Î´À´¸£Òô"    --½¢´¬Ãû³Æship366
-Locale_Text[15771] = "KingsglaiveµÚÎåÆïÊ¿»ÍµÄ×¨Êô×ù¼İ"
-Locale_Text[15780] = "»ÃÏóXIÊ¥²Ã"    --½¢´¬Ãû³Æship367
-Locale_Text[15781] = "»ÃÏó11Ê¥²Ã×îÖÕ¾öÕ½Ê½Ñù"
-
-
-
-Locale_Text[15790] = "Í¼ÌÚ¼¶¸Ä×°Õ½ÁĞ½¢"    --½¢´¬Ãû³Æship368
-Locale_Text[15791] = "»õ½¢¸Ä×°³ÉµÄÕ½ÁĞ½¢,ËäÈ»°²×°ÁË´óÁ¿µÄÎäÆ÷£¬µ«ÊÇÂäºóµÄÄÜÔ´ÏµÍ³ÈÃÆäÉäËÙ¼«µÍ"
-Locale_Text[15800] = "Í¼ÌÚ¼¶¸Ä×°º½Ä¸"    --½¢´¬Ãû³Æship369
-Locale_Text[15801] = "»õ½¢¸Ä×°³ÉµÄÖØĞÍº½Ä¸,Ïà¶Ô´«Í³Î¬¸ñ¶ûº½Ä¸À´Ëµ½á¹¹¸ü¼Ó¼á¹Ì£¬Í¬Ê±ÄÜ¹»ÊÍ·Å¸ü¶àµÄ½¢ÔØ»ú"
-Locale_Text[15810] = "Í¼ÌÚ¼¶ÖØĞÍ»õ½¢"    --½¢´¬Ãû³Æship370
-Locale_Text[15811] = "Ò»ÖÖ¾­µäµÄ¾ŞĞÍ»õ½¢£¬ÓµÓĞÅÓ´óµÄ»õ²ÕºÍ¼á¹ÌµÄ½á¹¹£¬¿ÉÒÔ½øĞĞ¸÷ÖÖ¸Ä×°"
-Locale_Text[15820] = "ÖÉµ¶¼¶ÇáÑ²Ñó½¢"    --½¢´¬Ãû³Æship371
-Locale_Text[15821] = "Ò»ÖÖ¶àÓÃÍ¾µÄÇáĞÍÑ²Ñó½¢"
-Locale_Text[15830] = "¹ö¹ö¼¶·À¿ÕÇıÖğ½¢"    --½¢´¬Ãû³Æship372
-Locale_Text[15831] = "ÓµÓĞºñÖØ×°¼×µÄÇòĞÎ·À¿ÕÇıÖğ½¢"
-
-
-Locale_Text[15840] = "ÎÚÀ¼°ÍÍĞ¼¶Ö¸»ÓÄ¸½¢"    --½¢´¬Ãû³Æship373
-Locale_Text[15841] = "´óĞÍµÄÕ½ÂÔÖ¸»ÓÄ¸½¢£¬ÓµÓĞÒ»¶¨µÄº½¿ÕÄÜÁ¦£¬µ«ÊÇ¸üÊÊºÏºóÆÚÖ§Ô®"
-Locale_Text[15850] = "Ìêµ¶¼¶Õ½¶·»ú"    --½¢´¬Ãû³Æship374
-Locale_Text[15851] = "ÇáĞÍ¸ßËÙÀ¹½Ø»ú£¬ÓµÓĞÓÅĞãµÄ»ú¶¯ĞÔºÍ½ÏµÍµÄ³É±¾"
-Locale_Text[15860] = "º£Ñà¼¶ÔËÊä»ú"    --½¢´¬Ãû³Æship375
-Locale_Text[15861] = "ÓµÓĞ½Ï´óµÄÌåÁ¿µÄÖØĞÍÔËÊä»ú"
-Locale_Text[15870] = "´óĞÍÔËÊä²µ´¬"    --½¢´¬Ãû³Æship376
-Locale_Text[15871] = "³£¼ûµÄ´óĞÍ¼¯×°Ïä»õ½¢£¬³É±¾µÍÁ®ÔËÁ¦³öÉ«£¬µ«ÊÇ½á¹¹¼«Îª´àÈõ"
-
-
-Locale_Text[15880] = "ÂåÉñºÅ"    --½¢´¬Ãû³Æship377
-Locale_Text[15881] = "ÓµÓĞÈ«·½Î»»ğÁ¦ÓëÉä³ÌµÄÖ÷Á¦½¢£¬Ö±ÖÁ´úºÅ×îºóµÄÃÎĞĞ¶¯ÖØÆôºó£¬Íê³ÉÁËÒıÇæĞŞ¸´ÓëÎäÆ÷¸Ä×°£¬²¢Í¬Ê±¸´Ô­ÁËÊı¾İ¿âÖĞµÄĞéÄâÅ¼ÏñÍ¿×°"
-Locale_Text[15890] = "Ğİ²®Àû°²ºÅ"    --½¢´¬Ãû³Æship378
-Locale_Text[15891] = "ÒÏ³²½¢¶Ó²ÉÓÃµß¸²ĞÔ¼¼Êõ½¨ÔìµÄ×îĞÂÆì½¢"
-
-
-Locale_Text[15900] = "ÆÆÈĞÖ®½£"    --½¢´¬Ãû³Æship379
-Locale_Text[15901] = "Ò»ÖÖÏÈ½øµÄ³¬ÖØĞÍÕ½¶·»ú£¬ÓµÓĞ½£ÈĞĞÍ»úÌå¿ÉÒÔÇáËÉÍ»ÆÆµĞ·½¿ÕÓò"
-Locale_Text[15910] = "ÆÆêªÖ®ÈĞ"    --½¢´¬Ãû³Æship380
-Locale_Text[15911] = "ÆÆÈĞÖ®½£µÄ¼ò»¯°æ£¬ÓµÓĞ¸üºÃµÄ»ú¶¯ĞÔºÍ¸üÓÅĞãµÄÖÆÔì³É±¾"
-
-
-Locale_Text[15920] = "ºéÁ÷¼¶ÖØĞÍÇıÖğ½¢"    --½¢´¬Ãû³Æship381
-Locale_Text[15921] = "´óĞÍÕì²ìÇıÖğ½¢£¬ÓµÓĞ´óĞÍÖ÷ÅÚºÍµ¯Ä»µ¼µ¯"
-
-Locale_Text[15930] = "°¬ÈğÏ£¶û¼¶ÆÆ½»ÎŞÎ·½¢"    --½¢´¬Ãû³Æship382
-Locale_Text[15931] = "ĞÂÈñµÄ¸ßËÙÖØ¼×ÎŞÎ·½¢£¬ÓµÓĞ×ãÒÔÆ¥µĞ±¤Àİ½¢µÄÕ½¶·Á¦"
-
-Locale_Text[15940] = "Ò®ÃÎ¼ÓµÃºÅÆÆ½»ÎŞÎ·½¢"    --½¢´¬Ãû³Æship383
-Locale_Text[15941] = "°¬ÈğÏ£¶û¼¶ÆÆ½»ÎŞÎ·½¢µÄÌØÊâĞÍºÅ£¬ÓµÓĞÇ¿´óµÄÕ½¶·Á¦"
+Locale_Text[15760] = "Phantom IX Far Mountain"    --????ship365
+Locale_Text[15761] = "Phantom 9 Heavy Breaker Armor Full Equipment Style"
+Locale_Text[15770] = "future gospel"    --????ship366
+Locale_Text[15771] = "Kingsglaive's fifth knight Huang's exclusive car"
+Locale_Text[15780] = "Phantom XI Inquisition"    --????ship367
+Locale_Text[15781] = "Phantom 11 holy order final battle style"
 
 
 
-Locale_Text[15950] = "Ìá·á¼¶Õ½ÁĞÑ²Ñó½¢"    --½¢´¬Ãû³Æship384
-Locale_Text[15951] = "ÓµÓĞ¸ß»ú¶¯Á¦ºÍÁ¼ºÃÁé»îĞÔµÄ¸ßËÙÑ²º½½¢"
-
-Locale_Text[15960] = "Á¶·ç¼¶Õ½ÁĞÑ²Ñó½¢"    --½¢´¬Ãû³Æship385
-Locale_Text[15961] = "ÓµÓĞ¸ß»ú¶¯Á¦ºÍÁ¼ºÃÁé»îĞÔµÄ¸ßËÙÑ²º½½¢"
-
-Locale_Text[15970] = "Ìá·á¼¶Õ½ÁĞÑ²Ñó½¢DĞÍ"    --½¢´¬Ãû³Æship386
-Locale_Text[15971] = "ÓµÓĞ¸ß»ú¶¯Á¦ºÍÁ¼ºÃÁé»îĞÔµÄ¸ßËÙÑ²º½½¢£¬ÓµÓĞÌØÊâµÄµç×ÓÕ½ÄÜÁ¦"
-
-
-Locale_Text[15980] = "ëàÊó¼¶»¤ÎÀ½¢"    --½¢´¬Ãû³Æship387
-Locale_Text[15981] = "Ò»ÖÖÁ¿²úĞÍµÄ»¤ÎÀ½¢"
-
-Locale_Text[15990] = "³¿·æ¼¶Õ½ÂÔ´ò»÷Ä¸½¢"    --½¢´¬Ãû³Æship388
-Locale_Text[15991] = "êØ¾°Õ¿È»£¬ÈĞÒ÷Èç¸è¡£²ÔĞÇÕ½ÍÅÖ±ÎÀ£¬ÎªÖÕ½áÕ½ÕùÀ´´Ë"
-
-Locale_Text[16000] = "ÃÖÀë¹¤³ÌĞÍ"    --½¢´¬Ãû³Æship389
-Locale_Text[16001] = "¹¤³ÌĞÍµÄÃÖÀë¼¶½¢¶Óº½Ä¸£¬Ã»ÓĞÊÍ·Å½¢ÔØ»úµÄÄÜÁ¦£¬µ«ÊÇ¿ÉÒÔ½øĞĞÔ¶³ÌĞŞÀí"
+Locale_Text[15790] = "Totem-class modified battleship"    --????ship368
+Locale_Text[15791] = "Cargo ships converted into battleships, although the combat effectiveness is poor, but the cost is relatively low, suitable for rapid attack in the early stage"
+Locale_Text[15800] = "Totem class modified aircraft carrier"    --????ship369
+Locale_Text[15801] = "The heavy-duty aircraft carrier converted from a cargo ship has a stronger structure than the traditional Veiger aircraft carrier, and can release more carrier-based aircraft at the same time"
+Locale_Text[15810] = "Totem-class heavy cargo ship"    --????ship370
+Locale_Text[15811] = "A classic mega-cargo ship with a huge cargo hold and a solid structure that can be modified in a variety of ways"
+Locale_Text[15820] = "Zhidao-class light cruiser"    --????ship371
+Locale_Text[15821] = "A versatile light cruiser"
+Locale_Text[15830] = "Rolling Class Air Defense Destroyer"    --????ship372
+Locale_Text[15831] = "Spherical anti-aircraft destroyer with heavy armor"
 
 
-Locale_Text[16010] = "ÈëÇÖÕß»ú¼×¶Ó³¤»úĞÍ"    --½¢´¬Ãû³Æship390
-Locale_Text[16011] = "ÈëÇÖÕß»ú¼×µÄ¶Ó³¤»úĞÍºÅ£¬¿ÉÊ¹ÓÃ¸ß³öÁ¦Éä»÷·´ÖÆ¸ß¼¶Õ½»ú"
+Locale_Text[15840] = "Ulaanbaatar-class command carrier"    --????ship373
+Locale_Text[15841] = "A large strategic command carrier with certain aviation capabilities, but more suitable for later support"
+Locale_Text[15850] = "razor fighter"    --????ship374
+Locale_Text[15851] = "Lightweight high-speed interceptor with excellent maneuverability and low cost"
+Locale_Text[15860] = "Haiyan-class transport aircraft"    --????ship375
+Locale_Text[15861] = "Heavy-duty transport aircraft with a large volume"
+Locale_Text[15870] = "large transport barge"    --????ship376
+Locale_Text[15871] = "A common large container ship with low cost and excellent capacity, but its structure is extremely fragile"
 
 
-Locale_Text[16020] = "GX-ÕıÒåÖ®Ç¹"    --½¢´¬Ãû³Æship391
-Locale_Text[16021] = "ÎªAI»¤ÎÀ²¿¶Ó¿ª·¢µÄĞÂÊÀ´ú½¢ÔØ»ú£¬ÓµÓĞÓÅĞã×ÛºÏ×÷Õ½ĞÔÄÜ"
-Locale_Text[16030] = "GX-ÀÊ»ùÅ¬Ë¹¹¹ĞÍ"    --½¢´¬Ãû³Æship392
-Locale_Text[16031] = "ÕıÒåÖ®Ç¹µÄÀÊ»ùÅ¬Ë¹Ç¿»¯Ì×¼ş£¬¾ß±¸³öÉ«ÕıÃæ¹¥¼á»ğÁ¦"
-
-Locale_Text[16040] = "GX-¿¨Î÷ÎÚË¹¹¹ĞÍ"    --½¢´¬Ãû³Æship393
-Locale_Text[16041] = "ÕıÒåÖ®Ç¹µÄ¿¨Î÷ÎÚË¹Ç¿»¯Ì×¼ş£¬¾ß±¸×¿Ô½¿ÕÕ½ÄÜÁ¦"
-Locale_Text[16050] = "GX-¸ÇÎÚË¹¹¹ĞÍ"    --½¢´¬Ãû³Æship394
-Locale_Text[16051] = "ÕıÒåÖ®Ç¹µÄ¸ÇÎÚË¹Ç¿»¯Ì×¼ş£¬¾ß±¸¶àÄ¿±ê´ò»÷ÄÜÁ¦"
-
-Locale_Text[16060] = "÷ÈÓ°ÎŞÈË»ú"    --½¢´¬Ãû³Æship395
-Locale_Text[16061] = "ÅäºÏGX¼Æ»®¿ª·¢µÄ°éËæÎŞÈË»ú£¬¿ÉÌá¹©¶àÑùÖ§Ô®ÄÜÁ¦"
-Locale_Text[16070] = "¸§ÏÉ¼¶¹¤³Ì½¢"    --½¢´¬Ãû³Æship396
-Locale_Text[16071] = "Ğ¡ÇÉ¿É¿¿µÄºóÇÚ½¢´¬£¬ÄÜ¹»¿çÔ½Î£ÏÕĞÇÓò£¬ÇĞÊµ±£ÕÏ½¢¶Ó°²È«"
+Locale_Text[15880] = "Roselle"    --????ship377
+Locale_Text[15881] = "A capital ship with all-round firepower and range, until the restart of Operation Dream of the Last Codename, the engine repair and weapon modification were completed, and the virtual idol painting in the database was restored at the same time"
+Locale_Text[15890] = "Hyperion"    --????ship378
+Locale_Text[15891] = "The latest flagship of the Ant Nest fleet built with disruptive technology"
 
 
-Locale_Text[16080] = "ËéĞÇ¼¶¹¥»÷½¢"    --½¢´¬Ãû³Æship397
-Locale_Text[16081] = "×°±¸ÖØĞÍµ¼µ¯·¢Éä×°ÖÃµÄ½¢¶Ó»ğÁ¦Ö§Ô®½¢ "
-Locale_Text[16090] = "ĞÇÓï¼¶Õì²ìº½Ä¸ "    --½¢´¬Ãû³Æship398
-Locale_Text[16091] = "¾ßÓĞÇ¿Ğøº½Á¦µÄ¶àÓÃÍ¾¸¨Öúº½Ä¸"
-Locale_Text[16100] = "ĞÂĞÇ¼¶ÇıÖğ½¢ "    --½¢´¬Ãû³Æship399
-Locale_Text[16101] = "³Ğµ£½¢¶Ó»¤ÎÀÈÎÎñµÄĞ¡ĞÍ¸¨Öú½¢"
-Locale_Text[16110] = "Ê¥±®¼¶¼¤¹âÎŞÎ·½¢ "    --½¢´¬Ãû³Æship400
-Locale_Text[16111] = "´óĞÍ¼¤¹âÅÚÎŞÎ·½¢"
+Locale_Text[15900] = "Broken Blade"    --????ship379
+Locale_Text[15901] = "An advanced super-heavy fighter with a blade-shaped body that can easily break through enemy airspace"
+Locale_Text[15910] = "Broken Blade"    --????ship380
+Locale_Text[15911] = "Simplified version of Broken Blade, with better mobility and better crafting cost"
+
+
+Locale_Text[15920] = "Torrent class heavy destroyer"    --????ship381
+Locale_Text[15921] = "Large scout destroyer with large main guns and barrage missiles"
+
+Locale_Text[15930] = "Ariel-class broken hand dreadnought"    --????ship382
+Locale_Text[15931] = "Cutting-edge high-speed heavy-armored dreadnoughts, possessing combat effectiveness comparable to fortress ships"
+
+Locale_Text[15940] = "HMS Jormungandr surrenders the dreadnought"    --????ship383
+Locale_Text[15941] = "A special model of the Ariel-class dreadnought ship, with powerful combat effectiveness"
 
 
 
-Locale_Text[16120] = "³¬¼¶Õ½¶·»ú-Éñ·£"    --½¢´¬Ãû³Æship401
-Locale_Text[16121] = "ÒÔ¼ßÃğÇ¿´óµ¥ÌåµĞÈËÉè¼ÆµÄÏÈ½øÕ½¶·»ú"
-Locale_Text[16130] = "³¬¼¶Õ½¶·»ú-Éñ·£¼ßÃğĞÍ"    --½¢´¬Ãû³Æship402
-Locale_Text[16131] = "Éñ·£µÄÎä×°Ç¿»¯°æ±¾£¬ÓÃÀ´Í»Ï®Ç¿´óµÄ½¢¶Ó"
-Locale_Text[16140] = "ÁªÃËÇáĞÍÇıÖğ½¢  "    --½¢´¬Ãû³Æship403
-Locale_Text[16141] = "Ñ²ÂßÓÃµÄĞ¡ĞÍ½¢´¬ "
-Locale_Text[16150] = "Ê³ÈËöğºäÕ¨»ú "    --½¢´¬Ãû³Æship404
-Locale_Text[16151] = "ÖØĞÍ¹¥»÷ºäÕ¨»ú£¬ÓµÓĞÇ¿´óµÄÊä³ö»ğÁ¦"
-Locale_Text[16160] = "Ê³ÈËöğºäÕ¨»ú-Ç¾Ş±ĞÍ "    --½¢´¬Ãû³Æship405
-Locale_Text[16161] = "×°±¸ÁËÇ¾Ş±µ¼µ¯µÄÖØĞÍºäÕ¨»ú"
+Locale_Text[15950] = "Typhon-class battlecruiser"    --????ship384
+Locale_Text[15951] = "High-speed cruiser with high maneuverability and good agility"
+
+Locale_Text[15960] = "Lianfeng-class battlecruiser"    --????ship385
+Locale_Text[15961] = "High-speed cruiser with high maneuverability and good agility"
+
+Locale_Text[15970] = "Typhon-class battlecruiser Type D"    --????ship386
+Locale_Text[15971] = "A high-speed cruiser with high maneuverability and good flexibility, with special electronic warfare capabilities"
 
 
-Locale_Text[16170] = "½õÒÀÎÀ "    --½¢´¬Ãû³Æship406
-Locale_Text[16171] = "ÂåÉñºÅËùÊôµÄ½õÒÀÎÀÍ¿×°£¬ÓÀÔ¶ÊØ»¤µîÏÂ"
+Locale_Text[15980] = "Guinea Pig-class frigate"    --????ship387
+Locale_Text[15981] = "A mass-produced frigate"
+
+Locale_Text[15990] = "Morning Herald Class Strategic Strike Mothership"    --????ship388
+Locale_Text[15991] = "Xi Jing is clear, and the blade sings like a song. The direct guard of the Cangxing War Group came here to end the war"
+
+Locale_Text[16000] = "Miscellaneous engineering type"    --????ship389
+Locale_Text[16001] = "The engineering-type Mili-class fleet aircraft carrier does not have the ability to release carrier-based aircraft, but it can be repaired remotely"
 
 
-Locale_Text[16180] = "´ó»Æ·äºÅ"    --½¢´¬Ãû³Æship407
-Locale_Text[16181] = "ÃÖÀë¼¶º½Ä¸¸Ä×°µÄ´óĞÍ½¢ÔØ»úÆ½Ì¨"
+Locale_Text[16010] = "Intruder Mech Captain Model"    --????ship390
+Locale_Text[16011] = "The leader machine model of the Intruder mech, which can use high-power shooting to counter advanced fighters"
 
-Locale_Text[16190] = "¸£ÁúºÅÔËÔØ½¢"    --½¢´¬Ãû³Æship408
-Locale_Text[16191] = "¶à¹¦ÄÜÕ½¶·Ö§Ô®Ä¸½¢£¬½¢¶ÓºËĞÄ"
-Locale_Text[16200] = "ÍşÁúºÅÎŞÎ·½¢"    --½¢´¬Ãû³Æship409
-Locale_Text[16201] = "ÍşÁ¦ÎŞÆ¥µÄÅÚ»÷Õ½½¢£¬½¢¶ÓÖĞ¼á"
 
-Locale_Text[16210] = "GX-EX"    --½¢´¬Ãû³Æship410
+Locale_Text[16020] = "GX-Gun of Justice"    --????ship391
+Locale_Text[16021] = "A new generation of carrier-based aircraft developed for the AI guard force, with excellent comprehensive combat performance"
+Locale_Text[16030] = "GX-Longinus configuration"    --????ship392
+Locale_Text[16031] = "The Longinus enhancement kit of the Gun of Justice, with excellent frontal attack firepower"
+
+Locale_Text[16040] = "GX-Cassius configuration"    --????ship393
+Locale_Text[16041] = "The Cassius Enhancement Kit of the Guns of Justice, with excellent aerial combat capabilities"
+Locale_Text[16050] = "GX-Gaius configuration"    --????ship394
+Locale_Text[16051] = "Gaius Enhancement Kit for the Guns of Justice, with multi-target capability"
+
+Locale_Text[16060] = "Phantom Drone"    --????ship395
+Locale_Text[16061] = "Companion drones developed in conjunction with the GX program can provide various support capabilities"
+Locale_Text[16070] = "Fuxian class engineering ship"    --????ship396
+Locale_Text[16071] = "A small and reliable logistics ship that can cross dangerous star fields and effectively guarantee the safety of the fleet"
+
+
+Locale_Text[16080] = "Broken Star Assault Ship"    --????ship397
+Locale_Text[16081] = "Fleet fire support ship equipped with heavy missile launchers"
+Locale_Text[16090] = "Star language reconnaissance aircraft carrier"    --????ship398
+Locale_Text[16091] = "Multi-purpose auxiliary carrier with strong endurance"
+Locale_Text[16100] = "Nova Destroyer"    --????ship399
+Locale_Text[16101] = "A small auxiliary ship that undertakes the task of escorting the fleet"
+Locale_Text[16110] = "Monument-class Laser Dreadnought"    --????ship400
+Locale_Text[16111] = "Large Laser Cannon Dreadnought"
+
+
+
+Locale_Text[16120] = "Large Laser Cannon Dreadnought Super Fighter - God's Punishment..."    --????ship401
+Locale_Text[16121] = "An advanced fighter designed to destroy powerful single enemies"
+Locale_Text[16130] = "Super Fighter-God's Punishment Annihilation Type"    --????ship402
+Locale_Text[16131] = "An enhanced version of God's Punishment, used to raid powerful fleets"
+Locale_Text[16140] = "Alliance light destroyer"    --????ship403
+Locale_Text[16141] = "small patrol boat"
+Locale_Text[16150] = "Piranha Bomber"    --????ship404
+Locale_Text[16151] = "Heavy attack bomber with powerful output firepower"
+Locale_Text[16160] = "Piranha Bomber - Rose Type"    --????ship405
+Locale_Text[16161] = "Heavy bomber equipped with Rose missiles"
+
+
+Locale_Text[16170] = "Jin Yiwei"    --????ship406
+Locale_Text[16171] = "The painting of Jinyiwei, which belongs to the Luoshen, will always protect His Highness"
+
+
+Locale_Text[16180] = "Hornet"    --????ship407
+Locale_Text[16181] = "A large carrier-based aircraft platform modified by Mili-class aircraft carrier"
+
+Locale_Text[16190] = "Carrier Fulong"    --????ship408
+Locale_Text[16191] = "Multifunctional combat support mothership, fleet core"
+Locale_Text[16200] = "Dreadnought Dragon"    --????ship409
+Locale_Text[16201] = "A powerful bombardment warship, the backbone of the fleet"
+
+Locale_Text[16210] = "GX-EX"    --????ship410
 Locale_Text[16221] = "GX-EX"
 
+Locale_Text[16230] = "å‘½è¿å¥³ç¥çº§æ˜ŸåŸŸå‹åˆ¶èˆ°"    --èˆ°èˆ¹åç§°ship412
+Locale_Text[16231] = "è¾‰å¤œÂ·ä¹Œå°”å¾·"
+Locale_Text[16232] = "å»ºé€ è¾‰å¤œÂ·ä¹Œå°”å¾·"
 
-Locale_Text[16230] = "ÃüÔËÅ®Éñ¼¶ĞÇÓòÑ¹ÖÆ½¢"    --½¢´¬Ãû³Æship412
-Locale_Text[16231] = "»ÔÒ¹¡¤ÎÚ¶ûµÂ"
-Locale_Text[16232] = "½¨Ôì»ÔÒ¹¡¤ÎÚ¶ûµÂ"
+Locale_Text[16240] = "å‘½è¿å¥³ç¥çº§æ˜ŸåŸŸå‹åˆ¶èˆ°"    --èˆ°èˆ¹åç§°ship413
+Locale_Text[16241] = "å¤©ç¾½Â·æ–¯å¡è’‚"
+Locale_Text[16242] = "å»ºé€ å¤©ç¾½Â·æ–¯å¡è’‚"
 
-Locale_Text[16240] = "ÃüÔËÅ®Éñ¼¶ĞÇÓòÑ¹ÖÆ½¢"    --½¢´¬Ãû³Æship413
-Locale_Text[16241] = "ÌìÓğ¡¤Ë¹¿¨µÙ"
-Locale_Text[16242] = "½¨ÔìÌìÓğ¡¤Ë¹¿¨µÙ"
+Locale_Text[16250] = "å‡¤å‡°çº§éšç§˜å·¡æ¸¸èˆ°"    --èˆ°èˆ¹åç§°ship414
+Locale_Text[16251] = "å¦‚å‡¤å‡°èˆ¬é—ªè€€  ç©¿æ¢­äºç¾¤æ˜Ÿé—´çš„æµ·æ‹‰ç±³å°”èˆ°é˜Ÿå…ˆé”‹  "
 
-Locale_Text[16250] = "·ï»Ë¼¶ÒşÃØÑ²ÓÎ½¢"    --½¢´¬Ãû³Æship414
-Locale_Text[16251] = "Èç·ï»Ë°ãÉÁÒ«  ´©ËóÓÚÈºĞÇ¼äµÄº£À­Ã×¶û½¢¶ÓÏÈ·æ  "
+Locale_Text[16260] = "è±æ©-ä»£è¡Œè€…å…µè£…"    --èˆ°èˆ¹åç§°ship415
+Locale_Text[16261] = "è±æ©-ä»£è¡Œè€…å…µè£…æ˜¯â€œä»£ç†äººâ€ç»„ç»‡åŸºäºåŸå‹æœºç ”åˆ¶çš„é‡å‹å¤šç”¨é€”æˆ˜æœº"
 
-Locale_Text[16260] = "À³¶÷-´úĞĞÕß±ø×°"    --½¢´¬Ãû³Æship415
-Locale_Text[16261] = "À³¶÷-´úĞĞÕß±ø×°ÊÇ¡°´úÀíÈË¡±×éÖ¯»ùÓÚÔ­ĞÍ»úÑĞÖÆµÄÖØĞÍ¶àÓÃÍ¾Õ½»ú"
+Locale_Text[16270] = "è±æ©â€”çŒå…µå…µè£…"    --èˆ°èˆ¹åç§°ship416
+Locale_Text[16271] = "è±æ©-çŒå…µå…µè£…æ˜¯â€œä»£ç†äººâ€ç»„ç»‡çš„æ–°å‹ç©ºä¸­ä¼˜åŠ¿æˆ˜æœº"
 
-Locale_Text[16270] = "À³¶÷¡ªÁÔ±ø±ø×°"    --½¢´¬Ãû³Æship416
-Locale_Text[16271] = "À³¶÷-ÁÔ±ø±ø×°ÊÇ¡°´úÀíÈË¡±×éÖ¯µÄĞÂĞÍ¿ÕÖĞÓÅÊÆÕ½»ú"
+Locale_Text[16272] = "è”ç›Ÿå¯¼å¼¹è‰‡"    --èˆ°èˆ¹åç§°ship417
+Locale_Text[16273] = "ä¸€ç§å¯ä»¥è¿ç»­å‘å°„é˜²ç©ºå¯¼å¼¹çš„å°å‹é˜²ç©ºè‰‡ "
 
-Locale_Text[16272] = "ÁªÃËµ¼µ¯Í§"    --½¢´¬Ãû³Æship417
-Locale_Text[16273] = "Ò»ÖÖ¿ÉÒÔÁ¬Ğø·¢Éä·À¿Õµ¼µ¯µÄĞ¡ĞÍ·À¿ÕÍ§ "
+Locale_Text[16274] = "è”ç›Ÿé‡å‹é˜²ç©ºè‰‡"    --èˆ°èˆ¹åç§°ship418
+Locale_Text[16275] = "æ‹¥æœ‰å¤šä¸ªé˜²ç©ºç‚®å¡”å’Œé˜²ç©ºå¯¼å¼¹å‘å°„è£…ç½®çš„é‡å‹é˜²ç©ºè‰‡"
 
-Locale_Text[16274] = "ÁªÃËÖØĞÍ·À¿ÕÍ§"    --½¢´¬Ãû³Æship418
-Locale_Text[16275] = "ÓµÓĞ¶à¸ö·À¿ÕÅÚËşºÍ·À¿Õµ¼µ¯·¢Éä×°ÖÃµÄÖØĞÍ·À¿ÕÍ§"
+Locale_Text[16376] = "è”ç›Ÿé‡å‹æ”»å‡»è‰‡"    --èˆ°èˆ¹åç§°ship419
+Locale_Text[16377] = "è£…å¤‡æœ‰ä¸¤åº§420æ¯«ç±³åŠ å†œç‚®çš„é‡å‹æ”»å‡»è‰‡"
 
-Locale_Text[16376] = "ÁªÃËÖØĞÍ¹¥»÷Í§"    --½¢´¬Ãû³Æship419
-Locale_Text[16377] = "×°±¸ÓĞÁ½×ù420ºÁÃ×¼ÓÅ©ÅÚµÄÖØĞÍ¹¥»÷Í§"
+Locale_Text[16280] = "å‘½è¿çº§æˆ˜äº‰æ¯èˆ°"    --èˆ°èˆ¹åç§°ship420
+Locale_Text[16281] = "æ‹¥æœ‰å¼ºå¤§è¿è½½èƒ½åŠ›çš„æˆ˜äº‰æ¯èˆ°ï¼Œå¯ä»¥å¬å”¤å¤§é‡èˆ°è½½æœºæ”¯æ´æˆ˜æ–—"
+Locale_Text[16282] = "å»ºé€ å‘½è¿çº§æˆ˜äº‰æ¯èˆ°"
 
-Locale_Text[16280] = "ÃüÔË¼¶Õ½ÕùÄ¸½¢"    --½¢´¬Ãû³Æship420
-Locale_Text[16281] = "ÓµÓĞÇ¿´óÔËÔØÄÜÁ¦µÄÕ½ÕùÄ¸½¢£¬¿ÉÒÔÕÙ»½´óÁ¿½¢ÔØ»úÖ§Ô®Õ½¶·"
-Locale_Text[16282] = "½¨ÔìÃüÔË¼¶Õ½ÕùÄ¸½¢"
+Locale_Text[16290] = "å¹»è±¡VIIIçŒå…µ"    --èˆ°èˆ¹åç§°ship421
+Locale_Text[16291] = "è¿…æ·ç‚®å…µè£…"
 
-Locale_Text[16290] = "»ÃÏóVIIIÁÔ±ø"    --½¢´¬Ãû³Æship421
-Locale_Text[16291] = "Ñ¸½İÅÚ±ø×°"
+Locale_Text[16300] = "å¹»è±¡Xå¤œèº"    --èˆ°èˆ¹åç§°ship422
+Locale_Text[16301] = "é‡ç ´è€…å…µè£…"
 
-Locale_Text[16300] = "»ÃÏóXÒ¹İº"    --½¢´¬Ãû³Æship422
-Locale_Text[16301] = "ÖØÆÆÕß±ø×°"
+Locale_Text[16310] = "è£‚ç—•2Hå‹å·¥ç¨‹å‹"    --èˆ°èˆ¹åç§°ship423
+Locale_Text[16311] = "å¤§å‹æˆ˜åˆ—èˆ°çº§å·¥ç¨‹æ¯èˆ°"
 
-Locale_Text[16310] = "ÁÑºÛ2HĞÍ¹¤³ÌĞÍ"    --½¢´¬Ãû³Æship423
-Locale_Text[16311] = "´óĞÍÕ½ÁĞ½¢¼¶¹¤³ÌÄ¸½¢"
+Locale_Text[16320] = "æ©å¥‡æ‹‰æ–¹èˆŸ"    --èˆ°èˆ¹åç§°ship424
+Locale_Text[16321] = "æ— å½¢å¼‚ç‰©ï¼Œè™šç©ºæ‰€é“¸ã€‚å¤è€åŸå§‹ï¼Œä¸‡ç‰©è«åŠã€‚è‹¥å…¶è‹é†’ï¼Œé£æš´å°†éš"
 
-Locale_Text[16320] = "¶÷ÆæÀ­·½ÖÛ"    --½¢´¬Ãû³Æship424
-Locale_Text[16321] = "ÎŞĞÎÒìÎï£¬Ğé¿ÕËùÖı¡£¹ÅÀÏÔ­Ê¼£¬ÍòÎïÄª¼°¡£ÈôÆäËÕĞÑ£¬·ç±©½«Ëæ"
+Locale_Text[16330] = "ç»æœ›ç¥·è¨€"    --èˆ°èˆ¹åç§°ship425
+Locale_Text[16331] = "æœåœ£è€…åœ£è‰¾æ©æ—…å›¢é€ ç‰©"
 
-Locale_Text[16330] = "¾øÍûµ»ÑÔ"    --½¢´¬Ãû³Æship425
-Locale_Text[16331] = "³¯Ê¥ÕßÊ¥°¬¶÷ÂÃÍÅÔìÎï"
+Locale_Text[16340] = "é»‘çˆªæ‹¦æˆªæœº"    --èˆ°èˆ¹åç§°ship426
+Locale_Text[16341] = "é…ç½®ç€æŸäº›ç¥ç§˜ç§‘æŠ€çš„é«˜æ€§èƒ½é‡è£…æ‹¦æˆªæœºï¼Œå…·ä½“æºå¤´ä¸æ˜"
 
-Locale_Text[16340] = "ºÚ×¦À¹½Ø»ú"    --½¢´¬Ãû³Æship426
-Locale_Text[16341] = "ÅäÖÃ×ÅÄ³Ğ©ÉñÃØ¿Æ¼¼µÄ¸ßĞÔÄÜÖØ×°À¹½Ø»ú£¬¾ßÌåÔ´Í·²»Ã÷"
+Locale_Text[16350] = "é»‘ç¿¼é‡ç‚®è‰‡"    --èˆ°èˆ¹åç§°ship427
+Locale_Text[16351] = "æ‹¥æœ‰è‰¯å¥½çš„æˆ˜åœºç”Ÿå­˜èƒ½åŠ›ï¼Œå…¶ä¸Šæ­è½½çš„è£‚è§£è„‰å†²è¶³ä»¥æ’•è£‚å¤§å‹æ˜Ÿèˆ°ï¼Œä½†å¾ˆå¤šæ—¶å€™è¢«ç”¨äºåˆ‡å‰²å¤±è½é—è¿¹çš„å¤–å£³"
 
-Locale_Text[16350] = "ºÚÒíÖØÅÚÍ§"    --½¢´¬Ãû³Æship427
-Locale_Text[16351] = "ÓµÓĞÁ¼ºÃµÄÕ½³¡Éú´æÄÜÁ¦£¬ÆäÉÏ´îÔØµÄÁÑ½âÂö³å×ãÒÔËºÁÑ´óĞÍĞÇ½¢£¬µ«ºÜ¶àÊ±ºò±»ÓÃÓÚÇĞ¸îÊ§ÂäÒÅ¼£µÄÍâ¿Ç"
+Locale_Text[16360] = "æ™¨æ›¦å·"    --èˆ°èˆ¹åç§°ship428
+Locale_Text[16361] = "è¯ºäºšé›†å›¢ä¿®å¤çš„ç»´æ ¼å°”è¶…çº§æˆ˜èˆ°ï¼Œæ—¶åˆ»å˜²è®½ç€å¯¹æ‰‹çš„å¤±è´¥"
 
-Locale_Text[16360] = "³¿êØºÅ"    --½¢´¬Ãû³Æship428
-Locale_Text[16361] = "ÅµÑÇ¼¯ÍÅĞŞ¸´µÄÎ¬¸ñ¶û³¬¼¶Õ½½¢£¬Ê±¿Ì³°·í×Å¶ÔÊÖµÄÊ§°Ü"
+Locale_Text[16370] = "å½±æ­Œçº§ç‰¹å‹¤èˆ°"    --èˆ°èˆ¹åç§°ship429
+Locale_Text[16371] = "è²è‰å¦²è‰¾ç‰¹ç§å†›åˆ¶å¼ç‰¹å‹¤èˆ°"
 
-Locale_Text[16370] = "Ó°¸è¼¶ÌØÇÚ½¢"    --½¢´¬Ãû³Æship429
-Locale_Text[16371] = "·ÆÀòæ§°¬ÌØÖÖ¾üÖÆÊ½ÌØÇÚ½¢"
+Locale_Text[16380] = "å‡‹é›¶è€…çº§æˆ˜åˆ—èˆ°"    --èˆ°èˆ¹åç§°ship430
+Locale_Text[16381] = "æ‹¥æœ‰åšå®è£…ç”²å’Œå¼ºåŠ²èˆ·ç‚®çš„ä¸»æˆ˜æˆ˜åˆ—èˆ°"
 
-Locale_Text[16380] = "µòÁãÕß¼¶Õ½ÁĞ½¢"    --½¢´¬Ãû³Æship430
-Locale_Text[16381] = "ÓµÓĞºñÊµ×°¼×ºÍÇ¿¾¢ÏÏÅÚµÄÖ÷Õ½Õ½ÁĞ½¢"
+Locale_Text[16390] = "å¤©ç¾çº§è¿è½½èˆ°"    --èˆ°èˆ¹åç§°ship431
+Locale_Text[16391] = "æ“…é•¿åœ¨å¤æ‚ç¯å¢ƒä¸‹æ‰§è¡Œä»»åŠ¡çš„å¤§å‹è¿è½½èˆ°"
 
-Locale_Text[16390] = "ÌìÔÖ¼¶ÔËÔØ½¢"    --½¢´¬Ãû³Æship431
-Locale_Text[16391] = "ÉÃ³¤ÔÚ¸´ÔÓ»·¾³ÏÂÖ´ĞĞÈÎÎñµÄ´óĞÍÔËÔØ½¢"
 
+Locale_Text[16400] = "çŸ³åƒé¬¼çº§å¯¼å¼¹é©±é€èˆ°"    --èˆ°èˆ¹åç§°ship432
+Locale_Text[16401] = "å¤šç”¨é€”å¯¼å¼¹é©±é€èˆ°"
 
-Locale_Text[16400] = "Ê¯Ïñ¹í¼¶µ¼µ¯ÇıÖğ½¢"    --½¢´¬Ãû³Æship432
-Locale_Text[16401] = "¶àÓÃÍ¾µ¼µ¯ÇıÖğ½¢"
+Locale_Text[16410] = "çŸ¥è¯†ä¸çœŸç†"    --èˆ°èˆ¹åç§°ship433
+Locale_Text[16411] = "çŸ¥è¯†ä¸çœŸç†"
 
-Locale_Text[16410] = "ÖªÊ¶ÓëÕæÀí"    --½¢´¬Ãû³Æship433
-Locale_Text[16411] = "ÖªÊ¶ÓëÕæÀí"
 
+Locale_Text[16420] = "æ˜Ÿç‚¬çº§"    --èˆ°èˆ¹åç§°ship434
+Locale_Text[16421] = "ç±»ä¼¼äºå°å‹æ®ç‚¹çš„å·¡é€»èˆ°é˜Ÿé¢†èˆ°"
 
-Locale_Text[16420] = "ĞÇ¾æ¼¶"    --½¢´¬Ãû³Æship434
-Locale_Text[16421] = "ÀàËÆÓÚĞ¡ĞÍ¾İµãµÄÑ²Âß½¢¶ÓÁì½¢"
+Locale_Text[16430] = "èœ‚ç®±çº§é‡å‹çŸ¿ä¸šæ¯èˆ°"    --èˆ°èˆ¹åç§°ship435
+Locale_Text[16431] = "è¢«å½“ä½œç§»åŠ¨çŸ¿ä¸šåŸºåœ°çš„é‡å‹é‡‡çŸ¿æ¯èˆ°"
 
-Locale_Text[16430] = "·äÏä¼¶ÖØĞÍ¿óÒµÄ¸½¢"    --½¢´¬Ãû³Æship435
-Locale_Text[16431] = "±»µ±×÷ÒÆ¶¯¿óÒµ»ùµØµÄÖØĞÍ²É¿óÄ¸½¢"
+Locale_Text[16440] = "å¤§é»„èœ‚é‡‡çŸ¿æµ®æ¸¸ç‚®"    --èˆ°èˆ¹åç§°ship436
+Locale_Text[16441] = "å¤§å‹èˆ°è½½æµ®æ¸¸ç‚®"
 
-Locale_Text[16440] = "´ó»Æ·ä²É¿ó¸¡ÓÎÅÚ"    --½¢´¬Ãû³Æship436
-Locale_Text[16441] = "´óĞÍ½¢ÔØ¸¡ÓÎÅÚ"
+Locale_Text[16450] = "èœ‚é¸Ÿçªå‡»è‰‡"    --èˆ°èˆ¹åç§°ship437
+Locale_Text[16451] = "è£…å¤‡äº†88æ¯«ç±³åŠ ç‰¹æ—ç‚®çš„çªå‡»ç‚®è‰‡"
 
-Locale_Text[16450] = "·äÄñÍ»»÷Í§"    --½¢´¬Ãû³Æship437
-Locale_Text[16451] = "×°±¸ÁË88ºÁÃ×¼ÓÌØÁÖÅÚµÄÍ»»÷ÅÚÍ§"
+Locale_Text[16460] = "çŠ€ç‰›æ­¦è£…è¿è¾“è‰‡"    --èˆ°èˆ¹åç§°ship438
+Locale_Text[16461] = "æ°‘ç”¨è¿è¾“è‰‡æ”¹è£…çš„88æ¯«ç±³é˜²å¾¡ç‚®è‰‡"
 
-Locale_Text[16460] = "Ï¬Å£Îä×°ÔËÊäÍ§"    --½¢´¬Ãû³Æship438
-Locale_Text[16461] = "ÃñÓÃÔËÊäÍ§¸Ä×°µÄ88ºÁÃ×·ÀÓùÅÚÍ§"
 
+Locale_Text[16470] = "é˜¿å…‹ç´¢çº§ç»´ä¿®èˆ°"    --èˆ°èˆ¹åç§°ship439
+Locale_Text[16471] = "ä½œä¸ºå¤§å‹ç»´ä¿®èˆ°ä¸»è¦è´Ÿè´£å¤§å‹ç‰¹æ··èˆ°é˜Ÿä¸­ä¸»åŠ›èˆ°è‰‡çš„ç»¼åˆè¡¥ç»™ä¸æˆ˜åœºç»´ä¿®"
 
-Locale_Text[16470] = "°¢¿ËË÷¼¶Î¬ĞŞ½¢"    --½¢´¬Ãû³Æship439
-Locale_Text[16471] = "×÷Îª´óĞÍÎ¬ĞŞ½¢Ö÷Òª¸ºÔğ´óĞÍÌØ»ì½¢¶ÓÖĞÖ÷Á¦½¢Í§µÄ×ÛºÏ²¹¸øÓëÕ½³¡Î¬ĞŞ"
+Locale_Text[16480] = "ç«¹èŠ‚è™«å¤§å‹è¿è¾“é©³èˆ¹è½°ç‚¸å‹"    --èˆ°èˆ¹åç§°ship440
+Locale_Text[16481] = "å¤§å¨åŠ›åæ— ç•é±¼é›·æœºï¼Œæºå¸¦ä¸€å‘æŠ¤å«è‰‡å¤§å°çš„çŸ¿ç”¨å·¥ç¨‹é±¼é›·"
 
-Locale_Text[16480] = "Öñ½Ú³æ´óĞÍÔËÊä²µ´¬ºäÕ¨ĞÍ"    --½¢´¬Ãû³Æship440
-Locale_Text[16481] = "´óÍşÁ¦·´ÎŞÎ·ÓãÀ×»ú£¬Ğ¯´øÒ»·¢»¤ÎÀÍ§´óĞ¡µÄ¿óÓÃ¹¤³ÌÓãÀ×"
 
+Locale_Text[16490] = "æš´é›¨çº§å…‰æŸè½¨é“ç‚®"    --èˆ°èˆ¹åç§°ship441
+Locale_Text[16491] = "èšç„¦å¼å…‰æŸè½¨é“ç‚®,åŒæ—¶æ‹¥æœ‰ä¸åŒçš„æ”»å‡»å§¿æ€"
 
-Locale_Text[16490] = "±©Óê¼¶¹âÊø¹ìµÀÅÚ"    --½¢´¬Ãû³Æship441
-Locale_Text[16491] = "¾Û½¹Ê½¹âÊø¹ìµÀÅÚ,Í¬Ê±ÓµÓĞ²»Í¬µÄ¹¥»÷×ËÌ¬"
 
+Locale_Text[16500] = "é˜”åˆƒMK4å‹æˆ˜åˆ—å·¡æ´‹èˆ°"    --èˆ°èˆ¹åç§°ship442
+Locale_Text[16501] = "æ‹¥æœ‰å…¨é¢æˆ˜æ–—èƒ½åŠ›çš„å¤§å‹æˆ˜åˆ—å·¡æ´‹èˆ°"
 
-Locale_Text[16500] = "À«ÈĞMK4ĞÍÕ½ÁĞÑ²Ñó½¢"    --½¢´¬Ãû³Æship442
-Locale_Text[16501] = "ÓµÓĞÈ«ÃæÕ½¶·ÄÜÁ¦µÄ´óĞÍÕ½ÁĞÑ²Ñó½¢"
 
+Locale_Text[16510] = "å¤§é”®ç´çº§é‡åŠ›äº•æˆ˜åˆ—èˆ°"    --èˆ°èˆ¹åç§°ship443
+Locale_Text[16511] = "æ‹¥æœ‰å¼ºå¤§è‡ªæŒåŠ›ä¸å‹åˆ¶æ€§ç«åŠ›çš„é‡åŠ›åœºå¹³å°æˆ˜èˆ°"
 
-Locale_Text[16510] = "´ó¼üÇÙ¼¶ÖØÁ¦¾®Õ½ÁĞ½¢"    --½¢´¬Ãû³Æship443
-Locale_Text[16511] = "ÓµÓĞÇ¿´ó×Ô³ÖÁ¦ÓëÑ¹ÖÆĞÔ»ğÁ¦µÄÖØÁ¦³¡Æ½Ì¨Õ½½¢"
+Locale_Text[16520] = "å°é”®ç´çº§é˜²ç©ºæˆ˜åˆ—èˆ°"    --èˆ°èˆ¹åç§°ship444
+Locale_Text[16521] = "æ‹¥æœ‰å¼ºå¤§è‡ªæŒåŠ›ä¸å‹åˆ¶æ€§ç«åŠ›çš„é‡åŠ›åœºå¹³å°æˆ˜èˆ°"
 
-Locale_Text[16520] = "Ğ¡¼üÇÙ¼¶·À¿ÕÕ½ÁĞ½¢"    --½¢´¬Ãû³Æship444
-Locale_Text[16521] = "ÓµÓĞÇ¿´ó×Ô³ÖÁ¦ÓëÑ¹ÖÆĞÔ»ğÁ¦µÄÖØÁ¦³¡Æ½Ì¨Õ½½¢"
+Locale_Text[16530] = "è½®å›çº§æ— ç•èˆ°MK2å‹-æ»šé›·"    --èˆ°èˆ¹åç§°ship445
+Locale_Text[16531] = "è£…å¤‡æœ‰3500æ¯«ç±³ç”µç£ç‚®çš„å¤§å‹æ— ç•èˆ°"
 
-Locale_Text[16530] = "ÂÖ»Ø¼¶ÎŞÎ·½¢MK2ĞÍ-¹öÀ×"    --½¢´¬Ãû³Æship445
-Locale_Text[16531] = "×°±¸ÓĞ3500ºÁÃ×µç´ÅÅÚµÄ´óĞÍÎŞÎ·½¢"
+Locale_Text[16540] = "ç»ˆç„‰ä¹‹å¥"    --èˆ°èˆ¹åç§°ship446
+Locale_Text[16541] = "å®šå‘æ¼”åŒ–çš„é«˜çº§é€ ç‰©"
 
-Locale_Text[16540] = "ÖÕÑÉÖ®×à"    --½¢´¬Ãû³Æship446
-Locale_Text[16541] = "¶¨ÏòÑİ»¯µÄ¸ß¼¶ÔìÎï"
+Locale_Text[16550] = "è–„æš®çº§èˆ°é˜Ÿèˆªæ¯"    --èˆ°èˆ¹åç§°ship447
+Locale_Text[16551] = "å¤§å‹é˜²ç©ºèˆ°é˜Ÿèˆªæ¯"
 
-Locale_Text[16550] = "±¡Äº¼¶½¢¶Óº½Ä¸"    --½¢´¬Ãû³Æship447
-Locale_Text[16551] = "´óĞÍ·À¿Õ½¢¶Óº½Ä¸"
+Locale_Text[16560] = "æ™¨è¾‰çº§èˆ°é˜Ÿèˆªæ¯"    --èˆ°èˆ¹åç§°ship448
+Locale_Text[16561] = "å¤§å‹é˜²ç©ºèˆ°é˜Ÿèˆªæ¯"
 
-Locale_Text[16560] = "³¿»Ô¼¶½¢¶Óº½Ä¸"    --½¢´¬Ãû³Æship448
-Locale_Text[16561] = "´óĞÍ·À¿Õ½¢¶Óº½Ä¸"
 
+Locale_Text[16570] = "è¿œè¡Œè€…MK3å‹-éœå…‰"    --èˆ°èˆ¹åç§°ship449
+Locale_Text[16571] = "è¿œè¡Œè€…ç³»åˆ—çš„æœ€æ–°å‹å·,æ‹¥æœ‰åšé‡çš„è£…ç”²å’Œ1400å·¨ç‚®ï¼ŒåŒæ—¶å¼ºåŒ–äº†èˆ°è½½æœºèƒ½åŠ›"
 
-Locale_Text[16570] = "Ô¶ĞĞÕßMK3ĞÍ-Ï¼¹â"    --½¢´¬Ãû³Æship449
-Locale_Text[16571] = "Ô¶ĞĞÕßÏµÁĞµÄ×îĞÂĞÍºÅ,ÓµÓĞºñÖØµÄ×°¼×ºÍ1400¾ŞÅÚ£¬Í¬Ê±Ç¿»¯ÁË½¢ÔØ»úÄÜÁ¦"
+Locale_Text[16580] = "è‹åŸçº§å¯¼å¼¹è¢­å‡»èˆ°"    --èˆ°èˆ¹åç§°ship450
+Locale_Text[16581] = "è£…å¤‡äº†4åº§é‡å‹æ”»åŸå¯¼å¼¹å‘å°„å™¨çš„é«˜é€Ÿè¢­å‡»èˆ°"
 
-Locale_Text[16580] = "²Ô³Ç¼¶µ¼µ¯Ï®»÷½¢"    --½¢´¬Ãû³Æship450
-Locale_Text[16581] = "×°±¸ÁË4×ùÖØĞÍ¹¥³Çµ¼µ¯·¢ÉäÆ÷µÄ¸ßËÙÏ®»÷½¢"
+Locale_Text[16590] = "é£å…‰çº§è¢­å‡»èˆ°"    --èˆ°èˆ¹åç§°ship451
+Locale_Text[16591] = "è£…å¤‡äº†é•¿ç¨‹å…‰æŸç‚®çš„é«˜é€Ÿè¢­å‡»èˆ°"
 
-Locale_Text[16590] = "·É¹â¼¶Ï®»÷½¢"    --½¢´¬Ãû³Æship451
-Locale_Text[16591] = "×°±¸ÁË³¤³Ì¹âÊøÅÚµÄ¸ßËÙÏ®»÷½¢"
+Locale_Text[16600] = "æœåœ£è€…å…­ä¸‰å‹å·¥ç¨‹èˆ¹"    --èˆ°èˆ¹åç§°ship452
+Locale_Text[16601] = "æœåœ£è€…çš„é‡äº§å·¥ç¨‹èˆ¹"
 
-Locale_Text[16600] = "³¯Ê¥ÕßÁùÈıĞÍ¹¤³Ì´¬"    --½¢´¬Ãû³Æship452
-Locale_Text[16601] = "³¯Ê¥ÕßµÄÁ¿²ú¹¤³Ì´¬"
+Locale_Text[16610] = "å¡å„æ–¯E-BIG7-Né‡äº§æˆ˜åˆ—èˆ°"    --èˆ°èˆ¹åç§°ship453
+Locale_Text[16611] = "æœ¬èˆ°æ˜¯åœ¨é’ˆå¯¹å¡å„æ–¯è”ç›Ÿæ‹¥æœ‰å¤§é‡å¤§å‹ç²¾é”èˆ°èˆ¹ï¼Œä½†ç¼ºå°‘ä¸€å‹æ–°å‹é‡äº§æˆ˜åˆ—èˆ°çš„æƒ…å†µä¸‹ï¼Œç”±ç½—å¾·æ²¹é£Ÿç”¨æ²¹æœ‰é™å…¬å¸ç‰µå¤´è¿›è¡Œçš„æ¬¡æ—¶ä»£æˆ˜åˆ—èˆ°å¼€å‘è®¡åˆ’çš„äº§ç‰©ã€‚è¯¥èˆ°å¤§é‡å‚è€ƒäº†æ­¤å‰å¤§æ‰¹æ–°å‹å¤§å‹ç²¾é”èˆ°èˆ¹çš„æ•°æ®æŠ€æœ¯ï¼Œç»¼åˆè€ƒé‡äº†æˆæœ¬å’Œæ€§èƒ½æ¥è®¾è®¡ç”Ÿäº§"
 
-Locale_Text[16610] = "¿¨¶òË¹E-BIG7-NÁ¿²úÕ½ÁĞ½¢"    --½¢´¬Ãû³Æship453
-Locale_Text[16611] = "±¾½¢ÊÇÔÚÕë¶Ô¿¨¶òË¹ÁªÃËÓµÓĞ´óÁ¿´óĞÍ¾«Èñ½¢´¬£¬µ«È±ÉÙÒ»ĞÍĞÂĞÍÁ¿²úÕ½ÁĞ½¢µÄÇé¿öÏÂ£¬ÓÉÂŞµÂÓÍÊ³ÓÃÓÍÓĞÏŞ¹«Ë¾Ç£Í·½øĞĞµÄ´ÎÊ±´úÕ½ÁĞ½¢¿ª·¢¼Æ»®µÄ²úÎï¡£¸Ã½¢´óÁ¿²Î¿¼ÁË´ËÇ°´óÅúĞÂĞÍ´óĞÍ¾«Èñ½¢´¬µÄÊı¾İ¼¼Êõ£¬×ÛºÏ¿¼Á¿ÁË³É±¾ºÍĞÔÄÜÀ´Éè¼ÆÉú²ú"
+Locale_Text[16620] = "å¡å„æ–¯E-BIG7-Rç²¾è‹±æˆ˜åˆ—èˆ°"    --èˆ°èˆ¹åç§°ship454
+Locale_Text[16621] = "Nå‹çš„ç»¼åˆå¢å¼ºå‹å·ï¼Œå…¨é¢å¢å¼ºäº†ç«åŠ›æœºåŠ¨é˜²æŠ¤ä¸‰å¤§æŒ‡æ ‡ï¼Œä¸€èˆ¬ä½œä¸ºèˆ°é˜Ÿæ——èˆ°æˆ–ç§äººè®¢åˆ¶æ¬¾æ¥ä½¿ç”¨ã€‚"
 
-Locale_Text[16620] = "¿¨¶òË¹E-BIG7-R¾«Ó¢Õ½ÁĞ½¢"    --½¢´¬Ãû³Æship454
-Locale_Text[16621] = "NĞÍµÄ×ÛºÏÔöÇ¿ĞÍºÅ£¬È«ÃæÔöÇ¿ÁË»ğÁ¦»ú¶¯·À»¤Èı´óÖ¸±ê£¬Ò»°ã×÷Îª½¢¶ÓÆì½¢»òË½ÈË¶©ÖÆ¿îÀ´Ê¹ÓÃ¡£"
+Locale_Text[16630] = "çº¢å…”å­ç½—å¾·æ²¹å·ç‰¹è£…æˆ˜åˆ—èˆ°"    --èˆ°èˆ¹åç§°ship455
+Locale_Text[16631] = "ç½—å¾·æ²¹é£Ÿç”¨æ²¹æœ‰é™å…¬å¸æ€»æ——èˆ°,å…¬å¸ç‰¹åˆ«å®šåˆ¶çš„ç‰ˆæœ¬ï¼Œå¢åŠ äº†æ“æ§å¤§å‹ç«åŠ›å¹³å°çš„èƒ½åŠ›"
 
-Locale_Text[16630] = "ºìÍÃ×ÓÂŞµÂÓÍºÅÌØ×°Õ½ÁĞ½¢"    --½¢´¬Ãû³Æship455
-Locale_Text[16631] = "ÂŞµÂÓÍÊ³ÓÃÓÍÓĞÏŞ¹«Ë¾×ÜÆì½¢,¹«Ë¾ÌØ±ğ¶¨ÖÆµÄ°æ±¾£¬Ôö¼ÓÁË²Ù¿Ø´óĞÍ»ğÁ¦Æ½Ì¨µÄÄÜÁ¦"
+Locale_Text[16640] = "æªå°½èŒå®ˆçº§å¤§å‹ç«åŠ›å¹³å°"    --èˆ°èˆ¹åç§°ship456
+Locale_Text[16641] = "ä¸ºäº†å¢å¼ºçº¢å…”å­ç½—å¾·æ²¹å·çš„åæ——èˆ°ç«åŠ›ï¼Œå¢åŠ å®šåˆ¶çš„å¤§å‹ç«åŠ›å¹³å°ï¼Œæœ¬è´¨ä¸Šæ˜¯å›´ç»•ä¸€åº§æ——èˆ°çº§å…‰æŸå‘å°„å™¨ï¼Œé€ äº†ä¸€è‰˜èˆ¹ã€‚ "
 
-Locale_Text[16640] = "ã¡¾¡Ö°ÊØ¼¶´óĞÍ»ğÁ¦Æ½Ì¨"    --½¢´¬Ãû³Æship456
-Locale_Text[16641] = "ÎªÁËÔöÇ¿ºìÍÃ×ÓÂŞµÂÓÍºÅµÄ·´Æì½¢»ğÁ¦£¬Ôö¼Ó¶¨ÖÆµÄ´óĞÍ»ğÁ¦Æ½Ì¨£¬±¾ÖÊÉÏÊÇÎ§ÈÆÒ»×ùÆì½¢¼¶¹âÊø·¢ÉäÆ÷£¬ÔìÁËÒ»ËÒ´¬¡£ "
+Locale_Text[16650] = "æ”¯ç‚¹çº§ä¸­å‹æˆ˜æœ¯èˆ°-å¤šç”¨é€”è£…ç”²å‹"    --èˆ°èˆ¹åç§°ship457
+Locale_Text[16651] = "æµ·æ‹‰ç±³å°”é›†å›¢ä¸‹å±èŠ¬é‡Œå°”å…¬å¸è®¾è®¡çš„æ–°å‹å¤šç”¨é€”æˆ˜æœ¯èˆ°"
 
-Locale_Text[16650] = "Ö§µã¼¶ÖĞĞÍÕ½Êõ½¢-¶àÓÃÍ¾×°¼×ĞÍ"    --½¢´¬Ãû³Æship457
-Locale_Text[16651] = "º£À­Ã×¶û¼¯ÍÅÏÂÊô·ÒÀï¶û¹«Ë¾Éè¼ÆµÄĞÂĞÍ¶àÓÃÍ¾Õ½Êõ½¢"
+Locale_Text[16660] = "é“çƒå·¥ç¨‹è‰‡"    --èˆ°èˆ¹åç§°ship458
+Locale_Text[16661] = "å°å‹èˆ°è½½å·¥ç¨‹è‰‡"
 
-Locale_Text[16660] = "ÌúÇò¹¤³ÌÍ§"    --½¢´¬Ãû³Æship458
-Locale_Text[16661] = "Ğ¡ĞÍ½¢ÔØ¹¤³ÌÍ§"
+Locale_Text[16670] = "é“çƒæ— äººæˆ˜æ–—è‰‡å°é˜Ÿ"    --èˆ°èˆ¹åç§°ship459
+Locale_Text[16671] = "è¡ç”Ÿå°å‹å‹æˆ˜æ–—æ— äººè‰‡ç¼–é˜Ÿ"
 
-Locale_Text[16670] = "ÌúÇòÎŞÈËÕ½¶·Í§Ğ¡¶Ó"    --½¢´¬Ãû³Æship459
-Locale_Text[16671] = "ÑÜÉúĞ¡ĞÍĞÍÕ½¶·ÎŞÈËÍ§±à¶Ó"
+Locale_Text[16680] = "é“æ¡¶æ— äººå·¥ç¨‹æœº"    --èˆ°èˆ¹åç§°ship460
+Locale_Text[16681] = "é“æ¡¶æ— äººæœºå°é˜Ÿ"
 
-Locale_Text[16680] = "ÌúÍ°ÎŞÈË¹¤³Ì»ú"    --½¢´¬Ãû³Æship460
-Locale_Text[16681] = "ÌúÍ°ÎŞÈË»úĞ¡¶Ó"
+Locale_Text[16690] = "é“æ¡¶æ— äººæœºå°é˜Ÿ"    --èˆ°èˆ¹åç§°ship461
+Locale_Text[16691] = "è¡ç”Ÿå°å‹æˆ˜æ–—æ— äººè‰‡ç¼–é˜Ÿ"
 
-Locale_Text[16690] = "ÌúÍ°ÎŞÈË»úĞ¡¶Ó"    --½¢´¬Ãû³Æship461
-Locale_Text[16691] = "ÑÜÉúĞ¡ĞÍÕ½¶·ÎŞÈËÍ§±à¶Ó"
+Locale_Text[16700] = "è´Ÿé¼ ç²¾ç‚¼èˆ¹"    --èˆ°èˆ¹åç§°ship462
+Locale_Text[16701] = "ç»è¿‡é˜²ç©ºæ”¹è£…çš„ç²¾ç‚¼èˆ¹"
 
-Locale_Text[16700] = "¸ºÊó¾«Á¶´¬"    --½¢´¬Ãû³Æship462
-Locale_Text[16701] = "¾­¹ı·À¿Õ¸Ä×°µÄ¾«Á¶´¬"
+Locale_Text[16710] = "å¸•å°”ä¿®æ–¯å·æˆ˜ç•¥ç«åŠ›åŸºåœ°èˆ°"    --èˆ°èˆ¹åç§°ship463
+Locale_Text[16711] = "å¨ä¸¥çš„è¶…çº§å·¨èˆ°ï¼Œé•¿è·ç¦»ç«åŠ›å·…å³°ä¹‹ä½œ"
 
-Locale_Text[16710] = "ÅÁ¶ûĞŞË¹ºÅÕ½ÂÔ»ğÁ¦»ùµØ½¢"    --½¢´¬Ãû³Æship463
-Locale_Text[16711] = "ÍşÑÏµÄ³¬¼¶¾Ş½¢£¬³¤¾àÀë»ğÁ¦áÛ·åÖ®×÷"
+Locale_Text[16720] = "çŒå…µ-LM ç°ä»£åŒ–æ–¹æ¡ˆ"    --èˆ°èˆ¹åç§°ship464
+Locale_Text[16721] = "è¿›è¡Œç°ä»£åŒ–çš„æ”¹è£…çŒå…µçº§"
 
-Locale_Text[16720] = "ÁÔ±ø-LM ÏÖ´ú»¯·½°¸"    --½¢´¬Ãû³Æship464
-Locale_Text[16721] = "½øĞĞÏÖ´ú»¯µÄ¸Ä×°ÁÔ±ø¼¶"
+Locale_Text[16730] = "AN-1Kå‹é‡å‹æˆ˜æ–—æœº"    --èˆ°èˆ¹åç§°ship465
+Locale_Text[16731] = "è¿™æ˜¯ä¸€æ¬¾æš—åŒºå¤§è§„æ¨¡æŠ•å…¥çš„åˆ¶å¼æˆ˜æ–—æœºï¼Œä»¥ä½æˆæœ¬å’Œé«˜æ•ˆç‡çš„ç”Ÿäº§é€Ÿåº¦è‘—ç§°"
 
-Locale_Text[16730] = "AN-1KĞÍÖØĞÍÕ½¶·»ú"    --½¢´¬Ãû³Æship465
-Locale_Text[16731] = "ÕâÊÇÒ»¿î°µÇø´ó¹æÄ£Í¶ÈëµÄÖÆÊ½Õ½¶·»ú£¬ÒÔµÍ³É±¾ºÍ¸ßĞ§ÂÊµÄÉú²úËÙ¶ÈÖø³Æ"
+Locale_Text[16740] = "å…ˆé”‹MK2çº§è½»å‹èˆªæ¯"    --èˆ°èˆ¹åç§°ship466
+Locale_Text[16741] = "è½»å‹ä¾¦æŸ¥èˆªæ¯,å¯ä»¥æºå¸¦å°‘é‡èˆ°è½½æœºæ”¯æ´æˆ˜æ–—"
 
-Locale_Text[16740] = "ÏÈ·æMK2¼¶ÇáĞÍº½Ä¸"    --½¢´¬Ãû³Æship466
-Locale_Text[16741] = "ÇáĞÍÕì²éº½Ä¸,¿ÉÒÔĞ¯´øÉÙÁ¿½¢ÔØ»úÖ§Ô®Õ½¶·"
+Locale_Text[16750] = "ç»šä¸½æ·±æ¸Šçº§æ— ç•èˆ°"    --èˆ°èˆ¹åç§°ship467
+Locale_Text[16751] = "ç»šä¸½æ·±æ¸Šï¼Œå½“ä½ æ³¨è§†æ·±æ¸Šï¼Œæ·±æ¸Šå¯èƒ½ä¼šæŠŠä½ å˜æˆå°é¾™è™¾(è®¾å®šä¸Š)æˆ–è€…å¤§çƒŸèŠ±(æ¸¸æˆé‡Œ)"
 
-Locale_Text[16750] = "Ñ¤ÀöÉîÔ¨¼¶ÎŞÎ·½¢"    --½¢´¬Ãû³Æship467
-Locale_Text[16751] = "Ñ¤ÀöÉîÔ¨£¬µ±Äã×¢ÊÓÉîÔ¨£¬ÉîÔ¨¿ÉÄÜ»á°ÑÄã±ä³ÉĞ¡ÁúÏº(Éè¶¨ÉÏ)»òÕß´óÑÌ»¨(ÓÎÏ·Àï)"
+Locale_Text[16760] = "ç‹¬è§’å…½çº§å·¡æ´‹èˆ°å¯¼å¼¹å‹"    --èˆ°èˆ¹åç§°ship468
+Locale_Text[16761] = "å‘å°„é‡å‹åæ——èˆ°å¯¼å¼¹çš„å¤§å‹å·¡æ´‹èˆ°"
 
-Locale_Text[16760] = "¶À½ÇÊŞ¼¶Ñ²Ñó½¢µ¼µ¯ĞÍ"    --½¢´¬Ãû³Æship468
-Locale_Text[16761] = "·¢ÉäÖØĞÍ·´Æì½¢µ¼µ¯µÄ´óĞÍÑ²Ñó½¢"
+Locale_Text[16770] = "æ”¯ç‚¹çº§å¤šç”¨é€”å¯¼å¼¹èˆªæ¯æ³°ç“¦ä¼¦å‹"    --èˆ°èˆ¹åç§°ship469
+Locale_Text[16771] = "å¤§å‹å¯¼å¼¹èˆªæ¯,æ‹¥æœ‰å¯¼å¼¹æ”»å‡»èƒ½åŠ›å’Œéƒ¨ç½²èˆ°è½½æœºèƒ½åŠ›"
 
-Locale_Text[16770] = "Ö§µã¼¶¶àÓÃÍ¾µ¼µ¯º½Ä¸Ì©ÍßÂ×ĞÍ"    --½¢´¬Ãû³Æship469
-Locale_Text[16771] = "´óĞÍµ¼µ¯º½Ä¸,ÓµÓĞµ¼µ¯¹¥»÷ÄÜÁ¦ºÍ²¿Êğ½¢ÔØ»úÄÜÁ¦"
+Locale_Text[16780] = "å½—æ˜Ÿçº§é‡ç‚®è‰‡è²å°¼å…‹æ–¯å·"    --èˆ°èˆ¹åç§°ship470
+Locale_Text[16781] = "å½—æ˜Ÿçº§å¤šç”¨é€”åŒ–æ”¹é€ å‹ï¼Œå¯å¯¹æŠ—å¤šç§ç›®æ ‡"
 
-Locale_Text[16780] = "åçĞÇ¼¶ÖØÅÚÍ§·ÆÄá¿ËË¹ºÅ"    --½¢´¬Ãû³Æship470
-Locale_Text[16781] = "åçĞÇ¼¶¶àÓÃÍ¾»¯¸ÄÔìĞÍ£¬¿É¶Ô¿¹¶àÖÖÄ¿±ê"
+Locale_Text[16790] = "å½—æ˜Ÿçº§é‡ç‚®è‰‡"    --èˆ°èˆ¹åç§°ship471
+Locale_Text[16791] = "è”ç›Ÿè½»å‹æŠ¤å«èˆ°è®¡åˆ’åˆ¶å¼äº§å“ï¼Œä¸“ç²¾å¯¹æŠ—é‡å‹æˆ˜æœº"
 
-Locale_Text[16790] = "åçĞÇ¼¶ÖØÅÚÍ§"    --½¢´¬Ãû³Æship471
-Locale_Text[16791] = "ÁªÃËÇáĞÍ»¤ÎÀ½¢¼Æ»®ÖÆÊ½²úÆ·£¬×¨¾«¶Ô¿¹ÖØĞÍÕ½»ú"
+Locale_Text[16800] = "å¹»è±¡IIIå‡°é‚"    --èˆ°èˆ¹åç§°ship472
+Locale_Text[16801] = "å¹»è±¡3å‹\nå…±é¸£è€…å…µè£… é‡éª‘å¼æ ·"
 
-Locale_Text[16800] = "»ÃÏóIII»ËËì"    --½¢´¬Ãû³Æship472
-Locale_Text[16801] = "»ÃÏó3ĞÍ\n¹²ÃùÕß±ø×° ÖØÆïÊ½Ñù"
+Locale_Text[16810] = "å¹»è±¡XIIç¥æ„"    --èˆ°èˆ¹åç§°ship473
+Locale_Text[16811] = "å¹»è±¡12å‹\næ˜Ÿé—ªç‚®å…µè£…"
 
-Locale_Text[16810] = "»ÃÏóXIIÉñÒâ"    --½¢´¬Ãû³Æship473
-Locale_Text[16811] = "»ÃÏó12ĞÍ\nĞÇÉÁÅÚ±ø×°"
+Locale_Text[16820] = "æ±¤åœ†çº§æ— äººæœº"    --èˆ°èˆ¹åç§°ship474
+Locale_Text[16821] = "ä»¥å»‰ä»·ï¼Œæ˜“ç”Ÿäº§ï¼Œä¸ºç›®æ ‡å¼€å‘çš„æ— äººæœºï¼Œå•æœºæˆ˜æ–—åŠ›å¾ˆå¼±ï¼Œä¸»è¦é æ•°é‡ä¼˜åŠ¿"
 
-Locale_Text[16820] = "ÌÀÔ²¼¶ÎŞÈË»ú"    --½¢´¬Ãû³Æship474
-Locale_Text[16821] = "ÒÔÁ®¼Û£¬Ò×Éú²ú£¬ÎªÄ¿±ê¿ª·¢µÄÎŞÈË»ú£¬µ¥»úÕ½¶·Á¦ºÜÈõ£¬Ö÷Òª¿¿ÊıÁ¿ÓÅÊÆ"
+Locale_Text[16830] = "æ±¤åœ†Tçº§ç²¾è‹±æˆ˜æ–—æœº"    --èˆ°èˆ¹åç§°ship475
+Locale_Text[16831] = "ä¸ºäº†å¼¥è¡¥çƒ‚æ±¤åœ†æ— äººæœºçš„æˆ˜æ–—åŠ›ç¼ºé™·ï¼Œç‰¹æ„å¼€å‘çš„é‡å‹åŒåº§æ˜Ÿé™…æˆ˜æ–—æœºï¼ŒåŒæ—¶æ¥å…¥äº†ç”Ÿç‰©ç¥ç»ç½‘ç»œè£…ç½®è®©æ“ä½œæ‰‹å¯ä»¥è„‘æ§æ— äººæœºä½œæˆ˜"
 
-Locale_Text[16830] = "ÌÀÔ²T¼¶¾«Ó¢Õ½¶·»ú"    --½¢´¬Ãû³Æship475
-Locale_Text[16831] = "ÎªÁËÃÖ²¹ÀÃÌÀÔ²ÎŞÈË»úµÄÕ½¶·Á¦È±Ïİ£¬ÌØÒâ¿ª·¢µÄÖØĞÍË«×ùĞÇ¼ÊÕ½¶·»ú£¬Í¬Ê±½ÓÈëÁËÉúÎïÉñ¾­ÍøÂç×°ÖÃÈÃ²Ù×÷ÊÖ¿ÉÒÔÄÔ¿ØÎŞÈË»ú×÷Õ½"
+Locale_Text[16840] = "æ±¤åœ†Tçº§ç²¾è‹±è½°ç‚¸æœº"    --èˆ°èˆ¹åç§°ship476
+Locale_Text[16841] = "é’ˆå¯¹åèˆ°å’Œå¯¹åœ°è½°ç‚¸çš„éœ€æ±‚ï¼Œå°†æ“ä½œæ‰‹ä½ç½®å’Œç¥ç»ç½‘ç»œé“¾æ¥è£…ç½®æ‹†é™¤ï¼Œæ”¹ä¸ºå¼¹ä»“"
 
-Locale_Text[16840] = "ÌÀÔ²T¼¶¾«Ó¢ºäÕ¨»ú"    --½¢´¬Ãû³Æship476
-Locale_Text[16841] = "Õë¶Ô·´½¢ºÍ¶ÔµØºäÕ¨µÄĞèÇó£¬½«²Ù×÷ÊÖÎ»ÖÃºÍÉñ¾­ÍøÂçÁ´½Ó×°ÖÃ²ğ³ı£¬¸ÄÎªµ¯²Ö"
+Locale_Text[16850] = "ç–¾é£çº§æˆ˜åˆ—èˆ°"    --èˆ°èˆ¹åç§°ship477
+Locale_Text[16851] = "ä¸å½’ä¹¡è€…å†›äº‹åˆä½œçš„äº§ç‰©ï¼Œæ­è½½åŒè”è£…é«˜ç²¾åº¦é•¿ç¨‹å…‰çŸ›"
 
-Locale_Text[16850] = "¼²·ç¼¶Õ½ÁĞ½¢"    --½¢´¬Ãû³Æship477
-Locale_Text[16851] = "Óë¹éÏçÕß¾üÊÂºÏ×÷µÄ²úÎï£¬´îÔØË«Áª×°¸ß¾«¶È³¤³Ì¹âÃ¬"
+Locale_Text[16860] = "ç–¾é£çº§æˆ˜èˆ°-è¿½çŒè€…"    --èˆ°èˆ¹åç§°ship478
+Locale_Text[16861] = "å½’ä¹¡è€…æ–°å¼€å‘çš„å¤§å‹æˆ˜åˆ—èˆ°ï¼Œæ‹¥æœ‰ä¸é”™çš„é˜²ç©ºç«åŠ›"
 
-Locale_Text[16860] = "¼²·ç¼¶Õ½½¢-×·ÁÔÕß"    --½¢´¬Ãû³Æship478
-Locale_Text[16861] = "¹éÏçÕßĞÂ¿ª·¢µÄ´óĞÍÕ½ÁĞ½¢£¬ÓµÓĞ²»´íµÄ·À¿Õ»ğÁ¦"
+Locale_Text[16870] = "ç–¾é£é˜²å¾¡å‹-ç£å²©çº§"    --èˆ°èˆ¹åç§°ship479
+Locale_Text[16871] = "é…å¤‡äº†ä¸´æ—¶åŠ è£…æ©ä½“çš„ç–¾é£çº§é«˜é€Ÿæˆ˜èˆ°"
 
-Locale_Text[16870] = "¼²·ç·ÀÓùĞÍ-ÅÍÑÒ¼¶"    --½¢´¬Ãû³Æship479
-Locale_Text[16871] = "Åä±¸ÁËÁÙÊ±¼Ó×°ÑÚÌåµÄ¼²·ç¼¶¸ßËÙÕ½½¢"
+Locale_Text[16880] = "é­”å¥³çº§æˆ˜æ–—è¿è½½èˆ°"    --èˆ°èˆ¹åç§°ship480
+Locale_Text[16881] = "é˜¿å› ç‰¹æ–¯ä¸‰çº§æˆ˜æœ¯åˆ†é˜ŸæŒ‡æŒ¥èˆ°ï¼Œæ‹¥æœ‰ä¸€å®šæˆ˜æ–—åŠ›çš„è¿è½½èˆ°"
 
-Locale_Text[16880] = "Ä§Å®¼¶Õ½¶·ÔËÔØ½¢"    --½¢´¬Ãû³Æship480
-Locale_Text[16881] = "°¢ÒòÌØË¹Èı¼¶Õ½Êõ·Ö¶ÓÖ¸»Ó½¢£¬ÓµÓĞÒ»¶¨Õ½¶·Á¦µÄÔËÔØ½¢"
+Locale_Text[16890] = "å¥³å·«çº§é‡å‹èˆ°é˜Ÿèˆªæ¯"    --èˆ°èˆ¹åç§°ship481
+Locale_Text[16891] = "è²é›…åˆ©å¸å›½ä¸­å‹èˆ°é˜ŸæŒ‡æŒ¥èˆ°ï¼Œæ›´ä¾§é‡è¿è½½å’ŒæŒ‡æŒ¥èƒ½åŠ›çš„æˆ˜æ–—è¿è½½èˆ°ã€‚"
 
-Locale_Text[16890] = "Å®Î×¼¶ÖØĞÍ½¢¶Óº½Ä¸"    --½¢´¬Ãû³Æship481
-Locale_Text[16891] = "·ÆÑÅÀûµÛ¹úÖĞĞÍ½¢¶ÓÖ¸»Ó½¢£¬¸ü²àÖØÔËÔØºÍÖ¸»ÓÄÜÁ¦µÄÕ½¶·ÔËÔØ½¢¡£"
+Locale_Text[16900] = "æ¸¸é­‚çº§æˆ˜åˆ—è¿è½½èˆ°"    --èˆ°èˆ¹åç§°ship482
+Locale_Text[16901] = "CPSRå…¬å¸çš„å±é™©åŒºåŸŸæ¢é™©ç»¼åˆèˆ¹"
 
-Locale_Text[16900] = "ÓÎ»ê¼¶Õ½ÁĞÔËÔØ½¢"    --½¢´¬Ãû³Æship482
-Locale_Text[16901] = "CPSR¹«Ë¾µÄÎ£ÏÕÇøÓòÌ½ÏÕ×ÛºÏ´¬"
+Locale_Text[16910] = "å¹½é­‚çº§æ ‡å‡†æ˜ŸåŸŸé˜²å¾¡æˆ˜åˆ—èˆ°"    --èˆ°èˆ¹åç§°ship483
+Locale_Text[16911] = "CPSRç ”ç©¶é™¢æ¨å‡ºçš„è¡€åˆƒæ”¹å‹é‡äº§æˆ˜åˆ—èˆ°"
 
-Locale_Text[16910] = "ÓÄ»ê¼¶±ê×¼ĞÇÓò·ÀÓùÕ½ÁĞ½¢"    --½¢´¬Ãû³Æship483
-Locale_Text[16911] = "CPSRÑĞ¾¿ÔºÍÆ³öµÄÑªÈĞ¸ÄĞÍÁ¿²úÕ½ÁĞ½¢"
 
+Locale_Text[16920] = "è£å…‰è”åˆçº§æ— ç•èˆ°"    --èˆ°èˆ¹åç§°ship484
+Locale_Text[16921] = "åä¸ºæ—¶é—´ä¹‹èˆŸ.åˆƒæµ·.æ¸¸æ˜Ÿé»‘é¾™.æœ”å¤œç…Œæ˜Ÿ.ç„šç„°ç­é›¨ï¼Œç®€ç§°:è£å…‰è”åˆã€‚å…­å¹´å¦‚ç¬ï¼Œè”åˆæ°¸è®°ï¼›è†æ£˜ä¹‹é€”ï¼Œç»ˆæŠµç¹æ˜Ÿï¼›è”åˆç‰¢ä¸å¯ç ´ï¼"
 
-Locale_Text[16920] = "ÈÙ¹âÁªºÏ¼¶ÎŞÎ·½¢"    --½¢´¬Ãû³Æship484
-Locale_Text[16921] = "ÃûÎªÊ±¼äÖ®ÖÛ.ÈĞº£.ÓÎĞÇºÚÁú.Ë·Ò¹»ÍĞÇ.·ÙÑæÃğÓê£¬¼ò³Æ:ÈÙ¹âÁªºÏ¡£ÁùÄêÈçË²£¬ÁªºÏÓÀ¼Ç£»¾£¼¬Ö®Í¾£¬ÖÕµÖ·±ĞÇ£»ÁªºÏÀÎ²»¿ÉÆÆ£¡"
+Locale_Text[16930] = "ç¥å‰‘å‹‡è€…å·æ— ç•èˆ°"    --èˆ°èˆ¹åç§°ship485
+Locale_Text[16931] = "å®ˆæŠ¤ä¹‹ç›¾ï¼Œå‹‡æ°”ä¹‹å‰‘ï¼Œå¸Œæœ›ä¹‹ç¿¼ã€‚ä¸ºå°å‹‡è€…ä»¬çš„å¤§å†’é™©ï¼ŒçŒ®ä¸Šç¹æ˜Ÿçš„ç¥ç¦"
 
-Locale_Text[16930] = "Éñ½£ÓÂÕßºÅÎŞÎ·½¢"    --½¢´¬Ãû³Æship485
-Locale_Text[16931] = "ÊØ»¤Ö®¶Ü£¬ÓÂÆøÖ®½££¬Ï£ÍûÖ®Òí¡£ÎªĞ¡ÓÂÕßÃÇµÄ´óÃ°ÏÕ£¬Ï×ÉÏ·±ĞÇµÄ×£¸£"
 
+Locale_Text[16940] = "ç“¦å°”çº§èˆªç©ºæ¯èˆ°"    --èˆ°èˆ¹åç§°ship486
+Locale_Text[16941] = "ç½—å¾·æ²¹åŠ¨åŠ›èˆ¹åæ­£å¼è½¬å‹åçš„é¦–ä¸ªä½œå“ï¼Œå¤§å‹æ¯èˆ°æ­è½½èˆ°è½½æœºä¸ºèˆ°é˜Ÿæ’‘èµ·é˜²ç©ºç½‘"
 
-Locale_Text[16940] = "Íß¶û¼¶º½¿ÕÄ¸½¢"    --½¢´¬Ãû³Æship486
-Locale_Text[16941] = "ÂŞµÂÓÍ¶¯Á¦´¬ÎëÕıÊ½×ªĞÍºóµÄÊ×¸ö×÷Æ·£¬´óĞÍÄ¸½¢´îÔØ½¢ÔØ»úÎª½¢¶Ó³ÅÆğ·À¿ÕÍø"
+Locale_Text[16950] = "ç“¦å°”é‡é”¤æ”¹è£…æ— ç•èˆ°"    --èˆ°èˆ¹åç§°ship487
+Locale_Text[16951] = "åœ¨å®Œæˆäº†ç“¦å°”çº§çš„è®¾è®¡åˆ¶é€ åï¼Œå‡ºäºå¯¹åˆ¶é€ å¤§å‹æˆ˜èˆ°çš„ç›®æ ‡åˆ¶é€ çš„é¦–è‰˜æ”¹è£…å‹æ— ç•èˆ°"
 
-Locale_Text[16950] = "Íß¶ûÖØ´¸¸Ä×°ÎŞÎ·½¢"    --½¢´¬Ãû³Æship487
-Locale_Text[16951] = "ÔÚÍê³ÉÁËÍß¶û¼¶µÄÉè¼ÆÖÆÔìºó£¬³öÓÚ¶ÔÖÆÔì´óĞÍÕ½½¢µÄÄ¿±êÖÆÔìµÄÊ×ËÒ¸Ä×°ĞÍÎŞÎ·½¢"
 
+Locale_Text[16960] = "ç„çµçº§æ˜ŸåŒºé˜²å¾¡æ— ç•èˆ°"    --èˆ°èˆ¹åç§°ship488
+Locale_Text[16961] = "CPSRåœ¨è¶…å¤§å‹æˆ˜èˆ°æŠ€æœ¯æ–¹é¢ä»é›¶åˆ°å£¹çš„çªç ´æ€§äº§å“"
 
-Locale_Text[16960] = "ĞşÁé¼¶ĞÇÇø·ÀÓùÎŞÎ·½¢"    --½¢´¬Ãû³Æship488
-Locale_Text[16961] = "CPSRÔÚ³¬´óĞÍÕ½½¢¼¼Êõ·½Ãæ´ÓÁãµ½Ò¼µÄÍ»ÆÆĞÔ²úÆ·"
 
 
+Locale_Text[16970] = "é•¿æªçº§æˆ˜æœ¯é©±é€èˆ°"    --èˆ°èˆ¹åç§°ship489
+Locale_Text[16971] = "èˆ°é˜Ÿå¤šåŠŸèƒ½å±å«èˆ°"
 
-Locale_Text[16970] = "³¤Ç¹¼¶Õ½ÊõÇıÖğ½¢"    --½¢´¬Ãû³Æship489
-Locale_Text[16971] = "½¢¶Ó¶à¹¦ÄÜÆÁÎÀ½¢"
+Locale_Text[16980] = "é™¨æ˜Ÿçº§æˆ˜åˆ—é©±é€èˆ°"    --èˆ°èˆ¹åç§°ship490
+Locale_Text[16981] = "æ€äººè¶Šè´§ã€è¿‘åœ°æ”¯æ´ã€è½¨é“è½°ç‚¸ã€æˆ˜åˆ—å¯¹çº¿"
 
-Locale_Text[16980] = "ÔÉĞÇ¼¶Õ½ÁĞÇıÖğ½¢"    --½¢´¬Ãû³Æship490
-Locale_Text[16981] = "É±ÈËÔ½»õ¡¢½üµØÖ§Ô®¡¢¹ìµÀºäÕ¨¡¢Õ½ÁĞ¶ÔÏß"
+Locale_Text[16990] = "é›¶ç‚¹LS10YGCé¥ä¿®æ”¯æ´èˆ°"    --èˆ°èˆ¹åç§°ship491
+Locale_Text[16991] = "ç»´ä¿®å‹æ–¹å•ä½"
 
-Locale_Text[16990] = "ÁãµãLS10YGCÒ£ĞŞÖ§Ô®½¢"    --½¢´¬Ãû³Æship491
-Locale_Text[16991] = "Î¬ĞŞÓÑ·½µ¥Î»"
+Locale_Text[17000] = "çœŸé“¶ä¹‹é”‹"    --èˆ°èˆ¹åç§°ship492
+Locale_Text[17001] = "ä¸»åŠ›èˆ°çº§å‰å«èˆ°"
 
-Locale_Text[17000] = "ÕæÒøÖ®·æ"    --½¢´¬Ãû³Æship492
-Locale_Text[17001] = "Ö÷Á¦½¢¼¶Ç°ÎÀ½¢"
+Locale_Text[17010] = "é›·é›¨çº§çªå‡»èˆ°"    --èˆ°èˆ¹åç§°ship493
+Locale_Text[17011] = "å¤šç”¨é€”çªå‡»èˆ°"
 
-Locale_Text[17010] = "À×Óê¼¶Í»»÷½¢"    --½¢´¬Ãû³Æship493
-Locale_Text[17011] = "¶àÓÃÍ¾Í»»÷½¢"
 
+Locale_Text[17020] = "è¶…çº§å…µèœ‚æˆ˜æ–—æ— äººæœº"    --èˆ°èˆ¹åç§°ship494
+Locale_Text[17021] = "å…µèœ‚?Ultra ?Pro ?Max ?Plus"
 
-Locale_Text[17020] = "³¬¼¶±ø·äÕ½¶·ÎŞÈË»ú"    --½¢´¬Ãû³Æship494
-Locale_Text[17021] = "±ø·ä?Ultra ?Pro ?Max ?Plus"
+Locale_Text[17030] = "ç‹‚èœ‚è½°ç‚¸æ— äººæœº"    --èˆ°èˆ¹åç§°ship495
+Locale_Text[17031] = "å½“ä½ å‘ç°ç‹‚èœ‚ï¼Œä½ å¯èƒ½å·²ç»è¢«åŒ…å›´äº†"
 
-Locale_Text[17030] = "¿ñ·äºäÕ¨ÎŞÈË»ú"    --½¢´¬Ãû³Æship495
-Locale_Text[17031] = "µ±Äã·¢ÏÖ¿ñ·ä£¬Äã¿ÉÄÜÒÑ¾­±»°üÎ§ÁË"
+Locale_Text[17040] = "å¤§é“ç›’å‰çº¿æ”¯æ´æœº"    --èˆ°èˆ¹åç§°ship496
+Locale_Text[17041] = "é£è¡Œå‘˜çš„æ•‘èµ"
 
-Locale_Text[17040] = "´óÌúºĞÇ°ÏßÖ§Ô®»ú"    --½¢´¬Ãû³Æship496
-Locale_Text[17041] = "·ÉĞĞÔ±µÄ¾ÈÊê"
+Locale_Text[17050] = "æ³¢é“äºšæˆ˜æœºçº§çªå‡»å…µè£…"    --èˆ°èˆ¹åç§°ship497
+Locale_Text[17051] = "75è‡ªåŠ¨ç‚®å¯èƒ½æ˜¯ä¸ªæŸç¼šå™¨"
 
-Locale_Text[17050] = "²¨ÌúÑÇÕ½»ú¼¶Í»»÷±ø×°"    --½¢´¬Ãû³Æship497
-Locale_Text[17051] = "75×Ô¶¯ÅÚ¿ÉÄÜÊÇ¸öÊø¸¿Æ÷"
+Locale_Text[17060] = "æ³¢é“äºšæˆ˜èˆ°çº§è¿è½½èˆ°è£…"    --èˆ°èˆ¹åç§°ship498
+Locale_Text[17061] = "ä½ è„‘è¡¥ä¸€ä¸‹ç”¨è§¦æ‰‹æ‰”é£æœºä»¥æé«˜èµ·é™æ•ˆç‡"
 
-Locale_Text[17060] = "²¨ÌúÑÇÕ½½¢¼¶ÔËÔØ½¢×°"    --½¢´¬Ãû³Æship498
-Locale_Text[17061] = "ÄãÄÔ²¹Ò»ÏÂÓÃ´¥ÊÖÈÓ·É»úÒÔÌá¸ßÆğ½µĞ§ÂÊ"
+Locale_Text[17070] = "å‡°ç«çº§æˆ˜æ–—è½°ç‚¸æœº"    --èˆ°èˆ¹åç§°ship499
+Locale_Text[17071] = "æ‹³æ‰“å¹¼å„¿å›­ï¼Œè„šè¸¢æ•¬è€é™¢ï¼Œæ€äººè¶Šè´§ä¸Šä½³ä¹‹é€‰"
 
-Locale_Text[17070] = "»Ë»ğ¼¶Õ½¶·ºäÕ¨»ú"    --½¢´¬Ãû³Æship499
-Locale_Text[17071] = "È­´òÓ×¶ùÔ°£¬½ÅÌß¾´ÀÏÔº£¬É±ÈËÔ½»õÉÏ¼ÑÖ®Ñ¡"
 
 
+Locale_Text[17080] = "æš®å…‰çº§è½»å‹æˆ˜åˆ—èˆ°"    --èˆ°èˆ¹åç§°ship500
+Locale_Text[17081] = "è€å¼è½»å‹ç«ç‚®æˆ˜åˆ—èˆ°ï¼Œé€šè¿‡ç°ä»£åŒ–æ”¹é€ è€Œé‡è·æ–°ç”Ÿ"
 
-Locale_Text[17080] = "Äº¹â¼¶ÇáĞÍÕ½ÁĞ½¢"    --½¢´¬Ãû³Æship500
-Locale_Text[17081] = "ÀÏÊ½ÇáĞÍ»ğÅÚÕ½ÁĞ½¢£¬Í¨¹ıÏÖ´ú»¯¸ÄÔì¶øÖØ»ñĞÂÉú"
+Locale_Text[17090] = "æš´é£éª‘å£«çº§æˆ˜åˆ—å·¡æ´‹èˆ°"    --èˆ°èˆ¹åç§°ship501
+Locale_Text[17091] = "CPSRæ¸¸é­‚çº§æˆ˜æ–—è¿è½½èˆ°çš„å¸¸å¤‡æŠ¤å«èˆ°ï¼Œä»å¸å›½è€å¼è½»ç«ç‚®æˆ˜åˆ—èˆ°æ”¹è¿›è€Œæ¥"
 
-Locale_Text[17090] = "±©·çÆïÊ¿¼¶Õ½ÁĞÑ²Ñó½¢"    --½¢´¬Ãû³Æship501
-Locale_Text[17091] = "CPSRÓÎ»ê¼¶Õ½¶·ÔËÔØ½¢µÄ³£±¸»¤ÎÀ½¢£¬´ÓµÛ¹úÀÏÊ½Çá»ğÅÚÕ½ÁĞ½¢¸Ä½ø¶øÀ´"
+Locale_Text[17100] = "JZ-805é£æ¢­"    --èˆ°èˆ¹åç§°ship502
+Locale_Text[17101] = "CPSRè‡ªè¡Œç ”å‘çš„ç©ºä¼˜æˆ˜æ–—æœºï¼Œå¤§å£å¾„çš„æœºç‚®å¯¹ä¸­å°å‹åœ°æ–¹å•ä½éƒ½èƒ½é€ æˆå¨èƒã€‚"
 
-Locale_Text[17100] = "JZ-805·ÉËó"    --½¢´¬Ãû³Æship502
-Locale_Text[17101] = "CPSR×ÔĞĞÑĞ·¢µÄ¿ÕÓÅÕ½¶·»ú£¬´ó¿Ú¾¶µÄ»úÅÚ¶ÔÖĞĞ¡ĞÍµØ·½µ¥Î»¶¼ÄÜÔì³ÉÍşĞ²¡£"
+Locale_Text[17110] = "J-085ä¾§å«"    --èˆ°èˆ¹åç§°ship503
+Locale_Text[17111] = "CPSRè‡ªè¡Œç ”å‘çš„æ— äººæˆªå‡»æœº"
 
-Locale_Text[17110] = "J-085²àÎÀ"    --½¢´¬Ãû³Æship503
-Locale_Text[17111] = "CPSR×ÔĞĞÑĞ·¢µÄÎŞÈË½Ø»÷»ú"
+Locale_Text[17120] = "H-8512æ¶æ„"    --èˆ°èˆ¹åç§°ship504
+Locale_Text[17121] = "CPSRè‡ªè¡Œç ”å‘çš„æ— äººè½°ç‚¸æœº"
 
-Locale_Text[17120] = "H-8512¶ñÒâ"    --½¢´¬Ãû³Æship504
-Locale_Text[17121] = "CPSR×ÔĞĞÑĞ·¢µÄÎŞÈËºäÕ¨»ú"
+Locale_Text[17130] = "Kå‹æ— äººæˆ˜æ–—æœº"    --èˆ°èˆ¹åç§°ship505
+Locale_Text[17131] = "è¿™æ¬¾æ— äººæœºç”±æš—åŒºåˆ¶é€ å¹¶ä¾›ç»™ç»™æ‹‰æ¯”ç‰¹ç§æ—"
 
-Locale_Text[17130] = "KĞÍÎŞÈËÕ½¶·»ú"    --½¢´¬Ãû³Æship505
-Locale_Text[17131] = "Õâ¿îÎŞÈË»úÓÉ°µÇøÖÆÔì²¢¹©¸ø¸øÀ­±ÈÌØÖÖ×å"
+Locale_Text[17140] = "å¤•è¯­çº§æ‘§æ˜Ÿå·¨èˆ°åæ ¼é‚£"    --èˆ°èˆ¹åç§°ship506
+Locale_Text[17141] = "åŒæ¨¡å¼æ”»å‡»èˆ°"
 
-Locale_Text[17140] = "Ï¦Óï¼¶´İĞÇ¾Ş½¢»ª¸ñÄÇ"    --½¢´¬Ãû³Æship506
-Locale_Text[17141] = "Ë«Ä£Ê½¹¥»÷½¢"
+Locale_Text[17150] = "å¤•è¯­çº§æ‘§æ˜Ÿèˆªæ¯æ´›ä¼¦å¸Œå°”å¾·"    --èˆ°èˆ¹åç§°ship507
+Locale_Text[17151] = "åŒæœºåº“è¿è½½èˆ°"
 
-Locale_Text[17150] = "Ï¦Óï¼¶´İĞÇº½Ä¸ÂåÂ×Ï£¶ûµÂ"    --½¢´¬Ãû³Æship507
-Locale_Text[17151] = "Ë«»ú¿âÔËÔØ½¢"
+Locale_Text[17160] = "å‰çº¿è¿è¾“è‰‡"    --èˆ°èˆ¹åç§°ship508
+Locale_Text[17161] = "ç‰¹ç§è½½å…·è¿è¾“è‰‡"
 
-Locale_Text[17160] = "Ç°ÏßÔËÊäÍ§"    --½¢´¬Ãû³Æship508
-Locale_Text[17161] = "ÌØÖÖÔØ¾ßÔËÊäÍ§"
+Locale_Text[17170] = "æ’•è£‚çˆªæ— äººæœº"    --èˆ°èˆ¹åç§°ship509
+Locale_Text[17171] = "è½»å‹æ— äººæœº"
 
-Locale_Text[17170] = "ËºÁÑ×¦ÎŞÈË»ú"    --½¢´¬Ãû³Æship509
-Locale_Text[17171] = "ÇáĞÍÎŞÈË»ú"
+Locale_Text[17180] = "å—ç“œå­å·"    --èˆ°èˆ¹åç§°ship510
+Locale_Text[17181] = "ä¸€è‰˜ç‰¹æ®Šçš„çºªå¿µèˆ°,çºªå¿µä¸€åªé€å»çš„ä»“é¼ "
 
-Locale_Text[17180] = "ÄÏ¹Ï×ÓºÅ"    --½¢´¬Ãû³Æship510
-Locale_Text[17181] = "Ò»ËÒÌØÊâµÄ¼ÍÄî½¢,¼ÍÄîÒ»Ö»ÊÅÈ¥µÄ²ÖÊó"
+Locale_Text[17190] = "é£æ¢­è½°ç‚¸æœº"    --èˆ°èˆ¹åç§°ship511
+Locale_Text[17191] = "CPSRåœ¨ä¸€æ¬¡ä¸ç»´æ ¼å°”å†›é˜€çš„äº¤æ˜“ä¸­ï¼Œå¾—åˆ°äº†ä¸€æ¶å¤±å»äº†å‘åŠ¨æœºä½†æ­¦å¤‡å®Œå¥½çš„ç ´åˆƒè½°ç‚¸å‹æˆ˜æœºï¼Œåœ¨æµ‹è¯•æ­¦å™¨æ€§èƒ½åï¼Œä¸€å‘è‡ªä»¥ä¸ºèˆ°ç‚®æ— æ•Œçš„CPSRé«˜å±‚ç›´å‘¼ä¸å¯æˆ˜èƒœï¼äºæ˜¯å¾ˆå¿«å¤åˆ¶äº†ç ´åˆƒè½°ç‚¸å‹çš„åèˆ°å¯¼å¼¹ï¼Œå¹¶è£…å¤‡åœ¨é£æ¢­çš„æœºä½“ä¸Šï¼Œå¹¶å‘½åä¸ºï¼šæ’é’ˆï¼"
 
-Locale_Text[17190] = "·ÉËóºäÕ¨»ú"    --½¢´¬Ãû³Æship511
-Locale_Text[17191] = "CPSRÔÚÒ»´ÎÓëÎ¬¸ñ¶û¾ü·§µÄ½»Ò×ÖĞ£¬µÃµ½ÁËÒ»¼ÜÊ§È¥ÁË·¢¶¯»úµ«Îä±¸ÍêºÃµÄÆÆÈĞºäÕ¨ĞÍÕ½»ú£¬ÔÚ²âÊÔÎäÆ÷ĞÔÄÜºó£¬Ò»Ïò×ÔÒÔÎª½¢ÅÚÎŞµĞµÄCPSR¸ß²ãÖ±ºô²»¿ÉÕ½Ê¤£¡ÓÚÊÇºÜ¿ì¸´ÖÆÁËÆÆÈĞºäÕ¨ĞÍµÄ·´½¢µ¼µ¯£¬²¢×°±¸ÔÚ·ÉËóµÄ»úÌåÉÏ£¬²¢ÃüÃûÎª£º×²Õë£¡"
+Locale_Text[17200] = "ç¯å¸¦çº§æ‘§æ˜Ÿå·¨èˆ°"    --èˆ°èˆ¹åç§°ship512
+Locale_Text[17201] = "é£Ÿç”¨æ²¹åŠ¨åŠ›èˆ¹åè®¾è®¡å»ºé€ çš„ç¬¬ä¸€å‹æ‘§æ˜Ÿå·¨èˆ°"
 
-Locale_Text[17200] = "»·´ø¼¶´İĞÇ¾Ş½¢"    --½¢´¬Ãû³Æship512
-Locale_Text[17201] = "Ê³ÓÃÓÍ¶¯Á¦´¬ÎëÉè¼Æ½¨ÔìµÄµÚÒ»ĞÍ´İĞÇ¾Ş½¢"
+Locale_Text[17210] = "é¾™å·é£ç²¾é”é±¼é›·è½°ç‚¸æœº"    --èˆ°èˆ¹åç§°ship206
+Locale_Text[17211] = "è£…å¤‡ç©ºå°„èˆ°è½½é‡å‹é±¼é›·å’Œ4åº§é‡å‹å¤§æ¨åŠ›å‘åŠ¨æœºçš„é‡å‹é±¼é›·æœº"
 
-Locale_Text[17210] = "Áú¾í·ç¾«ÈñÓãÀ×ºäÕ¨»ú"    --½¢´¬Ãû³Æship206
-Locale_Text[17211] = "×°±¸¿ÕÉä½¢ÔØÖØĞÍÓãÀ×ºÍ4×ùÖØĞÍ´óÍÆÁ¦·¢¶¯»úµÄÖØĞÍÓãÀ×»ú"
+Locale_Text[17220] = "æ‰‹æ¨è½¦ç©ºé—´æˆ˜æ–—æœº"    --èˆ°èˆ¹åç§°ship207
+Locale_Text[17221] = "è£…å¤‡äº†ç‚®è‰‡æœºç‚®å’Œç›¸å¯¹åšé‡è£…ç”²çš„è½»å‹ç‚®è‰‡æœº"
 
-Locale_Text[17220] = "ÊÖÍÆ³µ¿Õ¼äÕ½¶·»ú"    --½¢´¬Ãû³Æship207
-Locale_Text[17221] = "×°±¸ÁËÅÚÍ§»úÅÚºÍÏà¶ÔºñÖØ×°¼×µÄÇáĞÍÅÚÍ§»ú"
+Locale_Text[17230] = "è·¨è¶Šçº§é«˜é€Ÿè´§èˆ¹"    --èˆ°èˆ¹åç§°ship208
+Locale_Text[17231] = "é«˜é€Ÿè´§èˆ¹"
 
-Locale_Text[17230] = "¿çÔ½¼¶¸ßËÙ»õ´¬"    --½¢´¬Ãû³Æship208
-Locale_Text[17231] = "¸ßËÙ»õ´¬"
+Locale_Text[17240] = "å®‰ä¿çº§æ°‘ç”¨æŠ¤å«èˆ°"    --èˆ°èˆ¹åç§°ship232
+Locale_Text[17241] = "æ°‘ç”¨æŠ¤å«èˆ°"
 
-Locale_Text[17240] = "°²±£¼¶ÃñÓÃ»¤ÎÀ½¢"    --½¢´¬Ãû³Æship232
-Locale_Text[17241] = "ÃñÓÃ»¤ÎÀ½¢"
+Locale_Text[17250] = "æ¬è¿å·¥çº§è¿è¾“è‰‡"    --èˆ°èˆ¹åç§°ship233
+Locale_Text[17251] = "æ°‘ç”¨è¿è¾“è‰‡"
 
-Locale_Text[17250] = "°áÔË¹¤¼¶ÔËÊäÍ§"    --½¢´¬Ãû³Æship233
-Locale_Text[17251] = "ÃñÓÃÔËÊäÍ§"
+Locale_Text[17260] = "å‘Šè¯«çº§è¶…çº§è£…ç”²æ”¯æ´èˆªæ¯"    --èˆ°èˆ¹åç§°ship512
+Locale_Text[17261] = "è¶…çº§è£…ç”²æ”¯æ´èˆªæ¯"
 
-Locale_Text[17260] = "¸æ½ë¼¶³¬¼¶×°¼×Ö§Ô®º½Ä¸"    --½¢´¬Ãû³Æship512
-Locale_Text[17261] = "³¬¼¶×°¼×Ö§Ô®º½Ä¸"
+Locale_Text[17270] = "SSCçº§é‡è£…æˆ˜å·¡"    --èˆ°èˆ¹åç§°ship513
+Locale_Text[17271] = "é£Ÿç”¨æ²¹æ˜Ÿé™…é©±åŠ¨å…¬å¸å¼€å‘çš„å…¨èƒ½å‹æˆ˜èˆ°"
+Locale_Text[17280] = "MSV-19å¤œæ­æ˜Ÿé™…æˆ˜æ–—æœº"    --èˆ°èˆ¹åç§°ship514
+Locale_Text[17281] = "é£Ÿç”¨æ²¹æ˜Ÿé™…é©±åŠ¨å…¬å¸å¼€å‘çš„ä¸€æ¬¾é«˜æ€§èƒ½æˆ˜æ–—æœº"
+Locale_Text[17290] = "MSV-19Bå¤œæ­æ˜Ÿé™…æ”»å‡»æœº"    --èˆ°èˆ¹åç§°ship515
+Locale_Text[17291] = "é€šè¿‡åŠ è£…ç‡ƒæ–™ç‚®å˜ä¸ºæ”»å‡»æœºçš„å‹å·"
+Locale_Text[17300] = "éœœå–™æ¸¡å½±æˆ˜æ–—ç³»ç»Ÿ"    --èˆ°èˆ¹åç§°ship516
+Locale_Text[17301] = "ä¸€æ¬¾ä¸ºå¤œæ­å¼€å‘çš„æˆ˜æ–—èƒŒåŒ…ç³»ç»Ÿï¼Œå¤§å¹…åº¦å¢å¼ºæˆ˜åŠ›"
 
-Locale_Text[17270] = "SSC¼¶ÖØ×°Õ½Ñ²"    --½¢´¬Ãû³Æship513
-Locale_Text[17271] = "Ê³ÓÃÓÍĞÇ¼ÊÇı¶¯¹«Ë¾¿ª·¢µÄÈ«ÄÜĞÍÕ½½¢"
-Locale_Text[17280] = "MSV-19Ò¹èÉĞÇ¼ÊÕ½¶·»ú"    --½¢´¬Ãû³Æship514
-Locale_Text[17281] = "Ê³ÓÃÓÍĞÇ¼ÊÇı¶¯¹«Ë¾¿ª·¢µÄÒ»¿î¸ßĞÔÄÜÕ½¶·»ú"
-Locale_Text[17290] = "MSV-19BÒ¹èÉĞÇ¼Ê¹¥»÷»ú"    --½¢´¬Ãû³Æship515
-Locale_Text[17291] = "Í¨¹ı¼Ó×°È¼ÁÏÅÚ±äÎª¹¥»÷»úµÄĞÍºÅ"
-Locale_Text[17300] = "Ëªà¹¶ÉÓ°Õ½¶·ÏµÍ³"    --½¢´¬Ãû³Æship516
-Locale_Text[17301] = "Ò»¿îÎªÒ¹èÉ¿ª·¢µÄÕ½¶·±³°üÏµÍ³£¬´ó·ù¶ÈÔöÇ¿Õ½Á¦"
+Locale_Text[17310] = "é“å«å¤šåŠŸèƒ½æœºåŠ¨é•‡çˆ†è£…ç½®"    --èˆ°èˆ¹åç§°ship517
+Locale_Text[17311] = "ä¸€æ¬¾ä¸ºå¤œæ­å¼€å‘çš„æˆ˜æ–—èƒŒåŒ…ç³»ç»Ÿï¼Œå¤§å¹…åº¦å¢å¼ºæˆ˜åŠ›"
 
-Locale_Text[17310] = "ÌúÎÀ¶à¹¦ÄÜ»ú¶¯Õò±¬×°ÖÃ"    --½¢´¬Ãû³Æship517
-Locale_Text[17311] = "Ò»¿îÎªÒ¹èÉ¿ª·¢µÄÕ½¶·±³°üÏµÍ³£¬´ó·ù¶ÈÔöÇ¿Õ½Á¦"
+Locale_Text[17320] = "èª“çº¦çº§æ— ç•èˆ°-çš“é“¶"    --èˆ°èˆ¹åç§°ship518
+Locale_Text[17321] = "å¤§å‹åæ——èˆ°ç”µç£ç‚®å¡”æ— ç•èˆ°"
 
-Locale_Text[17320] = "ÊÄÔ¼¼¶ÎŞÎ·½¢-ğ©Òø"    --½¢´¬Ãû³Æship518
-Locale_Text[17321] = "´óĞÍ·´Æì½¢µç´ÅÅÚËşÎŞÎ·½¢"
 
+Locale_Text[17330] = "è¿œè¡Œè€…çº§è¶…ç©ºé—´æ½œèˆªå‹"    --èˆ°èˆ¹åç§°ship519
+Locale_Text[17331] = "ï¼ˆï¼ˆï¼ˆï¼ˆå‘ï¼‰ï¼‰ï¼‰ï¼‰"
 
-Locale_Text[17330] = "Ô¶ĞĞÕß¼¶³¬¿Õ¼äÇ±º½ĞÍ"    --½¢´¬Ãû³Æship519
-Locale_Text[17331] = "£¨£¨£¨£¨ÄÅ£©£©£©£©"
+Locale_Text[17340] = "æ— æ¯”çº§å¯¼å¼¹å·¡æ´‹èˆ°"    --èˆ°èˆ¹åç§°ship525
+Locale_Text[17341] = "å‘å°„éœ‡è¡å¯¼å¼¹çš„å¯¼å¼¹æˆ˜åˆ—å·¡æ´‹èˆ°"
 
-Locale_Text[17340] = "ÎŞ±È¼¶µ¼µ¯Ñ²Ñó½¢"    --½¢´¬Ãû³Æship525
-Locale_Text[17341] = "·¢ÉäÕğµ´µ¼µ¯µÄµ¼µ¯Õ½ÁĞÑ²Ñó½¢"
+Locale_Text[17350] = "è¿½èµ¶è€…çº§å¤§å‹å·¡æ´‹èˆ°"    --èˆ°èˆ¹åç§°ship526
+Locale_Text[17351] = "å¤§å‹æ¿€å…‰ç‚®æ”»å‡»å·¡æ´‹èˆ°"
 
-Locale_Text[17350] = "×·¸ÏÕß¼¶´óĞÍÑ²Ñó½¢"    --½¢´¬Ãû³Æship526
-Locale_Text[17351] = "´óĞÍ¼¤¹âÅÚ¹¥»÷Ñ²Ñó½¢"
+Locale_Text[17360] = "è¿½èµ¶è€…çº§è½»å‹èˆªæ¯"    --èˆ°èˆ¹åç§°ship527
+Locale_Text[17361] = "è½»å‹èˆ°è½½æœºèˆªæ¯"
 
-Locale_Text[17360] = "×·¸ÏÕß¼¶ÇáĞÍº½Ä¸"    --½¢´¬Ãû³Æship527
-Locale_Text[17361] = "ÇáĞÍ½¢ÔØ»úº½Ä¸"
 
+Locale_Text[17370] = "æ˜Ÿé“¸çº§æˆ˜ç•¥æŠ•å°„æ¯èˆ°"    --èˆ°èˆ¹åç§°ship528
+Locale_Text[17371] = "æˆ˜ç•¥æ——èˆ°â€”â€”ç¿¼ä½"
 
-Locale_Text[17370] = "ĞÇÖı¼¶Õ½ÂÔÍ¶ÉäÄ¸½¢"    --½¢´¬Ãû³Æship528
-Locale_Text[17371] = "Õ½ÂÔÆì½¢¡ª¡ªÒí×ô"
+Locale_Text[17380] = "å¥¥ç‰¹æ—å¾·çº§æˆ˜ç•¥èˆªæ¯"    --èˆ°èˆ¹åç§°ship529
+Locale_Text[17381] = "æˆ˜ç•¥æŒ‡æŒ¥æ¯èˆ°"
 
-Locale_Text[17380] = "°ÂÌØÁÖµÂ¼¶Õ½ÂÔº½Ä¸"    --½¢´¬Ãû³Æship529
-Locale_Text[17381] = "Õ½ÂÔÖ¸»ÓÄ¸½¢"
 
 
+Locale_Text[17410] = "å¸å¾å‹èŠ‚ç‚¹æˆ˜æœº-è¾‰ç•Œ"    --èˆ°èˆ¹åç§°ship530
+Locale_Text[17411] = "æˆ˜æ–—æŒ‡æŒ¥æœº-ä¾¦å¯Ÿæ¨¡å¼"
 
-Locale_Text[17410] = "µÛÕ÷ĞÍ½ÚµãÕ½»ú-»Ô½ç"    --½¢´¬Ãû³Æship530
-Locale_Text[17411] = "Õ½¶·Ö¸»Ó»ú-Õì²ìÄ£Ê½"
+Locale_Text[17420] = "å¸å¾å‹èŠ‚ç‚¹æˆ˜æœº-å²šç‰™"    --èˆ°èˆ¹åç§°ship531
+Locale_Text[17421] = "æˆ˜æ–—æŒ‡æŒ¥æœº-åˆ¶ç©ºæ¨¡å¼"
 
-Locale_Text[17420] = "µÛÕ÷ĞÍ½ÚµãÕ½»ú-á°ÑÀ"    --½¢´¬Ãû³Æship531
-Locale_Text[17421] = "Õ½¶·Ö¸»Ó»ú-ÖÆ¿ÕÄ£Ê½"
+Locale_Text[17430] = "å¸å¾å‹èŠ‚ç‚¹æˆ˜æœº-é¾™æ§Š"    --èˆ°èˆ¹åç§°ship532
+Locale_Text[17431] = "æˆ˜æ–—æŒ‡æŒ¥æœº-å¼ºå‡»æ¨¡å¼"
 
-Locale_Text[17430] = "µÛÕ÷ĞÍ½ÚµãÕ½»ú-ÁúéÃ"    --½¢´¬Ãû³Æship532
-Locale_Text[17431] = "Õ½¶·Ö¸»Ó»ú-Ç¿»÷Ä£Ê½"
+Locale_Text[17440] = "å«è›‡å‹æ— äººæœº-å¤©å€¾"    --èˆ°èˆ¹åç§°ship533
+Locale_Text[17441] = "çªå‡»æ— äººæœº-åˆ¶ç©ºæ¨¡å¼"
 
-Locale_Text[17440] = "ÎÀÉßĞÍÎŞÈË»ú-ÌìÇã"    --½¢´¬Ãû³Æship533
-Locale_Text[17441] = "Í»»÷ÎŞÈË»ú-ÖÆ¿ÕÄ£Ê½"
+Locale_Text[17450] = "å«è›‡å‹æ— äººæœº-æ›œæ˜Ÿ"    --èˆ°èˆ¹åç§°ship534
+Locale_Text[17451] = "çªå‡»æ— äººæœº-å¼ºå‡»æ¨¡å¼"
 
-Locale_Text[17450] = "ÎÀÉßĞÍÎŞÈË»ú-ê×ĞÇ"    --½¢´¬Ãû³Æship534
-Locale_Text[17451] = "Í»»÷ÎŞÈË»ú-Ç¿»÷Ä£Ê½"
+Locale_Text[17390] = "é²²é¹çº§è¶…çº§èˆªæ¯"    --èˆ°èˆ¹åç§°ship535
+Locale_Text[17391] = "è¶…çº§èœ‚ç¾¤æ— äººæœºæ¯èˆ°,å¯ä»¥æŠ•æ”¾å¤§é‡çš„æœ±é›€çº§æˆ˜æ–—è½°ç‚¸æ— äººæœº"
 
-Locale_Text[17390] = "öïÅô¼¶³¬¼¶º½Ä¸"    --½¢´¬Ãû³Æship535
-Locale_Text[17391] = "³¬¼¶·äÈºÎŞÈË»úÄ¸½¢,¿ÉÒÔÍ¶·Å´óÁ¿µÄÖìÈ¸¼¶Õ½¶·ºäÕ¨ÎŞÈË»ú"
+Locale_Text[17400] = "èª“çº¦çº§æ— ç•èˆ°-çš“é“¶æå…‰"    --èˆ°èˆ¹åç§°ship536
+Locale_Text[17401] = "å¤§å‹è¶…çº§æ——èˆ°ç¦»å­ç‚®æ— ç•èˆ°,è£…å¤‡äº†ä¸€é—¨å¯ä»¥å±•å¼€çš„æ——èˆ°çº§ç¦»å­ç‚®"
 
-Locale_Text[17400] = "ÊÄÔ¼¼¶ÎŞÎ·½¢-ğ©Òø¼«¹â"    --½¢´¬Ãû³Æship536
-Locale_Text[17401] = "´óĞÍ³¬¼¶Æì½¢Àë×ÓÅÚÎŞÎ·½¢,×°±¸ÁËÒ»ÃÅ¿ÉÒÔÕ¹¿ªµÄÆì½¢¼¶Àë×ÓÅÚ"
 
+Locale_Text[17460] = "è£‚ç—•MK3Aå‹"    --èˆ°èˆ¹åç§°ship537
+Locale_Text[17461] = "æœ€æ–°ä¸€ä»£ç”µç£ç‚®æˆ˜åˆ—èˆ°ï¼Œè£…å¤‡çš„å¼ºå¤§ä¸»ç‚®å¯ä»¥åœ¨å¤§è§„æ¨¡æ——èˆ°ä¼šæˆ˜ä¸­å‘æŒ¥é‡è¦ä½œç”¨"
 
-Locale_Text[17460] = "ÁÑºÛMK3AĞÍ"    --½¢´¬Ãû³Æship537
-Locale_Text[17461] = "×îĞÂÒ»´úµç´ÅÅÚÕ½ÁĞ½¢£¬×°±¸µÄÇ¿´óÖ÷ÅÚ¿ÉÒÔÔÚ´ó¹æÄ£Æì½¢»áÕ½ÖĞ·¢»ÓÖØÒª×÷ÓÃ"
+Locale_Text[17470] = "è£‚ç—•MK3Cå‹"    --èˆ°èˆ¹åç§°ship538
+Locale_Text[17471] = "æœ€æ–°ä¸€ä»£ç”µç£ç‚®æˆ˜åˆ—èˆ°ï¼Œè£…å¤‡çš„å¼ºå¤§ä¸»ç‚®å¯ä»¥åœ¨å¤§è§„æ¨¡æ——èˆ°ä¼šæˆ˜ä¸­å‘æŒ¥é‡è¦ä½œç”¨"
 
-Locale_Text[17470] = "ÁÑºÛMK3CĞÍ"    --½¢´¬Ãû³Æship538
-Locale_Text[17471] = "×îĞÂÒ»´úµç´ÅÅÚÕ½ÁĞ½¢£¬×°±¸µÄÇ¿´óÖ÷ÅÚ¿ÉÒÔÔÚ´ó¹æÄ£Æì½¢»áÕ½ÖĞ·¢»ÓÖØÒª×÷ÓÃ"
+Locale_Text[17480] = "SAAçº§ç‰¹ç§é‡å·¡æ´‹èˆ° ç¥åœ£è¿œæ™¯å·"    --èˆ°èˆ¹åç§°ship539
+Locale_Text[17481] = "åœ¨é£Ÿç”¨æ²¹é›†å›¢å¤§åˆ†è£‚åï¼Œé£Ÿç”¨æ²¹æ˜Ÿé™…é©±åŠ¨ç»è¥ä¸å–„æ—¶é›†åˆäº†å…¨éƒ¨æŠ€æœ¯åŠ›é‡å¼€å‘çš„æ–°é”æˆ˜èˆ°ã€‚"
 
-Locale_Text[17480] = "SAA¼¶ÌØÖÖÖØÑ²Ñó½¢ ÉñÊ¥Ô¶¾°ºÅ"    --½¢´¬Ãû³Æship539
-Locale_Text[17481] = "ÔÚÊ³ÓÃÓÍ¼¯ÍÅ´ó·ÖÁÑºó£¬Ê³ÓÃÓÍĞÇ¼ÊÇı¶¯¾­Óª²»ÉÆÊ±¼¯ºÏÁËÈ«²¿¼¼ÊõÁ¦Á¿¿ª·¢µÄĞÂÈñÕ½½¢¡£"
+Locale_Text[17490] = "åƒæœˆçº§è½»å‹å·¥ç¨‹èˆªæ¯"    --èˆ°èˆ¹åç§°ship540
+Locale_Text[17491] = "å¯ä»¥æ­è½½å°‘é‡å·¥ç¨‹è‰‡çš„å·¥ç¨‹èˆªæ¯"
 
-Locale_Text[17490] = "Ç§ÔÂ¼¶ÇáĞÍ¹¤³Ìº½Ä¸"    --½¢´¬Ãû³Æship540
-Locale_Text[17491] = "¿ÉÒÔ´îÔØÉÙÁ¿¹¤³ÌÍ§µÄ¹¤³Ìº½Ä¸"
+Locale_Text[17500] = "æ˜Ÿé“¸çº§å·¥ç¨‹æ¯èˆ°"    --èˆ°èˆ¹åç§°ship542
+Locale_Text[17501] = "æˆ˜ç•¥å·¥ç¨‹æ¯èˆ°ï¼Œèˆ°é˜Ÿå‹"
 
-Locale_Text[17500] = "ĞÇÖı¼¶¹¤³ÌÄ¸½¢"    --½¢´¬Ãû³Æship542
-Locale_Text[17501] = "Õ½ÂÔ¹¤³ÌÄ¸½¢£¬½¢¶ÓĞÍ"
+Locale_Text[17510] = "ç¬¬å…«ä»£å¥³çš‡çº§æ‘§æ˜Ÿå·¨èˆ°"    --èˆ°èˆ¹åç§°ship547
+Locale_Text[17511] = "è²é›…åˆ©å¸å›½çš„è£è€€ä¸è±¡å¾"
 
-Locale_Text[17510] = "µÚ°Ë´úÅ®»Ê¼¶´İĞÇ¾Ş½¢"    --½¢´¬Ãû³Æship547
-Locale_Text[17511] = "·ÆÑÅÀûµÛ¹úµÄÈÙÒ«ÓëÏóÕ÷"
-
-Locale_Text[17520] = "Ìêµ¶ºäÕ¨ĞÍ"    --½¢´¬Ãû³Æship548
-Locale_Text[17521] = "Ğ¯´øÁËÒ»¿Å·´½¢µ¼µ¯µÄÌêµ¶Õ½¶·»ú£¬¾¡¹Ü»ú¶¯ĞÔÄÜÓĞËùÏÂ½µ£¬µ«ÊÇ¿ÉÒÔÓĞĞ§µÄ½â¾öĞ¡ĞÍ½¢¶ÓµÄ·´Ö÷Á¦½¢ÎÊÌâ"
-
+Locale_Text[17520] = "å‰ƒåˆ€è½°ç‚¸å‹"    --èˆ°èˆ¹åç§°ship548
+Locale_Text[17521] = "æºå¸¦äº†ä¸€é¢—åèˆ°å¯¼å¼¹çš„å‰ƒåˆ€æˆ˜æ–—æœºï¼Œå°½ç®¡æœºåŠ¨æ€§èƒ½æœ‰æ‰€ä¸‹é™ï¼Œä½†æ˜¯å¯ä»¥æœ‰æ•ˆçš„è§£å†³å°å‹èˆ°é˜Ÿçš„åä¸»åŠ›èˆ°é—®é¢˜"
 
 Factory_Text = {}
-Factory_Text[1000] = "´¿¾»Ë®ÌáÁ¶×°ÖÃ"            --1--Ã³Ò×1¼¶  Ö³ÃñµØµ­Ë®³§  35000  --±ÈÀıµ÷Õû
-Factory_Text[1001] = "¿ÉÒÔ½«±ù¿óÈÚ»¯³Éµ­Ë®"
-Factory_Text[1005] = "Æ¡¾ÆÄğÔì³§"                --2--Ã³Ò×10¼¶   Ö³ÃñµØ    20000 --±ÈÀıµ÷Õû 
-Factory_Text[1006] = "¿ÉÒÔÓÃĞ¡ÂóÄğÔìÆ¡¾Æ"
+Factory_Text[1000] = "Purified water refining device"           
+Factory_Text[1001] = "Can melt ice ore into fresh water"
+Factory_Text[1005] = "Beer brewery"                
+Factory_Text[1006] = "You can brew beer from wheat"
 ---------------------------------------------------
-Factory_Text[1100] = "ÇâÈ¼ÁÏÌáÁ¶×°ÖÃ"            --3    --Ã³Ò×10¼¶    µÛ¹úÖ®ÃÅÈ¼ÁÏ³§   100000     --±ÈÀıµ÷Õû
-Factory_Text[1101] = "¿ÉÒÔ¸ßĞ§ÂÊµÄ½«µ­Ë®µç½â³öÇâÈ¼ÁÏ"
-Factory_Text[1105] = "ºËÈ¼ÁÏÌáÁ¶×°ÖÃ"            --4     --Ã³Ò×20¼¶    µÛ¹úÖ®ÃÅÈ¼ÁÏ³§   200000    --±ÈÀıµ÷Õû
-Factory_Text[1106] = "´ÓÒ»Ğ©ÕäÏ¡¿óÊ¯ÖĞÌáÁ¶³öºËÈ¼ÁÏ£¬"
-Factory_Text[1110] = "·´ÎïÖÊÈ¼ÁÏÌáÁ¶×°ÖÃ"        --5      --Ã³Ò×30¼¶   µÛ¹úÖ®ÃÅÈ¼ÁÏ³§   1000000     --±ÈÀıµ÷Õû
-Factory_Text[1111] = "½«´óÁ¿µÄÄÜÔ´ºÍÒ»Ğ©ÕäÏ¡ÔªËØÒ»ÆğÑ¹Ëõ³É·´ÎïÖÊÈ¼ÁÏ"
+Factory_Text[1100] = "Hydrogen fuel refining plant"            
+Factory_Text[1101] = "Highly efficient electrolysis of fresh water to produce hydrogen fuel"
+Factory_Text[1105] = "Nuclear fuel refinery"            
+Factory_Text[1106] = "the extraction of nuclear fuel from some rare ores."
+Factory_Text[1110] = "Antimatter fuel refinery"        
+Factory_Text[1111] = "Compression of large amounts of energy into antimatter fuel along with some rare elements"
 ---------------------------------------------------
-Factory_Text[1200] = "Ãæ°üºæ±º·»"                --6  --Ã³Ò×2¼¶         Å©³¡Èº  Ê³Æ·³§  20000     --±ÈÀıµ÷Õû
-Factory_Text[1201] = "½«Ğ¡ÂóÑĞÄ¥³ÉÃæ·Ûºó¸ßĞ§ÂÊµÄ¿¾ÖÆ³ÉÃæ°ü¡£"
-Factory_Text[1205] = "ĞÇ±¤"                --7  --Ã³Ò×4¼¶         Å©³¡Èº  Ê³Æ·³§  50000       --±ÈÀıµ÷Õû
-Factory_Text[1206] = "¾ŞĞÍµÄ·ÀÓù±¤Àİ£¬¿ÉÒÔÈİÄÉ´óÁ¿ÈË¿ÚºÍÎï×Ê"
-Factory_Text[1210] = "¸ß¼¶³ø·¿"                  --8  --Ã³Ò×18¼¶        Ö³ÃñµØ  400000        --±ÈÀıµ÷Õû
-Factory_Text[1211] = "½«Å£Èâ¾­¹ı¾«ĞÄµÄµ÷Àí£¬ÖÆ×÷³ÉÃÀÎ¶µÄÅ£ÅÅ¡£"
+Factory_Text[1200] = "Bread bakery"               
+Factory_Text[1201] = "Wheat is ground into flour and then baked into bread with high efficiency."
+Factory_Text[1205] = "Star Castle"                
+Factory_Text[1206] = "A huge defensive fortress that can accommodate a large number of people and supplies"
+Factory_Text[1210] = "Premium Kitchen"                  
+Factory_Text[1211] = "The beef is carefully seasoned and made into a delicious steak."
 
-Factory_Text[1300] = "ÈÕÓÃÆ·¼Ó¹¤Ä£¿é"            --9  --Ã³Ò×0¼¶       µÛ¹úÖ®ÃÅÃ³Ò×Õ¾  10000     --±ÈÀıµ÷Õû   
-Factory_Text[1301] = "½«Ò»Ğ©»ù´¡ºÏ½ğÖÆ×÷³É¼òµ¥µÄÉú»îÓÃÆ·¡£"
+Factory_Text[1300] = "Daily product processing module"             
+Factory_Text[1301] = "Making some basic alloys into simple household items."
 
-Factory_Text[1400] = "¹ÈÎïÅ©³¡"                  --10    --Ã³Ò×4¼¶    Å©³¡Èº  Å©³¡   30000    --±ÈÀıµ÷Õû
-Factory_Text[1401] = "ÓÃµ­Ë®ºÍÄÜÔ´¸ßĞ§ÂÊµÄÅàÓı³ö¹ÈÎïÀ´¡£"
-Factory_Text[1405] = "»úĞµÁã¼ş³§"                --11     --Ã³Ò×14¼¶    Å©³¡Èº  ÑøÖí³¡  80000   --±ÈÀıµ÷Õû
-Factory_Text[1406] = "Éú²ú¸÷ÖÖ»úĞµÉè±¸ËùĞèÒªµÄÁãÅä¼ş"
-Factory_Text[1410] = "Ö³ÃñµØĞÇÃÅ"                --12     --Ã³Ò×22¼¶    Ï£¸ñÀ­Ê×ĞÇ  500000    --±ÈÀıµ÷Õû
-Factory_Text[1411] = "ÏûºÄÔ¾Ç¨ÄÜÁ¿À´ÕÙ»½ºÍ·¢ËÍ½¢¶Ó"
+Factory_Text[1400] = "Grain Farm"                 
+Factory_Text[1401] = "Efficient cultivation of grains with fresh water and energy."
+Factory_Text[1405] = "Machinery Parts Factory"                
+Factory_Text[1406] = "Spare parts required for the production of various machinery and equipment"
+Factory_Text[1410] = "Colonial Stargate"                
+Factory_Text[1411] = "Spend warp energy to summon and send fleets"
 
-Factory_Text[1500] = "ÄÉÃ×ÎïÖÊ¹¤³§"          --13      --Ã³Ò×18¼¶    Ç°Ïß  80000         --±ÈÀıµ÷Õû
-Factory_Text[1501] = "Éú²ú¸÷ÖÖÄÉÃ×ÎïÖÊ"
-Factory_Text[1505] = "´¬Ìå×é¼ş¹¤³§"          --14       --Ã³Ò×23¼¶    H´¬Îë  1500000      --±ÈÀıµ÷Õû
-Factory_Text[1506] = "Éú²úÕ½½¢ºÍ¿Õ¼äÕ¾½¨ÉèËù±ØĞëµÄ´¬Ìå½á¹¹×é¼ş"
-Factory_Text[1510] = "½¢ÔØ»ú×é¼ş³§"          --15      --Ã³Ò×41¼¶     A»ùµØ  12000000    --±ÈÀıµ÷Õû
-Factory_Text[1511] = "Éú²ú×é×°½¢ÔØ»úËùĞèÒªµÄ½¢ÔØ»ú×é¼ş"
+Factory_Text[1500] = "Nanomaterial Factory"         
+Factory_Text[1501] = "Production of various nanomaterials"
+Factory_Text[1505] = "Hull Components Factory"          
+Factory_Text[1506] = "Production of hull structural components necessary for the construction of warships and space stations"
+Factory_Text[1510] = "Shipborne aircraft component factory"         
+Factory_Text[1511] = "Production and assembly of carrier-based aircraft components required for carrier-based aircraft"
 
-Factory_Text[1600] = "ÑĞ¾¿Õ¾LV01"          --16      --Ã³Ò×21¼¶     µÛ¹úÖ®ÃÅÒ±Á¶³¡   2100000   --±ÈÀıµ÷Õû
-Factory_Text[1601] = "Ìá¹©¿ÆÑĞµãÊı£¬ÓÃÀ´ÑĞ¾¿Õ½½¢À¶Í¼ºÍÌáÉı½¢´¬ĞÔÄÜ"
-Factory_Text[1605] = "Æì½¢¼¶ºËĞÄ×é¼ş³§"        --17      --Ã³Ò×34¼¶        A»ùµØ 6700000        --±ÈÀıµ÷Õû
-Factory_Text[1606] = "×¨ÃÅÓÃÀ´Éú²úÆì½¢¼¶Õ½½¢µÄºËĞÄ×é¼ş"
-Factory_Text[1610] = "¸ßÎÂÈÛÂ¯"                  --18     --Ã³Ò×38¼¶         µÛ¹úÖ®ÃÅÒ±Á¶³¡   8500000      --±ÈÀıµ÷Õû
-Factory_Text[1611] = "ÓÃ¸ßĞÔÄÜµÄ¶ÍÔìÈÛÂ¯ºÍ´óÁ¿ÄÜÁ¿Ö±½Ó½«»ù´¡ºÏ½ğÉı¼¶Îª¸ßÇ¿¶ÈºÏ½ğ¡£"
-Factory_Text[1615] = "ÌØÖÖºÏ½ğÒ±Á¶Éè±¸"          --19       --Ã³Ò×52¼¶       µÛ¹úÖ®ÃÅÒ±Á¶³¡   27000000        --±ÈÀıµ÷Õû
-Factory_Text[1616] = "ÔÚ¸ßÇ¿¶ÈºÏ½ğµÄ»ù´¡ÉÏÌí¼ÓÌØÊâÔªËØ£¬½«ÆäÉı¼¶ÎªÌØÖÖºÏ½ğ¡£"
-Factory_Text[1620] = "ÑĞ¾¿Õ¾LV02"          --16      --Ã³Ò×21¼¶     µÛ¹úÖ®ÃÅÒ±Á¶³¡   2100000   --±ÈÀıµ÷Õû
-Factory_Text[1625] = "ÑĞ¾¿Õ¾LV03"          --16      --Ã³Ò×21¼¶     µÛ¹úÖ®ÃÅÒ±Á¶³¡   2100000   --±ÈÀıµ÷Õû
-Factory_Text[1630] = "ÑĞ¾¿Õ¾LV04"          --16      --Ã³Ò×21¼¶     µÛ¹úÖ®ÃÅÒ±Á¶³¡   2100000   --±ÈÀıµ÷Õû
+Factory_Text[1600] = "Research Station LV01"         
+Factory_Text[1601] = "Provide scientific research points for researching battleship blueprints and improving ship performance"
+Factory_Text[1605] = "Flagship core component factory"        
+Factory_Text[1606] = "Core components dedicated to the production of flagship-class warships"
+Factory_Text[1610] = "High-temperature melting furnace"                 
+Factory_Text[1611] = "Upgrades basic alloys directly to high-strength alloys using high-performance forges and large amounts of energy."
+Factory_Text[1615] = "Special alloy smelting equipment"          
+Factory_Text[1616] = "Special elements are added to the high-strength alloy to upgrade it to a special alloy."
+Factory_Text[1620] = "Research Station LV02"    
+Factory_Text[1625] = "Research Station LV03"   
+Factory_Text[1630] = "Research Station LV04"   
 
-Factory_Text[1700] = "Ğ¡¿Ú¾¶ÎäÆ÷Åä¼ş¼Ó¹¤Á÷Ë®Ïß"  --20       --Ã³Ò×12¼¶       Ç°Ïß  150000       --±ÈÀıµ÷Õû
-Factory_Text[1701] = "ÔÚÉú²úĞ¡¿Ú¾¶ÎäÆ÷Ëù±ØĞëµÄ¸÷ÖÖÁãÅä¼ş¡£"
-Factory_Text[1705] = "ÖĞĞÍÎäÆ÷Åä¼ş¼Ó¹¤³µ¼ä"      --21        --Ã³Ò×18¼¶    Vº£µÁ  3500000      --±ÈÀıµ÷Õû
-Factory_Text[1706] = "ÔÚÉú²úĞ¡¿Ú¾¶ÎäÆ÷Ëù±ØĞëµÄ¸÷ÖÖÁãÅä¼ş¡£"
-Factory_Text[1710] = "´óĞÍÎäÆ÷Åä¼ş¼Ó¹¤³§"        --22         --Ã³Ò×32¼¶    V´¬Îë  12000000       --±ÈÀıµ÷Õû  
-Factory_Text[1711] = "Éú²ú´óĞÍÆì½¢ËùĞèÒªµÄ´óĞÍÎäÆ÷Åä¼ş¡£"
+Factory_Text[1700] = "Small caliber weapon parts processing line"  --20       
+Factory_Text[1701] = "Various spare parts necessary for the production of small-caliber weapons."
+Factory_Text[1705] = "Medium-sized weapon parts processing workshop"     
+Factory_Text[1706] = "Various spare parts necessary for the production of small-caliber weapons."
+Factory_Text[1710] = "=Large-scale weapon parts processing factory"       
+Factory_Text[1711] = "Large weapon parts needed to produce large flagships."
 
-Factory_Text[1800] = "³¬¿Õ¼äÄ£¿é"        --
-Factory_Text[1801] = "ÏûºÄ·´ÎïÖÊÄÜÁ¿ÔÚº½Ä¸ÖÜÎ§Éú³ÉÒ»¸ö´ó·¶Î§µÄÌøÔ¾Á¢³¡£¬Òıµ¼ÓÑ¾ü½¢¶Ó½øĞĞÌøÔ¾¡£"
+Factory_Text[1800] = "Hyperspace Module"        --
+Factory_Text[1801] = "Consume antimatter energy to generate a large jump stance around the carrier to guide friendly fleets to make the jump."
 
-Factory_Text[1850] = "¸ßĞ§ÄÜ·ÏË®´¦ÀíÉè±¸"        --23    --Ã³Ò×12¼¶       µÛ¹úÖ³ÃñµØ  50000       --±ÈÀıµ÷Õû 
-Factory_Text[1851] = "Ò»¸ö¸ßĞÔÄÜµÄ·ÏË®´¦ÀíÉèÊ©£¬¿ÉÒÔ¸ü¸ßĞ§µÄÑ­»·ÓÃË®£¬´Ó¶ø½ÚÔ¼³ö¸ü¶àµ­Ë®¸øÆäËûÉè±¸Ê¹ÓÃ¡£"
-Factory_Text[1860] = "Éú»îÀ¬»ø´¦ÀíÉèÊ©"        --24       --Ã³Ò×15¼¶        µÛ¹úÖ³ÃñµØ  20000      --±ÈÀıµ÷Õû
-Factory_Text[1861] = "Ò»ÖÖ¸ßĞ§ÄÜµÄÉú»îÀ¬»ø´¦ÀíÉè±¸£¬"
+Factory_Text[1850] = "High-efficiency wastewater treatment equipment"        
+Factory_Text[1851] = "A high-performance wastewater treatment facility can recycle water more efficiently, thus saving more fresh water for other facilities."
+Factory_Text[1860] = "Domestic waste treatment facilities"        
+Factory_Text[1861] = "A high-efficiency domestic waste treatment equipment."
 
-Factory_Text[1865] = "»ù´¡²¹¸øºÏ³ÉÉè±¸"        --25      --Ã³Ò×10¼¶       µÛ¹úÖ®ÃÅÃ³Ò×Õ¾  50000       --±ÈÀıµ÷Õû
-Factory_Text[1866] = "Ê¹ÓÃ»ù´¡µÄÊ³²ÄºÏ³É»ù´¡²¹¸ø¡£"
-Factory_Text[1870] = "µ¯Ò©¼Ó¹¤Éè±¸"        --26        --Ã³Ò×20¼¶        µÛ¹úÖ®ÃÅÆì½¢¼¯½áµØ   100000       --±ÈÀıµ÷Õû
-Factory_Text[1871] = "¿ÉÒÔ¼Ó¹¤¸÷ÖÖ¿Ú¾¶µÄµ¯Ò©ºÍÄÜÁ¿ÎäÆ÷×¨ÓÃµÄµ¯Ò©°ü¡£"
-Factory_Text[1875] = "ĞŞÀí²ÄÁÏÉú²úÉè±¸"        --27       --Ã³Ò×15¼¶      µÛ¹úÖ³ÃñµØ´¬Îë  200000       --±ÈÀıµ÷Õû
-Factory_Text[1876] = "Ê¹ÓÃ¸÷ÖÖ½ğÊôÔ­²ÄÁÏÀ´Éú²úĞŞ²¹²ÄÁÏ¡£"
+Factory_Text[1865] = "Basic replenishment synthesis equipment"        
+Factory_Text[1866] = "Use basic ingredients to synthesize basic supplies."
+Factory_Text[1870] = "Ammunition processing equipment"        
+Factory_Text[1871] = "Can process ammunition of various calibers and special kits for energy weapons."
+Factory_Text[1875] = "Repair material production equipment"        
+Factory_Text[1876] = "Use of various metal raw materials to produce repair materials."
 
-Factory_Text[1880] = "¸ß¼¶²¹¸øÆ·Éú²ú³µ¼ä"        --28     --Ã³Ò×25¼¶          µÛ¹úÖ®ÃÅÃ³Ò×Õ¾  100000    --±ÈÀıµ÷Õû
-Factory_Text[1881] = "Ê¹ÓÃÒ»Ğ©¸ß¼¶Ê³²ÄÀ´ÖÆ×÷»ù´¡²¹¸ø¡£"
-Factory_Text[1885] = "µ¯Ò©¼Ó¹¤Á÷Ë®Ïß"        --29          --Ã³Ò×35¼¶        µÛ¹úÇ°Ïß  200000    --±ÈÀıµ÷Õû
-Factory_Text[1886] = "¸ßĞ§ÂÊÉú²úµ¯Ò©µÄÁ÷Ë®Ïß¡£"  
-Factory_Text[1890] = "ĞŞÀí²ÄÁÏÉú²ú¹¤³§"        --30          --Ã³Ò×40¼¶       Ì¹ÄáË¹   400000    --±ÈÀıµ÷Õû
-Factory_Text[1891] = "¸ßĞ§ÂÊµÄÉú²úĞŞ²¹²ÄÁÏµÄ×Ô¶¯¹¤³§¡£"
-Factory_Text[1895] = "ÈËĞÎµçÄÔ×°Åä³§"        --31           --Ã³Ò×55¼¶     A»ùµØ     9000000   
-Factory_Text[1896] = "Éú²ú·ÆÑÅÀûÈË×îÈÈÖÔµÄÈËĞÎµçÄÔ£¬¾İËµÒ»Ì¨ÈËĞÎµçÄÔÏÖÔÚÔÚ·ÆÑÅÀû¿ÉÒÔÂôµ½ÊıÍòÒÔÉÏ¡£"
+Factory_Text[1880] = "Advanced supply production workshop"        
+Factory_Text[1881] = "Use some advanced ingredients to make basic supplies."
+Factory_Text[1885] = "Ammunition processing line"        
+Factory_Text[1886] = "Highly efficient production line for ammunition."  
+Factory_Text[1890] = "Repair material production plant"        
+Factory_Text[1891] = "Highly efficient automated plant for the production of repair materials."
+Factory_Text[1895] = "Humanoid computer assembly plant"        
+Factory_Text[1896] = "Producing the most popular humanoid computer among Fai'ri, it is said that a humanoid computer can now sell for tens of thousands of dollars or more in Fai'ri."
 
-Factory_Text[1900] = "´óĞÍ´¬Ìå×°Åä³§"        --32           --Ã³Ò×55¼¶     A»ùµØ     9000000   
-Factory_Text[1901] = "×é×°´óĞÍÕ½½¢ËùĞèµÄ´¬ÌåÅä¼ş¡£"
-Factory_Text[1905] = "´óĞÍµç×ÓÔª¼ş³§"        --33           --Ã³Ò×55¼¶     A»ùµØ     9000000   
-Factory_Text[1906] = "Éú²ú¸ß¼¶Éè±¸Ëù±ØĞëµÄ¸÷ÖÖµç×ÓÔª¼ş"
-Factory_Text[1910] = "´óĞÍÄ£¿é»¯¾Ó×¡Çø×°Åä³§"        --34           --Ã³Ò×55¼¶     A»ùµØ     9000000   
-Factory_Text[1911] = "×é×°ÖĞĞÍÄ£¿é»¯¾Ó×¡Çø²¢°²×°µ½¸÷ÖÖ´¬Ö»ÉÏ¡£"
-Factory_Text[1915] = "²ÖÊóÀÖÔ°"        --35           --Ã³Ò×55¼¶     A»ùµØ     9000000   
-Factory_Text[1916] = "ÈÃ²ÖÊó¿ìÀÖµÄ·±Ö³¡£"
+Factory_Text[1900] = "Large hull assembly plant"       
+Factory_Text[1901] = "Hull fittings needed to assemble large warships."
+Factory_Text[1905] = "Large electronic components factory"       
+Factory_Text[1906] = "Various electronic components necessary for the production of advanced equipment"
+Factory_Text[1910] = "Large-scale modular residential assembly plant"        
+Factory_Text[1911] = "Assembly of medium-sized modular habitats and installation on various vessels."
+Factory_Text[1915] = "Hamster Paradise"     
+Factory_Text[1916] = "Keeping hamsters happy with breeding."
 
 
-Factory_Text[1920] = "Ö³ÃñµØºËĞÄ¾Ó×¡Çø"        --36           --Ã³Ò×55¼¶     A»ùµØ     9000000   
-Factory_Text[1921] = "Ö³ÃñµØ¹¤ÈËÉú»îºÍ¾Ó×¡µÄ¿Õ¼ä"
-Factory_Text[1930] = "Ö³ÃñµØ¿óÊ¯²É¼¯Õ¾"        --37           --Ã³Ò×55¼¶     A»ùµØ     9000000   
-Factory_Text[1931] = "²É¼¯Õ¾ÖĞµÄ²É¿ó´¬»á²É¼¯ÖÜ±ßÇøÓòµÄ½ğÊô¿óÊ¯²¢ÔËÊä»ØÀ´"
-Factory_Text[1940] = "Ö³ÃñµØ¹ÈÎïÅ©³¡"        --38           --Ã³Ò×55¼¶     A»ùµØ     9000000   
-Factory_Text[1941] = "Ò»¸ö´óĞÍµÄ¹ÈÎïÅ©³¡£¬¿ÉÒÔÏûºÄÖ³ÃñµØµÄµ­Ë®×ÊÔ´£¬ÎªÖ³ÃñµØÌá¹©¹ÈÎï"
-Factory_Text[1950] = "Ö³ÃñµØ¾»Ë®´¦Àí³§"        --39           --Ã³Ò×55¼¶     A»ùµØ     9000000   
-Factory_Text[1951] = "Ê¹ÓÃ²É¼¯À´µÄ±ù¿óÊ¯¼Ó¹¤³É´¿¾»Ë®"
-Factory_Text[1960] = "Ö³ÃñµØÊ³Æ·¼Ó¹¤³§"        --40           --Ã³Ò×55¼¶     A»ùµØ     9000000   
-Factory_Text[1961] = "½«¸÷ÖÖÊ³²Ä¼Ó¹¤³ÉÖ³ÃñµØ¹¤ÈËËùĞèµÄÊ³Îï"
-Factory_Text[1970] = "Ö³ÃñµØ½ğÊôÒ±Á¶³§"        --41           --Ã³Ò×55¼¶     A»ùµØ     9000000   
-Factory_Text[1971] = "½«²É¼¯À´µÄ½ğÊô¿óÊ¯¿ª²É³ö¿óÊ¯"
-Factory_Text[1980] = "Ö³ÃñµØÄÜÔ´¹©Ó¦ÖĞĞÄ"        --42           --Ã³Ò×55¼¶     A»ùµØ     9000000   
-Factory_Text[1981] = "Ê¹ÓÃÄÜÔ´µç³ØÊÖ»úÌ«ÑôÄÜÀ´¹©Ó¦Ö³ÃñµØ·¢µç"
-Factory_Text[1990] = "Ö³ÃñµØ°²±£ÖĞĞÄ"        --43           --Ã³Ò×55¼¶     A»ùµØ     9000000   
-Factory_Text[1991] = "°²±£ÈËÔ±ÑµÁ·ºÍ¾Ó×¡µÄµØ·½"
-Factory_Text[2000] = "Ö³ÃñµØ±ù¿ó²É¼¯Õ¾"        --44           --Ã³Ò×55¼¶     A»ùµØ     9000000   
-Factory_Text[2001] = "ÅÉ³ö²É¿ó´¬¿ª²É±ù¿ó"
-Factory_Text[2010] = "Ö³ÃñµØµ¯Ò©¹¤³§"        --45           --Ã³Ò×55¼¶     A»ùµØ     9000000   
-Factory_Text[2011] = "Éú²úµ¯Ò©À´Âú×ãÖ³ÃñµØµÄÈÕ³£ÏûºÄ"
-Factory_Text[2020] = "Ö³ÃñµØÈÕÓÃÆ·¹¤³§"        --46           --Ã³Ò×55¼¶     A»ùµØ     9000000   
-Factory_Text[2021] = "Éú²úÈÕÓÃÆ·Âú×ãÖ³ÃñµØ¹¤ÈËµÄĞèÒª"
-Factory_Text[2030] = "Ö³ÃñÄÁ³¡"        --47           --Ã³Ò×55¼¶     A»ùµØ     9000000   
-Factory_Text[2031] = "ÏûºÄ¹ÈÎïÎ¹Ñø¸÷ÖÖÉüĞó£¬²¢Éú²úÈâÀà"
+Factory_Text[1920] = "Colonial core residential area"        
+Factory_Text[1921] = "Space for colonial workers to live and dwell"
+Factory_Text[1930] = "Colony Ore Collection Station"       
+Factory_Text[1931] = "Mining ships in the collecting station will collect metal ores from the surrounding area and transport them back"
+Factory_Text[1940] = "Colonial Grain Farm"        
+Factory_Text[1941] = "A large grain farm that consumes the colony's fresh water resources to provide the colony with grain"
+Factory_Text[1950] = "Colonial Water Purification and Treatment Plant"        
+Factory_Text[1951] = "Use of collected ice ore to process pure water"
+Factory_Text[1960] = "Colonial Food Processing Plant"        
+Factory_Text[1961] = "Processing various ingredients into the food needed by the workers in the colony"
+Factory_Text[1970] = "Colonial metal smelters"        
+Factory_Text[1971] = "Mining the collected metal ore out of the ore"
+Factory_Text[1980] = "Colonial Energy Supply Center"       
+Factory_Text[1981] = "Use energy battery cellular solar power to supply the colony with electricity"
+Factory_Text[1990] = "Colonial Security Center"        
+Factory_Text[1991] = "A place for security personnel to train and live"
+Factory_Text[2000] = "Colonial ice mining collection station"        
+Factory_Text[2001] = "Sending out mining ships for ice mining"
+Factory_Text[2010] = "Colonial Ammunition Factory"       
+Factory_Text[2011] = "Produce ammunition to meet the daily consumption of the colony"
+Factory_Text[2020] = "Colonial Daily Goods Factory"          
+Factory_Text[2021] = "Production of daily necessities to meet the needs of colonial workers"
+Factory_Text[2030] = "Colonial Ranch"         
+Factory_Text[2031] = "Consumption of grain to feed various livestock."
 
 
 
@@ -3601,46 +3608,43 @@ Factory_Text[2031] = "ÏûºÄ¹ÈÎïÎ¹Ñø¸÷ÖÖÉüĞó£¬²¢Éú²úÈâÀà"
 
 
 camp_Text = {}
-camp_Text[70015] = "·ÆÑÅÀûÉÌÈË"
-camp_Text[70020] = "·ÆÑÅÀûÉÌÒµÉèÊ©"
-camp_Text[70025] = "Ã³Ò×´¬¶Ó"
-camp_Text[70030] = "·ÆÑÅÀû½¢¶Ó"
-camp_Text[70035] = "Î¬¸ñ¶û½¢¶Ó"
-camp_Text[70040] = "·ÆÑÅÀûµÛ¹ú"
-camp_Text[70045] = "Ï£¸ñÀ­½¢¶Ó"
-camp_Text[70050] = "°£ºÕÂåË¹¼ÎµÂ½¢¶Ó"
-camp_Text[70055] = "Ì©ÍßÂ×¹²ºÍ¹ú½¢¶Ó"
-camp_Text[70060] = "¹éÏçÕß½¢¶Ó"
-camp_Text[70065] = "ÑÇ»ùÄÉ´Ä³æ×å"
-camp_Text[70070] = "Î¬¿Ï.Ä©ÊÀµÄÅÑ¾ü½¢¶Ó"
-camp_Text[70075] = "Ï£¸ñÀ­·ÆÑÅÀûÁª¾ü½¢¶Ó "  
-camp_Text[70080] = "Ê§¿ØµÄÏÈ×æ½¢¶Ó "
-camp_Text[70085] = "ËÀÁ­º£µÁÍÅ"
-camp_Text[70090] = "Í¼À­Äáº£µÁ"
-camp_Text[70095] = "¿¨µÂÊ²½¢¶Ó"
-camp_Text[70500] = "Ï£¸ñÀ­Ê×ĞÇ·ÀÓùÕ½"
-camp_Text[70505] = "ÉñÚÍÖ®µØ·ÀÓùÕ½"
-camp_Text[70510] = "Ë®¾§Ìå·ÀÓùÕ½"
-camp_Text[70515] = "Ñı¾«ÖØ¹¤"
-camp_Text[70520] = "Ã³Ò×ÉÌ»á"
-camp_Text[70530] = "1v7Éú´æµØÍ¼"
-camp_Text[70535] = "Ë®¾§Ìå"
-camp_Text[70540] = "·ÆÑÅÀûÉÌÈË"
-camp_Text[70545] = "Î¬¸ñ¶û¾ü·§"
-camp_Text[70550] = "Ï£¸ñÀ­Ö¸»Ó¹Ù"
-camp_Text[70555] = "°£ºÕÂåË¹¼ÎµÂ½¢¶ÓÖ¸»Ó¹Ù"
-camp_Text[70560] = "Ì©ÍßÂ×Ö¸»Ó¹Ù"
-camp_Text[70565] = "Ì«¿Õº£µÁ"
-camp_Text[70570] = "³¯Ê¥Õß"
-camp_Text[70575] = "³¯Ê¥ÕßĞÅÍ½"
-camp_Text[70580] = "¶«Ïß¾ü·§"
-camp_Text[70585] = "Äª¶ûµÏ»ù°²´ó¾ı"
-camp_Text[70590] = "¿¨¶òË¹ÁªÃË"
-camp_Text[70595] = "×·ÒäÖ®Í¥"
-camp_Text[70600] = "ÓÄÁé½¢¶Ó"
-camp_Text[70605] = "°¢ÒòÌØË¹½¢¶Ó"
-camp_Text[70610] = "ÒÏ³²½¢¶Ó"
-camp_Text[70615] = "¾µ"
-
-----------------------
-
+camp_Text[70015] = "Fai'ri businessmen"
+camp_Text[70020] = "Fai'ri commercial facilities"
+camp_Text[70025] = "Merchant fleet"
+camp_Text[70030] = "Fai'ri fleet"
+camp_Text[70035] = "Vaygr fleet"
+camp_Text[70040] = "Fai'ri Empire"
+camp_Text[70045] = "Hiigara fleet"
+camp_Text[70050] = "Alos fleet"
+camp_Text[70055] = " Taidanian Republic fleet"
+camp_Text[70060] = "Homeward Bound fleet"
+camp_Text[70065] = "Yakinac insectoid race"
+camp_Text[70070] = "Viken. The rebel fleet of the end times"
+camp_Text[70075] = "Hiigarafiyali allied fleet "  
+camp_Text[70080] = "runaway ancestral fleet "
+camp_Text[70085] = "Deathscythe Pirates"
+camp_Text[70090] = "Turani pirates"
+camp_Text[70095] = "Kadesh Fleet"
+camp_Text[70500] = "Defense of Hiigara Prime"
+camp_Text[70505] = "Defense of the Oracle Lands"
+camp_Text[70510] = "Defense of the crystal body"
+camp_Text[70515] = "Fai'ri heavy industry"
+camp_Text[70520] = "Chamber of Commerce"
+camp_Text[70530] = "1v7 survival map"
+camp_Text[70535] = "crystal body"
+camp_Text[70540] = "Fai'ri merchant"
+camp_Text[70545] = "Vaygr Warlord"
+camp_Text[70550] = "Hiigara commander"
+camp_Text[70555] = "commander of the Alos fleet"
+camp_Text[70560] = "Commander of the  Taidan"
+camp_Text[70565] = "Space pirate"
+camp_Text[70570] = "Pilgrim"
+camp_Text[70575] = "pilgrim believers"
+camp_Text[70580] = "warlord of the eastern front"
+camp_Text[70585] = "Mordiggian maharajah"
+camp_Text[70590] = "Alliance of Caius"
+camp_Text[70595] = "Court of Remembrance"
+camp_Text[70600] = "Ghost Fleet"
+camp_Text[70605] = "The fleet of Ayntes"
+camp_Text[70610] = "Fleet of Aintes"
+camp_Text[70615] = "Mirror"
