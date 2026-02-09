@@ -4,6 +4,6 @@
 Mission_Text = {}
 
 Mission_Text[1] = function(text1,text2,text3)
-	local iText="你的舰队工程力为"..text1..".一共发现了"..text2.."单位的各类物资,是否要继续打捞？目前的打捞次数为"..text3.."次"
+	local iText="Your fleet's engineering capacity is "..text1..". Found a total of "..text2.." resources, should we continue the salvage operation? The current number of salvage operations is "..text3..""
 	return iText
 end
