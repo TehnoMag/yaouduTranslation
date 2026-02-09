@@ -13,18 +13,18 @@ Locale_Text = {}
 ------------------------------------------------------		
 --战列舰科技--
 
-Locale_Text[6001] = "巨型战列舰船体"
-Locale_Text[6002] = "自行研发的放逐级战列舰的船体机架，允许建造巨大的放逐级战列舰"
-Locale_Text[6003] = "战列舰机架"
+Locale_Text[6001] = "giant battleship hull"
+Locale_Text[6002] = "Self-developed hull racks for Exile-class battleships, allowing the construction of huge Exile-class battleships"
+Locale_Text[6003] = "battleship rack"
 
 
-Locale_Text[6101] = "贸易盟友援助计划"
-Locale_Text[6102] = "花费大量资源和代价，召唤盟军的旗舰加入战斗"
-Locale_Text[6103] = "旗舰级战舰召唤"
+Locale_Text[6101] = "Trade Ally Assistance Program"
+Locale_Text[6102] = "Spend a lot of resources and cost to summon the flagship of the allied army to join the battle"
+Locale_Text[6103] = "Flagship Battleship Call"
 
-Locale_Text[6201] = "无畏舰科技"
-Locale_Text[6202] = "研发一种可以支持大功率能源消耗的巨型核融合炉，允许建造壁垒级无畏舰"
-Locale_Text[6203] = "旗舰级核融合炉"
+Locale_Text[6201] = "Dreadnought Technology"
+Locale_Text[6202] = "Develop a giant nuclear fusion furnace that can support high-power energy consumption, allowing the construction of a barrier-class dreadnought"
+Locale_Text[6203] = "Flagship Fusion Furnace"
 
 
 ------------------------------------------------------		
@@ -33,24 +33,24 @@ Locale_Text[6203] = "旗舰级核融合炉"
 ------------------------------------------------------		
 --平台科技--
 
-Locale_Text[7001] = "希格拉炮塔机架"
-Locale_Text[7002] = "用希格拉人提供的技术部署一系列小型防御平台"
-Locale_Text[7003] = "平台科技"
+Locale_Text[7001] = "Hiigara Turret Rack"
+Locale_Text[7002] = "Deploy a series of small defense platforms using technology provided by the Hiigarans"
+Locale_Text[7003] = "platform technology"
 
-Locale_Text[7101] = "平台装甲科技"
-Locale_Text[7102] = "换装先进的高级复合装甲提升防御力"
-Locale_Text[7103] = "平台1级装甲科技"
-Locale_Text[7104] = "平台2级装甲科技"
-Locale_Text[7105] = "平台3级装甲科技"
+Locale_Text[7101] = "Platform Armor Technology"
+Locale_Text[7102] = "Change into advanced advanced composite armor to improve defense"
+Locale_Text[7103] = "Platform Level 1 Armor Technology"
+Locale_Text[7104] = "Platform Level 2 Armor Technology"
+Locale_Text[7105] = "Platform Level 2 Armor Technology"
 
-Locale_Text[7111] = "平台自我修复科技"
-Locale_Text[7112] = "升级船内的损管设备,加快受损时的修复速度"
-Locale_Text[7113] = "平台修复速度提升1"
-Locale_Text[7114] = "平台修复速度提升2"
-Locale_Text[7115] = "平台修复速度提升3"
+Locale_Text[7111] = "Platform self-healing technology"
+Locale_Text[7112] = "Upgrade the damage control equipment in the ship to speed up the repair speed when damaged"
+Locale_Text[7113] = "Platform repair speed increased by 1"
+Locale_Text[7114] = "Platform repair speed increased by 2"
+Locale_Text[7115] = "Platform repair speed increased by 3"
 
-Locale_Text[7500] = "重型防御平台科技"
-Locale_Text[7501] = "一种可以抵抗大规模舰队攻击的重型鱼雷防御平台"
-Locale_Text[7502] = "重型防御平台机架"
+Locale_Text[7500] = "Heavy Defense Platform Technology"
+Locale_Text[7501] = "A Heavy Torpedo Defense Platform That Can Resist Massive Fleet Attacks"
+Locale_Text[7502] = "Heavy Defense Platform Rack"
 
 ------------------------------------------------------		

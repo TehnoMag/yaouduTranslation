@@ -13,33 +13,33 @@ Locale_Text = {}
 ------------------------------------------------------		
 --战列舰科技--
 
-Locale_Text[290] = "战列舰科技"
-Locale_Text[291] = "建造性能优秀的主教级战列舰"
-Locale_Text[292] = "战列舰机架"
-Locale_Text[293] = "升级主力舰的装甲"
-Locale_Text[294] = "主力舰装甲升级1"
-Locale_Text[295] = "主力舰装甲升级2"
-Locale_Text[296] = "升级主力舰的火力"
-Locale_Text[297] = "主力舰火力升级1"
-Locale_Text[298] = "主力舰火力升级2"
-Locale_Text[300] = "主力舰装甲升级3"
-Locale_Text[301] = "主力舰装甲升级4"
-Locale_Text[305] = "主力舰火力升级3"
-Locale_Text[306] = "主力舰火力升级4"
+Locale_Text[290] = "Battleship Technology"
+Locale_Text[291] = "Build Bishop-class battleships with excellent performance"
+Locale_Text[292] = "Battleship racks"
+Locale_Text[293] = "Upgrade the armor of the battleship"
+Locale_Text[294] = "Upgrade battleship armor 1"
+Locale_Text[295] = "battleship armor upgrade 2"
+Locale_Text[296] = "Upgrade firepower of battleship"
+Locale_Text[297] = "Upgrade battleship firepower 1"
+Locale_Text[298] = "Battleship firepower upgrade 2"
+Locale_Text[300] = "Battleship armor upgrade 3"
+Locale_Text[301] = "Battleship armor upgrade 4"
+Locale_Text[305] = "Battleship firepower upgrade 3"
+Locale_Text[306] = "Battleship firepower upgrade 4"
 
-Locale_Text[6001] = "巨型战列舰船体"
-Locale_Text[6002] = "自行研发的放逐级战列舰的船体机架，允许建造强大的帕拉丁级战列舰"
-Locale_Text[6003] = "战列舰机架"
-
-
-Locale_Text[6101] = "无畏舰召唤科技"
-Locale_Text[6102] = "召唤缴获来的维格尔无畏舰进入战场"
-Locale_Text[6103] = "旗舰级战舰召唤"
+Locale_Text[6001] = "Mega battleship hull"
+Locale_Text[6002] = "Self-developed hull rack for Exile-class battleships, allowing construction of powerful Paladin-class battleships"
+Locale_Text[6003] = "Battleship rack"
 
 
-Locale_Text[6105] = "泰坦母舰机架"
-Locale_Text[6106] = "强化泰坦母舰的机架，让其可以搭载先进强大的武器系统进行战斗。"
-Locale_Text[6107] = "旗舰级战舰召唤"
+Locale_Text[6101] = "Dreadnought summoning technology"
+Locale_Text[6102] = "Summon captured Vaygr dreadnoughts into battle"
+Locale_Text[6103] = "Summon flagship class warships"
+
+
+Locale_Text[6105] = "Titan mothership rack"
+Locale_Text[6106] = "Strengthen the Titan Mothership's rack to allow it to carry advanced and powerful weapons systems into battle."
+Locale_Text[6107] = "Flagship-class warship summoning"
 
 ------------------------------------------------------		
 
@@ -47,24 +47,24 @@ Locale_Text[6107] = "旗舰级战舰召唤"
 ------------------------------------------------------		
 --平台科技--
 
-Locale_Text[7001] = "维格尔炮塔机架"
-Locale_Text[7002] = "用维格尔人提供的技术部署一系列小型防御平台"
-Locale_Text[7003] = "平台科技"
+Locale_Text[7001] = "Vaygr turret racks"
+Locale_Text[7002] = "Deploy a series of small defense platforms with technology provided by the Vaygr"
+Locale_Text[7003] = "Platform technology"
 
-Locale_Text[7101] = "平台装甲科技"
-Locale_Text[7102] = "换装先进的高级复合装甲提升防御力"
-Locale_Text[7103] = "平台1级装甲科技"
-Locale_Text[7104] = "平台2级装甲科技"
-Locale_Text[7105] = "平台3级装甲科技"
+Locale_Text[7101] = "Platform armor technology"
+Locale_Text[7102] = "Dress up with advanced composite armor to boost defenses"
+Locale_Text[7103] = "Platform level 1 armor technology"
+Locale_Text[7104] = "Platform 2 armor technology"
+Locale_Text[7105] = "Platform level 3 armor technology"
 
-Locale_Text[7111] = "平台自我修复科技"
-Locale_Text[7112] = "升级船内的损管设备,加快受损时的修复速度"
-Locale_Text[7113] = "平台修复速度提升1"
-Locale_Text[7114] = "平台修复速度提升2"
-Locale_Text[7115] = "平台修复速度提升3"
+Locale_Text[7111] = "Platform self-repair technology"
+Locale_Text[7112] = "Upgrade the ship's damage control equipment to speed up repair when damaged"
+Locale_Text[7113] = "Platform repair speed increased by 1"
+Locale_Text[7114] = "Increase platform repair speed by 2"
+Locale_Text[7115] = "Platform repair speed increase 3"
 
-Locale_Text[7500] = "重型防御平台科技"
-Locale_Text[7501] = "一种可以抵抗大规模舰队攻击的重型导弹防御平台"
-Locale_Text[7502] = "重型防御平台机架"
+Locale_Text[7500] = "Heavy defense platform tech"
+Locale_Text[7501] = "A heavy missile defense platform that can withstand massive fleet attacks"
+Locale_Text[7502] = "Heavy defense platform racks"
 
 ------------------------------------------------------		

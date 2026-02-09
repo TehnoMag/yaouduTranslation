@@ -2,266 +2,267 @@ Locale_Text = {}
 
 
 
-Locale_Text[100] = "×ÊÔ´¾«Á¶´¬×ÊÔ´ºÏ³É²úÁ¿Ôö¼Ó"
-Locale_Text[101] = "Ôö¼Ó¾«Á¶´¬×ÊÔ´ºÏ³ÉµÄ²úÁ¿"
-Locale_Text[102] = "×ÊÔ´¾«Á¶´¬×ÊÔ´ºÏ³É²úÁ¿Ôö¼Ó1"
-Locale_Text[103] = "×ÊÔ´¾«Á¶´¬×ÊÔ´ºÏ³É²úÁ¿Ôö¼Ó2"
-Locale_Text[104] = "×ÊÔ´¾«Á¶´¬×ÊÔ´ºÏ³É²úÁ¿Ôö¼Ó3"
-Locale_Text[105] = "×ÊÔ´¾«Á¶´¬×ÊÔ´ºÏ³É²úÁ¿Ôö¼Ó4"
-Locale_Text[106] = "×ÊÔ´¾«Á¶´¬×ÊÔ´ºÏ³É²úÁ¿Ôö¼Ó5"
-Locale_Text[107] = "×ÊÔ´¾«Á¶´¬×ÊÔ´ºÏ³É²úÁ¿Ôö¼Ó6"
-Locale_Text[108] = "×ÊÔ´¾«Á¶´¬×ÊÔ´ºÏ³É²úÁ¿Ôö¼Ó7"
-Locale_Text[109] = "×ÊÔ´¾«Á¶´¬×ÊÔ´ºÏ³É²úÁ¿Ôö¼Ó8"
-Locale_Text[110] = "×ÊÔ´¾«Á¶´¬×ÊÔ´ºÏ³É²úÁ¿Ôö¼Ó9"
-Locale_Text[111] = "×ÊÔ´¾«Á¶´¬×ÊÔ´ºÏ³É²úÁ¿Ôö¼Ó10"
+Locale_Text[100] = "Increased resource synthesis yield for resource refining ships"
+Locale_Text[101] = "Increase resource refining ship resource synthesis yield"
+Locale_Text[102] = "Increase resource refining ship resource synthesis yield by 1"
+Locale_Text[103] = "Increase resource refining ship resource synthesis yield by 2"
+Locale_Text[104] = "Resource refining ship resource synthesis production increased by 3"
+Locale_Text[105] = "Resource refining ship resource synthesis yield increased by 4"
+Locale_Text[106] = "Resource refining ship resource synthesis yield increased by 5"
+Locale_Text[107] = "Resource refining ship resource synthesis yield increased by 6"
+Locale_Text[108] = "Resource refining ship resource synthesis yield increased by 7"
+Locale_Text[109] = "Resource refining ship resource synthesis yield increased by 8"
+Locale_Text[110] = "Resource refining ship resource synthesis yield increased by 9"
+Locale_Text[111] = "Resource refining ship resource synthesis yield increased by 10"
 
 
-Locale_Text[200] = "Æì½¢¿Æ¼¼"
-Locale_Text[201] = "ÕÙ»½×îĞÂÈñµÄÖØĞÍ¼¤¹âÕ½ÁĞ½¢Ç°À´²ÎÕ½"
-Locale_Text[202] = "ÖØĞÍ¼¤¹âÕ½ÁĞ½¢¿Æ¼¼"
+Locale_Text[200] = "Flagship technology"
+Locale_Text[201] = "Summon the newest heavy laser battleships to the battle"
+Locale_Text[202] = "Heavy laser battleship technology"
 
-Locale_Text[210] = "ÕÙ»½Ò»ÖÖ×°±¸ÁËºìÁ«±¤Àİ¼¶·Éµ¯µÄ¾ŞĞÍÎŞÎ·½¢Ç°À´Õ½¶·"
-Locale_Text[211] = "µ¼µ¯ÎŞÎ·½¢¿Æ¼¼"
+Locale_Text[210] = "Summon a giant dreadnought equipped with Red Lotus Fortress-class missiles to battle"
+Locale_Text[211] = "Missile dreadnought technology"
 
-Locale_Text[220] = "ÕÙ»½Âí¿¨¶÷Ö®Å­¼¶Õ½Õù±¤ÀİÖ§Ô®Õ½¶·"
-Locale_Text[221] = "Âí¿¨¶÷Ö®Å­¼¶Õ½Õù±¤Àİ"
+Locale_Text[220] = "Summon a Makarn's Wrath-class war fortress to support the battle"
+Locale_Text[221] = "Makarn's Wrath War Fortress"
 
 
 
 
 
-Locale_Text[230] = "»¤ÎÀ½¢¿Æ¼¼"
-Locale_Text[231] = "ÔÊĞíÕÙ»½¸üÏÈ½øµÄ»¤ÎÀ½¢£¬Âú×ã¸÷ÖÖÕ½ÊõÈÎÎñ"
-Locale_Text[232] = "ÏÈ½ø»¤ÎÀ½¢¿Æ¼¼"
+Locale_Text[230] = "Frigate technology"
+Locale_Text[231] = "Allows to summon more advanced frigates for various tactical missions"
+Locale_Text[232] = "Advanced frigate technology"
 
 
 
-Locale_Text[240] = "»¤ÎÀ½¢×°±¸µÄÒ»ÖÖ¸ßÄÜµÄ¼¤¹âÊø·¢ÉúÆ÷£¬ÓÃÀ´ËºÁÑ×°¼×"
-Locale_Text[241] = "»¤ÎÀ½¢¸ßÄÜ¼¤¹âÊø·¢ÉúÆ÷"
+Locale_Text[240] = "A high-energy laser beam generator equipped by frigates to rip through armor"
+Locale_Text[241] = "Frigate high-energy laser beam generator"
 
 
-Locale_Text[245] = "ÎªÍ»Ï®½¢»»×°¼¤¹âµ¯ÅÚËş,½«ÆäÉı¼¶Îª·´½¢ÓÃµÄ¿ìËÙÍ»»÷½¢"
-Locale_Text[246] = "Í»Ï®½¢ËÙÉä¼¤¹âµ¯ÅÚËş"
+Locale_Text[245] = "Upgrade raid ships with laser turrets to fast raid ships for anti-ship use"
+Locale_Text[246] = "Rapid-fire laser turrets for raid ships"
 
 
 
-Locale_Text[250] = "Ö÷Á¦½¢¿Æ¼¼"
-Locale_Text[260] = "ºÍÕâÖÖ¸ßĞÔÄÜ·À¿Õµ¼µ¯ÅäÌ×µÄ»¹ÓĞ¸ß¼¶µÄÀ×´ïÌ½²âÏµÍ³,¿ÉÒÔ¿ªÆô·À¿Õµ¼µ¯ÇıÖğ½¢µÄ½¨ÔìÑ¡Ïî"
-Locale_Text[261] = "ÇıÖğ½¢·À¿Õµ¼µ¯"
-Locale_Text[265] = "ÑĞ¾¿Ò»ÖÖÇ¿´óµÄ¼¤¹âÎäÆ÷ÏµÍ³,ÓÃÀ´×°±¸ÔÚ¶À½ÇÊŞ¼¶ÖØĞÎ¼¤¹âÑ²Ñó½¢ÉÏ"
-Locale_Text[266] = "Ñ²Ñó½¢¸ßÄÜ¼¤¹âÎäÆ÷"
+Locale_Text[250] = "battleship technology"
+Locale_Text[260] = "This high performance anti-aircraft missile is accompanied by an advanced radar detection system, which opens the option to build anti-aircraft missile destroyers"
+Locale_Text[261] = "destroyer anti-aircraft missiles"
+Locale_Text[265] = "research a powerful laser weapon system to be equipped on Unicorn-class heavy laser cruisers"
+Locale_Text[266] = "Cruiser high-energy laser weapon"
 
-Locale_Text[270] = "½«ÏÖÓĞµÄº½Ä¸Ç¿»¯Îä×°£¬ÈÃËü³ÉÎªÒ»ÖÖ¿ÉÅÂµÄÕ½¶·ÎäÆ÷"
-Locale_Text[271] = "º½Ä¸Ç¿»¯Îä×°"
-Locale_Text[275] = "Ò»ÖÖ¹¥·ÀÄÜÁ¦½ÏÈõ,µ«ÊÇÓµÓĞ¼«¸ßÉú²úĞÍµÄÁ¿²úĞÍÑ²Ñó½¢"
-Locale_Text[276] = "ÇáĞÍÑ²Ñó½¢»ú¼Ü"
+Locale_Text[270] = "Arm existing carriers with enhancements to make it a formidable combat weapon"
+Locale_Text[271] = "Arm the carriers intensively"
+Locale_Text[275] = "A mass-produced cruiser with weak offensive and defensive capabilities, but with a very high production rate"
+Locale_Text[276] = "Light cruiser frame"
 
-Locale_Text[280] = "Éı¼¶ËùÓĞÖ÷Á¦½¢ÄÚµÄËğ¹ÜÉè±¸,¼Ó¿ìÊÜËğÊ±µÄĞŞ¸´ËÙ¶È"
-Locale_Text[281] = "Ö÷Á¦½¢ĞŞ¸´ËÙ¶ÈÌáÉı1"
-Locale_Text[282] = "Ö÷Á¦½¢ĞŞ¸´ËÙ¶ÈÌáÉı2"
-Locale_Text[283] = "Ö÷Á¦½¢ĞŞ¸´ËÙ¶ÈÌáÉı3"
+Locale_Text[280] = "Upgrade damage control equipment in all battleships to speed up repair when damaged"
+Locale_Text[281] = "Battleship repair speed increased by 1"
+Locale_Text[282] = "battleship repair speed increased by 2"
+Locale_Text[283] = "battleship repair speed increase 3"
 
 
-Locale_Text[290] = "ºÄ·Ñ´óÁ¿µÄ×ÊÔ´½«ËùÓĞÖ÷Á¦½¢µÄ×°¼×½øĞĞ¸ü½øÒ»²½µÄÇ¿»¯"
-Locale_Text[291] = "Ö÷Á¦½¢×°¼×È«ÃæÇ¿»¯"
+Locale_Text[290] = "Spend a lot of resources to strengthen the armor of all battleships even more"
+Locale_Text[291] = "Battleship armor fully strengthened"
 
-Locale_Text[300] = "Îªµ¼µ¯Æ½Ì¨»»×°ĞÂĞÍµÄ¸ßĞÔÄÜµÄÆÆ¼×µ¯Í··Éµ¯,ÈÃÕâÖÖÅÚËş¶Ô´óĞÍÕ½½¢Ôì³ÉÓĞĞ§ÉËº¦"
-Locale_Text[301] = "µ¼µ¯Æ½Ì¨ÆÆ¼×µ¯Í·ÎäÆ÷"
-Locale_Text[303] = "ÓµÓĞºñÖØ×°¼×µÄÖØĞÍµ¼µ¯·ÀÓùÆ½Ì¨£¬¿ÉÒÔÇáËÉµÄµÍµµµĞÈËÖ÷Á¦½¢µÄ½ø¹¥"
-Locale_Text[304] = "ÖØĞÍµ¼µ¯·ÀÓùÆ½Ì¨¿Æ¼¼"
+Locale_Text[300] = "equip missile platforms with new high-performance warhead missiles, allowing such turrets to deal effective damage to large warships"
+Locale_Text[301] = "missile platform armor-breaking warhead weapons"
+Locale_Text[303] = "heavy missile defense platform with heavy armor, can easily undercut the enemy's battleship attack"
+Locale_Text[304] = "Heavy missile defense platform technology"
 
-Locale_Text[305] = "Ò»ÖÖµÍ³É±¾ĞÍµÄÖØ×°¼×Õ½ÁĞÑ²Ñó½¢"
-Locale_Text[306] = "Ç¿»¯ĞÍÕ½ÁĞÑ²Ñó½¢»ú¼Ü"
+Locale_Text[305] = "A low-cost type of heavily armored battlecruiser"
+Locale_Text[306] = "A reinforced battlecruiser rack"
 
 
-Locale_Text[310] = "»¤º½Í§¿Æ¼¼"
-Locale_Text[311] = "Ò»ÖÖÌØ±ğ¸Ä×°µÄÖØĞÍÂö³åÍ§£¬×¨ÃÅÓÃÀ´ÇıÖğÍ¬¼¶±ğµÄÅÚÍ§µ¥Î»"
-Locale_Text[312] = "×°¼×Âö³åÍ§"
+Locale_Text[310] = "Escort boat technology"
+Locale_Text[311] = "A specially modified heavy pulse boat designed to destroy gunboat units of the same class"
+Locale_Text[312] = "armored pulse boat"
 
 
-Locale_Text[320] = "¾«Ó¢Õ½ÁĞ½¢¿Æ¼¼"
-Locale_Text[321] = "ÑªÈĞ¼¶Õ½ÁĞ½¢µÄÉı¼¶°æ£¬Ò»ÖÖÓµÓĞÏÈ½ø¼¤¹âÎäÆ÷µÄ³¬¼¶Õ½½¢"
-Locale_Text[322] = "¾«Ó¢Õ½ÁĞ½¢"
+Locale_Text[320] = "Elite battleship technology"
+Locale_Text[321] = "An upgraded version of the Bloodblade class battleship, a super battleship with advanced laser weapons"
+Locale_Text[322] = "elite battleship"
 
-Locale_Text[400] = "¾ü±¸¿Æ¼¼"
-Locale_Text[401] = "½âËøÒ»Ğ©¸ßĞÔÄÜÖ÷Á¦½¢µÄ½¨Ôì£¬ÈÃÖ¸»Ó¹Ù¿ÉÒÔÕÙ»½¸üÏÈ½øµÄÕ½½¢¼ÓÈëÕ½¶·"
-Locale_Text[402] = "³õ¼¶¾ü±¸¿Æ¼¼"
-Locale_Text[403] = "ÖĞ¼¶¾ü±¸¿Æ¼¼"
-Locale_Text[404] = "¸ß¼¶¾ü±¸¿Æ¼¼"
+Locale_Text[400] = "Armament technology"
+Locale_Text[401] = "Unlocks the construction of a number of high performance starter ships, allowing commanders to call upon more advanced warships to join the battle"
+Locale_Text[402] = "Primary Armament Technology"
+Locale_Text[403] = "Intermediate Armament Technology"
+Locale_Text[404] = "Advanced armament technology"
 
 
 
 
-Locale_Text[405] = "×°±¸ÁË¸ßĞÔÄÜÍ¨ÓÃ·´½¢µ¼µ¯µÄĞ¡ĞÍÕ½½¢"
-Locale_Text[406] = "µ¼µ¯Í»»÷½¢ÏµÍ³"
+Locale_Text[405] = "Small warships equipped with high performance general purpose anti-ship missiles"
+Locale_Text[406] = "missile assault ship system"
 
 
-Locale_Text[410] = "ÕÙ»½Âí¿¨¶÷Ö®Å­¼¶Õ½Õù±¤ÀİÖ§Ô®Õ½¶·"
-Locale_Text[411] = "¼ÓÇ¿ĞÍ¾Ş½¢¹Ç¼Ü"
+Locale_Text[410] = "Summon Makarn's Wrath-class war fortress to support the battle"
+Locale_Text[411] = "Enhanced megaship skeleton"
 
-Locale_Text[414] = "±¤Àİ¼¶¾Ş½£¿Æ¼¼"
-Locale_Text[415] = "½«Âí¿¨¶÷Ö®Å­¼¶Õ½Õù±¤Àİ¸ÄÔì³ÉÒ»×ùº½¿ÕĞÍÕ½Õù±¤Àİ"
-Locale_Text[416] = "¸Ä×°ĞÍ±¤Àİ½¢ÔØ»ú¿â"
+Locale_Text[414] = "Fortress-class megasaber technology"
+Locale_Text[415] = "Transform the Makarn's Wrath class war fortress into an airborne war fortress"
+Locale_Text[416] = "Converted Fortress shipboard hangar"
 
-Locale_Text[420] = "¿ÉÒÔÖÆÔìÑ²Ñó½¢¼¶µÄºìÁ«µ¼µ¯·¢Éä´¬"
-Locale_Text[421] = "Ñ²Ñó½¢¼¶ºìÁ«µ¼µ¯·¢Éä×°ÖÃ"
+Locale_Text[420] = "Can build cruiser-class Red Lotus missile launchers"
+Locale_Text[421] = "Cruiser-class Red Lotus missile launcher"
 
 
-Locale_Text[430] = "¿ÉÒÔÖÆÔìË«ÌåĞÍÕ½ÁĞÑ²Ñó½¢"
-Locale_Text[431] = "Ë«ÌåĞÍÕ½ÁĞÑ²Ñó½¢»ú¼Ü"
+Locale_Text[430] = "Can build catamaran-class battlecruisers"
+Locale_Text[431] = "Twin-hulled battlecruiser racks"
 
 
-Locale_Text[440] = "ÕÙ»½µÚÈı´úÂí¿¨¶÷Ö®Å­¼¶Õ½Õù±¤ÀİÖ§Ô®Õ½¶·"
-Locale_Text[441] = "³¬¼¶¼ÓÇ¿ĞÍ¾Ş½¢¹Ç¼Ü"
+Locale_Text[440] = "Summon third-generation Makarn's Wrath-class war fortress to support battles"
+Locale_Text[441] = "Super reinforced megaship skeleton"
 
 
-Locale_Text[450] = "¿ÉÒÔ½¨Ôì¼ßÃğĞÍÑªÈĞ¼¶Õ½ÁĞ½¢"
-Locale_Text[451] = "³¬¼¶·À¿Õ¼¤¹â·¢ÉäÆ÷"
+Locale_Text[450] = "Can build annihilating Bloodblade-class battleships"
+Locale_Text[451] = "Super anti-aircraft laser launcher"
 
-Locale_Text[460] = "´òÀÌÕ½³¡ÉÏµÄ·ÆÑÅÀû¹¤³Ì½¢²Ğº¡£¬·ÖÎöÆäĞŞÀí¼¼Êõ£¬¿ÉÒÔ½¨Ôì¹¤³Ì»¤ÎÀ½¢ºÍ´ó¾ıÍÚÃº´¬"
-Locale_Text[461] = "¹¤³ÌĞŞÀíÏµÍ³´òÀÌ·ÖÎö"
+Locale_Text[460] = "Salvage the wreckage of the Fai'ri engineering ship from the battlefield and analyze its repair technology, allowing the construction of engineering frigates and Maharaja coal dredgers"
+Locale_Text[461] = "Engineering repair system salvage analysis"
 
-Locale_Text[470] = "¶ÔÏÖÓĞĞŞÀí¼¼Êõ½øĞĞÉı¼¶£¬ÔÊĞí½¨Ôì¸ß¼¶¹¤³Ì½¢"
-Locale_Text[471] = "Ô¶³ÌĞÍĞŞÀíÏµÍ³"
+Locale_Text[470] = "Upgrades to existing repair technology, allowing construction of advanced engineering ships"
+Locale_Text[471] = "Remote type repair system"
 
-Locale_Text[475] = "Ò»ÖÖ¿ÉÅÂµÄ´ó¹¦ÂÊÄÜÁ¿¼¤¹âÅÚ£¬¿ÉÒÔ´İ»Ù×î¾ŞĞÍµÄ³¬¼¶Æì½¢"
-Locale_Text[476] = "´İĞÇ¼¶¾ŞĞÍÎäÆ÷ÏµÍ³"
+Locale_Text[475] = "A terrifyingly powerful energy laser cannon that can destroy even the most gigantic super flagships"
+Locale_Text[476] = "A giant weapon system that destroys stars"
 
 
-Locale_Text[480] = "¸ü¼Ñ¼á¹ÌµÄÖØĞÍÕ½¶·»ú»ú¼Ü£¬±È³£¹æ½¢ÔØ»ú¸ü¼ÑÄÑÒÔ´İ»Ù"
-Locale_Text[481] = "ÖØĞÍÀ¹½Ø»ú»ú¼Ü"
+Locale_Text[480] = "A more robust heavy fighter frame, more difficult to destroy than a conventional ship-based aircraft"
+Locale_Text[481] = "heavy interceptor racks"
 
-Locale_Text[485] = "ÏÈ½øµÄÖØĞÍÕ½ÊõÍ»»÷½¢»ú¼Ü£¬¿ÉÒÔ¼Ó×°¶àÖÖÎäÆ÷"
-Locale_Text[486] = "ÖØĞÍÕ½ÊõÍ»»÷½¢»ú¼Ü"
+Locale_Text[485] = "Advanced heavy tactical assault ship racks that can be retrofitted with multiple weapons"
+Locale_Text[486] = "Heavy tactical assault ship rack"
 
-Locale_Text[490] = "¾«¼ò»¯µÄºì±¦Ê¯µ¼µ¯´¢´æÏµÍ³£¬ÈÃÒ»Ğ©»¤ÎÀ½¢¼¶µÄĞ¡ĞÍÕ½½¢Ò²¿ÉÒÔĞ¯´øÕâÖÖ·Éµ¯"
-Locale_Text[491] = "Ğ¡ĞÍºì±¦Ê¯·Éµ¯´¢´æ¿â"
+Locale_Text[490] = "A streamlined ruby missile storage system that allows some small frigate-class warships to carry such missiles"
+Locale_Text[491] = "Small ruby missile storage depot"
 
-Locale_Text[495] = "Ò»ÖÖ¾«¼ò°æµÄ³¬¼¶¼¤¹âÊøÖ÷ÅÚ·¢Éä×°ÖÃ£¬ÈÃÕ½ÁĞÑ²Ñó½¢´óĞ¡µÄÕ½½¢Ò²ÄÜĞ¯´øÕ½ÁĞ½¢¼¶µÄÖ÷ÅÚ"
-Locale_Text[496] = "ÏÈ½ø¼¤¹âÊøÖ÷ÅÚ"
+Locale_Text[495] = "A streamlined version of the super laser beam main gun launcher, allowing even battlecruiser-sized warships to carry battleship-class main guns"
+Locale_Text[496] = "Advanced laser beam main gun"
 
-Locale_Text[499] = "³¬¼¶Õ½¶·»ú¿Æ¼¼"
-Locale_Text[500] = "Ò»ÖÖ³¬ÏÈ½øµÄ¸Õ´ïÄáÄ·¼¶³¬¼¶Õ½¶·»ú»ú¼Ü£¬¿ÉÒÔ´îÔØ´óÁ¿µÄÎäÆ÷£¬¶øÇÒÓµÓĞ¿ÉÅÂµÄËÙ¶È"
-Locale_Text[501] = "¸Õ´ïÄáÄ·¼¶³¬¼¶Õ½¶·»ú»ú¼Ü"
+Locale_Text[499] = "Superfighter technology"
+Locale_Text[500] = "An ultra-advanced Gundanium-class superfighter frame that can carry a large number of weapons and has terrifying speed"
+Locale_Text[501] = "Gundanium-class super fighter frame"
 
-Locale_Text[510] = "¾ŞĞÍ¹¤³Ì½¢¿Æ¼¼"
-Locale_Text[511] = "Ò»ÖÖ³¬¾ŞĞÍµÄ¹¤³ÌÎŞÎ·½¢»ú¼Ü£¬ÓµÓĞ¾ªÈËµÄĞŞÀíÄÜÁ¦"
-Locale_Text[512] = "¾ŞĞÍ´¬Îë½¢»ú¼Ü"
-Locale_Text[513] = "Ôö¼Ó¾ŞĞÍ¹¤³Ì½¢µÄÉú²úËÙ¶È"
-Locale_Text[514] = "¾ŞĞÍ¹¤³Ì½¢Éú²úËÙ¶ÈÌáÉı"
+Locale_Text[510] = "Giant engineering ship technology"
+Locale_Text[511] = "A super-giant engineering dreadnought mech with amazing repair capabilities"
+Locale_Text[512] = "Giant dock ship racks"
+Locale_Text[513] = "å¢åŠ å·¨å‹å·¥ç¨‹èˆ°çš„ç”Ÿäº§é€Ÿåº¦"
+Locale_Text[514] = "å·¨å‹å·¥ç¨‹èˆ°ç”Ÿäº§é€Ÿåº¦æå‡"
 
-Locale_Text[520] = "Ì«¿ÕÕ½¶·»ú¼×¿Æ¼¼"
-Locale_Text[521] = "Ò»ÖÖ18Ã×¸ßµÄ¼ÓÇ¿ĞÍ¶¯Á¦Íâ¹Ç÷À£¬×°±¸ÎäÆ÷ºó¿ÉÒÔ×÷ÎªÌ«¿ÕÕ½¶·»ú¼×À´Ê¹ÓÃ"
-Locale_Text[522] = "ÏÈ½ø¶¯Á¦×°¼×»ú¼Ü"
+Locale_Text[520] = "space fighter mech technology"
+Locale_Text[521] = "An 18 meter tall reinforced powered exoskeleton that can be used as a space fighter mech when equipped with weapons"
+Locale_Text[522] = "Advanced power armor rack"
 
 
-Locale_Text[530] = "¾ŞĞÍÕ½ÁĞº½Ä¸¿Æ¼¼"
-Locale_Text[531] = "Ò»ÖÖ´óĞÍµÄÕ½ÁĞº½Ä¸£¬¿ÉÒÔ¿ìËÙÊÍ·Å½¢ÔØ»úµÄÍ¬Ê±ÓµÓĞ×ã¹»µÄ»ğÁ¦"
-Locale_Text[532] = "Õ½ÁĞº½Ä¸»ú¼Ü"
-Locale_Text[533] = "Ôö¼ÓÕ½ÁĞº½Ä¸µÄÉú²úËÙ¶È"
-Locale_Text[534] = "Õ½ÁĞº½Ä¸¹¤³ÌÄÜÁ¦ÌáÉı"
+Locale_Text[530] = "Giant battle carrier technology"
+Locale_Text[531] = "A large battle carrier that can quickly release its carrier aircraft while having enough firepower"
+Locale_Text[532] = "Battle carrier rack"
+Locale_Text[533] = "å¢åŠ æˆ˜åˆ—èˆªæ¯çš„ç”Ÿäº§é€Ÿåº¦"
+Locale_Text[534] = "æˆ˜åˆ—èˆªæ¯å·¥ç¨‹èƒ½åŠ›æå‡"
 
-Locale_Text[540] = "´óĞÍºäÕ¨»ú¿Æ¼¼"
-Locale_Text[541] = "Ò»ÖÖ¼ÓÇ¿°æµÄºäÕ¨»ú£¬ÓµÓĞ¸üÇ¿º·µÄ·´½¢»ğÁ¦"
-Locale_Text[542] = "Ä§ÌººäÕ¨»ú»ú¼Ü"
-
-Locale_Text[550] = "ÏÈ½øÅÚÍ§¿Æ¼¼"
-Locale_Text[551] = "ÔÊĞíÖÆÔì¼¤¹âÍ§ºÍÇáĞÍÍ»»÷»¤ÎÀ½¢"
-Locale_Text[552] = "ÇáĞÍ¼¤¹âÊø¿Æ¼¼"
-
-Locale_Text[560] = "ÏÈ½ø¾«Á¶´¬¿Æ¼¼"
-Locale_Text[561] = "ÔÊĞíÖÆÔìÍÌĞÇÕß¼¶´óĞÍ¹¤³Ì¾«Á¶´¬"
-Locale_Text[562] = "ÏÈ½ø¾«Á¶´¬¿Æ¼¼"
-
-Locale_Text[570] = "Ã³Ò×´¬¿Æ¼¼"
-Locale_Text[571] = "ÖÆÔìĞ¡ĞÍÃ³Ò×´¬ÎªÇ°Ïß½ô¼±ÊäËÍ×ÊÔ´"
-Locale_Text[572] = "Ğ¡ĞÍÃ³Ò×´¬¿Æ¼¼"
-
-Locale_Text[580] = "ÎŞÎ·½¢¿Æ¼¼"
-Locale_Text[581] = "ÖÆÔìÏÈ½øµÄÎ¬¸ñ¶ûµ¼µ¯ÎŞÎ·½¢"
-Locale_Text[582] = "µ¼µ¯ÎŞÎ·½¢»ú¼Ü"
-
-
-Locale_Text[590] = "ÖØĞÍ»õ½¢¿Æ¼¼"
-Locale_Text[591] = "Ò»ÖÖÍ¨ÓÃ»¯µÄ¸ÄÔì»õ½¢£¬¿ÉÒÔÑ¸ËÙĞÎ³ÉÕ½¶·Á¦"
-Locale_Text[592] = "ÖØĞÍ»õ½¢»ú¼Ü"
-
-
-
-Locale_Text[599] = "¾«Ó¢Õ½¶·»ú¿Æ¼¼"
-Locale_Text[600] = "Ò»ÖÖÏÈ½øµÄ³¬ÖØĞÍÕ½¶·»ú£¬ÓµÓĞ½£ÈĞĞÍ»úÌå¿ÉÒÔÇáËÉÍ»ÆÆµĞ·½¿ÕÓò"
-Locale_Text[601] = "ÆÆÈĞÖ®½£Õ½¶·»ú»ú¼Ü"
-
-
-
-Locale_Text[609] = "¼¤¹âÎŞÎ·½¢¿Æ¼¼"
-Locale_Text[610] = "ÓÃ¶à¸ö³äÄÜÄÜÁ¿²ÖÑ­»·ÊÍ·ÅÄÜÁ¿,·¢Éä´óÍşÁ¦¸ß¹¦ÂÊÄÜÁ¿¹âÊø"
-Locale_Text[611] = "×ªÂÖÊ½¼¤¹â³äÄÜ×°ÖÃ"
-
-Locale_Text[619] = "·ÀÓùÆ½Ì¨¿Æ¼¼"
-Locale_Text[620] = "ÖĞĞÍµÄ·ÀÓùÆ½Ì¨»ú¼Ü£¬¿ÉÒÔ´îÔØ¸÷ÖÖÑ²Ñó½¢ºÍÇıÖğ½¢¼¶ÎäÆ÷"
-Locale_Text[621] = "ÖĞĞÍÆ½Ì¨»ú¼Ü"
-Locale_Text[630] = "´óĞÍµÄ·ÀÓùÆ½Ì¨»ú¼Ü£¬¿ÉÒÔ´îÔØ¸÷ÖÖÆì½¢¼¶ÎäÆ÷"
-Locale_Text[641] = "´óĞÍÆ½Ì¨»ú¼Ü"
-Locale_Text[630] = "´óĞÍµÄÇøÓòĞÍ·ÀÓùÇ°ÉÚ£¬×°±¸Ò»¶¨ÊıÁ¿µÄÖ÷Á¦½¢ÎäÆ÷"
-Locale_Text[641] = "´óĞÍ·ÀÓùÇ°ÉÚ½á¹¹Ìå"
-Locale_Text[650] = "´óĞÍµÄÇøÓòĞÍ·ÀÓùÇ°ÉÚ£¬×°±¸Ò»¶¨ÊıÁ¿µÄÖ÷Á¦½¢ÎäÆ÷"
-Locale_Text[651] = "´óĞÍ·ÀÓùÇ°ÉÚ½á¹¹Ìå"
-Locale_Text[660] = "ÖØĞÍµÄÇøÓòĞÍ·ÀÓùÇ°ÉÚ£¬×°±¸Ò»¶¨ÊıÁ¿µÄÆì½¢¼¶ÎäÆ÷"
-Locale_Text[661] = "ÖØĞÍ·ÀÓùÇ°ÉÚ½á¹¹Ìå"
-
-------------Éú´æ--------------------------------------------------------
-Locale_Text[6510] = "Éú´æÄ¸½¢Éı¼¶"
-Locale_Text[6511] = "ÌáÉıÉú´æÄ¸½¢µÄ×°¼×"
-
-Locale_Text[6520] = "Éú´æÄ¸½¢×°¼×Éı¼¶1"
-Locale_Text[6521] = "Éú´æÄ¸½¢×°¼×Éı¼¶2"
-Locale_Text[6522] = "Éú´æÄ¸½¢×°¼×Éı¼¶3"
-Locale_Text[6523] = "Éú´æÄ¸½¢×°¼×Éı¼¶4"
-Locale_Text[6524] = "Éú´æÄ¸½¢×°¼×Éı¼¶5"
-Locale_Text[6525] = "Éú´æÄ¸½¢×°¼×Éı¼¶6"
-Locale_Text[6526] = "Éú´æÄ¸½¢×°¼×Éı¼¶7"
-Locale_Text[6527] = "Éú´æÄ¸½¢×°¼×Éı¼¶8"
-Locale_Text[6528] = "Éú´æÄ¸½¢×°¼×Éı¼¶9"
-Locale_Text[6529] = "Éú´æÄ¸½¢×°¼×Éı¼¶10"
-Locale_Text[6610] = "Éú´æÄ¸½¢Éı¼¶"
-Locale_Text[6611] = "ÌáÉıÉú´æÄ¸½¢µÄËÙ¶È"
-
-Locale_Text[6620] = "Éú´æÄ¸½¢ËÙ¶ÈÉı¼¶1"
-Locale_Text[6621] = "Éú´æÄ¸½¢ËÙ¶ÈÉı¼¶2"
-Locale_Text[6622] = "Éú´æÄ¸½¢ËÙ¶ÈÉı¼¶3"
-Locale_Text[6623] = "Éú´æÄ¸½¢ËÙ¶ÈÉı¼¶4"
-Locale_Text[6624] = "Éú´æÄ¸½¢ËÙ¶ÈÉı¼¶5"
-Locale_Text[6625] = "Éú´æÄ¸½¢ËÙ¶ÈÉı¼¶6"
-Locale_Text[6626] = "Éú´æÄ¸½¢ËÙ¶ÈÉı¼¶7"
-Locale_Text[6627] = "Éú´æÄ¸½¢ËÙ¶ÈÉı¼¶8"
-Locale_Text[6628] = "Éú´æÄ¸½¢ËÙ¶ÈÉı¼¶9"
-Locale_Text[6629] = "Éú´æÄ¸½¢ËÙ¶ÈÉı¼¶10"
-Locale_Text[6710] = "Éú´æÄ¸½¢Éı¼¶"
-Locale_Text[6711] = "ÌáÉıÉú´æÄ¸½¢µÄÕÙ»½ËÙ¶È"
-
-Locale_Text[6720] = "Éú´æÄ¸½¢ÕÙ»½ËÙ¶ÈÉı¼¶1"
-Locale_Text[6721] = "Éú´æÄ¸½¢ÕÙ»½ËÙ¶ÈÉı¼¶2"
-Locale_Text[6722] = "Éú´æÄ¸½¢ÕÙ»½ËÙ¶ÈÉı¼¶3"
-Locale_Text[6723] = "Éú´æÄ¸½¢ÕÙ»½ËÙ¶ÈÉı¼¶4"
-Locale_Text[6724] = "Éú´æÄ¸½¢ÕÙ»½ËÙ¶ÈÉı¼¶5"
-Locale_Text[6725] = "Éú´æÄ¸½¢ÕÙ»½ËÙ¶ÈÉı¼¶6"
-Locale_Text[6726] = "Éú´æÄ¸½¢ÕÙ»½ËÙ¶ÈÉı¼¶7"
-Locale_Text[6727] = "Éú´æÄ¸½¢ÕÙ»½ËÙ¶ÈÉı¼¶8"
-Locale_Text[6728] = "Éú´æÄ¸½¢ÕÙ»½ËÙ¶ÈÉı¼¶9"
-Locale_Text[6729] = "Éú´æÄ¸½¢ÕÙ»½ËÙ¶ÈÉı¼¶10"
-
-Locale_Text[6810] = "Éú´æÄ¸½¢Éı¼¶"
-Locale_Text[6811] = "ÌáÉıÉú´æÄ¸½¢µÄĞŞÀíËÙ¶È"
-
-Locale_Text[6820] = "Éú´æÄ¸½¢ĞŞÀíËÙ¶ÈÉı¼¶1"
-Locale_Text[6821] = "Éú´æÄ¸½¢ĞŞÀíËÙ¶ÈÉı¼¶2"
-Locale_Text[6822] = "Éú´æÄ¸½¢ĞŞÀíËÙ¶ÈÉı¼¶3"
-Locale_Text[6823] = "Éú´æÄ¸½¢ĞŞÀíËÙ¶ÈÉı¼¶4"
-Locale_Text[6824] = "Éú´æÄ¸½¢ĞŞÀíËÙ¶ÈÉı¼¶5"
-Locale_Text[6825] = "Éú´æÄ¸½¢ĞŞÀíËÙ¶ÈÉı¼¶6"
-Locale_Text[6826] = "Éú´æÄ¸½¢ĞŞÀíËÙ¶ÈÉı¼¶7"
-Locale_Text[6827] = "Éú´æÄ¸½¢ĞŞÀíËÙ¶ÈÉı¼¶8"
-Locale_Text[6828] = "Éú´æÄ¸½¢ĞŞÀíËÙ¶ÈÉı¼¶9"
-Locale_Text[6829] = "Éú´æÄ¸½¢ĞŞÀíËÙ¶ÈÉı¼¶10"
+Locale_Text[540] = "Large bomber technology"
+Locale_Text[541] = "An enhanced version of the bomber, with more anti-ship firepower"
+Locale_Text[542] = "Magic carpet bomber frame"
+
+Locale_Text[550] = "advanced gunship technology"
+Locale_Text[551] = "Allows building laser boats and light assault frigates"
+Locale_Text[552] = "Lightweight laser beam technology"
+
+Locale_Text[560] = "Advanced refinement ship technology"
+Locale_Text[561] = "Allows for the creation of large Star Swallower-class engineering refinement ships"
+Locale_Text[562] = "Advanced refinement ship technology"
+
+Locale_Text[570] = "Trade ship technology"
+Locale_Text[571] = "Build small trade ships to deliver emergency resources to the front lines"
+Locale_Text[572] = "Small trade ship technology"
+
+Locale_Text[580] = "Dreadnought Technology"
+Locale_Text[581] = "Build advanced Veigle missile dreadnoughts"
+Locale_Text[582] = "Missile Dreadnought Rack"
+
+
+Locale_Text[590] = "Heavy Cargo Technology"
+Locale_Text[591] = "A generalized modified cargo ship that can quickly form combat effectiveness"
+Locale_Text[592] = "Heavy Cargo Rack"
+
+
+
+Locale_Text[599] = "Elite Fighter Technology"
+Locale_Text[600] = "An advanced super-heavy fighter with a blade-shaped body that can easily break through enemy airspace"
+Locale_Text[601] = "Broken Blade Fighter Rack"
+
+
+
+Locale_Text[609] = "Laser Dreadnought Technology"
+Locale_Text[610] = "Use multiple rechargeable energy bins to release energy cyclically, and emit powerful and high-power energy beams"
+Locale_Text[611] = "Rotary laser charging device"
+
+Locale_Text[619] = "é˜²å¾¡å¹³å°ç§‘æŠ€"
+Locale_Text[620] = "ä¸­å‹çš„é˜²å¾¡å¹³å°æœºæ¶ï¼Œå¯ä»¥æ­è½½å„ç§å·¡æ´‹èˆ°å’Œé©±é€èˆ°çº§æ­¦å™¨"
+Locale_Text[621] = "ä¸­å‹å¹³å°æœºæ¶"
+Locale_Text[630] = "å¤§å‹çš„é˜²å¾¡å¹³å°æœºæ¶ï¼Œå¯ä»¥æ­è½½å„ç§æ——èˆ°çº§æ­¦å™¨"
+Locale_Text[641] = "å¤§å‹å¹³å°æœºæ¶"
+Locale_Text[630] = "å¤§å‹çš„åŒºåŸŸå‹é˜²å¾¡å‰å“¨ï¼Œè£…å¤‡ä¸€å®šæ•°é‡çš„ä¸»åŠ›èˆ°æ­¦å™¨"
+Locale_Text[641] = "å¤§å‹é˜²å¾¡å‰å“¨ç»“æ„ä½“"
+Locale_Text[650] = "å¤§å‹çš„åŒºåŸŸå‹é˜²å¾¡å‰å“¨ï¼Œè£…å¤‡ä¸€å®šæ•°é‡çš„ä¸»åŠ›èˆ°æ­¦å™¨"
+Locale_Text[651] = "å¤§å‹é˜²å¾¡å‰å“¨ç»“æ„ä½“"
+Locale_Text[660] = "é‡å‹çš„åŒºåŸŸå‹é˜²å¾¡å‰å“¨ï¼Œè£…å¤‡ä¸€å®šæ•°é‡çš„æ——èˆ°çº§æ­¦å™¨"
+Locale_Text[661] = "é‡å‹é˜²å¾¡å‰å“¨ç»“æ„ä½“"
+
+
+------------??--------------------------------------------------------
+Locale_Text[6510] = "Survival Mothership Upgrade"
+Locale_Text[6511] = "Upgrade the armor of the Survival Mothership"
+
+Locale_Text[6520] = "Survival Mothership Armor Upgrade 1"
+Locale_Text[6521] = "Survival Mothership Armor Upgrade 2"
+Locale_Text[6522] = "Survival Mothership Armor Upgrade 3"
+Locale_Text[6523] = "Survival Mothership Armor Upgrade 4"
+Locale_Text[6524] = "Survival Mothership Armor Upgrade 5"
+Locale_Text[6525] = "Survival Mothership Armor Upgrade 6"
+Locale_Text[6526] = "Survival Mothership Armor Upgrade 7"
+Locale_Text[6527] = "Survival Mothership Armor Upgrade 8"
+Locale_Text[6528] = "Survival Mothership Armor Upgrade 9"
+Locale_Text[6529] = "Survival Mothership Armor Upgrade 10"
+Locale_Text[6610] = "Survival Mothership Upgrade"
+Locale_Text[6611] = "Increase the speed of the Survival Mothership"
+
+Locale_Text[6620] = "Survival Mothership Speed Upgrade 1"
+Locale_Text[6621] = "Survival Mothership Speed Upgrade 2"
+Locale_Text[6622] = "Survival Mothership Speed Upgrade 3"
+Locale_Text[6623] = "Survival Mothership Speed Upgrade 4"
+Locale_Text[6624] = "Survival Mothership Speed Upgrade 5"
+Locale_Text[6625] = "Survival Mothership Speed Upgrade 6"
+Locale_Text[6626] = "Survival Mothership Speed Upgrade 7"
+Locale_Text[6627] = "Survival Mothership Speed Upgrade 8"
+Locale_Text[6628] = "Survival Mothership Speed Upgrade 9"
+Locale_Text[6629] = "Survival Mothership Speed Upgrade 10"
+Locale_Text[6710] = "Survival Mothership Upgrade"
+Locale_Text[6711] = "Increase the summoning speed of the Survival Mothership"
+
+Locale_Text[6720] = "Survival Mothership Summoning Speed Upgrade 1"
+Locale_Text[6721] = "Survival Mothership Summoning Speed Upgrade 2"
+Locale_Text[6722] = "Survival Mothership Summoning Speed Upgrade 3"
+Locale_Text[6723] = "Survival Mothership Summoning Speed Upgrade 4"
+Locale_Text[6724] = "Survival Mothership Summoning Speed Upgrade 5"
+Locale_Text[6725] = "Survival Mothership Summoning Speed Upgrade 6"
+Locale_Text[6726] = "Survival Mothership Summoning Speed Upgrade 7"
+Locale_Text[6727] = "Survival Mothership Summoning Speed Upgrade 8"
+Locale_Text[6728] = "Survival Mothership Summoning Speed Upgrade 9"
+Locale_Text[6729] = "Survival Mothership Summoning Speed Upgrade 10"
+
+Locale_Text[6810] = "Survival Mothership Upgrade"
+Locale_Text[6811] = "Increase the repair speed of the Survival Mothership"
+
+Locale_Text[6820] = "Survival Mothership Repair Speed Upgrade 1"
+Locale_Text[6821] = "Survival Mothership Repair Speed Upgrade 2"
+Locale_Text[6822] = "Survival Mothership Repair Speed Upgrade 3"
+Locale_Text[6823] = "Survival Mothership Repair Speed Upgrade 4"
+Locale_Text[6824] = "Survival Mothership Repair Speed Upgrade 5"
+Locale_Text[6825] = "Survival Mothership Repair Speed Upgrade 6"
+Locale_Text[6826] = "Survival Mothership Repair Speed Upgrade 7"
+Locale_Text[6827] = "Survival Mothership Repair Speed Upgrade 8"
+Locale_Text[6828] = "Survival Mothership Repair Speed Upgrade 9"
+Locale_Text[6829] = "Survival Mothership Repair Speed Upgrade 10"
 
