@@ -1,0 +1,7 @@
+.bin/WorkshopTool/**
+.bin/MakeRelease.bat
+.bin/*.zip
+!.bin/WokshopTool/.dir
+
+.dist/**
+!.dist/.dir
