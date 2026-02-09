@@ -2,325 +2,325 @@ filerange 1500 2414
 rangestart 1500 2414
 
 // Subtitles
-1500	侦察机
-1501	战机级 - 侦察中队
-1502	拦截机
-1503	战机级 - 反战机中队
-1504	轰炸机
-1505	战机级 - 反主力舰中队
-1506	炮艇
-1507	护航艇级 - 反战机
-1508	脉冲炮艇
-1509	护航艇级 - 反护航艇
-1510	布雷艇
-1511	护航艇级 - 部署及清除空雷
-1512	炮台
-1513	静态武器平台 - 反战机
-1514	离子炮台
-1515	静态武器平台 - 反护卫舰
-1518	防空护卫舰
-1519	护卫舰级 - 反战机
-1520	离子炮护卫舰
-1521	护卫舰级 - 反主力舰
-1522	鱼雷护卫舰
-1523	护卫舰级 - 反护航艇
-1524	支援护卫舰
-1525	舰队支援
-1526	防御场护卫舰
-1527	护卫舰级 - 舰队防护
-1528	登陆舰
-1529	护卫舰级 - 捕捉其他船只
-1530	驱逐舰
-1531	主力舰级 - 反护卫舰
-1532	资源采集船
-1533	辅助单位 - 采集矿物以将其处理为RU
-1534	移动精炼船
-1535	辅助单位 - 卸载资源
-1536	希格拉之耀
-1537	母舰
-1538	战列巡洋舰
-1539	主力舰级 - 重火力输出
-1540	无畏舰
-1541	萨尤克守护者
-1542	航母
-1543	主力舰级 - 舰船生产
-1544	船坞
-1545	主力舰级 - 舰船生产
-1546	探测器
-1547	一次性移动的侦查装置
-1548	临近感应器
-1549	一次性移动的隐形舰船探测装置
-1550	感应干扰器
-1551	一次性移动的感应器干扰装置
-1552	无畏舰泊位
-1553	无畏舰泊位
-1556	空雷
-1557	静态空雷
-1558	鱼雷
-1559	高爆追踪鱼雷
-1560	精锐拦截机
-1561	反战机
-1562	精锐轰炸机
-1563	反主力舰
-1564	精锐鱼雷护卫舰
-1565	反护航艇，反护卫舰
-1566	索班座舰
-1567	索班舰长座舰，攻击力较强，用于登陆其他船只
+1500	Scout
+1501	Fighter Class - Reconnaissance Squadron
+1502	Interceptor
+1503	Fighter Class - Anti-Fighter Squadron
+1504	Bomber
+1505	Fighter Class - Anti-Capital Ship Squadron
+1506	Gunship
+1507	Corvette Class - Anti-Fighter
+1508	Pulsar Gunship
+1509	Corvette Class - Anti-Corvette
+1510	Minelayer Corvette
+1511	Corvette Class - Deploys and Clears Mines
+1512	Gun Platform
+1513	Static Defense - Anti-Fighter
+1514	Ion Cannon Platform
+1515	Static Defense - Anti-Frigate
+1518	Flak Frigate
+1519	Frigate Class - Anti-Fighter
+1520	Ion Cannon Frigate
+1521	Frigate Class - Anti-Capital Ship
+1522	Torpedo Frigate
+1523	Frigate Class - Anti-Corvette
+1524	Support Frigate
+1525	Fleet Support
+1526	Defense Field Frigate
+1527	Frigate Class - Fleet Defense
+1528	Marine Frigate
+1529	Frigate Class - Boarding Vessel
+1530	Destroyer
+1531	Capital Ship - Anti-Frigate
+1532	Resource Collector
+1533	Resource Class - Mineral Excavation
+1534	Mobile Refinery
+1535	Resource Class - Remote Ore Processing
+1536	Pride of Hiigara
+1537	Mothership
+1538	Battlecruiser
+1539	Capital Class - Heavy Attack
+1540	Dreadnaught
+1541	Gatekeeper of Sajuuk
+1542	Carrier
+1543	Capital Class - Ship Production
+1544	Shipyard
+1545	Capital Class - Ship Production
+1546	Probe
+1547	Reconnaissance Unit, Single-burn
+1548	Proximity Sensor
+1549	Detects Cloaked Ships, Single-burn
+1550	Sensor Distortion Probe
+1551	Sensors Distortion Device, Single-burn
+1552	Dreadnaught Berth
+1553	Dreadnaught Berth
+1556	Mine
+1557	Static Mine
+1558	Torpedo
+1559	Tracking High-Explosive Torpedo
+1560	Elite Interceptor
+1561	Anti-Fighter
+1562	Elite Bomber
+1563	Anti-Capital Ship
+1564	Elite Torpedo Frigate
+1565	Anti-Corvette, Anti Frigate
+1566	Captain Soban
+1567	Boarding vessel
 1568	1568 xMISSINGx
-1569	特别改进的超空间抑制器
-1570	精锐炮艇
-1571	靶机
-1572	纳贝尔船坞
-1573	希格拉船坞
-1575	母舰
-1576	船坞
-1577	超空间核心
-1578	允许进行远距离超空间跳跃
-1579	远程鱼雷
-1580	大爆炸
-1581	轻型护航艇
-1582	重型护航艇
-1583	突袭护航艇
-1600	侦察机
-1601	战机级 - 侦查中队
-1602	突击机
-1603	战机级 - 反战机中队
-1604	十字军
-1605	高级反战机
-1606	长枪战斗机
-1607	战机级 - 反护航艇中队
-1608	轰炸机
-1609	战机级 - 反主力舰中队
-1610	激光艇
-1611	护航艇级 - 反主力舰中队
-1612	导弹艇
-1613	护航艇级 - 反护航艇中队
-1614	布雷艇
-1615	护航艇级 - 部署空雷
-1616	指挥艇
-1617	护航艇级 - 指挥型舰艇，提高附近舰船的能力
-1618	突袭舰
-1619	护卫舰级 - 反战机
-1620	渗透船
-1621	护卫舰级 - 捕捉其他船只
-1622	重型导弹护卫舰
-1623	护卫舰级 - 反护卫舰
-1624	运输护卫舰
-1625	护卫舰级 - 舰队支援
-1626	维格尔旗舰
-1627	旗舰
-1628	船坞
-1629	主力舰级 - 舰船生产
-1630	航母
-1631	主力舰级 - 舰船生产
-1632	战列巡洋舰
-1633	主力舰级 - 重火力输出
-1634	驱逐舰
-1635	主力舰级 - 反护卫舰
-1636	无畏舰
-1637	长程主力舰杀手
-1638	资源采集船
-1639	辅助单位 - 采集矿物以将其处理为RU
-1640	移动精炼舰
-1641	辅助级 - 卸载资源
-1642	探测器
-1643	一次性移动的侦察单位
-1644	感应干扰器
-1645	一次性移动的感应器干扰装置
-1646	临近感应器
-1647	一次性移动的反隐形侦测装置
-1648	空雷
-1649	静态空雷
-1650	重型导弹
-1651	重型导弹
-1652	小型导弹
-1653	红外信号跟踪
-1654	渗透舱
-1655	渗透舱
-1656	炮台
-1657	静态武器平台 - 反战机
-1658	重型导弹发射台
-1659	静态武器平台 - 反主力舰
-1660	超空间跳跃门
-1661	超空间跳跃门
-1662	通讯设备
-1663	监听装置
-1664	低轨道大气剥离武器
-1665	马坎
-1666	马坎旗舰
-1667	通讯站
-1668	指挥站
-1669	萨狄斯·沙巴指挥站
-1675	母舰
-1676	船坞
-1677	马坎
-1700	守护者
-1701	主力舰
-1702	漫步者
-1703	未知
-1704	行星杀手
-1705	行星杀手
-1706	萨尤克
-1707	萨尤克
-1708	雄蜂战斗机
-1709	雄蜂战斗机
-1715	萨尤克
-1716	行星杀手
-1800	坦尼斯基地
-1801	坦尼斯基地
+1569	Specially Modified Hyperspace Inhibitor
+1570	Elite Gunship
+1571	Target Drone
+1572	Shipyard Nabaal
+1573	Hiigaran Ship Production
+1575	MOTHERSHIP
+1576	SHIPYARD
+1577	Hyperspace Core
+1578	Enables long-jump Hyperspace
+1579	Long Range Torpedo
+1580	Big Bang
+1581	Light Corvette
+1582	Heavy Corvette
+1583	Assault Corvette
+1600	Scout
+1601	Fighter Class - Reconnaissance Squadron
+1602	Assault Craft
+1603	Fighter Class - Anti-Fighter Squadron
+1604	Crusader
+1605	Advanced Anti-Fighter
+1606	Lance Fighter
+1607	Fighter Class - Anti-Corvette Squadron
+1608	Bomber
+1609	Fighter Class - Anti-Capital Ship Squadron
+1610	Laser Corvette
+1611	Corvette Class - Anti-Capital Ship Squadron
+1612	Missile Corvette
+1613	Corvette Class - Anti-Corvette Squadron
+1614	Minelayer Corvette
+1615	Corvette Class - Deploys Mines
+1616	Command Corvette
+1617	Corvette Class - Command Ship, Improves Accuracy of Nearby Ships
+1618	Assault Frigate
+1619	Frigate Class - Anti-Fighter
+1620	Infiltrator Frigate
+1621	Frigate Class - Boarding Vessel
+1622	Heavy Missile Frigate
+1623	Frigate Class - Anti-Frigate
+1624	Transport Frigate
+1625	Frigate Class - Fleet Support
+1626	Vaygr Flagship
+1627	Flagship
+1628	Shipyard
+1629	Capital Class - Ship Production
+1630	Carrier
+1631	Capital Class - Ship Production
+1632	Battlecruiser
+1633	Capital Class - Heavy Attack
+1634	Destroyer
+1635	Capital Ship - Anti-Frigate
+1636	Dreadnaught
+1637	Long Range Capital Ship Killer
+1638	Resource Collector
+1639	Resource Class - Mineral Excavation
+1640	Mobile Refinery
+1641	Resource Class - Remote Ore Processing
+1642	Probe
+1643	Single-burn reconnaissance unit
+1644	Sensor Distortion Probe
+1645	Single-burn sensors distortion device
+1646	Proximity Detector
+1647	Single-burn cloak detector device
+1648	Mine
+1649	Static Mine
+1650	Heavy Missile
+1651	Heavy Missile
+1652	Small Missile
+1653	Tracking Infared Signature
+1654	Infiltrator Pod
+1655	Infiltrator Pod
+1656	Gun Platform
+1657	Static Defense - Anti-Fighter
+1658	Heavy Missile Platform
+1659	Static Defense - Anti-Capital Ship Defense
+1660	Hyperspace Gate
+1661	Hyperspace gate
+1662	Communications Rig
+1663	Listening Device
+1664	Low Orbit Atmosphere Deprivation Weapon
+1665	Makaan
+1666	Makaan's Flagship
+1667	Communications Station
+1668	Command Station
+1669	Command Station Thaddis Sabbah
+1675	MOTHERSHIP
+1676	SHIPYARD
+1677	MAKAAN
+1700	Keeper
+1701	Capital ship
+1702	Mover
+1703	Unknown
+1704	Planet Killer
+1705	Planet Killer
+1706	Sajuuk
+1707	Sajuuk
+1708	Drone
+1709	Drone
+1715	SAJUUK
+1716	PLANET KILLER
+1800	Tanis Base
+1801	Tanis Base
 1802	VeilChunk
 1803	VeilChunk
 1804	VeilChunk
 1805	VeilChunk
-1806	凯米尔前哨站
-1807	前哨基地
+1806	Chimera Station
+1807	Forward Operating Base
 1808	
 1809	
-1810	巴科拉之门
-1811	巴科拉之门
-1812	卡洛斯船骸
-1813	卡洛斯船骸
-1814	远古残骸
-1815	远古残骸
-1816	远古战舰船头
-1817	远古战舰船头
-1818	远古残骸
-1819	远古残骸
-1820	远古残骸
-1821	远古残骸
-1822	希格拉
-1823	希格拉
-1824	天使之月
-1825	天使之月
-1826	超空间抑制器
-1827	超空间跳跃抑制装置
-1828	通讯阵列
-1829	通讯阵列
-1830	先祖母舰
-1831	先祖母舰
-1832	超空间门
-1833	本图西
-1834	本图西
-1835	小行星
-1836	小行星
-1837	复仇女神空间站
-1838	赞哈斯空间站
-1839	本图西遗迹
-1840	本图西核心碎片
-1841	残骸
-1900	主教一号
-1901	船员运输舰
-1902	主教二号
-1903	主教三号
-1904	主教四号
-1905	主教五号
-1906	主教六号
-2000	战机生产设施
-2001	开启战机级生产序列
-2002	资源卸载点
-2003	RU处理
-2004	研究模块
-2005	子系统模块
-2006	高级研究模块
-2007	子系统模块
-2008	护航艇生产设施
-2009	开启护航艇级生产序列
-2010	超空间模块
-2011	子系统模块
-2012	隐形发生器
-2013	子系统模块
-2014	护卫舰生产设施
-2015	开启护卫舰级生产序列
-2016	高级护卫舰生产设施
-2017	开启高级护卫舰级生产序列
-2018	平台控制器
-2019	子系统模块
-2020	主力舰生产设施
-2021	开启主力舰级生产序列
-2022	高级主力舰生产设施
-2023	开启高级主力舰级生产序列
-2024	脉冲炮台
-2025	反护航艇武器
-2026	离子束炮台
-2027	反主力舰武器
-2028	动能速射炮
-2029	反战机武器
-2030	引擎
-2031	常规推进系统
-2032	火控塔
-2033	子系统模块
-2034	超空间抑制器
-2035	子系统模块
-2036	超空间感应器
-2037	感应器子系统
-2038	高级感应器阵列
-2039	感应器子系统
-2040	临近感应器
-2041	感应器子系统
-2042	防御场
-2043	子系统
-2044	重型火炮系统
-2045	反护航艇武器
-2046	利箭火炮
-2047	反战机武器
-2048	重型导弹组
-2049	反主力舰武器
-2050	通讯设施
-2051	维格尔指挥站
-2052	能量发生器
-2053	远古装置
-2054	低轨道大气剥离武器
-2055	行星轰炸导弹
-2056	漫步者生产设施
-2057	开启漫步者生产选项
-2100	战机级
-2101	护航艇级
-2102	护卫舰级
-2103	主力舰级
-2104	旗舰级
-2105	平台级
-2106	辅助单位
-2107	模块子系统
-2108	探测器子系统
-2109	军需品
-2110	遗迹
-2113	战斗机中队
-2114	护航艇中队
-2115	护卫舰
-2116	主力舰
-2117	平台
-2118	辅助单位
-2119	母舰
-2120	无畏舰
-2121	漫步者
-2122	鱼雷护卫舰
-2123	捕捉护卫舰
-2124	防御场护卫舰
-2125	驱逐舰
-2126	航母
-2127	战列巡洋舰
-2128	船坞
-2129	超空间跳跃门
-2130	资源采集船
-2131	移动精炼船
-2132	探测器
-2133	感应干扰器
-2134	临近感应器
-2135	布雷艇
-2400	电磁脉冲
-2401	攻击轰炸机
-2402	鱼雷
-2403	造物之手
-2413	导弹齐射
-2414	集火
-2404	重型巡洋舰
-2405	战斗机
-2406	护航艇
-2407	资源控制船
-2408	救援艇
-2409	补给箱
-2410	内容不详
-2411	遗迹
-2412	可生成RU
+1810	Balcora Gate
+1811	Balcora Gate
+1812	Karos Hulk
+1813	Karos Hulk
+1814	Progenitor Debris
+1815	Progenitor Debris
+1816	Progenitor Nose Hulk
+1817	Progenitor Nose Hulk
+1818	Progenitor Debris
+1819	Progenitor Debris
+1820	Progenitor Debris
+1821	Progenitor Debris
+1822	HgnPlanet
+1823	HgnPlanet
+1824	HgnMoon
+1825	HgnMoon
+1826	Hyperspace Inhibitor
+1827	Hyperspace Inhibitor
+1828	Communications Array
+1829	Communications Array
+1830	Progenitor Mothership
+1831	Progenitor Mothership
+1832	Hyperspace Gate
+1833	Bentus
+1834	Bentus
+1835	Asteroid
+1836	Asteroid
+1837	Nemean Station
+1838	Xanhus Station
+1839	Bentusi Ruins
+1840	Bentusi Core Fragment
+1841	Debris
+1900	Bishop One
+1901	Crew Transport
+1902	Bishop Two
+1903	Bishop Three
+1904	Bishop Four
+1905	Bishop Five
+1906	Bishop Six
+2000	Fighter Facility
+2001	Enables Fighter Class Production
+2002	Resource Drop Off
+2003	RU Processing
+2004	Research Module
+2005	Subsystem Module
+2006	Advanced Research Module
+2007	Subsystem Module
+2008	Corvette Facility
+2009	Enables Corvette Production
+2010	Hyperspace Module
+2011	Subsystem Module
+2012	Cloak Generator
+2013	Subsystem Module
+2014	Frigate Facility
+2015	Enables Frigate Production
+2016	Advanced Frigate Facility
+2017	Enables Advanced Frigate Production
+2018	Platform Controller
+2019	Subsystem Module
+2020	Capital Ship Facility
+2021	Enables Capital Ship Production
+2022	Advanced Capital Ship Facility
+2023	Enables Advanced Capital Ship Production
+2024	Pulsar Turret
+2025	Anti-Corvette Ship Weapon
+2026	Ion Cannon Turret
+2027	Anti-Capital Ship Weapon
+2028	Kinetic Burst Cannon
+2029	Anti-Fighter Weapon
+2030	Engines
+2031	Conventional Drive Systems
+2032	Fire Control Tower
+2033	Subsystem Module
+2034	Hyperspace Inhibitor
+2035	Subsystem Module
+2036	Hyperspace Sensors
+2037	Sensors Subsystem
+2038	Advanced Sensors Array
+2039	Sensors Subsystem
+2040	Proximity Sensors
+2041	Sensors Subsystems
+2042	Defense Field
+2043	Subsystem
+2044	Heavy Gun System
+2045	Anti-Corvette Weapon
+2046	Flechette Cannon
+2047	Anti-Fighter Weapon
+2048	Heavy Missile Battery
+2049	Anti-Capital Ship Weapon
+2050	Communications Facility
+2051	Vaygr Command Station
+2052	Power Generator
+2053	Progenitor Device
+2054	Low Orbit Atmosphere Deprivation Weapon
+2055	Planetary Bombardment Missile Bay
+2056	Mover Construction Facility
+2057	Enables Corvette Production
+2100	Fighter Class
+2101	Corvette Class
+2102	Frigate Class
+2103	Capital Class
+2104	Flagship Class
+2105	Platform Class
+2106	Utility Class
+2107	Module Subsystems
+2108	Sensor Subsystems
+2109	Munition
+2110	Megalith
+2113	Fighters
+2114	Corvettes
+2115	Frigates
+2116	Capital Ships
+2117	Platforms
+2118	Utility Ships
+2119	Motherships
+2120	Dreadnaughts
+2121	Movers
+2122	Torpedo Frigates
+2123	Capture Frigates
+2124	Defense Field Frigates
+2125	Destroyers
+2126	Carriers
+2127	Battlecruisers
+2128	Shipyards
+2129	Hyperspace Gates
+2130	Resource Collectors
+2131	Mobile Refineries
+2132	Probe
+2133	Sensor Distortion Probe
+2134	Proximity Sensor
+2135	Minelayer Corvettes
+2400	EMP
+2401	Attack Bomber
+2402	Torpedo
+2403	The Hand That Shapes
+2413	Missile Volley
+2414	Burst Attack
+2404	Heavy Cruisers
+2405	Fighters
+2406	Corvettes
+2407	Resource Controllers
+2408	Salvage Corvettes
+2409	Crate
+2410	Contents unknown
+2411	Relic
+2412	RU Generator
 
 rangeend
