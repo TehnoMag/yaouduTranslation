@@ -655,3 +655,1855 @@ DTM004[227] = function(iDate)
 	local iText="应于"..iDate.."前将之摧毁"
 	return iText
 end
+DTM004[228] = function(text1,text2,text3,text4,text5,text6,text15,text7,text8,text9,text10,text11,text12,text13)
+	local iText="你的舰队工程力为"..text1..".一共发现了"..text2.."单位的基础合金,"..text3.."单位的奴隶,"..text4.."单位的中型船体构件,"..text5.."单位的耗子,"..text6.."单位的中型武器配件,"..text15.."单位的备用船员,"..text7.."单位的大型船体组件,"..text8.."单位的大型武器配件,"..text9.."单位的高级合金,"..text10.."单位的大型模块化居住区,"..text11.."单位的旗舰级武器配件,"..text12.."单位的旗舰级动力组件,"..text13.."单位的人形电脑,这个残骸带已经打捞不到什么有价值的资源了，你的舰队只能离开"
+	return iText
+end
+
+DTM004[229] = function(text1,text2,text3,ext14)
+	local iText="你的舰队工程力为"..text1..".一共发现了"..text2.."单位的基础合金,"..text3.."单位的奴隶,是否要继续打捞？目前的打捞次数为"..text14.."次，打捞次数越多可以获得的材料和种类越多，但是离开星区的时候会遭遇的敌人越强大"
+	return iText
+end
+
+DTM004[230] = function(text1,text2,text3,text4,text5,text14)
+	local iText="你的舰队工程力为"..text1..".一共发现了"..text2.."单位的基础合金,"..text3.."单位的奴隶,"..text4.."单位的中型船体构件,"..text5.."单位的耗子,是否要继续打捞？目前的打捞次数为"..text14.."次，打捞次数越多可以获得的材料和种类越多，但是离开星区的时候会遭遇的敌人越强大"
+	return iText
+end
+
+DTM004[231] = function(text1,text2,text3,text4,text5,text6,text15,text14)
+	local iText="你的舰队工程力为"..text1..".一共发现了"..text2.."单位的基础合金,"..text3.."单位的奴隶,"..text4.."单位的中型船体构件,"..text5.."单位的耗子,"..text6.."单位的中型武器配件,"..text15.."单位的备用船员,是否要继续打捞？目前的打捞次数为"..text14.."次，打捞次数越多可以获得的材料和种类越多，但是离开星区的时候会遭遇的敌人越强大"
+	return iText
+end
+
+DTM004[232] = function(text1,text2,text3,text4,text5,text6,text15,text7,text14)
+	local iText="你的舰队工程力为"..text1..".一共发现了"..text2.."单位的基础合金,"..text3.."单位的奴隶,"..text4.."单位的中型船体构件,"..text5.."单位的耗子,"..text6.."单位的中型武器配件,"..text15.."单位的备用船员,"..text7.."单位的大型船体组件,是否要继续打捞？目前的打捞次数为"..text14.."次，打捞次数越多可以获得的材料和种类越多，但是离开星区的时候会遭遇的敌人越强大"
+	return iText
+end
+
+DTM004[233] = function(text1,text2,text3,text4,text5,text6,text15,text7,text8,text14)
+	local iText="你的舰队工程力为"..text1..".一共发现了"..text2.."单位的基础合金,"..text3.."单位的奴隶,"..text4.."单位的中型船体构件,"..text5.."单位的耗子,"..text6.."单位的中型武器配件,"..text15.."单位的备用船员,"..text7.."单位的大型船体组件,"..text8.."单位的大型武器配件,是否要继续打捞？目前的打捞次数为"..text14.."次，打捞次数越多可以获得的材料和种类越多，但是离开星区的时候会遭遇的敌人越强大"
+	return iText	
+end
+
+DTM004[234] = function(text1,text2,text3,text4,text5,text6,text15,text7,text8,text9,text14)
+	local iText="你的舰队工程力为"..text1..".一共发现了"..text2.."单位的基础合金,"..text3.."单位的奴隶,"..text4.."单位的中型船体构件,"..text5.."单位的耗子,"..text6.."单位的中型武器配件,"..text15.."单位的备用船员,"..text7.."单位的大型船体组件,"..text8.."单位的大型武器配件,"..text9.."单位的高级合金,是否要继续打捞？目前的打捞次数为"..text14.."次，打捞次数越多可以获得的材料和种类越多，但是离开星区的时候会遭遇的敌人越强大"
+	return iText
+end
+
+DTM004[235] = function(text1,text2,text3,text4,text5,text6,text15,text7,text8,text9,text10,text14)
+	local iText="你的舰队工程力为"..text1..".一共发现了"..text2.."单位的基础合金,"..text3.."单位的奴隶,"..text4.."单位的中型船体构件,"..text5.."单位的耗子,"..text6.."单位的中型武器配件,"..text15.."单位的备用船员,"..text7.."单位的大型船体组件,"..text8.."单位的大型武器配件,"..text9.."单位的高级合金,"..text10.."单位的大型模块化居住区,是否要继续打捞？目前的打捞次数为"..text14.."次，打捞次数越多可以获得的材料和种类越多，但是离开星区的时候会遭遇的敌人越强大"
+	return iText
+end
+
+DTM004[236] = function(text1,text2,text3,text4,text5,text6,text15,text7,text8,text9,text10,text11,text14)
+	local iText="你的舰队工程力为"..text1..".一共发现了"..text2.."单位的基础合金,"..text3.."单位的奴隶,"..text4.."单位的中型船体构件,"..text5.."单位的耗子,"..text6.."单位的中型武器配件,"..text15.."单位的备用船员,"..text7.."单位的大型船体组件,"..text8.."单位的大型武器配件,"..text9.."单位的高级合金,"..text10.."单位的大型模块化居住区,"..text11.."单位的旗舰级武器配件,是否要继续打捞？目前的打捞次数为"..text14.."次，打捞次数越多可以获得的材料和种类越多，但是离开星区的时候会遭遇的敌人越强大"
+	return iText
+end
+
+DTM004[237] = function(text1,text2,text3,text4,text5,text6,text15,text7,text8,text9,text10,text11,text12,text14)
+	local iText="你的舰队工程力为"..text1..".一共发现了"..text2.."单位的基础合金,"..text3.."单位的奴隶,"..text4.."单位的中型船体构件,"..text5.."单位的耗子,"..text6.."单位的中型武器配件,"..text15.."单位的备用船员,"..text7.."单位的大型船体组件,"..text8.."单位的大型武器配件,"..text9.."单位的高级合金,"..text10.."单位的大型模块化居住区,"..text11.."单位的旗舰级武器配件,"..text12.."单位的旗舰级动力组件,是否要继续打捞？目前的打捞次数为"..text14.."次，打捞次数越多可以获得的材料和种类越多，但是离开星区的时候会遭遇的敌人越强大"
+	return iText
+end
+
+DTM004[238] = function(text1,text2,text3)
+	local iText="你的舰队工程力为"..text1..".一共发现了"..text2.."单位的物资,但是你的舰队只有"..text3.."单位的空间,所以只能放弃打捞，离开星区"
+	return iText
+end
+
+DTM004[239] = function(text1,text2,text3)
+	local iText="维格尔基地已经被重创，现在你的舰队可以组织一次登陆行动来暂时控制基地，目前你的舰队中一共拥有"..text1.."名陆战队员，是否执行登陆任务？目前该基地的级别为"..text2.."控制它至少需要"..text3.."名陆战队员,注意：你的军等越高，舰队中的陆战队员数量越多，可能遭受的进攻损失就越小"
+	return iText
+end
+
+
+DTM004[240] = function(text1,text2,text13,text14,text15,text16,text17,text19,text18)
+	local iText="你的舰队一共拥有"..text1.."名陆战队员，在付出"..text2.."人的伤亡后，你的陆战部队在舰队火力的支援下成功的控制了基地。并成功的搜刮到了"..text13.."单位的奢侈品,"..text14.."单位的堡垒级蓝图碎片,"..text15.."单位的奢华家具,"..text16.."单位的人形电脑,"..text17.."单位的先进堡垒级蓝图碎片,此外还有一共"..text19.."单位的各类物资，这些资源一共占据您的舰队"..text18.."的货仓空间(如果你的舰队空间不够，那么只能打捞到其中一部分资源)"
+	return iText
+end
+
+DTM004[241] = function(text1,text2,text11,text12,text13,text14,text15,text16,text19,text18)
+	local iText="你的舰队一共拥有"..text1.."名陆战队员，在付出"..text2.."人的伤亡后，你的陆战部队在舰队火力的支援下成功的控制了基地。并成功的搜刮到了"..text11.."单位的先进旗舰蓝图碎片,"..text12.."单位的帝国女仆,"..text13.."单位的奢侈品,"..text14.."单位的堡垒级蓝图碎片,"..text15.."单位的奢华家具"..text16.."单位的人形电脑,此外还有一共"..text19.."单位的各类物资,这些资源一共占据您的舰队"..text18.."的货仓空间(如果你的舰队空间不够，那么只能打捞到其中一部分资源)"
+	return iText
+end
+
+DTM004[242] = function(text1,text2,text9,text10,text11,text12,text13,text14,text15,text19,text18)
+	local iText="你的舰队一共拥有"..text1.."名陆战队员，在付出"..text2.."人的伤亡后，你的陆战部队在舰队火力的支援下成功的控制了基地。并成功的搜刮到了"..text9.."单位的修理物资,"..text10.."单位的备用船员,"..text11.."单位的先进旗舰蓝图碎片,"..text12.."单位的帝国女仆,"..text13.."单位的奢侈品,"..text14.."单位的堡垒级蓝图碎片,"..text15.."单位的奢华家具,此外还有一共"..text19.."单位的各类物资,这些资源一共占据您的舰队"..text18.."的货仓空间(如果你的舰队空间不够，那么只能打捞到其中一部分资源)"
+	return iText
+end
+
+DTM004[243] = function(text1,text2,text7,text8,text9,text10,text11,text12,text13,text14,text19,text18)
+	local iText="你的舰队一共拥有"..text1.."名陆战队员，在付出"..text2.."人的伤亡后，你的陆战部队在舰队火力的支援下成功的控制了基地。并成功的搜刮到了"..text7.."单位的中型武器配件,"..text8.."单位的奴隶,"..text9.."单位的修理物资,"..text10.."单位的备用船员,"..text11.."单位的先进旗舰蓝图碎片,"..text12.."单位的帝国女仆,"..text13.."单位的奢侈品,"..text14.."单位的堡垒级蓝图碎片,此外还有一共"..text19.."单位的各类物资,这些资源一共占据您的舰队"..text18.."的货仓空间(如果你的舰队空间不够，那么只能打捞到其中一部分资源)"
+	return iText
+end
+
+DTM004[244] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12,text13,text18)
+	local iText="你的舰队一共拥有"..text1.."名陆战队员，在付出"..text2.."人的伤亡后，你的陆战部队在舰队火力的支援下成功的控制了基地。并成功的搜刮到了"..text3.."单位的氢燃料,"..text4.."单位的基础补给,"..text5.."单位的珍惜矿石,"..text6.."单位的弹药,"..text7.."单位的中型武器配件,"..text8.."单位的奴隶,"..text9.."单位的修理物资,"..text10.."单位的备用船员,"..text11.."单位的先进旗舰蓝图碎片,"..text12.."单位的帝国女仆,"..text13.."单位的奢侈品,这些资源一共占据您的舰队"..text18.."的货仓空间(如果你的舰队空间不够，那么只能打捞到其中一部分资源)"
+	return iText
+end
+
+DTM004[245] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12,text18)
+	local iText="你的舰队一共拥有"..text1.."名陆战队员，在付出"..text2.."人的伤亡后，你的陆战部队在舰队火力的支援下成功的控制了基地。并成功的搜刮到了"..text3.."单位的氢燃料,"..text4.."单位的基础补给,"..text5.."单位的珍惜矿石,"..text6.."单位的弹药,"..text7.."单位的中型武器配件,"..text8.."单位的奴隶,"..text9.."单位的修理物资,"..text10.."单位的备用船员,"..text11.."单位的先进旗舰蓝图碎片,"..text12.."单位的帝国女仆,这些资源一共占据您的舰队"..text18.."的货仓空间(如果你的舰队空间不够，那么只能打捞到其中一部分资源)"
+	return iText
+end
+
+DTM004[246] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text18)
+	local iText="你的舰队一共拥有"..text1.."名陆战队员，在付出"..text2.."人的伤亡后，你的陆战部队在舰队火力的支援下成功的控制了基地。并成功的搜刮到了"..text3.."单位的氢燃料,"..text4.."单位的基础补给,"..text5.."单位的珍惜矿石,"..text6.."单位的弹药,"..text7.."单位的中型武器配件,"..text8.."单位的奴隶,"..text9.."单位的修理物资,"..text10.."单位的备用船员,"..text11.."单位的先进旗舰蓝图碎片,这些资源一共占据您的舰队"..text18.."的货仓空间(如果你的舰队空间不够，那么只能打捞到其中一部分资源)"
+	return iText
+end
+
+DTM004[247] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text18)
+	local iText="你的舰队一共拥有"..text1.."名陆战队员，在付出"..text2.."人的伤亡后，你的陆战部队在舰队火力的支援下成功的控制了基地。并成功的搜刮到了"..text3.."单位的氢燃料,"..text4.."单位的基础补给,"..text5.."单位的珍惜矿石,"..text6.."单位的弹药,"..text7.."单位的中型武器配件,"..text8.."单位的奴隶,"..text9.."单位的修理物资,"..text10.."单位的备用船员,这些资源一共占据您的舰队"..text18.."的货仓空间(如果你的舰队空间不够，那么只能打捞到其中一部分资源)"
+	return iText
+end
+
+DTM004[248] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text18)
+	local iText="你的舰队一共拥有"..text1.."名陆战队员，在付出"..text2.."人的伤亡后，你的陆战部队在舰队火力的支援下成功的控制了基地。并成功的搜刮到了"..text3.."单位的氢燃料,"..text4.."单位的基础补给,"..text5.."单位的珍惜矿石,"..text6.."单位的弹药,"..text7.."单位的中型武器配件,"..text8.."单位的奴隶,"..text9.."单位的修理物资,这些资源一共占据您的舰队"..text18.."的货仓空间(如果你的舰队空间不够，那么只能打捞到其中一部分资源)"
+	return iText
+end
+
+DTM004[249] = function(text1,text2,text3,text4,text5,text6,text7,text8,text18)
+	local iText="你的舰队一共拥有"..text1.."名陆战队员，在付出"..text2.."人的伤亡后，你的陆战部队在舰队火力的支援下成功的控制了基地。并成功的搜刮到了"..text3.."单位的氢燃料,"..text4.."单位的基础补给,"..text5.."单位的珍惜矿石,"..text6.."单位的弹药,"..text7.."单位的中型武器配件,"..text8.."单位的奴隶,这些资源一共占据您的舰队"..text18.."的货仓空间(如果你的舰队空间不够，那么只能打捞到其中一部分资源)"
+	return iText
+end
+
+DTM004[250] = function(text1,text2,text3,text4,text5,text6,text7,text18)
+	local iText="你的舰队一共拥有"..text1.."名陆战队员，在付出"..text2.."人的伤亡后，你的陆战部队在舰队火力的支援下成功的控制了基地。并成功的搜刮到了"..text3.."单位的氢燃料,"..text4.."单位的基础补给,"..text5.."单位的珍惜矿石,"..text6.."单位的弹药,"..text7.."单位的中型武器配件,这些资源一共占据您的舰队"..text18.."的货仓空间(如果你的舰队空间不够，那么只能打捞到其中一部分资源)"
+	return iText
+end
+
+DTM004[251] = function(text1,text2,text3,text4,text5,text6,text18)
+	local iText="你的舰队一共拥有"..text1.."名陆战队员，在付出"..text2.."人的伤亡后，你的陆战部队在舰队火力的支援下成功的控制了基地。并成功的搜刮到了"..text3.."单位的氢燃料,"..text4.."单位的基础补给,"..text5.."单位的珍惜矿石,"..text6.."单位的弹药,这些资源一共占据您的舰队"..text18.."的货仓空间(如果你的舰队空间不够，那么只能打捞到其中一部分资源)"
+	return iText
+end
+
+DTM004[252] = function(text1,text2,text3,text4,text5,text18)
+	local iText="你的舰队一共拥有"..text1.."名陆战队员，在付出"..text2.."人的伤亡后，你的陆战部队在舰队火力的支援下成功的控制了基地。并成功的搜刮到了"..text3.."单位的氢燃料,"..text4.."单位的基础补给,"..text5.."单位的珍惜矿石,这些资源一共占据您的舰队"..text18.."的货仓空间(如果你的舰队空间不够，那么只能打捞到其中一部分资源)"
+	return iText
+end
+
+DTM004[253] = function(text1,text2,text3,text4,text18)
+	local iText="你的舰队一共拥有"..text1.."名陆战队员，在付出"..text2.."人的伤亡后，你的陆战部队在舰队火力的支援下成功的控制了基地。并成功的搜刮到了"..text3.."单位的氢燃料,"..text4.."单位的基础补给,这些资源一共占据您的舰队"..text18.."的货仓空间(如果你的舰队空间不够，那么只能打捞到其中一部分资源)"
+	return iText
+end
+
+DTM004[254] = function(text1,text2,text3,text18)
+	local iText="你的舰队一共拥有"..text1.."名陆战队员，在付出"..text2.."人的伤亡后，你的陆战部队在舰队火力的支援下成功的控制了基地。并成功的搜刮到了"..text3.."单位的氢燃料,这些资源一共占据您的舰队"..text18.."的货仓空间(如果你的舰队空间不够，那么只能打捞到其中一部分资源)"
+	return iText
+end
+
+DTM004[255] = function(text1)
+	local iText="维格尔基地的指挥官评估了您的舰队的战斗力后，决定放你一马。您可以选择是否消耗"..text1.."个荣誉点来离开该地图。（滞留在该星区中会引来维格尔舰队的追杀）"
+	return iText
+end
+
+DTM004[256] = function(text1,text2,text3)
+	local iText="你战胜了维格尔舰队并解除了重力场的干扰，除此之外你还获得了"..text1.."的资金奖励和"..text2.."的战斗经验还有"..text3.."的荣誉点作为报酬，另外舰队将会展开一场打捞行动，对战场进行打扫"
+	return iText
+end
+
+DTM004[257] = function(text1,text2,text3)
+	local iText="在搜刮完维格尔基地的战利品后，你引爆了这座基地，这场战斗中你一共获得了"..text1.."的资金奖励和"..text2.."的战斗经验还有"..text3.."的荣誉点作为报酬"
+	return iText
+end
+
+DTM004[258] = function(text1,text2,text3,text4)
+	local iText="在击退了维格尔舰队后，商船队的首领向您表示感谢并支付了额外的酬劳，这场战斗中一共有"..text1.."艘商船幸存，你一共获得了"..text2.."的资金奖励和"..text3.."的战斗经验还有"..text4.."的荣誉点作为报酬，另外商船队首领还会赠送您一份特别的蓝图碎片作为报酬"
+	return iText
+end
+
+DTM004[259] = function(text1,text2,text3)
+	local iText="你守卫住了基地，这场战斗中你一共获得了"..text1.."的资金奖励和"..text2.."的战斗经验还有"..text3.."的荣誉点作为报酬，为了感谢您的贡献，基地指挥官特意开放了一个秘密物资商店来供您采购"
+	return iText
+end
+
+DTM004[260] = function(text1,text2,text3,text4)
+	local iText="你成功的击退了来袭的维格尔舰队，这场战斗中你一共获得了"..text1.."的资金奖励和"..text2.."的战斗经验还有"..text3.."的荣誉点作为报酬，是否还需要继续打捞？目前你已经打捞了"..text4.."次"
+	return iText
+end
+
+DTM004[261] = function(text1,text2,text3,text4)
+	local iText="你摧毁了所有的先祖战舰，这场战斗中你一共获得了"..text1.."的资金奖励和"..text2.."的战斗经验还有"..text3.."的荣誉点作为报酬,此外在打扫战场的时候，你还从残骸中获取了"..text4.."的先祖遗物"
+	return iText
+end
+
+DTM004[262] = function(text1,text2,text3,text4)
+	local iText="你摧毁了所有的先祖战舰，这场战斗中你一共获得了"..text1.."的资金奖励和"..text2.."的战斗经验还有"..text3.."的荣誉点作为报酬,此外在打扫战场的时候，你还从残骸中获取了"..text4.."的先祖遗物，可惜的是由于货仓空间不足，这部分物资无法携带"
+	return iText
+end
+
+DTM004[263] = function(text1,text2,text3,text4)
+	local iText="你摧毁了所有的先祖战舰，这场战斗中你一共获得了"..text1.."的资金奖励和"..text2.."的战斗经验还有"..text3.."的荣誉点作为报酬,此外在打扫战场的时候，你还从残骸中获取了"..text4.."的先祖遗物，可惜的是由于货仓空间不足，这部分物资无法携带"
+	return iText
+end
+
+DTM004[264] = function(text1)
+	local iText="你的舰队超空间燃料不足，跳跃需要"..text1.."的超空间燃料，是否需要消耗您账户一半的资金向黑市商人紧急采购超空间燃料？"
+	return iText
+end
+
+DTM004[265] = function(text1)
+	local iText="紧急跳跃需要"..text1.."的反物质燃料，请确认是否要紧急充能"
+	return iText
+end
+
+
+DTM004[266] = function(text1,text2,text3)
+	local iText="你战胜了维格尔舰队，除此之外你还获得了"..text1.."的资金奖励和"..text2.."的战斗经验还有"..text3.."的荣誉点和2张蓝图碎片作为报酬，另外舰队将会展开一场打捞行动，对战场进行打扫"
+	return iText
+end
+
+
+DTM004[267] = function(text1,text2,text3,text4)
+	local iText="你歼灭了所有的虫群舰队，这场战斗中你一共获得了"..text1.."的资金奖励和"..text2.."的战斗经验还有"..text3.."的荣誉点作为报酬,此外在打扫战场的时候，你还从残骸中获取了"..text4.."的触手"
+	return iText
+end
+
+DTM004[268] = function(text1,text2,text3,text4)
+	local iText="你歼灭了所有的虫群舰队，这场战斗中你一共获得了"..text1.."的资金奖励和"..text2.."的战斗经验还有"..text3.."的荣誉点作为报酬,此外在打扫战场的时候，你还从残骸中获取了"..text4.."的触手，可惜的是由于货仓空间不足，这部分物资无法携带"
+	return iText
+end
+
+DTM004[269] = function(text1,text2,text3,text4)
+	local iText="你歼灭了所有的棺骸舰队，这场战斗中你一共获得了"..text1.."的资金奖励和"..text2.."的战斗经验还有"..text3.."的荣誉点作为报酬,此外在打扫战场的时候，你还从残骸中获取了"..text4.."的珍惜矿石"
+	return iText
+end
+
+DTM004[270] = function(text1,text2,text3,text4)
+	local iText="你歼灭了所有的棺骸舰队，这场战斗中你一共获得了"..text1.."的资金奖励和"..text2.."的战斗经验还有"..text3.."的荣誉点作为报酬,此外在打扫战场的时候，你还从残骸中获取了"..text4.."的珍惜矿石，可惜的是由于货仓空间不足，这部分物资无法携带"
+	return iText
+end
+
+DTM004[271] = function(text1,text2,text3,text4,text5)
+	local iText="你摧毁了所有的维格尔商船队，此外你还获得了"..text1.."的资金奖励和"..text2.."的战斗经验还有"..text3.."的荣誉点作为报酬,此外在打扫战场的时候，你还从残骸中获取了"..text4.."的奴隶，"..text5.."的奢侈品，另外还发现了一份特别的蓝图碎片作为额外收获"
+	return iText
+end
+
+
+DTM004[272] = function(text1,text2,text3,text4,text5)
+	local iText="你摧毁了所有的维格尔商船队，此外你还获得了"..text1.."的资金奖励和"..text2.."的战斗经验还有"..text3.."的荣誉点作为报酬,此外在打扫战场的时候，你还从残骸中获取了"..text4.."的奴隶，"..text5.."的奢侈品，可惜的是由于货仓空间不足，这部分物资无法携带，不过在打扫战场的时候另外发现了一份特别的蓝图碎片作为额外收获"
+	return iText
+end
+
+DTM004[273] = function(text1,text2,text3,text4)
+	local iText="你歼灭了所有的水晶体，这场战斗中你一共获得了"..text1.."的资金奖励和"..text2.."的战斗经验还有"..text3.."的荣誉点作为报酬,此外在打扫战场的时候，你还从残骸中获取了"..text4.."的纳米物质"
+	return iText
+end
+
+DTM004[274] = function(text1,text2,text3,text4)
+	local iText="你歼灭了所有的水晶体，这场战斗中你一共获得了"..text1.."的资金奖励和"..text2.."的战斗经验还有"..text3.."的荣誉点作为报酬,此外在打扫战场的时候，你还从残骸中获取了"..text4.."的纳米物质，可惜的是由于货仓空间不足，这部分物资无法携带"
+	return iText
+end
+
+DTM004[275] = function(text1,text2,text3,text4,text5)
+	local iText="你在援军到来前提前摧毁了维格尔基地，由于损毁的太过彻底，所以残破的基地里只有少量的战利品可以搜刮，你在维格尔舰队基地中发现了"..text1.."的资金奖励和"..text2.."的战斗经验还有"..text3.."的荣誉点作为报酬,此外在打扫战场的时候，你还从残骸中获取了"..text4.."的奴隶，"..text5.."的奢侈品,另外在打扫战场的时候还发现了一份特别的蓝图碎片作为额外收获"
+	return iText
+end
+
+DTM004[276] = function(text1,text2,text3,text4,text5)
+	local iText="你在援军到来前提前摧毁了维格尔基地，由于损毁的太过彻底，所以残破的基地里只有少量的战利品可以搜刮，你在维格尔舰队基地中发现了"..text1.."的资金奖励和"..text2.."的战斗经验还有"..text3.."的荣誉点作为报酬,此外在打扫战场的时候，你还从残骸中获取了"..text4.."的奴隶，"..text5.."的奢侈品，可惜的是由于货仓空间不足，这部分物资无法携带，不过在打扫战场的时候另外发现了一份特别的蓝图碎片作为额外收获"
+	return iText
+end
+
+DTM004[277] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10)
+	local iText="你的殖民地目前拥有"..text1.."的人口，安防等级为"..text2.."级，殖民地威胁等级为"..text3..",并拥有"..text4.."的殖民地舰队点数，目前殖民地的建筑规模等级为"..text5.."级,"..text6..""..text7..""..text8..""..text9..","..text10..""
+	return iText
+end
+
+
+DTM004[278] = function(text1)
+	local iText="你的舰队点数目前只有"..text1.."点，暂时无法召唤这个规模的舰队"
+	return iText
+end
+
+DTM004[279] = function(text1)
+	local iText="你召唤的舰队目前正在分批进入战场，目前还有"..text1.."点的舰队点数还未使用，是否要回收舰队撤离战场？"
+	return iText
+end
+
+DTM004[280] = function(text1)
+	local iText="殖民地舰队已经撤离，一共回收了"..text1.."点的舰队点数"
+	return iText
+end
+
+
+
+DTM004[281] = function(text1)
+	local iText="你的资源探索舰队发现了一个"..text1.."的冰矿带"
+	return iText
+end
+
+
+
+DTM004[282] = "小型"
+DTM004[283] = "中型"
+DTM004[284] = "大型"
+DTM004[285] = "巨型"
+DTM004[286] = "超巨型"
+
+
+DTM004[290] = function(text1,text2,text3)
+	local iText="你摧毁了整座基地和随之而来的增援舰队，这场战斗中你一共获得了"..text1.."的资金奖励和"..text2.."的战斗经验还有"..text3.."的荣誉点作为报酬"
+	return iText
+end
+
+
+DTM004[291] = function(text1)
+	local iText="你的舰队点数目前只有"..text1.."点，暂时无法派出这个规模的舰队"
+	return iText
+end
+
+
+DTM004[292] = function(text1,text2,text3)
+	local iText="海盗基地已经被重创，现在你的舰队可以组织一次登陆行动来暂时控制基地，目前你的舰队中一共拥有"..text1.."名陆战队员，是否执行登陆任务？目前该基地的级别为"..text2.."控制它至少需要"..text3.."名陆战队员,注意：你的军等越高，舰队中的陆战队员数量越多，可能遭受的进攻损失就越小"
+	return iText
+end
+
+
+DTM004[293] = function(text1,text2,text3)
+	local iText="你战胜了维格尔军阀舰队并解除了重力场的干扰，除此之外你还获得了"..text1.."的资金奖励和"..text2.."的战斗经验还有"..text3.."的荣誉点作为报酬，另外舰队将会展开一场打捞行动，对战场进行打扫"
+	return iText
+end
+
+DTM004[294] = function(text1,text2,text3)
+	local iText="你战胜了秘银重工舰队，除此之外你还获得了"..text1.."的资金奖励和"..text2.."的战斗经验还有"..text3.."的荣誉点和1张蓝图碎片作为报酬，另外舰队将会展开一场打捞行动，对战场进行打扫"
+	return iText
+end
+
+DTM004[295] = function(text1,text2,text3,text4)
+	local iText="你战胜了"..text4.."，除此之外你还获得了"..text1.."的资金奖励和"..text2.."的战斗经验还有"..text3.."的荣誉点和1张蓝图碎片作为报酬，另外舰队将会展开一场打捞行动，对战场进行打扫"
+	return iText
+end
+
+
+DTM004[296] = function(text1,text2,text3)
+	local iText=""..text1.."的规模已经消减了"..text2.."点"..text3..""
+	return iText
+end
+
+DTM004[297] = "，由于你彻底毁灭了天灾，在一段时期内不会再出现新的任何天灾"
+
+DTM004[298] = function(text1,text2)
+	local iText="你在附近星区发现了一片"..text1.."的残骸带，这里似乎刚刚发生过一场激烈的战斗，可能还有有价值的零件可以打捞，同时还有生还者可以营救，从规模上判断，似乎可以进行"..text2.."次的打捞，是否要组织舰队进行打捞？"
+	return iText
+end
+
+
+
+
+
+KE04missionTXT = {}
+KE04missionTXT[001] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10)
+	local iText="你派出了一支"..text1.."舰队，在经过数天探索后，你的舰队发现了一处"..text2..""..text3.."，经过思考后，舰队指挥官决定对"..text3..""..text4..","..text5..","..text6.."行动"..text7.."，探索舰队在"..text8.."附近"..text9..""..text10..""
+	return iText
+end
+
+
+
+
+KE04missionTXTLV01A01 = {}
+KE04missionTXTLV01A01[001] = "小型"
+KE04missionTXTLV01A01[002] = "中等规模"
+KE04missionTXTLV01A01[003] = "大型"
+KE04missionTXTLV01A01[004] = "超大型"
+KE04missionTXTLV01A01[005] = "巨型"
+
+
+KE04missionTXTLV01A02 = {}
+KE04missionTXTLV01A02[001] = "小规模的"
+KE04missionTXTLV01A02[002] = "中等规模"
+KE04missionTXTLV01A02[003] = "大规模的"
+KE04missionTXTLV01A02[004] = "规模庞大的"
+KE04missionTXTLV01A02[005] = "超大规模的"
+
+KE04missionTXTLV01A03 = {}
+KE04missionTXTLV01A03[001] = "冰小行星带"
+KE04missionTXTLV01A03[002] = "小行星带"
+KE04missionTXTLV01A03[003] = "废弃能源设施"
+KE04missionTXTLV01A03[004] = "废弃居住区"
+KE04missionTXTLV01A03[005] = "废弃弹药仓库"
+KE04missionTXTLV01A03[006] = "废弃钢铁冶炼设施"
+KE04missionTXTLV01A03[007] = "废弃零件厂"
+KE04missionTXTLV01A03[008] = "废弃的高级处理设施"
+KE04missionTXTLV01A03[009] = "废弃船坞"
+KE04missionTXTLV01A03[010] = "废弃的战场"
+KE04missionTXTLV01A03[011] = "秘密海盗基地"
+KE04missionTXTLV01A03[012] = "秘密研究站"
+
+KE04missionTXTLV01A04 = {}
+KE04missionTXTLV01A04[001] = "进行开采"
+KE04missionTXTLV01A04[002] = "进行探索"
+KE04missionTXTLV01A04[003] = "进行侦查"
+
+KE04missionTXTLV01A05 = {}
+KE04missionTXTLV01A05[001] = "幸运的是"
+KE04missionTXTLV01A05[002] = "不过"
+KE04missionTXTLV01A05[003] = "不幸的是"
+
+
+
+KE04missionTXTLV02A01 = {}
+KE04missionTXTLV02A01[001] = "开采"
+KE04missionTXTLV02A01[002] = "探索"
+KE04missionTXTLV02A01[003] = "侦查"
+
+KE04missionTXTLV02A02 = {}
+KE04missionTXTLV02A02[001] = "进行的很顺利"
+KE04missionTXTLV02A02[002] = "进行的很不顺利"
+KE04missionTXTLV02A02[003] = "遇到了意外"
+KE04missionTXTLV02A02[004] = "遇到了严重事故"
+KE04missionTXTLV02A02[005] = "遇到了大麻烦"
+
+KE04missionTXTLV02A03 = {}
+KE04missionTXTLV02A03[001] = "没有发现任何敌人舰队"
+KE04missionTXTLV02A03[002] = "发现了少量的"
+KE04missionTXTLV02A03[003] = "遇到了大量的"
+KE04missionTXTLV02A03[004] = "遭遇了海量的"
+KE04missionTXTLV02A03[005] = "遇到了可怕规模的"
+
+KE04missionTXTLV02A04 = {}
+KE04missionTXTLV02A04[001] = ""
+KE04missionTXTLV02A04[002] = "海盗舰队"
+KE04missionTXTLV02A04[003] = "失控的先祖舰队"
+KE04missionTXTLV02A04[004] = "水晶体舰队"
+KE04missionTXTLV02A04[005] = "虫群舰队"
+KE04missionTXTLV02A04[006] = "维格尔军阀舰队"
+KE04missionTXTLV02A04[007] = "棺骸舰队"
+
+KE04missionTXTLV03A00 = {}
+KE04missionTXTLV03A00[001] = ""
+KE04missionTXTLV03A00[002] = "在一番战斗后，你的舰队"
+
+KE04missionTXTLV03A01 = {}
+KE04missionTXTLV03A01[000] = ""
+KE04missionTXTLV03A01[001] = "大获全胜"
+KE04missionTXTLV03A01[002] = "获得胜利"
+KE04missionTXTLV03A01[003] = "和对手两败俱伤"
+KE04missionTXTLV03A01[004] = "损失不小"
+KE04missionTXTLV03A01[005] = "受到了严重的损失"
+
+KE04missionTXTLV03A02 = {}
+KE04missionTXTLV03A02[000] = ""
+KE04missionTXTLV03A02[001] = "，约有"
+KE04missionTXTLV03A02[002] = "，约有"
+KE04missionTXTLV03A02[003] = "，多达"
+KE04missionTXTLV03A02[004] = "，多达"
+KE04missionTXTLV03A02[005] = "，差不多"
+
+KE04missionTXTLV03A03 = {}
+KE04missionTXTLV03A03[001] = ""
+KE04missionTXTLV03A03[002] = "个舰队点数的战舰受损，"
+
+KE04missionTXTLV03A04 = {}
+KE04missionTXTLV03A04[000] = ""
+KE04missionTXTLV03A04[001] = ""
+KE04missionTXTLV03A04[002] = ""
+KE04missionTXTLV03A04[003] = "只能选择撤退。"
+KE04missionTXTLV03A04[004] = "只能选择撤退。"
+KE04missionTXTLV03A04[005] = "只能选择撤退。"
+
+KE04missionTXTLV03A05 = {}
+KE04missionTXTLV03A05[001] = ""
+KE04missionTXTLV03A05[002] = "在对方舰队撤退后，"
+
+KE04missionTXTLV03A06 = {}
+KE04missionTXTLV03A06[001] = "单位的单位的冰矿储备"
+KE04missionTXTLV03A06[002] = "单位的能量块"
+KE04missionTXTLV03A06[003] = "单位的金属矿石储备"
+KE04missionTXTLV03A06[004] = "单位的生活用品储备"
+KE04missionTXTLV03A06[005] = "单位的殖民地弹药储备"
+KE04missionTXTLV03A06[006] = "单位的合金储备"
+KE04missionTXTLV03A06[007] = "单位的机械零件储备"
+KE04missionTXTLV03A06[008] = "单位的纳米物质储备"
+KE04missionTXTLV03A06[009] = "单位的大型船体储备"
+KE04missionTXTLV03A06[010] = "单位的旗舰级核心组件储备"
+KE04missionTXTLV03A06[011] = "名奴隶并转化成了殖民地工人"
+KE04missionTXTLV03A06[012] = "份的堡垒级蓝图碎片"  
+
+KE04missionTXTLV03A07 = {}
+KE04missionTXTLV03A07[001] = "，值得一提的是，由于你的殖民地舰队和海盗舰队的交火，海盗已经盯上了你的殖民地，海盗威胁度上涨1点"
+KE04missionTXTLV03A07[002] = ""
+
+KE04missionTXTLV04A01 = {}
+KE04missionTXTLV04A01[001] = ""
+KE04missionTXTLV04A01[002] = "你的舰队在"  
+
+KE04missionTXTLV04A02 = {}
+KE04missionTXTLV04A02[001] = ""
+KE04missionTXTLV04A02[002] = "中进行了"  
+
+KE04missionTXTLV04A03 = {}
+KE04missionTXTLV04A03[001] = ""
+KE04missionTXTLV04A03[002] = "行动，最后在"  
+
+KE04missionTXTLV04A04 = {}
+KE04missionTXTLV04A04[001] = ""
+KE04missionTXTLV04A04[002] = "中获得了"  
+
+KE04missionTXT[002] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12,text13,text14,text15,text16)
+	local iText=""..text1..""..text2..""..text3..""..text4..""..text5..""..text6..""..text7..""..text13..""..text8..""..text14..""..text9..""..text15..""..text8..""..text16..""..text10..""..text11..""..text12..""
+	return iText
+end
+
+factoryattackLVTXT = {}
+factoryattackLVTXT[001] = ""
+factoryattackLVTXT[002] = "一支海盗舰队已经在附近建设了临时基地，对方随时会通过这座海盗基地对你的舰队发起进攻"  
+
+
+factoryattackLVTXTA01 = {}
+factoryattackLVTXTA01[001] = ""
+factoryattackLVTXTA01[002] = "一支"  
+
+factoryattackLVTXTA02 = {}
+factoryattackLVTXTA02[001] = "海盗舰队"
+ 
+
+factoryattackLVTXTA03 = {}
+factoryattackLVTXTA03[001] = ""
+factoryattackLVTXTA03[002] = "已经在附近"
+
+factoryattackLVTXTA04 = {}
+factoryattackLVTXTA04[001] = ""
+factoryattackLVTXTA04[002] = "建设了临时基地"
+factoryattackLVTXTA04[003] = "集结了一支舰队"
+
+factoryattackLVTXTA05 = {}
+factoryattackLVTXTA05[001] = ""
+factoryattackLVTXTA05[002] = "对方随时会对你的殖民地发起进攻"
+
+
+
+
+factoryattackLVTXT[003] = function(text1,text2)
+	local iText=""..text1.."的规模增加了，这意味着附近将会有更多"..text1.."集结到殖民地附近，目前的威胁等级为"..text2.."级"
+	return iText
+end
+
+
+factoryattackLVTXTLVA01 = {}
+factoryattackLVTXTLVA01[001] = "小规模"
+factoryattackLVTXTLVA01[002] = "中等规模"
+factoryattackLVTXTLVA01[003] = "大规模"
+factoryattackLVTXTLVA01[004] = "只超大规模"
+factoryattackLVTXTLVA01[005] = "史诗规模"
+
+factoryattackLVTXTLVA02 = {}
+factoryattackLVTXTLVA02[001] = "远小于"
+factoryattackLVTXTLVA02[002] = "小于"
+factoryattackLVTXTLVA02[003] = "不弱于"
+factoryattackLVTXTLVA02[004] = "强于"
+factoryattackLVTXTLVA02[005] = "远强于"
+
+factoryattackLVTXTLVA03 = {}
+factoryattackLVTXTLVA03[001] = "殖民地的外围采矿舰队"
+factoryattackLVTXTLVA03[002] = "殖民地外围的巡逻舰队"
+factoryattackLVTXTLVA03[003] = "殖民地的核心区域"
+factoryattackLVTXTLVA03[004] = "殖民地的防御设施"
+factoryattackLVTXTLVA03[005] = "殖民地的核心建筑群"
+
+factoryattackLVTXTLVA04 = {}
+factoryattackLVTXTLVA04[001] = "派出拦截舰队进行了拦截"
+factoryattackLVTXTLVA04[002] = "集结舰队和对方进行决战"
+factoryattackLVTXTLVA04[003] = "集结所有战舰在"
+factoryattackLVTXTLVA04[004] = "激活所有防御设施进行抵抗"
+factoryattackLVTXTLVA04[005] = "集结所有安保人员在核心建筑群进行防守"
+factoryattackLVTXTLVA04[006] = "只能放弃抵抗选择撤离"
+
+factoryattackbaseLVTXTLVA09 = {}
+factoryattackbaseLVTXTLVA09[001] = "损失惨重选择撤退"
+factoryattackbaseLVTXTLVA09[002] = "遭受不小的伤亡"
+factoryattackbaseLVTXTLVA09[003] = "和殖民地舰队两败俱伤"
+factoryattackbaseLVTXTLVA09[004] = "取得了优势，获得了不小的战果"
+factoryattackbaseLVTXTLVA09[005] = "大获全胜"
+
+factoryattackLVTXTLVA06 = {}
+factoryattackLVTXTLVA06[000] = ""
+factoryattackLVTXTLVA06[001] = ".你的殖民地舰队打扫战场获得了"
+factoryattackLVTXTLVA06[002] = ".你的殖民地一共损失了"
+factoryattackLVTXTLVA06[003] = "名奴隶并转化成殖民地工人,"
+factoryattackLVTXTLVA06[004] = "单位的合金储备,"
+factoryattackLVTXTLVA06[005] = "单位的殖民地弹药储备"
+factoryattackLVTXTLVA06[006] = "点数的舰队，"
+factoryattackLVTXTLVA06[007] = "名的殖民地工人，"
+factoryattackLVTXTLVA06[008] = "幸好附近的帝国巡逻舰队赶来支援，这才阻止了进一步破坏"
+
+factoryattackLVTXTLVA07 = {}
+factoryattackLVTXTLVA07[001] = "的奴隶并转为殖民地工人，"
+factoryattackLVTXTLVA07[002] = "纳米物质储备"
+factoryattackLVTXTLVA07[003] = "食物储备"
+factoryattackLVTXTLVA07[004] = "矿石储备"
+factoryattackLVTXTLVA07[005] = "生活用品储备"
+factoryattackLVTXTLVA07[006] = "电子元件储备"
+
+factoryattackLVTXTLVA08 = {}
+factoryattackLVTXTLVA08[001] = "水晶体集群"
+factoryattackLVTXTLVA08[002] = "虫群舰队"
+factoryattackLVTXTLVA08[003] = "棺骸舰队"
+factoryattackLVTXTLVA08[004] = "神秘军阀舰队"
+factoryattackLVTXTLVA08[005] = "觉醒先祖舰队"
+
+
+factoryattackLVTXT[004] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12,text13,text14,text15,text16,text17,text18)
+	local iText="一支"..text1..""..text18.."对你的殖民地发动了袭击，由于"..text18.."的规模"..text2.."你殖民地的安防力量，所以"..text18.."选择袭击"..text3..".面对"..text18.."的攻势，殖民地安防力量"..text4..".在激烈的战斗后，"..text18..""..text5..""..text6..""..text7..""..text8..""..text9..""..text10..""..text11..""..text12..""..text13..""..text14..""..text15..""..text16..""..text17..""
+	return iText
+end
+
+
+
+
+KE05missionTXTLV01A01 = {}
+KE05missionTXTLV01A01[001] = "小规模的"
+KE05missionTXTLV01A01[002] = "中等规模"
+KE05missionTXTLV01A01[003] = "大规模的"
+KE05missionTXTLV01A01[004] = "规模庞大的"
+KE05missionTXTLV01A01[005] = "超大规模的"
+
+KE05missionTXTLV01A02 = {}
+KE05missionTXTLV01A02[001] = "远小于"
+KE05missionTXTLV01A02[002] = "小于"
+KE05missionTXTLV01A02[003] = "不弱于"
+KE05missionTXTLV01A02[004] = "强于"
+KE05missionTXTLV01A02[005] = "远强于"
+
+KE05missionTXTLV01A03 = {}
+KE05missionTXTLV01A03[001] = ""
+KE05missionTXTLV01A03[002] = ""
+KE05missionTXTLV01A03[003] = ""
+KE05missionTXTLV01A03[004] = ""
+KE05missionTXTLV01A03[005] = ""
+
+KE05missionTXTLV01A04 = {}
+KE05missionTXTLV01A04[001] = "大获全胜"
+KE05missionTXTLV01A04[002] = "受到了一定的损失"
+KE05missionTXTLV01A04[003] = "和目标舰队两败俱伤"
+KE05missionTXTLV01A04[004] = "损失惨重只能撤退"
+KE05missionTXTLV01A04[005] = "遭受了重大失败，舰队溃逃"      
+
+
+factoryattackLVTXTLVA05 = {}
+factoryattackLVTXTLVA05[001] = ""
+factoryattackLVTXTLVA05[002] = ".但是消减了"
+factoryattackLVTXTLVA05[003] = "点的殖民地威胁度."
+factoryattackLVTXTLVA05[004] = "海盗基地已经被彻底摧毁，在攻占海盗基地的过程中获得"
+factoryattackLVTXTLVA05[005] = "名奴隶，"
+factoryattackLVTXTLVA05[006] = "单位的合金储备，" 
+factoryattackLVTXTLVA05[007] = "单位的弹药储备，" 
+factoryattackLVTXTLVA05[008] = "单位的生活用品储备，" 
+factoryattackLVTXTLVA05[009] = "单位的能量块，" 
+factoryattackLVTXTLVA05[010] = "台人型电脑储备" 
+factoryattackLVTXTLVA05[011] = ".你摧毁海盗基地的行为对周围的海盗产生了震慑，短时间内不会产生新的海盗基地"  
+
+
+
+factoryattackLVTXTLVA09 = {}
+factoryattackLVTXTLVA09[001] = ""
+factoryattackLVTXTLVA09[002] = "由于围攻殖民地的"
+factoryattackLVTXTLVA09[003] = "已经被全部消灭，你的反击行为产生了震慑，殖民地周围短时间内不会产生新的威胁"
+
+
+factoryattackbaseLVTXTLVA10 = {}
+factoryattackbaseLVTXTLVA10[001] = ""
+factoryattackbaseLVTXTLVA10[002] = "，同时水晶体天灾的总规模下降1点"
+factoryattackbaseLVTXTLVA10[003] = "，同时虫群天灾的总规模下降1点"
+factoryattackbaseLVTXTLVA10[004] = "，同时棺骸天灾的总规模下降1点"
+factoryattackbaseLVTXTLVA10[005] = "，同时神秘的维格尔军阀的总规模下降1点"  
+factoryattackbaseLVTXTLVA10[006] = "，同时觉醒的先祖舰队的总规模下降1点"   
+
+KE05missionTXT = {}
+KE05missionTXT[001] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12,text13,text14,text15,text16,text17,text18,text19,text20,text22,text23)
+	local iText="你集结了一支"..text1.."的殖民地舰队，对"..text23.."发动了远征，你的舰队规模"..text2..""..text23..""..text3.."。在激烈的战斗后，殖民地舰队"..text4.."。这场战斗中你的舰队损失了"..text5.."的舰队点数"..text6..""..text22..""..text7..""..text8..""..text9..""..text10..""..text11..""..text12..""..text13..""..text14..""..text15..""..text16..""..text17..""..text18..""..text19..""..text20..""
+	return iText
+end
+
+
+KE05missionTXT[002] = function(text1,text2,text3,text4,text5,text23)
+	local iText="你集结了一支"..text1.."的殖民地舰队，对"..text23.."发动了远征，你的舰队规模"..text2..""..text23..""..text3.."。在激烈的战斗后，殖民地舰队"..text4.."。这场战斗中你的舰队损失了"..text5.."的舰队点数"
+	return iText
+end
+
+KE05missionTXT[003] = function(text1,text2,text3,text4)
+	local iText="这场战斗一共消减了"..text1.."点的"..text2.."威胁，战斗结束后，你的舰队对战场进行了打捞，并从战场残骸中发现了"..text3.."单位的"..text4..""
+	return iText
+end
+
+
+KE05missionTXT[004] = function(text1,text2)
+	local iText="由于围攻殖民地的"..text1.."已经被全部消灭，你的反击行为产生了震慑，殖民地周围短时间内不会产生新的威胁"..text2..""
+	return iText
+end
+
+KE05missionTXT[005] = function(text1)
+	local iText=""..text1.."正对你的殖民地造成威胁，是否派出一支殖民地舰队攻击殖民地附近的"..text1.."集结地？"
+	return iText
+end
+
+
+missionmapATTACKfactoryTXT = {}
+missionmapATTACKfactoryTXT[001] = function(text1,text2,text3)
+	local iText="你战胜了海盗舰队，大幅度的削减了威胁度，除此之外你还获得了"..text1.."的资金奖励和"..text2.."的战斗经验还有"..text3.."的荣誉点作为报酬，另外舰队将会展开一场打捞行动，对战场进行打扫"
+	return iText
+end
+
+missionmapATTACKfactoryTXT[002] = function(text1,text2,text3)
+	local iText="你摧毁了海盗基地和所有海盗舰队，这个行为大大威慑了所有海盗，短期内不会有新的海盗基地出现，除此之外你还获得了"..text1.."的资金奖励和"..text2.."的战斗经验还有"..text3.."的荣誉点作为报酬，另外舰队将会展开一场打捞行动，对战场进行打扫"
+	return iText
+end
+
+missionmapATTACKfactoryTXT[003] = function(text1,text2,text3)
+	local iText="你控制了海盗基地并摧毁了所有海盗舰队，这个行为大大威慑了所有海盗，短期内不会有新的海盗基地出现，除此之外你还获得了"..text1.."的资金奖励和"..text2.."的战斗经验还有"..text3.."的荣誉点作为报酬，另外舰队将会展开一场打捞行动，对战场进行打扫"
+	return iText
+end
+
+missionmapATTACKfactoryTXT[004] = function(text1)
+	local iText="殖民地正在遭受"..text1.."的威胁，你可以选择用何种方式进行对抗"
+	return iText
+end
+
+missionmapATTACKfactoryTXT[005] = function(text1)
+	local iText="你是否要前往"..text1.."集结地进行主动攻击？主动攻击"..text1.."集结地会面临较大的风险，但是战胜对手可以获得额外的战利品，同时可以彻底根除"..text1.."隐患"
+	return iText
+end
+
+missionattackLVTXTLVA01 = {}
+missionattackLVTXTLVA01[001] = "水晶体舰队"
+missionattackLVTXTLVA01[002] = "虫群舰队"
+missionattackLVTXTLVA01[003] = "棺骸舰队"
+missionattackLVTXTLVA01[004] = "维格尔舰队"
+missionattackLVTXTLVA01[005] = "先祖舰队"
+
+
+mapattackLVTXTLVA01 = {}
+mapattackLVTXTLVA01[001] = "水晶体天灾"
+mapattackLVTXTLVA01[002] = "虫群天灾"
+mapattackLVTXTLVA01[003] = "棺骸天灾"
+mapattackLVTXTLVA01[004] = "神秘的维格尔军阀"
+mapattackLVTXTLVA01[005] = "先祖舰队入侵"
+
+mapattackLVTXTLVA02 = {}
+mapattackLVTXTLVA02[001] = "目前各大势力处于较为正常状态，但是你可能会在少部分跳跃中继点遭遇对方的侦查舰队"
+mapattackLVTXTLVA02[002] = "现在大部分跳跃中继点都有可能遭遇对方的侦察舰队，日常通行的时候请小心应对"
+mapattackLVTXTLVA02[003] = "现在你的殖民地也有可能遭遇对方的进攻"
+mapattackLVTXTLVA02[004] = "现在各大势力的边缘区域也有可能遭遇对方的进攻"
+mapattackLVTXTLVA02[005] = "现在各大势力的核心区域也有可能遭遇对方的进攻"
+
+
+mapattackbattleLVTXTLVA01 = {}
+mapattackbattleLVTXTLVA01[001] = "水晶体天灾"
+mapattackbattleLVTXTLVA01[002] = "虫群天灾"
+mapattackbattleLVTXTLVA01[003] = "棺骸天灾"
+mapattackbattleLVTXTLVA01[004] = "神秘的维格尔军阀"
+mapattackbattleLVTXTLVA01[005] = "觉醒的先祖"
+
+mapattackbattleLVTXTLVA02 = {}
+mapattackbattleLVTXTLVA02[001] = "小规模"
+mapattackbattleLVTXTLVA02[002] = "中等规模"
+mapattackbattleLVTXTLVA02[003] = "大规模"
+mapattackbattleLVTXTLVA02[004] = "超大规模"
+mapattackbattleLVTXTLVA02[005] = "史诗规模"
+
+mapattacksystemLVTXTLVA01 = {}
+mapattacksystemLVTXTLVA01[001] = "较小"
+mapattacksystemLVTXTLVA01[002] = "一般"
+mapattacksystemLVTXTLVA01[003] = "较大"
+mapattacksystemLVTXTLVA01[004] = "十分强大"
+mapattacksystemLVTXTLVA01[005] = "无比庞大"
+
+mapattacksystemLVTXTLVA02 = {}
+mapattacksystemLVTXTLVA02[001] = "纳米物质"
+mapattacksystemLVTXTLVA02[002] = "触手"
+mapattacksystemLVTXTLVA02[003] = "珍惜矿石"
+mapattacksystemLVTXTLVA02[004] = "维格尔奴隶"
+mapattacksystemLVTXTLVA02[005] = "先祖遗物"
+mapattacksystemLVTXTLVA02[006] = "奢侈品"
+
+mapattackLVTXTLVA03 = {}
+mapattackLVTXTLVA03[001] = "卡拉克行星的外围战场"
+mapattackLVTXTLVA03[002] = "虫群舰队副本"
+mapattackLVTXTLVA03[003] = "镜之边缘副本或者阿因特斯舰队定锚点外围战场"
+mapattackLVTXTLVA03[004] = "大决战副本"
+mapattackLVTXTLVA03[005] = "先祖遗迹外围战场"
+
+mapattackTXT = {}
+mapattackTXT[001] = function(text1,text2,text3,text4)
+	local iText=""..text1.."的规模扩大了，现在为"..text2.."点，"..text3..",只有前往"..text4.."才能彻底消解这场天灾"
+	return iText
+end
+
+
+
+mapattackTXT[002] = function(text1,text2,text3)
+	local iText="由于"..text1.."舰队正在到处施虐，你遭遇了"..text1.."的"..text2.."舰队，对方已经启动了重力场阻挡了你的长距离跃迁，你需要消灭对方或者使用紧急跃迁撤离该星区"
+	return iText
+end
+
+mapattackTXT[003] = function(text1,text2,text3)
+	local iText="由于规模达到一定的等级，"..text1.."舰队开始对"..text2.."发动了进攻，尽管当地守军舰队已经努力拦截，但是仍有"..text3.."规模的"..text1.."舰队正在该星区周围活动"
+	return iText
+end
+
+mapattackTXT[004] = function(text1,text2,text3)
+	local iText="由于规模达到一定的等级，"..text1.."舰队开始对"..text2.."发动了进攻，由于当地守军实力强大，所以来袭的"..text1.."舰队已经被全部消灭，但是随着天灾规模不断扩张对方很快会重新发起进攻"
+	return iText
+end
+
+
+mapattackTXT[005] = function(text1)
+	local iText="由于"..text1.."舰队的进攻，该区域的大部分商业设施都已经瘫痪，你需要清除该区域附近出现的敌人舰队才能恢复商业设施的运转"
+	return iText
+end
+
+mapattackTXT[006] = function(text1,text2)
+	local iText="你的舰队已经到达"..text1.."外围，"..text2.."舰队正在这个区域行动，击溃这些舰队将会大大下降"..text1.."的威胁等级。"
+	return iText
+end
+
+mapattackTXT[007] = function(text1,text2)
+	local iText=""..text1.."舰队正在"..text2.."外围进行骚扰，是否要前往"..text2.."外围进行反击作战？消灭这些"..text1.."舰队将会大大的减轻"..text2.."面临的威胁"
+	return iText
+end
+
+mapattackTXT[008] = function(text1)
+	local iText=""..text1.."的舰队已经到达,请做好防御准备"
+	return iText
+end
+
+mapattackTXT[009] = function(text1)
+	local iText="你的舰队已经到达殖民地外围，"..text1.."舰队正在这个区域行动，击溃这些舰队将会大大下降殖民地的威胁等级。"
+	return iText
+end
+
+mapattackTXT[010] = function(text1,text2)
+	local iText="目前"..text1.."正在银河系中施虐，其威胁程度已经达到了"..text2.."点，目前还没有任何星区遭到入侵"
+	return iText
+end
+
+mapattackTXT[011] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12,text13,text14,text15,text16,text17,text18,text19,text20,text21,text22,text23,text24,text25,text26,text27,text28,text29,text30,text31,text32,text33,text34,text35)
+	local iText="目前"..text1.."正在银河系中施虐，其威胁程度已经达到了"..text2.."点，遭受入侵的星区为"..text3..""..text4..""..text5..""..text6..""..text7..""..text8..""..text9..""..text10..""..text11..""..text12..""..text13..""..text14..""..text15..""..text16..""..text17..""..text18..""..text19..""..text20..""..text21..""..text22..""..text23..""..text24..""..text25..""..text26..""..text27..""..text28..""..text29..""..text30..""..text31..""..text32..""..text33..""..text34..""..text35..""
+	return iText
+end
+
+mapattackTXT[012] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12,text13,text14,text15,text16,text17,text18,text19,text20,text21,text22,text23,text24,text25,text26,text27,text28,text29,text30,text31,text32,text33,text34,text35)
+	local iText="目前遭受入侵的星区为"..text3..""..text4..""..text5..""..text6..""..text7..""..text8..""..text9..""..text10..""..text11..""..text12..""..text13..""..text14..""..text15..""..text16..""..text17..""..text18..""..text19..""..text20..""..text21..""..text22..""..text23..""..text24..""..text25..""..text26..""..text27..""..text28..""..text29..""..text30..""..text31..""..text32..""..text33..""..text34..""..text35..""
+	return iText
+end
+
+mapattackTXT[013] = function(text1,text2)
+	local iText="目前还没有任何星区遭到入侵"
+	return iText
+end
+
+mapattackTXTEND = {}
+mapattackTXTEND[001] = function(text1,text2,text3,text4,text5,text6,text7)
+	local iText="你已经击败了"..text1.."的舰队，由于你的舰队规模"..text2.."，进攻"..text3.."的"..text1.."舰队损失了"..text4.."点规模，在战斗结束后你打扫战场获得了"..text5.."的资金奖励和"..text6.."的战斗经验还有"..text7.."的荣誉点作为报酬"
+	return iText
+end
+
+mapattackTXTEND[002] = function(text1,text2,text3)
+	local iText="由于你的出色表现"..text1.."的整体规模下降了1点，另外你还获得了"..text2.."单位的"..text3..""
+	return iText
+end
+
+mapattackTXTEND[003] = function(text1)
+	local iText="由于你的出色表现"..text1.."的整体规模下降了1点，由于你货仓空间不够，已经无法获得任何额外的战利品了"
+	return iText
+end
+
+mapattackTXTEND[004] = function(text1,text2,text4,text5,text6,text7)
+	local iText="你已经击败了"..text1.."的舰队，由于你的舰队规模"..text2.."，进攻殖民地的"..text1.."舰队损失了"..text4.."点规模，在战斗结束后你打扫战场获得了"..text5.."的资金奖励和"..text6.."的战斗经验还有"..text7.."的荣誉点作为报酬"
+	return iText
+end
+
+mapattackTXTEND[005] = function(text2,text3)
+	local iText="在打扫战场的时候你还获得了"..text2.."单位的"..text3..""
+	return iText
+end
+
+mapattackTXTEND[006] = function(text2,text3)
+	local iText="在打扫战场的时候你还获得了"..text2.."单位的"..text3.."可惜的是由于你的舰队货仓空间不够，已经无法获得任何额外的战利品了"
+	return iText
+end
+
+
+shipUITXT = {}
+shipUITXT[000] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10)
+	local iText="召唤"..text1.."需要"..text2.."单位的弹药，"..text3.."单位的燃料，"..text4.."单位的"..text5.."，"..text6.."单位的船员作为飞行员，你的舰队目前有"..text7.."单位的弹药，"..text8.."单位的氢燃料，"..text9.."单位的"..text5.."，"..text10.."单位的船员，材料不足"
+	return iText
+end
+
+
+
+shipUITXT[001] = function(text1,text2,text3)
+	local iText=""..text1.."数量已经达到上限，该单位最多只能召唤"..text2.."架，而目前已经召唤了"..text3.."架"
+	return iText
+end
+
+shipUITXT[002] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11)
+	local iText="召唤"..text1.."需要"..text2.."单位的弹药，"..text3.."单位的燃料，"..text4.."单位的"..text5.."，"..text6.."单位的船员和1台人型电脑作为飞行员，你的舰队目前有"..text7.."单位的弹药，"..text8.."单位的氢燃料，"..text9.."单位的"..text5.."，"..text10.."单位的船员，"..text11.."单位的人型电脑，材料不足"
+	return iText
+end
+
+-------------------------------------------------------------------------------------------------
+
+shipUIfighterTXT = {}
+shipUIfighterTXT[001] = "封装的轻型战斗机组件"
+shipUIfighterTXT[002] = "封装的重型战斗机组件"
+shipUIfighterTXT[003] = "封装的炮艇组件"
+shipUIfighterTXT[004] = "封装的先进战斗机组件"
+shipUIfighterTXT[005] = "封装的重型轰炸机组件"
+shipUIfighterTXT[006] = "封装的超级战斗机组件"
+
+shipUIzer_carrier1UITXT = {}
+shipUIzer_carrier1UITXT[001] = "飞镖无人机"
+shipUIzer_carrier1UITXT[002] = "封装的轻型战斗机组件"
+shipUIzer_carrier1UITXT[003] = "AH防卫装甲"
+shipUIzer_carrier1UITXT[004] = "封装的炮艇组件"
+shipUIzer_carrier1UITXT[005] = "飞镖轰炸机"
+shipUIzer_carrier1UITXT[006] = "封装的轻型战斗机组件"
+
+
+shipUImodu_ND2carrierPoPo1UITXT = {}
+shipUImodu_ND2carrierPoPo1UITXT[001] = "超级兵蜂战斗无人机"
+shipUImodu_ND2carrierPoPo1UITXT[002] = "狂蜂轰炸无人机"
+shipUImodu_ND2carrierPoPo1UITXT[003] = "波铁亚战机级突击兵装"
+shipUImodu_ND2carrierPoPo1UITXT[004] = "凰火级战斗轰炸机"
+shipUImodu_ND2carrierPoPo1UITXT[005] = "大铁盒前线支援机"
+
+shipUImodu_carrier1UITXT = {}
+shipUImodu_carrier1UITXT[001] = "弯刀舰载机"
+shipUImodu_carrier1UITXT[002] = "霉菌炮艇"
+shipUImodu_carrier1UITXT[003] = "长矛截击机"
+shipUImodu_carrier1UITXT[004] = "弯刀轰炸机"
+shipUImodu_carrier1UITXT[005] = "霉菌导弹艇"
+
+	shipUImodu_carrierMK21UITXT = {}
+shipUImodu_carrierMK21UITXT[001] = "弯刀舰载机"
+shipUImodu_carrierMK21UITXT[002] = "霉菌炮艇"
+shipUImodu_carrierMK21UITXT[003] = "长矛截击机"
+shipUImodu_carrierMK21UITXT[004] = "弯刀轰炸机"
+shipUImodu_carrierMK21UITXT[005] = "霉菌导弹艇"
+
+shipUIbus_car031UITXT = {}
+shipUIbus_car031UITXT[001] = "烂汤圆级无人机"
+shipUIbus_car031UITXT[002] = "汤圆T级精英战斗机"
+shipUIbus_car031UITXT[003] = "汤圆T级精英轰炸机"
+shipUIbus_car031UITXT[004] = "钛猎杀者"
+shipUIbus_car031UITXT[005] = "烂汤圆级无人机"
+
+shipUIxao_carrierheavyhuge1UITXT = {}
+shipUIxao_carrierheavyhuge1UITXT[001] = "流星改战斗机"
+shipUIxao_carrierheavyhuge1UITXT[002] = "流星改3战斗机"
+shipUIxao_carrierheavyhuge1UITXT[003] = "猎星者战斗机"
+shipUIxao_carrierheavyhuge1UITXT[004] = "流星战斗机"
+shipUIxao_carrierheavyhuge1UITXT[005] = "雷鸟预警机"
+
+
+
+shipUIzer_stardestroy_Lorenhild1UITXT = {}
+shipUIzer_stardestroy_Lorenhild1UITXT[001] = "幻象XIV无想"
+shipUIzer_stardestroy_Lorenhild1UITXT[002] = "防卫解放者"
+shipUIzer_stardestroy_Lorenhild1UITXT[003] = "波铁亚战机级突击兵装"
+shipUIzer_stardestroy_Lorenhild1UITXT[004] = "凰火级战斗轰炸机"
+shipUIzer_stardestroy_Lorenhild1UITXT[005] = "大铁盒前线支援机"
+
+shipUIzer_stardestroy_Wagner1UITXT = {}
+shipUIzer_stardestroy_Wagner1UITXT[001] = "防卫解放者"
+shipUIzer_stardestroy_Wagner1UITXT[002] = "防卫解放者"
+shipUIzer_stardestroy_Wagner1UITXT[003] = "AH防卫装甲"
+shipUIzer_stardestroy_Wagner1UITXT[004] = "封装的炮艇组件"
+shipUIzer_stardestroy_Wagner1UITXT[005] = "飞镖轰炸机"
+shipUIzer_stardestroy_Wagner1UITXT[006] = "封装的轻型战斗机组件"
+
+
+shipUImodu_carrierhugewitch1UITXT = {}
+shipUImodu_carrierhugewitch1UITXT[001] = "三叉戟A战斗无人机"
+shipUImodu_carrierhugewitch1UITXT[002] = "对空长矛"
+shipUImodu_carrierhugewitch1UITXT[003] = "利刃战斗机"
+shipUImodu_carrierhugewitch1UITXT[004] = "凰火级战斗轰炸机"
+shipUImodu_carrierhugewitch1UITXT[005] = "大铁盒前线支援机"
+
+shipUIzer_carrierbattlewitch1UITXT = {}
+shipUIzer_carrierbattlewitch1UITXT[001] = "对空破刃零式"
+shipUIzer_carrierbattlewitch1UITXT[002] = "零式三叉戟C"
+shipUIzer_carrierbattlewitch1UITXT[003] = "探查者"
+shipUIzer_carrierbattlewitch1UITXT[004] = "弯刀轰炸机"
+shipUIzer_carrierbattlewitch1UITXT[005] = "霉菌导弹艇"
+
+shipUIxao_carrierLDN1UITXT = {}
+shipUIxao_carrierLDN1UITXT[001] = "烂汤圆级无人机"
+shipUIxao_carrierLDN1UITXT[002] = "汤圆T级精英战斗机"
+shipUIxao_carrierLDN1UITXT[003] = "汤圆T级精英轰炸机"
+shipUIxao_carrierLDN1UITXT[004] = "汤圆X翼"
+shipUIxao_carrierLDN1UITXT[005] = "烂汤圆级无人机"
+
+
+shipUItai_battleshipD3carrier1UITXT = {}
+shipUItai_battleshipD3carrier1UITXT[001] = "泰坦战斗机"
+shipUItai_battleshipD3carrier1UITXT[002] = "泰坦轰炸机"
+shipUItai_battleshipD3carrier1UITXT[003] = "泰坦炮艇"
+shipUItai_battleshipD3carrier1UITXT[004] = "汤圆T级精英战斗机"
+shipUItai_battleshipD3carrier1UITXT[005] = "汤圆T级精英轰炸机"
+
+shipUIxao_battleshipD3carrier1UITXT = {}
+shipUIxao_battleshipD3carrier1UITXT[001] = "重型无人机K1"
+shipUIxao_battleshipD3carrier1UITXT[002] = "AN-1K型重型战斗机"
+shipUIxao_battleshipD3carrier1UITXT[003] = "泰坦炮艇"
+shipUIxao_battleshipD3carrier1UITXT[004] = "封装的炮艇组件"
+shipUIxao_battleshipD3carrier1UITXT[005] = "飞镖轰炸机"
+
+
+
+shipUIxao_stardesroyershipyard1UITXT = {}
+shipUIxao_stardesroyershipyard1UITXT[001] = "曼陀罗"
+shipUIxao_stardesroyershipyard1UITXT[002] = "AN-1K型重型战斗机"
+shipUIxao_stardesroyershipyard1UITXT[003] = "波铁亚战机级突击兵装"
+shipUIxao_stardesroyershipyard1UITXT[004] = "凰火级战斗轰炸机"
+shipUIxao_stardesroyershipyard1UITXT[005] = "大铁盒前线支援机"
+
+
+shipUImodu_resourcecontrollerhuge1UITXT = {}
+shipUImodu_resourcecontrollerhuge1UITXT[001] = "铁球无人战斗艇小队"
+shipUImodu_resourcecontrollerhuge1UITXT[002] = "铁桶无人机小队"
+shipUImodu_resourcecontrollerhuge1UITXT[003] = "蜂鸟突击艇"
+shipUImodu_resourcecontrollerhuge1UITXT[004] = "竹节虫大型运输驳船轰炸型"
+shipUImodu_resourcecontrollerhuge1UITXT[005] = "犀牛武装运输艇"
+
+
+shipUIalos_carrier_huge1UITXT = {}
+shipUIalos_carrier_huge1UITXT[001] = "XFA27战斗机"
+shipUIalos_carrier_huge1UITXT[002] = "SU33战斗机"
+shipUIalos_carrier_huge1UITXT[003] = "MIG33战斗机"
+shipUIalos_carrier_huge1UITXT[004] = "战斗无人机"
+shipUIalos_carrier_huge1UITXT[005] = "大铁盒前线支援机"
+
+shipUIalos_carrier_super1UITXT = {}
+shipUIalos_carrier_super1UITXT[001] = "unicornI战斗机"
+shipUIalos_carrier_super1UITXT[002] = "unicornII战斗机"
+shipUIalos_carrier_super1UITXT[003] = "unicornIII战斗机"
+shipUIalos_carrier_super1UITXT[004] = "弯刀轰炸机"
+shipUIalos_carrier_super1UITXT[005] = "霉菌导弹艇"
+
+shipUImodu_carriersuper1UITXT = {}
+shipUImodu_carriersuper1UITXT[001] = "弯刀舰载机"
+shipUImodu_carriersuper1UITXT[002] = "长矛截击机"
+shipUImodu_carriersuper1UITXT[003] = "渡鸦轰炸机"
+shipUImodu_carriersuper1UITXT[004] = "长矛轰炸机"
+shipUImodu_carriersuper1UITXT[005] = "飞龙轰炸机"
+
+shipUImodu_carriersuperBlack1UITXT = {}
+shipUImodu_carriersuperBlack1UITXT[001] = "三叉戟无人机"
+shipUImodu_carriersuperBlack1UITXT[002] = "破刃截击机零号"
+shipUImodu_carriersuperBlack1UITXT[003] = "破刃轰炸机零号"
+shipUImodu_carriersuperBlack1UITXT[004] = "飞龙轰炸机"
+shipUImodu_carriersuperBlack1UITXT[005] = "飞镖无人机"
+
+
+shipUIvgr_battleshiplightcarrier1UITXT = {}
+shipUIvgr_battleshiplightcarrier1UITXT[001] = "长枪战斗机MK2"
+shipUIvgr_battleshiplightcarrier1UITXT[002] = "长枪战斗机MK2镭射型"
+shipUIvgr_battleshiplightcarrier1UITXT[003] = "秃鹰轰炸机"
+shipUIvgr_battleshiplightcarrier1UITXT[004] = "入侵者机甲小队"
+shipUIvgr_battleshiplightcarrier1UITXT[005] = "入侵者反舰型"
+
+shipUIzmodu_battershipheavggun1UITXT = {}
+shipUIzmodu_battershipheavggun1UITXT[001] = "弯刀舰载机"
+shipUIzmodu_battershipheavggun1UITXT[002] = "霉菌重炮艇"
+shipUIzmodu_battershipheavggun1UITXT[003] = "长矛截击机"
+shipUIzmodu_battershipheavggun1UITXT[004] = "秃鹰轰炸机"
+shipUIzmodu_battershipheavggun1UITXT[005] = "破刃截击机"
+
+
+shipUIhgn_busnewship301UITXT = {}
+shipUIhgn_busnewship301UITXT[001] = "弯刀战斗机"
+shipUIhgn_busnewship301UITXT[002] = "霉菌重炮艇"
+shipUIhgn_busnewship301UITXT[003] = "长矛截击机"
+shipUIhgn_busnewship301UITXT[004] = "弯刀轰炸机"
+shipUIhgn_busnewship301UITXT[005] = "霉菌导弹艇"
+
+shipUIhgn_busnewship311UITXT = {}
+shipUIhgn_busnewship311UITXT[001] = "弯刀战斗机"
+shipUIhgn_busnewship311UITXT[002] = "霉菌重炮艇"
+shipUIhgn_busnewship311UITXT[003] = "长矛截击机"
+shipUIhgn_busnewship311UITXT[004] = "弯刀轰炸机"
+shipUIhgn_busnewship311UITXT[005] = "霉菌导弹艇"
+
+shipUIhgn_busnewship321UITXT = {}
+shipUIhgn_busnewship321UITXT[001] = "弯刀战斗机"
+shipUIhgn_busnewship321UITXT[002] = "霉菌重炮艇"
+shipUIhgn_busnewship321UITXT[003] = "长矛截击机"
+shipUIhgn_busnewship321UITXT[004] = "弯刀轰炸机"
+shipUIhgn_busnewship321UITXT[005] = "重型无人机"
+
+shipUIvgr_carrierbattleship1UITXT = {}
+shipUIvgr_carrierbattleship1UITXT[001] = "长枪战斗机MK2"
+shipUIvgr_carrierbattleship1UITXT[002] = "长枪战斗机MK2镭射"
+shipUIvgr_carrierbattleship1UITXT[003] = "秃鹰轰炸机"
+shipUIvgr_carrierbattleship1UITXT[004] = "入侵者机甲小队"
+shipUIvgr_carrierbattleship1UITXT[005] = "入侵者反舰型"
+shipUIvgr_carrierbattleship1UITXT[006] = "封装的轻型战斗机组件"
+
+shipUImodu_carrierheavy1UITXT = {}
+shipUImodu_carrierheavy1UITXT[001] = "弯刀战斗机"
+shipUImodu_carrierheavy1UITXT[002] = "霉菌重炮艇"
+shipUImodu_carrierheavy1UITXT[003] = "长矛截击机"
+shipUImodu_carrierheavy1UITXT[004] = "弯刀轰炸机"
+shipUImodu_carrierheavy1UITXT[005] = "霉菌导弹艇"
+
+
+shipUIPil_carriersuper1UITXT = {}
+shipUIPil_carriersuper1UITXT[001] = "摆渡人"
+shipUIPil_carriersuper1UITXT[002] = "送葬者"
+shipUIPil_carriersuper1UITXT[003] = "殉道者"
+shipUIPil_carriersuper1UITXT[004] = "终焉之棘"
+shipUIPil_carriersuper1UITXT[005] = "摆渡人"
+
+shipUIhgn_carrierheavyKZ1UITXT = {}
+shipUIhgn_carrierheavyKZ1UITXT[001] = "撕裂者无人机"
+shipUIhgn_carrierheavyKZ1UITXT[002] = "恐爪"
+shipUIhgn_carrierheavyKZ1UITXT[003] = "黑翼炮艇"
+
+shipUImodu_battleship14G1UITXT = {}
+shipUImodu_battleship14G1UITXT[001] = "摆渡人"
+shipUImodu_battleship14G1UITXT[002] = "送葬者"
+shipUImodu_battleship14G1UITXT[003] = "殉道者"
+shipUImodu_battleship14G1UITXT[004] = "封装的炮艇组件"
+shipUImodu_battleship14G1UITXT[005] = "飞镖轰炸机"
+shipUImodu_battleship14G1UITXT[006] = "封装的轻型战斗机组件"
+
+
+shipUIxao_carrierheavyathenaED1UITXT = {}
+shipUIxao_carrierheavyathenaED1UITXT[001] = "雷鸟超重型轰炸机"
+shipUIxao_carrierheavyathenaED1UITXT[002] = "美杜莎"
+shipUIxao_carrierheavyathenaED1UITXT[003] = "流星战斗机改三"
+shipUIxao_carrierheavyathenaED1UITXT[004] = "流星战斗机"
+shipUIxao_carrierheavyathenaED1UITXT[005] = "大铁盒前线支援机"
+
+shipUIhgn_busnewship371UITXT = {}
+shipUIhgn_busnewship371UITXT[001] = "猎星者"
+shipUIhgn_busnewship371UITXT[002] = "含光"
+shipUIhgn_busnewship371UITXT[003] = "流星战斗机改二"
+shipUIhgn_busnewship371UITXT[004] = "流星战斗机"
+shipUIhgn_busnewship371UITXT[005] = "霉菌导弹艇"
+
+shipUIhgn_busnewship381UITXT = {}
+shipUIhgn_busnewship381UITXT[001] = "正义之枪"
+shipUIhgn_busnewship381UITXT[002] = "食人鲳"
+shipUIhgn_busnewship381UITXT[003] = "流星战斗机改3"
+shipUIhgn_busnewship381UITXT[004] = "流星战斗机"
+shipUIhgn_busnewship381UITXT[005] = "霉菌导弹艇"
+
+shipUIxao_carrierheavyathena1UITXT = {}
+shipUIxao_carrierheavyathena1UITXT[001] = "流星战斗机改2"
+shipUIxao_carrierheavyathena1UITXT[002] = "流星战斗机改3"
+shipUIxao_carrierheavyathena1UITXT[003] = "猎星者"
+shipUIxao_carrierheavyathena1UITXT[004] = "流星战斗机"
+shipUIxao_carrierheavyathena1UITXT[005] = "雷鸟预警机"
+
+shipUIxao_carrierheavyathena2UITXT = {}
+shipUIxao_carrierheavyathena2UITXT[001] = "流星战斗机改2"
+shipUIxao_carrierheavyathena2UITXT[002] = "流星战斗机改3"
+shipUIxao_carrierheavyathena2UITXT[003] = "猎星者"
+shipUIxao_carrierheavyathena2UITXT[004] = "流星战斗机"
+shipUIxao_carrierheavyathena2UITXT[005] = "雷鸟预警机"
+
+shipUIxao_carrierheavyathena3UITXT = {}
+shipUIxao_carrierheavyathena3UITXT[001] = "流星战斗机改2"
+shipUIxao_carrierheavyathena3UITXT[002] = "流星战斗机改3"
+shipUIxao_carrierheavyathena3UITXT[003] = "猎星者"
+shipUIxao_carrierheavyathena3UITXT[004] = "流星战斗机"
+shipUIxao_carrierheavyathena3UITXT[005] = "雷鸟预警机"
+
+shipUIxao_carrierheavyathena4UITXT = {}
+shipUIxao_carrierheavyathena4UITXT[001] = "流星战斗机改2"
+shipUIxao_carrierheavyathena4UITXT[002] = "流星战斗机改3"
+shipUIxao_carrierheavyathena4UITXT[003] = "猎星者"
+shipUIxao_carrierheavyathena4UITXT[004] = "流星战斗机"
+shipUIxao_carrierheavyathena4UITXT[005] = "雷鸟预警机"
+
+shipUIvgr_carrierhuge1UITXT = {}
+shipUIvgr_carrierhuge1UITXT[001] = "长枪战斗机MK2"
+shipUIvgr_carrierhuge1UITXT[002] = "魔毯轰炸机"
+shipUIvgr_carrierhuge1UITXT[003] = "秃鹰轰炸机"
+shipUIvgr_carrierhuge1UITXT[004] = "入侵者机甲"
+shipUIvgr_carrierhuge1UITXT[005] = "大铁盒前线支援机"
+
+shipUIvgr_carrierhuge2UITXT = {}
+shipUIvgr_carrierhuge2UITXT[001] = "长枪战斗机MK2"
+shipUIvgr_carrierhuge2UITXT[002] = "魔毯轰炸机"
+shipUIvgr_carrierhuge2UITXT[003] = "秃鹰轰炸机"
+shipUIvgr_carrierhuge2UITXT[004] = "入侵者机甲"
+shipUIvgr_carrierhuge2UITXT[005] = "大铁盒前线支援机"
+
+shipUIvgr_carrierhuge3UITXT = {}
+shipUIvgr_carrierhuge3UITXT[001] = "长枪战斗机MK2"
+shipUIvgr_carrierhuge3UITXT[002] = "魔毯轰炸机"
+shipUIvgr_carrierhuge3UITXT[003] = "秃鹰轰炸机"
+shipUIvgr_carrierhuge3UITXT[004] = "入侵者机甲"
+shipUIvgr_carrierhuge3UITXT[005] = "大铁盒前线支援机"
+
+shipUIvgr_carrierhuge4UITXT = {}
+shipUIvgr_carrierhuge4UITXT[001] = "长枪战斗机MK2"
+shipUIvgr_carrierhuge4UITXT[002] = "魔毯轰炸机"
+shipUIvgr_carrierhuge4UITXT[003] = "秃鹰轰炸机"
+shipUIvgr_carrierhuge4UITXT[004] = "入侵者机甲"
+shipUIvgr_carrierhuge4UITXT[005] = "大铁盒前线支援机"
+
+shipUIxao_carrierheavyathenaBD1UITXT = {}
+shipUIxao_carrierheavyathenaBD1UITXT[001] = "卡尔瓦罗亚"
+shipUIxao_carrierheavyathenaBD1UITXT[002] = "索尔加尔瓦"
+shipUIxao_carrierheavyathenaBD1UITXT[003] = "卡尔瓦罗亚"
+shipUIxao_carrierheavyathenaBD1UITXT[004] = "封装的炮艇组件"
+shipUIxao_carrierheavyathenaBD1UITXT[005] = "飞镖轰炸机"
+shipUIxao_carrierheavyathenaBD1UITXT[006] = "封装的轻型战斗机组件"
+
+shipUIxao_carrierheavyathenaBD2UITXT = {}
+shipUIxao_carrierheavyathenaBD2UITXT[001] = "卡尔瓦罗亚"
+shipUIxao_carrierheavyathenaBD2UITXT[002] = "索尔加尔瓦"
+shipUIxao_carrierheavyathenaBD2UITXT[003] = "卡尔瓦罗亚"
+shipUIxao_carrierheavyathenaBD2UITXT[004] = "封装的炮艇组件"
+shipUIxao_carrierheavyathenaBD2UITXT[005] = "飞镖轰炸机"
+shipUIxao_carrierheavyathenaBD2UITXT[006] = "封装的轻型战斗机组件"
+
+shipUIxao_carrierheavyathenaBD3UITXT = {}
+shipUIxao_carrierheavyathenaBD3UITXT[001] = "卡尔瓦罗亚"
+shipUIxao_carrierheavyathenaBD3UITXT[002] = "索尔加尔瓦"
+shipUIxao_carrierheavyathenaBD3UITXT[003] = "卡尔瓦罗亚"
+shipUIxao_carrierheavyathenaBD3UITXT[004] = "封装的炮艇组件"
+shipUIxao_carrierheavyathenaBD3UITXT[005] = "飞镖轰炸机"
+shipUIxao_carrierheavyathenaBD3UITXT[006] = "封装的轻型战斗机组件"
+
+shipUIxao_carrierheavyathenaBD4UITXT = {}
+shipUIxao_carrierheavyathenaBD4UITXT[001] = "卡尔瓦罗亚"
+shipUIxao_carrierheavyathenaBD4UITXT[002] = "索尔加尔瓦"
+shipUIxao_carrierheavyathenaBD4UITXT[003] = "卡尔瓦罗亚"
+shipUIxao_carrierheavyathenaBD4UITXT[004] = "封装的炮艇组件"
+shipUIxao_carrierheavyathenaBD4UITXT[005] = "飞镖轰炸机"
+shipUIxao_carrierheavyathenaBD4UITXT[006] = "封装的轻型战斗机组件"
+
+
+shipUIvgr_superbattleshipP1UITXT = {}
+shipUIvgr_superbattleshipP1UITXT[001] = "入侵者队长"
+shipUIvgr_superbattleshipP1UITXT[002] = "入侵者通用型"
+shipUIvgr_superbattleshipP1UITXT[003] = "入侵者反舰型"
+shipUIvgr_superbattleshipP1UITXT[004] = "入侵者脉冲型"
+shipUIvgr_superbattleshipP1UITXT[005] = "大铁盒前线支援机"
+
+shipUIvgr_stardestroy1UITXT = {}
+shipUIvgr_stardestroy1UITXT[001] = "旧日支配者"
+shipUIvgr_stardestroy1UITXT[002] = "破刃截击机"
+shipUIvgr_stardestroy1UITXT[003] = "破刃截击机轰炸型"
+shipUIvgr_stardestroy1UITXT[004] = "破刃之剑"
+shipUIvgr_stardestroy1UITXT[005] = "霉菌导弹艇"
+
+shipUImodu_supershipMK71UITXT = {}
+shipUImodu_supershipMK71UITXT[001] = "龙枪战斗机"
+shipUImodu_supershipMK71UITXT[002] = "星辰战斗机"
+shipUImodu_supershipMK71UITXT[003] = "圣裁战斗机"
+shipUImodu_supershipMK71UITXT[004] = "弯刀轰炸机"
+shipUImodu_supershipMK71UITXT[005] = "霉菌导弹艇"
+
+shipUIhgn_busnewship211UITXT = {}
+shipUIhgn_busnewship211UITXT[001] = "摆渡人"
+shipUIhgn_busnewship211UITXT[002] = "送葬者"
+shipUIhgn_busnewship211UITXT[003] = "殉道者"
+shipUIhgn_busnewship211UITXT[004] = "破刃截击机零号"
+shipUIhgn_busnewship211UITXT[005] = "破刃截击机零号轰炸型"
+shipUIhgn_busnewship211UITXT[006] = "封装的轻型战斗机组件"
+
+
+shipUIhgn_busnewship391UITXT = {}
+shipUIhgn_busnewship391UITXT[001] = "三叉戟D反舰型"
+shipUIhgn_busnewship391UITXT[002] = "三叉戟D反舰型"
+shipUIhgn_busnewship391UITXT[003] = "守护者"
+shipUIhgn_busnewship391UITXT[004] = "凰火级战斗轰炸机"
+shipUIhgn_busnewship391UITXT[005] = "大铁盒前线支援机"
+
+
+shipUIxao_supercarrier1UITXT = {}
+shipUIxao_supercarrier1UITXT[001] = "雷鸟超重型轰炸机"
+shipUIxao_supercarrier1UITXT[002] = "蔷薇食人鲳"
+shipUIxao_supercarrier1UITXT[003] = "含光改"
+shipUIxao_supercarrier1UITXT[004] = "封装的炮艇组件"
+shipUIxao_supercarrier1UITXT[005] = "飞镖轰炸机"
+shipUIxao_supercarrier1UITXT[006] = "封装的轻型战斗机组件"
+
+
+shipUImodu_battlecruiseradventure1UITXT = {}
+shipUImodu_battlecruiseradventure1UITXT[001] = "弯刀战斗机"
+shipUImodu_battlecruiseradventure1UITXT[002] = "重型无人机"
+shipUImodu_battlecruiseradventure1UITXT[003] = "玄鸟级侦察机"
+shipUImodu_battlecruiseradventure1UITXT[004] = "凰火级战斗轰炸机"
+shipUImodu_battlecruiseradventure1UITXT[005] = "大铁盒前线支援机"
+
+shipUIvgr_supercarrier1UITXT = {}
+shipUIvgr_supercarrier1UITXT[001] = "破刃截击机"
+shipUIvgr_supercarrier1UITXT[002] = "幻象IX远山"
+shipUIvgr_supercarrier1UITXT[003] = "幻象XI圣裁战斗机"
+shipUIvgr_supercarrier1UITXT[004] = "新月解放者"
+shipUIvgr_supercarrier1UITXT[005] = "光晕"
+
+shipUImodu_battlecruiseradventure1UITXT = {}
+shipUImodu_battlecruiseradventure1UITXT[001] = "弯刀舰载机"
+shipUImodu_battlecruiseradventure1UITXT[002] = "霉菌炮艇"
+shipUImodu_battlecruiseradventure1UITXT[003] = "长矛截击机"
+shipUImodu_battlecruiseradventure1UITXT[004] = "弯刀轰炸机"
+shipUImodu_battlecruiseradventure1UITXT[005] = "霉菌导弹艇"
+
+
+
+shipUIxao_dreadnaughtmissle1UITXT = {}
+shipUIxao_dreadnaughtmissle1UITXT[001] = "曼陀罗"
+shipUIxao_dreadnaughtmissle1UITXT[002] = "石斛兰防空"
+shipUIxao_dreadnaughtmissle1UITXT[003] = "波铁亚战机级突击兵装"
+shipUIxao_dreadnaughtmissle1UITXT[004] = "凰火级战斗轰炸机"
+shipUIxao_dreadnaughtmissle1UITXT[005] = "大铁盒前线支援机"
+
+shipUIhgn_busnewship781UITXT = {}
+shipUIhgn_busnewship781UITXT[001] = "烂汤圆级无人机"
+shipUIhgn_busnewship781UITXT[002] = "重型无人机"
+shipUIhgn_busnewship781UITXT[003] = "玄鸟级侦察机"
+shipUIhgn_busnewship781UITXT[004] = "凰火级战斗轰炸机"
+shipUIhgn_busnewship781UITXT[005] = "大铁盒前线支援机"
+
+
+shipUIhgn_busnewship571UITXT = {}
+shipUIhgn_busnewship571UITXT[001] = "玄鸟级侦察机"
+shipUIhgn_busnewship571UITXT[002] = "天斩炮艇"
+shipUIhgn_busnewship571UITXT[003] = "波铁亚战机级突击兵装"
+shipUIhgn_busnewship571UITXT[004] = "凰火级战斗轰炸机"
+shipUIhgn_busnewship571UITXT[005] = "大铁盒前线支援机"
+
+shipUIhgn_busnewship671UITXT = {}
+shipUIhgn_busnewship671UITXT[001] = "弯刀战斗机"
+shipUIhgn_busnewship671UITXT[002] = "长矛截击机"
+shipUIhgn_busnewship671UITXT[003] = "渡鸦轰炸机"
+shipUIhgn_busnewship671UITXT[004] = "长矛截击机轰炸"
+shipUIhgn_busnewship671UITXT[005] = "飞龙轰炸机"
+
+shipUIhgn_busnewship661UITXT = {}
+shipUIhgn_busnewship661UITXT[001] = "弯刀战斗机"
+shipUIhgn_busnewship661UITXT[002] = "霉菌重炮艇"
+shipUIhgn_busnewship661UITXT[003] = "长矛截击机"
+shipUIhgn_busnewship661UITXT[004] = "弯刀轰炸机"
+shipUIhgn_busnewship661UITXT[005] = "渡鸦轰炸机"
+
+
+shipUIhgn_busnewship481UITXT = {}
+shipUIhgn_busnewship481UITXT[001] = "弯刀战斗机"
+shipUIhgn_busnewship481UITXT[002] = "霉菌重炮艇"
+shipUIhgn_busnewship481UITXT[003] = "长矛截击机"
+shipUIhgn_busnewship481UITXT[004] = "弯刀轰炸机"
+shipUIhgn_busnewship481UITXT[005] = "渡鸦轰炸机"
+
+
+shipUImodu_supershipcarrierC1UITXT = {}
+shipUImodu_supershipcarrierC1UITXT[001] = "解放者"
+shipUImodu_supershipcarrierC1UITXT[002] = "三叉戟D反舰"
+shipUImodu_supershipcarrierC1UITXT[003] = "三叉戟D反舰"
+shipUImodu_supershipcarrierC1UITXT[004] = "三叉戟D反舰"
+shipUImodu_supershipcarrierC1UITXT[005] = "三叉戟D反舰"
+
+shipUImodu_supershipcarrier1UITXT = {}
+shipUImodu_supershipcarrier1UITXT[001] = "守护者"
+shipUImodu_supershipcarrier1UITXT[002] = "破刃截击机零号型"
+shipUImodu_supershipcarrier1UITXT[003] = "破刃截击机零号轰炸型"
+shipUImodu_supershipcarrier1UITXT[004] = "三叉戟D反舰型"
+shipUImodu_supershipcarrier1UITXT[005] = "幻象"
+
+shipUIxao_carrierheavyathenaQ1UITXT = {}
+shipUIxao_carrierheavyathenaQ1UITXT[001] = "AN-1K型重型战斗机"
+shipUIxao_carrierheavyathenaQ1UITXT[002] = "K型无人战斗机"
+shipUIxao_carrierheavyathenaQ1UITXT[003] = "流星战斗机改二"
+shipUIxao_carrierheavyathenaQ1UITXT[004] = "流星战斗机"
+shipUIxao_carrierheavyathenaQ1UITXT[005] = "犀牛武装运输艇"
+
+shipUIhgn_busnewship861UITXT = {}
+shipUIhgn_busnewship861UITXT[001] = "朱雀级战斗轰炸无人机"
+shipUIhgn_busnewship861UITXT[002] = "朱雀级战斗轰炸无人机"
+shipUIhgn_busnewship861UITXT[003] = "朱雀级战斗轰炸无人机"
+shipUIhgn_busnewship861UITXT[004] = "朱雀级战斗轰炸无人机"
+shipUIhgn_busnewship861UITXT[005] = "朱雀级战斗轰炸无人机"
+
+shipUIhgn_busnewship791UIAATXT = {}
+shipUIhgn_busnewship791UIAATXT[001] = "帝征型节点战机-岚牙"
+shipUIhgn_busnewship791UIAATXT[002] = "卫蛇型无人机-天倾"
+shipUIhgn_busnewship791UIAATXT[003] = "卫蛇型无人机-天倾"
+shipUIhgn_busnewship791UIAATXT[004] = "卫蛇型无人机-天倾"
+shipUIhgn_busnewship791UIAATXT[005] = "帝征型节点战机-辉界"
+
+shipUIhgn_busnewship791UIBOTXT = {}
+shipUIhgn_busnewship791UIBOTXT[001] = "帝征型节点战机-龙槊"
+shipUIhgn_busnewship791UIBOTXT[002] = "卫蛇型无人机-曜星"
+shipUIhgn_busnewship791UIBOTXT[003] = "卫蛇型无人机-曜星"
+shipUIhgn_busnewship791UIBOTXT[004] = "卫蛇型无人机-曜星"
+shipUIhgn_busnewship791UIBOTXT[005] = "帝征型节点战机-辉界"
+
+shipUIhgn_busnewship801UITXT = {}
+shipUIhgn_busnewship801UITXT[001] = "帝征型节点战机-岚牙"
+shipUIhgn_busnewship801UITXT[002] = "帝征型节点战机-龙槊"
+shipUIhgn_busnewship801UITXT[003] = "卫蛇型无人机-天倾"
+shipUIhgn_busnewship801UITXT[004] = "卫蛇型无人机-曜星"
+shipUIhgn_busnewship801UITXT[005] = "帝征型节点战机-辉界"
+
+mapattacksystemMAP = {}
+mapattacksystemMAP[001] = "菲雅利之门"
+mapattacksystemMAP[002] = "帝国殖民区"
+mapattacksystemMAP[003] = "帝国采矿点"
+mapattacksystemMAP[004] = "帝国太空农场群"
+mapattacksystemMAP[005] = "帝国前线舰队集结地"
+mapattacksystemMAP[006] = "菲雅利帝国船坞群"
+mapattacksystemMAP[007] = "坦尼斯"
+mapattacksystemMAP[008] = "塞勒姆"
+mapattacksystemMAP[009] = "希格拉首星"
+mapattacksystemMAP[010] = "天使之月"
+mapattacksystemMAP[011] = "第142号前哨基地"
+mapattacksystemMAP[012] = "尼福尔海姆"
+mapattacksystemMAP[013] = "赫尔海利姆"
+mapattacksystemMAP[014] = "蚁巢舰队活动区"
+mapattacksystemMAP[015] = "阿因特斯舰队定锚点"
+mapattacksystemMAP[016] = "星门都市格利普斯"
+mapattacksystemMAP[017] = "维格尔东线军阀活动区"
+mapattacksystemMAP[018] = "维格尔东线军阀控制区"
+mapattacksystemMAP[019] = "卡厄斯联盟—前线哨站"
+mapattacksystemMAP[020] = "卡厄斯联盟—利贝尔共和国"
+mapattacksystemMAP[021] = "卡厄斯联盟—联合泊地"
+mapattacksystemMAP[022] = "追忆之庭重工总部船坞"
+mapattacksystemMAP[023] = "卡厄斯联盟混沌商人"
+mapattacksystemMAP[024] = "第58特混舰队集结地"
+mapattacksystemMAP[025] = "卡厄斯永生者探索之初"
+mapattacksystemMAP[026] = "先祖遗迹"
+mapattacksystemMAP[027] = "卡拉克行星"
+mapattacksystemMAP[028] = "卡厄斯联盟—食用油动力船坞"
+mapattacksystemMAP[029] = "阿瓦塔协会探索舰队驻地"
+mapattacksystemMAP[030] = "瓦纳海姆"
+mapattacksystemMAP[031] = "诺亚库申联合工业园"
+mapattacksystemMAP[032] = "开发代号·阿斯玲"
+mapattacksystemMAP[033] = "苍星战团巡航坐标"
+mapattacksystemMAP[034] = "暗区"
+mapattacksystemMAP[035] = "CPSR游魂舰队驻地"
+
+mapgoodsystemMAPname = {}
+mapgoodsystemMAPname[000] = ""
+mapgoodsystemMAPname[001] = "菲雅利之门"
+mapgoodsystemMAPname[002] = "帝国殖民区"
+mapgoodsystemMAPname[003] = "帝国采矿点"
+mapgoodsystemMAPname[004] = "坦尼斯"
+mapgoodsystemMAPname[005] = "塞勒姆"
+mapgoodsystemMAPname[006] = "希格拉首星"
+mapgoodsystemMAPname[007] = "天使之月"
+mapgoodsystemMAPname[008] = "第142号前哨基地"
+mapgoodsystemMAPname[009] = "亚加斯前哨站"
+mapgoodsystemMAPname[010] = "索德拉根暗礁宙域"
+mapgoodsystemMAPname[011] = "阿莱诺亚空间船坞群周边"
+mapgoodsystemMAPname[012] = "殖民行星玛加萨"
+mapgoodsystemMAPname[013] = "巴塔利安战舰坟场"
+mapgoodsystemMAPname[014] = "尼福尔海姆"
+mapgoodsystemMAPname[015] = "赫尔海利姆"
+mapgoodsystemMAPname[016] = "先祖遗迹"
+mapgoodsystemMAPname[017] = "独立星区"
+mapgoodsystemMAPname[018] = "帝国太空农场群"
+mapgoodsystemMAPname[019] = "帝国前线舰队集结地"
+mapgoodsystemMAPname[020] = "维格尔海盗狩猎场"
+mapgoodsystemMAPname[021] = "亚基纳茨虫族巢群"
+mapgoodsystemMAPname[022] = "图拉尼海盗活动区"
+mapgoodsystemMAPname[023] = "卡德什大教堂"
+mapgoodsystemMAPname[024] = "卡拉克行星"
+mapgoodsystemMAPname[025] = "泰瓦伦共和国边境"
+mapgoodsystemMAPname[026] = "菲雅利帝国船坞群"
+mapgoodsystemMAPname[027] = "朝圣者活动区"
+mapgoodsystemMAPname[028] = "维格尔东线军阀活动区"
+mapgoodsystemMAPname[029] = "维格尔东线军阀控制区"
+mapgoodsystemMAPname[030] = "EDF控制区"
+mapgoodsystemMAPname[031] = "蚁巢舰队活动区"
+mapgoodsystemMAPname[032] = "莫尔迪基安大君边境"
+mapgoodsystemMAPname[033] = "卡厄斯联盟—前线哨站"
+mapgoodsystemMAPname[034] = "卡厄斯联盟—利贝尔共和国"
+mapgoodsystemMAPname[035] = "卡厄斯联盟—联合泊地"
+mapgoodsystemMAPname[036] = "追忆之庭重工总部船坞"
+mapgoodsystemMAPname[037] = "卡厄斯联盟混沌商人"
+mapgoodsystemMAPname[038] = "第58特混舰队集结地"
+mapgoodsystemMAPname[039] = "卡厄斯永生者探索之初"
+mapgoodsystemMAPname[040] = "阿因特斯舰队定锚点"
+mapgoodsystemMAPname[041] = "星门都市格利普斯"
+mapgoodsystemMAPname[042] = "卡厄斯联盟—食用油动力船坞"	
+mapgoodsystemMAPname[043] = "卡厄斯联盟—食用油动力船坞"
+mapgoodsystemMAPname[044] = "阿瓦塔协会探索舰队驻地"
+mapgoodsystemMAPname[045] = "瓦纳海姆"
+mapgoodsystemMAPname[046] = "诺亚库申联合工业园"
+mapgoodsystemMAPname[047] = "开发代号·阿斯玲"
+mapgoodsystemMAPname[048] = "苍星战团巡航坐标"
+mapgoodsystemMAPname[049] = "暗区"
+mapgoodsystemMAPname[050] = "CPSR游魂舰队驻地"
+
+mapgoodsystemMAPnameTXT = {}
+mapgoodsystemMAPnameTXT[000] = ","
+mapgoodsystemMAPnameTXT[001] = ",菲雅利之门"
+mapgoodsystemMAPnameTXT[002] = ",帝国殖民区"
+mapgoodsystemMAPnameTXT[003] = ",帝国采矿点"
+mapgoodsystemMAPnameTXT[004] = ",坦尼斯"
+mapgoodsystemMAPnameTXT[005] = ",塞勒姆"
+mapgoodsystemMAPnameTXT[006] = ",希格拉首星"
+mapgoodsystemMAPnameTXT[007] = ",天使之月"
+mapgoodsystemMAPnameTXT[008] = ",第142号前哨基地"
+mapgoodsystemMAPnameTXT[009] = ",亚加斯前哨站"
+mapgoodsystemMAPnameTXT[010] = ",索德拉根暗礁宙域"
+mapgoodsystemMAPnameTXT[011] = ",阿莱诺亚空间船坞群周边"
+mapgoodsystemMAPnameTXT[012] = ",殖民行星玛加萨"
+mapgoodsystemMAPnameTXT[013] = ",巴塔利安战舰坟场"
+mapgoodsystemMAPnameTXT[014] = ",尼福尔海姆"
+mapgoodsystemMAPnameTXT[015] = ",赫尔海利姆"
+mapgoodsystemMAPnameTXT[016] = ",先祖遗迹"
+mapgoodsystemMAPnameTXT[017] = ",独立星区"
+mapgoodsystemMAPnameTXT[018] = ",帝国太空农场群"
+mapgoodsystemMAPnameTXT[019] = ",帝国前线舰队集结地"
+mapgoodsystemMAPnameTXT[020] = ",维格尔海盗狩猎场"
+mapgoodsystemMAPnameTXT[021] = ",亚基纳茨虫族巢群"
+mapgoodsystemMAPnameTXT[022] = ",图拉尼海盗活动区"
+mapgoodsystemMAPnameTXT[023] = ",卡德什大教堂"
+mapgoodsystemMAPnameTXT[024] = ",卡拉克行星"
+mapgoodsystemMAPnameTXT[025] = ",泰瓦伦共和国边境"
+mapgoodsystemMAPnameTXT[026] = ",菲雅利帝国船坞群"
+mapgoodsystemMAPnameTXT[027] = ",朝圣者活动区"
+mapgoodsystemMAPnameTXT[028] = ",东线军阀活动区"
+mapgoodsystemMAPnameTXT[029] = ",东线军阀控制区"
+mapgoodsystemMAPnameTXT[030] = ",EDF控制区"
+mapgoodsystemMAPnameTXT[031] = ",蚁巢舰队活动区"
+mapgoodsystemMAPnameTXT[032] = ",莫尔迪基安边境"
+mapgoodsystemMAPnameTXT[033] = ",卡厄斯前线哨站"
+mapgoodsystemMAPnameTXT[034] = ",卡厄斯利贝尔共和国"
+mapgoodsystemMAPnameTXT[035] = ",卡厄斯联合泊地"
+mapgoodsystemMAPnameTXT[036] = ",追忆之庭坞"
+mapgoodsystemMAPnameTXT[037] = ",联盟混沌商人"
+mapgoodsystemMAPnameTXT[038] = ",第58特混舰队"
+mapgoodsystemMAPnameTXT[039] = ",永生者探索之初"
+mapgoodsystemMAPnameTXT[040] = ",阿因特斯锚点"
+mapgoodsystemMAPnameTXT[041] = ",星门都市格利普斯"
+mapgoodsystemMAPnameTXT[042] = ",卡厄斯联盟—食用油动力船坞"	
+mapgoodsystemMAPnameTXT[043] = ",卡厄斯联盟—食用油动力船坞"
+mapgoodsystemMAPnameTXT[044] = ",阿瓦塔协会探索舰队驻地"
+mapgoodsystemMAPnameTXT[045] = ",瓦纳海姆"
+mapgoodsystemMAPnameTXT[046] = ",诺亚库申联合工业园"
+mapgoodsystemMAPnameTXT[047] = ",开发代号·阿斯玲"
+mapgoodsystemMAPnameTXT[048] = ",苍星战团巡航坐标"
+mapgoodsystemMAPnameTXT[049] = ",暗区"
+mapgoodsystemMAPnameTXT[050] = ",CPSR游魂舰队驻地"
+
+mapgoodsystemGOODname = {}
+mapgoodsystemGOODname[001] = "帝国咖啡"
+mapgoodsystemGOODname[002] = "帝国女仆"
+mapgoodsystemGOODname[003] = "冰矿"
+mapgoodsystemGOODname[004] = "大型船体组件"
+mapgoodsystemGOODname[005] = "小型船体构件"
+mapgoodsystemGOODname[006] = "鲜活海鲜"
+mapgoodsystemGOODname[007] = "神圣之息"
+mapgoodsystemGOODname[008] = "金属矿石"
+mapgoodsystemGOODname[009] = "神圣之息"
+mapgoodsystemGOODname[010] = "神圣之息"
+mapgoodsystemGOODname[011] = "神圣之息"
+mapgoodsystemGOODname[012] = "奢侈品"
+mapgoodsystemGOODname[013] = "机械零件"
+mapgoodsystemGOODname[014] = "自动维修机器人"
+mapgoodsystemGOODname[015] = "章鱼丸子"
+mapgoodsystemGOODname[016] = "先祖遗物"
+mapgoodsystemGOODname[017] = "神圣之息"
+mapgoodsystemGOODname[018] = "三明治"
+mapgoodsystemGOODname[019] = "基础修理工具"
+mapgoodsystemGOODname[020] = "中型武器配件"
+mapgoodsystemGOODname[021] = "神圣之息"
+mapgoodsystemGOODname[022] = "神圣之息"
+mapgoodsystemGOODname[023] = "神圣之息"
+mapgoodsystemGOODname[024] = "珍惜矿石"
+mapgoodsystemGOODname[025] = "奢侈品"
+mapgoodsystemGOODname[026] = "特种合金"
+mapgoodsystemGOODname[027] = "黑暗圣经"
+mapgoodsystemGOODname[028] = "奢华家具"
+mapgoodsystemGOODname[029] = "大型引擎"
+mapgoodsystemGOODname[030] = "游击战三大件"
+mapgoodsystemGOODname[031] = "蚁壳素"
+mapgoodsystemGOODname[032] = "大君语录"
+mapgoodsystemGOODname[033] = "生物电脑"
+mapgoodsystemGOODname[034] = "神圣之息"
+mapgoodsystemGOODname[035] = "电子元件"
+mapgoodsystemGOODname[036] = "高级修理工具"
+mapgoodsystemGOODname[037] = "龙须面"
+mapgoodsystemGOODname[038] = "神圣之息"
+mapgoodsystemGOODname[039] = "神圣之息"
+mapgoodsystemGOODname[040] = "神圣之息"
+mapgoodsystemGOODname[041] = "管理员"
+mapgoodsystemGOODname[042] = "食用油"
+mapgoodsystemGOODname[043] = "神圣之息"
+mapgoodsystemGOODname[044] = "合成神经簇"
+mapgoodsystemGOODname[045] = "歌姬手办"
+mapgoodsystemGOODname[046] = "神圣之息"
+mapgoodsystemGOODname[047] = "兵蜂控制系统"
+mapgoodsystemGOODname[048] = "压缩胶囊"
+mapgoodsystemGOODname[049] = "神圣之息"
+mapgoodsystemGOODname[050] = "独眼全自动安保眼球机器人"
+
+
+mapfactorysystemfactoryname = {}
+mapfactorysystemfactoryname[001] = "帝国咖啡加工厂"
+mapfactorysystemfactoryname[002] = "帝国女仆培训设施"
+mapfactorysystemfactoryname[003] = "冰矿采集站"
+mapfactorysystemfactoryname[004] = "大型船体组件加工厂"
+mapfactorysystemfactoryname[005] = "小型船体构件加工厂"
+mapfactorysystemfactoryname[006] = "鲜活海鲜培养槽"
+mapfactorysystemfactoryname[007] = "神圣之息"
+mapfactorysystemfactoryname[008] = "金属矿石采集站"
+mapfactorysystemfactoryname[009] = "神圣之息"
+mapfactorysystemfactoryname[010] = "神圣之息"
+mapfactorysystemfactoryname[011] = "神圣之息"
+mapfactorysystemfactoryname[012] = "奢侈品加工厂"
+mapfactorysystemfactoryname[013] = "机械零件加工厂"
+mapfactorysystemfactoryname[014] = "自动维修机器人加工厂"
+mapfactorysystemfactoryname[015] = "章鱼丸子加工厂"
+mapfactorysystemfactoryname[016] = "先祖遗物采集站"
+mapfactorysystemfactoryname[017] = "神圣之息"
+mapfactorysystemfactoryname[018] = "三明治加工厂"
+mapfactorysystemfactoryname[019] = "基础修理工具加工厂"
+mapfactorysystemfactoryname[020] = "中型武器配件加工厂"
+mapfactorysystemfactoryname[021] = "神圣之息"
+mapfactorysystemfactoryname[022] = "神圣之息"
+mapfactorysystemfactoryname[023] = "神圣之息"
+mapfactorysystemfactoryname[024] = "珍惜矿石采集站"
+mapfactorysystemfactoryname[025] = "奢侈品加工厂"
+mapfactorysystemfactoryname[026] = "特种合金加工厂"
+mapfactorysystemfactoryname[027] = "黑暗圣经复刻厂"
+mapfactorysystemfactoryname[028] = "奢华家具加工厂"
+mapfactorysystemfactoryname[029] = "大型引擎加工厂"
+mapfactorysystemfactoryname[030] = "游击战三大件"
+mapfactorysystemfactoryname[031] = "蚁壳素加工厂"
+mapfactorysystemfactoryname[032] = "大君语录抄写处"
+mapfactorysystemfactoryname[033] = "生物电脑加工厂"
+mapfactorysystemfactoryname[034] = "神圣之息"
+mapfactorysystemfactoryname[035] = "电子元件加工厂"
+mapfactorysystemfactoryname[036] = "高级修理工具加工厂"
+mapfactorysystemfactoryname[037] = "龙须面加工厂"
+mapfactorysystemfactoryname[038] = "神圣之息"
+mapfactorysystemfactoryname[039] = "神圣之息"
+mapfactorysystemfactoryname[040] = "神圣之息"
+mapfactorysystemfactoryname[041] = "管理员培训基地"
+mapfactorysystemfactoryname[042] = "食用油加工厂"
+mapfactorysystemfactoryname[043] = "神圣之息"
+mapfactorysystemfactoryname[044] = "合成神经簇加工厂"
+mapfactorysystemfactoryname[045] = "歌姬手办工厂"
+mapfactorysystemfactoryname[046] = "神圣之息"
+mapfactorysystemfactoryname[047] = "兵蜂控制系统加工厂"
+mapfactorysystemfactoryname[048] = "压缩胶囊加工厂"
+mapfactorysystemfactoryname[049] = "神圣之息"
+mapfactorysystemfactoryname[050] = "独眼全自动安保眼球机器人加工厂"
+
+randomMAPsmallmissionshipTXT = {}
+randomMAPsmallmissionshipTXT[001] = "菲雅利商船"
+randomMAPsmallmissionshipTXT[002] = "希格拉货舰"
+randomMAPsmallmissionshipTXT[003] = "卡厄斯商船"
+randomMAPsmallmissionshipTXT[004] = "维格尔货舰"
+randomMAPsmallmissionshipTXT[005] = "埃赫洛斯嘉德货舰"
+
+randomMAPsmallmissionTPYETXT = {}
+randomMAPsmallmissionTPYETXT[001] = "运输任务"
+randomMAPsmallmissionTPYETXT[002] = "采购任务"
+randomMAPsmallmissionTPYETXT[003] = "护航任务"
+randomMAPsmallmissionTPYETXT[004] = "反袭击任务"
+
+
+randomMAPsmallmissionTYPEMIDTXT = {}
+randomMAPsmallmissionTYPEMIDTXT[001] = "运输目的地是"
+randomMAPsmallmissionTYPEMIDTXT[002] = ""
+randomMAPsmallmissionTYPEMIDTXT[003] = "护送目的地是"
+randomMAPsmallmissionTYPEMIDTXT[004] = "清缴目标目前正在"
+
+randomMAPsmallmissionTPYEENDTXT = {}
+randomMAPsmallmissionTPYEENDTXT[001] = "（放弃任务后不再得到任何奖励，但是你可以自由处理手头采购来的商品）"
+randomMAPsmallmissionTPYEENDTXT[002] = "（放弃任务后不再得到任何奖励，但是你可以自由处理手头采购来的商品）"
+randomMAPsmallmissionTPYEENDTXT[003] = "（放弃任务后被护航对象会离开舰队，同时扣除的荣誉点无法退还）"
+randomMAPsmallmissionTPYEENDTXT[004] = "（放弃任务后该星区政府会寻找其他雇佣舰队来解决入侵问题）"
+
+
+
+goodLVoutTXT = {}
+goodLVoutTXT[001] = ""
+goodLVoutTXT[002] = "（警告！！你的贸易等级超出战斗等级太多，这会导致充能期间有极高几率遭遇敌人进攻）"
+goodLVoutTXT[003] = function(text1)
+	local iText="舰队正在进行常规跃迁充能，充能期间可能会遭遇海盗舰队的袭击，规模越大的舰队越有遭遇战斗的风险，请做好战斗准备"..text1..""
+	return iText
+end
+
+
+
+randomMAPsmallmissionTXT = {}
+randomMAPsmallmissionTXT[001] = function(text1,text2,text3,text4,text5,text6,text7)
+	local iText="你接到一个运输任务,你需要把"..text1.."单位的"..text2.."运输到"..text3.."，目的地距离该星区需要进行"..text4.."次跳跃，如果完成，你将会收到"..text5.."的资金奖励"..text4.."的荣誉点奖励（警告：为了运输以上资源，你需要"..text6.."的货仓空间，另外为了防止资源丢失，当地政府会预先扣除"..text7.."资金和"..text4.."荣誉点作为保证金）"
+	return iText
+end
+
+randomMAPsmallmissionTXT[002] = function(text1,text2,text3,text4,text5,text6)
+	local iText="任务条件不满足，接取该任务需要"..text1.."的货仓空间"..text2.."的资金还有"..text3.."的荣誉点，而你的舰队目前拥有"..text4.."的货仓空间"..text5.."的资金"..text6.."的荣誉点"
+	return iText
+end
+
+randomMAPsmallmissionTXT[003] = function(text1,text2,text3,text4)
+	local iText="你从"..text1.."接取的运输任务所要求的"..text2.."商品数量不足,任务需要你携带"..text3.."单位，但是目前你的舰队里只有"..text4.."单位，是否要放弃任务（提示：你可以通过采购或者其他方法补足任务要求的数量）"
+	return iText
+end
+---------你从XXX接取的运输任务所要求的XXXX商品数量不足--任务需要你携带XXX个，但是目前你的舰队里只有XXX个----是否要放弃任务--提示--你可以通过采购或者其他方法补足任务要求的数量-------
+randomMAPsmallmissionTXT[004] = function(text1,text2,text3)
+	local iText="你已经从"..text1.."接取了运输任务，你的目的地是"..text2.."--你目前正在"..text3.."星区。在手头拥有任务的情况下无法接取新的随机任务，请问是否要放弃运输任务？？（放弃任务后扣除的保证金和荣誉点无法返还，但是你可以自由处理手头的运输商品）"
+	return iText
+end
+ ---------你已经XXX接取了运输任务--你的目的地是--你目前正在XX地图---在手头拥有任务的情况下无法接取新的随机任务，请问是否要放弃运输任务？？（放弃任务后扣除的保证金和荣誉点无法返还，但是你可以自由处理手头的运输商品）--
+randomMAPsmallmissionTXT[005] = function(text1,text2,text3)
+	local iText="你成功的完成了运输任务,并获得了"..text1.."的任务报酬和"..text2.."荣誉点(包含之前交付的保证金）另外由于你的出色表现，你还获得了"..text3.."的贸易经验"
+	return iText
+end 
+ 
+--你成功的完成了-运输任务--并获得了XXXX的任务报酬和XXX荣誉点(包含之前交付的保证金）--randomMAPsmallmissionENDMONEYstart
+--由于你的出色表现，你还获得了XXX的贸易经验-- 
+ 
+randomMAPsmallmissionTXT[006] = function(text1,text2,text3,text4,text5,text6,text7)
+	local iText="你接到一个采购任务,该星区需要"..text1.."单位的"..text2.."。根据情报，在"..text3.."可能出售该商品，出售地星区距离该区域的距离为"..text4.."次跳跃，采购的总金额为"..text7.."。如果能把商品运回来，你将会收到"..text5.."的资金奖励"..text4.."的荣誉点奖励（警告：为了运输以上资源，你需要"..text6.."的货仓空间）\n（到目的地后请点击随机任务进行采购，有特殊的供应商可以无视贸易等级为您供货）"
+	return iText
+end 
+ 
+randomMAPsmallmissionTXT[007] = function(text1,text2,text3,text4,text5)
+	local iText="你从"..text1.."接取了一个采购任务，任务需要你前往"..text2.."采购"..text3.."单位的"..text4.."。目前你的库存里只有"..text5.."单位的"..text4.."，是否要放弃任务？（提示，你也可以通过其他手段获取足够的商品）"
+	return iText
+end
+
+randomMAPsmallmissionTXT[008] = function(text1)
+	local iText="你已经从"..text1.."接取了采购任务，在手头拥有任务的情况下无法接取新的随机任务，请问是否要放弃运输任务？？（放弃任务后不再得到任何奖励，但是你可以自由处理手头采购来的商品）"
+	return iText
+end
+
+randomMAPsmallmissionTXT[009] = function(text1,text2,text3,text4)
+	local iText="你成功的完成了"..text4..",并获得了"..text1.."的任务报酬和"..text2.."荣誉点，另外由于你的出色表现，你还获得了"..text3.."的贸易经验"
+	return iText
+end 
+
+
+randomMAPsmallmissionTXT[010] = function(text1,text2,text3,text4)
+	local iText="你接到一个护送任务,你需要把1艘"..text1.."护送到"..text2.."，目的地距离该星区需要进行"..text3.."次跳跃，如果完成，你将会收到"..text4.."的资金奖励"..text3.."的荣誉点奖励（警告：如果中途护送目标被摧毁则任务失败，该任务需要预交"..text3.."荣誉点作为保证）"
+	return iText
+end
+
+randomMAPsmallmissionTXT[011] = function(text1,text2)
+	local iText="任务条件不满足，接取该任务需要"..text1.."的荣誉点，而你的舰队目前拥有"..text2.."的荣誉点"
+	return iText
+end
+
+
+randomMAPsmallmissionTXT[012] = function(text1,text2,text3)
+	local iText="你从"..text1.."接取的护航任务中需要保护的"..text2.."已经被摧毁，任务自动取消，同时之前扣除的"..text3.."荣誉点也无法返还（你可以继续接取新的随机任务）"
+	return iText
+end
+
+
+randomMAPsmallmissionTXT[014] = function(text1,text2,text3,text4,text5)
+	local iText="你已经从"..text1.."接取了"..text2.."，"..text4..""..text5.." 在手头拥有任务的情况下无法接取新的随机任务，请问是否要放弃任务？？"..text3..""
+	return iText
+end
+
+randomMAPsmallmissionTXT[015] = function(text1,text2,text3,text4,text5,text6)
+	local iText="你接到一个讨伐任务,在"..text1.."外围星区有一支"..text2.."的"..text3.."在活动，他们可能是"..text4.."的前锋侦查舰队，如果你能够将其摧毁，那么你就可以获得"..text5.."的资金奖励"..text6.."的荣誉点奖励"
+	return iText
+end
+
+randomMAPsmallmissionTXT[016] = function(text1)
+	local iText="任务已经确认，请前往"..text1.."外围星区执行清缴作战"
+	return iText
+end
+
+randomMAPsmallmissionTXT[017] = function(text1,text2)
+	local iText="你已经到达"..text1.."，"..text2.."正在该星区的外围星区活动，是否要执行清缴作战？（如果想放弃任务请前往其他星区再点否）"
+	return iText
+end
+
+
+randomMAPsmallmissionTXT[018] = function(text1,text5,text6,text7)
+	local iText="你已经清缴了"..text1.."的先锋舰队，在战斗结束后你打扫战场获得了"..text5.."的资金奖励和"..text6.."的战斗经验还有"..text7.."的荣誉点作为报酬,任务结束"
+	return iText
+end
+
+randomMAPsmallmissionTXT[019] = function(text1,text2)
+	local iText="你的舰队已经到达"..text1.."外围，"..text2.."的前锋侦察舰队正在这个区域行动，清剿这些舰队可以完成任务。"
+	return iText
+end
+
+
+randomMAPsmallmissionTXT[020] = function(text1,text2,text3,text4)
+	local iText="你接到了一个采购任务，你需要采购"..text1.."单位的"..text2..".\n目前该星区的一位特殊供货商愿意提供这些货物，你需要支付"..text3.."并准备好"..text4.."的货仓空间，请问是否要进行采购？（警告：特殊供货商每次任务都只能提供一次特殊采购，请勿重复购买）"
+	return iText
+end
+
+
+mapfactorysystemdefLV = {}
+mapfactorysystemdefLV[001] = "无法抵御任何入侵"
+mapfactorysystemdefLV[002] = "可以抵御小规模的海盗和天灾入侵"
+mapfactorysystemdefLV[003] = "可以抵御中等规模的海盗和天灾入侵"
+mapfactorysystemdefLV[004] = "可以抵御大规模的海盗和天灾入侵"
+mapfactorysystemdefLV[005] = "可以抵御超大规模的海盗和天灾入侵"
+mapfactorysystemdefLV[006] = "可以抵御特大规模的海盗和天灾入侵"
+
+mapgoodsystemTXT = {}
+mapgoodsystemTXT[001] = function(text1,text2,text3,text4,text5,text6)
+	local iText=""..text1.."星区目前的生产能力只能提供"..text2.."单位的"..text3.."，由于你的舰队采购的"..text3.."数量远超过当地经销商的现有库存，当地供货商核对库存后发现，约有"..text4.."单位的"..text3.."无法交货，"..text5.."的采购货款已经原路退回。（建议对当地的"..text6.."进行投资，升级当地的产品生产力）"
+	return iText
+end
+
+mapgoodsystemTXT[002] = function(text1,text2,text3,text4,text5,text6,text7)
+	local iText=""..text1.."星区目前的"..text2.."生产等级为"..text3.."级，每次可以提供"..text4.."单位的"..text5..".星区防御能力为"..text6.."级，"..text7.."，你是否要对星区进行投资？"
+	return iText
+end
+
+mapgoodsystemTXT[003] = function(text1)
+	local iText=""..text1.."星区的防御设施等级已经达到10级，无法继续升级"
+	return iText
+end
+
+mapgoodsystemTXT[004] = function(text1,text2,text3)
+	local iText="你是否要投资"..text1.."星区的防御设施？该设施目前等级为"..text2.."级，升级它需要"..text3.."资金"
+	return iText
+end
+
+mapgoodsystemTXT[005] = function(text1,text2,text3)
+	local iText=""..text1.."星区的防御设施已经升级，目前等级为"..text2.."级，为了感谢你做出的贡献，当地政府给与了你"..text3.."点的荣誉点"
+	return iText
+end
+
+mapgoodsystemTXT[006] = function(text1,text2)
+	local iText="你的资金不够,"..text1.."星区的防御设施升级需要"..text2.."的资金"
+	return iText
+end
+
+
+mapgoodsystemTXT[007] = function(text1,text2)
+	local iText=""..text1.."星区的"..text2.."等级已经达到10级，无法继续升级"
+	return iText
+end
+
+mapgoodsystemTXT[008] = function(text1,text2,text3,text4)
+	local iText="你是否要投资"..text1.."星区的"..text4.."？该设施目前等级为"..text2.."级，升级它需要"..text3.."资金"
+	return iText
+end
+
+
+mapgoodsystemTXT[009] = function(text1,text2,text3,text4)
+	local iText=""..text1.."星区的"..text4.."已经升级，目前等级为"..text2.."级，为了感谢你做出的贡献，当地政府给与了你"..text3.."点的荣誉点"
+	return iText
+end
+
+mapgoodsystemTXT[010] = function(text1,text2,text3)
+	local iText="你的资金不够,"..text1.."星区的"..text3.."升级需要"..text2.."的资金"
+	return iText
+end
+
+
+mapgoodsystemTXT[011] = function(text1,text2,text3)
+	local iText=""..text1.."星区没有任何商业设施.星区防御能力为"..text2.."级，"..text3..",你是否要对星区进行投资？"
+	return iText
+end
+
+mapgoodsystemTXT[012] = function(text1,text2,text3,text4,text5)
+	local iText=""..text1.."星区目前的"..text2.."生产等级为"..text3.."级，每次可以提供"..text4.."单位的"..text5..".你是否要投资？(因为当地政权原因，您无法进行任何星区防御方面的投资)"
+	return iText
+end
+
+
