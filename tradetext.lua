@@ -1,151 +1,152 @@
 DTM004 = {}
 DTM004[1] = function(iGood)
-	local iText = "Ìå»ı£º"..DTM4_GetColorText(g_TransAmount,"NotLess",Goods[iGood].weight,Goods[iGood].weight).."\n"
-	iText = iText.."¾üÊÂµÈ¼¶£º"..DTM4_GetColorText(g_FightLevel,"NotLess",Goods[iGood].FightLevelNeed,Goods[iGood].FightLevelNeed).."\n"
-	iText = iText.."Ã³Ò×µÈ¼¶£º"..DTM4_GetColorText(g_TradeLevel,"NotLess",Goods[iGood].TradeLevelNeed,Goods[iGood].TradeLevelNeed).."\n"
+	local iText = "Size:"..DTM4_GetColorText(g_TransAmount,"NotLess",Goods[iGood].weight,Goods[iGood].weight).."\n"
+	--iText = iText.."Military rank:"..DTM4_GetColorText(g_FightLevel,"NotLess",Goods[iGood].FightLevelNeed,Goods[iGood].FightLevelNeed).."\n"
+	--iText = iText.."Trade level:"..DTM4_GetColorText(g_TradeLevel,"NotLess",Goods[iGood].TradeLevelNeed,Goods[iGood].TradeLevelNeed).."\n"
 	iText = iText..Goods[iGood].Description
 	return iText
 end
-DTM004[2] = "ÏûºÄ£¨µ¥Î»/Ìì£©£º\n"
+DTM004[2] = "Consumption (units/day):\n"
 DTM004[3] = function(iGood)
-	local iText = "Ìå»ı£º"..Goods[iGood].weight.."\n"..Goods[iGood].Description
+	local iText = "Size:"..Goods[iGood].weight.."\n"..Goods[iGood].Description
 	return iText
 end
---DTM004[3] = "»õ²ÕÈİÁ¿£º"
+--DTM004[3] = "Cargo hold capacity£º"
 DTM004[4] = function(text)
-	local iText="ÄãÈ·¶¨Òª¹ºÂòÕâËÒ¡°"..text.."¡±Âğ£¿"
+	local iText="Are you sure you want to buy this ship '"..text.."'?"
 	return iText
 end
---DTM004[5] = "¡±Âğ£¿"
-DTM004[5] = "¡¢"
+--DTM004[5] = "¡±£¿"
+DTM004[5] = ","
 DTM004[6] = function(text)
-	local iText="ÄãÈ·¶¨Òª½«¡°"..text.."ÊÛ³öÂğ£¿"
+	local iText="Are you sure you want to put '"..text.."' on sale?"
 	return iText
 end
 DTM004[7] = function(text)
-	local iText="ĞÇÃÅ - "..text
+	local iText="Jumpgate - "..text
 	return iText
 end
 DTM004[8] = function(text1,text2,text3)
-	local iText="¸ÃĞÇÃÅÍ¨Íù"..text1..", ÄãÈ·¶¨ÒªÍ¨¹ı¸ÃÌøÔ¾ÃÅÂğ£¿ÄãĞèÒªÖ§¸¶"..text2.."µã×Ê½ğÒÔ½øĞĞÌøÔ¾¡£\n¡¾×¢Òâ¡¿½¢¶ÓÖĞÉĞÓĞÎ´Í£²´µÄ»úÍ§£¬Èô²»Í£²´£¬Çë¶îÍâÖ§¸¶"..text3.."µã×Ê½ğ°ìÀíÍĞÔËÒµÎñ¡£"
+	local iText="This stargate leads to "..text1..", are you sure you want to go through that jump gate? You need to pay"..text2.."funds to make the jump.\n[Note] There are still undocked boats in the fleet, so if you don't dock them, you'll pay extra."..text3.."funds for docking operations."
 	return iText
 end
---DTM004[9] = ", ÄãÈ·¶¨ÒªÍ¨¹ı¸ÃÌøÔ¾ÃÅÂğ£¿ÄãĞèÒªÖ§¸¶"
+--DTM004[9] = ", Are you sure you want to go through that jump gate? You need to pay"
 DTM004[9]=function(text1,text2)
-	local iText="¸ÃĞÇÃÅÍ¨Íù"..text1..", ÄãÈ·¶¨ÒªÍ¨¹ı¸ÃÌøÔ¾ÃÅÂğ£¿ÄãĞèÒªÖ§¸¶"..text2.."µã×Ê½ğÒÔ½øĞĞÌøÔ¾¡£"
+	local iText="This stargate leads to "..text1..", are you sure you want to go through that jump gate? You need to pay "..text2.." funds to make the jump."
 	return iText
 end
---DTM004[10] = "¡¾×¢Òâ¡¿½¢¶ÓÖĞÉĞÓĞÎ´Í£²´µÄ»úÍ§£¬Èô²»Í£²´£¬Çë¶îÍâÖ§¸¶"
-DTM004[11] = "ÄãµÄ½¢´¬¾àÀë¹ıÔ¶£¬ÎŞ·¨Ê¹ÓÃ¸ÃÌøÔ¾ÃÅ¡£"
-DTM004[12] = "½¢¶ÓÖĞÃ»ÓĞÓµÓĞ³¬¿Õ¼äÌøÔ¾ÄÜÁ¦µÄ´¬£¬ÎŞ·¨½øĞĞÌøÔ¾¡£"
-DTM004[13] = "Ê¹ÓÃĞÇÃÅ"
-DTM004[14] = "Í¨¹ıĞÇ¼ÊÌøÔ¾ÃÅÇ°ÍùÆäËûĞÇÏµ"
-DTM004[15] = "È·¶¨"
-DTM004[16] = "È¡Ïû"
-DTM004[17] = "ÎŞ·¨Ê¹ÓÃ"
-DTM004[18] = "±ØĞè»õÎï¶ÌÈ±"
-DTM004[19] = "ÓĞ±ØĞè»õÎï´¢Á¿Îª0"
-DTM004[20] = "Ã³Ò×ĞÅÏ¢"
-DTM004[21] = "Óë¶Ô·½½øĞĞÃ³Ò×"
-DTM004[22] = "ÒøºÓ±ê×¼Àú"
-DTM004[23] = "ÄúÃ»ÓĞ¿¿½ü¸ÃÕ¾µÄ´¬Ö»£¬ÎŞ·¨Óë¶Ô·½½øĞĞÃ³Ò×¡£"
-DTM004[24] = "ÄúµÄ½¢¶ÓºÍÆäËû¿Õ¼äÕ¾¹ı½ü£¬ÎŞ·¨Óë¶Ô·½½øĞĞÃ³Ò×¡£"
---DTM004[25] = "×°Ğ¶ÄÜÁ¦£º"
---DTM004[26] = "×°Ğ¶ËÙ¶È£º"
-DTM004[27] = "Ğ¡Ê±"
-DTM004[28] = "Ìì"
-DTM004[29] = "ÔÂ"
-DTM004[30] = "Äê"
-DTM004[31] = "·ÖÖÓ"
---DTM004[32] = "Ô¤¼Æ×°Ğ¶Ğ§ÂÊ£º"
---DTM004[33] = "Ìå»ı£¬"
---DTM004[34] = "/´Î"
---DTM004[35] = "ÈÕ³£ÏûºÄ£¨µ¥Î»/Ìì£©£º\n"
---DTM004[36] = "ÒÆ¶¯ÏûºÄ£¨µ¥Î»/Ìì£©£º\n"
---DTM004[37] = "¹¥»÷ÏûºÄ£¨µ¥Î»/Ìì£©£º\n"
---DTM004[38] = "Î¬ĞŞÏûºÄ£¨µ¥Î»/Ìì£©£º\n"
---DTM004[39] = "ÌøÔ¾ÏûºÄ£¨µ¥Î»/Ê±£©£º\n"
+--DTM004[10] = "[Note] There are still undocked boats in the fleet, so if you don't dock them, you'll pay extra."
+DTM004[11] = "Your ship is too far away to use this jump gate."
+DTM004[12] = "There are no ships in the fleet with hyperspace jump capability to make the jump."
+DTM004[13] = "Use the stargate"
+DTM004[14] = "Travel to other star systems through a stargate."
+DTM004[15] = "OK"
+DTM004[16] = "Cancel"
+DTM004[17] = "Unavailable"
+DTM004[18] = "Shortage of essential cargo"
+DTM004[19] = "There is a stock of essential goods at 0"
+DTM004[20] = "Trade Information"
+DTM004[21] = "Trade with each other"
+DTM004[22] = "Galaxy Standard Calendar"
+DTM004[23] = "You do not have a ship close to this station and cannot trade with the other side."
+DTM004[24] = "Your fleet is too close to other space stations to trade with each other."
+--DTM004[25] = "Loading and unloading capacity:"
+--DTM004[26] = "Loading and unloading speed:"
+DTM004[27] = "Hourly"
+DTM004[28] = "Days"
+DTM004[29] = "Month"
+DTM004[30] = "Year"
+DTM004[31] = "minutes"
+--DTM004[32] = "Estimated loading and unloading efficiency:"
+--DTM004[33] = "Volume,"
+--DTM004[34] = "/time"
+--DTM004[35] = "Daily consumption (units/day): \n"
+--DTM004[36] = "Mobile consumption (units/day): \n"
+--DTM004[37] = "Attack consumption (unit/day): \n"
+--DTM004[38] = "Maintenance consumption (unit/day): \n"
+--DTM004[39] = "Jump consumption (units/hour): \n"
 DTM004[40] = function(warntext,iwarn,iwarn2,l_goodstake)
-		local iText = "ÄúµÄÖØÒªÎï×Ê£º"..warntext.."·¢Éú¶ÌÈ±£¬"
+		local iText = "Your important supplies:"..warntext.."are low."
 		local jwarntext = ""
-		kwarntext = {"ÓĞĞ©½¢´¬²»ÄÜ¿ª»ğ,","ÓĞĞ©½¢´¬¶¯µ¯²»µÃ,","ÓĞĞ©½¢´¬µÄÎ¬ĞŞ¹¤×÷ÄÑÒÔÎª¼Ì,","ÓĞĞ©½¢´¬ÎŞ·¨½øÈë³¬¿Õ¼ä,","ÓĞĞ©½¢´¬ÎŞ·¨ÒşĞÎ,","ÓĞĞ©½¢´¬ÎŞ·¨¿ªÆô·ÀÓù³¡,"}
+		kwarntext = {"Some ships can't fire,", "Some ships can't move,", "Some ships have unsustainable maintenance,", "Some ships can't enter hyperspace,", "Some ships can't cloak,", "Some ships can't open defense fields,"}
 		if (iwarn2==1) then
-			jwarntext = jwarntext.."Ïà¹Ø²úÒµÕıÒò´ËÍ£²ú,"
+			jwarntext = jwarntext.."Related industries are shutting down as a result,"
 		end
 		if (iwarn[1]==1) then
-			jwarntext = jwarntext.."½¢¶ÓÕıÒò´ËÃ¿ÌìËğÊ§"..l_goodstake.."µã×Ê½ğ,"
+			jwarntext = jwarntext.."and the fleet is losing"..l_goodstake.."funds daily,"
 		end
 		for i=2,7 do
 			if (iwarn[i]==1) then
 				jwarntext = jwarntext..kwarntext[i-1]
 			end
 		end
-		iText=iText..jwarntext.."Îª±ÜÃâ¸ü¶àËğÊ§£¬Çë¾¡¿ì²¹³äÏàÓ¦»õÎï"
+		iText=iText..jwarntext.."to avoid further losses, please replenish the corresponding goods as soon as possible"
 		return iText
 end
---DTM004[40] = "ÓĞĞ©½¢´¬²»ÄÜ¿ª»ğ,"
---DTM004[41] = "ÓĞĞ©½¢´¬¶¯µ¯²»µÃ,"
---DTM004[42] = "ÓĞĞ©½¢´¬µÄÎ¬ĞŞ¹¤×÷ÄÑÒÔÎª¼Ì,"
---DTM004[43] = "ÓĞĞ©½¢´¬ÎŞ·¨½øÈë³¬¿Õ¼ä,"
---DTM004[44] = "Ïà¹Ø²úÒµÕıÒò´ËÍ£²ú,"
---DTM004[45] = "½¢¶ÓÕıÒò´ËÃ¿ÌìËğÊ§"
---DTM004[46] = "µã×Ê½ğ,"
---DTM004[47] = "ÄúµÄÖØÒªÎï×Ê£º"
---DTM004[48] = "·¢Éú¶ÌÈ±£¬"
---DTM004[49] = "Îª±ÜÃâ¸ü¶àËğÊ§£¬Çë¾¡¿ì²¹³äÏàÓ¦»õÎï"
+--DTM004[40] = "Some ships can't fire,"
+--DTM004[41] = "Some ships are immobilized,"
+--DTM004[42] = "Some ships can't sustain repairs,"
+--DTM004[43] = "Some ships are unable to enter hyperspace,"
+--DTM004[44] = "Related industries are shutting down as a result,"
+--DTM004[45] = "Fleet is being lost daily as a result."
+--DTM004[46] = "Point funding,"
+--DTM004[47] = "Your important supplies:"
+--DTM004[48] = "Shortages occur,"
+--DTM004[49] = "To avoid further losses, please replenish the appropriate goods as soon as possible"
 DTM004[50] = function(text1,text2,text3)
-	local iText="ÄãÓöµ½Ò»Î»··Âô"..text1.."µÄ¼éÉÌ£¬ËûÌáÒéÂô¸øÄã"..text2.."µ¥Î»µÄ"..text1..",µ«ÒªÏòÄãÊÕÈ¡"..text3.."µã×Ê½ğ¡£ÄãÍ¬ÒâÂğ£¿"
+	local iText="You have met a person selling"..text1.."The unscrupulous businessman offers to sell you"..text2.."of the unit"..text1..",at a cost of"..text3.."funds. Do you agree?"
 	return iText
 end
---DTM004[50] = "ÄãÓöµ½Ò»Î»··Âô"
---DTM004[51] = "µÄ¼éÉÌ£¬ËûÌáÒéÂô¸øÄã"
---DTM004[52] = "µ¥Î»µÄ"
---DTM004[53] = ",µ«ÒªÏòÄãÊÕÈ¡"
---DTM004[54] = "µã×Ê½ğ¡£ÄãÍ¬ÒâÂğ£¿"
---DTM004[55] = "ÈË¿ÚĞèÇó£º"
-DTM004[56] = "Í£Ö¹×°Ğ¶"
---DTM004[57] = "ÌáÊ¾£ºÈÃ½¢¶Ó¾¡Á¿¿¿½üÃ³Ò×Õ¾£¬²¢ÓÃÒ»Ğ©×°Ğ¶ËÙ¶È¿ìµÄ»úÍ§£¨±ÈÈç½¢ÔØ»úºÍ²É¿ó´¬£©¸¨Öú×°Ğ¶¿ÉÃ÷ÏÔÌá¸ß×°Ğ¶Ğ§ÂÊ"
-DTM004[58] = "×Ê½ğ²»×ã£¬²»ÄÜ¹ºÈë£¡"
-DTM004[59] = "ÈË¿Ú²»×ã£¬²»ÄÜ¹ºÈë£¡"
-DTM004[60] = "³¬¹ıÊıÁ¿ÏŞÖÆ£¬²»ÄÜ¹ºÈë£¡"
+--DTM004[50] = "You encounter a trafficker"
+--DTM004[51] = "of a rogue trader who offers to sell it to you"
+--DTM004[52] = "of the unit"
+--DTM004[53] = ",but will charge you"
+--DTM004[54] = "point funds. Do you agree?"
+--DTM004[55] = "Population requirements:"
+--DTM004[56] = "Stop loading and unloading"
+DTM004[56] = "Stop now"
+--DTM004[57] = "Hint: Keeping the fleet as close to the trade station as possible and aiding loading and unloading with some fast loading and unloading airships (such as ships and mining ships) can significantly improve loading and unloading efficiency"
+DTM004[58] = "Insufficient funds to purchase!"
+DTM004[59] = "Insufficient population to purchase!"
+DTM004[60] = "Over quantity limit, cannot purchase!"
 DTM004[61] = function(text)
-	local iText="ÄãÈ·¶¨Òª¹ºÂòÕâÌ¨¡°"..text.."¡±Âğ£¿"
+	local iText="Are you sure you want to buy this '"..text.."'?"
 	return iText
 end
-DTM004[62] = "»õ²Ö¿Õ¼ä²»×ã£¬²»ÄÜ¹ºÈë£¡"
-DTM004[63] = "ÕâÊÇÄãµÄ×îºóÒ»ËÒ´¬ÁË£¬²»ÄÜÂô³ö£¡"
-DTM004[64] = "¸Ã´¬ÉÏÍ£²´ÓĞÆäËû´¬Ö»£¬²»ÄÜÂô³ö£¬ÇëÇå¿Õ»ú¿âºóÔÙÊÔ£¡"
-DTM004[65] = "¸Ã´¬ÉÏÉĞÓĞÓà»õ£¬²»ÄÜÂô³ö£¬ÇëÂôµôÒ»Ğ©»õÎïºóÔÙÊÔ£¡"
-DTM004[66] = "ÈÕÉú²ú£º"
-DTM004[67] = "ÈÕÏûºÄ£º"
+DTM004[62] = "Insufficient cargo space, can't purchase!"
+DTM004[63] = "This is your last ship, can't sell!"
+DTM004[64] = "There are other ships moored on this ship, can't sell, please empty the hangar and try again!"
+DTM004[65] = "There is still spare cargo on this ship, can't sell, please sell some cargo and try again!"
+DTM004[66] = "Daily production:"
+DTM004[67] = "Daily consumption:"
 DTM004[68] = function(text)
-	local iText="µ±Ç°µ¥Î»£º"..text.."%"
+	local iText="Current Units:"..text.."%"
 	return iText
 end
 DTM004[69] = function(text)
-	local iText="¹ÜÀíÖÁ£º"..text.."µ¥Î»"
+	local iText="Management to:"..text.."units"
 	return iText
 end
---DTM004[70] = "µ¥Î»"
+--DTM004[70] = "units"
 DTM004[71] = function(text)
-	local iText="¶ÓÁĞÖĞ£º"..text.."µ¥Î»"
+	local iText="In queue:"..text.."units"
 	return iText
 end
 DTM004[72] = function(text1,text2,text3)
-	local iText="µ±Ç°×°Ğ¶Ğ§ÂÊ£º"..text1.."µ¥Î»/"..text2..text3
+	local iText="Current loading and unloading efficiency:"..text1.."units/"..text2..text3
 	return iText
 end
 DTM004[73] = function(text1,text2)
-	local iText="ÈÔĞè×°Ğ¶£º"..text1.."µ¥Î»("..text2.."%)"
+	local iText="Still need to load and unload:"..text1.."units("..text2.."%)"
 	return iText
 end
-DTM004[74] = "×°Ğ¶ÖĞ¡­¡­"
-DTM004[75] = "ĞÇÃÅÒÑÆô¶¯£¬²¿·Ö¿¿½üĞÇÃÅµÄÕ½½¢»á¾­ÏÈĞĞÌøÔ¾Àë¿ª¡£Çë½«»¹Ã»ÓĞÀ´µÃ¼°Àë¿ªµÄÕ½½¢ÏòĞÇÃÅÒÆ¶¯£¬ÒÔ½áÊøÌøÔ¾"
-DTM004[76] = "ÄãµÄ½¢¶ÓÓÂ¸ÒµØ³å¹ıÁËÕâÆ¬Î£ÏÕµÄĞÇÇø£¬ÍÑÀëÁËÖØÁ¦ÏİÚåÇø¡£¾ª»êÎ´¶¨µÄÄãÖØĞÂ×éÖ¯½¢¶ÓÇ°ÍùÄ¿µÄµØĞÇÇø£¬°ÚÍÑÁË²¶ÁÔÕßµÄ×·»÷¡£"
-DTM004[77] = "ÄãµÄ½¢¶Ó¹û¶ÏµôÍ·ÌÓÀëÁËÕâÆ¬Î£ÏÕµÄĞÇÇø£¬ÍÑÀëÁËÖØÁ¦ÏİÚåÇø¡£¾ª»êÎ´¶¨µÄÄãÖØĞÂ×éÖ¯½¢¶Ó·µ»ØÁËÀ´Ê±µÄĞÇÇø£¬°ÚÍÑÁË²¶ÁÔÕßµÄ×·»÷¡£"
+DTM004[74] = "Loading and unloading in progress ......"
+DTM004[75] = "Jumpgate has been activated, some of the battleships close to the stargate will leave via first jump. Please move the battleships that have not yet had time to leave towards the stargate to end the jump"
+DTM004[76] = "Your fleet has bravely charged through this dangerous sector and out of the gravity trap zone. Stunned, you reorganize your fleet to head to your destination sector, free from the predators."
+DTM004[77] = "Your fleet has decisively turned around and escaped this dangerous sector, out of the gravity trap zone. Stunned, you reorganized your fleet and returned to the sector from which you came, free of the Predator's pursuit."
 DTM004[78] = "lblResourceUnitsSize_Date"
-DTM004[79] = "¸Ã´¬ÉĞÔÚÍ£²´ÖĞ£¬²»ÄÜÂô³ö£¬ÇëÊ¹ÆäÍÑÀë»ú¿âºóÔÙÊÔ£¡"
-DTM004[80] = "ÄúµÄµÈ¼¶²»×ã£¬ÎŞ·¨Óë¶Ô·½½øĞĞÃ³Ò×"
+DTM004[79] = "The ship is still moored and cannot be sold, please make it out of the hangar and try again!"
+DTM004[80] = "Your level is insufficient to trade with the other side"
 DTM004[81] = function(text1,text2)
 	local l_color1="FF0000"
 	local l_color2="FF0000"
@@ -155,368 +156,373 @@ DTM004[81] = function(text1,text2)
 	if(g_TradeLevel>=text2)then
 		l_color2="00FF00"
 	end
-	local iText="¾üÊÂµÈ¼¶£º"..DTM4_GetColorText(g_FightLevel,"NotLess",text1,text1).." Ã³Ò×µÈ¼¶£º"..DTM4_GetColorText(g_FightLevel,"NotLess",text2,text2)
+	local iText="Military rank:"..DTM4_GetColorText(g_FightLevel,"NotLess",text1,text1).." Trade level:"..DTM4_GetColorText(g_FightLevel,"NotLess",text2,text2)
 	return iText
 end
---DTM004[82] = "Ã³Ò×µÈ¼¶£º"
-DTM004[83] = "ÄúµÄµÈ¼¶²»×ã£¬ÎŞ·¨Ê¹ÓÃ¸ÃĞÇÃÅ"
-DTM004[84] = "ÄúµÄµÈ¼¶²»×ã£¬ÎŞ·¨¹ºÂò¸ÃÖÖÉÌÆ·¡£"
-DTM004[85] = "ÄúµÄµÈ¼¶²»×ã£¬ÎŞ·¨¹ºÂò¸ÃĞÍ´¬Ö»¡£"
-DTM004[86] = "ÄúµÄµÈ¼¶²»×ã£¬ÎŞ·¨¹ºÂò¸ÃÖÖÉè±¸¡£"
+--DTM004[82] = "Trade Level:"
+DTM004[83] = "You are not of sufficient level to use this stargate"
+DTM004[84] = "Your rank is insufficient to purchase this item."
+DTM004[85] = "Your level is not sufficient to purchase this type of vessel."
+DTM004[86] = "You are not of sufficient level to purchase this type of equipment."
 DTM004[87] = function(iFactory)
 	local iText = ""
 	local iText2=DTM4_GetGTData2(iFactory)
-	iText = iText.."¾üÊÂµÈ¼¶£º"..DTM4_GetColorText(g_FightLevel,"NotLess",Factory[iFactory].FightLevelNeed,Factory[iFactory].FightLevelNeed).."\n"
-	iText = iText.."Ã³Ò×µÈ¼¶£º"..DTM4_GetColorText(g_TradeLevel,"NotLess",Factory[iFactory].TradeLevelNeed,Factory[iFactory].TradeLevelNeed).."\n"
-	iText = iText.."Õ¼ÓÃ¿Õ¼ä£º"..DTM4_GetColorText(g_factorylimit,"NotLess",Factory[iFactory].VCost+g_factoryweight,Factory[iFactory].VCost).."\n"
-	iText = iText.."×°Ğ¶Ê±¼ä£º"..Factory[iFactory].TCost.."·ÖÖÓ"
+	iText = iText.."Military rank:"..DTM4_GetColorText(g_FightLevel,"NotLess",Factory[iFactory].FightLevelNeed,Factory[iFactory].FightLevelNeed).."\n"
+	iText = iText.."Trade level:"..DTM4_GetColorText(g_TradeLevel,"NotLess",Factory[iFactory].TradeLevelNeed,Factory[iFactory].TradeLevelNeed).."\n"
+	iText = iText.."Occupancy:"..DTM4_GetColorText(g_factorylimit,"NotLess",Factory[iFactory].VCost+g_factoryweight,Factory[iFactory].VCost).."\n"
+	iText = iText.."Loading and unloading time:"..Factory[iFactory].TCost.."minutes"
 	iText = iText..iText2
 	iText = iText..Factory[iFactory].Description
 	return iText
 end
---DTM004[88] = "×°Ğ¶Ê±¼ä£º"
-DTM004[89] = "ÓÎÏ·¼´½«¿ªÊ¼£¬ÇëÉÔºò¡­¡­"
+--DTM004[88] = "Loading and unloading time:"
+DTM004[89] = "Game is about to start, please wait ......"
 DTM004[90] = function(text)
-	local iText="¼ÓÈë"..text.."¿ªÊ¼ÓÎÏ·£¬È·¶¨Âğ£¿"
+	local iText="Do you want to start your journey as "..text.."?"
 	return iText
 end
---DTM004[91] = "¿ªÊ¼ÓÎÏ·£¬È·¶¨Âğ£¿"
---DTM004[92] = "¹¤Òµ¿Õ¼ä£º"
-DTM004[93] = "¹¤Òµ¿Õ¼ä²»×ã£¬²»ÄÜ¹ºÈë£¡"
+--DTM004[91] = "Start game, OK?"
+--DTM004[92] = "Industrial space:"
+DTM004[93] = "Insufficient industrial space to purchase!"
 DTM004[94] = function(text)
-	local iText="Ã³Ò×Õ¾ - "..text
+	local iText="Trade Post - "..text
 	return iText
 end
 DTM004[95] = function(text)
-	local iText="\n¸Ã´¬½«±»ÃüÃûÎª¡°"..text.."¡±£¬ÈçÓû¸ü¸Ä£¬Çë´ò¿ªÓÎÏ·µÄbin\\profiles\\ShipName.txtÎÄ¼ş"
+	local iText="\nThe ship will be named '"..text.."'. If you want to change it, please open the folder bin\\profiles\\ShipName.txt"
 	return iText
 end
-DTM004[96] = "\n³õÊ¼´¬Ö»½«±»ÃüÃûÎª¡°"
-DTM004[97] = "¡±£¬ÈçÓû¸ü¸Ä£¬Çë´ò¿ªÓÎÏ·µÄbin\\profiles\\ShipName.txtÎÄ¼ş"
-DTM004[98] = "\n³õÊ¼´¬Ö»Ä¿Ç°ÉĞÃ»ÓĞÃû³Æ£¬ÇëÔÚÓÎÏ·µÄbin\\release\\ShipName.txtÎÄ¼şÖĞÎªÆä±à¼­Ò»¸öÃû³Æ"
-DTM004[99] = "µ¥Î»»õÎïÌå»ı³¬¹ı½¢¶Ó×°Ğ¶ÄÜÁ¦"
+DTM004[96] = "\nThe ship will be named '"
+DTM004[97] = "'. If you want to change it, please open the folder bin\\profiles\\ShipName.txt"
+DTM004[98] = "\nThe initial ship does not have a name yet, please edit a name for it in the game's bin\\release\\ShipName.txt file"
+DTM004[99] = "Unit cargo volume exceeds fleet handling capacity"
 DTM004[100] = function(text1,text2,text3,text4)
-	local iText="ÄãÈ·¶¨Òª½«¡°"..text1.."¡±"..text2.."´Ó¡°"..text3.."¡±¸ÄÔìÎª¡°"..text4.."¡±Âğ£¿"
+	local iText="Are you sure you want to put '"..text1.."'"..text2.."from '"..text3.."' convert to '"..text4.."'?"
 	return iText
 end
-DTM004[101] = "¸Ã´¬ÉÏÍ£²´ÓĞÆäËû´¬Ö»£¬²»ÄÜ¸ÄÔì£¬ÇëÇå¿Õ»ú¿âºóÔÙÊÔ£¡"
-DTM004[102] = "¸ÄÔìºóÃ»ÓĞ×ã¹»µÄ»õ²Õ¿Õ¼ä£¬ÇëÂôµôÒ»Ğ©»õÎïºóÔÙÊÔ£¡"
---DTM004[103] = "¡±Âğ£¿"
-DTM004[104] = "ÄúµÄµÈ¼¶²»×ã£¬ÎŞ·¨½øĞĞ¸ÄÔì¡£"
-DTM004[105] = "×Ê½ğ²»×ã£¬²»ÄÜ¸ÄÔì£¡"
-DTM004[106] = "ÈË¿Ú²»×ã£¬²»ÄÜ¸ÄÔì£¡"
-DTM004[107] = "»¶Ó­½øÈë·ÆÑÅÀûµÛ¹úMODÃ³Ò×Ä£Ê½\nÔÚ¸ÃÄ£Ê½ÖĞ£¬Äã¿ÉÒÔ´Ó3¸öÖ°ÒµÖĞÑ¡Ôñ¿ª¾Ö\nµã»÷µØÍ¼ÖĞµÄ½¢´¬´Ó¶øÑ¡ÔñÏàÓ¦Ö°Òµ¿ªÊ¼ÓÎÏ·¡£\n£¨¸ÃÄ£Ê½×îÔçÓÉ9CCNÈøÓÈ¿Ë½ÌÖ÷¿ª·¢£¬\n·ÆÑÅÀûÅ®»ÊÒÔ´Ë»ù´¡¸Ä½ø£»Áí¸ĞĞ»ÆÆÌìÕß_¹ÂÀÇ¡¢»ÃÌìÆÆµÈ»ï°éµÄ¼¼ÊõÖ§³Ö£©"
-DTM004[108] = "¹ÜÀí"
-DTM004[109] = "³öÊÛÑ¡ÖĞ´¬Ö»»ò¸ü¸ÄÆäÃû³Æ¡¢ĞÍºÅ"
-DTM004[110] = "»õÎï"
-DTM004[111] = "´ò¿ª/¹Ø±Õ»õ²Ö½çÃæ"
-DTM004[112] = "ÇëÑ¡Ôñ¸ÄÔìĞÍºÅ"
-DTM004[113] = "ÖØÃüÃû"
-DTM004[114] = "Âô³ö"
-DTM004[115] = "ÇëÑ¡Ôñ¹ºÂòĞÍºÅ"
-DTM004[116] = "Ã³Ò×µÈ¼¶"
-DTM004[117] = "¾üÊÂµÈ¼¶"
-DTM004[118] = "ÈË¿Ú"
-DTM004[119] = "×Ê½ğ"
-DTM004[120] = "ÓÎÏ·Ê±¼ä"
+DTM004[101] = "There are other ships moored on this ship, it cannot be modified, please empty the hangar and try again!"
+DTM004[102] = "There is not enough cargo space after transformation, please sell some cargo and try again!"
+--DTM004[103] = "¡±£¿"
+DTM004[104] = "Your level is not sufficient for the transformation."
+DTM004[105] = "Insufficient funds to remodel!"
+DTM004[106] = "Insufficient population to remodel!"
+DTM004[107] = "Welcome to the trade mode of Fai`ri Empire.\nIn this mode, you can choose from 3 proffesions to start.\nClick on the ship on the map to select the corresponding proffesion to start the game."
+DTM004[108] = "MANAGEMENT"
+DTM004[109] = "Sell selected ship or change its name or model"
+DTM004[110] = "CARGO"
+DTM004[111] = "Open/Close Cargo Screen"
+DTM004[112] = "Ship management"
+DTM004[113] = "Rename"
+DTM004[114] = "Sell"
+DTM004[115] = "Ship information and modification selection"
+DTM004[116] = "Trade Rank"
+DTM004[117] = "Military Grade"
+DTM004[118] = "Population"
+DTM004[119] = "Funding"
+DTM004[120] = "Game Time"
 DTM004[121] = function(text1,text2)
-	local iText="ÄãÈ·¶¨Òª½«¡°"..text1.."¡±"..text2.."ÊÛ³öÂğ£¿\n£¨¾¯¸æ£¬¾àÀëÉÌµê5000MÒÔÍâµÄµØ·½³öÊÛ¸Ã½¢½«»áµ¼ÖÂÏµÍ³´íÎóÎŞ·¨Àë¿ªµØÍ¼£©"
+	local iText="Are you sure you want to put '"..text1.."'"..text2.."on sale?\n(Warning, selling the ship outside of 5000M from the store will result in a system error preventing it from leaving the map)"
 	return iText
 end
-DTM004[122] = "¡¾×¢Òâ¡¿¹ºÂò¸Ã´¬½«µ¼ÖÂÈË¿Ú³¬¹ıÉÏÏŞ£¬È·ÈÏºó£¬ÔÚ¼ÌĞø¹ºÂò½¢´¬»òÀë¿ª¸ÃµØÍ¼Ç°£¬±ØĞëÂô³ö»òÍĞ¹Ü×ã¹»µÄ½¢´¬Ê¹ÈË¿Ú»Ö¸´µ½ÔÊĞí·¶Î§ÄÚ¡£"
-DTM004[123] = "µ±Ç°ÈË¿Ú³¬¹ıÏŞÖÆ£¬²»ÄÜÍ¨¹ıĞÇÃÅ£¡"
+DTM004[122] = "[Note] Purchasing this ship will cause the population to exceed the limit, after confirmation, you must sell or escrow enough ships to bring the population back to the allowed range before continuing to purchase ships or leaving this map."
+DTM004[123] = "Current population exceeds limit, cannot pass through stargate!"
 DTM004[124] = function(l_ShipData,text)
 	local iText = ""
-	iText = iText.."µ¥ËÒÊÛ¼Û£º"..DTM4_GetColorText(g_money,"NotLess",l_ShipData.Price,l_ShipData.Price).."\n"
-	iText = iText.."»õ²ÕÈİÁ¿£º"..l_ShipData.cap.."\n"
-	iText = iText.."¹¤Òµ¿Õ¼ä£º"..l_ShipData.fcap.."\n"
-	iText = iText.."ÈË¿ÚĞèÇó£º"..DTM4_GetColorText(g_PopPointLimit,"NotLess",g_PopPointTotal+l_ShipData.PopPoint,l_ShipData.PopPoint).."\n"
-	iText = iText.."¾üÊÂµÈ¼¶£º"..DTM4_GetColorText(g_FightLevel,"NotLess",l_ShipData.FightLevelNeed,l_ShipData.FightLevelNeed).."\n"
-	iText = iText.."Ã³Ò×µÈ¼¶£º"..DTM4_GetColorText(g_TradeLevel,"NotLess",l_ShipData.TradeLevelNeed,l_ShipData.TradeLevelNeed).."\n"
-	iText = iText.."×°Ğ¶ÄÜÁ¦£º"..l_ShipData.TransAmount.."\n"
-	iText = iText.."×°Ğ¶ËÙ¶È£º"..l_ShipData.TransSpeed.."\n"
-	iText = iText.."ÈÕ³£ÏûºÄ£¨µ¥Î»/Ìì£©£º\n"
+	--iText = iText.."Price:"..DTM4_GetColorText(g_money,"NotLess",l_ShipData.Price,l_ShipData.Price).."\n"
+	iText = iText.."Cargo:"..l_ShipData.cap.."\n"
+	--iText = iText.."C/M/T:"..DTM4_GetColorText(g_PopPointLimit,"NotLess",g_PopPointTotal+l_ShipData.PopPoint,l_ShipData.PopPoint).."/"
+	--iText = iText..DTM4_GetColorText(g_FightLevel,"NotLess",l_ShipData.FightLevelNeed,l_ShipData.FightLevelNeed).."/"
+	--iText = iText..DTM4_GetColorText(g_TradeLevel,"NotLess",l_ShipData.TradeLevelNeed,l_ShipData.TradeLevelNeed).."\n"
+	iText = iText.."Industrial:"..l_ShipData.fcap.."\n"
+	--iText = iText.."Crew:"..DTM4_GetColorText(g_PopPointLimit,"NotLess",g_PopPointTotal+l_ShipData.PopPoint,l_ShipData.PopPoint).."\n"
+	--iText = iText.."Military:"..DTM4_GetColorText(g_FightLevel,"NotLess",l_ShipData.FightLevelNeed,l_ShipData.FightLevelNeed).."\n"
+	--iText = iText.."Trade:"..DTM4_GetColorText(g_TradeLevel,"NotLess",l_ShipData.TradeLevelNeed,l_ShipData.TradeLevelNeed).."\n"
+	--iText = iText.."M/T ranks:"..DTM4_GetColorText(g_FightLevel,"NotLess",l_ShipData.FightLevelNeed,l_ShipData.FightLevelNeed).."/"..DTM4_GetColorText(g_TradeLevel,"NotLess",l_ShipData.TradeLevelNeed,l_ShipData.TradeLevelNeed).."\n"
+	iText = iText.."<b>Logistics</b>\n"
+	iText = iText.."  Capacity:"..l_ShipData.TransAmount.."\n"
+	iText = iText.."  Speed:"..l_ShipData.TransSpeed.."\n"
+	iText = iText.."<b>Consumptions</b>\n"
 			for i,j in l_ShipData.GTAnyTime do
 				if (j[2]>0) then
-					iText = iText..Goods[j[1]].name.."*"..j[2].."    "
+					iText = iText.."  "..Goods[j[1]].name..":"..j[2]
 				end
 			end
 			if (l_ShipData.GTWhileMoving[1]~=nil) then
-				iText = iText.."\n".."ÒÆ¶¯ÏûºÄ£¨µ¥Î»/Ìì£©£º\n"
+				iText = iText.."\n".."  Fuel(units/day):\n"
 				for i,j in l_ShipData.GTWhileMoving do
 					if (j[2]>0) then
-						iText = iText..Goods[j[1]].name.."*"..j[2].."    "
+						iText = iText.."    "..Goods[j[1]].name..":"..j[2]
 					end
 				end
 			end
 			if (l_ShipData.GTWhileFiring[1]~=nil) then
-				iText = iText.."\n".."¹¥»÷ÏûºÄ£¨µ¥Î»/Ìì£©£º\n"
+				iText = iText.."\n".."  Munitions(unit/day):\n"
 				for i,j in l_ShipData.GTWhileFiring do
 					if (j[2]>0) then
-						iText = iText..Goods[j[1]].name.."*"..j[2].."    "
+						iText = iText.."    "..Goods[j[1]].name..":"..j[2]
 					end
 				end
 			end
 			if (l_ShipData.GTWhileRepairing[1]~=nil) then
-				iText = iText.."\n".."Î¬ĞŞÏûºÄ£¨µ¥Î»/Ìì£©£º\n"
+				iText = iText.."\n".."  Maintenance(unit/day):\n"
 				for i,j in l_ShipData.GTWhileRepairing do
 					if (j[2]>0) then
-						iText = iText..Goods[j[1]].name.."*"..j[2].."    "
+						iText = iText.."    "..Goods[j[1]].name..":"..j[2]
 					end
 				end
 			end
 			if (l_ShipData.GTWhileHPJump[1]~=nil) then
-				iText = iText.."\n".."ÌøÔ¾ÏûºÄ£¨µ¥Î»/Ê±£©£º\n"
+				iText = iText.."\n".."  Jump fuel(unit/hour):\n"
 				for i,j in l_ShipData.GTWhileHPJump do
 					if (j[2]>0)and(j[1]~=g_GoodIndexForDockUnitHP) then
-						iText = iText..Goods[j[1]].name.."*"..j[2].."    "
+						iText = iText.."    "..Goods[j[1]].name..":"..j[2]
 					end
 				end
 			end
 			if (l_ShipData.GTWhileCloaking[1]~=nil) then
-				iText = iText.."\n".."ÒşĞÎÏûºÄ£¨µ¥Î»/Ê±£©£º\n"
+				iText = iText.."\n".."  Cloak fuel(unit/hour):\n"
 				for i,j in l_ShipData.GTWhileCloaking do
 					if (j[2]>0) then
-						iText = iText..Goods[j[1]].name.."*"..j[2].."    "
+						iText = iText.."    "..Goods[j[1]].name..":"..j[2]
 					end
 				end
 			end
 			if (l_ShipData.GTWhileDSOpening[1]~=nil) then
-				iText = iText.."\n".."Á¦³¡ÏûºÄ£¨µ¥Î»/Ê±£©£º\n"
+				iText = iText.."\n".."  Force field(unit/hour):\n"
 				for i,j in l_ShipData.GTWhileDSOpening do
 					if (j[2]>0) then
-						iText = iText..Goods[j[1]].name.."*"..j[2].."    "
+						iText = iText.."    "..Goods[j[1]].name..":"..j[2]
 					end
 				end
 			end
-	iText = iText..text
+	--iText = text
 	return iText
 end
-DTM004[125] = "g_BuyShipName = \"\"\n\-\-Ê¹ÓÃ·½·¨£ºÔÚÒıºÅÖĞÌîĞ´½¢´¬Ãû³Æ£¬±£´æ¡£"
+DTM004[125] = "g_BuyShipName = \"\"\n\-\-Usage: Fill in the ship name in quotation marks and save."
 DTM004[126] = function(text)
-	local iText="Ã³Ò×¾­Ñé+"..text
+	local iText="Trade experience+"..text
 	return iText
 end
 DTM004[127] = function(text)
-	local iText="Õ½¶·¾­Ñé+"..text
+	local iText="Combat Experience+"..text
 	return iText
 end
-DTM004[128] = "¸Ã´¬Îª½¢¶Ó½öÊ£ÔØ½¢£¬²»ÄÜÍĞ¹Ü£¡"
-DTM004[129] = "¸Ã´¬ÉÏÓĞÍ£²´ÖĞ´¬Ö»£¬²»ÄÜÍĞ¹Ü£¬ÇëÊÍ·ÅÈ«²¿ÔØ»úºóÔÙÊÔ£¡"
-DTM004[130] = "¸Ã´¬ÉÏÉĞÓĞÓà»õ£¬²»ÄÜÍĞ¹Ü£¬ÇëÂôµôÒ»Ğ©»õÎïºóÔÙÊÔ£¡"
+DTM004[128] = "This ship is the only carrier ship left in the fleet and cannot be hosted!"
+DTM004[129] = "There are ships at anchor on this ship, cannot be hosted, please release all carriers and try again!"
+DTM004[130] = "This ship has remaining cargo, cannot be hosted, please sell some cargo and try again!"
 DTM004[131] = function(text1,text2,text3,text4)
-	local iText="ÄãÈ·¶¨Òª½«¡°"..text1.."¡±"..text2.."½»¸ø"..text3.."ÍĞ¹ÜÂğ£¿ÍĞ¹Ü·ÑÓÃÎª"..text4.."µã×Ê½ğ/ÈÕ"
+	local iText="Are you sure you want to put '"..text1.."'"..text2.."for delivery"..text3.."to be hosted? The hosting fee is"..text4.."funds/day"
 	return iText
 end
---DTM004[132] = "µã×Ê½ğ/ÈÕ"
-DTM004[133] = "¸Ã´¬ÉÏÉĞÓĞÓà»õ£¬²»ÄÜÂô³ö£¬ÇëÂôµôÒ»Ğ©»õÎïºóÔÙÊÔ£¡"
-DTM004[134] = "ÍĞ¹Ü"
---DTM004[135] = "½»¸ø"
---DTM004[136] = "´Ó¡°"
+--DTM004[132] = "Point funds/day"
+DTM004[133] = "There are still spare goods on this ship, can't sell, please sell some goods and try again!"
+DTM004[134] = "Escrow"
+--DTM004[135] = "Hand over"
+--DTM004[136] = "From""
 DTM004[137] = function(text)
-	local iText="ÄãÎªËùÓĞÍĞ¹ÜÖĞµÄ½¢´¬Ö§¸¶ÁË"..text.."µã×Ê½ğ¡£"
+	local iText="You paid for all ships in escrow"..text.."funds."
 	return iText
 end
---DTM004[138] = "µã×Ê½ğ"
+--DTM004[138] = "funds"
 DTM004[139] = function(text)
-	local iText="ÄãÎª²¿·ÖÍĞ¹ÜÖĞµÄ½¢´¬Ö§¸¶ÁË"..text.."µã×Ê½ğ£¬ÆäËûÍĞ¹ÜÖĞµÄ½¢´¬½«ÎŞ·¨µÃµ½Î¬»¤£¡"
+	local iText="You paid for a ship in partial escrow"..text.."funds, other ships in escrow will not be maintained!"
 	return iText
 end
---DTM004[140] = "µã×Ê½ğ£¬ÆäËûÍĞ¹ÜÖĞµÄ½¢´¬½«ÎŞ·¨µÃµ½Î¬»¤£¡"
-DTM004[141] = "ÄãÒÑÎŞ·¨ÎªÍĞ¹ÜÖĞµÄ½¢´¬Ö§¸¶·ÑÓÃ£¬ËùÓĞ½¢´¬¾ùÎŞ·¨µÃµ½Î¬»¤£¡"
+--DTM004[140] = "funds, other ships in escrow will not be maintained!"
+DTM004[141] = "You are no longer able to pay for the ships in escrow, all ships cannot be maintained!"
 DTM004[142] = function(text1,text2)
-	local iText="¡°"..text1.."¡±"..text2.."×´Ì¬ÍêºÃ£¬ÎŞĞèĞŞÀí£¡"
+	local iText="'"..text1.."'"..text2.."Perfect condition, no repairs needed!"
 	return iText
 end
---DTM004[143] = "×´Ì¬ÍêºÃ£¬ÎŞĞèĞŞÀí£¡"
-DTM004[144] = "×Ê½ğ²»×ã£¬ÎŞ·¨ĞŞÀí£¡"
-DTM004[145] = "ÈË¿Ú²»×ã£¬ÎŞ·¨½Ó¹Ü£¡"
+--DTM004[143] = "Perfect condition, no repair needed!"
+DTM004[144] = "Insufficient funds to repair!"
+DTM004[145] = "Insufficient population to take over!"
 DTM004[146] = function(text1,text2)
-	local iText="ÄãÈ·¶¨Òª½Ó¹Ü¡°"..text1.."¡±"..text2.."Âğ£¿"
+	local iText="Are you sure you want to take over '"..text1.."'"..text2.."?"
 	return iText
 end
---DTM004[147] = "Âğ£¿"
+--DTM004[147] = "£¿"
 DTM004[148] = function(text1,text2,text3)
-	local iText="Î¬ĞŞ¡°"..text1.."¡±"..text2.."Òª»¨·Ñ"..text3.."µã×Ê½ğ£¬È·¶¨Î¬ĞŞÂğ£¿"
+	local iText="Maintenance '"..text1.."'"..text2.."will cost"..text3.."funds, will you repair?"
 	return iText
 end
---DTM004[149] = "Òª»¨·Ñ"
---DTM004[150] = "µã×Ê½ğ£¬È·¶¨Î¬ĞŞÂğ£¿"
+--DTM004[149] = "will cost"
+--DTM004[150] = "funds, will you repair?"
 --DTM004[151] = "¡±"
 DTM004[152] = function(text1,text2)
-	local iText="ÕâÊÇÄãÖ®Ç°¶ªÆúµÄÒ»¸ö»õÏä£¬ÀïÃæÓĞ"..text1.."µ¥Î»µÄ"..text2.."£¬»ØÊÕ¸Ã»õÏäÂğ£¿"
+	local iText="This is a cargo box that you discarded earlier and contains"..text1.."of the units"..text2..". Recycle the container?"
 	return iText
 end
---DTM004[153] = "µ¥Î»µÄ"
+--DTM004[153] = "of the unit"
 DTM004[154] = function(text)
-	local iText="ÄãÊ°µ½ÁËÒ»¸ö»õÏä£¬¸ù¾İÉÏÃæµÄID£¬ÄãÅĞ¶Ï¸Ã»õÏäÎª"..text.."ËùÓĞ£¬ÉÏ½»¸Ã»õÏäÂğ£¿"
+	local iText="You pick up a cargo box, and based on the ID above, you determine that the box has"..text..". Turn in the box?"
 	return iText
 end
---DTM004[155] = "ËùÓĞ£¬ÉÏ½»¸Ã»õÏäÂğ£¿"
+--DTM004[155] = ", turn in the box?"
 DTM004[156] = function(text1,text2,text3)
-	local iText="Äã½«»õÏäÉÏ½»¸ø"..text1.."\n×÷Îª±¨´ğ£¬Äã»ñµÃ"..text2.."µã×Ê½ğ\nÄãÓë"..text1.."µÄ¹ØÏµÌáÉıÁË¡£("..text3..")"
+	local iText="You hand over the cargo box to"..text1.."\nIn return, you get"..text2.."funds\nYours and"..text1.."relationship is elevated.("..text3..")"
 	return iText
 end
---DTM004[157] = "×÷Îª±¨´ğ£¬Äã»ñµÃ"
---DTM004[158] = "µã×Ê½ğ"
---DTM004[159] = "ÄãÓë"
+--DTM004[157] = "In return, you get"
+--DTM004[158] = "funds"
+--DTM004[159] = "Yours and"
 DTM004[160] = function(text1,text2,text3,text4)
-	local iText="Äã½«»õÏäÀïµÄ»õÎï¾İÎª¼ºÓĞ£¬ÀïÃæÓĞ"..text1.."µ¥Î»µÄ"..text2.."\nÄãÓë"..text3.."µÄ¹ØÏµÏÂ½µÁË¡£("..text4..")"
+	local iText="You take for yourself the goods in the cargo box, which contains"..text1.."of the unit"..text2.."\nYours and"..text3.."relationship went down.("..text4..")"
 	return iText
 end
---DTM004[161] = "µÄ¹ØÏµÌáÉıÁË"
---DTM004[162] = "µÄ¹ØÏµÏÂ½µÁË"
+--DTM004[161] = "relationship is elevated"
+--DTM004[162] = "relationship went down"
 DTM004[163] = function(text1,text2,text3,text4)
-	local iText="»¶Ó­¹âÁÙ"..text1.."\nÔ¤¼Æ×°Ğ¶Ğ§ÂÊ£º"..text2.."Ìå»ı/"..text3..text4.."\n¡¾ÌáÊ¾¡¿ÈÃÄãµÄ½¢¶Ó¡ª¡ªÓÈÆäÊÇÆäÖĞ×°Ğ¶ËÙ¶È¿ìµÄ½¢´¬¡ª¡ª¾¡Á¿¿¿½üÃ³Ò×Õ¾£¬¿ÉÃ÷ÏÔÌá¸ß×°Ğ¶Ğ§ÂÊ\n×£Äú²É¹ºÓä¿ì£¡"
+	local iText="Welcome "..text1..".\nExpected logistics efficiency:"..text2.."Units/"..text3..text4.."\n<b>[Hint]</b> The closer your fleet, the more efficient logistics\nEnjoy your purchase!"
 	return iText
 end
---DTM004[164] = "×£Äú²É¹ºÓä¿ì£¡"
---DTM004[165] = "µã×Ê½ğ°ìÀíÍĞÔËÒµÎñ¡£"
---DTM004[166] = "µã×Ê½ğÒÔ½øĞĞÌøÔ¾¡£"
-DTM004[167] = "×Ê½ğ²»×ã£¬²»ÄÜÌøÔ¾£¡"
-DTM004[168] = "¸ÄÔì"
+--DTM004[164] = "Happy purchasing!"
+--DTM004[165] = "Tap funds for consignment."
+--DTM004[166] = "Order funds for jump."
+DTM004[167] = "Insufficient funds for jumping!"
+DTM004[168] = "Transformation"
 DTM004[169] = function(text1,text2)
 	local iText="Lv"..text1.." "..text2
 	return iText
 end
 DTM004[170] = function(text)
-	local iText="ÄãµÄÈ·ºÜÏë°ïÖú"..text.."£¬Ö»¿ÉÏ§ÄãÃ»ÓĞ×ã¹»µÄ×Ê½ğ¡£"
+	local iText="You do want to help"..text..", it's a pity that you don't have enough money."
 	return iText
 end
 DTM004[171] = function(text1,text2,text3)
-	local iText="ÄãÈ·¶¨Òª×ÊÖú"..text1.."µã×Ê½ğ¸ø"..text2.."µÄ"..text3.."Âğ£¿"
+	local iText="Are you sure you want to finance"..text1.."funds to"..text2.."of"..text3.."£¿"
 	return iText
 end
 DTM004[172] = function(text1,text2,text3,text4)
-	local iText="ÄãÒÑÏò"..text1.."µÄ"..text2.."×ÊÖúÁË"..text3.."µã×Ê½ğ¡£Ô¤¼Æ³¥»¹Ê±¼äÎª£º\n"..text4
+	local iText="You have submitted to"..text1.."of"..text2.."a payment of"..text3.."funds. The expected repayment schedule is:\n"..text4
 	return iText
 end
 DTM004[173] = function(text1,text2)
-	local iText="Äã¸Õ¸Õ´Ó¸öÈËÖÕ¶ËÉÏÊÕµ½Ò»ÔòÏûÏ¢£º\n¸ĞĞ»ÄúµÄÎŞË½×ÊÖú£¬ÎÒµÄÉúÒâÄ¿Ç°ÒÑ¾­ÓĞËùºÃ×ª£¬Ô¼¶¨ºÃµÄ³¥»¹½ğ¶îÒÑ¾­´òÈëÄúµÄÕË»§£¬Çë²éÊÕ¡£\n"..text1.."\n"..text2
+	local iText="You just received a message from your personal terminal:\nThank you for your selfless support, my business has now improved and the agreed repayment amount has been credited to your account, please check it.\n"..text1.."\n"..text2
 	return iText
 end
 DTM004[174] = function(text1,text2,text3,text4)
-	local iText=text1.."µÄ"..text2..text3.."×î½üÓöµ½ÁË²ÆÕşÀ§ÄÑ£¬ĞèÒª´óÁ¿×Ê½ğµÄ°ïÖúÀ´×ß³öÀ§¾³¡£"..text3.."³ĞÅµ£¬ÈÎºÎÎªÆä×ÊÖú"..text4.."×Ê½ğµÄÈË¶¼¿ÉÒÔÔÚ1¸öÔÂÄÚµÃµ½Ë«±¶µÄ³¥»¹¡£"
+	local iText=text1..""..text2..text3.."has recently run into financial difficulties and needs a lot of financial help to get out of it."..text3.."commitment, any funding for its"..text4.."Anyone with funds can get double reimbursement within 1 month."
 	return iText
 end
-DTM004[175] = "ÈÎÎñ"
-DTM004[176] = "¿ÉÁìÊÜÈÎÎñ"
-DTM004[177] = "ÒÑÁìÊÜÈÎÎñ"
-DTM004[178] = "ÈÎÎñÏêÇé"
-DTM004[179] = "ÉÌÈË"
-DTM004[180] = "ÆóÒµ¼Ò"
-DTM004[181] = "½èÇ®ÈÎÎñ"
+DTM004[175] = "Mission"
+DTM004[176] = "Acceptable Task"
+DTM004[177] = "Claimed Task"
+DTM004[178] = "Mission Details"
+DTM004[179] = "Merchant"
+DTM004[180] = "Entrepreneur"
+DTM004[181] = "Borrowed Mission"
 DTM004[182] = function(text1,text2)
-	local iText="Äã¸Õ¸Õ´Ó¸öÈËÖÕ¶ËÉÏÊÕµ½Ò»ÔòÏûÏ¢£º\n¸ĞĞ»ÄúµÄÎŞË½×ÊÖú£¬È»¶ø²»ĞÒµÄÊÇ£¬ÎÒµÄÉúÒâÈÔÎŞºÃ×ª¼£Ïó£¬ÎÒÏëÎÒ²»µÃ²»ÉêÇëÆÆ²ú±£»¤ÁË£¬¶ÔÓÚÃ»ÄÜĞÅÊØ³ĞÅµÎÒ±íÊ¾ÉîÉîµÄÇ¸Òâ£¬ÎÒÒÑ½«Äú¶ÔÎÒµÄ°ïÖúÏò"..text1.."ÄÚ²¿¹«²¼²¢´óÁ¦Ğû´«£¬Ï£Íû¶ÔÄú»áÓĞËù°ïÖú\n"..text1.."\n"..text2
+	local iText="You have just received a message from your personal terminal: \n Thank you for your selfless support, however, unfortunately, my business still shows no signs of improvement, I think I will have to file for bankruptcy protection, I am deeply sorry for not keeping my promise, I have sent your help to"..text1.."Internal announcement and vigorous publicity, I hope you will be helped\n"..text1.."\n"..text2
 	return iText
 end
 DTM004[183] = function(text1,text2)
-	local iText="Äã¸Õ¸Õ´Ó¸öÈËÖÕ¶ËÉÏÊÕµ½Ò»ÔòÏûÏ¢£º\n¸ĞĞ»ÄúµÄÎŞË½×ÊÖú£¬È»¶ø²»ĞÒµÄÊÇ£¬ÎÒµÄÉúÒâÈÔÎŞºÃ×ª¼£Ïó£¬Èç¹û¿ÉÄÜµÄ»°ÎÒÏëÍíÒ»¸öÔÂ³¥»¹ÄúµÄ×ÊÖú½ğ£¬¶ÔÓÚÃ»ÄÜĞÅÊØ³ĞÅµÎÒ±íÊ¾ÉîÉîµÄÇ¸Òâ\n"..text1.."\n"..text2
+	local iText="You have just received a message from your personal terminal: \n Thank you for your selfless support, unfortunately, my business still shows no signs of improvement, I would like to repay your grant one month later if possible, I deeply apologize for not keeping my promise \n"..text1.."\n"..text2
 	return iText
 end
-DTM004[184] = "²É¹ºÈÎÎñ"
+DTM004[184] = "Sourcing tasks"
 DTM004[185] = function(text1,text2,text3)
-	local iText="ÄãÈ·¶¨Òª°ïÖú"..text1.."ÔÚÊ®ÌìÄÚÍê³É"..text2.."µ¥Î»"..text3.."µÄ²É¹ºÈÎÎñÂğ£¿"
+	local iText="Are you sure you want to help"..text1.."complete within ten days"..text2.."number of"..text3.."procurement tasks?"
 	return iText
 end
 DTM004[186] = function(text1,text2,text3,text4)
-	local iText=text1.."µÄ"..text2.."×î½ü³öÏÖ¶ÌÈ±£¬ÏÖÔ¸³ö"..text3.."µã×Ê½ğ×÷Îª±¨³êÓÚ10ÈÕÄÚ¹ºµÃ"..text4.."µ¥Î»µÄ"..text2.."¡£"
+	local iText=text1.."of"..text2.."Recently there is a shortage, now willing to offer"..text3.."funds purchased within 10 days as compensation"..text4.."of the unit"..text2.."."
 	return iText
 end
 DTM004[187] = function(text1,text2,text3,text4,text5)
-	local iText="ÄãÓë"..text1.."Ç©ÏÂÒ»Åú"..text2.."µÄ²É¹ººÏÍ¬£¬ÈçÄÜÔÚÖ¸¶¨ÈÕÆÚÇ°½«"..text4.."µ¥Î»µÄ"..text2.."ËÍ´ï£¬¾Í¿É»ñµÃ"..text3.."µã×Ê½ğ×÷Îª±¨³ê¡£\n½ØÖ¹Ê±¼ä£º"..text5
+	local iText="You and"..text1.."sign a batch"..text2.."of the procurement contract, if it can be delivered by the specified date"..text4.."the unit"..text2.."delivered, you will receive"..text3.."funds as payment. \n Deadline:"..text5
 	return iText
 end
 DTM004[188] = function(text)
-	local iText="Äã¸Õ¸Õ´Ó¸öÈËÖÕ¶ËÉÏÊÕµ½Ò»ÔòÏûÏ¢£º\n¸ĞĞ»Äú´ğÓ¦°ïÃ¦£¬ÎÒÃÇÒÑ¾­ÔÚ¸½½ü·ÅÖÃÁËÒ»¸ö»õÏä£¬Ò»µ©¹ºµÃÏàÓ¦»õÎï£¬Ö»Òª½«ËüÃÇ·Åµ½»õÏäÄÚ¼´¿É¡£\n"..text
+	local iText="You have just received a message from your personal terminal: \n Thank you for agreeing to help, we have placed a cargo box nearby, once you have purchased the appropriate goods, simply place them in the box. \n"..text
 	return iText
 end
 DTM004[189] = function(text)
-	local iText="Äã¸Õ¸Õ´Ó¸öÈËÖÕ¶ËÉÏÊÕµ½Ò»ÔòÏûÏ¢£º\n¸ĞĞ»ÄúËÍÀ´µÄ»õÎï£¬Ô¼¶¨µÄ±¨³êÒÑ¾­´òÈëÄúµÄÕË»§£¬¶ÔÄúµÄ°ïÖúÎÒÃÇÔÙ´Î±íÊ¾ÉîÉîµÄ¸ĞĞ»¡£\n"..text
+	local iText="You have just received a message from your personal terminal: \n Thank you for the delivery, the agreed payment has been credited to your account, and we once again express our deep gratitude for your help. \n"..text
 	return iText
 end
 DTM004[190] = function(text1,text2)
-	local iText="Äã¸Õ¸Õ´Ó¸öÈËÖÕ¶ËÉÏÊÕµ½Ò»ÔòÏûÏ¢£º\nÔ¼¶¨µÄÆÚÏŞÒÑµ½£¬È»¶øÎÒÃÇ²¢Ã»ÓĞÊÕµ½ÄúËÍÀ´µÄ»õÎï£¬·Ç³£ÒÅº¶µØÍ¨ÖªÄú£¬ÎÒÃÇÒÑ¾­²»ÔÙĞèÒª"..text2.."ÁË£¬Ö®Ç°µÄºÏÍ¬¾Í´Ë×÷·Ï¡£\n"..text1
+	local iText="You have just received a message from your personal terminal: \n the agreed deadline has arrived, however we have not received your delivery and regret to inform you that we no longer need"..text2..", the previous contract is null and void.\n"..text1
 	return iText
 end
-DTM004[191] = "ÄãÈ·¶¨Òª·ÅÆúÕâ¸öÈÎÎñÂğ£¿"
+DTM004[191] = "Are you sure you want to abandon this mission?"
 DTM004[192] = function(text1,text2)
-	local iText="Äã¸Õ¸Õ´Ó¸öÈËÖÕ¶ËÉÏÊÕµ½Ò»ÔòÏûÏ¢£º\nÁË½â£¬¿´À´ÎÒÃÇÒªÁíÕÒËûÈË²É¹º"..text2.."ÁË¡£\n"..text1
+	local iText="You just received a message from your personal terminal: \n understand, it seems we have to find another person to purchase"..text2.."(of a person's name).\n"..text1
 	return iText
 end
 DTM004[193] = function(text1,text2)
-	local iText="Äã¸Õ¸Õ´Ó¸öÈËÖÕ¶ËÉÏÊÕµ½Ò»ÔòÏûÏ¢£º\nÕæ²»ÖªÎÒ¸ÃÈçºÎ¸ĞĞ»Äú£¬ÎÒÒÑ½«Äú¶ÔÎÒµÄ°ïÖúÏò"..text1.."ÄÚ²¿¹«²¼²¢´óÁ¦Ğû´«£¬Ï£Íû¶ÔÄú»áÓĞËù°ïÖú\n"..text1.."\n"..text2
+	local iText="You just received a message from your personal terminal: \n really don't know how I can thank you, I have sent your help to"..text1.."Internal announcement and vigorous publicity, I hope it will be helpful to you \n"..text1.."\n"..text2
 	return iText
 end
-DTM004[194] = "¸½½üÃ»ÓĞÔØ»õ½¢´¬£¬ÎŞ·¨Ê°È¡£¡"
-DTM004[195] = "¸Ã»õÏä¶ÔÓÚÄãµÄ´¬¶øÑÔÌ«´óÁË£¬ÎŞ·¨Ê°È¡£¡"
+DTM004[194] = "No cargo ships nearby to pick up!"
+DTM004[195] = "The container is too big for your ship to pick up!"
 DTM004[196] = function(text1,text2)
-	local iText="ÄãÈ·¶¨Òª½«"..text1.."µ¥Î»µÄ"..text2.."·Å½øÕâ¸ö»õÏäÂğ£¿"
+	local iText="Are you sure you want to put"..text1.."of the unit"..text2.."into this cargo box?"
 	return iText
 end
 DTM004[197] = function(text1,text2)
-	local iText="Äã»¹Ã»ÓĞ²É¹ºµ½"..text1.."µ¥Î»µÄ"..text2.."£¡"
+	local iText="You have not yet procured"..text1.."of the unit"..text2.."!"
 	return iText
 end
-DTM004[198] = "¸½½üÃ»ÓĞÔØ»õ½¢´¬£¬ÎŞ·¨Ğ¶»õ£¡"
-DTM004[199] = "Çå²ÖÈÎÎñ"
+DTM004[198] = "There is no cargo ship nearby to unload the cargo!"
+DTM004[199] = "Clearance mission"
 DTM004[200] = function(text)
-	local iText="ÄãµÄÈ·ºÜÏë¹ºÂòÕâÅú"..text.."£¬µ«ÄãÃ»ÓĞ×ã¹»µÄ×Ê½ğ¡£"
+	local iText="You do want to buy this lot"..text..", but you don't have enough money."
 	return iText
 end
 DTM004[201] = function(text1,text2,text3)
-	local iText="ÄãÈ·¶¨ÒªÒÔ"..text1.."µã×Ê½ğµÄ¼Û¸ñ¹ºÂò"..text2.."µÄÕâÅú"..text3.."Âğ£¿"
+	local iText="Are you sure you want to start with"..text1.."funds for the price of"..text2.."of this batch"..text3.."?"
 	return iText
 end
 DTM004[202] = function(text1,text2,text3)
-	local iText="Äã¸Õ¸Õ´Ó¸öÈËÖÕ¶ËÉÏÊÕµ½Ò»ÔòÏûÏ¢£º\nÎÒÃÇÒÑ¾­½«"..text1.."µ¥Î»µÄ"..text2.."×°Ïä²¢·ÅÖÃÔÚÁË¸½½ü£¬ÏÖÔÚÕâÅú»õÊÇÄúµÄÁË¡£\n"..text3
+	local iText="You have just received a message from your personal terminal: \nWe have placed"..text1.."units of"..text2.."boxed and placed nearby, this shipment is now yours. \n"..text3
 	return iText
 end
 DTM004[203] = function(text1,text2,text3,text4)
-	local iText=text1.."µÄ"..text2.."½üÈÕ³öÏÖÖÍÏú£¬ÏÖÔ¸ÒÔ"..text3.."µã×Ê½ğµÄµÍ¼ÛÅ×ÊÛ"..text4.."µ¥Î»µÄ"..text2.."¡£"
+	local iText=text1.."Of"..text2.."recently there was a lag in sales, and now I would like to offer"..text3.."low price selling of funds"..text4.."of the unit"..text2.."."
 	return iText
 end
 DTM004[204] = function(text1,text2,text3,text4)
-	local iText="ÄãÒÔ"..text3.."µã×Ê½ğµÄµÍ¼Û´Ó"..text1.."ÂòÈëÁË"..text4.."µ¥Î»µÄ"..text2.."¡£ÏÖÔÚÕâÅú»õ¾ÍÔÚ"..text1.."¸½½ü£¬Çë¼°Ê±È¡×ßËüÃÇ¡£"
+	local iText="You take"..text3.."the low price of funds from"..text1.."bought"..text4.."of the unit"..text2..". This shipment is now in"..text1.."nearby, please remove them promptly."
 	return iText
 end
 DTM004[205] = function(text)
-	local iText="Äã¸æËß"..text.."²»ÓÃ»¹Ç®ÁË£¬¶Ô·½¸Ğ¼¤²»ÒÑ¡£"
+	local iText="You tell"..text.."no need to pay back the money, the other party was grateful."
 	return iText
 end
 DTM004[206] = function(text)
-	local iText=text.."ÒÑ¾­Á¬±¾´øÀû»¹ÇåÁËÄãµÄ×ÊÖú½ğ¡£"
+	local iText=text.."Have paid off your grant with interest."
 	return iText
 end
 DTM004[207] = function(text1,text2)
-	local iText=text1.."ÆÆ²úÁË£¬µ«ÊÇÄã¶ÔËûµÄ°ïÖúÒÑ¾­ÔÚ"..text2.."ÄÚ²¿¹ãÎªÈËÖª¡£"
+	local iText=text1.."bankrupt, but your help to him has been"..text2.."widely known internally."
 	return iText
 end
 DTM004[208] = function(text)
-	local iText="ÄãÒÑÍ¨Öª"..text.."ÄãÎŞ·¨Íê³É²É¹ºÈÎÎñ£¬¹À¼Æ¶Ô·½²»»á¸ßĞËµÄ¡£"
+	local iText="You have notified"..text.."you won't be able to complete the purchase, and I don't think the other party will be happy."
 	return iText
 end
 DTM004[209] = function(text)
-	local iText="ÄãÍê³ÉÁËÓë"..text.."Ç©¶©µÄ²É¹ººÏÍ¬£¬¶Ô·½ËÆºõºÜ¸ßĞË¡£"
+	local iText="You finished with"..text..",the other party seemed happy with the signed purchase contract."
 	return iText
 end
 DTM004[210] = function(text)
-	local iText="ÄãÓë"..text.."¹ØÏµ½ôÕÅ£¬¶Ô·½½ûÖ¹ÄãµÄ½¢¶Ó½øÈë¸ÃÕ¾£¡"
+	local iText="You and"..text.."relations are tense and the other side has banned your fleet from entering the station!"
 	return iText
 end
-DTM004[211] = "¹ØÏµ²»×ã£¬²»ÄÜ¹ºÈë£¡"
-DTM004[212] = "ĞŞÀí"
+DTM004[211] = "Insufficient relationship to purchase!"
+DTM004[212] = "Repair"
 DTM004[213] = function(l_ShipData,text,l_ShipData2,text2)
 	local iText = ""
-	iText = iText.."µ¥ËÒÊÛ¼Û£º"..DTM4_GetColorText(l_ShipData.Price,"Less",l_ShipData2.Price,l_ShipData.Price).."\n"
-	iText = iText.."»õ²ÕÈİÁ¿£º"..DTM4_GetColorText(l_ShipData2.cap,"Less",l_ShipData.cap,l_ShipData.cap).."\n"
-	iText = iText.."¹¤Òµ¿Õ¼ä£º"..DTM4_GetColorText(l_ShipData2.fcap,"Less",l_ShipData.fcap,l_ShipData.fcap).."\n"
-	iText = iText.."ÈË¿ÚĞèÇó£º"..DTM4_GetColorText(l_ShipData.PopPoint,"Less",l_ShipData2.PopPoint,l_ShipData.PopPoint).."\n"
-	iText = iText.."¾üÊÂµÈ¼¶£º"..DTM4_GetColorText(l_ShipData.FightLevelNeed,"Less",l_ShipData2.FightLevelNeed,l_ShipData.FightLevelNeed).."\n"
-	iText = iText.."Ã³Ò×µÈ¼¶£º"..DTM4_GetColorText(l_ShipData.TradeLevelNeed,"Less",l_ShipData2.TradeLevelNeed,l_ShipData.TradeLevelNeed).."\n"
-	iText = iText.."×°Ğ¶ÄÜÁ¦£º"..DTM4_GetColorText(l_ShipData2.TransAmount,"Less",l_ShipData.TransAmount,l_ShipData.TransAmount).."\n"
-	iText = iText.."×°Ğ¶ËÙ¶È£º"..DTM4_GetColorText(l_ShipData2.TransSpeed,"Less",l_ShipData.TransSpeed,l_ShipData.TransSpeed).."\n"
-	iText = iText.."ÈÕ³£ÏûºÄ£¨µ¥Î»/Ìì£©£º\n"
+	iText = iText.."Price:"..DTM4_GetColorText(l_ShipData.Price,"Less",l_ShipData2.Price,l_ShipData.Price).."\n"
+	iText = iText.."Cargo hold capacity:"..DTM4_GetColorText(l_ShipData2.cap,"Less",l_ShipData.cap,l_ShipData.cap).."\n"
+	iText = iText.."Industrial Space:"..DTM4_GetColorText(l_ShipData2.fcap,"Less",l_ShipData.fcap,l_ShipData.fcap).."\n"
+	iText = iText.."Population demand:"..DTM4_GetColorText(l_ShipData.PopPoint,"Less",l_ShipData2.PopPoint,l_ShipData.PopPoint).."\n"
+	iText = iText.."Military rank:"..DTM4_GetColorText(l_ShipData.FightLevelNeed,"Less",l_ShipData2.FightLevelNeed,l_ShipData.FightLevelNeed).."\n"
+	iText = iText.."Trade level:"..DTM4_GetColorText(l_ShipData.TradeLevelNeed,"Less",l_ShipData2.TradeLevelNeed,l_ShipData.TradeLevelNeed).."\n"
+	iText = iText.."Loading and unloading capacity:"..DTM4_GetColorText(l_ShipData2.TransAmount,"Less",l_ShipData.TransAmount,l_ShipData.TransAmount).."\n"
+	iText = iText.."Loading and unloading speed:"..DTM4_GetColorText(l_ShipData2.TransSpeed,"Less",l_ShipData.TransSpeed,l_ShipData.TransSpeed).."\n"
+	iText = iText.."Daily consumption (unit/day): \n"
 			for i,j in l_ShipData.GTAnyTime do
 				if (j[2]>0) then
 					if(l_ShipData2.GTAnyTime[i]~=nil)then
@@ -527,7 +533,7 @@ DTM004[213] = function(l_ShipData,text,l_ShipData2,text2)
 				end
 			end
 			if (l_ShipData.GTWhileMoving[1]~=nil) then
-				iText = iText.."ÒÆ¶¯ÏûºÄ£¨µ¥Î»/Ìì£©£º\n"
+				iText = iText.."Fuel consumption (unit/day): \n"
 				for i,j in l_ShipData.GTWhileMoving do
 					if (j[2]>0) then
 						if(l_ShipData2.GTWhileMoving[i]~=nil)then
@@ -539,7 +545,7 @@ DTM004[213] = function(l_ShipData,text,l_ShipData2,text2)
 				end
 			end
 			if (l_ShipData.GTWhileFiring[1]~=nil) then
-				iText = iText.."¹¥»÷ÏûºÄ£¨µ¥Î»/Ìì£©£º\n"
+				iText = iText.."Munitions consumption (unit/day): \n"
 				for i,j in l_ShipData.GTWhileFiring do
 					if (j[2]>0) then
 						if(l_ShipData2.GTWhileFiring[i]~=nil)then
@@ -551,7 +557,7 @@ DTM004[213] = function(l_ShipData,text,l_ShipData2,text2)
 				end
 			end
 			if (l_ShipData.GTWhileRepairing[1]~=nil) then
-				iText = iText.."Î¬ĞŞÏûºÄ£¨µ¥Î»/Ìì£©£º\n"
+				iText = iText.."Maintenance consumption (unit/day): \n"
 				for i,j in l_ShipData.GTWhileRepairing do
 					if (j[2]>0) then
 						if(l_ShipData2.GTWhileRepairing[i]~=nil)then
@@ -563,7 +569,7 @@ DTM004[213] = function(l_ShipData,text,l_ShipData2,text2)
 				end
 			end
 			if (l_ShipData.GTWhileHPJump[1]~=nil) then
-				iText = iText.."ÌøÔ¾ÏûºÄ£¨µ¥Î»/Ê±£©£º\n"
+				iText = iText.."Jump fuel consumption (unit/hour): \n"
 				for i,j in l_ShipData.GTWhileHPJump do
 					if (j[2]>0)and(j[1]~=g_GoodIndexForDockUnitHP) then
 						if(l_ShipData2.GTWhileHPJump[i]~=nil)then
@@ -575,7 +581,7 @@ DTM004[213] = function(l_ShipData,text,l_ShipData2,text2)
 				end
 			end
 			if (l_ShipData.GTWhileCloaking[1]~=nil) then
-				iText = iText.."ÒşĞÎÏûºÄ£¨µ¥Î»/Ê±£©£º\n"
+				iText = iText.."Cloak fuel consumption (unit/hour): \n"
 				for i,j in l_ShipData.GTWhileCloaking do
 					if (j[2]>0) then
 						if(l_ShipData2.GTWhileCloaking[i]~=nil)then
@@ -587,7 +593,7 @@ DTM004[213] = function(l_ShipData,text,l_ShipData2,text2)
 				end
 			end
 			if (l_ShipData.GTWhileDSOpening[1]~=nil) then
-				iText = iText.."Á¦³¡ÏûºÄ£¨µ¥Î»/Ê±£©£º\n"
+				iText = iText.."Force field consumption (unit/hour): \n"
 				for i,j in l_ShipData.GTWhileDSOpening do
 					if (j[2]>0) then
 						if(l_ShipData2.GTWhileDSOpening[i]~=nil)then
@@ -601,389 +607,390 @@ DTM004[213] = function(l_ShipData,text,l_ShipData2,text2)
 	iText = iText..text
 	return iText
 end
-DTM004[214] = "Çå³ıÈÎÎñ"
+DTM004[214] = "Clearance tasks"
 DTM004[215] = function(iCamp,iEnemyCamp)
-	local iText="ÄãÈ·¶¨Òª°ïÖú"..iCamp.."ÔÚÊ®ÌìÄÚ´İ»Ù"..iEnemyCamp.."µÄÄ¿±êÂğ£¿"
+	local iText="Are you sure you want to help"..iCamp.."destroyed in ten days"..iEnemyCamp.."the goal?"
 	return iText
 end
 DTM004[216] = function(iCamp,iEnemyCamp)
-	local iText="¸ĞĞ»Äã¾ö¶¨°ïÖúÎÒÃÇ£¬"..iEnemyCamp.."µÄ½¢¶ÓÎ»ÖÃÒÑ¾­´«Êä¸øÄã£¬ÇëÎñ±ØĞ¡ĞÄ¡£\n"..iCamp
+	local iText="Thank you for deciding to help us!"..iEnemyCamp.."The position of the fleet has been transmitted to you, so please be careful.\n"..iCamp
 	return iText
 end
 DTM004[217] = function(iCamp,iEnemyCamp,iReward)
-	local iText=iCamp.."ÈÕÇ°»ñÏ¤Ò»Ö§"..iEnemyCamp.."µÄ½¢¶ÓÒÑ¾­µÖ´ï±¾ĞÇÇø£¬Õı²ß»®ÖÆÔìÆÆ»µ»î¶¯£¬"..iCamp.."Ô¸³ö"..iReward.."µã×Ê½ğĞüÉÍÏûÃğÕâÖ§½¢¶Ó¡£\n"
+	local iText=iCamp.."Recently, we learned that a"..iEnemyCamp.."fleet has arrived in this sector and is planning to create sabotage."..iCamp.."If willing to go out"..iReward.."funds are offered for the destruction of this fleet.\n"
 	return iText
 end
 DTM004[218] = function(iCamp,iEnemyCamp,iReward,iData)
-	local iText="Äã´ğÓ¦°ïÖú"..iCamp.."Çå³ıÀ´×Ô"..iEnemyCamp.."µÄÍşĞ²£¬ÈçÄÜÔÚÖ¸¶¨ÈÕÆÚÇ°½«"..iEnemyCamp.."µÄ½¢¶Ó´İ»Ù£¬¾Í¿É»ñµÃ"..iReward.."µã×Ê½ğ×÷Îª±¨³ê¡£\n½ØÖ¹Ê±¼ä£º"..iData
+	local iText="You promised to help"..iCamp.."clear from"..iEnemyCamp.."of the threat, if it can be delivered by the specified date"..iEnemyCamp.."fleet is destroyed, you get"..iReward.."point funds as payment. \n Deadline:"..iData
 	return iText
 end
 DTM004[219] = function(iCamp)
-	local iText="ÄãÒÑÍ¨Öª"..iCamp.."ÄãÎŞ·¨Íê³ÉÇå³ıÈÎÎñ£¬¹À¼Æ¶Ô·½²»»á¸ßĞËµÄ¡£"
+	local iText="You have notified"..iCamp.."You can't complete the clearance, I guess the other side won't be happy."
 	return iText
 end
 DTM004[220] = function(iEnemyCamp)
-	local iText="ÄãÈçÔ¼´İ»ÙÁË"..iEnemyCamp.."µÄ½¢¶Ó£¬²¢°µ×ÔÏ£Íû¶Ô·½²»»áÖªµÀÊÇË­¸ÉµÄ¡£"
+	local iText="You destroyed as promised"..iEnemyCamp.."of the fleet and secretly hoped that the other side would not know who did it."
 	return iText
 end
 DTM004[221] = function(iCamp,iEnemyCamp)
-	local iText="Äã¸Õ¸Õ´Ó¸öÈËÖÕ¶ËÉÏÊÕµ½Ò»ÔòÏûÏ¢£º\nÁË½â£¬¿´À´ÎÒÃÇÒªÁíÕÒËûÈËÇå³ıÀ´×Ô"..iEnemyCamp.."µÄÍşĞ²ÁË¡£\n"..iCamp
+	local iText="You just received a message from your personal terminal: \n understand, it seems that we have to find someone else to clear the information from"..iEnemyCamp.."the threat of the up. \n"..iCamp
 	return iText
 end
 DTM004[221] = function(iCamp,iEnemyCamp)
-	local iText="Äã¸Õ¸Õ´Ó¸öÈËÖÕ¶ËÉÏÊÕµ½Ò»ÔòÏûÏ¢£º\nÁË½â£¬¿´À´ÎÒÃÇÒªÁíÕÒËûÈËÇå³ıÀ´×Ô"..iEnemyCamp.."µÄÍşĞ²ÁË¡£\n"..iCamp
+	local iText="You just received a message from your personal terminal: \n understand, it seems that we have to find someone else to clear the information from"..iEnemyCamp.."the threat of the up. \n"..iCamp
 	return iText
 end
 DTM004[222] = function(iCamp,iEnemyCamp)
-	local iText="Äã¸Õ¸Õ´Ó¸öÈËÖÕ¶ËÉÏÊÕµ½Ò»ÔòÏûÏ¢£º\nÔ¼¶¨µÄÆÚÏŞÒÑµ½£¬È»¶øÎÒÃÇ²¢Ã»ÓĞ¿´µ½"..iEnemyCamp.."µÄÄ¿±ê±»´İ»Ù£¬·Ç³£ÒÅº¶µØÍ¨ÖªÄú£¬ËüÃÇÒÑ¾­²»ÔÙ¹¹³ÉÍşĞ²ÁË£¬Ö®Ç°µÄºÏÍ¬¾Í´Ë×÷·Ï¡£\n"..iCamp
+	local iText="You just received a message from your personal terminal: \n the agreed deadline has arrived, yet we don't see"..iEnemyCamp.."targets have been destroyed, we regret to inform you that they no longer pose a threat and the previous contract is hereby nullified.\n"..iCamp
 	return iText
 end
 DTM004[223] = function(text)
-	local iText="ÄãÃ»ÄÜÔÚÔ¼¶¨µÄÆÚÏŞÇ°Íê³ÉÓë"..text.."µÄ²É¹ººÏÍ¬£¬¹À¼Æ¶Ô·½²»»á¸ßĞËµÄ¡£"
+	local iText="You failed to meet the agreed upon deadline with"..text.."of the procurement contract, I guess the other party will not be happy."
 	return iText
 end
 DTM004[224] = function(iCamp,iEnemyCamp)
-	local iText="ÄãÃ»ÄÜÔÚÔ¼¶¨µÄÆÚÏŞÇ°°ïÖú"..iCamp.."´İ»Ù"..iEnemyCamp.."µÄÄ¿±ê£¬¹À¼Æ¶Ô·½²»»á¸ßĞËµÄ¡£"
+	local iText="You failed to meet the agreed upon deadline to help"..iCamp.."destroy"..iEnemyCamp.."the target, I guess the other side will not be happy."
 	return iText
 end
 DTM004[225] = function(iCamp,iEnemyCamp)
-	local iText="Äã¸Õ¸Õ´Ó¸öÈËÖÕ¶ËÉÏÊÕµ½Ò»ÔòÏûÏ¢£º\n¸ĞĞ»Äú°ïÖúÎÒÃÇÇå³ıÁË"..iEnemyCamp.."µÄÍşĞ²£¬Ô¼¶¨µÄ±¨³êÒÑ¾­´òÈëÄúµÄÕË»§£¬¶ÔÄúµÄ°ïÖúÎÒÃÇÔÙ´Î±íÊ¾ÉîÉîµÄ¸ĞĞ»¡£\n"..iCamp
+	local iText="You just received a message from your personal terminal: \n Thank you for helping us clear the"..iEnemyCamp.."of the threat, the agreed payment has been credited to your account, and we once again express our deep gratitude for your help. \n"..iCamp
 	return iText
 end
-DTM004[226] = "¹æÄ££º"
+DTM004[226] = "Size:"
 DTM004[227] = function(iDate)
-	local iText="Ó¦ÓÚ"..iDate.."Ç°½«Ö®´İ»Ù"
+	local iText="Due on"..iDate.."Destroy it before"
 	return iText
 end
+
 DTM004[228] = function(text1,text2,text3,text4,text5,text6,text15,text7,text8,text9,text10,text11,text12,text13)
-	local iText="ÄãµÄ½¢¶Ó¹¤³ÌÁ¦Îª"..text1..".Ò»¹²·¢ÏÖÁË"..text2.."µ¥Î»µÄ»ù´¡ºÏ½ğ,"..text3.."µ¥Î»µÄÅ«Á¥,"..text4.."µ¥Î»µÄÖĞĞÍ´¬Ìå¹¹¼ş,"..text5.."µ¥Î»µÄºÄ×Ó,"..text6.."µ¥Î»µÄÖĞĞÍÎäÆ÷Åä¼ş,"..text15.."µ¥Î»µÄ±¸ÓÃ´¬Ô±,"..text7.."µ¥Î»µÄ´óĞÍ´¬Ìå×é¼ş,"..text8.."µ¥Î»µÄ´óĞÍÎäÆ÷Åä¼ş,"..text9.."µ¥Î»µÄ¸ß¼¶ºÏ½ğ,"..text10.."µ¥Î»µÄ´óĞÍÄ£¿é»¯¾Ó×¡Çø,"..text11.."µ¥Î»µÄÆì½¢¼¶ÎäÆ÷Åä¼ş,"..text12.."µ¥Î»µÄÆì½¢¼¶¶¯Á¦×é¼ş,"..text13.."µ¥Î»µÄÈËĞÎµçÄÔ,Õâ¸ö²Ğº¡´øÒÑ¾­´òÀÌ²»µ½Ê²Ã´ÓĞ¼ÛÖµµÄ×ÊÔ´ÁË£¬ÄãµÄ½¢¶ÓÖ»ÄÜÀë¿ª"
+	local iText="????????"..text1..".?????"..text2.."???????,"..text3.."?????,"..text4.."?????????,"..text5.."?????,"..text6.."?????????,"..text15.."???????,"..text7.."?????????,"..text8.."?????????,"..text9.."???????,"..text10.."???????????,"..text11.."??????????,"..text12.."??????????,"..text13.."???????,????????????????????,????????"
 	return iText
 end
 
 DTM004[229] = function(text1,text2,text3,ext14)
-	local iText="ÄãµÄ½¢¶Ó¹¤³ÌÁ¦Îª"..text1..".Ò»¹²·¢ÏÖÁË"..text2.."µ¥Î»µÄ»ù´¡ºÏ½ğ,"..text3.."µ¥Î»µÄÅ«Á¥,ÊÇ·ñÒª¼ÌĞø´òÀÌ£¿Ä¿Ç°µÄ´òÀÌ´ÎÊıÎª"..text14.."´Î£¬´òÀÌ´ÎÊıÔ½¶à¿ÉÒÔ»ñµÃµÄ²ÄÁÏºÍÖÖÀàÔ½¶à£¬µ«ÊÇÀë¿ªĞÇÇøµÄÊ±ºò»áÔâÓöµÄµĞÈËÔ½Ç¿´ó"
+	local iText="????????"..text1..".?????"..text2.."???????,"..text3.."?????,????????????????"..text14.."?,??????????????????,??????????????????"
 	return iText
 end
 
 DTM004[230] = function(text1,text2,text3,text4,text5,text14)
-	local iText="ÄãµÄ½¢¶Ó¹¤³ÌÁ¦Îª"..text1..".Ò»¹²·¢ÏÖÁË"..text2.."µ¥Î»µÄ»ù´¡ºÏ½ğ,"..text3.."µ¥Î»µÄÅ«Á¥,"..text4.."µ¥Î»µÄÖĞĞÍ´¬Ìå¹¹¼ş,"..text5.."µ¥Î»µÄºÄ×Ó,ÊÇ·ñÒª¼ÌĞø´òÀÌ£¿Ä¿Ç°µÄ´òÀÌ´ÎÊıÎª"..text14.."´Î£¬´òÀÌ´ÎÊıÔ½¶à¿ÉÒÔ»ñµÃµÄ²ÄÁÏºÍÖÖÀàÔ½¶à£¬µ«ÊÇÀë¿ªĞÇÇøµÄÊ±ºò»áÔâÓöµÄµĞÈËÔ½Ç¿´ó"
+	local iText="????????"..text1..".?????"..text2.."???????,"..text3.."?????,"..text4.."?????????,"..text5.."?????,????????????????"..text14.."?,??????????????????,??????????????????"
 	return iText
 end
 
 DTM004[231] = function(text1,text2,text3,text4,text5,text6,text15,text14)
-	local iText="ÄãµÄ½¢¶Ó¹¤³ÌÁ¦Îª"..text1..".Ò»¹²·¢ÏÖÁË"..text2.."µ¥Î»µÄ»ù´¡ºÏ½ğ,"..text3.."µ¥Î»µÄÅ«Á¥,"..text4.."µ¥Î»µÄÖĞĞÍ´¬Ìå¹¹¼ş,"..text5.."µ¥Î»µÄºÄ×Ó,"..text6.."µ¥Î»µÄÖĞĞÍÎäÆ÷Åä¼ş,"..text15.."µ¥Î»µÄ±¸ÓÃ´¬Ô±,ÊÇ·ñÒª¼ÌĞø´òÀÌ£¿Ä¿Ç°µÄ´òÀÌ´ÎÊıÎª"..text14.."´Î£¬´òÀÌ´ÎÊıÔ½¶à¿ÉÒÔ»ñµÃµÄ²ÄÁÏºÍÖÖÀàÔ½¶à£¬µ«ÊÇÀë¿ªĞÇÇøµÄÊ±ºò»áÔâÓöµÄµĞÈËÔ½Ç¿´ó"
+	local iText="????????"..text1..".?????"..text2.."???????,"..text3.."?????,"..text4.."?????????,"..text5.."?????,"..text6.."?????????,"..text15.."???????,????????????????"..text14.."?,??????????????????,??????????????????"
 	return iText
 end
 
 DTM004[232] = function(text1,text2,text3,text4,text5,text6,text15,text7,text14)
-	local iText="ÄãµÄ½¢¶Ó¹¤³ÌÁ¦Îª"..text1..".Ò»¹²·¢ÏÖÁË"..text2.."µ¥Î»µÄ»ù´¡ºÏ½ğ,"..text3.."µ¥Î»µÄÅ«Á¥,"..text4.."µ¥Î»µÄÖĞĞÍ´¬Ìå¹¹¼ş,"..text5.."µ¥Î»µÄºÄ×Ó,"..text6.."µ¥Î»µÄÖĞĞÍÎäÆ÷Åä¼ş,"..text15.."µ¥Î»µÄ±¸ÓÃ´¬Ô±,"..text7.."µ¥Î»µÄ´óĞÍ´¬Ìå×é¼ş,ÊÇ·ñÒª¼ÌĞø´òÀÌ£¿Ä¿Ç°µÄ´òÀÌ´ÎÊıÎª"..text14.."´Î£¬´òÀÌ´ÎÊıÔ½¶à¿ÉÒÔ»ñµÃµÄ²ÄÁÏºÍÖÖÀàÔ½¶à£¬µ«ÊÇÀë¿ªĞÇÇøµÄÊ±ºò»áÔâÓöµÄµĞÈËÔ½Ç¿´ó"
+	local iText="????????"..text1..".?????"..text2.."???????,"..text3.."?????,"..text4.."?????????,"..text5.."?????,"..text6.."?????????,"..text15.."???????,"..text7.."?????????,????????????????"..text14.."?,??????????????????,??????????????????"
 	return iText
 end
 
 DTM004[233] = function(text1,text2,text3,text4,text5,text6,text15,text7,text8,text14)
-	local iText="ÄãµÄ½¢¶Ó¹¤³ÌÁ¦Îª"..text1..".Ò»¹²·¢ÏÖÁË"..text2.."µ¥Î»µÄ»ù´¡ºÏ½ğ,"..text3.."µ¥Î»µÄÅ«Á¥,"..text4.."µ¥Î»µÄÖĞĞÍ´¬Ìå¹¹¼ş,"..text5.."µ¥Î»µÄºÄ×Ó,"..text6.."µ¥Î»µÄÖĞĞÍÎäÆ÷Åä¼ş,"..text15.."µ¥Î»µÄ±¸ÓÃ´¬Ô±,"..text7.."µ¥Î»µÄ´óĞÍ´¬Ìå×é¼ş,"..text8.."µ¥Î»µÄ´óĞÍÎäÆ÷Åä¼ş,ÊÇ·ñÒª¼ÌĞø´òÀÌ£¿Ä¿Ç°µÄ´òÀÌ´ÎÊıÎª"..text14.."´Î£¬´òÀÌ´ÎÊıÔ½¶à¿ÉÒÔ»ñµÃµÄ²ÄÁÏºÍÖÖÀàÔ½¶à£¬µ«ÊÇÀë¿ªĞÇÇøµÄÊ±ºò»áÔâÓöµÄµĞÈËÔ½Ç¿´ó"
+	local iText="????????"..text1..".?????"..text2.."???????,"..text3.."?????,"..text4.."?????????,"..text5.."?????,"..text6.."?????????,"..text15.."???????,"..text7.."?????????,"..text8.."?????????,????????????????"..text14.."?,??????????????????,??????????????????"
 	return iText	
 end
 
 DTM004[234] = function(text1,text2,text3,text4,text5,text6,text15,text7,text8,text9,text14)
-	local iText="ÄãµÄ½¢¶Ó¹¤³ÌÁ¦Îª"..text1..".Ò»¹²·¢ÏÖÁË"..text2.."µ¥Î»µÄ»ù´¡ºÏ½ğ,"..text3.."µ¥Î»µÄÅ«Á¥,"..text4.."µ¥Î»µÄÖĞĞÍ´¬Ìå¹¹¼ş,"..text5.."µ¥Î»µÄºÄ×Ó,"..text6.."µ¥Î»µÄÖĞĞÍÎäÆ÷Åä¼ş,"..text15.."µ¥Î»µÄ±¸ÓÃ´¬Ô±,"..text7.."µ¥Î»µÄ´óĞÍ´¬Ìå×é¼ş,"..text8.."µ¥Î»µÄ´óĞÍÎäÆ÷Åä¼ş,"..text9.."µ¥Î»µÄ¸ß¼¶ºÏ½ğ,ÊÇ·ñÒª¼ÌĞø´òÀÌ£¿Ä¿Ç°µÄ´òÀÌ´ÎÊıÎª"..text14.."´Î£¬´òÀÌ´ÎÊıÔ½¶à¿ÉÒÔ»ñµÃµÄ²ÄÁÏºÍÖÖÀàÔ½¶à£¬µ«ÊÇÀë¿ªĞÇÇøµÄÊ±ºò»áÔâÓöµÄµĞÈËÔ½Ç¿´ó"
+	local iText="????????"..text1..".?????"..text2.."???????,"..text3.."?????,"..text4.."?????????,"..text5.."?????,"..text6.."?????????,"..text15.."???????,"..text7.."?????????,"..text8.."?????????,"..text9.."???????,????????????????"..text14.."?,??????????????????,??????????????????"
 	return iText
 end
 
 DTM004[235] = function(text1,text2,text3,text4,text5,text6,text15,text7,text8,text9,text10,text14)
-	local iText="ÄãµÄ½¢¶Ó¹¤³ÌÁ¦Îª"..text1..".Ò»¹²·¢ÏÖÁË"..text2.."µ¥Î»µÄ»ù´¡ºÏ½ğ,"..text3.."µ¥Î»µÄÅ«Á¥,"..text4.."µ¥Î»µÄÖĞĞÍ´¬Ìå¹¹¼ş,"..text5.."µ¥Î»µÄºÄ×Ó,"..text6.."µ¥Î»µÄÖĞĞÍÎäÆ÷Åä¼ş,"..text15.."µ¥Î»µÄ±¸ÓÃ´¬Ô±,"..text7.."µ¥Î»µÄ´óĞÍ´¬Ìå×é¼ş,"..text8.."µ¥Î»µÄ´óĞÍÎäÆ÷Åä¼ş,"..text9.."µ¥Î»µÄ¸ß¼¶ºÏ½ğ,"..text10.."µ¥Î»µÄ´óĞÍÄ£¿é»¯¾Ó×¡Çø,ÊÇ·ñÒª¼ÌĞø´òÀÌ£¿Ä¿Ç°µÄ´òÀÌ´ÎÊıÎª"..text14.."´Î£¬´òÀÌ´ÎÊıÔ½¶à¿ÉÒÔ»ñµÃµÄ²ÄÁÏºÍÖÖÀàÔ½¶à£¬µ«ÊÇÀë¿ªĞÇÇøµÄÊ±ºò»áÔâÓöµÄµĞÈËÔ½Ç¿´ó"
+	local iText="????????"..text1..".?????"..text2.."???????,"..text3.."?????,"..text4.."?????????,"..text5.."?????,"..text6.."?????????,"..text15.."???????,"..text7.."?????????,"..text8.."?????????,"..text9.."???????,"..text10.."???????????,????????????????"..text14.."?,??????????????????,??????????????????"
 	return iText
 end
 
 DTM004[236] = function(text1,text2,text3,text4,text5,text6,text15,text7,text8,text9,text10,text11,text14)
-	local iText="ÄãµÄ½¢¶Ó¹¤³ÌÁ¦Îª"..text1..".Ò»¹²·¢ÏÖÁË"..text2.."µ¥Î»µÄ»ù´¡ºÏ½ğ,"..text3.."µ¥Î»µÄÅ«Á¥,"..text4.."µ¥Î»µÄÖĞĞÍ´¬Ìå¹¹¼ş,"..text5.."µ¥Î»µÄºÄ×Ó,"..text6.."µ¥Î»µÄÖĞĞÍÎäÆ÷Åä¼ş,"..text15.."µ¥Î»µÄ±¸ÓÃ´¬Ô±,"..text7.."µ¥Î»µÄ´óĞÍ´¬Ìå×é¼ş,"..text8.."µ¥Î»µÄ´óĞÍÎäÆ÷Åä¼ş,"..text9.."µ¥Î»µÄ¸ß¼¶ºÏ½ğ,"..text10.."µ¥Î»µÄ´óĞÍÄ£¿é»¯¾Ó×¡Çø,"..text11.."µ¥Î»µÄÆì½¢¼¶ÎäÆ÷Åä¼ş,ÊÇ·ñÒª¼ÌĞø´òÀÌ£¿Ä¿Ç°µÄ´òÀÌ´ÎÊıÎª"..text14.."´Î£¬´òÀÌ´ÎÊıÔ½¶à¿ÉÒÔ»ñµÃµÄ²ÄÁÏºÍÖÖÀàÔ½¶à£¬µ«ÊÇÀë¿ªĞÇÇøµÄÊ±ºò»áÔâÓöµÄµĞÈËÔ½Ç¿´ó"
+	local iText="????????"..text1..".?????"..text2.."???????,"..text3.."?????,"..text4.."?????????,"..text5.."?????,"..text6.."?????????,"..text15.."???????,"..text7.."?????????,"..text8.."?????????,"..text9.."???????,"..text10.."???????????,"..text11.."??????????,????????????????"..text14.."?,??????????????????,??????????????????"
 	return iText
 end
 
 DTM004[237] = function(text1,text2,text3,text4,text5,text6,text15,text7,text8,text9,text10,text11,text12,text14)
-	local iText="ÄãµÄ½¢¶Ó¹¤³ÌÁ¦Îª"..text1..".Ò»¹²·¢ÏÖÁË"..text2.."µ¥Î»µÄ»ù´¡ºÏ½ğ,"..text3.."µ¥Î»µÄÅ«Á¥,"..text4.."µ¥Î»µÄÖĞĞÍ´¬Ìå¹¹¼ş,"..text5.."µ¥Î»µÄºÄ×Ó,"..text6.."µ¥Î»µÄÖĞĞÍÎäÆ÷Åä¼ş,"..text15.."µ¥Î»µÄ±¸ÓÃ´¬Ô±,"..text7.."µ¥Î»µÄ´óĞÍ´¬Ìå×é¼ş,"..text8.."µ¥Î»µÄ´óĞÍÎäÆ÷Åä¼ş,"..text9.."µ¥Î»µÄ¸ß¼¶ºÏ½ğ,"..text10.."µ¥Î»µÄ´óĞÍÄ£¿é»¯¾Ó×¡Çø,"..text11.."µ¥Î»µÄÆì½¢¼¶ÎäÆ÷Åä¼ş,"..text12.."µ¥Î»µÄÆì½¢¼¶¶¯Á¦×é¼ş,ÊÇ·ñÒª¼ÌĞø´òÀÌ£¿Ä¿Ç°µÄ´òÀÌ´ÎÊıÎª"..text14.."´Î£¬´òÀÌ´ÎÊıÔ½¶à¿ÉÒÔ»ñµÃµÄ²ÄÁÏºÍÖÖÀàÔ½¶à£¬µ«ÊÇÀë¿ªĞÇÇøµÄÊ±ºò»áÔâÓöµÄµĞÈËÔ½Ç¿´ó"
+	local iText="????????"..text1..".?????"..text2.."???????,"..text3.."?????,"..text4.."?????????,"..text5.."?????,"..text6.."?????????,"..text15.."???????,"..text7.."?????????,"..text8.."?????????,"..text9.."???????,"..text10.."???????????,"..text11.."??????????,"..text12.."??????????,????????????????"..text14.."?,??????????????????,??????????????????"
 	return iText
 end
 
 DTM004[238] = function(text1,text2,text3)
-	local iText="ÄãµÄ½¢¶Ó¹¤³ÌÁ¦Îª"..text1..".Ò»¹²·¢ÏÖÁË"..text2.."µ¥Î»µÄÎï×Ê,µ«ÊÇÄãµÄ½¢¶ÓÖ»ÓĞ"..text3.."µ¥Î»µÄ¿Õ¼ä,ËùÒÔÖ»ÄÜ·ÅÆú´òÀÌ£¬Àë¿ªĞÇÇø"
+	local iText="????????"..text1..".?????"..text2.."?????,????????"..text3.."?????,????????,????"
 	return iText
 end
 
 DTM004[239] = function(text1,text2,text3)
-	local iText="Î¬¸ñ¶û»ùµØÒÑ¾­±»ÖØ´´£¬ÏÖÔÚÄãµÄ½¢¶Ó¿ÉÒÔ×éÖ¯Ò»´ÎµÇÂ½ĞĞ¶¯À´ÔİÊ±¿ØÖÆ»ùµØ£¬Ä¿Ç°ÄãµÄ½¢¶ÓÖĞÒ»¹²ÓµÓĞ"..text1.."ÃûÂ½Õ½¶ÓÔ±£¬ÊÇ·ñÖ´ĞĞµÇÂ½ÈÎÎñ£¿Ä¿Ç°¸Ã»ùµØµÄ¼¶±ğÎª"..text2.."¿ØÖÆËüÖÁÉÙĞèÒª"..text3.."ÃûÂ½Õ½¶ÓÔ±,×¢Òâ£ºÄãµÄ¾üµÈÔ½¸ß£¬½¢¶ÓÖĞµÄÂ½Õ½¶ÓÔ±ÊıÁ¿Ô½¶à£¬¿ÉÄÜÔâÊÜµÄ½ø¹¥ËğÊ§¾ÍÔ½Ğ¡"
+	local iText="??????????,???????????????????????,???????????"..text1.."?????,??????????????????"..text2.."???????"..text3.."?????,??:??????,????????????,????????????"
 	return iText
 end
 
 
 DTM004[240] = function(text1,text2,text13,text14,text15,text16,text17,text19,text18)
-	local iText="ÄãµÄ½¢¶ÓÒ»¹²ÓµÓĞ"..text1.."ÃûÂ½Õ½¶ÓÔ±£¬ÔÚ¸¶³ö"..text2.."ÈËµÄÉËÍöºó£¬ÄãµÄÂ½Õ½²¿¶ÓÔÚ½¢¶Ó»ğÁ¦µÄÖ§Ô®ÏÂ³É¹¦µÄ¿ØÖÆÁË»ùµØ¡£²¢³É¹¦µÄËÑ¹Îµ½ÁË"..text13.."µ¥Î»µÄÉİ³ŞÆ·,"..text14.."µ¥Î»µÄ±¤Àİ¼¶À¶Í¼ËéÆ¬,"..text15.."µ¥Î»µÄÉİ»ª¼Ò¾ß,"..text16.."µ¥Î»µÄÈËĞÎµçÄÔ,"..text17.."µ¥Î»µÄÏÈ½ø±¤Àİ¼¶À¶Í¼ËéÆ¬,´ËÍâ»¹ÓĞÒ»¹²"..text19.."µ¥Î»µÄ¸÷ÀàÎï×Ê£¬ÕâĞ©×ÊÔ´Ò»¹²Õ¼¾İÄúµÄ½¢¶Ó"..text18.."µÄ»õ²Ö¿Õ¼ä(Èç¹ûÄãµÄ½¢¶Ó¿Õ¼ä²»¹»£¬ÄÇÃ´Ö»ÄÜ´òÀÌµ½ÆäÖĞÒ»²¿·Ö×ÊÔ´)"
+	local iText="????????"..text1.."?????,???"..text2.."?????,????????????????????????????????"..text13.."??????,"..text14.."??????????,"..text15.."???????,"..text16.."???????,"..text17.."????????????,??????"..text19.."???????,????????????"..text18.."?????(??????????,??????????????)"
 	return iText
 end
 
 DTM004[241] = function(text1,text2,text11,text12,text13,text14,text15,text16,text19,text18)
-	local iText="ÄãµÄ½¢¶ÓÒ»¹²ÓµÓĞ"..text1.."ÃûÂ½Õ½¶ÓÔ±£¬ÔÚ¸¶³ö"..text2.."ÈËµÄÉËÍöºó£¬ÄãµÄÂ½Õ½²¿¶ÓÔÚ½¢¶Ó»ğÁ¦µÄÖ§Ô®ÏÂ³É¹¦µÄ¿ØÖÆÁË»ùµØ¡£²¢³É¹¦µÄËÑ¹Îµ½ÁË"..text11.."µ¥Î»µÄÏÈ½øÆì½¢À¶Í¼ËéÆ¬,"..text12.."µ¥Î»µÄµÛ¹úÅ®ÆÍ,"..text13.."µ¥Î»µÄÉİ³ŞÆ·,"..text14.."µ¥Î»µÄ±¤Àİ¼¶À¶Í¼ËéÆ¬,"..text15.."µ¥Î»µÄÉİ»ª¼Ò¾ß"..text16.."µ¥Î»µÄÈËĞÎµçÄÔ,´ËÍâ»¹ÓĞÒ»¹²"..text19.."µ¥Î»µÄ¸÷ÀàÎï×Ê,ÕâĞ©×ÊÔ´Ò»¹²Õ¼¾İÄúµÄ½¢¶Ó"..text18.."µÄ»õ²Ö¿Õ¼ä(Èç¹ûÄãµÄ½¢¶Ó¿Õ¼ä²»¹»£¬ÄÇÃ´Ö»ÄÜ´òÀÌµ½ÆäÖĞÒ»²¿·Ö×ÊÔ´)"
+	local iText="????????"..text1.."?????,???"..text2.."?????,????????????????????????????????"..text11.."???????????,"..text12.."???????,"..text13.."??????,"..text14.."??????????,"..text15.."???????"..text16.."???????,??????"..text19.."???????,????????????"..text18.."?????(??????????,??????????????)"
 	return iText
 end
 
 DTM004[242] = function(text1,text2,text9,text10,text11,text12,text13,text14,text15,text19,text18)
-	local iText="ÄãµÄ½¢¶ÓÒ»¹²ÓµÓĞ"..text1.."ÃûÂ½Õ½¶ÓÔ±£¬ÔÚ¸¶³ö"..text2.."ÈËµÄÉËÍöºó£¬ÄãµÄÂ½Õ½²¿¶ÓÔÚ½¢¶Ó»ğÁ¦µÄÖ§Ô®ÏÂ³É¹¦µÄ¿ØÖÆÁË»ùµØ¡£²¢³É¹¦µÄËÑ¹Îµ½ÁË"..text9.."µ¥Î»µÄĞŞÀíÎï×Ê,"..text10.."µ¥Î»µÄ±¸ÓÃ´¬Ô±,"..text11.."µ¥Î»µÄÏÈ½øÆì½¢À¶Í¼ËéÆ¬,"..text12.."µ¥Î»µÄµÛ¹úÅ®ÆÍ,"..text13.."µ¥Î»µÄÉİ³ŞÆ·,"..text14.."µ¥Î»µÄ±¤Àİ¼¶À¶Í¼ËéÆ¬,"..text15.."µ¥Î»µÄÉİ»ª¼Ò¾ß,´ËÍâ»¹ÓĞÒ»¹²"..text19.."µ¥Î»µÄ¸÷ÀàÎï×Ê,ÕâĞ©×ÊÔ´Ò»¹²Õ¼¾İÄúµÄ½¢¶Ó"..text18.."µÄ»õ²Ö¿Õ¼ä(Èç¹ûÄãµÄ½¢¶Ó¿Õ¼ä²»¹»£¬ÄÇÃ´Ö»ÄÜ´òÀÌµ½ÆäÖĞÒ»²¿·Ö×ÊÔ´)"
+	local iText="????????"..text1.."?????,???"..text2.."?????,????????????????????????????????"..text9.."???????,"..text10.."???????,"..text11.."???????????,"..text12.."???????,"..text13.."??????,"..text14.."??????????,"..text15.."???????,??????"..text19.."???????,????????????"..text18.."?????(??????????,??????????????)"
 	return iText
 end
 
 DTM004[243] = function(text1,text2,text7,text8,text9,text10,text11,text12,text13,text14,text19,text18)
-	local iText="ÄãµÄ½¢¶ÓÒ»¹²ÓµÓĞ"..text1.."ÃûÂ½Õ½¶ÓÔ±£¬ÔÚ¸¶³ö"..text2.."ÈËµÄÉËÍöºó£¬ÄãµÄÂ½Õ½²¿¶ÓÔÚ½¢¶Ó»ğÁ¦µÄÖ§Ô®ÏÂ³É¹¦µÄ¿ØÖÆÁË»ùµØ¡£²¢³É¹¦µÄËÑ¹Îµ½ÁË"..text7.."µ¥Î»µÄÖĞĞÍÎäÆ÷Åä¼ş,"..text8.."µ¥Î»µÄÅ«Á¥,"..text9.."µ¥Î»µÄĞŞÀíÎï×Ê,"..text10.."µ¥Î»µÄ±¸ÓÃ´¬Ô±,"..text11.."µ¥Î»µÄÏÈ½øÆì½¢À¶Í¼ËéÆ¬,"..text12.."µ¥Î»µÄµÛ¹úÅ®ÆÍ,"..text13.."µ¥Î»µÄÉİ³ŞÆ·,"..text14.."µ¥Î»µÄ±¤Àİ¼¶À¶Í¼ËéÆ¬,´ËÍâ»¹ÓĞÒ»¹²"..text19.."µ¥Î»µÄ¸÷ÀàÎï×Ê,ÕâĞ©×ÊÔ´Ò»¹²Õ¼¾İÄúµÄ½¢¶Ó"..text18.."µÄ»õ²Ö¿Õ¼ä(Èç¹ûÄãµÄ½¢¶Ó¿Õ¼ä²»¹»£¬ÄÇÃ´Ö»ÄÜ´òÀÌµ½ÆäÖĞÒ»²¿·Ö×ÊÔ´)"
+	local iText="????????"..text1.."?????,???"..text2.."?????,????????????????????????????????"..text7.."?????????,"..text8.."?????,"..text9.."???????,"..text10.."???????,"..text11.."???????????,"..text12.."???????,"..text13.."??????,"..text14.."??????????,??????"..text19.."???????,????????????"..text18.."?????(??????????,??????????????)"
 	return iText
 end
 
 DTM004[244] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12,text13,text18)
-	local iText="ÄãµÄ½¢¶ÓÒ»¹²ÓµÓĞ"..text1.."ÃûÂ½Õ½¶ÓÔ±£¬ÔÚ¸¶³ö"..text2.."ÈËµÄÉËÍöºó£¬ÄãµÄÂ½Õ½²¿¶ÓÔÚ½¢¶Ó»ğÁ¦µÄÖ§Ô®ÏÂ³É¹¦µÄ¿ØÖÆÁË»ùµØ¡£²¢³É¹¦µÄËÑ¹Îµ½ÁË"..text3.."µ¥Î»µÄÇâÈ¼ÁÏ,"..text4.."µ¥Î»µÄ»ù´¡²¹¸ø,"..text5.."µ¥Î»µÄÕäÏ§¿óÊ¯,"..text6.."µ¥Î»µÄµ¯Ò©,"..text7.."µ¥Î»µÄÖĞĞÍÎäÆ÷Åä¼ş,"..text8.."µ¥Î»µÄÅ«Á¥,"..text9.."µ¥Î»µÄĞŞÀíÎï×Ê,"..text10.."µ¥Î»µÄ±¸ÓÃ´¬Ô±,"..text11.."µ¥Î»µÄÏÈ½øÆì½¢À¶Í¼ËéÆ¬,"..text12.."µ¥Î»µÄµÛ¹úÅ®ÆÍ,"..text13.."µ¥Î»µÄÉİ³ŞÆ·,ÕâĞ©×ÊÔ´Ò»¹²Õ¼¾İÄúµÄ½¢¶Ó"..text18.."µÄ»õ²Ö¿Õ¼ä(Èç¹ûÄãµÄ½¢¶Ó¿Õ¼ä²»¹»£¬ÄÇÃ´Ö»ÄÜ´òÀÌµ½ÆäÖĞÒ»²¿·Ö×ÊÔ´)"
+	local iText="????????"..text1.."?????,???"..text2.."?????,????????????????????????????????"..text3.."??????,"..text4.."???????,"..text5.."???????,"..text6.."?????,"..text7.."?????????,"..text8.."?????,"..text9.."???????,"..text10.."???????,"..text11.."???????????,"..text12.."???????,"..text13.."??????,????????????"..text18.."?????(??????????,??????????????)"
 	return iText
 end
 
 DTM004[245] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12,text18)
-	local iText="ÄãµÄ½¢¶ÓÒ»¹²ÓµÓĞ"..text1.."ÃûÂ½Õ½¶ÓÔ±£¬ÔÚ¸¶³ö"..text2.."ÈËµÄÉËÍöºó£¬ÄãµÄÂ½Õ½²¿¶ÓÔÚ½¢¶Ó»ğÁ¦µÄÖ§Ô®ÏÂ³É¹¦µÄ¿ØÖÆÁË»ùµØ¡£²¢³É¹¦µÄËÑ¹Îµ½ÁË"..text3.."µ¥Î»µÄÇâÈ¼ÁÏ,"..text4.."µ¥Î»µÄ»ù´¡²¹¸ø,"..text5.."µ¥Î»µÄÕäÏ§¿óÊ¯,"..text6.."µ¥Î»µÄµ¯Ò©,"..text7.."µ¥Î»µÄÖĞĞÍÎäÆ÷Åä¼ş,"..text8.."µ¥Î»µÄÅ«Á¥,"..text9.."µ¥Î»µÄĞŞÀíÎï×Ê,"..text10.."µ¥Î»µÄ±¸ÓÃ´¬Ô±,"..text11.."µ¥Î»µÄÏÈ½øÆì½¢À¶Í¼ËéÆ¬,"..text12.."µ¥Î»µÄµÛ¹úÅ®ÆÍ,ÕâĞ©×ÊÔ´Ò»¹²Õ¼¾İÄúµÄ½¢¶Ó"..text18.."µÄ»õ²Ö¿Õ¼ä(Èç¹ûÄãµÄ½¢¶Ó¿Õ¼ä²»¹»£¬ÄÇÃ´Ö»ÄÜ´òÀÌµ½ÆäÖĞÒ»²¿·Ö×ÊÔ´)"
+	local iText="????????"..text1.."?????,???"..text2.."?????,????????????????????????????????"..text3.."??????,"..text4.."???????,"..text5.."???????,"..text6.."?????,"..text7.."?????????,"..text8.."?????,"..text9.."???????,"..text10.."???????,"..text11.."???????????,"..text12.."???????,????????????"..text18.."?????(??????????,??????????????)"
 	return iText
 end
 
 DTM004[246] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text18)
-	local iText="ÄãµÄ½¢¶ÓÒ»¹²ÓµÓĞ"..text1.."ÃûÂ½Õ½¶ÓÔ±£¬ÔÚ¸¶³ö"..text2.."ÈËµÄÉËÍöºó£¬ÄãµÄÂ½Õ½²¿¶ÓÔÚ½¢¶Ó»ğÁ¦µÄÖ§Ô®ÏÂ³É¹¦µÄ¿ØÖÆÁË»ùµØ¡£²¢³É¹¦µÄËÑ¹Îµ½ÁË"..text3.."µ¥Î»µÄÇâÈ¼ÁÏ,"..text4.."µ¥Î»µÄ»ù´¡²¹¸ø,"..text5.."µ¥Î»µÄÕäÏ§¿óÊ¯,"..text6.."µ¥Î»µÄµ¯Ò©,"..text7.."µ¥Î»µÄÖĞĞÍÎäÆ÷Åä¼ş,"..text8.."µ¥Î»µÄÅ«Á¥,"..text9.."µ¥Î»µÄĞŞÀíÎï×Ê,"..text10.."µ¥Î»µÄ±¸ÓÃ´¬Ô±,"..text11.."µ¥Î»µÄÏÈ½øÆì½¢À¶Í¼ËéÆ¬,ÕâĞ©×ÊÔ´Ò»¹²Õ¼¾İÄúµÄ½¢¶Ó"..text18.."µÄ»õ²Ö¿Õ¼ä(Èç¹ûÄãµÄ½¢¶Ó¿Õ¼ä²»¹»£¬ÄÇÃ´Ö»ÄÜ´òÀÌµ½ÆäÖĞÒ»²¿·Ö×ÊÔ´)"
+	local iText="????????"..text1.."?????,???"..text2.."?????,????????????????????????????????"..text3.."??????,"..text4.."???????,"..text5.."???????,"..text6.."?????,"..text7.."?????????,"..text8.."?????,"..text9.."???????,"..text10.."???????,"..text11.."???????????,????????????"..text18.."?????(??????????,??????????????)"
 	return iText
 end
 
 DTM004[247] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text18)
-	local iText="ÄãµÄ½¢¶ÓÒ»¹²ÓµÓĞ"..text1.."ÃûÂ½Õ½¶ÓÔ±£¬ÔÚ¸¶³ö"..text2.."ÈËµÄÉËÍöºó£¬ÄãµÄÂ½Õ½²¿¶ÓÔÚ½¢¶Ó»ğÁ¦µÄÖ§Ô®ÏÂ³É¹¦µÄ¿ØÖÆÁË»ùµØ¡£²¢³É¹¦µÄËÑ¹Îµ½ÁË"..text3.."µ¥Î»µÄÇâÈ¼ÁÏ,"..text4.."µ¥Î»µÄ»ù´¡²¹¸ø,"..text5.."µ¥Î»µÄÕäÏ§¿óÊ¯,"..text6.."µ¥Î»µÄµ¯Ò©,"..text7.."µ¥Î»µÄÖĞĞÍÎäÆ÷Åä¼ş,"..text8.."µ¥Î»µÄÅ«Á¥,"..text9.."µ¥Î»µÄĞŞÀíÎï×Ê,"..text10.."µ¥Î»µÄ±¸ÓÃ´¬Ô±,ÕâĞ©×ÊÔ´Ò»¹²Õ¼¾İÄúµÄ½¢¶Ó"..text18.."µÄ»õ²Ö¿Õ¼ä(Èç¹ûÄãµÄ½¢¶Ó¿Õ¼ä²»¹»£¬ÄÇÃ´Ö»ÄÜ´òÀÌµ½ÆäÖĞÒ»²¿·Ö×ÊÔ´)"
+	local iText="????????"..text1.."?????,???"..text2.."?????,????????????????????????????????"..text3.."??????,"..text4.."???????,"..text5.."???????,"..text6.."?????,"..text7.."?????????,"..text8.."?????,"..text9.."???????,"..text10.."???????,????????????"..text18.."?????(??????????,??????????????)"
 	return iText
 end
 
 DTM004[248] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text18)
-	local iText="ÄãµÄ½¢¶ÓÒ»¹²ÓµÓĞ"..text1.."ÃûÂ½Õ½¶ÓÔ±£¬ÔÚ¸¶³ö"..text2.."ÈËµÄÉËÍöºó£¬ÄãµÄÂ½Õ½²¿¶ÓÔÚ½¢¶Ó»ğÁ¦µÄÖ§Ô®ÏÂ³É¹¦µÄ¿ØÖÆÁË»ùµØ¡£²¢³É¹¦µÄËÑ¹Îµ½ÁË"..text3.."µ¥Î»µÄÇâÈ¼ÁÏ,"..text4.."µ¥Î»µÄ»ù´¡²¹¸ø,"..text5.."µ¥Î»µÄÕäÏ§¿óÊ¯,"..text6.."µ¥Î»µÄµ¯Ò©,"..text7.."µ¥Î»µÄÖĞĞÍÎäÆ÷Åä¼ş,"..text8.."µ¥Î»µÄÅ«Á¥,"..text9.."µ¥Î»µÄĞŞÀíÎï×Ê,ÕâĞ©×ÊÔ´Ò»¹²Õ¼¾İÄúµÄ½¢¶Ó"..text18.."µÄ»õ²Ö¿Õ¼ä(Èç¹ûÄãµÄ½¢¶Ó¿Õ¼ä²»¹»£¬ÄÇÃ´Ö»ÄÜ´òÀÌµ½ÆäÖĞÒ»²¿·Ö×ÊÔ´)"
+	local iText="????????"..text1.."?????,???"..text2.."?????,????????????????????????????????"..text3.."??????,"..text4.."???????,"..text5.."???????,"..text6.."?????,"..text7.."?????????,"..text8.."?????,"..text9.."???????,????????????"..text18.."?????(??????????,??????????????)"
 	return iText
 end
 
 DTM004[249] = function(text1,text2,text3,text4,text5,text6,text7,text8,text18)
-	local iText="ÄãµÄ½¢¶ÓÒ»¹²ÓµÓĞ"..text1.."ÃûÂ½Õ½¶ÓÔ±£¬ÔÚ¸¶³ö"..text2.."ÈËµÄÉËÍöºó£¬ÄãµÄÂ½Õ½²¿¶ÓÔÚ½¢¶Ó»ğÁ¦µÄÖ§Ô®ÏÂ³É¹¦µÄ¿ØÖÆÁË»ùµØ¡£²¢³É¹¦µÄËÑ¹Îµ½ÁË"..text3.."µ¥Î»µÄÇâÈ¼ÁÏ,"..text4.."µ¥Î»µÄ»ù´¡²¹¸ø,"..text5.."µ¥Î»µÄÕäÏ§¿óÊ¯,"..text6.."µ¥Î»µÄµ¯Ò©,"..text7.."µ¥Î»µÄÖĞĞÍÎäÆ÷Åä¼ş,"..text8.."µ¥Î»µÄÅ«Á¥,ÕâĞ©×ÊÔ´Ò»¹²Õ¼¾İÄúµÄ½¢¶Ó"..text18.."µÄ»õ²Ö¿Õ¼ä(Èç¹ûÄãµÄ½¢¶Ó¿Õ¼ä²»¹»£¬ÄÇÃ´Ö»ÄÜ´òÀÌµ½ÆäÖĞÒ»²¿·Ö×ÊÔ´)"
+	local iText="????????"..text1.."?????,???"..text2.."?????,????????????????????????????????"..text3.."??????,"..text4.."???????,"..text5.."???????,"..text6.."?????,"..text7.."?????????,"..text8.."?????,????????????"..text18.."?????(??????????,??????????????)"
 	return iText
 end
 
 DTM004[250] = function(text1,text2,text3,text4,text5,text6,text7,text18)
-	local iText="ÄãµÄ½¢¶ÓÒ»¹²ÓµÓĞ"..text1.."ÃûÂ½Õ½¶ÓÔ±£¬ÔÚ¸¶³ö"..text2.."ÈËµÄÉËÍöºó£¬ÄãµÄÂ½Õ½²¿¶ÓÔÚ½¢¶Ó»ğÁ¦µÄÖ§Ô®ÏÂ³É¹¦µÄ¿ØÖÆÁË»ùµØ¡£²¢³É¹¦µÄËÑ¹Îµ½ÁË"..text3.."µ¥Î»µÄÇâÈ¼ÁÏ,"..text4.."µ¥Î»µÄ»ù´¡²¹¸ø,"..text5.."µ¥Î»µÄÕäÏ§¿óÊ¯,"..text6.."µ¥Î»µÄµ¯Ò©,"..text7.."µ¥Î»µÄÖĞĞÍÎäÆ÷Åä¼ş,ÕâĞ©×ÊÔ´Ò»¹²Õ¼¾İÄúµÄ½¢¶Ó"..text18.."µÄ»õ²Ö¿Õ¼ä(Èç¹ûÄãµÄ½¢¶Ó¿Õ¼ä²»¹»£¬ÄÇÃ´Ö»ÄÜ´òÀÌµ½ÆäÖĞÒ»²¿·Ö×ÊÔ´)"
+	local iText="????????"..text1.."?????,???"..text2.."?????,????????????????????????????????"..text3.."??????,"..text4.."???????,"..text5.."???????,"..text6.."?????,"..text7.."?????????,????????????"..text18.."?????(??????????,??????????????)"
 	return iText
 end
 
 DTM004[251] = function(text1,text2,text3,text4,text5,text6,text18)
-	local iText="ÄãµÄ½¢¶ÓÒ»¹²ÓµÓĞ"..text1.."ÃûÂ½Õ½¶ÓÔ±£¬ÔÚ¸¶³ö"..text2.."ÈËµÄÉËÍöºó£¬ÄãµÄÂ½Õ½²¿¶ÓÔÚ½¢¶Ó»ğÁ¦µÄÖ§Ô®ÏÂ³É¹¦µÄ¿ØÖÆÁË»ùµØ¡£²¢³É¹¦µÄËÑ¹Îµ½ÁË"..text3.."µ¥Î»µÄÇâÈ¼ÁÏ,"..text4.."µ¥Î»µÄ»ù´¡²¹¸ø,"..text5.."µ¥Î»µÄÕäÏ§¿óÊ¯,"..text6.."µ¥Î»µÄµ¯Ò©,ÕâĞ©×ÊÔ´Ò»¹²Õ¼¾İÄúµÄ½¢¶Ó"..text18.."µÄ»õ²Ö¿Õ¼ä(Èç¹ûÄãµÄ½¢¶Ó¿Õ¼ä²»¹»£¬ÄÇÃ´Ö»ÄÜ´òÀÌµ½ÆäÖĞÒ»²¿·Ö×ÊÔ´)"
+	local iText="????????"..text1.."?????,???"..text2.."?????,????????????????????????????????"..text3.."??????,"..text4.."???????,"..text5.."???????,"..text6.."?????,????????????"..text18.."?????(??????????,??????????????)"
 	return iText
 end
 
 DTM004[252] = function(text1,text2,text3,text4,text5,text18)
-	local iText="ÄãµÄ½¢¶ÓÒ»¹²ÓµÓĞ"..text1.."ÃûÂ½Õ½¶ÓÔ±£¬ÔÚ¸¶³ö"..text2.."ÈËµÄÉËÍöºó£¬ÄãµÄÂ½Õ½²¿¶ÓÔÚ½¢¶Ó»ğÁ¦µÄÖ§Ô®ÏÂ³É¹¦µÄ¿ØÖÆÁË»ùµØ¡£²¢³É¹¦µÄËÑ¹Îµ½ÁË"..text3.."µ¥Î»µÄÇâÈ¼ÁÏ,"..text4.."µ¥Î»µÄ»ù´¡²¹¸ø,"..text5.."µ¥Î»µÄÕäÏ§¿óÊ¯,ÕâĞ©×ÊÔ´Ò»¹²Õ¼¾İÄúµÄ½¢¶Ó"..text18.."µÄ»õ²Ö¿Õ¼ä(Èç¹ûÄãµÄ½¢¶Ó¿Õ¼ä²»¹»£¬ÄÇÃ´Ö»ÄÜ´òÀÌµ½ÆäÖĞÒ»²¿·Ö×ÊÔ´)"
+	local iText="????????"..text1.."?????,???"..text2.."?????,????????????????????????????????"..text3.."??????,"..text4.."???????,"..text5.."???????,????????????"..text18.."?????(??????????,??????????????)"
 	return iText
 end
 
 DTM004[253] = function(text1,text2,text3,text4,text18)
-	local iText="ÄãµÄ½¢¶ÓÒ»¹²ÓµÓĞ"..text1.."ÃûÂ½Õ½¶ÓÔ±£¬ÔÚ¸¶³ö"..text2.."ÈËµÄÉËÍöºó£¬ÄãµÄÂ½Õ½²¿¶ÓÔÚ½¢¶Ó»ğÁ¦µÄÖ§Ô®ÏÂ³É¹¦µÄ¿ØÖÆÁË»ùµØ¡£²¢³É¹¦µÄËÑ¹Îµ½ÁË"..text3.."µ¥Î»µÄÇâÈ¼ÁÏ,"..text4.."µ¥Î»µÄ»ù´¡²¹¸ø,ÕâĞ©×ÊÔ´Ò»¹²Õ¼¾İÄúµÄ½¢¶Ó"..text18.."µÄ»õ²Ö¿Õ¼ä(Èç¹ûÄãµÄ½¢¶Ó¿Õ¼ä²»¹»£¬ÄÇÃ´Ö»ÄÜ´òÀÌµ½ÆäÖĞÒ»²¿·Ö×ÊÔ´)"
+	local iText="????????"..text1.."?????,???"..text2.."?????,????????????????????????????????"..text3.."??????,"..text4.."???????,????????????"..text18.."?????(??????????,??????????????)"
 	return iText
 end
 
 DTM004[254] = function(text1,text2,text3,text18)
-	local iText="ÄãµÄ½¢¶ÓÒ»¹²ÓµÓĞ"..text1.."ÃûÂ½Õ½¶ÓÔ±£¬ÔÚ¸¶³ö"..text2.."ÈËµÄÉËÍöºó£¬ÄãµÄÂ½Õ½²¿¶ÓÔÚ½¢¶Ó»ğÁ¦µÄÖ§Ô®ÏÂ³É¹¦µÄ¿ØÖÆÁË»ùµØ¡£²¢³É¹¦µÄËÑ¹Îµ½ÁË"..text3.."µ¥Î»µÄÇâÈ¼ÁÏ,ÕâĞ©×ÊÔ´Ò»¹²Õ¼¾İÄúµÄ½¢¶Ó"..text18.."µÄ»õ²Ö¿Õ¼ä(Èç¹ûÄãµÄ½¢¶Ó¿Õ¼ä²»¹»£¬ÄÇÃ´Ö»ÄÜ´òÀÌµ½ÆäÖĞÒ»²¿·Ö×ÊÔ´)"
+	local iText="????????"..text1.."?????,???"..text2.."?????,????????????????????????????????"..text3.."??????,????????????"..text18.."?????(??????????,??????????????)"
 	return iText
 end
 
 DTM004[255] = function(text1)
-	local iText="Î¬¸ñ¶û»ùµØµÄÖ¸»Ó¹ÙÆÀ¹ÀÁËÄúµÄ½¢¶ÓµÄÕ½¶·Á¦ºó£¬¾ö¶¨·ÅÄãÒ»Âí¡£Äú¿ÉÒÔÑ¡ÔñÊÇ·ñÏûºÄ"..text1.."¸öÈÙÓşµãÀ´Àë¿ª¸ÃµØÍ¼¡££¨ÖÍÁôÔÚ¸ÃĞÇÇøÖĞ»áÒıÀ´Î¬¸ñ¶û½¢¶ÓµÄ×·É±£©"
+	local iText="?????????????????????,????????????????"..text1.."???????????(??????????????????)"
 	return iText
 end
 
 DTM004[256] = function(text1,text2,text3)
-	local iText="ÄãÕ½Ê¤ÁËÎ¬¸ñ¶û½¢¶Ó²¢½â³ıÁËÖØÁ¦³¡µÄ¸ÉÈÅ£¬³ı´ËÖ®ÍâÄã»¹»ñµÃÁË"..text1.."µÄ×Ê½ğ½±ÀøºÍ"..text2.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text3.."µÄÈÙÓşµã×÷Îª±¨³ê£¬ÁíÍâ½¢¶Ó½«»áÕ¹¿ªÒ»³¡´òÀÌĞĞ¶¯£¬¶ÔÕ½³¡½øĞĞ´òÉ¨"
+	local iText="???????????????????,?????????"..text1.."??????"..text2.."???????"..text3.."????????,??????????????,???????"
 	return iText
 end
 
 DTM004[257] = function(text1,text2,text3)
-	local iText="ÔÚËÑ¹ÎÍêÎ¬¸ñ¶û»ùµØµÄÕ½ÀûÆ·ºó£¬ÄãÒı±¬ÁËÕâ×ù»ùµØ£¬Õâ³¡Õ½¶·ÖĞÄãÒ»¹²»ñµÃÁË"..text1.."µÄ×Ê½ğ½±ÀøºÍ"..text2.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text3.."µÄÈÙÓşµã×÷Îª±¨³ê"
+	local iText="??????????????,????????,???????????"..text1.."??????"..text2.."???????"..text3.."????????"
 	return iText
 end
 
 DTM004[258] = function(text1,text2,text3,text4)
-	local iText="ÔÚ»÷ÍËÁËÎ¬¸ñ¶û½¢¶Óºó£¬ÉÌ´¬¶ÓµÄÊ×ÁìÏòÄú±íÊ¾¸ĞĞ»²¢Ö§¸¶ÁË¶îÍâµÄ³êÀÍ£¬Õâ³¡Õ½¶·ÖĞÒ»¹²ÓĞ"..text1.."ËÒÉÌ´¬ĞÒ´æ£¬ÄãÒ»¹²»ñµÃÁË"..text2.."µÄ×Ê½ğ½±ÀøºÍ"..text3.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text4.."µÄÈÙÓşµã×÷Îª±¨³ê£¬ÁíÍâÉÌ´¬¶ÓÊ×Áì»¹»áÔùËÍÄúÒ»·İÌØ±ğµÄÀ¶Í¼ËéÆ¬×÷Îª±¨³ê"
+	local iText="??????????,?????????????????????,????????"..text1.."?????,??????"..text2.."??????"..text3.."???????"..text4.."????????,?????????????????????????"
 	return iText
 end
 
 DTM004[259] = function(text1,text2,text3)
-	local iText="ÄãÊØÎÀ×¡ÁË»ùµØ£¬Õâ³¡Õ½¶·ÖĞÄãÒ»¹²»ñµÃÁË"..text1.."µÄ×Ê½ğ½±ÀøºÍ"..text2.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text3.."µÄÈÙÓşµã×÷Îª±¨³ê£¬ÎªÁË¸ĞĞ»ÄúµÄ¹±Ï×£¬»ùµØÖ¸»Ó¹ÙÌØÒâ¿ª·ÅÁËÒ»¸öÃØÃÜÎï×ÊÉÌµêÀ´¹©Äú²É¹º"
+	local iText="???????,???????????"..text1.."??????"..text2.."???????"..text3.."????????,????????,???????????????????????"
 	return iText
 end
 
 DTM004[260] = function(text1,text2,text3,text4)
-	local iText="Äã³É¹¦µÄ»÷ÍËÁËÀ´Ï®µÄÎ¬¸ñ¶û½¢¶Ó£¬Õâ³¡Õ½¶·ÖĞÄãÒ»¹²»ñµÃÁË"..text1.."µÄ×Ê½ğ½±ÀøºÍ"..text2.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text3.."µÄÈÙÓşµã×÷Îª±¨³ê£¬ÊÇ·ñ»¹ĞèÒª¼ÌĞø´òÀÌ£¿Ä¿Ç°ÄãÒÑ¾­´òÀÌÁË"..text4.."´Î"
+	local iText="???????????????,???????????"..text1.."??????"..text2.."???????"..text3.."????????,??????????????????"..text4.."?"
 	return iText
 end
 
 DTM004[261] = function(text1,text2,text3,text4)
-	local iText="Äã´İ»ÙÁËËùÓĞµÄÏÈ×æÕ½½¢£¬Õâ³¡Õ½¶·ÖĞÄãÒ»¹²»ñµÃÁË"..text1.."µÄ×Ê½ğ½±ÀøºÍ"..text2.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text3.."µÄÈÙÓşµã×÷Îª±¨³ê,´ËÍâÔÚ´òÉ¨Õ½³¡µÄÊ±ºò£¬Äã»¹´Ó²Ğº¡ÖĞ»ñÈ¡ÁË"..text4.."µÄÏÈ×æÒÅÎï"
+	local iText="???????????,???????????"..text1.."??????"..text2.."???????"..text3.."????????,??????????,?????????"..text4.."?????"
 	return iText
 end
 
 DTM004[262] = function(text1,text2,text3,text4)
-	local iText="Äã´İ»ÙÁËËùÓĞµÄÏÈ×æÕ½½¢£¬Õâ³¡Õ½¶·ÖĞÄãÒ»¹²»ñµÃÁË"..text1.."µÄ×Ê½ğ½±ÀøºÍ"..text2.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text3.."µÄÈÙÓşµã×÷Îª±¨³ê,´ËÍâÔÚ´òÉ¨Õ½³¡µÄÊ±ºò£¬Äã»¹´Ó²Ğº¡ÖĞ»ñÈ¡ÁË"..text4.."µÄÏÈ×æÒÅÎï£¬¿ÉÏ§µÄÊÇÓÉÓÚ»õ²Ö¿Õ¼ä²»×ã£¬Õâ²¿·ÖÎï×ÊÎŞ·¨Ğ¯´ø"
+	local iText="???????????,???????????"..text1.."??????"..text2.."???????"..text3.."????????,??????????,?????????"..text4.."?????,????????????,?????????"
 	return iText
 end
 
 DTM004[263] = function(text1,text2,text3,text4)
-	local iText="Äã´İ»ÙÁËËùÓĞµÄÏÈ×æÕ½½¢£¬Õâ³¡Õ½¶·ÖĞÄãÒ»¹²»ñµÃÁË"..text1.."µÄ×Ê½ğ½±ÀøºÍ"..text2.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text3.."µÄÈÙÓşµã×÷Îª±¨³ê,´ËÍâÔÚ´òÉ¨Õ½³¡µÄÊ±ºò£¬Äã»¹´Ó²Ğº¡ÖĞ»ñÈ¡ÁË"..text4.."µÄÏÈ×æÒÅÎï£¬¿ÉÏ§µÄÊÇÓÉÓÚ»õ²Ö¿Õ¼ä²»×ã£¬Õâ²¿·ÖÎï×ÊÎŞ·¨Ğ¯´ø"
+	local iText="???????????,???????????"..text1.."??????"..text2.."???????"..text3.."????????,??????????,?????????"..text4.."?????,????????????,?????????"
 	return iText
 end
 
 DTM004[264] = function(text1)
-	local iText="ÄãµÄ½¢¶Ó³¬¿Õ¼äÈ¼ÁÏ²»×ã£¬ÌøÔ¾ĞèÒª"..text1.."µÄ³¬¿Õ¼äÈ¼ÁÏ£¬ÊÇ·ñĞèÒªÏûºÄÄúÕË»§Ò»°ëµÄ×Ê½ğÏòºÚÊĞÉÌÈË½ô¼±²É¹º³¬¿Õ¼äÈ¼ÁÏ£¿"
+	local iText="???????????,????"..text1.."??????,?????????????????????????????"
 	return iText
 end
 
 DTM004[265] = function(text1)
-	local iText="½ô¼±ÌøÔ¾ĞèÒª"..text1.."µÄ·´ÎïÖÊÈ¼ÁÏ£¬ÇëÈ·ÈÏÊÇ·ñÒª½ô¼±³äÄÜ"
+	local iText="??????"..text1.."??????,??????????"
 	return iText
 end
 
 
 DTM004[266] = function(text1,text2,text3)
-	local iText="ÄãÕ½Ê¤ÁËÎ¬¸ñ¶û½¢¶Ó£¬³ı´ËÖ®ÍâÄã»¹»ñµÃÁË"..text1.."µÄ×Ê½ğ½±ÀøºÍ"..text2.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text3.."µÄÈÙÓşµãºÍ2ÕÅÀ¶Í¼ËéÆ¬×÷Îª±¨³ê£¬ÁíÍâ½¢¶Ó½«»áÕ¹¿ªÒ»³¡´òÀÌĞĞ¶¯£¬¶ÔÕ½³¡½øĞĞ´òÉ¨"
+	local iText="?????????,?????????"..text1.."??????"..text2.."???????"..text3.."?????2?????????,??????????????,???????"
 	return iText
 end
 
 
 DTM004[267] = function(text1,text2,text3,text4)
-	local iText="Äã¼ßÃğÁËËùÓĞµÄ³æÈº½¢¶Ó£¬Õâ³¡Õ½¶·ÖĞÄãÒ»¹²»ñµÃÁË"..text1.."µÄ×Ê½ğ½±ÀøºÍ"..text2.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text3.."µÄÈÙÓşµã×÷Îª±¨³ê,´ËÍâÔÚ´òÉ¨Õ½³¡µÄÊ±ºò£¬Äã»¹´Ó²Ğº¡ÖĞ»ñÈ¡ÁË"..text4.."µÄ´¥ÊÖ"
+	local iText="???????????,???????????"..text1.."??????"..text2.."???????"..text3.."????????,??????????,?????????"..text4.."???"
 	return iText
 end
 
 DTM004[268] = function(text1,text2,text3,text4)
-	local iText="Äã¼ßÃğÁËËùÓĞµÄ³æÈº½¢¶Ó£¬Õâ³¡Õ½¶·ÖĞÄãÒ»¹²»ñµÃÁË"..text1.."µÄ×Ê½ğ½±ÀøºÍ"..text2.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text3.."µÄÈÙÓşµã×÷Îª±¨³ê,´ËÍâÔÚ´òÉ¨Õ½³¡µÄÊ±ºò£¬Äã»¹´Ó²Ğº¡ÖĞ»ñÈ¡ÁË"..text4.."µÄ´¥ÊÖ£¬¿ÉÏ§µÄÊÇÓÉÓÚ»õ²Ö¿Õ¼ä²»×ã£¬Õâ²¿·ÖÎï×ÊÎŞ·¨Ğ¯´ø"
+	local iText="???????????,???????????"..text1.."??????"..text2.."???????"..text3.."????????,??????????,?????????"..text4.."???,????????????,?????????"
 	return iText
 end
 
 DTM004[269] = function(text1,text2,text3,text4)
-	local iText="Äã¼ßÃğÁËËùÓĞµÄ¹×º¡½¢¶Ó£¬Õâ³¡Õ½¶·ÖĞÄãÒ»¹²»ñµÃÁË"..text1.."µÄ×Ê½ğ½±ÀøºÍ"..text2.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text3.."µÄÈÙÓşµã×÷Îª±¨³ê,´ËÍâÔÚ´òÉ¨Õ½³¡µÄÊ±ºò£¬Äã»¹´Ó²Ğº¡ÖĞ»ñÈ¡ÁË"..text4.."µÄÕäÏ§¿óÊ¯"
+	local iText="???????????,???????????"..text1.."??????"..text2.."???????"..text3.."????????,??????????,?????????"..text4.."?????"
 	return iText
 end
 
 DTM004[270] = function(text1,text2,text3,text4)
-	local iText="Äã¼ßÃğÁËËùÓĞµÄ¹×º¡½¢¶Ó£¬Õâ³¡Õ½¶·ÖĞÄãÒ»¹²»ñµÃÁË"..text1.."µÄ×Ê½ğ½±ÀøºÍ"..text2.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text3.."µÄÈÙÓşµã×÷Îª±¨³ê,´ËÍâÔÚ´òÉ¨Õ½³¡µÄÊ±ºò£¬Äã»¹´Ó²Ğº¡ÖĞ»ñÈ¡ÁË"..text4.."µÄÕäÏ§¿óÊ¯£¬¿ÉÏ§µÄÊÇÓÉÓÚ»õ²Ö¿Õ¼ä²»×ã£¬Õâ²¿·ÖÎï×ÊÎŞ·¨Ğ¯´ø"
+	local iText="???????????,???????????"..text1.."??????"..text2.."???????"..text3.."????????,??????????,?????????"..text4.."?????,????????????,?????????"
 	return iText
 end
 
 DTM004[271] = function(text1,text2,text3,text4,text5)
-	local iText="Äã´İ»ÙÁËËùÓĞµÄÎ¬¸ñ¶ûÉÌ´¬¶Ó£¬´ËÍâÄã»¹»ñµÃÁË"..text1.."µÄ×Ê½ğ½±ÀøºÍ"..text2.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text3.."µÄÈÙÓşµã×÷Îª±¨³ê,´ËÍâÔÚ´òÉ¨Õ½³¡µÄÊ±ºò£¬Äã»¹´Ó²Ğº¡ÖĞ»ñÈ¡ÁË"..text4.."µÄÅ«Á¥£¬"..text5.."µÄÉİ³ŞÆ·£¬ÁíÍâ»¹·¢ÏÖÁËÒ»·İÌØ±ğµÄÀ¶Í¼ËéÆ¬×÷Îª¶îÍâÊÕ»ñ"
+	local iText="?????????????,???????"..text1.."??????"..text2.."???????"..text3.."????????,??????????,?????????"..text4.."???,"..text5.."????,?????????????????????"
 	return iText
 end
 
 
 DTM004[272] = function(text1,text2,text3,text4,text5)
-	local iText="Äã´İ»ÙÁËËùÓĞµÄÎ¬¸ñ¶ûÉÌ´¬¶Ó£¬´ËÍâÄã»¹»ñµÃÁË"..text1.."µÄ×Ê½ğ½±ÀøºÍ"..text2.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text3.."µÄÈÙÓşµã×÷Îª±¨³ê,´ËÍâÔÚ´òÉ¨Õ½³¡µÄÊ±ºò£¬Äã»¹´Ó²Ğº¡ÖĞ»ñÈ¡ÁË"..text4.."µÄÅ«Á¥£¬"..text5.."µÄÉİ³ŞÆ·£¬¿ÉÏ§µÄÊÇÓÉÓÚ»õ²Ö¿Õ¼ä²»×ã£¬Õâ²¿·ÖÎï×ÊÎŞ·¨Ğ¯´ø£¬²»¹ıÔÚ´òÉ¨Õ½³¡µÄÊ±ºòÁíÍâ·¢ÏÖÁËÒ»·İÌØ±ğµÄÀ¶Í¼ËéÆ¬×÷Îª¶îÍâÊÕ»ñ"
+	local iText="?????????????,???????"..text1.."??????"..text2.."???????"..text3.."????????,??????????,?????????"..text4.."???,"..text5.."????,????????????,?????????,??????????????????????????????"
 	return iText
 end
 
 DTM004[273] = function(text1,text2,text3,text4)
-	local iText="Äã¼ßÃğÁËËùÓĞµÄË®¾§Ìå£¬Õâ³¡Õ½¶·ÖĞÄãÒ»¹²»ñµÃÁË"..text1.."µÄ×Ê½ğ½±ÀøºÍ"..text2.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text3.."µÄÈÙÓşµã×÷Îª±¨³ê,´ËÍâÔÚ´òÉ¨Õ½³¡µÄÊ±ºò£¬Äã»¹´Ó²Ğº¡ÖĞ»ñÈ¡ÁË"..text4.."µÄÄÉÃ×ÎïÖÊ"
+	local iText="??????????,???????????"..text1.."??????"..text2.."???????"..text3.."????????,??????????,?????????"..text4.."?????"
 	return iText
 end
 
 DTM004[274] = function(text1,text2,text3,text4)
-	local iText="Äã¼ßÃğÁËËùÓĞµÄË®¾§Ìå£¬Õâ³¡Õ½¶·ÖĞÄãÒ»¹²»ñµÃÁË"..text1.."µÄ×Ê½ğ½±ÀøºÍ"..text2.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text3.."µÄÈÙÓşµã×÷Îª±¨³ê,´ËÍâÔÚ´òÉ¨Õ½³¡µÄÊ±ºò£¬Äã»¹´Ó²Ğº¡ÖĞ»ñÈ¡ÁË"..text4.."µÄÄÉÃ×ÎïÖÊ£¬¿ÉÏ§µÄÊÇÓÉÓÚ»õ²Ö¿Õ¼ä²»×ã£¬Õâ²¿·ÖÎï×ÊÎŞ·¨Ğ¯´ø"
+	local iText="??????????,???????????"..text1.."??????"..text2.."???????"..text3.."????????,??????????,?????????"..text4.."?????,????????????,?????????"
 	return iText
 end
 
 DTM004[275] = function(text1,text2,text3,text4,text5)
-	local iText="ÄãÔÚÔ®¾üµ½À´Ç°ÌáÇ°´İ»ÙÁËÎ¬¸ñ¶û»ùµØ£¬ÓÉÓÚËğ»ÙµÄÌ«¹ı³¹µ×£¬ËùÒÔ²ĞÆÆµÄ»ùµØÀïÖ»ÓĞÉÙÁ¿µÄÕ½ÀûÆ·¿ÉÒÔËÑ¹Î£¬ÄãÔÚÎ¬¸ñ¶û½¢¶Ó»ùµØÖĞ·¢ÏÖÁË"..text1.."µÄ×Ê½ğ½±ÀøºÍ"..text2.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text3.."µÄÈÙÓşµã×÷Îª±¨³ê,´ËÍâÔÚ´òÉ¨Õ½³¡µÄÊ±ºò£¬Äã»¹´Ó²Ğº¡ÖĞ»ñÈ¡ÁË"..text4.."µÄÅ«Á¥£¬"..text5.."µÄÉİ³ŞÆ·,ÁíÍâÔÚ´òÉ¨Õ½³¡µÄÊ±ºò»¹·¢ÏÖÁËÒ»·İÌØ±ğµÄÀ¶Í¼ËéÆ¬×÷Îª¶îÍâÊÕ»ñ"
+	local iText="?????????????????,?????????,????????????????????,?????????????"..text1.."??????"..text2.."???????"..text3.."????????,??????????,?????????"..text4.."???,"..text5.."????,?????????????????????????????"
 	return iText
 end
 
 DTM004[276] = function(text1,text2,text3,text4,text5)
-	local iText="ÄãÔÚÔ®¾üµ½À´Ç°ÌáÇ°´İ»ÙÁËÎ¬¸ñ¶û»ùµØ£¬ÓÉÓÚËğ»ÙµÄÌ«¹ı³¹µ×£¬ËùÒÔ²ĞÆÆµÄ»ùµØÀïÖ»ÓĞÉÙÁ¿µÄÕ½ÀûÆ·¿ÉÒÔËÑ¹Î£¬ÄãÔÚÎ¬¸ñ¶û½¢¶Ó»ùµØÖĞ·¢ÏÖÁË"..text1.."µÄ×Ê½ğ½±ÀøºÍ"..text2.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text3.."µÄÈÙÓşµã×÷Îª±¨³ê,´ËÍâÔÚ´òÉ¨Õ½³¡µÄÊ±ºò£¬Äã»¹´Ó²Ğº¡ÖĞ»ñÈ¡ÁË"..text4.."µÄÅ«Á¥£¬"..text5.."µÄÉİ³ŞÆ·£¬¿ÉÏ§µÄÊÇÓÉÓÚ»õ²Ö¿Õ¼ä²»×ã£¬Õâ²¿·ÖÎï×ÊÎŞ·¨Ğ¯´ø£¬²»¹ıÔÚ´òÉ¨Õ½³¡µÄÊ±ºòÁíÍâ·¢ÏÖÁËÒ»·İÌØ±ğµÄÀ¶Í¼ËéÆ¬×÷Îª¶îÍâÊÕ»ñ"
+	local iText="?????????????????,?????????,????????????????????,?????????????"..text1.."??????"..text2.."???????"..text3.."????????,??????????,?????????"..text4.."???,"..text5.."????,????????????,?????????,??????????????????????????????"
 	return iText
 end
 
 DTM004[277] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10)
-	local iText="ÄãµÄÖ³ÃñµØÄ¿Ç°ÓµÓĞ"..text1.."µÄÈË¿Ú£¬°²·ÀµÈ¼¶Îª"..text2.."¼¶£¬Ö³ÃñµØÍşĞ²µÈ¼¶Îª"..text3..",²¢ÓµÓĞ"..text4.."µÄÖ³ÃñµØ½¢¶ÓµãÊı£¬Ä¿Ç°Ö³ÃñµØµÄ½¨Öş¹æÄ£µÈ¼¶Îª"..text5.."¼¶,"..text6..""..text7..""..text8..""..text9..","..text10..""
+	local iText="?????????"..text1.."???,?????"..text2.."?,????????"..text3..",???"..text4.."????????,?????????????"..text5.."?,"..text6..""..text7..""..text8..""..text9..","..text10..""
 	return iText
 end
 
 
 DTM004[278] = function(text1)
-	local iText="ÄãµÄ½¢¶ÓµãÊıÄ¿Ç°Ö»ÓĞ"..text1.."µã£¬ÔİÊ±ÎŞ·¨ÕÙ»½Õâ¸ö¹æÄ£µÄ½¢¶Ó"
+	local iText="??????????"..text1.."?,?????????????"
 	return iText
 end
 
 DTM004[279] = function(text1)
-	local iText="ÄãÕÙ»½µÄ½¢¶ÓÄ¿Ç°ÕıÔÚ·ÖÅú½øÈëÕ½³¡£¬Ä¿Ç°»¹ÓĞ"..text1.."µãµÄ½¢¶ÓµãÊı»¹Î´Ê¹ÓÃ£¬ÊÇ·ñÒª»ØÊÕ½¢¶Ó³·ÀëÕ½³¡£¿"
+	local iText="????????????????,????"..text1.."??????????,????????????"
 	return iText
 end
 
 DTM004[280] = function(text1)
-	local iText="Ö³ÃñµØ½¢¶ÓÒÑ¾­³·Àë£¬Ò»¹²»ØÊÕÁË"..text1.."µãµÄ½¢¶ÓµãÊı"
+	local iText="?????????,?????"..text1.."??????"
 	return iText
 end
 
 
 
 DTM004[281] = function(text1)
-	local iText="ÄãµÄ×ÊÔ´Ì½Ë÷½¢¶Ó·¢ÏÖÁËÒ»¸ö"..text1.."µÄ±ù¿ó´ø"
+	local iText="?????????????"..text1.."????"
 	return iText
 end
 
 
 
-DTM004[282] = "Ğ¡ĞÍ"
-DTM004[283] = "ÖĞĞÍ"
-DTM004[284] = "´óĞÍ"
-DTM004[285] = "¾ŞĞÍ"
-DTM004[286] = "³¬¾ŞĞÍ"
+DTM004[282] = "??"
+DTM004[283] = "??"
+DTM004[284] = "??"
+DTM004[285] = "??"
+DTM004[286] = "???"
 
 
 DTM004[290] = function(text1,text2,text3)
-	local iText="Äã´İ»ÙÁËÕû×ù»ùµØºÍËæÖ®¶øÀ´µÄÔöÔ®½¢¶Ó£¬Õâ³¡Õ½¶·ÖĞÄãÒ»¹²»ñµÃÁË"..text1.."µÄ×Ê½ğ½±ÀøºÍ"..text2.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text3.."µÄÈÙÓşµã×÷Îª±¨³ê"
+	local iText="??????????????????,???????????"..text1.."??????"..text2.."???????"..text3.."????????"
 	return iText
 end
 
 
 DTM004[291] = function(text1)
-	local iText="ÄãµÄ½¢¶ÓµãÊıÄ¿Ç°Ö»ÓĞ"..text1.."µã£¬ÔİÊ±ÎŞ·¨ÅÉ³öÕâ¸ö¹æÄ£µÄ½¢¶Ó"
+	local iText="??????????"..text1.."?,?????????????"
 	return iText
 end
 
 
 DTM004[292] = function(text1,text2,text3)
-	local iText="º£µÁ»ùµØÒÑ¾­±»ÖØ´´£¬ÏÖÔÚÄãµÄ½¢¶Ó¿ÉÒÔ×éÖ¯Ò»´ÎµÇÂ½ĞĞ¶¯À´ÔİÊ±¿ØÖÆ»ùµØ£¬Ä¿Ç°ÄãµÄ½¢¶ÓÖĞÒ»¹²ÓµÓĞ"..text1.."ÃûÂ½Õ½¶ÓÔ±£¬ÊÇ·ñÖ´ĞĞµÇÂ½ÈÎÎñ£¿Ä¿Ç°¸Ã»ùµØµÄ¼¶±ğÎª"..text2.."¿ØÖÆËüÖÁÉÙĞèÒª"..text3.."ÃûÂ½Õ½¶ÓÔ±,×¢Òâ£ºÄãµÄ¾üµÈÔ½¸ß£¬½¢¶ÓÖĞµÄÂ½Õ½¶ÓÔ±ÊıÁ¿Ô½¶à£¬¿ÉÄÜÔâÊÜµÄ½ø¹¥ËğÊ§¾ÍÔ½Ğ¡"
+	local iText="?????????,???????????????????????,???????????"..text1.."?????,??????????????????"..text2.."???????"..text3.."?????,??:??????,????????????,????????????"
 	return iText
 end
 
 
 DTM004[293] = function(text1,text2,text3)
-	local iText="ÄãÕ½Ê¤ÁËÎ¬¸ñ¶û¾ü·§½¢¶Ó²¢½â³ıÁËÖØÁ¦³¡µÄ¸ÉÈÅ£¬³ı´ËÖ®ÍâÄã»¹»ñµÃÁË"..text1.."µÄ×Ê½ğ½±ÀøºÍ"..text2.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text3.."µÄÈÙÓşµã×÷Îª±¨³ê£¬ÁíÍâ½¢¶Ó½«»áÕ¹¿ªÒ»³¡´òÀÌĞĞ¶¯£¬¶ÔÕ½³¡½øĞĞ´òÉ¨"
+	local iText="?????????????????????,?????????"..text1.."??????"..text2.."???????"..text3.."????????,??????????????,???????"
 	return iText
 end
 
 DTM004[294] = function(text1,text2,text3)
-	local iText="ÄãÕ½Ê¤ÁËÃØÒøÖØ¹¤½¢¶Ó£¬³ı´ËÖ®ÍâÄã»¹»ñµÃÁË"..text1.."µÄ×Ê½ğ½±ÀøºÍ"..text2.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text3.."µÄÈÙÓşµãºÍ1ÕÅÀ¶Í¼ËéÆ¬×÷Îª±¨³ê£¬ÁíÍâ½¢¶Ó½«»áÕ¹¿ªÒ»³¡´òÀÌĞĞ¶¯£¬¶ÔÕ½³¡½øĞĞ´òÉ¨"
+	local iText="??????????,?????????"..text1.."??????"..text2.."???????"..text3.."?????1?????????,??????????????,???????"
 	return iText
 end
 
 DTM004[295] = function(text1,text2,text3,text4)
-	local iText="ÄãÕ½Ê¤ÁË"..text4.."£¬³ı´ËÖ®ÍâÄã»¹»ñµÃÁË"..text1.."µÄ×Ê½ğ½±ÀøºÍ"..text2.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text3.."µÄÈÙÓşµãºÍ1ÕÅÀ¶Í¼ËéÆ¬×÷Îª±¨³ê£¬ÁíÍâ½¢¶Ó½«»áÕ¹¿ªÒ»³¡´òÀÌĞĞ¶¯£¬¶ÔÕ½³¡½øĞĞ´òÉ¨"
+	local iText="????"..text4..",?????????"..text1.."??????"..text2.."???????"..text3.."?????1?????????,??????????????,???????"
 	return iText
 end
 
 
 DTM004[296] = function(text1,text2,text3)
-	local iText=""..text1.."µÄ¹æÄ£ÒÑ¾­Ïû¼õÁË"..text2.."µã"..text3..""
+	local iText=""..text1.."????????"..text2.."?"..text3..""
 	return iText
 end
 
-DTM004[297] = "£¬ÓÉÓÚÄã³¹µ×»ÙÃğÁËÌìÔÖ£¬ÔÚÒ»¶ÎÊ±ÆÚÄÚ²»»áÔÙ³öÏÖĞÂµÄÈÎºÎÌìÔÖ"
+DTM004[297] = ",??????????,?????????????????"
 
 DTM004[298] = function(text1,text2)
-	local iText="ÄãÔÚ¸½½üĞÇÇø·¢ÏÖÁËÒ»Æ¬"..text1.."µÄ²Ğº¡´ø£¬ÕâÀïËÆºõ¸Õ¸Õ·¢Éú¹ıÒ»³¡¼¤ÁÒµÄÕ½¶·£¬¿ÉÄÜ»¹ÓĞÓĞ¼ÛÖµµÄÁã¼ş¿ÉÒÔ´òÀÌ£¬Í¬Ê±»¹ÓĞÉú»¹Õß¿ÉÒÔÓª¾È£¬´Ó¹æÄ£ÉÏÅĞ¶Ï£¬ËÆºõ¿ÉÒÔ½øĞĞ"..text2.."´ÎµÄ´òÀÌ£¬ÊÇ·ñÒª×éÖ¯½¢¶Ó½øĞĞ´òÀÌ£¿"
+	local iText="???????????"..text1.."????,????????????????,??????????????,???????????,??????,??????"..text2.."????,????????????"
 	return iText
 end
 
@@ -993,7 +1000,7 @@ end
 
 KE04missionTXT = {}
 KE04missionTXT[001] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10)
-	local iText="ÄãÅÉ³öÁËÒ»Ö§"..text1.."½¢¶Ó£¬ÔÚ¾­¹ıÊıÌìÌ½Ë÷ºó£¬ÄãµÄ½¢¶Ó·¢ÏÖÁËÒ»´¦"..text2..""..text3.."£¬¾­¹ıË¼¿¼ºó£¬½¢¶ÓÖ¸»Ó¹Ù¾ö¶¨¶Ô"..text3..""..text4..","..text5..","..text6.."ĞĞ¶¯"..text7.."£¬Ì½Ë÷½¢¶ÓÔÚ"..text8.."¸½½ü"..text9..""..text10..""
+	local iText="??????"..text1.."??,????????,?????????"..text2..""..text3..",?????,????????"..text3..""..text4..","..text5..","..text6.."??"..text7..",?????"..text8.."??"..text9..""..text10..""
 	return iText
 end
 
@@ -1001,143 +1008,143 @@ end
 
 
 KE04missionTXTLV01A01 = {}
-KE04missionTXTLV01A01[001] = "Ğ¡ĞÍ"
-KE04missionTXTLV01A01[002] = "ÖĞµÈ¹æÄ£"
-KE04missionTXTLV01A01[003] = "´óĞÍ"
-KE04missionTXTLV01A01[004] = "³¬´óĞÍ"
-KE04missionTXTLV01A01[005] = "¾ŞĞÍ"
+KE04missionTXTLV01A01[001] = "??"
+KE04missionTXTLV01A01[002] = "????"
+KE04missionTXTLV01A01[003] = "??"
+KE04missionTXTLV01A01[004] = "???"
+KE04missionTXTLV01A01[005] = "??"
 
 
 KE04missionTXTLV01A02 = {}
-KE04missionTXTLV01A02[001] = "Ğ¡¹æÄ£µÄ"
-KE04missionTXTLV01A02[002] = "ÖĞµÈ¹æÄ£"
-KE04missionTXTLV01A02[003] = "´ó¹æÄ£µÄ"
-KE04missionTXTLV01A02[004] = "¹æÄ£ÅÓ´óµÄ"
-KE04missionTXTLV01A02[005] = "³¬´ó¹æÄ£µÄ"
+KE04missionTXTLV01A02[001] = "????"
+KE04missionTXTLV01A02[002] = "????"
+KE04missionTXTLV01A02[003] = "????"
+KE04missionTXTLV01A02[004] = "?????"
+KE04missionTXTLV01A02[005] = "?????"
 
 KE04missionTXTLV01A03 = {}
-KE04missionTXTLV01A03[001] = "±ùĞ¡ĞĞĞÇ´ø"
-KE04missionTXTLV01A03[002] = "Ğ¡ĞĞĞÇ´ø"
-KE04missionTXTLV01A03[003] = "·ÏÆúÄÜÔ´ÉèÊ©"
-KE04missionTXTLV01A03[004] = "·ÏÆú¾Ó×¡Çø"
-KE04missionTXTLV01A03[005] = "·ÏÆúµ¯Ò©²Ö¿â"
-KE04missionTXTLV01A03[006] = "·ÏÆú¸ÖÌúÒ±Á¶ÉèÊ©"
-KE04missionTXTLV01A03[007] = "·ÏÆúÁã¼ş³§"
-KE04missionTXTLV01A03[008] = "·ÏÆúµÄ¸ß¼¶´¦ÀíÉèÊ©"
-KE04missionTXTLV01A03[009] = "·ÏÆú´¬Îë"
-KE04missionTXTLV01A03[010] = "·ÏÆúµÄÕ½³¡"
-KE04missionTXTLV01A03[011] = "ÃØÃÜº£µÁ»ùµØ"
-KE04missionTXTLV01A03[012] = "ÃØÃÜÑĞ¾¿Õ¾"
+KE04missionTXTLV01A03[001] = "?????"
+KE04missionTXTLV01A03[002] = "????"
+KE04missionTXTLV01A03[003] = "??????"
+KE04missionTXTLV01A03[004] = "?????"
+KE04missionTXTLV01A03[005] = "??????"
+KE04missionTXTLV01A03[006] = "????????"
+KE04missionTXTLV01A03[007] = "?????"
+KE04missionTXTLV01A03[008] = "?????????"
+KE04missionTXTLV01A03[009] = "????"
+KE04missionTXTLV01A03[010] = "?????"
+KE04missionTXTLV01A03[011] = "??????"
+KE04missionTXTLV01A03[012] = "?????"
 
 KE04missionTXTLV01A04 = {}
-KE04missionTXTLV01A04[001] = "½øĞĞ¿ª²É"
-KE04missionTXTLV01A04[002] = "½øĞĞÌ½Ë÷"
-KE04missionTXTLV01A04[003] = "½øĞĞÕì²é"
+KE04missionTXTLV01A04[001] = "????"
+KE04missionTXTLV01A04[002] = "????"
+KE04missionTXTLV01A04[003] = "????"
 
 KE04missionTXTLV01A05 = {}
-KE04missionTXTLV01A05[001] = "ĞÒÔËµÄÊÇ"
-KE04missionTXTLV01A05[002] = "²»¹ı"
-KE04missionTXTLV01A05[003] = "²»ĞÒµÄÊÇ"
+KE04missionTXTLV01A05[001] = "????"
+KE04missionTXTLV01A05[002] = "??"
+KE04missionTXTLV01A05[003] = "????"
 
 
 
 KE04missionTXTLV02A01 = {}
-KE04missionTXTLV02A01[001] = "¿ª²É"
-KE04missionTXTLV02A01[002] = "Ì½Ë÷"
-KE04missionTXTLV02A01[003] = "Õì²é"
+KE04missionTXTLV02A01[001] = "??"
+KE04missionTXTLV02A01[002] = "??"
+KE04missionTXTLV02A01[003] = "??"
 
 KE04missionTXTLV02A02 = {}
-KE04missionTXTLV02A02[001] = "½øĞĞµÄºÜË³Àû"
-KE04missionTXTLV02A02[002] = "½øĞĞµÄºÜ²»Ë³Àû"
-KE04missionTXTLV02A02[003] = "Óöµ½ÁËÒâÍâ"
-KE04missionTXTLV02A02[004] = "Óöµ½ÁËÑÏÖØÊÂ¹Ê"
-KE04missionTXTLV02A02[005] = "Óöµ½ÁË´óÂé·³"
+KE04missionTXTLV02A02[001] = "??????"
+KE04missionTXTLV02A02[002] = "???????"
+KE04missionTXTLV02A02[003] = "?????"
+KE04missionTXTLV02A02[004] = "???????"
+KE04missionTXTLV02A02[005] = "??????"
 
 KE04missionTXTLV02A03 = {}
-KE04missionTXTLV02A03[001] = "Ã»ÓĞ·¢ÏÖÈÎºÎµĞÈË½¢¶Ó"
-KE04missionTXTLV02A03[002] = "·¢ÏÖÁËÉÙÁ¿µÄ"
-KE04missionTXTLV02A03[003] = "Óöµ½ÁË´óÁ¿µÄ"
-KE04missionTXTLV02A03[004] = "ÔâÓöÁËº£Á¿µÄ"
-KE04missionTXTLV02A03[005] = "Óöµ½ÁË¿ÉÅÂ¹æÄ£µÄ"
+KE04missionTXTLV02A03[001] = "??????????"
+KE04missionTXTLV02A03[002] = "??????"
+KE04missionTXTLV02A03[003] = "??????"
+KE04missionTXTLV02A03[004] = "??????"
+KE04missionTXTLV02A03[005] = "????????"
 
 KE04missionTXTLV02A04 = {}
 KE04missionTXTLV02A04[001] = ""
-KE04missionTXTLV02A04[002] = "º£µÁ½¢¶Ó"
-KE04missionTXTLV02A04[003] = "Ê§¿ØµÄÏÈ×æ½¢¶Ó"
-KE04missionTXTLV02A04[004] = "Ë®¾§Ìå½¢¶Ó"
-KE04missionTXTLV02A04[005] = "³æÈº½¢¶Ó"
-KE04missionTXTLV02A04[006] = "Î¬¸ñ¶û¾ü·§½¢¶Ó"
-KE04missionTXTLV02A04[007] = "¹×º¡½¢¶Ó"
+KE04missionTXTLV02A04[002] = "????"
+KE04missionTXTLV02A04[003] = "???????"
+KE04missionTXTLV02A04[004] = "?????"
+KE04missionTXTLV02A04[005] = "????"
+KE04missionTXTLV02A04[006] = "???????"
+KE04missionTXTLV02A04[007] = "????"
 
 KE04missionTXTLV03A00 = {}
 KE04missionTXTLV03A00[001] = ""
-KE04missionTXTLV03A00[002] = "ÔÚÒ»·¬Õ½¶·ºó£¬ÄãµÄ½¢¶Ó"
+KE04missionTXTLV03A00[002] = "??????,????"
 
 KE04missionTXTLV03A01 = {}
 KE04missionTXTLV03A01[000] = ""
-KE04missionTXTLV03A01[001] = "´ó»ñÈ«Ê¤"
-KE04missionTXTLV03A01[002] = "»ñµÃÊ¤Àû"
-KE04missionTXTLV03A01[003] = "ºÍ¶ÔÊÖÁ½°Ü¾ãÉË"
-KE04missionTXTLV03A01[004] = "ËğÊ§²»Ğ¡"
-KE04missionTXTLV03A01[005] = "ÊÜµ½ÁËÑÏÖØµÄËğÊ§"
+KE04missionTXTLV03A01[001] = "????"
+KE04missionTXTLV03A01[002] = "????"
+KE04missionTXTLV03A01[003] = "???????"
+KE04missionTXTLV03A01[004] = "????"
+KE04missionTXTLV03A01[005] = "????????"
 
 KE04missionTXTLV03A02 = {}
 KE04missionTXTLV03A02[000] = ""
-KE04missionTXTLV03A02[001] = "£¬Ô¼ÓĞ"
-KE04missionTXTLV03A02[002] = "£¬Ô¼ÓĞ"
-KE04missionTXTLV03A02[003] = "£¬¶à´ï"
-KE04missionTXTLV03A02[004] = "£¬¶à´ï"
-KE04missionTXTLV03A02[005] = "£¬²î²»¶à"
+KE04missionTXTLV03A02[001] = ",??"
+KE04missionTXTLV03A02[002] = ",??"
+KE04missionTXTLV03A02[003] = ",??"
+KE04missionTXTLV03A02[004] = ",??"
+KE04missionTXTLV03A02[005] = ",???"
 
 KE04missionTXTLV03A03 = {}
 KE04missionTXTLV03A03[001] = ""
-KE04missionTXTLV03A03[002] = "¸ö½¢¶ÓµãÊıµÄÕ½½¢ÊÜËğ£¬"
+KE04missionTXTLV03A03[002] = "??????????,"
 
 KE04missionTXTLV03A04 = {}
 KE04missionTXTLV03A04[000] = ""
 KE04missionTXTLV03A04[001] = ""
 KE04missionTXTLV03A04[002] = ""
-KE04missionTXTLV03A04[003] = "Ö»ÄÜÑ¡Ôñ³·ÍË¡£"
-KE04missionTXTLV03A04[004] = "Ö»ÄÜÑ¡Ôñ³·ÍË¡£"
-KE04missionTXTLV03A04[005] = "Ö»ÄÜÑ¡Ôñ³·ÍË¡£"
+KE04missionTXTLV03A04[003] = "???????"
+KE04missionTXTLV03A04[004] = "???????"
+KE04missionTXTLV03A04[005] = "???????"
 
 KE04missionTXTLV03A05 = {}
 KE04missionTXTLV03A05[001] = ""
-KE04missionTXTLV03A05[002] = "ÔÚ¶Ô·½½¢¶Ó³·ÍËºó£¬"
+KE04missionTXTLV03A05[002] = "????????,"
 
 KE04missionTXTLV03A06 = {}
-KE04missionTXTLV03A06[001] = "µ¥Î»µÄµ¥Î»µÄ±ù¿ó´¢±¸"
-KE04missionTXTLV03A06[002] = "µ¥Î»µÄÄÜÁ¿¿é"
-KE04missionTXTLV03A06[003] = "µ¥Î»µÄ½ğÊô¿óÊ¯´¢±¸"
-KE04missionTXTLV03A06[004] = "µ¥Î»µÄÉú»îÓÃÆ·´¢±¸"
-KE04missionTXTLV03A06[005] = "µ¥Î»µÄÖ³ÃñµØµ¯Ò©´¢±¸"
-KE04missionTXTLV03A06[006] = "µ¥Î»µÄºÏ½ğ´¢±¸"
-KE04missionTXTLV03A06[007] = "µ¥Î»µÄ»úĞµÁã¼ş´¢±¸"
-KE04missionTXTLV03A06[008] = "µ¥Î»µÄÄÉÃ×ÎïÖÊ´¢±¸"
-KE04missionTXTLV03A06[009] = "µ¥Î»µÄ´óĞÍ´¬Ìå´¢±¸"
-KE04missionTXTLV03A06[010] = "µ¥Î»µÄÆì½¢¼¶ºËĞÄ×é¼ş´¢±¸"
-KE04missionTXTLV03A06[011] = "ÃûÅ«Á¥²¢×ª»¯³ÉÁËÖ³ÃñµØ¹¤ÈË"
-KE04missionTXTLV03A06[012] = "·İµÄ±¤Àİ¼¶À¶Í¼ËéÆ¬"  
+KE04missionTXTLV03A06[001] = "??????????"
+KE04missionTXTLV03A06[002] = "??????"
+KE04missionTXTLV03A06[003] = "?????????"
+KE04missionTXTLV03A06[004] = "?????????"
+KE04missionTXTLV03A06[005] = "??????????"
+KE04missionTXTLV03A06[006] = "???????"
+KE04missionTXTLV03A06[007] = "?????????"
+KE04missionTXTLV03A06[008] = "?????????"
+KE04missionTXTLV03A06[009] = "?????????"
+KE04missionTXTLV03A06[010] = "????????????"
+KE04missionTXTLV03A06[011] = "?????????????"
+KE04missionTXTLV03A06[012] = "?????????"  
 
 KE04missionTXTLV03A07 = {}
-KE04missionTXTLV03A07[001] = "£¬ÖµµÃÒ»ÌáµÄÊÇ£¬ÓÉÓÚÄãµÄÖ³ÃñµØ½¢¶ÓºÍº£µÁ½¢¶ÓµÄ½»»ğ£¬º£µÁÒÑ¾­¶¢ÉÏÁËÄãµÄÖ³ÃñµØ£¬º£µÁÍşĞ²¶ÈÉÏÕÇ1µã"
+KE04missionTXTLV03A07[001] = ",??????,?????????????????,????????????,???????1?"
 KE04missionTXTLV03A07[002] = ""
 
 KE04missionTXTLV04A01 = {}
 KE04missionTXTLV04A01[001] = ""
-KE04missionTXTLV04A01[002] = "ÄãµÄ½¢¶ÓÔÚ"  
+KE04missionTXTLV04A01[002] = "?????"  
 
 KE04missionTXTLV04A02 = {}
 KE04missionTXTLV04A02[001] = ""
-KE04missionTXTLV04A02[002] = "ÖĞ½øĞĞÁË"  
+KE04missionTXTLV04A02[002] = "????"  
 
 KE04missionTXTLV04A03 = {}
 KE04missionTXTLV04A03[001] = ""
-KE04missionTXTLV04A03[002] = "ĞĞ¶¯£¬×îºóÔÚ"  
+KE04missionTXTLV04A03[002] = "??,???"  
 
 KE04missionTXTLV04A04 = {}
 KE04missionTXTLV04A04[001] = ""
-KE04missionTXTLV04A04[002] = "ÖĞ»ñµÃÁË"  
+KE04missionTXTLV04A04[002] = "????"  
 
 KE04missionTXT[002] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12,text13,text14,text15,text16)
 	local iText=""..text1..""..text2..""..text3..""..text4..""..text5..""..text6..""..text7..""..text13..""..text8..""..text14..""..text9..""..text15..""..text8..""..text16..""..text10..""..text11..""..text12..""
@@ -1146,104 +1153,104 @@ end
 
 factoryattackLVTXT = {}
 factoryattackLVTXT[001] = ""
-factoryattackLVTXT[002] = "Ò»Ö§º£µÁ½¢¶ÓÒÑ¾­ÔÚ¸½½ü½¨ÉèÁËÁÙÊ±»ùµØ£¬¶Ô·½ËæÊ±»áÍ¨¹ıÕâ×ùº£µÁ»ùµØ¶ÔÄãµÄ½¢¶Ó·¢Æğ½ø¹¥"  
+factoryattackLVTXT[002] = "??????????????????,??????????????????????"  
 
 
 factoryattackLVTXTA01 = {}
 factoryattackLVTXTA01[001] = ""
-factoryattackLVTXTA01[002] = "Ò»Ö§"  
+factoryattackLVTXTA01[002] = "??"  
 
 factoryattackLVTXTA02 = {}
-factoryattackLVTXTA02[001] = "º£µÁ½¢¶Ó"
+factoryattackLVTXTA02[001] = "????"
  
 
 factoryattackLVTXTA03 = {}
 factoryattackLVTXTA03[001] = ""
-factoryattackLVTXTA03[002] = "ÒÑ¾­ÔÚ¸½½ü"
+factoryattackLVTXTA03[002] = "?????"
 
 factoryattackLVTXTA04 = {}
 factoryattackLVTXTA04[001] = ""
-factoryattackLVTXTA04[002] = "½¨ÉèÁËÁÙÊ±»ùµØ"
-factoryattackLVTXTA04[003] = "¼¯½áÁËÒ»Ö§½¢¶Ó"
+factoryattackLVTXTA04[002] = "???????"
+factoryattackLVTXTA04[003] = "???????"
 
 factoryattackLVTXTA05 = {}
 factoryattackLVTXTA05[001] = ""
-factoryattackLVTXTA05[002] = "¶Ô·½ËæÊ±»á¶ÔÄãµÄÖ³ÃñµØ·¢Æğ½ø¹¥"
+factoryattackLVTXTA05[002] = "???????????????"
 
 
 
 
 factoryattackLVTXT[003] = function(text1,text2)
-	local iText=""..text1.."µÄ¹æÄ£Ôö¼ÓÁË£¬ÕâÒâÎ¶×Å¸½½ü½«»áÓĞ¸ü¶à"..text1.."¼¯½áµ½Ö³ÃñµØ¸½½ü£¬Ä¿Ç°µÄÍşĞ²µÈ¼¶Îª"..text2.."¼¶"
+	local iText=""..text1.."??????,???????????"..text1.."????????,????????"..text2.."?"
 	return iText
 end
 
 
 factoryattackLVTXTLVA01 = {}
-factoryattackLVTXTLVA01[001] = "Ğ¡¹æÄ£"
-factoryattackLVTXTLVA01[002] = "ÖĞµÈ¹æÄ£"
-factoryattackLVTXTLVA01[003] = "´ó¹æÄ£"
-factoryattackLVTXTLVA01[004] = "Ö»³¬´ó¹æÄ£"
-factoryattackLVTXTLVA01[005] = "Ê·Ê«¹æÄ£"
+factoryattackLVTXTLVA01[001] = "???"
+factoryattackLVTXTLVA01[002] = "????"
+factoryattackLVTXTLVA01[003] = "???"
+factoryattackLVTXTLVA01[004] = "?????"
+factoryattackLVTXTLVA01[005] = "????"
 
 factoryattackLVTXTLVA02 = {}
-factoryattackLVTXTLVA02[001] = "Ô¶Ğ¡ÓÚ"
-factoryattackLVTXTLVA02[002] = "Ğ¡ÓÚ"
-factoryattackLVTXTLVA02[003] = "²»ÈõÓÚ"
-factoryattackLVTXTLVA02[004] = "Ç¿ÓÚ"
-factoryattackLVTXTLVA02[005] = "Ô¶Ç¿ÓÚ"
+factoryattackLVTXTLVA02[001] = "???"
+factoryattackLVTXTLVA02[002] = "??"
+factoryattackLVTXTLVA02[003] = "???"
+factoryattackLVTXTLVA02[004] = "??"
+factoryattackLVTXTLVA02[005] = "???"
 
 factoryattackLVTXTLVA03 = {}
-factoryattackLVTXTLVA03[001] = "Ö³ÃñµØµÄÍâÎ§²É¿ó½¢¶Ó"
-factoryattackLVTXTLVA03[002] = "Ö³ÃñµØÍâÎ§µÄÑ²Âß½¢¶Ó"
-factoryattackLVTXTLVA03[003] = "Ö³ÃñµØµÄºËĞÄÇøÓò"
-factoryattackLVTXTLVA03[004] = "Ö³ÃñµØµÄ·ÀÓùÉèÊ©"
-factoryattackLVTXTLVA03[005] = "Ö³ÃñµØµÄºËĞÄ½¨ÖşÈº"
+factoryattackLVTXTLVA03[001] = "??????????"
+factoryattackLVTXTLVA03[002] = "??????????"
+factoryattackLVTXTLVA03[003] = "????????"
+factoryattackLVTXTLVA03[004] = "????????"
+factoryattackLVTXTLVA03[005] = "?????????"
 
 factoryattackLVTXTLVA04 = {}
-factoryattackLVTXTLVA04[001] = "ÅÉ³öÀ¹½Ø½¢¶Ó½øĞĞÁËÀ¹½Ø"
-factoryattackLVTXTLVA04[002] = "¼¯½á½¢¶ÓºÍ¶Ô·½½øĞĞ¾öÕ½"
-factoryattackLVTXTLVA04[003] = "¼¯½áËùÓĞÕ½½¢ÔÚ"
-factoryattackLVTXTLVA04[004] = "¼¤»îËùÓĞ·ÀÓùÉèÊ©½øĞĞµÖ¿¹"
-factoryattackLVTXTLVA04[005] = "¼¯½áËùÓĞ°²±£ÈËÔ±ÔÚºËĞÄ½¨ÖşÈº½øĞĞ·ÀÊØ"
-factoryattackLVTXTLVA04[006] = "Ö»ÄÜ·ÅÆúµÖ¿¹Ñ¡Ôñ³·Àë"
+factoryattackLVTXTLVA04[001] = "???????????"
+factoryattackLVTXTLVA04[002] = "???????????"
+factoryattackLVTXTLVA04[003] = "???????"
+factoryattackLVTXTLVA04[004] = "????????????"
+factoryattackLVTXTLVA04[005] = "??????????????????"
+factoryattackLVTXTLVA04[006] = "??????????"
 
 factoryattackbaseLVTXTLVA09 = {}
-factoryattackbaseLVTXTLVA09[001] = "ËğÊ§²ÒÖØÑ¡Ôñ³·ÍË"
-factoryattackbaseLVTXTLVA09[002] = "ÔâÊÜ²»Ğ¡µÄÉËÍö"
-factoryattackbaseLVTXTLVA09[003] = "ºÍÖ³ÃñµØ½¢¶ÓÁ½°Ü¾ãÉË"
-factoryattackbaseLVTXTLVA09[004] = "È¡µÃÁËÓÅÊÆ£¬»ñµÃÁË²»Ğ¡µÄÕ½¹û"
-factoryattackbaseLVTXTLVA09[005] = "´ó»ñÈ«Ê¤"
+factoryattackbaseLVTXTLVA09[001] = "????????"
+factoryattackbaseLVTXTLVA09[002] = "???????"
+factoryattackbaseLVTXTLVA09[003] = "??????????"
+factoryattackbaseLVTXTLVA09[004] = "?????,????????"
+factoryattackbaseLVTXTLVA09[005] = "????"
 
 factoryattackLVTXTLVA06 = {}
 factoryattackLVTXTLVA06[000] = ""
-factoryattackLVTXTLVA06[001] = ".ÄãµÄÖ³ÃñµØ½¢¶Ó´òÉ¨Õ½³¡»ñµÃÁË"
-factoryattackLVTXTLVA06[002] = ".ÄãµÄÖ³ÃñµØÒ»¹²ËğÊ§ÁË"
-factoryattackLVTXTLVA06[003] = "ÃûÅ«Á¥²¢×ª»¯³ÉÖ³ÃñµØ¹¤ÈË,"
-factoryattackLVTXTLVA06[004] = "µ¥Î»µÄºÏ½ğ´¢±¸,"
-factoryattackLVTXTLVA06[005] = "µ¥Î»µÄÖ³ÃñµØµ¯Ò©´¢±¸"
-factoryattackLVTXTLVA06[006] = "µãÊıµÄ½¢¶Ó£¬"
-factoryattackLVTXTLVA06[007] = "ÃûµÄÖ³ÃñµØ¹¤ÈË£¬"
-factoryattackLVTXTLVA06[008] = "ĞÒºÃ¸½½üµÄµÛ¹úÑ²Âß½¢¶Ó¸ÏÀ´Ö§Ô®£¬Õâ²Å×èÖ¹ÁË½øÒ»²½ÆÆ»µ"
+factoryattackLVTXTLVA06[001] = ".??????????????"
+factoryattackLVTXTLVA06[002] = ".??????????"
+factoryattackLVTXTLVA06[003] = "????????????,"
+factoryattackLVTXTLVA06[004] = "???????,"
+factoryattackLVTXTLVA06[005] = "??????????"
+factoryattackLVTXTLVA06[006] = "?????,"
+factoryattackLVTXTLVA06[007] = "???????,"
+factoryattackLVTXTLVA06[008] = "???????????????,??????????"
 
 factoryattackLVTXTLVA07 = {}
-factoryattackLVTXTLVA07[001] = "µÄÅ«Á¥²¢×ªÎªÖ³ÃñµØ¹¤ÈË£¬"
-factoryattackLVTXTLVA07[002] = "ÄÉÃ×ÎïÖÊ´¢±¸"
-factoryattackLVTXTLVA07[003] = "Ê³Îï´¢±¸"
-factoryattackLVTXTLVA07[004] = "¿óÊ¯´¢±¸"
-factoryattackLVTXTLVA07[005] = "Éú»îÓÃÆ·´¢±¸"
-factoryattackLVTXTLVA07[006] = "µç×ÓÔª¼ş´¢±¸"
+factoryattackLVTXTLVA07[001] = "???????????,"
+factoryattackLVTXTLVA07[002] = "??????"
+factoryattackLVTXTLVA07[003] = "????"
+factoryattackLVTXTLVA07[004] = "????"
+factoryattackLVTXTLVA07[005] = "??????"
+factoryattackLVTXTLVA07[006] = "??????"
 
 factoryattackLVTXTLVA08 = {}
-factoryattackLVTXTLVA08[001] = "Ë®¾§Ìå¼¯Èº"
-factoryattackLVTXTLVA08[002] = "³æÈº½¢¶Ó"
-factoryattackLVTXTLVA08[003] = "¹×º¡½¢¶Ó"
-factoryattackLVTXTLVA08[004] = "ÉñÃØ¾ü·§½¢¶Ó"
-factoryattackLVTXTLVA08[005] = "¾õĞÑÏÈ×æ½¢¶Ó"
+factoryattackLVTXTLVA08[001] = "?????"
+factoryattackLVTXTLVA08[002] = "????"
+factoryattackLVTXTLVA08[003] = "????"
+factoryattackLVTXTLVA08[004] = "??????"
+factoryattackLVTXTLVA08[005] = "??????"
 
 
 factoryattackLVTXT[004] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12,text13,text14,text15,text16,text17,text18)
-	local iText="Ò»Ö§"..text1..""..text18.."¶ÔÄãµÄÖ³ÃñµØ·¢¶¯ÁËÏ®»÷£¬ÓÉÓÚ"..text18.."µÄ¹æÄ£"..text2.."ÄãÖ³ÃñµØµÄ°²·ÀÁ¦Á¿£¬ËùÒÔ"..text18.."Ñ¡ÔñÏ®»÷"..text3..".Ãæ¶Ô"..text18.."µÄ¹¥ÊÆ£¬Ö³ÃñµØ°²·ÀÁ¦Á¿"..text4..".ÔÚ¼¤ÁÒµÄÕ½¶·ºó£¬"..text18..""..text5..""..text6..""..text7..""..text8..""..text9..""..text10..""..text11..""..text12..""..text13..""..text14..""..text15..""..text16..""..text17..""
+	local iText="??"..text1..""..text18.."???????????,??"..text18.."???"..text2.."?????????,??"..text18.."????"..text3..".??"..text18.."???,???????"..text4..".???????,"..text18..""..text5..""..text6..""..text7..""..text8..""..text9..""..text10..""..text11..""..text12..""..text13..""..text14..""..text15..""..text16..""..text17..""
 	return iText
 end
 
@@ -1251,18 +1258,18 @@ end
 
 
 KE05missionTXTLV01A01 = {}
-KE05missionTXTLV01A01[001] = "Ğ¡¹æÄ£µÄ"
-KE05missionTXTLV01A01[002] = "ÖĞµÈ¹æÄ£"
-KE05missionTXTLV01A01[003] = "´ó¹æÄ£µÄ"
-KE05missionTXTLV01A01[004] = "¹æÄ£ÅÓ´óµÄ"
-KE05missionTXTLV01A01[005] = "³¬´ó¹æÄ£µÄ"
+KE05missionTXTLV01A01[001] = "????"
+KE05missionTXTLV01A01[002] = "????"
+KE05missionTXTLV01A01[003] = "????"
+KE05missionTXTLV01A01[004] = "?????"
+KE05missionTXTLV01A01[005] = "?????"
 
 KE05missionTXTLV01A02 = {}
-KE05missionTXTLV01A02[001] = "Ô¶Ğ¡ÓÚ"
-KE05missionTXTLV01A02[002] = "Ğ¡ÓÚ"
-KE05missionTXTLV01A02[003] = "²»ÈõÓÚ"
-KE05missionTXTLV01A02[004] = "Ç¿ÓÚ"
-KE05missionTXTLV01A02[005] = "Ô¶Ç¿ÓÚ"
+KE05missionTXTLV01A02[001] = "???"
+KE05missionTXTLV01A02[002] = "??"
+KE05missionTXTLV01A02[003] = "???"
+KE05missionTXTLV01A02[004] = "??"
+KE05missionTXTLV01A02[005] = "???"
 
 KE05missionTXTLV01A03 = {}
 KE05missionTXTLV01A03[001] = ""
@@ -1272,1058 +1279,1058 @@ KE05missionTXTLV01A03[004] = ""
 KE05missionTXTLV01A03[005] = ""
 
 KE05missionTXTLV01A04 = {}
-KE05missionTXTLV01A04[001] = "´ó»ñÈ«Ê¤"
-KE05missionTXTLV01A04[002] = "ÊÜµ½ÁËÒ»¶¨µÄËğÊ§"
-KE05missionTXTLV01A04[003] = "ºÍÄ¿±ê½¢¶ÓÁ½°Ü¾ãÉË"
-KE05missionTXTLV01A04[004] = "ËğÊ§²ÒÖØÖ»ÄÜ³·ÍË"
-KE05missionTXTLV01A04[005] = "ÔâÊÜÁËÖØ´óÊ§°Ü£¬½¢¶ÓÀ£ÌÓ"      
+KE05missionTXTLV01A04[001] = "????"
+KE05missionTXTLV01A04[002] = "????????"
+KE05missionTXTLV01A04[003] = "?????????"
+KE05missionTXTLV01A04[004] = "????????"
+KE05missionTXTLV01A04[005] = "???????,????"      
 
 
 factoryattackLVTXTLVA05 = {}
 factoryattackLVTXTLVA05[001] = ""
-factoryattackLVTXTLVA05[002] = ".µ«ÊÇÏû¼õÁË"
-factoryattackLVTXTLVA05[003] = "µãµÄÖ³ÃñµØÍşĞ²¶È."
-factoryattackLVTXTLVA05[004] = "º£µÁ»ùµØÒÑ¾­±»³¹µ×´İ»Ù£¬ÔÚ¹¥Õ¼º£µÁ»ùµØµÄ¹ı³ÌÖĞ»ñµÃ"
-factoryattackLVTXTLVA05[005] = "ÃûÅ«Á¥£¬"
-factoryattackLVTXTLVA05[006] = "µ¥Î»µÄºÏ½ğ´¢±¸£¬" 
-factoryattackLVTXTLVA05[007] = "µ¥Î»µÄµ¯Ò©´¢±¸£¬" 
-factoryattackLVTXTLVA05[008] = "µ¥Î»µÄÉú»îÓÃÆ·´¢±¸£¬" 
-factoryattackLVTXTLVA05[009] = "µ¥Î»µÄÄÜÁ¿¿é£¬" 
-factoryattackLVTXTLVA05[010] = "Ì¨ÈËĞÍµçÄÔ´¢±¸" 
-factoryattackLVTXTLVA05[011] = ".Äã´İ»Ùº£µÁ»ùµØµÄĞĞÎª¶ÔÖÜÎ§µÄº£µÁ²úÉúÁËÕğÉå£¬¶ÌÊ±¼äÄÚ²»»á²úÉúĞÂµÄº£µÁ»ùµØ"  
+factoryattackLVTXTLVA05[002] = ".?????"
+factoryattackLVTXTLVA05[003] = "????????."
+factoryattackLVTXTLVA05[004] = "???????????,?????????????"
+factoryattackLVTXTLVA05[005] = "???,"
+factoryattackLVTXTLVA05[006] = "???????," 
+factoryattackLVTXTLVA05[007] = "???????," 
+factoryattackLVTXTLVA05[008] = "?????????," 
+factoryattackLVTXTLVA05[009] = "??????," 
+factoryattackLVTXTLVA05[010] = "???????" 
+factoryattackLVTXTLVA05[011] = ".?????????????????????,??????????????"  
 
 
 
 factoryattackLVTXTLVA09 = {}
 factoryattackLVTXTLVA09[001] = ""
-factoryattackLVTXTLVA09[002] = "ÓÉÓÚÎ§¹¥Ö³ÃñµØµÄ"
-factoryattackLVTXTLVA09[003] = "ÒÑ¾­±»È«²¿ÏûÃğ£¬ÄãµÄ·´»÷ĞĞÎª²úÉúÁËÕğÉå£¬Ö³ÃñµØÖÜÎ§¶ÌÊ±¼äÄÚ²»»á²úÉúĞÂµÄÍşĞ²"
+factoryattackLVTXTLVA09[002] = "????????"
+factoryattackLVTXTLVA09[003] = "???????,???????????,?????????????????"
 
 
 factoryattackbaseLVTXTLVA10 = {}
 factoryattackbaseLVTXTLVA10[001] = ""
-factoryattackbaseLVTXTLVA10[002] = "£¬Í¬Ê±Ë®¾§ÌåÌìÔÖµÄ×Ü¹æÄ£ÏÂ½µ1µã"
-factoryattackbaseLVTXTLVA10[003] = "£¬Í¬Ê±³æÈºÌìÔÖµÄ×Ü¹æÄ£ÏÂ½µ1µã"
-factoryattackbaseLVTXTLVA10[004] = "£¬Í¬Ê±¹×º¡ÌìÔÖµÄ×Ü¹æÄ£ÏÂ½µ1µã"
-factoryattackbaseLVTXTLVA10[005] = "£¬Í¬Ê±ÉñÃØµÄÎ¬¸ñ¶û¾ü·§µÄ×Ü¹æÄ£ÏÂ½µ1µã"  
-factoryattackbaseLVTXTLVA10[006] = "£¬Í¬Ê±¾õĞÑµÄÏÈ×æ½¢¶ÓµÄ×Ü¹æÄ£ÏÂ½µ1µã"   
+factoryattackbaseLVTXTLVA10[002] = ",?????????????1?"
+factoryattackbaseLVTXTLVA10[003] = ",????????????1?"
+factoryattackbaseLVTXTLVA10[004] = ",????????????1?"
+factoryattackbaseLVTXTLVA10[005] = ",????????????????1?"  
+factoryattackbaseLVTXTLVA10[006] = ",???????????????1?"   
 
 KE05missionTXT = {}
 KE05missionTXT[001] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12,text13,text14,text15,text16,text17,text18,text19,text20,text22,text23)
-	local iText="Äã¼¯½áÁËÒ»Ö§"..text1.."µÄÖ³ÃñµØ½¢¶Ó£¬¶Ô"..text23.."·¢¶¯ÁËÔ¶Õ÷£¬ÄãµÄ½¢¶Ó¹æÄ£"..text2..""..text23..""..text3.."¡£ÔÚ¼¤ÁÒµÄÕ½¶·ºó£¬Ö³ÃñµØ½¢¶Ó"..text4.."¡£Õâ³¡Õ½¶·ÖĞÄãµÄ½¢¶ÓËğÊ§ÁË"..text5.."µÄ½¢¶ÓµãÊı"..text6..""..text22..""..text7..""..text8..""..text9..""..text10..""..text11..""..text12..""..text13..""..text14..""..text15..""..text16..""..text17..""..text18..""..text19..""..text20..""
+	local iText="??????"..text1.."??????,?"..text23.."?????,??????"..text2..""..text23..""..text3.."????????,?????"..text4.."?????????????"..text5.."?????"..text6..""..text22..""..text7..""..text8..""..text9..""..text10..""..text11..""..text12..""..text13..""..text14..""..text15..""..text16..""..text17..""..text18..""..text19..""..text20..""
 	return iText
 end
 
 
 KE05missionTXT[002] = function(text1,text2,text3,text4,text5,text23)
-	local iText="Äã¼¯½áÁËÒ»Ö§"..text1.."µÄÖ³ÃñµØ½¢¶Ó£¬¶Ô"..text23.."·¢¶¯ÁËÔ¶Õ÷£¬ÄãµÄ½¢¶Ó¹æÄ£"..text2..""..text23..""..text3.."¡£ÔÚ¼¤ÁÒµÄÕ½¶·ºó£¬Ö³ÃñµØ½¢¶Ó"..text4.."¡£Õâ³¡Õ½¶·ÖĞÄãµÄ½¢¶ÓËğÊ§ÁË"..text5.."µÄ½¢¶ÓµãÊı"
+	local iText="??????"..text1.."??????,?"..text23.."?????,??????"..text2..""..text23..""..text3.."????????,?????"..text4.."?????????????"..text5.."?????"
 	return iText
 end
 
 KE05missionTXT[003] = function(text1,text2,text3,text4)
-	local iText="Õâ³¡Õ½¶·Ò»¹²Ïû¼õÁË"..text1.."µãµÄ"..text2.."ÍşĞ²£¬Õ½¶·½áÊøºó£¬ÄãµÄ½¢¶Ó¶ÔÕ½³¡½øĞĞÁË´òÀÌ£¬²¢´ÓÕ½³¡²Ğº¡ÖĞ·¢ÏÖÁË"..text3.."µ¥Î»µÄ"..text4..""
+	local iText="?????????"..text1.."??"..text2.."??,?????,????????????,??????????"..text3.."???"..text4..""
 	return iText
 end
 
 
 KE05missionTXT[004] = function(text1,text2)
-	local iText="ÓÉÓÚÎ§¹¥Ö³ÃñµØµÄ"..text1.."ÒÑ¾­±»È«²¿ÏûÃğ£¬ÄãµÄ·´»÷ĞĞÎª²úÉúÁËÕğÉå£¬Ö³ÃñµØÖÜÎ§¶ÌÊ±¼äÄÚ²»»á²úÉúĞÂµÄÍşĞ²"..text2..""
+	local iText="????????"..text1.."???????,???????????,?????????????????"..text2..""
 	return iText
 end
 
 KE05missionTXT[005] = function(text1)
-	local iText=""..text1.."Õı¶ÔÄãµÄÖ³ÃñµØÔì³ÉÍşĞ²£¬ÊÇ·ñÅÉ³öÒ»Ö§Ö³ÃñµØ½¢¶Ó¹¥»÷Ö³ÃñµØ¸½½üµÄ"..text1.."¼¯½áµØ£¿"
+	local iText=""..text1.."???????????,???????????????????"..text1.."????"
 	return iText
 end
 
 
 missionmapATTACKfactoryTXT = {}
 missionmapATTACKfactoryTXT[001] = function(text1,text2,text3)
-	local iText="ÄãÕ½Ê¤ÁËº£µÁ½¢¶Ó£¬´ó·ù¶ÈµÄÏ÷¼õÁËÍşĞ²¶È£¬³ı´ËÖ®ÍâÄã»¹»ñµÃÁË"..text1.."µÄ×Ê½ğ½±ÀøºÍ"..text2.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text3.."µÄÈÙÓşµã×÷Îª±¨³ê£¬ÁíÍâ½¢¶Ó½«»áÕ¹¿ªÒ»³¡´òÀÌĞĞ¶¯£¬¶ÔÕ½³¡½øĞĞ´òÉ¨"
+	local iText="????????,??????????,?????????"..text1.."??????"..text2.."???????"..text3.."????????,??????????????,???????"
 	return iText
 end
 
 missionmapATTACKfactoryTXT[002] = function(text1,text2,text3)
-	local iText="Äã´İ»ÙÁËº£µÁ»ùµØºÍËùÓĞº£µÁ½¢¶Ó£¬Õâ¸öĞĞÎª´ó´óÍşÉåÁËËùÓĞº£µÁ£¬¶ÌÆÚÄÚ²»»áÓĞĞÂµÄº£µÁ»ùµØ³öÏÖ£¬³ı´ËÖ®ÍâÄã»¹»ñµÃÁË"..text1.."µÄ×Ê½ğ½±ÀøºÍ"..text2.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text3.."µÄÈÙÓşµã×÷Îª±¨³ê£¬ÁíÍâ½¢¶Ó½«»áÕ¹¿ªÒ»³¡´òÀÌĞĞ¶¯£¬¶ÔÕ½³¡½øĞĞ´òÉ¨"
+	local iText="???????????????,?????????????,??????????????,?????????"..text1.."??????"..text2.."???????"..text3.."????????,??????????????,???????"
 	return iText
 end
 
 missionmapATTACKfactoryTXT[003] = function(text1,text2,text3)
-	local iText="Äã¿ØÖÆÁËº£µÁ»ùµØ²¢´İ»ÙÁËËùÓĞº£µÁ½¢¶Ó£¬Õâ¸öĞĞÎª´ó´óÍşÉåÁËËùÓĞº£µÁ£¬¶ÌÆÚÄÚ²»»áÓĞĞÂµÄº£µÁ»ùµØ³öÏÖ£¬³ı´ËÖ®ÍâÄã»¹»ñµÃÁË"..text1.."µÄ×Ê½ğ½±ÀøºÍ"..text2.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text3.."µÄÈÙÓşµã×÷Îª±¨³ê£¬ÁíÍâ½¢¶Ó½«»áÕ¹¿ªÒ»³¡´òÀÌĞĞ¶¯£¬¶ÔÕ½³¡½øĞĞ´òÉ¨"
+	local iText="??????????????????,?????????????,??????????????,?????????"..text1.."??????"..text2.."???????"..text3.."????????,??????????????,???????"
 	return iText
 end
 
 missionmapATTACKfactoryTXT[004] = function(text1)
-	local iText="Ö³ÃñµØÕıÔÚÔâÊÜ"..text1.."µÄÍşĞ²£¬Äã¿ÉÒÔÑ¡ÔñÓÃºÎÖÖ·½Ê½½øĞĞ¶Ô¿¹"
+	local iText="???????"..text1.."???,??????????????"
 	return iText
 end
 
 missionmapATTACKfactoryTXT[005] = function(text1)
-	local iText="ÄãÊÇ·ñÒªÇ°Íù"..text1.."¼¯½áµØ½øĞĞÖ÷¶¯¹¥»÷£¿Ö÷¶¯¹¥»÷"..text1.."¼¯½áµØ»áÃæÁÙ½Ï´óµÄ·çÏÕ£¬µ«ÊÇÕ½Ê¤¶ÔÊÖ¿ÉÒÔ»ñµÃ¶îÍâµÄÕ½ÀûÆ·£¬Í¬Ê±¿ÉÒÔ³¹µ×¸ù³ı"..text1.."Òş»¼"
+	local iText="??????"..text1.."??????????????"..text1.."???????????,????????????????,????????"..text1.."??"
 	return iText
 end
 
 missionattackLVTXTLVA01 = {}
-missionattackLVTXTLVA01[001] = "Ë®¾§Ìå½¢¶Ó"
-missionattackLVTXTLVA01[002] = "³æÈº½¢¶Ó"
-missionattackLVTXTLVA01[003] = "¹×º¡½¢¶Ó"
-missionattackLVTXTLVA01[004] = "Î¬¸ñ¶û½¢¶Ó"
-missionattackLVTXTLVA01[005] = "ÏÈ×æ½¢¶Ó"
+missionattackLVTXTLVA01[001] = "?????"
+missionattackLVTXTLVA01[002] = "????"
+missionattackLVTXTLVA01[003] = "????"
+missionattackLVTXTLVA01[004] = "?????"
+missionattackLVTXTLVA01[005] = "????"
 
 
 mapattackLVTXTLVA01 = {}
-mapattackLVTXTLVA01[001] = "Ë®¾§ÌåÌìÔÖ"
-mapattackLVTXTLVA01[002] = "³æÈºÌìÔÖ"
-mapattackLVTXTLVA01[003] = "¹×º¡ÌìÔÖ"
-mapattackLVTXTLVA01[004] = "ÉñÃØµÄÎ¬¸ñ¶û¾ü·§"
-mapattackLVTXTLVA01[005] = "ÏÈ×æ½¢¶ÓÈëÇÖ"
+mapattackLVTXTLVA01[001] = "?????"
+mapattackLVTXTLVA01[002] = "????"
+mapattackLVTXTLVA01[003] = "????"
+mapattackLVTXTLVA01[004] = "????????"
+mapattackLVTXTLVA01[005] = "??????"
 
 mapattackLVTXTLVA02 = {}
-mapattackLVTXTLVA02[001] = "Ä¿Ç°¸÷´óÊÆÁ¦´¦ÓÚ½ÏÎªÕı³£×´Ì¬£¬µ«ÊÇÄã¿ÉÄÜ»áÔÚÉÙ²¿·ÖÌøÔ¾ÖĞ¼ÌµãÔâÓö¶Ô·½µÄÕì²é½¢¶Ó"
-mapattackLVTXTLVA02[002] = "ÏÖÔÚ´ó²¿·ÖÌøÔ¾ÖĞ¼Ìµã¶¼ÓĞ¿ÉÄÜÔâÓö¶Ô·½µÄÕì²ì½¢¶Ó£¬ÈÕ³£Í¨ĞĞµÄÊ±ºòÇëĞ¡ĞÄÓ¦¶Ô"
-mapattackLVTXTLVA02[003] = "ÏÖÔÚÄãµÄÖ³ÃñµØÒ²ÓĞ¿ÉÄÜÔâÓö¶Ô·½µÄ½ø¹¥"
-mapattackLVTXTLVA02[004] = "ÏÖÔÚ¸÷´óÊÆÁ¦µÄ±ßÔµÇøÓòÒ²ÓĞ¿ÉÄÜÔâÓö¶Ô·½µÄ½ø¹¥"
-mapattackLVTXTLVA02[005] = "ÏÖÔÚ¸÷´óÊÆÁ¦µÄºËĞÄÇøÓòÒ²ÓĞ¿ÉÄÜÔâÓö¶Ô·½µÄ½ø¹¥"
+mapattackLVTXTLVA02[001] = "??????????????,????????????????????????"
+mapattackLVTXTLVA02[002] = "???????????????????????,????????????"
+mapattackLVTXTLVA02[003] = "??????????????????"
+mapattackLVTXTLVA02[004] = "??????????????????????"
+mapattackLVTXTLVA02[005] = "??????????????????????"
 
 
 mapattackbattleLVTXTLVA01 = {}
-mapattackbattleLVTXTLVA01[001] = "Ë®¾§ÌåÌìÔÖ"
-mapattackbattleLVTXTLVA01[002] = "³æÈºÌìÔÖ"
-mapattackbattleLVTXTLVA01[003] = "¹×º¡ÌìÔÖ"
-mapattackbattleLVTXTLVA01[004] = "ÉñÃØµÄÎ¬¸ñ¶û¾ü·§"
-mapattackbattleLVTXTLVA01[005] = "¾õĞÑµÄÏÈ×æ"
+mapattackbattleLVTXTLVA01[001] = "?????"
+mapattackbattleLVTXTLVA01[002] = "????"
+mapattackbattleLVTXTLVA01[003] = "????"
+mapattackbattleLVTXTLVA01[004] = "????????"
+mapattackbattleLVTXTLVA01[005] = "?????"
 
 mapattackbattleLVTXTLVA02 = {}
-mapattackbattleLVTXTLVA02[001] = "Ğ¡¹æÄ£"
-mapattackbattleLVTXTLVA02[002] = "ÖĞµÈ¹æÄ£"
-mapattackbattleLVTXTLVA02[003] = "´ó¹æÄ£"
-mapattackbattleLVTXTLVA02[004] = "³¬´ó¹æÄ£"
-mapattackbattleLVTXTLVA02[005] = "Ê·Ê«¹æÄ£"
+mapattackbattleLVTXTLVA02[001] = "???"
+mapattackbattleLVTXTLVA02[002] = "????"
+mapattackbattleLVTXTLVA02[003] = "???"
+mapattackbattleLVTXTLVA02[004] = "????"
+mapattackbattleLVTXTLVA02[005] = "????"
 
 mapattacksystemLVTXTLVA01 = {}
-mapattacksystemLVTXTLVA01[001] = "½ÏĞ¡"
-mapattacksystemLVTXTLVA01[002] = "Ò»°ã"
-mapattacksystemLVTXTLVA01[003] = "½Ï´ó"
-mapattacksystemLVTXTLVA01[004] = "Ê®·ÖÇ¿´ó"
-mapattacksystemLVTXTLVA01[005] = "ÎŞ±ÈÅÓ´ó"
+mapattacksystemLVTXTLVA01[001] = "??"
+mapattacksystemLVTXTLVA01[002] = "??"
+mapattacksystemLVTXTLVA01[003] = "??"
+mapattacksystemLVTXTLVA01[004] = "????"
+mapattacksystemLVTXTLVA01[005] = "????"
 
 mapattacksystemLVTXTLVA02 = {}
-mapattacksystemLVTXTLVA02[001] = "ÄÉÃ×ÎïÖÊ"
-mapattacksystemLVTXTLVA02[002] = "´¥ÊÖ"
-mapattacksystemLVTXTLVA02[003] = "ÕäÏ§¿óÊ¯"
-mapattacksystemLVTXTLVA02[004] = "Î¬¸ñ¶ûÅ«Á¥"
-mapattacksystemLVTXTLVA02[005] = "ÏÈ×æÒÅÎï"
-mapattacksystemLVTXTLVA02[006] = "Éİ³ŞÆ·"
+mapattacksystemLVTXTLVA02[001] = "????"
+mapattacksystemLVTXTLVA02[002] = "??"
+mapattacksystemLVTXTLVA02[003] = "????"
+mapattacksystemLVTXTLVA02[004] = "?????"
+mapattacksystemLVTXTLVA02[005] = "????"
+mapattacksystemLVTXTLVA02[006] = "???"
 
 mapattackLVTXTLVA03 = {}
-mapattackLVTXTLVA03[001] = "¿¨À­¿ËĞĞĞÇµÄÍâÎ§Õ½³¡"
-mapattackLVTXTLVA03[002] = "³æÈº½¢¶Ó¸±±¾"
-mapattackLVTXTLVA03[003] = "¾µÖ®±ßÔµ¸±±¾»òÕß°¢ÒòÌØË¹½¢¶Ó¶¨ÃªµãÍâÎ§Õ½³¡"
-mapattackLVTXTLVA03[004] = "´ó¾öÕ½¸±±¾"
-mapattackLVTXTLVA03[005] = "ÏÈ×æÒÅ¼£ÍâÎ§Õ½³¡"
+mapattackLVTXTLVA03[001] = "??????????"
+mapattackLVTXTLVA03[002] = "??????"
+mapattackLVTXTLVA03[003] = "?????????????????????"
+mapattackLVTXTLVA03[004] = "?????"
+mapattackLVTXTLVA03[005] = "????????"
 
 mapattackTXT = {}
 mapattackTXT[001] = function(text1,text2,text3,text4)
-	local iText=""..text1.."µÄ¹æÄ£À©´óÁË£¬ÏÖÔÚÎª"..text2.."µã£¬"..text3..",Ö»ÓĞÇ°Íù"..text4.."²ÅÄÜ³¹µ×Ïû½âÕâ³¡ÌìÔÖ"
+	local iText=""..text1.."??????,???"..text2.."?,"..text3..",????"..text4.."??????????"
 	return iText
 end
 
 
 
 mapattackTXT[002] = function(text1,text2,text3)
-	local iText="ÓÉÓÚ"..text1.."½¢¶ÓÕıÔÚµ½´¦Ê©Å°£¬ÄãÔâÓöÁË"..text1.."µÄ"..text2.."½¢¶Ó£¬¶Ô·½ÒÑ¾­Æô¶¯ÁËÖØÁ¦³¡×èµ²ÁËÄãµÄ³¤¾àÀëÔ¾Ç¨£¬ÄãĞèÒªÏûÃğ¶Ô·½»òÕßÊ¹ÓÃ½ô¼±Ô¾Ç¨³·Àë¸ÃĞÇÇø"
+	local iText="??"..text1.."????????,????"..text1.."?"..text2.."??,????????????????????,????????????????????"
 	return iText
 end
 
 mapattackTXT[003] = function(text1,text2,text3)
-	local iText="ÓÉÓÚ¹æÄ£´ïµ½Ò»¶¨µÄµÈ¼¶£¬"..text1.."½¢¶Ó¿ªÊ¼¶Ô"..text2.."·¢¶¯ÁË½ø¹¥£¬¾¡¹Üµ±µØÊØ¾ü½¢¶ÓÒÑ¾­Å¬Á¦À¹½Ø£¬µ«ÊÇÈÔÓĞ"..text3.."¹æÄ£µÄ"..text1.."½¢¶ÓÕıÔÚ¸ÃĞÇÇøÖÜÎ§»î¶¯"
+	local iText="???????????,"..text1.."?????"..text2.."?????,??????????????,????"..text3.."???"..text1.."???????????"
 	return iText
 end
 
 mapattackTXT[004] = function(text1,text2,text3)
-	local iText="ÓÉÓÚ¹æÄ£´ïµ½Ò»¶¨µÄµÈ¼¶£¬"..text1.."½¢¶Ó¿ªÊ¼¶Ô"..text2.."·¢¶¯ÁË½ø¹¥£¬ÓÉÓÚµ±µØÊØ¾üÊµÁ¦Ç¿´ó£¬ËùÒÔÀ´Ï®µÄ"..text1.."½¢¶ÓÒÑ¾­±»È«²¿ÏûÃğ£¬µ«ÊÇËæ×ÅÌìÔÖ¹æÄ£²»¶ÏÀ©ÕÅ¶Ô·½ºÜ¿ì»áÖØĞÂ·¢Æğ½ø¹¥"
+	local iText="???????????,"..text1.."?????"..text2.."?????,??????????,?????"..text1.."?????????,???????????????????????"
 	return iText
 end
 
 
 mapattackTXT[005] = function(text1)
-	local iText="ÓÉÓÚ"..text1.."½¢¶ÓµÄ½ø¹¥£¬¸ÃÇøÓòµÄ´ó²¿·ÖÉÌÒµÉèÊ©¶¼ÒÑ¾­Ì±»¾£¬ÄãĞèÒªÇå³ı¸ÃÇøÓò¸½½ü³öÏÖµÄµĞÈË½¢¶Ó²ÅÄÜ»Ö¸´ÉÌÒµÉèÊ©µÄÔË×ª"
+	local iText="??"..text1.."?????,????????????????,????????????????????????????"
 	return iText
 end
 
 mapattackTXT[006] = function(text1,text2)
-	local iText="ÄãµÄ½¢¶ÓÒÑ¾­µ½´ï"..text1.."ÍâÎ§£¬"..text2.."½¢¶ÓÕıÔÚÕâ¸öÇøÓòĞĞ¶¯£¬»÷À£ÕâĞ©½¢¶Ó½«»á´ó´óÏÂ½µ"..text1.."µÄÍşĞ²µÈ¼¶¡£"
+	local iText="????????"..text1.."??,"..text2.."??????????,????????????"..text1.."??????"
 	return iText
 end
 
 mapattackTXT[007] = function(text1,text2)
-	local iText=""..text1.."½¢¶ÓÕıÔÚ"..text2.."ÍâÎ§½øĞĞÉ§ÈÅ£¬ÊÇ·ñÒªÇ°Íù"..text2.."ÍâÎ§½øĞĞ·´»÷×÷Õ½£¿ÏûÃğÕâĞ©"..text1.."½¢¶Ó½«»á´ó´óµÄ¼õÇá"..text2.."ÃæÁÙµÄÍşĞ²"
+	local iText=""..text1.."????"..text2.."??????,?????"..text2.."?????????????"..text1.."?????????"..text2.."?????"
 	return iText
 end
 
 mapattackTXT[008] = function(text1)
-	local iText=""..text1.."µÄ½¢¶ÓÒÑ¾­µ½´ï,Çë×öºÃ·ÀÓù×¼±¸"
+	local iText=""..text1.."???????,???????"
 	return iText
 end
 
 mapattackTXT[009] = function(text1)
-	local iText="ÄãµÄ½¢¶ÓÒÑ¾­µ½´ïÖ³ÃñµØÍâÎ§£¬"..text1.."½¢¶ÓÕıÔÚÕâ¸öÇøÓòĞĞ¶¯£¬»÷À£ÕâĞ©½¢¶Ó½«»á´ó´óÏÂ½µÖ³ÃñµØµÄÍşĞ²µÈ¼¶¡£"
+	local iText="?????????????,"..text1.."??????????,?????????????????????"
 	return iText
 end
 
 mapattackTXT[010] = function(text1,text2)
-	local iText="Ä¿Ç°"..text1.."ÕıÔÚÒøºÓÏµÖĞÊ©Å°£¬ÆäÍşĞ²³Ì¶ÈÒÑ¾­´ïµ½ÁË"..text2.."µã£¬Ä¿Ç°»¹Ã»ÓĞÈÎºÎĞÇÇøÔâµ½ÈëÇÖ"
+	local iText="??"..text1.."????????,??????????"..text2.."?,?????????????"
 	return iText
 end
 
 mapattackTXT[011] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12,text13,text14,text15,text16,text17,text18,text19,text20,text21,text22,text23,text24,text25,text26,text27,text28,text29,text30,text31,text32,text33,text34,text35)
-	local iText="Ä¿Ç°"..text1.."ÕıÔÚÒøºÓÏµÖĞÊ©Å°£¬ÆäÍşĞ²³Ì¶ÈÒÑ¾­´ïµ½ÁË"..text2.."µã£¬ÔâÊÜÈëÇÖµÄĞÇÇøÎª"..text3..""..text4..""..text5..""..text6..""..text7..""..text8..""..text9..""..text10..""..text11..""..text12..""..text13..""..text14..""..text15..""..text16..""..text17..""..text18..""..text19..""..text20..""..text21..""..text22..""..text23..""..text24..""..text25..""..text26..""..text27..""..text28..""..text29..""..text30..""..text31..""..text32..""..text33..""..text34..""..text35..""
+	local iText="??"..text1.."????????,??????????"..text2.."?,????????"..text3..""..text4..""..text5..""..text6..""..text7..""..text8..""..text9..""..text10..""..text11..""..text12..""..text13..""..text14..""..text15..""..text16..""..text17..""..text18..""..text19..""..text20..""..text21..""..text22..""..text23..""..text24..""..text25..""..text26..""..text27..""..text28..""..text29..""..text30..""..text31..""..text32..""..text33..""..text34..""..text35..""
 	return iText
 end
 
 mapattackTXT[012] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12,text13,text14,text15,text16,text17,text18,text19,text20,text21,text22,text23,text24,text25,text26,text27,text28,text29,text30,text31,text32,text33,text34,text35)
-	local iText="Ä¿Ç°ÔâÊÜÈëÇÖµÄĞÇÇøÎª"..text3..""..text4..""..text5..""..text6..""..text7..""..text8..""..text9..""..text10..""..text11..""..text12..""..text13..""..text14..""..text15..""..text16..""..text17..""..text18..""..text19..""..text20..""..text21..""..text22..""..text23..""..text24..""..text25..""..text26..""..text27..""..text28..""..text29..""..text30..""..text31..""..text32..""..text33..""..text34..""..text35..""
+	local iText="??????????"..text3..""..text4..""..text5..""..text6..""..text7..""..text8..""..text9..""..text10..""..text11..""..text12..""..text13..""..text14..""..text15..""..text16..""..text17..""..text18..""..text19..""..text20..""..text21..""..text22..""..text23..""..text24..""..text25..""..text26..""..text27..""..text28..""..text29..""..text30..""..text31..""..text32..""..text33..""..text34..""..text35..""
 	return iText
 end
 
 mapattackTXT[013] = function(text1,text2)
-	local iText="Ä¿Ç°»¹Ã»ÓĞÈÎºÎĞÇÇøÔâµ½ÈëÇÖ"
+	local iText="?????????????"
 	return iText
 end
 
 mapattackTXTEND = {}
 mapattackTXTEND[001] = function(text1,text2,text3,text4,text5,text6,text7)
-	local iText="ÄãÒÑ¾­»÷°ÜÁË"..text1.."µÄ½¢¶Ó£¬ÓÉÓÚÄãµÄ½¢¶Ó¹æÄ£"..text2.."£¬½ø¹¥"..text3.."µÄ"..text1.."½¢¶ÓËğÊ§ÁË"..text4.."µã¹æÄ££¬ÔÚÕ½¶·½áÊøºóÄã´òÉ¨Õ½³¡»ñµÃÁË"..text5.."µÄ×Ê½ğ½±ÀøºÍ"..text6.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text7.."µÄÈÙÓşµã×÷Îª±¨³ê"
+	local iText="??????"..text1.."???,????????"..text2..",??"..text3.."?"..text1.."?????"..text4.."???,??????????????"..text5.."??????"..text6.."???????"..text7.."????????"
 	return iText
 end
 
 mapattackTXTEND[002] = function(text1,text2,text3)
-	local iText="ÓÉÓÚÄãµÄ³öÉ«±íÏÖ"..text1.."µÄÕûÌå¹æÄ£ÏÂ½µÁË1µã£¬ÁíÍâÄã»¹»ñµÃÁË"..text2.."µ¥Î»µÄ"..text3..""
+	local iText="????????"..text1.."????????1?,???????"..text2.."???"..text3..""
 	return iText
 end
 
 mapattackTXTEND[003] = function(text1)
-	local iText="ÓÉÓÚÄãµÄ³öÉ«±íÏÖ"..text1.."µÄÕûÌå¹æÄ£ÏÂ½µÁË1µã£¬ÓÉÓÚÄã»õ²Ö¿Õ¼ä²»¹»£¬ÒÑ¾­ÎŞ·¨»ñµÃÈÎºÎ¶îÍâµÄÕ½ÀûÆ·ÁË"
+	local iText="????????"..text1.."????????1?,?????????,???????????????"
 	return iText
 end
 
 mapattackTXTEND[004] = function(text1,text2,text4,text5,text6,text7)
-	local iText="ÄãÒÑ¾­»÷°ÜÁË"..text1.."µÄ½¢¶Ó£¬ÓÉÓÚÄãµÄ½¢¶Ó¹æÄ£"..text2.."£¬½ø¹¥Ö³ÃñµØµÄ"..text1.."½¢¶ÓËğÊ§ÁË"..text4.."µã¹æÄ££¬ÔÚÕ½¶·½áÊøºóÄã´òÉ¨Õ½³¡»ñµÃÁË"..text5.."µÄ×Ê½ğ½±ÀøºÍ"..text6.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text7.."µÄÈÙÓşµã×÷Îª±¨³ê"
+	local iText="??????"..text1.."???,????????"..text2..",??????"..text1.."?????"..text4.."???,??????????????"..text5.."??????"..text6.."???????"..text7.."????????"
 	return iText
 end
 
 mapattackTXTEND[005] = function(text2,text3)
-	local iText="ÔÚ´òÉ¨Õ½³¡µÄÊ±ºòÄã»¹»ñµÃÁË"..text2.."µ¥Î»µÄ"..text3..""
+	local iText="?????????????"..text2.."???"..text3..""
 	return iText
 end
 
 mapattackTXTEND[006] = function(text2,text3)
-	local iText="ÔÚ´òÉ¨Õ½³¡µÄÊ±ºòÄã»¹»ñµÃÁË"..text2.."µ¥Î»µÄ"..text3.."¿ÉÏ§µÄÊÇÓÉÓÚÄãµÄ½¢¶Ó»õ²Ö¿Õ¼ä²»¹»£¬ÒÑ¾­ÎŞ·¨»ñµÃÈÎºÎ¶îÍâµÄÕ½ÀûÆ·ÁË"
+	local iText="?????????????"..text2.."???"..text3.."????????????????,???????????????"
 	return iText
 end
 
 
 shipUITXT = {}
 shipUITXT[000] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10)
-	local iText="ÕÙ»½"..text1.."ĞèÒª"..text2.."µ¥Î»µÄµ¯Ò©£¬"..text3.."µ¥Î»µÄÈ¼ÁÏ£¬"..text4.."µ¥Î»µÄ"..text5.."£¬"..text6.."µ¥Î»µÄ´¬Ô±×÷Îª·ÉĞĞÔ±£¬ÄãµÄ½¢¶ÓÄ¿Ç°ÓĞ"..text7.."µ¥Î»µÄµ¯Ò©£¬"..text8.."µ¥Î»µÄÇâÈ¼ÁÏ£¬"..text9.."µ¥Î»µÄ"..text5.."£¬"..text10.."µ¥Î»µÄ´¬Ô±£¬²ÄÁÏ²»×ã"
+	local iText="??"..text1.."??"..text2.."?????,"..text3.."?????,"..text4.."???"..text5..","..text6.."??????????,???????"..text7.."?????,"..text8.."??????,"..text9.."???"..text5..","..text10.."?????,????"
 	return iText
 end
 
 
 
 shipUITXT[001] = function(text1,text2,text3)
-	local iText=""..text1.."ÊıÁ¿ÒÑ¾­´ïµ½ÉÏÏŞ£¬¸Ãµ¥Î»×î¶àÖ»ÄÜÕÙ»½"..text2.."¼Ü£¬¶øÄ¿Ç°ÒÑ¾­ÕÙ»½ÁË"..text3.."¼Ü"
+	local iText=""..text1.."????????,?????????"..text2.."?,????????"..text3.."?"
 	return iText
 end
 
 shipUITXT[002] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11)
-	local iText="ÕÙ»½"..text1.."ĞèÒª"..text2.."µ¥Î»µÄµ¯Ò©£¬"..text3.."µ¥Î»µÄÈ¼ÁÏ£¬"..text4.."µ¥Î»µÄ"..text5.."£¬"..text6.."µ¥Î»µÄ´¬Ô±ºÍ1Ì¨ÈËĞÍµçÄÔ×÷Îª·ÉĞĞÔ±£¬ÄãµÄ½¢¶ÓÄ¿Ç°ÓĞ"..text7.."µ¥Î»µÄµ¯Ò©£¬"..text8.."µ¥Î»µÄÇâÈ¼ÁÏ£¬"..text9.."µ¥Î»µÄ"..text5.."£¬"..text10.."µ¥Î»µÄ´¬Ô±£¬"..text11.."µ¥Î»µÄÈËĞÍµçÄÔ£¬²ÄÁÏ²»×ã"
+	local iText="??"..text1.."??"..text2.."?????,"..text3.."?????,"..text4.."???"..text5..","..text6.."??????1??????????,???????"..text7.."?????,"..text8.."??????,"..text9.."???"..text5..","..text10.."?????,"..text11.."???????,????"
 	return iText
 end
 
 -------------------------------------------------------------------------------------------------
 
 shipUIfighterTXT = {}
-shipUIfighterTXT[001] = "·â×°µÄÇáĞÍÕ½¶·»ú×é¼ş"
-shipUIfighterTXT[002] = "·â×°µÄÖØĞÍÕ½¶·»ú×é¼ş"
-shipUIfighterTXT[003] = "·â×°µÄÅÚÍ§×é¼ş"
-shipUIfighterTXT[004] = "·â×°µÄÏÈ½øÕ½¶·»ú×é¼ş"
-shipUIfighterTXT[005] = "·â×°µÄÖØĞÍºäÕ¨»ú×é¼ş"
-shipUIfighterTXT[006] = "·â×°µÄ³¬¼¶Õ½¶·»ú×é¼ş"
+shipUIfighterTXT[001] = "??????????"
+shipUIfighterTXT[002] = "??????????"
+shipUIfighterTXT[003] = "???????"
+shipUIfighterTXT[004] = "??????????"
+shipUIfighterTXT[005] = "??????????"
+shipUIfighterTXT[006] = "??????????"
 
 shipUIzer_carrier1UITXT = {}
-shipUIzer_carrier1UITXT[001] = "·ÉïÚÎŞÈË»ú"
-shipUIzer_carrier1UITXT[002] = "·â×°µÄÇáĞÍÕ½¶·»ú×é¼ş"
-shipUIzer_carrier1UITXT[003] = "AH·ÀÎÀ×°¼×"
-shipUIzer_carrier1UITXT[004] = "·â×°µÄÅÚÍ§×é¼ş"
-shipUIzer_carrier1UITXT[005] = "·ÉïÚºäÕ¨»ú"
-shipUIzer_carrier1UITXT[006] = "·â×°µÄÇáĞÍÕ½¶·»ú×é¼ş"
+shipUIzer_carrier1UITXT[001] = "?????"
+shipUIzer_carrier1UITXT[002] = "??????????"
+shipUIzer_carrier1UITXT[003] = "AH????"
+shipUIzer_carrier1UITXT[004] = "???????"
+shipUIzer_carrier1UITXT[005] = "?????"
+shipUIzer_carrier1UITXT[006] = "??????????"
 
 
 shipUImodu_ND2carrierPoPo1UITXT = {}
-shipUImodu_ND2carrierPoPo1UITXT[001] = "³¬¼¶±ø·äÕ½¶·ÎŞÈË»ú"
-shipUImodu_ND2carrierPoPo1UITXT[002] = "¿ñ·äºäÕ¨ÎŞÈË»ú"
-shipUImodu_ND2carrierPoPo1UITXT[003] = "²¨ÌúÑÇÕ½»ú¼¶Í»»÷±ø×°"
-shipUImodu_ND2carrierPoPo1UITXT[004] = "»Ë»ğ¼¶Õ½¶·ºäÕ¨»ú"
-shipUImodu_ND2carrierPoPo1UITXT[005] = "´óÌúºĞÇ°ÏßÖ§Ô®»ú"
+shipUImodu_ND2carrierPoPo1UITXT[001] = "?????????"
+shipUImodu_ND2carrierPoPo1UITXT[002] = "???????"
+shipUImodu_ND2carrierPoPo1UITXT[003] = "??????????"
+shipUImodu_ND2carrierPoPo1UITXT[004] = "????????"
+shipUImodu_ND2carrierPoPo1UITXT[005] = "????????"
 
 shipUImodu_carrier1UITXT = {}
-shipUImodu_carrier1UITXT[001] = "Íäµ¶½¢ÔØ»ú"
-shipUImodu_carrier1UITXT[002] = "Ã¹¾úÅÚÍ§"
-shipUImodu_carrier1UITXT[003] = "³¤Ã¬½Ø»÷»ú"
-shipUImodu_carrier1UITXT[004] = "Íäµ¶ºäÕ¨»ú"
-shipUImodu_carrier1UITXT[005] = "Ã¹¾úµ¼µ¯Í§"
+shipUImodu_carrier1UITXT[001] = "?????"
+shipUImodu_carrier1UITXT[002] = "????"
+shipUImodu_carrier1UITXT[003] = "?????"
+shipUImodu_carrier1UITXT[004] = "?????"
+shipUImodu_carrier1UITXT[005] = "?????"
 
 	shipUImodu_carrierMK21UITXT = {}
-shipUImodu_carrierMK21UITXT[001] = "Íäµ¶½¢ÔØ»ú"
-shipUImodu_carrierMK21UITXT[002] = "Ã¹¾úÅÚÍ§"
-shipUImodu_carrierMK21UITXT[003] = "³¤Ã¬½Ø»÷»ú"
-shipUImodu_carrierMK21UITXT[004] = "Íäµ¶ºäÕ¨»ú"
-shipUImodu_carrierMK21UITXT[005] = "Ã¹¾úµ¼µ¯Í§"
+shipUImodu_carrierMK21UITXT[001] = "?????"
+shipUImodu_carrierMK21UITXT[002] = "????"
+shipUImodu_carrierMK21UITXT[003] = "?????"
+shipUImodu_carrierMK21UITXT[004] = "?????"
+shipUImodu_carrierMK21UITXT[005] = "?????"
 
 shipUIbus_car031UITXT = {}
-shipUIbus_car031UITXT[001] = "ÀÃÌÀÔ²¼¶ÎŞÈË»ú"
-shipUIbus_car031UITXT[002] = "ÌÀÔ²T¼¶¾«Ó¢Õ½¶·»ú"
-shipUIbus_car031UITXT[003] = "ÌÀÔ²T¼¶¾«Ó¢ºäÕ¨»ú"
-shipUIbus_car031UITXT[004] = "îÑÁÔÉ±Õß"
-shipUIbus_car031UITXT[005] = "ÀÃÌÀÔ²¼¶ÎŞÈË»ú"
+shipUIbus_car031UITXT[001] = "???????"
+shipUIbus_car031UITXT[002] = "??T??????"
+shipUIbus_car031UITXT[003] = "??T??????"
+shipUIbus_car031UITXT[004] = "????"
+shipUIbus_car031UITXT[005] = "???????"
 
 shipUIxao_carrierheavyhuge1UITXT = {}
-shipUIxao_carrierheavyhuge1UITXT[001] = "Á÷ĞÇ¸ÄÕ½¶·»ú"
-shipUIxao_carrierheavyhuge1UITXT[002] = "Á÷ĞÇ¸Ä3Õ½¶·»ú"
-shipUIxao_carrierheavyhuge1UITXT[003] = "ÁÔĞÇÕßÕ½¶·»ú"
-shipUIxao_carrierheavyhuge1UITXT[004] = "Á÷ĞÇÕ½¶·»ú"
-shipUIxao_carrierheavyhuge1UITXT[005] = "À×ÄñÔ¤¾¯»ú"
+shipUIxao_carrierheavyhuge1UITXT[001] = "??????"
+shipUIxao_carrierheavyhuge1UITXT[002] = "???3???"
+shipUIxao_carrierheavyhuge1UITXT[003] = "??????"
+shipUIxao_carrierheavyhuge1UITXT[004] = "?????"
+shipUIxao_carrierheavyhuge1UITXT[005] = "?????"
 
 
 
 shipUIzer_stardestroy_Lorenhild1UITXT = {}
-shipUIzer_stardestroy_Lorenhild1UITXT[001] = "»ÃÏóXIVÎŞÏë"
-shipUIzer_stardestroy_Lorenhild1UITXT[002] = "·ÀÎÀ½â·ÅÕß"
-shipUIzer_stardestroy_Lorenhild1UITXT[003] = "²¨ÌúÑÇÕ½»ú¼¶Í»»÷±ø×°"
-shipUIzer_stardestroy_Lorenhild1UITXT[004] = "»Ë»ğ¼¶Õ½¶·ºäÕ¨»ú"
-shipUIzer_stardestroy_Lorenhild1UITXT[005] = "´óÌúºĞÇ°ÏßÖ§Ô®»ú"
+shipUIzer_stardestroy_Lorenhild1UITXT[001] = "??XIV??"
+shipUIzer_stardestroy_Lorenhild1UITXT[002] = "?????"
+shipUIzer_stardestroy_Lorenhild1UITXT[003] = "??????????"
+shipUIzer_stardestroy_Lorenhild1UITXT[004] = "????????"
+shipUIzer_stardestroy_Lorenhild1UITXT[005] = "????????"
 
 shipUIzer_stardestroy_Wagner1UITXT = {}
-shipUIzer_stardestroy_Wagner1UITXT[001] = "·ÀÎÀ½â·ÅÕß"
-shipUIzer_stardestroy_Wagner1UITXT[002] = "·ÀÎÀ½â·ÅÕß"
-shipUIzer_stardestroy_Wagner1UITXT[003] = "AH·ÀÎÀ×°¼×"
-shipUIzer_stardestroy_Wagner1UITXT[004] = "·â×°µÄÅÚÍ§×é¼ş"
-shipUIzer_stardestroy_Wagner1UITXT[005] = "·ÉïÚºäÕ¨»ú"
-shipUIzer_stardestroy_Wagner1UITXT[006] = "·â×°µÄÇáĞÍÕ½¶·»ú×é¼ş"
+shipUIzer_stardestroy_Wagner1UITXT[001] = "?????"
+shipUIzer_stardestroy_Wagner1UITXT[002] = "?????"
+shipUIzer_stardestroy_Wagner1UITXT[003] = "AH????"
+shipUIzer_stardestroy_Wagner1UITXT[004] = "???????"
+shipUIzer_stardestroy_Wagner1UITXT[005] = "?????"
+shipUIzer_stardestroy_Wagner1UITXT[006] = "??????????"
 
 
 shipUImodu_carrierhugewitch1UITXT = {}
-shipUImodu_carrierhugewitch1UITXT[001] = "Èı²æêªAÕ½¶·ÎŞÈË»ú"
-shipUImodu_carrierhugewitch1UITXT[002] = "¶Ô¿Õ³¤Ã¬"
-shipUImodu_carrierhugewitch1UITXT[003] = "ÀûÈĞÕ½¶·»ú"
-shipUImodu_carrierhugewitch1UITXT[004] = "»Ë»ğ¼¶Õ½¶·ºäÕ¨»ú"
-shipUImodu_carrierhugewitch1UITXT[005] = "´óÌúºĞÇ°ÏßÖ§Ô®»ú"
+shipUImodu_carrierhugewitch1UITXT[001] = "???A?????"
+shipUImodu_carrierhugewitch1UITXT[002] = "????"
+shipUImodu_carrierhugewitch1UITXT[003] = "?????"
+shipUImodu_carrierhugewitch1UITXT[004] = "????????"
+shipUImodu_carrierhugewitch1UITXT[005] = "????????"
 
 shipUIzer_carrierbattlewitch1UITXT = {}
-shipUIzer_carrierbattlewitch1UITXT[001] = "¶Ô¿ÕÆÆÈĞÁãÊ½"
-shipUIzer_carrierbattlewitch1UITXT[002] = "ÁãÊ½Èı²æêªC"
-shipUIzer_carrierbattlewitch1UITXT[003] = "Ì½²éÕß"
-shipUIzer_carrierbattlewitch1UITXT[004] = "Íäµ¶ºäÕ¨»ú"
-shipUIzer_carrierbattlewitch1UITXT[005] = "Ã¹¾úµ¼µ¯Í§"
+shipUIzer_carrierbattlewitch1UITXT[001] = "??????"
+shipUIzer_carrierbattlewitch1UITXT[002] = "?????C"
+shipUIzer_carrierbattlewitch1UITXT[003] = "???"
+shipUIzer_carrierbattlewitch1UITXT[004] = "?????"
+shipUIzer_carrierbattlewitch1UITXT[005] = "?????"
 
 shipUIxao_carrierLDN1UITXT = {}
-shipUIxao_carrierLDN1UITXT[001] = "ÀÃÌÀÔ²¼¶ÎŞÈË»ú"
-shipUIxao_carrierLDN1UITXT[002] = "ÌÀÔ²T¼¶¾«Ó¢Õ½¶·»ú"
-shipUIxao_carrierLDN1UITXT[003] = "ÌÀÔ²T¼¶¾«Ó¢ºäÕ¨»ú"
-shipUIxao_carrierLDN1UITXT[004] = "ÌÀÔ²XÒí"
-shipUIxao_carrierLDN1UITXT[005] = "ÀÃÌÀÔ²¼¶ÎŞÈË»ú"
+shipUIxao_carrierLDN1UITXT[001] = "???????"
+shipUIxao_carrierLDN1UITXT[002] = "??T??????"
+shipUIxao_carrierLDN1UITXT[003] = "??T??????"
+shipUIxao_carrierLDN1UITXT[004] = "??X?"
+shipUIxao_carrierLDN1UITXT[005] = "???????"
 
 
 shipUItai_battleshipD3carrier1UITXT = {}
-shipUItai_battleshipD3carrier1UITXT[001] = "Ì©Ì¹Õ½¶·»ú"
-shipUItai_battleshipD3carrier1UITXT[002] = "Ì©Ì¹ºäÕ¨»ú"
-shipUItai_battleshipD3carrier1UITXT[003] = "Ì©Ì¹ÅÚÍ§"
-shipUItai_battleshipD3carrier1UITXT[004] = "ÌÀÔ²T¼¶¾«Ó¢Õ½¶·»ú"
-shipUItai_battleshipD3carrier1UITXT[005] = "ÌÀÔ²T¼¶¾«Ó¢ºäÕ¨»ú"
+shipUItai_battleshipD3carrier1UITXT[001] = "?????"
+shipUItai_battleshipD3carrier1UITXT[002] = "?????"
+shipUItai_battleshipD3carrier1UITXT[003] = "????"
+shipUItai_battleshipD3carrier1UITXT[004] = "??T??????"
+shipUItai_battleshipD3carrier1UITXT[005] = "??T??????"
 
 shipUIxao_battleshipD3carrier1UITXT = {}
-shipUIxao_battleshipD3carrier1UITXT[001] = "ÖØĞÍÎŞÈË»úK1"
-shipUIxao_battleshipD3carrier1UITXT[002] = "AN-1KĞÍÖØĞÍÕ½¶·»ú"
-shipUIxao_battleshipD3carrier1UITXT[003] = "Ì©Ì¹ÅÚÍ§"
-shipUIxao_battleshipD3carrier1UITXT[004] = "·â×°µÄÅÚÍ§×é¼ş"
-shipUIxao_battleshipD3carrier1UITXT[005] = "·ÉïÚºäÕ¨»ú"
+shipUIxao_battleshipD3carrier1UITXT[001] = "?????K1"
+shipUIxao_battleshipD3carrier1UITXT[002] = "AN-1K??????"
+shipUIxao_battleshipD3carrier1UITXT[003] = "????"
+shipUIxao_battleshipD3carrier1UITXT[004] = "???????"
+shipUIxao_battleshipD3carrier1UITXT[005] = "?????"
 
 
 
 shipUIxao_stardesroyershipyard1UITXT = {}
-shipUIxao_stardesroyershipyard1UITXT[001] = "ÂüÍÓÂŞ"
-shipUIxao_stardesroyershipyard1UITXT[002] = "AN-1KĞÍÖØĞÍÕ½¶·»ú"
-shipUIxao_stardesroyershipyard1UITXT[003] = "²¨ÌúÑÇÕ½»ú¼¶Í»»÷±ø×°"
-shipUIxao_stardesroyershipyard1UITXT[004] = "»Ë»ğ¼¶Õ½¶·ºäÕ¨»ú"
-shipUIxao_stardesroyershipyard1UITXT[005] = "´óÌúºĞÇ°ÏßÖ§Ô®»ú"
+shipUIxao_stardesroyershipyard1UITXT[001] = "???"
+shipUIxao_stardesroyershipyard1UITXT[002] = "AN-1K??????"
+shipUIxao_stardesroyershipyard1UITXT[003] = "??????????"
+shipUIxao_stardesroyershipyard1UITXT[004] = "????????"
+shipUIxao_stardesroyershipyard1UITXT[005] = "????????"
 
 
 shipUImodu_resourcecontrollerhuge1UITXT = {}
-shipUImodu_resourcecontrollerhuge1UITXT[001] = "ÌúÇòÎŞÈËÕ½¶·Í§Ğ¡¶Ó"
-shipUImodu_resourcecontrollerhuge1UITXT[002] = "ÌúÍ°ÎŞÈË»úĞ¡¶Ó"
-shipUImodu_resourcecontrollerhuge1UITXT[003] = "·äÄñÍ»»÷Í§"
-shipUImodu_resourcecontrollerhuge1UITXT[004] = "Öñ½Ú³æ´óĞÍÔËÊä²µ´¬ºäÕ¨ĞÍ"
-shipUImodu_resourcecontrollerhuge1UITXT[005] = "Ï¬Å£Îä×°ÔËÊäÍ§"
+shipUImodu_resourcecontrollerhuge1UITXT[001] = "?????????"
+shipUImodu_resourcecontrollerhuge1UITXT[002] = "???????"
+shipUImodu_resourcecontrollerhuge1UITXT[003] = "?????"
+shipUImodu_resourcecontrollerhuge1UITXT[004] = "????????????"
+shipUImodu_resourcecontrollerhuge1UITXT[005] = "???????"
 
 
 shipUIalos_carrier_huge1UITXT = {}
-shipUIalos_carrier_huge1UITXT[001] = "XFA27Õ½¶·»ú"
-shipUIalos_carrier_huge1UITXT[002] = "SU33Õ½¶·»ú"
-shipUIalos_carrier_huge1UITXT[003] = "MIG33Õ½¶·»ú"
-shipUIalos_carrier_huge1UITXT[004] = "Õ½¶·ÎŞÈË»ú"
-shipUIalos_carrier_huge1UITXT[005] = "´óÌúºĞÇ°ÏßÖ§Ô®»ú"
+shipUIalos_carrier_huge1UITXT[001] = "XFA27???"
+shipUIalos_carrier_huge1UITXT[002] = "SU33???"
+shipUIalos_carrier_huge1UITXT[003] = "MIG33???"
+shipUIalos_carrier_huge1UITXT[004] = "?????"
+shipUIalos_carrier_huge1UITXT[005] = "????????"
 
 shipUIalos_carrier_super1UITXT = {}
-shipUIalos_carrier_super1UITXT[001] = "unicornIÕ½¶·»ú"
-shipUIalos_carrier_super1UITXT[002] = "unicornIIÕ½¶·»ú"
-shipUIalos_carrier_super1UITXT[003] = "unicornIIIÕ½¶·»ú"
-shipUIalos_carrier_super1UITXT[004] = "Íäµ¶ºäÕ¨»ú"
-shipUIalos_carrier_super1UITXT[005] = "Ã¹¾úµ¼µ¯Í§"
+shipUIalos_carrier_super1UITXT[001] = "unicornI???"
+shipUIalos_carrier_super1UITXT[002] = "unicornII???"
+shipUIalos_carrier_super1UITXT[003] = "unicornIII???"
+shipUIalos_carrier_super1UITXT[004] = "?????"
+shipUIalos_carrier_super1UITXT[005] = "?????"
 
 shipUImodu_carriersuper1UITXT = {}
-shipUImodu_carriersuper1UITXT[001] = "Íäµ¶½¢ÔØ»ú"
-shipUImodu_carriersuper1UITXT[002] = "³¤Ã¬½Ø»÷»ú"
-shipUImodu_carriersuper1UITXT[003] = "¶ÉÑ»ºäÕ¨»ú"
-shipUImodu_carriersuper1UITXT[004] = "³¤Ã¬ºäÕ¨»ú"
-shipUImodu_carriersuper1UITXT[005] = "·ÉÁúºäÕ¨»ú"
+shipUImodu_carriersuper1UITXT[001] = "?????"
+shipUImodu_carriersuper1UITXT[002] = "?????"
+shipUImodu_carriersuper1UITXT[003] = "?????"
+shipUImodu_carriersuper1UITXT[004] = "?????"
+shipUImodu_carriersuper1UITXT[005] = "?????"
 
 shipUImodu_carriersuperBlack1UITXT = {}
-shipUImodu_carriersuperBlack1UITXT[001] = "Èı²æêªÎŞÈË»ú"
-shipUImodu_carriersuperBlack1UITXT[002] = "ÆÆÈĞ½Ø»÷»úÁãºÅ"
-shipUImodu_carriersuperBlack1UITXT[003] = "ÆÆÈĞºäÕ¨»úÁãºÅ"
-shipUImodu_carriersuperBlack1UITXT[004] = "·ÉÁúºäÕ¨»ú"
-shipUImodu_carriersuperBlack1UITXT[005] = "·ÉïÚÎŞÈË»ú"
+shipUImodu_carriersuperBlack1UITXT[001] = "??????"
+shipUImodu_carriersuperBlack1UITXT[002] = "???????"
+shipUImodu_carriersuperBlack1UITXT[003] = "???????"
+shipUImodu_carriersuperBlack1UITXT[004] = "?????"
+shipUImodu_carriersuperBlack1UITXT[005] = "?????"
 
 
 shipUIvgr_battleshiplightcarrier1UITXT = {}
-shipUIvgr_battleshiplightcarrier1UITXT[001] = "³¤Ç¹Õ½¶·»úMK2"
-shipUIvgr_battleshiplightcarrier1UITXT[002] = "³¤Ç¹Õ½¶·»úMK2ÀØÉäĞÍ"
-shipUIvgr_battleshiplightcarrier1UITXT[003] = "ÍºÓ¥ºäÕ¨»ú"
-shipUIvgr_battleshiplightcarrier1UITXT[004] = "ÈëÇÖÕß»ú¼×Ğ¡¶Ó"
-shipUIvgr_battleshiplightcarrier1UITXT[005] = "ÈëÇÖÕß·´½¢ĞÍ"
+shipUIvgr_battleshiplightcarrier1UITXT[001] = "?????MK2"
+shipUIvgr_battleshiplightcarrier1UITXT[002] = "?????MK2???"
+shipUIvgr_battleshiplightcarrier1UITXT[003] = "?????"
+shipUIvgr_battleshiplightcarrier1UITXT[004] = "???????"
+shipUIvgr_battleshiplightcarrier1UITXT[005] = "??????"
 
 shipUIzmodu_battershipheavggun1UITXT = {}
-shipUIzmodu_battershipheavggun1UITXT[001] = "Íäµ¶½¢ÔØ»ú"
-shipUIzmodu_battershipheavggun1UITXT[002] = "Ã¹¾úÖØÅÚÍ§"
-shipUIzmodu_battershipheavggun1UITXT[003] = "³¤Ã¬½Ø»÷»ú"
-shipUIzmodu_battershipheavggun1UITXT[004] = "ÍºÓ¥ºäÕ¨»ú"
-shipUIzmodu_battershipheavggun1UITXT[005] = "ÆÆÈĞ½Ø»÷»ú"
+shipUIzmodu_battershipheavggun1UITXT[001] = "?????"
+shipUIzmodu_battershipheavggun1UITXT[002] = "?????"
+shipUIzmodu_battershipheavggun1UITXT[003] = "?????"
+shipUIzmodu_battershipheavggun1UITXT[004] = "?????"
+shipUIzmodu_battershipheavggun1UITXT[005] = "?????"
 
 
 shipUIhgn_busnewship301UITXT = {}
-shipUIhgn_busnewship301UITXT[001] = "Íäµ¶Õ½¶·»ú"
-shipUIhgn_busnewship301UITXT[002] = "Ã¹¾úÖØÅÚÍ§"
-shipUIhgn_busnewship301UITXT[003] = "³¤Ã¬½Ø»÷»ú"
-shipUIhgn_busnewship301UITXT[004] = "Íäµ¶ºäÕ¨»ú"
-shipUIhgn_busnewship301UITXT[005] = "Ã¹¾úµ¼µ¯Í§"
+shipUIhgn_busnewship301UITXT[001] = "?????"
+shipUIhgn_busnewship301UITXT[002] = "?????"
+shipUIhgn_busnewship301UITXT[003] = "?????"
+shipUIhgn_busnewship301UITXT[004] = "?????"
+shipUIhgn_busnewship301UITXT[005] = "?????"
 
 shipUIhgn_busnewship311UITXT = {}
-shipUIhgn_busnewship311UITXT[001] = "Íäµ¶Õ½¶·»ú"
-shipUIhgn_busnewship311UITXT[002] = "Ã¹¾úÖØÅÚÍ§"
-shipUIhgn_busnewship311UITXT[003] = "³¤Ã¬½Ø»÷»ú"
-shipUIhgn_busnewship311UITXT[004] = "Íäµ¶ºäÕ¨»ú"
-shipUIhgn_busnewship311UITXT[005] = "Ã¹¾úµ¼µ¯Í§"
+shipUIhgn_busnewship311UITXT[001] = "?????"
+shipUIhgn_busnewship311UITXT[002] = "?????"
+shipUIhgn_busnewship311UITXT[003] = "?????"
+shipUIhgn_busnewship311UITXT[004] = "?????"
+shipUIhgn_busnewship311UITXT[005] = "?????"
 
 shipUIhgn_busnewship321UITXT = {}
-shipUIhgn_busnewship321UITXT[001] = "Íäµ¶Õ½¶·»ú"
-shipUIhgn_busnewship321UITXT[002] = "Ã¹¾úÖØÅÚÍ§"
-shipUIhgn_busnewship321UITXT[003] = "³¤Ã¬½Ø»÷»ú"
-shipUIhgn_busnewship321UITXT[004] = "Íäµ¶ºäÕ¨»ú"
-shipUIhgn_busnewship321UITXT[005] = "ÖØĞÍÎŞÈË»ú"
+shipUIhgn_busnewship321UITXT[001] = "?????"
+shipUIhgn_busnewship321UITXT[002] = "?????"
+shipUIhgn_busnewship321UITXT[003] = "?????"
+shipUIhgn_busnewship321UITXT[004] = "?????"
+shipUIhgn_busnewship321UITXT[005] = "?????"
 
 shipUIvgr_carrierbattleship1UITXT = {}
-shipUIvgr_carrierbattleship1UITXT[001] = "³¤Ç¹Õ½¶·»úMK2"
-shipUIvgr_carrierbattleship1UITXT[002] = "³¤Ç¹Õ½¶·»úMK2ÀØÉä"
-shipUIvgr_carrierbattleship1UITXT[003] = "ÍºÓ¥ºäÕ¨»ú"
-shipUIvgr_carrierbattleship1UITXT[004] = "ÈëÇÖÕß»ú¼×Ğ¡¶Ó"
-shipUIvgr_carrierbattleship1UITXT[005] = "ÈëÇÖÕß·´½¢ĞÍ"
-shipUIvgr_carrierbattleship1UITXT[006] = "·â×°µÄÇáĞÍÕ½¶·»ú×é¼ş"
+shipUIvgr_carrierbattleship1UITXT[001] = "?????MK2"
+shipUIvgr_carrierbattleship1UITXT[002] = "?????MK2??"
+shipUIvgr_carrierbattleship1UITXT[003] = "?????"
+shipUIvgr_carrierbattleship1UITXT[004] = "???????"
+shipUIvgr_carrierbattleship1UITXT[005] = "??????"
+shipUIvgr_carrierbattleship1UITXT[006] = "??????????"
 
 shipUImodu_carrierheavy1UITXT = {}
-shipUImodu_carrierheavy1UITXT[001] = "Íäµ¶Õ½¶·»ú"
-shipUImodu_carrierheavy1UITXT[002] = "Ã¹¾úÖØÅÚÍ§"
-shipUImodu_carrierheavy1UITXT[003] = "³¤Ã¬½Ø»÷»ú"
-shipUImodu_carrierheavy1UITXT[004] = "Íäµ¶ºäÕ¨»ú"
-shipUImodu_carrierheavy1UITXT[005] = "Ã¹¾úµ¼µ¯Í§"
+shipUImodu_carrierheavy1UITXT[001] = "?????"
+shipUImodu_carrierheavy1UITXT[002] = "?????"
+shipUImodu_carrierheavy1UITXT[003] = "?????"
+shipUImodu_carrierheavy1UITXT[004] = "?????"
+shipUImodu_carrierheavy1UITXT[005] = "?????"
 
 
 shipUIPil_carriersuper1UITXT = {}
-shipUIPil_carriersuper1UITXT[001] = "°Ú¶ÉÈË"
-shipUIPil_carriersuper1UITXT[002] = "ËÍÔáÕß"
-shipUIPil_carriersuper1UITXT[003] = "Ñ³µÀÕß"
-shipUIPil_carriersuper1UITXT[004] = "ÖÕÑÉÖ®¼¬"
-shipUIPil_carriersuper1UITXT[005] = "°Ú¶ÉÈË"
+shipUIPil_carriersuper1UITXT[001] = "???"
+shipUIPil_carriersuper1UITXT[002] = "???"
+shipUIPil_carriersuper1UITXT[003] = "???"
+shipUIPil_carriersuper1UITXT[004] = "????"
+shipUIPil_carriersuper1UITXT[005] = "???"
 
 shipUIhgn_carrierheavyKZ1UITXT = {}
-shipUIhgn_carrierheavyKZ1UITXT[001] = "ËºÁÑÕßÎŞÈË»ú"
-shipUIhgn_carrierheavyKZ1UITXT[002] = "¿Ö×¦"
-shipUIhgn_carrierheavyKZ1UITXT[003] = "ºÚÒíÅÚÍ§"
+shipUIhgn_carrierheavyKZ1UITXT[001] = "??????"
+shipUIhgn_carrierheavyKZ1UITXT[002] = "??"
+shipUIhgn_carrierheavyKZ1UITXT[003] = "????"
 
 shipUImodu_battleship14G1UITXT = {}
-shipUImodu_battleship14G1UITXT[001] = "°Ú¶ÉÈË"
-shipUImodu_battleship14G1UITXT[002] = "ËÍÔáÕß"
-shipUImodu_battleship14G1UITXT[003] = "Ñ³µÀÕß"
-shipUImodu_battleship14G1UITXT[004] = "·â×°µÄÅÚÍ§×é¼ş"
-shipUImodu_battleship14G1UITXT[005] = "·ÉïÚºäÕ¨»ú"
-shipUImodu_battleship14G1UITXT[006] = "·â×°µÄÇáĞÍÕ½¶·»ú×é¼ş"
+shipUImodu_battleship14G1UITXT[001] = "???"
+shipUImodu_battleship14G1UITXT[002] = "???"
+shipUImodu_battleship14G1UITXT[003] = "???"
+shipUImodu_battleship14G1UITXT[004] = "???????"
+shipUImodu_battleship14G1UITXT[005] = "?????"
+shipUImodu_battleship14G1UITXT[006] = "??????????"
 
 
 shipUIxao_carrierheavyathenaED1UITXT = {}
-shipUIxao_carrierheavyathenaED1UITXT[001] = "À×Äñ³¬ÖØĞÍºäÕ¨»ú"
-shipUIxao_carrierheavyathenaED1UITXT[002] = "ÃÀ¶ÅÉ¯"
-shipUIxao_carrierheavyathenaED1UITXT[003] = "Á÷ĞÇÕ½¶·»ú¸ÄÈı"
-shipUIxao_carrierheavyathenaED1UITXT[004] = "Á÷ĞÇÕ½¶·»ú"
-shipUIxao_carrierheavyathenaED1UITXT[005] = "´óÌúºĞÇ°ÏßÖ§Ô®»ú"
+shipUIxao_carrierheavyathenaED1UITXT[001] = "????????"
+shipUIxao_carrierheavyathenaED1UITXT[002] = "???"
+shipUIxao_carrierheavyathenaED1UITXT[003] = "???????"
+shipUIxao_carrierheavyathenaED1UITXT[004] = "?????"
+shipUIxao_carrierheavyathenaED1UITXT[005] = "????????"
 
 shipUIhgn_busnewship371UITXT = {}
-shipUIhgn_busnewship371UITXT[001] = "ÁÔĞÇÕß"
-shipUIhgn_busnewship371UITXT[002] = "º¬¹â"
-shipUIhgn_busnewship371UITXT[003] = "Á÷ĞÇÕ½¶·»ú¸Ä¶ş"
-shipUIhgn_busnewship371UITXT[004] = "Á÷ĞÇÕ½¶·»ú"
-shipUIhgn_busnewship371UITXT[005] = "Ã¹¾úµ¼µ¯Í§"
+shipUIhgn_busnewship371UITXT[001] = "???"
+shipUIhgn_busnewship371UITXT[002] = "??"
+shipUIhgn_busnewship371UITXT[003] = "???????"
+shipUIhgn_busnewship371UITXT[004] = "?????"
+shipUIhgn_busnewship371UITXT[005] = "?????"
 
 shipUIhgn_busnewship381UITXT = {}
-shipUIhgn_busnewship381UITXT[001] = "ÕıÒåÖ®Ç¹"
-shipUIhgn_busnewship381UITXT[002] = "Ê³ÈËöğ"
-shipUIhgn_busnewship381UITXT[003] = "Á÷ĞÇÕ½¶·»ú¸Ä3"
-shipUIhgn_busnewship381UITXT[004] = "Á÷ĞÇÕ½¶·»ú"
-shipUIhgn_busnewship381UITXT[005] = "Ã¹¾úµ¼µ¯Í§"
+shipUIhgn_busnewship381UITXT[001] = "????"
+shipUIhgn_busnewship381UITXT[002] = "???"
+shipUIhgn_busnewship381UITXT[003] = "??????3"
+shipUIhgn_busnewship381UITXT[004] = "?????"
+shipUIhgn_busnewship381UITXT[005] = "?????"
 
 shipUIxao_carrierheavyathena1UITXT = {}
-shipUIxao_carrierheavyathena1UITXT[001] = "Á÷ĞÇÕ½¶·»ú¸Ä2"
-shipUIxao_carrierheavyathena1UITXT[002] = "Á÷ĞÇÕ½¶·»ú¸Ä3"
-shipUIxao_carrierheavyathena1UITXT[003] = "ÁÔĞÇÕß"
-shipUIxao_carrierheavyathena1UITXT[004] = "Á÷ĞÇÕ½¶·»ú"
-shipUIxao_carrierheavyathena1UITXT[005] = "À×ÄñÔ¤¾¯»ú"
+shipUIxao_carrierheavyathena1UITXT[001] = "??????2"
+shipUIxao_carrierheavyathena1UITXT[002] = "??????3"
+shipUIxao_carrierheavyathena1UITXT[003] = "???"
+shipUIxao_carrierheavyathena1UITXT[004] = "?????"
+shipUIxao_carrierheavyathena1UITXT[005] = "?????"
 
 shipUIxao_carrierheavyathena2UITXT = {}
-shipUIxao_carrierheavyathena2UITXT[001] = "Á÷ĞÇÕ½¶·»ú¸Ä2"
-shipUIxao_carrierheavyathena2UITXT[002] = "Á÷ĞÇÕ½¶·»ú¸Ä3"
-shipUIxao_carrierheavyathena2UITXT[003] = "ÁÔĞÇÕß"
-shipUIxao_carrierheavyathena2UITXT[004] = "Á÷ĞÇÕ½¶·»ú"
-shipUIxao_carrierheavyathena2UITXT[005] = "À×ÄñÔ¤¾¯»ú"
+shipUIxao_carrierheavyathena2UITXT[001] = "??????2"
+shipUIxao_carrierheavyathena2UITXT[002] = "??????3"
+shipUIxao_carrierheavyathena2UITXT[003] = "???"
+shipUIxao_carrierheavyathena2UITXT[004] = "?????"
+shipUIxao_carrierheavyathena2UITXT[005] = "?????"
 
 shipUIxao_carrierheavyathena3UITXT = {}
-shipUIxao_carrierheavyathena3UITXT[001] = "Á÷ĞÇÕ½¶·»ú¸Ä2"
-shipUIxao_carrierheavyathena3UITXT[002] = "Á÷ĞÇÕ½¶·»ú¸Ä3"
-shipUIxao_carrierheavyathena3UITXT[003] = "ÁÔĞÇÕß"
-shipUIxao_carrierheavyathena3UITXT[004] = "Á÷ĞÇÕ½¶·»ú"
-shipUIxao_carrierheavyathena3UITXT[005] = "À×ÄñÔ¤¾¯»ú"
+shipUIxao_carrierheavyathena3UITXT[001] = "??????2"
+shipUIxao_carrierheavyathena3UITXT[002] = "??????3"
+shipUIxao_carrierheavyathena3UITXT[003] = "???"
+shipUIxao_carrierheavyathena3UITXT[004] = "?????"
+shipUIxao_carrierheavyathena3UITXT[005] = "?????"
 
 shipUIxao_carrierheavyathena4UITXT = {}
-shipUIxao_carrierheavyathena4UITXT[001] = "Á÷ĞÇÕ½¶·»ú¸Ä2"
-shipUIxao_carrierheavyathena4UITXT[002] = "Á÷ĞÇÕ½¶·»ú¸Ä3"
-shipUIxao_carrierheavyathena4UITXT[003] = "ÁÔĞÇÕß"
-shipUIxao_carrierheavyathena4UITXT[004] = "Á÷ĞÇÕ½¶·»ú"
-shipUIxao_carrierheavyathena4UITXT[005] = "À×ÄñÔ¤¾¯»ú"
+shipUIxao_carrierheavyathena4UITXT[001] = "??????2"
+shipUIxao_carrierheavyathena4UITXT[002] = "??????3"
+shipUIxao_carrierheavyathena4UITXT[003] = "???"
+shipUIxao_carrierheavyathena4UITXT[004] = "?????"
+shipUIxao_carrierheavyathena4UITXT[005] = "?????"
 
 shipUIvgr_carrierhuge1UITXT = {}
-shipUIvgr_carrierhuge1UITXT[001] = "³¤Ç¹Õ½¶·»úMK2"
-shipUIvgr_carrierhuge1UITXT[002] = "Ä§ÌººäÕ¨»ú"
-shipUIvgr_carrierhuge1UITXT[003] = "ÍºÓ¥ºäÕ¨»ú"
-shipUIvgr_carrierhuge1UITXT[004] = "ÈëÇÖÕß»ú¼×"
-shipUIvgr_carrierhuge1UITXT[005] = "´óÌúºĞÇ°ÏßÖ§Ô®»ú"
+shipUIvgr_carrierhuge1UITXT[001] = "?????MK2"
+shipUIvgr_carrierhuge1UITXT[002] = "?????"
+shipUIvgr_carrierhuge1UITXT[003] = "?????"
+shipUIvgr_carrierhuge1UITXT[004] = "?????"
+shipUIvgr_carrierhuge1UITXT[005] = "????????"
 
 shipUIvgr_carrierhuge2UITXT = {}
-shipUIvgr_carrierhuge2UITXT[001] = "³¤Ç¹Õ½¶·»úMK2"
-shipUIvgr_carrierhuge2UITXT[002] = "Ä§ÌººäÕ¨»ú"
-shipUIvgr_carrierhuge2UITXT[003] = "ÍºÓ¥ºäÕ¨»ú"
-shipUIvgr_carrierhuge2UITXT[004] = "ÈëÇÖÕß»ú¼×"
-shipUIvgr_carrierhuge2UITXT[005] = "´óÌúºĞÇ°ÏßÖ§Ô®»ú"
+shipUIvgr_carrierhuge2UITXT[001] = "?????MK2"
+shipUIvgr_carrierhuge2UITXT[002] = "?????"
+shipUIvgr_carrierhuge2UITXT[003] = "?????"
+shipUIvgr_carrierhuge2UITXT[004] = "?????"
+shipUIvgr_carrierhuge2UITXT[005] = "????????"
 
 shipUIvgr_carrierhuge3UITXT = {}
-shipUIvgr_carrierhuge3UITXT[001] = "³¤Ç¹Õ½¶·»úMK2"
-shipUIvgr_carrierhuge3UITXT[002] = "Ä§ÌººäÕ¨»ú"
-shipUIvgr_carrierhuge3UITXT[003] = "ÍºÓ¥ºäÕ¨»ú"
-shipUIvgr_carrierhuge3UITXT[004] = "ÈëÇÖÕß»ú¼×"
-shipUIvgr_carrierhuge3UITXT[005] = "´óÌúºĞÇ°ÏßÖ§Ô®»ú"
+shipUIvgr_carrierhuge3UITXT[001] = "?????MK2"
+shipUIvgr_carrierhuge3UITXT[002] = "?????"
+shipUIvgr_carrierhuge3UITXT[003] = "?????"
+shipUIvgr_carrierhuge3UITXT[004] = "?????"
+shipUIvgr_carrierhuge3UITXT[005] = "????????"
 
 shipUIvgr_carrierhuge4UITXT = {}
-shipUIvgr_carrierhuge4UITXT[001] = "³¤Ç¹Õ½¶·»úMK2"
-shipUIvgr_carrierhuge4UITXT[002] = "Ä§ÌººäÕ¨»ú"
-shipUIvgr_carrierhuge4UITXT[003] = "ÍºÓ¥ºäÕ¨»ú"
-shipUIvgr_carrierhuge4UITXT[004] = "ÈëÇÖÕß»ú¼×"
-shipUIvgr_carrierhuge4UITXT[005] = "´óÌúºĞÇ°ÏßÖ§Ô®»ú"
+shipUIvgr_carrierhuge4UITXT[001] = "?????MK2"
+shipUIvgr_carrierhuge4UITXT[002] = "?????"
+shipUIvgr_carrierhuge4UITXT[003] = "?????"
+shipUIvgr_carrierhuge4UITXT[004] = "?????"
+shipUIvgr_carrierhuge4UITXT[005] = "????????"
 
 shipUIxao_carrierheavyathenaBD1UITXT = {}
-shipUIxao_carrierheavyathenaBD1UITXT[001] = "¿¨¶ûÍßÂŞÑÇ"
-shipUIxao_carrierheavyathenaBD1UITXT[002] = "Ë÷¶û¼Ó¶ûÍß"
-shipUIxao_carrierheavyathenaBD1UITXT[003] = "¿¨¶ûÍßÂŞÑÇ"
-shipUIxao_carrierheavyathenaBD1UITXT[004] = "·â×°µÄÅÚÍ§×é¼ş"
-shipUIxao_carrierheavyathenaBD1UITXT[005] = "·ÉïÚºäÕ¨»ú"
-shipUIxao_carrierheavyathenaBD1UITXT[006] = "·â×°µÄÇáĞÍÕ½¶·»ú×é¼ş"
+shipUIxao_carrierheavyathenaBD1UITXT[001] = "?????"
+shipUIxao_carrierheavyathenaBD1UITXT[002] = "?????"
+shipUIxao_carrierheavyathenaBD1UITXT[003] = "?????"
+shipUIxao_carrierheavyathenaBD1UITXT[004] = "???????"
+shipUIxao_carrierheavyathenaBD1UITXT[005] = "?????"
+shipUIxao_carrierheavyathenaBD1UITXT[006] = "??????????"
 
 shipUIxao_carrierheavyathenaBD2UITXT = {}
-shipUIxao_carrierheavyathenaBD2UITXT[001] = "¿¨¶ûÍßÂŞÑÇ"
-shipUIxao_carrierheavyathenaBD2UITXT[002] = "Ë÷¶û¼Ó¶ûÍß"
-shipUIxao_carrierheavyathenaBD2UITXT[003] = "¿¨¶ûÍßÂŞÑÇ"
-shipUIxao_carrierheavyathenaBD2UITXT[004] = "·â×°µÄÅÚÍ§×é¼ş"
-shipUIxao_carrierheavyathenaBD2UITXT[005] = "·ÉïÚºäÕ¨»ú"
-shipUIxao_carrierheavyathenaBD2UITXT[006] = "·â×°µÄÇáĞÍÕ½¶·»ú×é¼ş"
+shipUIxao_carrierheavyathenaBD2UITXT[001] = "?????"
+shipUIxao_carrierheavyathenaBD2UITXT[002] = "?????"
+shipUIxao_carrierheavyathenaBD2UITXT[003] = "?????"
+shipUIxao_carrierheavyathenaBD2UITXT[004] = "???????"
+shipUIxao_carrierheavyathenaBD2UITXT[005] = "?????"
+shipUIxao_carrierheavyathenaBD2UITXT[006] = "??????????"
 
 shipUIxao_carrierheavyathenaBD3UITXT = {}
-shipUIxao_carrierheavyathenaBD3UITXT[001] = "¿¨¶ûÍßÂŞÑÇ"
-shipUIxao_carrierheavyathenaBD3UITXT[002] = "Ë÷¶û¼Ó¶ûÍß"
-shipUIxao_carrierheavyathenaBD3UITXT[003] = "¿¨¶ûÍßÂŞÑÇ"
-shipUIxao_carrierheavyathenaBD3UITXT[004] = "·â×°µÄÅÚÍ§×é¼ş"
-shipUIxao_carrierheavyathenaBD3UITXT[005] = "·ÉïÚºäÕ¨»ú"
-shipUIxao_carrierheavyathenaBD3UITXT[006] = "·â×°µÄÇáĞÍÕ½¶·»ú×é¼ş"
+shipUIxao_carrierheavyathenaBD3UITXT[001] = "?????"
+shipUIxao_carrierheavyathenaBD3UITXT[002] = "?????"
+shipUIxao_carrierheavyathenaBD3UITXT[003] = "?????"
+shipUIxao_carrierheavyathenaBD3UITXT[004] = "???????"
+shipUIxao_carrierheavyathenaBD3UITXT[005] = "?????"
+shipUIxao_carrierheavyathenaBD3UITXT[006] = "??????????"
 
 shipUIxao_carrierheavyathenaBD4UITXT = {}
-shipUIxao_carrierheavyathenaBD4UITXT[001] = "¿¨¶ûÍßÂŞÑÇ"
-shipUIxao_carrierheavyathenaBD4UITXT[002] = "Ë÷¶û¼Ó¶ûÍß"
-shipUIxao_carrierheavyathenaBD4UITXT[003] = "¿¨¶ûÍßÂŞÑÇ"
-shipUIxao_carrierheavyathenaBD4UITXT[004] = "·â×°µÄÅÚÍ§×é¼ş"
-shipUIxao_carrierheavyathenaBD4UITXT[005] = "·ÉïÚºäÕ¨»ú"
-shipUIxao_carrierheavyathenaBD4UITXT[006] = "·â×°µÄÇáĞÍÕ½¶·»ú×é¼ş"
+shipUIxao_carrierheavyathenaBD4UITXT[001] = "?????"
+shipUIxao_carrierheavyathenaBD4UITXT[002] = "?????"
+shipUIxao_carrierheavyathenaBD4UITXT[003] = "?????"
+shipUIxao_carrierheavyathenaBD4UITXT[004] = "???????"
+shipUIxao_carrierheavyathenaBD4UITXT[005] = "?????"
+shipUIxao_carrierheavyathenaBD4UITXT[006] = "??????????"
 
 
 shipUIvgr_superbattleshipP1UITXT = {}
-shipUIvgr_superbattleshipP1UITXT[001] = "ÈëÇÖÕß¶Ó³¤"
-shipUIvgr_superbattleshipP1UITXT[002] = "ÈëÇÖÕßÍ¨ÓÃĞÍ"
-shipUIvgr_superbattleshipP1UITXT[003] = "ÈëÇÖÕß·´½¢ĞÍ"
-shipUIvgr_superbattleshipP1UITXT[004] = "ÈëÇÖÕßÂö³åĞÍ"
-shipUIvgr_superbattleshipP1UITXT[005] = "´óÌúºĞÇ°ÏßÖ§Ô®»ú"
+shipUIvgr_superbattleshipP1UITXT[001] = "?????"
+shipUIvgr_superbattleshipP1UITXT[002] = "??????"
+shipUIvgr_superbattleshipP1UITXT[003] = "??????"
+shipUIvgr_superbattleshipP1UITXT[004] = "??????"
+shipUIvgr_superbattleshipP1UITXT[005] = "????????"
 
 shipUIvgr_stardestroy1UITXT = {}
-shipUIvgr_stardestroy1UITXT[001] = "¾ÉÈÕÖ§ÅäÕß"
-shipUIvgr_stardestroy1UITXT[002] = "ÆÆÈĞ½Ø»÷»ú"
-shipUIvgr_stardestroy1UITXT[003] = "ÆÆÈĞ½Ø»÷»úºäÕ¨ĞÍ"
-shipUIvgr_stardestroy1UITXT[004] = "ÆÆÈĞÖ®½£"
-shipUIvgr_stardestroy1UITXT[005] = "Ã¹¾úµ¼µ¯Í§"
+shipUIvgr_stardestroy1UITXT[001] = "?????"
+shipUIvgr_stardestroy1UITXT[002] = "?????"
+shipUIvgr_stardestroy1UITXT[003] = "????????"
+shipUIvgr_stardestroy1UITXT[004] = "????"
+shipUIvgr_stardestroy1UITXT[005] = "?????"
 
 shipUImodu_supershipMK71UITXT = {}
-shipUImodu_supershipMK71UITXT[001] = "ÁúÇ¹Õ½¶·»ú"
-shipUImodu_supershipMK71UITXT[002] = "ĞÇ³½Õ½¶·»ú"
-shipUImodu_supershipMK71UITXT[003] = "Ê¥²ÃÕ½¶·»ú"
-shipUImodu_supershipMK71UITXT[004] = "Íäµ¶ºäÕ¨»ú"
-shipUImodu_supershipMK71UITXT[005] = "Ã¹¾úµ¼µ¯Í§"
+shipUImodu_supershipMK71UITXT[001] = "?????"
+shipUImodu_supershipMK71UITXT[002] = "?????"
+shipUImodu_supershipMK71UITXT[003] = "?????"
+shipUImodu_supershipMK71UITXT[004] = "?????"
+shipUImodu_supershipMK71UITXT[005] = "?????"
 
 shipUIhgn_busnewship211UITXT = {}
-shipUIhgn_busnewship211UITXT[001] = "°Ú¶ÉÈË"
-shipUIhgn_busnewship211UITXT[002] = "ËÍÔáÕß"
-shipUIhgn_busnewship211UITXT[003] = "Ñ³µÀÕß"
-shipUIhgn_busnewship211UITXT[004] = "ÆÆÈĞ½Ø»÷»úÁãºÅ"
-shipUIhgn_busnewship211UITXT[005] = "ÆÆÈĞ½Ø»÷»úÁãºÅºäÕ¨ĞÍ"
-shipUIhgn_busnewship211UITXT[006] = "·â×°µÄÇáĞÍÕ½¶·»ú×é¼ş"
+shipUIhgn_busnewship211UITXT[001] = "???"
+shipUIhgn_busnewship211UITXT[002] = "???"
+shipUIhgn_busnewship211UITXT[003] = "???"
+shipUIhgn_busnewship211UITXT[004] = "???????"
+shipUIhgn_busnewship211UITXT[005] = "??????????"
+shipUIhgn_busnewship211UITXT[006] = "??????????"
 
 
 shipUIhgn_busnewship391UITXT = {}
-shipUIhgn_busnewship391UITXT[001] = "Èı²æêªD·´½¢ĞÍ"
-shipUIhgn_busnewship391UITXT[002] = "Èı²æêªD·´½¢ĞÍ"
-shipUIhgn_busnewship391UITXT[003] = "ÊØ»¤Õß"
-shipUIhgn_busnewship391UITXT[004] = "»Ë»ğ¼¶Õ½¶·ºäÕ¨»ú"
-shipUIhgn_busnewship391UITXT[005] = "´óÌúºĞÇ°ÏßÖ§Ô®»ú"
+shipUIhgn_busnewship391UITXT[001] = "???D???"
+shipUIhgn_busnewship391UITXT[002] = "???D???"
+shipUIhgn_busnewship391UITXT[003] = "???"
+shipUIhgn_busnewship391UITXT[004] = "????????"
+shipUIhgn_busnewship391UITXT[005] = "????????"
 
 
 shipUIxao_supercarrier1UITXT = {}
-shipUIxao_supercarrier1UITXT[001] = "À×Äñ³¬ÖØĞÍºäÕ¨»ú"
-shipUIxao_supercarrier1UITXT[002] = "Ç¾Ş±Ê³ÈËöğ"
-shipUIxao_supercarrier1UITXT[003] = "º¬¹â¸Ä"
-shipUIxao_supercarrier1UITXT[004] = "·â×°µÄÅÚÍ§×é¼ş"
-shipUIxao_supercarrier1UITXT[005] = "·ÉïÚºäÕ¨»ú"
-shipUIxao_supercarrier1UITXT[006] = "·â×°µÄÇáĞÍÕ½¶·»ú×é¼ş"
+shipUIxao_supercarrier1UITXT[001] = "????????"
+shipUIxao_supercarrier1UITXT[002] = "?????"
+shipUIxao_supercarrier1UITXT[003] = "???"
+shipUIxao_supercarrier1UITXT[004] = "???????"
+shipUIxao_supercarrier1UITXT[005] = "?????"
+shipUIxao_supercarrier1UITXT[006] = "??????????"
 
 
 shipUImodu_battlecruiseradventure1UITXT = {}
-shipUImodu_battlecruiseradventure1UITXT[001] = "Íäµ¶Õ½¶·»ú"
-shipUImodu_battlecruiseradventure1UITXT[002] = "ÖØĞÍÎŞÈË»ú"
-shipUImodu_battlecruiseradventure1UITXT[003] = "ĞşÄñ¼¶Õì²ì»ú"
-shipUImodu_battlecruiseradventure1UITXT[004] = "»Ë»ğ¼¶Õ½¶·ºäÕ¨»ú"
-shipUImodu_battlecruiseradventure1UITXT[005] = "´óÌúºĞÇ°ÏßÖ§Ô®»ú"
+shipUImodu_battlecruiseradventure1UITXT[001] = "?????"
+shipUImodu_battlecruiseradventure1UITXT[002] = "?????"
+shipUImodu_battlecruiseradventure1UITXT[003] = "??????"
+shipUImodu_battlecruiseradventure1UITXT[004] = "????????"
+shipUImodu_battlecruiseradventure1UITXT[005] = "????????"
 
 shipUIvgr_supercarrier1UITXT = {}
-shipUIvgr_supercarrier1UITXT[001] = "ÆÆÈĞ½Ø»÷»ú"
-shipUIvgr_supercarrier1UITXT[002] = "»ÃÏóIXÔ¶É½"
-shipUIvgr_supercarrier1UITXT[003] = "»ÃÏóXIÊ¥²ÃÕ½¶·»ú"
-shipUIvgr_supercarrier1UITXT[004] = "ĞÂÔÂ½â·ÅÕß"
-shipUIvgr_supercarrier1UITXT[005] = "¹âÔÎ"
+shipUIvgr_supercarrier1UITXT[001] = "?????"
+shipUIvgr_supercarrier1UITXT[002] = "??IX??"
+shipUIvgr_supercarrier1UITXT[003] = "??XI?????"
+shipUIvgr_supercarrier1UITXT[004] = "?????"
+shipUIvgr_supercarrier1UITXT[005] = "??"
 
 shipUImodu_battlecruiseradventure1UITXT = {}
-shipUImodu_battlecruiseradventure1UITXT[001] = "Íäµ¶½¢ÔØ»ú"
-shipUImodu_battlecruiseradventure1UITXT[002] = "Ã¹¾úÅÚÍ§"
-shipUImodu_battlecruiseradventure1UITXT[003] = "³¤Ã¬½Ø»÷»ú"
-shipUImodu_battlecruiseradventure1UITXT[004] = "Íäµ¶ºäÕ¨»ú"
-shipUImodu_battlecruiseradventure1UITXT[005] = "Ã¹¾úµ¼µ¯Í§"
+shipUImodu_battlecruiseradventure1UITXT[001] = "?????"
+shipUImodu_battlecruiseradventure1UITXT[002] = "????"
+shipUImodu_battlecruiseradventure1UITXT[003] = "?????"
+shipUImodu_battlecruiseradventure1UITXT[004] = "?????"
+shipUImodu_battlecruiseradventure1UITXT[005] = "?????"
 
 
 
 shipUIxao_dreadnaughtmissle1UITXT = {}
-shipUIxao_dreadnaughtmissle1UITXT[001] = "ÂüÍÓÂŞ"
-shipUIxao_dreadnaughtmissle1UITXT[002] = "Ê¯õúÀ¼·À¿Õ"
-shipUIxao_dreadnaughtmissle1UITXT[003] = "²¨ÌúÑÇÕ½»ú¼¶Í»»÷±ø×°"
-shipUIxao_dreadnaughtmissle1UITXT[004] = "»Ë»ğ¼¶Õ½¶·ºäÕ¨»ú"
-shipUIxao_dreadnaughtmissle1UITXT[005] = "´óÌúºĞÇ°ÏßÖ§Ô®»ú"
+shipUIxao_dreadnaughtmissle1UITXT[001] = "???"
+shipUIxao_dreadnaughtmissle1UITXT[002] = "?????"
+shipUIxao_dreadnaughtmissle1UITXT[003] = "??????????"
+shipUIxao_dreadnaughtmissle1UITXT[004] = "????????"
+shipUIxao_dreadnaughtmissle1UITXT[005] = "????????"
 
 shipUIhgn_busnewship781UITXT = {}
-shipUIhgn_busnewship781UITXT[001] = "ÀÃÌÀÔ²¼¶ÎŞÈË»ú"
-shipUIhgn_busnewship781UITXT[002] = "ÖØĞÍÎŞÈË»ú"
-shipUIhgn_busnewship781UITXT[003] = "ĞşÄñ¼¶Õì²ì»ú"
-shipUIhgn_busnewship781UITXT[004] = "»Ë»ğ¼¶Õ½¶·ºäÕ¨»ú"
-shipUIhgn_busnewship781UITXT[005] = "´óÌúºĞÇ°ÏßÖ§Ô®»ú"
+shipUIhgn_busnewship781UITXT[001] = "???????"
+shipUIhgn_busnewship781UITXT[002] = "?????"
+shipUIhgn_busnewship781UITXT[003] = "??????"
+shipUIhgn_busnewship781UITXT[004] = "????????"
+shipUIhgn_busnewship781UITXT[005] = "????????"
 
 
 shipUIhgn_busnewship571UITXT = {}
-shipUIhgn_busnewship571UITXT[001] = "ĞşÄñ¼¶Õì²ì»ú"
-shipUIhgn_busnewship571UITXT[002] = "ÌìÕ¶ÅÚÍ§"
-shipUIhgn_busnewship571UITXT[003] = "²¨ÌúÑÇÕ½»ú¼¶Í»»÷±ø×°"
-shipUIhgn_busnewship571UITXT[004] = "»Ë»ğ¼¶Õ½¶·ºäÕ¨»ú"
-shipUIhgn_busnewship571UITXT[005] = "´óÌúºĞÇ°ÏßÖ§Ô®»ú"
+shipUIhgn_busnewship571UITXT[001] = "??????"
+shipUIhgn_busnewship571UITXT[002] = "????"
+shipUIhgn_busnewship571UITXT[003] = "??????????"
+shipUIhgn_busnewship571UITXT[004] = "????????"
+shipUIhgn_busnewship571UITXT[005] = "????????"
 
 shipUIhgn_busnewship671UITXT = {}
-shipUIhgn_busnewship671UITXT[001] = "Íäµ¶Õ½¶·»ú"
-shipUIhgn_busnewship671UITXT[002] = "³¤Ã¬½Ø»÷»ú"
-shipUIhgn_busnewship671UITXT[003] = "¶ÉÑ»ºäÕ¨»ú"
-shipUIhgn_busnewship671UITXT[004] = "³¤Ã¬½Ø»÷»úºäÕ¨"
-shipUIhgn_busnewship671UITXT[005] = "·ÉÁúºäÕ¨»ú"
+shipUIhgn_busnewship671UITXT[001] = "?????"
+shipUIhgn_busnewship671UITXT[002] = "?????"
+shipUIhgn_busnewship671UITXT[003] = "?????"
+shipUIhgn_busnewship671UITXT[004] = "???????"
+shipUIhgn_busnewship671UITXT[005] = "?????"
 
 shipUIhgn_busnewship661UITXT = {}
-shipUIhgn_busnewship661UITXT[001] = "Íäµ¶Õ½¶·»ú"
-shipUIhgn_busnewship661UITXT[002] = "Ã¹¾úÖØÅÚÍ§"
-shipUIhgn_busnewship661UITXT[003] = "³¤Ã¬½Ø»÷»ú"
-shipUIhgn_busnewship661UITXT[004] = "Íäµ¶ºäÕ¨»ú"
-shipUIhgn_busnewship661UITXT[005] = "¶ÉÑ»ºäÕ¨»ú"
+shipUIhgn_busnewship661UITXT[001] = "?????"
+shipUIhgn_busnewship661UITXT[002] = "?????"
+shipUIhgn_busnewship661UITXT[003] = "?????"
+shipUIhgn_busnewship661UITXT[004] = "?????"
+shipUIhgn_busnewship661UITXT[005] = "?????"
 
 
 shipUIhgn_busnewship481UITXT = {}
-shipUIhgn_busnewship481UITXT[001] = "Íäµ¶Õ½¶·»ú"
-shipUIhgn_busnewship481UITXT[002] = "Ã¹¾úÖØÅÚÍ§"
-shipUIhgn_busnewship481UITXT[003] = "³¤Ã¬½Ø»÷»ú"
-shipUIhgn_busnewship481UITXT[004] = "Íäµ¶ºäÕ¨»ú"
-shipUIhgn_busnewship481UITXT[005] = "¶ÉÑ»ºäÕ¨»ú"
+shipUIhgn_busnewship481UITXT[001] = "?????"
+shipUIhgn_busnewship481UITXT[002] = "?????"
+shipUIhgn_busnewship481UITXT[003] = "?????"
+shipUIhgn_busnewship481UITXT[004] = "?????"
+shipUIhgn_busnewship481UITXT[005] = "?????"
 
 
 shipUImodu_supershipcarrierC1UITXT = {}
-shipUImodu_supershipcarrierC1UITXT[001] = "½â·ÅÕß"
-shipUImodu_supershipcarrierC1UITXT[002] = "Èı²æêªD·´½¢"
-shipUImodu_supershipcarrierC1UITXT[003] = "Èı²æêªD·´½¢"
-shipUImodu_supershipcarrierC1UITXT[004] = "Èı²æêªD·´½¢"
-shipUImodu_supershipcarrierC1UITXT[005] = "Èı²æêªD·´½¢"
+shipUImodu_supershipcarrierC1UITXT[001] = "???"
+shipUImodu_supershipcarrierC1UITXT[002] = "???D??"
+shipUImodu_supershipcarrierC1UITXT[003] = "???D??"
+shipUImodu_supershipcarrierC1UITXT[004] = "???D??"
+shipUImodu_supershipcarrierC1UITXT[005] = "???D??"
 
 shipUImodu_supershipcarrier1UITXT = {}
-shipUImodu_supershipcarrier1UITXT[001] = "ÊØ»¤Õß"
-shipUImodu_supershipcarrier1UITXT[002] = "ÆÆÈĞ½Ø»÷»úÁãºÅĞÍ"
-shipUImodu_supershipcarrier1UITXT[003] = "ÆÆÈĞ½Ø»÷»úÁãºÅºäÕ¨ĞÍ"
-shipUImodu_supershipcarrier1UITXT[004] = "Èı²æêªD·´½¢ĞÍ"
-shipUImodu_supershipcarrier1UITXT[005] = "»ÃÏó"
+shipUImodu_supershipcarrier1UITXT[001] = "???"
+shipUImodu_supershipcarrier1UITXT[002] = "????????"
+shipUImodu_supershipcarrier1UITXT[003] = "??????????"
+shipUImodu_supershipcarrier1UITXT[004] = "???D???"
+shipUImodu_supershipcarrier1UITXT[005] = "??"
 
 shipUIxao_carrierheavyathenaQ1UITXT = {}
-shipUIxao_carrierheavyathenaQ1UITXT[001] = "AN-1KĞÍÖØĞÍÕ½¶·»ú"
-shipUIxao_carrierheavyathenaQ1UITXT[002] = "KĞÍÎŞÈËÕ½¶·»ú"
-shipUIxao_carrierheavyathenaQ1UITXT[003] = "Á÷ĞÇÕ½¶·»ú¸Ä¶ş"
-shipUIxao_carrierheavyathenaQ1UITXT[004] = "Á÷ĞÇÕ½¶·»ú"
-shipUIxao_carrierheavyathenaQ1UITXT[005] = "Ï¬Å£Îä×°ÔËÊäÍ§"
+shipUIxao_carrierheavyathenaQ1UITXT[001] = "AN-1K??????"
+shipUIxao_carrierheavyathenaQ1UITXT[002] = "K??????"
+shipUIxao_carrierheavyathenaQ1UITXT[003] = "???????"
+shipUIxao_carrierheavyathenaQ1UITXT[004] = "?????"
+shipUIxao_carrierheavyathenaQ1UITXT[005] = "???????"
 
 shipUIhgn_busnewship861UITXT = {}
-shipUIhgn_busnewship861UITXT[001] = "ÖìÈ¸¼¶Õ½¶·ºäÕ¨ÎŞÈË»ú"
-shipUIhgn_busnewship861UITXT[002] = "ÖìÈ¸¼¶Õ½¶·ºäÕ¨ÎŞÈË»ú"
-shipUIhgn_busnewship861UITXT[003] = "ÖìÈ¸¼¶Õ½¶·ºäÕ¨ÎŞÈË»ú"
-shipUIhgn_busnewship861UITXT[004] = "ÖìÈ¸¼¶Õ½¶·ºäÕ¨ÎŞÈË»ú"
-shipUIhgn_busnewship861UITXT[005] = "ÖìÈ¸¼¶Õ½¶·ºäÕ¨ÎŞÈË»ú"
+shipUIhgn_busnewship861UITXT[001] = "??????????"
+shipUIhgn_busnewship861UITXT[002] = "??????????"
+shipUIhgn_busnewship861UITXT[003] = "??????????"
+shipUIhgn_busnewship861UITXT[004] = "??????????"
+shipUIhgn_busnewship861UITXT[005] = "??????????"
 
 shipUIhgn_busnewship791UIAATXT = {}
-shipUIhgn_busnewship791UIAATXT[001] = "µÛÕ÷ĞÍ½ÚµãÕ½»ú-á°ÑÀ"
-shipUIhgn_busnewship791UIAATXT[002] = "ÎÀÉßĞÍÎŞÈË»ú-ÌìÇã"
-shipUIhgn_busnewship791UIAATXT[003] = "ÎÀÉßĞÍÎŞÈË»ú-ÌìÇã"
-shipUIhgn_busnewship791UIAATXT[004] = "ÎÀÉßĞÍÎŞÈË»ú-ÌìÇã"
-shipUIhgn_busnewship791UIAATXT[005] = "µÛÕ÷ĞÍ½ÚµãÕ½»ú-»Ô½ç"
+shipUIhgn_busnewship791UIAATXT[001] = "???????-??"
+shipUIhgn_busnewship791UIAATXT[002] = "??????-??"
+shipUIhgn_busnewship791UIAATXT[003] = "??????-??"
+shipUIhgn_busnewship791UIAATXT[004] = "??????-??"
+shipUIhgn_busnewship791UIAATXT[005] = "???????-??"
 
 shipUIhgn_busnewship791UIBOTXT = {}
-shipUIhgn_busnewship791UIBOTXT[001] = "µÛÕ÷ĞÍ½ÚµãÕ½»ú-ÁúéÃ"
-shipUIhgn_busnewship791UIBOTXT[002] = "ÎÀÉßĞÍÎŞÈË»ú-ê×ĞÇ"
-shipUIhgn_busnewship791UIBOTXT[003] = "ÎÀÉßĞÍÎŞÈË»ú-ê×ĞÇ"
-shipUIhgn_busnewship791UIBOTXT[004] = "ÎÀÉßĞÍÎŞÈË»ú-ê×ĞÇ"
-shipUIhgn_busnewship791UIBOTXT[005] = "µÛÕ÷ĞÍ½ÚµãÕ½»ú-»Ô½ç"
+shipUIhgn_busnewship791UIBOTXT[001] = "???????-??"
+shipUIhgn_busnewship791UIBOTXT[002] = "??????-??"
+shipUIhgn_busnewship791UIBOTXT[003] = "??????-??"
+shipUIhgn_busnewship791UIBOTXT[004] = "??????-??"
+shipUIhgn_busnewship791UIBOTXT[005] = "???????-??"
 
 shipUIhgn_busnewship801UITXT = {}
-shipUIhgn_busnewship801UITXT[001] = "µÛÕ÷ĞÍ½ÚµãÕ½»ú-á°ÑÀ"
-shipUIhgn_busnewship801UITXT[002] = "µÛÕ÷ĞÍ½ÚµãÕ½»ú-ÁúéÃ"
-shipUIhgn_busnewship801UITXT[003] = "ÎÀÉßĞÍÎŞÈË»ú-ÌìÇã"
-shipUIhgn_busnewship801UITXT[004] = "ÎÀÉßĞÍÎŞÈË»ú-ê×ĞÇ"
-shipUIhgn_busnewship801UITXT[005] = "µÛÕ÷ĞÍ½ÚµãÕ½»ú-»Ô½ç"
+shipUIhgn_busnewship801UITXT[001] = "???????-??"
+shipUIhgn_busnewship801UITXT[002] = "???????-??"
+shipUIhgn_busnewship801UITXT[003] = "??????-??"
+shipUIhgn_busnewship801UITXT[004] = "??????-??"
+shipUIhgn_busnewship801UITXT[005] = "???????-??"
 
 mapattacksystemMAP = {}
-mapattacksystemMAP[001] = "·ÆÑÅÀûÖ®ÃÅ"
-mapattacksystemMAP[002] = "µÛ¹úÖ³ÃñÇø"
-mapattacksystemMAP[003] = "µÛ¹ú²É¿óµã"
-mapattacksystemMAP[004] = "µÛ¹úÌ«¿ÕÅ©³¡Èº"
-mapattacksystemMAP[005] = "µÛ¹úÇ°Ïß½¢¶Ó¼¯½áµØ"
-mapattacksystemMAP[006] = "·ÆÑÅÀûµÛ¹ú´¬ÎëÈº"
-mapattacksystemMAP[007] = "Ì¹ÄáË¹"
-mapattacksystemMAP[008] = "ÈûÀÕÄ·"
-mapattacksystemMAP[009] = "Ï£¸ñÀ­Ê×ĞÇ"
-mapattacksystemMAP[010] = "ÌìÊ¹Ö®ÔÂ"
-mapattacksystemMAP[011] = "µÚ142ºÅÇ°ÉÚ»ùµØ"
-mapattacksystemMAP[012] = "Äá¸£¶ûº£Ä·"
-mapattacksystemMAP[013] = "ºÕ¶ûº£ÀûÄ·"
-mapattacksystemMAP[014] = "ÒÏ³²½¢¶Ó»î¶¯Çø"
-mapattacksystemMAP[015] = "°¢ÒòÌØË¹½¢¶Ó¶¨Ãªµã"
-mapattacksystemMAP[016] = "ĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹"
-mapattacksystemMAP[017] = "Î¬¸ñ¶û¶«Ïß¾ü·§»î¶¯Çø"
-mapattacksystemMAP[018] = "Î¬¸ñ¶û¶«Ïß¾ü·§¿ØÖÆÇø"
-mapattacksystemMAP[019] = "¿¨¶òË¹ÁªÃË¡ªÇ°ÏßÉÚÕ¾"
-mapattacksystemMAP[020] = "¿¨¶òË¹ÁªÃË¡ªÀû±´¶û¹²ºÍ¹ú"
-mapattacksystemMAP[021] = "¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØ"
-mapattacksystemMAP[022] = "×·ÒäÖ®Í¥ÖØ¹¤×Ü²¿´¬Îë"
-mapattacksystemMAP[023] = "¿¨¶òË¹ÁªÃË»ìãçÉÌÈË"
-mapattacksystemMAP[024] = "µÚ58ÌØ»ì½¢¶Ó¼¯½áµØ"
-mapattacksystemMAP[025] = "¿¨¶òË¹ÓÀÉúÕßÌ½Ë÷Ö®³õ"
-mapattacksystemMAP[026] = "ÏÈ×æÒÅ¼£"
-mapattacksystemMAP[027] = "¿¨À­¿ËĞĞĞÇ"
-mapattacksystemMAP[028] = "¿¨¶òË¹ÁªÃË¡ªÊ³ÓÃÓÍ¶¯Á¦´¬Îë"
-mapattacksystemMAP[029] = "°¢ÍßËşĞ­»áÌ½Ë÷½¢¶Ó×¤µØ"
-mapattacksystemMAP[030] = "ÍßÄÉº£Ä·"
-mapattacksystemMAP[031] = "ÅµÑÇ¿âÉêÁªºÏ¹¤ÒµÔ°"
-mapattacksystemMAP[032] = "¿ª·¢´úºÅ¡¤°¢Ë¹Áá"
-mapattacksystemMAP[033] = "²ÔĞÇÕ½ÍÅÑ²º½×ø±ê"
-mapattacksystemMAP[034] = "°µÇø"
-mapattacksystemMAP[035] = "CPSRÓÎ»ê½¢¶Ó×¤µØ"
+mapattacksystemMAP[001] = "?????"
+mapattacksystemMAP[002] = "?????"
+mapattacksystemMAP[003] = "?????"
+mapattacksystemMAP[004] = "???????"
+mapattacksystemMAP[005] = "?????????"
+mapattacksystemMAP[006] = "????????"
+mapattacksystemMAP[007] = "???"
+mapattacksystemMAP[008] = "???"
+mapattacksystemMAP[009] = "?????"
+mapattacksystemMAP[010] = "????"
+mapattacksystemMAP[011] = "?142?????"
+mapattacksystemMAP[012] = "?????"
+mapattacksystemMAP[013] = "?????"
+mapattacksystemMAP[014] = "???????"
+mapattacksystemMAP[015] = "?????????"
+mapattacksystemMAP[016] = "????????"
+mapattacksystemMAP[017] = "??????????"
+mapattacksystemMAP[018] = "??????????"
+mapattacksystemMAP[019] = "?????—????"
+mapattacksystemMAP[020] = "?????—??????"
+mapattacksystemMAP[021] = "?????—????"
+mapattacksystemMAP[022] = "??????????"
+mapattacksystemMAP[023] = "?????????"
+mapattacksystemMAP[024] = "?58???????"
+mapattacksystemMAP[025] = "??????????"
+mapattacksystemMAP[026] = "????"
+mapattacksystemMAP[027] = "?????"
+mapattacksystemMAP[028] = "?????—???????"
+mapattacksystemMAP[029] = "???????????"
+mapattacksystemMAP[030] = "????"
+mapattacksystemMAP[031] = "?????????"
+mapattacksystemMAP[032] = "????·???"
+mapattacksystemMAP[033] = "????????"
+mapattacksystemMAP[034] = "??"
+mapattacksystemMAP[035] = "CPSR??????"
 
 mapgoodsystemMAPname = {}
 mapgoodsystemMAPname[000] = ""
-mapgoodsystemMAPname[001] = "·ÆÑÅÀûÖ®ÃÅ"
-mapgoodsystemMAPname[002] = "µÛ¹úÖ³ÃñÇø"
-mapgoodsystemMAPname[003] = "µÛ¹ú²É¿óµã"
-mapgoodsystemMAPname[004] = "Ì¹ÄáË¹"
-mapgoodsystemMAPname[005] = "ÈûÀÕÄ·"
-mapgoodsystemMAPname[006] = "Ï£¸ñÀ­Ê×ĞÇ"
-mapgoodsystemMAPname[007] = "ÌìÊ¹Ö®ÔÂ"
-mapgoodsystemMAPname[008] = "µÚ142ºÅÇ°ÉÚ»ùµØ"
-mapgoodsystemMAPname[009] = "ÑÇ¼ÓË¹Ç°ÉÚÕ¾"
-mapgoodsystemMAPname[010] = "Ë÷µÂÀ­¸ù°µ½¸ÖæÓò"
-mapgoodsystemMAPname[011] = "°¢À³ÅµÑÇ¿Õ¼ä´¬ÎëÈºÖÜ±ß"
-mapgoodsystemMAPname[012] = "Ö³ÃñĞĞĞÇÂê¼ÓÈø"
-mapgoodsystemMAPname[013] = "°ÍËşÀû°²Õ½½¢·Ø³¡"
-mapgoodsystemMAPname[014] = "Äá¸£¶ûº£Ä·"
-mapgoodsystemMAPname[015] = "ºÕ¶ûº£ÀûÄ·"
-mapgoodsystemMAPname[016] = "ÏÈ×æÒÅ¼£"
-mapgoodsystemMAPname[017] = "¶ÀÁ¢ĞÇÇø"
-mapgoodsystemMAPname[018] = "µÛ¹úÌ«¿ÕÅ©³¡Èº"
-mapgoodsystemMAPname[019] = "µÛ¹úÇ°Ïß½¢¶Ó¼¯½áµØ"
-mapgoodsystemMAPname[020] = "Î¬¸ñ¶ûº£µÁá÷ÁÔ³¡"
-mapgoodsystemMAPname[021] = "ÑÇ»ùÄÉ´Ä³æ×å³²Èº"
-mapgoodsystemMAPname[022] = "Í¼À­Äáº£µÁ»î¶¯Çø"
-mapgoodsystemMAPname[023] = "¿¨µÂÊ²´ó½ÌÌÃ"
-mapgoodsystemMAPname[024] = "¿¨À­¿ËĞĞĞÇ"
-mapgoodsystemMAPname[025] = "Ì©ÍßÂ×¹²ºÍ¹ú±ß¾³"
-mapgoodsystemMAPname[026] = "·ÆÑÅÀûµÛ¹ú´¬ÎëÈº"
-mapgoodsystemMAPname[027] = "³¯Ê¥Õß»î¶¯Çø"
-mapgoodsystemMAPname[028] = "Î¬¸ñ¶û¶«Ïß¾ü·§»î¶¯Çø"
-mapgoodsystemMAPname[029] = "Î¬¸ñ¶û¶«Ïß¾ü·§¿ØÖÆÇø"
-mapgoodsystemMAPname[030] = "EDF¿ØÖÆÇø"
-mapgoodsystemMAPname[031] = "ÒÏ³²½¢¶Ó»î¶¯Çø"
-mapgoodsystemMAPname[032] = "Äª¶ûµÏ»ù°²´ó¾ı±ß¾³"
-mapgoodsystemMAPname[033] = "¿¨¶òË¹ÁªÃË¡ªÇ°ÏßÉÚÕ¾"
-mapgoodsystemMAPname[034] = "¿¨¶òË¹ÁªÃË¡ªÀû±´¶û¹²ºÍ¹ú"
-mapgoodsystemMAPname[035] = "¿¨¶òË¹ÁªÃË¡ªÁªºÏ²´µØ"
-mapgoodsystemMAPname[036] = "×·ÒäÖ®Í¥ÖØ¹¤×Ü²¿´¬Îë"
-mapgoodsystemMAPname[037] = "¿¨¶òË¹ÁªÃË»ìãçÉÌÈË"
-mapgoodsystemMAPname[038] = "µÚ58ÌØ»ì½¢¶Ó¼¯½áµØ"
-mapgoodsystemMAPname[039] = "¿¨¶òË¹ÓÀÉúÕßÌ½Ë÷Ö®³õ"
-mapgoodsystemMAPname[040] = "°¢ÒòÌØË¹½¢¶Ó¶¨Ãªµã"
-mapgoodsystemMAPname[041] = "ĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹"
-mapgoodsystemMAPname[042] = "¿¨¶òË¹ÁªÃË¡ªÊ³ÓÃÓÍ¶¯Á¦´¬Îë"	
-mapgoodsystemMAPname[043] = "¿¨¶òË¹ÁªÃË¡ªÊ³ÓÃÓÍ¶¯Á¦´¬Îë"
-mapgoodsystemMAPname[044] = "°¢ÍßËşĞ­»áÌ½Ë÷½¢¶Ó×¤µØ"
-mapgoodsystemMAPname[045] = "ÍßÄÉº£Ä·"
-mapgoodsystemMAPname[046] = "ÅµÑÇ¿âÉêÁªºÏ¹¤ÒµÔ°"
-mapgoodsystemMAPname[047] = "¿ª·¢´úºÅ¡¤°¢Ë¹Áá"
-mapgoodsystemMAPname[048] = "²ÔĞÇÕ½ÍÅÑ²º½×ø±ê"
-mapgoodsystemMAPname[049] = "°µÇø"
-mapgoodsystemMAPname[050] = "CPSRÓÎ»ê½¢¶Ó×¤µØ"
+mapgoodsystemMAPname[001] = "?????"
+mapgoodsystemMAPname[002] = "?????"
+mapgoodsystemMAPname[003] = "?????"
+mapgoodsystemMAPname[004] = "???"
+mapgoodsystemMAPname[005] = "???"
+mapgoodsystemMAPname[006] = "?????"
+mapgoodsystemMAPname[007] = "????"
+mapgoodsystemMAPname[008] = "?142?????"
+mapgoodsystemMAPname[009] = "??????"
+mapgoodsystemMAPname[010] = "????????"
+mapgoodsystemMAPname[011] = "???????????"
+mapgoodsystemMAPname[012] = "???????"
+mapgoodsystemMAPname[013] = "????????"
+mapgoodsystemMAPname[014] = "?????"
+mapgoodsystemMAPname[015] = "?????"
+mapgoodsystemMAPname[016] = "????"
+mapgoodsystemMAPname[017] = "????"
+mapgoodsystemMAPname[018] = "???????"
+mapgoodsystemMAPname[019] = "?????????"
+mapgoodsystemMAPname[020] = "????????"
+mapgoodsystemMAPname[021] = "????????"
+mapgoodsystemMAPname[022] = "????????"
+mapgoodsystemMAPname[023] = "??????"
+mapgoodsystemMAPname[024] = "?????"
+mapgoodsystemMAPname[025] = "????????"
+mapgoodsystemMAPname[026] = "????????"
+mapgoodsystemMAPname[027] = "??????"
+mapgoodsystemMAPname[028] = "??????????"
+mapgoodsystemMAPname[029] = "??????????"
+mapgoodsystemMAPname[030] = "EDF???"
+mapgoodsystemMAPname[031] = "???????"
+mapgoodsystemMAPname[032] = "?????????"
+mapgoodsystemMAPname[033] = "?????—????"
+mapgoodsystemMAPname[034] = "?????—??????"
+mapgoodsystemMAPname[035] = "?????—????"
+mapgoodsystemMAPname[036] = "??????????"
+mapgoodsystemMAPname[037] = "?????????"
+mapgoodsystemMAPname[038] = "?58???????"
+mapgoodsystemMAPname[039] = "??????????"
+mapgoodsystemMAPname[040] = "?????????"
+mapgoodsystemMAPname[041] = "????????"
+mapgoodsystemMAPname[042] = "?????—???????"	
+mapgoodsystemMAPname[043] = "?????—???????"
+mapgoodsystemMAPname[044] = "???????????"
+mapgoodsystemMAPname[045] = "????"
+mapgoodsystemMAPname[046] = "?????????"
+mapgoodsystemMAPname[047] = "????·???"
+mapgoodsystemMAPname[048] = "????????"
+mapgoodsystemMAPname[049] = "??"
+mapgoodsystemMAPname[050] = "CPSR??????"
 
 mapgoodsystemMAPnameTXT = {}
 mapgoodsystemMAPnameTXT[000] = ","
-mapgoodsystemMAPnameTXT[001] = ",·ÆÑÅÀûÖ®ÃÅ"
-mapgoodsystemMAPnameTXT[002] = ",µÛ¹úÖ³ÃñÇø"
-mapgoodsystemMAPnameTXT[003] = ",µÛ¹ú²É¿óµã"
-mapgoodsystemMAPnameTXT[004] = ",Ì¹ÄáË¹"
-mapgoodsystemMAPnameTXT[005] = ",ÈûÀÕÄ·"
-mapgoodsystemMAPnameTXT[006] = ",Ï£¸ñÀ­Ê×ĞÇ"
-mapgoodsystemMAPnameTXT[007] = ",ÌìÊ¹Ö®ÔÂ"
-mapgoodsystemMAPnameTXT[008] = ",µÚ142ºÅÇ°ÉÚ»ùµØ"
-mapgoodsystemMAPnameTXT[009] = ",ÑÇ¼ÓË¹Ç°ÉÚÕ¾"
-mapgoodsystemMAPnameTXT[010] = ",Ë÷µÂÀ­¸ù°µ½¸ÖæÓò"
-mapgoodsystemMAPnameTXT[011] = ",°¢À³ÅµÑÇ¿Õ¼ä´¬ÎëÈºÖÜ±ß"
-mapgoodsystemMAPnameTXT[012] = ",Ö³ÃñĞĞĞÇÂê¼ÓÈø"
-mapgoodsystemMAPnameTXT[013] = ",°ÍËşÀû°²Õ½½¢·Ø³¡"
-mapgoodsystemMAPnameTXT[014] = ",Äá¸£¶ûº£Ä·"
-mapgoodsystemMAPnameTXT[015] = ",ºÕ¶ûº£ÀûÄ·"
-mapgoodsystemMAPnameTXT[016] = ",ÏÈ×æÒÅ¼£"
-mapgoodsystemMAPnameTXT[017] = ",¶ÀÁ¢ĞÇÇø"
-mapgoodsystemMAPnameTXT[018] = ",µÛ¹úÌ«¿ÕÅ©³¡Èº"
-mapgoodsystemMAPnameTXT[019] = ",µÛ¹úÇ°Ïß½¢¶Ó¼¯½áµØ"
-mapgoodsystemMAPnameTXT[020] = ",Î¬¸ñ¶ûº£µÁá÷ÁÔ³¡"
-mapgoodsystemMAPnameTXT[021] = ",ÑÇ»ùÄÉ´Ä³æ×å³²Èº"
-mapgoodsystemMAPnameTXT[022] = ",Í¼À­Äáº£µÁ»î¶¯Çø"
-mapgoodsystemMAPnameTXT[023] = ",¿¨µÂÊ²´ó½ÌÌÃ"
-mapgoodsystemMAPnameTXT[024] = ",¿¨À­¿ËĞĞĞÇ"
-mapgoodsystemMAPnameTXT[025] = ",Ì©ÍßÂ×¹²ºÍ¹ú±ß¾³"
-mapgoodsystemMAPnameTXT[026] = ",·ÆÑÅÀûµÛ¹ú´¬ÎëÈº"
-mapgoodsystemMAPnameTXT[027] = ",³¯Ê¥Õß»î¶¯Çø"
-mapgoodsystemMAPnameTXT[028] = ",¶«Ïß¾ü·§»î¶¯Çø"
-mapgoodsystemMAPnameTXT[029] = ",¶«Ïß¾ü·§¿ØÖÆÇø"
-mapgoodsystemMAPnameTXT[030] = ",EDF¿ØÖÆÇø"
-mapgoodsystemMAPnameTXT[031] = ",ÒÏ³²½¢¶Ó»î¶¯Çø"
-mapgoodsystemMAPnameTXT[032] = ",Äª¶ûµÏ»ù°²±ß¾³"
-mapgoodsystemMAPnameTXT[033] = ",¿¨¶òË¹Ç°ÏßÉÚÕ¾"
-mapgoodsystemMAPnameTXT[034] = ",¿¨¶òË¹Àû±´¶û¹²ºÍ¹ú"
-mapgoodsystemMAPnameTXT[035] = ",¿¨¶òË¹ÁªºÏ²´µØ"
-mapgoodsystemMAPnameTXT[036] = ",×·ÒäÖ®Í¥Îë"
-mapgoodsystemMAPnameTXT[037] = ",ÁªÃË»ìãçÉÌÈË"
-mapgoodsystemMAPnameTXT[038] = ",µÚ58ÌØ»ì½¢¶Ó"
-mapgoodsystemMAPnameTXT[039] = ",ÓÀÉúÕßÌ½Ë÷Ö®³õ"
-mapgoodsystemMAPnameTXT[040] = ",°¢ÒòÌØË¹Ãªµã"
-mapgoodsystemMAPnameTXT[041] = ",ĞÇÃÅ¶¼ÊĞ¸ñÀûÆÕË¹"
-mapgoodsystemMAPnameTXT[042] = ",¿¨¶òË¹ÁªÃË¡ªÊ³ÓÃÓÍ¶¯Á¦´¬Îë"	
-mapgoodsystemMAPnameTXT[043] = ",¿¨¶òË¹ÁªÃË¡ªÊ³ÓÃÓÍ¶¯Á¦´¬Îë"
-mapgoodsystemMAPnameTXT[044] = ",°¢ÍßËşĞ­»áÌ½Ë÷½¢¶Ó×¤µØ"
-mapgoodsystemMAPnameTXT[045] = ",ÍßÄÉº£Ä·"
-mapgoodsystemMAPnameTXT[046] = ",ÅµÑÇ¿âÉêÁªºÏ¹¤ÒµÔ°"
-mapgoodsystemMAPnameTXT[047] = ",¿ª·¢´úºÅ¡¤°¢Ë¹Áá"
-mapgoodsystemMAPnameTXT[048] = ",²ÔĞÇÕ½ÍÅÑ²º½×ø±ê"
-mapgoodsystemMAPnameTXT[049] = ",°µÇø"
-mapgoodsystemMAPnameTXT[050] = ",CPSRÓÎ»ê½¢¶Ó×¤µØ"
+mapgoodsystemMAPnameTXT[001] = ",?????"
+mapgoodsystemMAPnameTXT[002] = ",?????"
+mapgoodsystemMAPnameTXT[003] = ",?????"
+mapgoodsystemMAPnameTXT[004] = ",???"
+mapgoodsystemMAPnameTXT[005] = ",???"
+mapgoodsystemMAPnameTXT[006] = ",?????"
+mapgoodsystemMAPnameTXT[007] = ",????"
+mapgoodsystemMAPnameTXT[008] = ",?142?????"
+mapgoodsystemMAPnameTXT[009] = ",??????"
+mapgoodsystemMAPnameTXT[010] = ",????????"
+mapgoodsystemMAPnameTXT[011] = ",???????????"
+mapgoodsystemMAPnameTXT[012] = ",???????"
+mapgoodsystemMAPnameTXT[013] = ",????????"
+mapgoodsystemMAPnameTXT[014] = ",?????"
+mapgoodsystemMAPnameTXT[015] = ",?????"
+mapgoodsystemMAPnameTXT[016] = ",????"
+mapgoodsystemMAPnameTXT[017] = ",????"
+mapgoodsystemMAPnameTXT[018] = ",???????"
+mapgoodsystemMAPnameTXT[019] = ",?????????"
+mapgoodsystemMAPnameTXT[020] = ",????????"
+mapgoodsystemMAPnameTXT[021] = ",????????"
+mapgoodsystemMAPnameTXT[022] = ",????????"
+mapgoodsystemMAPnameTXT[023] = ",??????"
+mapgoodsystemMAPnameTXT[024] = ",?????"
+mapgoodsystemMAPnameTXT[025] = ",????????"
+mapgoodsystemMAPnameTXT[026] = ",????????"
+mapgoodsystemMAPnameTXT[027] = ",??????"
+mapgoodsystemMAPnameTXT[028] = ",???????"
+mapgoodsystemMAPnameTXT[029] = ",???????"
+mapgoodsystemMAPnameTXT[030] = ",EDF???"
+mapgoodsystemMAPnameTXT[031] = ",???????"
+mapgoodsystemMAPnameTXT[032] = ",???????"
+mapgoodsystemMAPnameTXT[033] = ",???????"
+mapgoodsystemMAPnameTXT[034] = ",?????????"
+mapgoodsystemMAPnameTXT[035] = ",???????"
+mapgoodsystemMAPnameTXT[036] = ",?????"
+mapgoodsystemMAPnameTXT[037] = ",??????"
+mapgoodsystemMAPnameTXT[038] = ",?58????"
+mapgoodsystemMAPnameTXT[039] = ",???????"
+mapgoodsystemMAPnameTXT[040] = ",??????"
+mapgoodsystemMAPnameTXT[041] = ",????????"
+mapgoodsystemMAPnameTXT[042] = ",?????—???????"	
+mapgoodsystemMAPnameTXT[043] = ",?????—???????"
+mapgoodsystemMAPnameTXT[044] = ",???????????"
+mapgoodsystemMAPnameTXT[045] = ",????"
+mapgoodsystemMAPnameTXT[046] = ",?????????"
+mapgoodsystemMAPnameTXT[047] = ",????·???"
+mapgoodsystemMAPnameTXT[048] = ",????????"
+mapgoodsystemMAPnameTXT[049] = ",??"
+mapgoodsystemMAPnameTXT[050] = ",CPSR??????"
 
 mapgoodsystemGOODname = {}
-mapgoodsystemGOODname[001] = "µÛ¹ú¿§·È"
-mapgoodsystemGOODname[002] = "µÛ¹úÅ®ÆÍ"
-mapgoodsystemGOODname[003] = "±ù¿ó"
-mapgoodsystemGOODname[004] = "´óĞÍ´¬Ìå×é¼ş"
-mapgoodsystemGOODname[005] = "Ğ¡ĞÍ´¬Ìå¹¹¼ş"
-mapgoodsystemGOODname[006] = "ÏÊ»îº£ÏÊ"
-mapgoodsystemGOODname[007] = "ÉñÊ¥Ö®Ï¢"
-mapgoodsystemGOODname[008] = "½ğÊô¿óÊ¯"
-mapgoodsystemGOODname[009] = "ÉñÊ¥Ö®Ï¢"
-mapgoodsystemGOODname[010] = "ÉñÊ¥Ö®Ï¢"
-mapgoodsystemGOODname[011] = "ÉñÊ¥Ö®Ï¢"
-mapgoodsystemGOODname[012] = "Éİ³ŞÆ·"
-mapgoodsystemGOODname[013] = "»úĞµÁã¼ş"
-mapgoodsystemGOODname[014] = "×Ô¶¯Î¬ĞŞ»úÆ÷ÈË"
-mapgoodsystemGOODname[015] = "ÕÂÓãÍè×Ó"
-mapgoodsystemGOODname[016] = "ÏÈ×æÒÅÎï"
-mapgoodsystemGOODname[017] = "ÉñÊ¥Ö®Ï¢"
-mapgoodsystemGOODname[018] = "ÈıÃ÷ÖÎ"
-mapgoodsystemGOODname[019] = "»ù´¡ĞŞÀí¹¤¾ß"
-mapgoodsystemGOODname[020] = "ÖĞĞÍÎäÆ÷Åä¼ş"
-mapgoodsystemGOODname[021] = "ÉñÊ¥Ö®Ï¢"
-mapgoodsystemGOODname[022] = "ÉñÊ¥Ö®Ï¢"
-mapgoodsystemGOODname[023] = "ÉñÊ¥Ö®Ï¢"
-mapgoodsystemGOODname[024] = "ÕäÏ§¿óÊ¯"
-mapgoodsystemGOODname[025] = "Éİ³ŞÆ·"
-mapgoodsystemGOODname[026] = "ÌØÖÖºÏ½ğ"
-mapgoodsystemGOODname[027] = "ºÚ°µÊ¥¾­"
-mapgoodsystemGOODname[028] = "Éİ»ª¼Ò¾ß"
-mapgoodsystemGOODname[029] = "´óĞÍÒıÇæ"
-mapgoodsystemGOODname[030] = "ÓÎ»÷Õ½Èı´ó¼ş"
-mapgoodsystemGOODname[031] = "ÒÏ¿ÇËØ"
-mapgoodsystemGOODname[032] = "´ó¾ıÓïÂ¼"
-mapgoodsystemGOODname[033] = "ÉúÎïµçÄÔ"
-mapgoodsystemGOODname[034] = "ÉñÊ¥Ö®Ï¢"
-mapgoodsystemGOODname[035] = "µç×ÓÔª¼ş"
-mapgoodsystemGOODname[036] = "¸ß¼¶ĞŞÀí¹¤¾ß"
-mapgoodsystemGOODname[037] = "ÁúĞëÃæ"
-mapgoodsystemGOODname[038] = "ÉñÊ¥Ö®Ï¢"
-mapgoodsystemGOODname[039] = "ÉñÊ¥Ö®Ï¢"
-mapgoodsystemGOODname[040] = "ÉñÊ¥Ö®Ï¢"
-mapgoodsystemGOODname[041] = "¹ÜÀíÔ±"
-mapgoodsystemGOODname[042] = "Ê³ÓÃÓÍ"
-mapgoodsystemGOODname[043] = "ÉñÊ¥Ö®Ï¢"
-mapgoodsystemGOODname[044] = "ºÏ³ÉÉñ¾­´Ø"
-mapgoodsystemGOODname[045] = "¸è¼§ÊÖ°ì"
-mapgoodsystemGOODname[046] = "ÉñÊ¥Ö®Ï¢"
-mapgoodsystemGOODname[047] = "±ø·ä¿ØÖÆÏµÍ³"
-mapgoodsystemGOODname[048] = "Ñ¹Ëõ½ºÄÒ"
-mapgoodsystemGOODname[049] = "ÉñÊ¥Ö®Ï¢"
-mapgoodsystemGOODname[050] = "¶ÀÑÛÈ«×Ô¶¯°²±£ÑÛÇò»úÆ÷ÈË"
+mapgoodsystemGOODname[001] = "????"
+mapgoodsystemGOODname[002] = "????"
+mapgoodsystemGOODname[003] = "??"
+mapgoodsystemGOODname[004] = "??????"
+mapgoodsystemGOODname[005] = "??????"
+mapgoodsystemGOODname[006] = "????"
+mapgoodsystemGOODname[007] = "????"
+mapgoodsystemGOODname[008] = "????"
+mapgoodsystemGOODname[009] = "????"
+mapgoodsystemGOODname[010] = "????"
+mapgoodsystemGOODname[011] = "????"
+mapgoodsystemGOODname[012] = "???"
+mapgoodsystemGOODname[013] = "????"
+mapgoodsystemGOODname[014] = "???????"
+mapgoodsystemGOODname[015] = "????"
+mapgoodsystemGOODname[016] = "????"
+mapgoodsystemGOODname[017] = "????"
+mapgoodsystemGOODname[018] = "???"
+mapgoodsystemGOODname[019] = "??????"
+mapgoodsystemGOODname[020] = "??????"
+mapgoodsystemGOODname[021] = "????"
+mapgoodsystemGOODname[022] = "????"
+mapgoodsystemGOODname[023] = "????"
+mapgoodsystemGOODname[024] = "????"
+mapgoodsystemGOODname[025] = "???"
+mapgoodsystemGOODname[026] = "????"
+mapgoodsystemGOODname[027] = "????"
+mapgoodsystemGOODname[028] = "????"
+mapgoodsystemGOODname[029] = "????"
+mapgoodsystemGOODname[030] = "??????"
+mapgoodsystemGOODname[031] = "???"
+mapgoodsystemGOODname[032] = "????"
+mapgoodsystemGOODname[033] = "????"
+mapgoodsystemGOODname[034] = "????"
+mapgoodsystemGOODname[035] = "????"
+mapgoodsystemGOODname[036] = "??????"
+mapgoodsystemGOODname[037] = "???"
+mapgoodsystemGOODname[038] = "????"
+mapgoodsystemGOODname[039] = "????"
+mapgoodsystemGOODname[040] = "????"
+mapgoodsystemGOODname[041] = "???"
+mapgoodsystemGOODname[042] = "???"
+mapgoodsystemGOODname[043] = "????"
+mapgoodsystemGOODname[044] = "?????"
+mapgoodsystemGOODname[045] = "????"
+mapgoodsystemGOODname[046] = "????"
+mapgoodsystemGOODname[047] = "??????"
+mapgoodsystemGOODname[048] = "????"
+mapgoodsystemGOODname[049] = "????"
+mapgoodsystemGOODname[050] = "????????????"
 
 
 mapfactorysystemfactoryname = {}
-mapfactorysystemfactoryname[001] = "µÛ¹ú¿§·È¼Ó¹¤³§"
-mapfactorysystemfactoryname[002] = "µÛ¹úÅ®ÆÍÅàÑµÉèÊ©"
-mapfactorysystemfactoryname[003] = "±ù¿ó²É¼¯Õ¾"
-mapfactorysystemfactoryname[004] = "´óĞÍ´¬Ìå×é¼ş¼Ó¹¤³§"
-mapfactorysystemfactoryname[005] = "Ğ¡ĞÍ´¬Ìå¹¹¼ş¼Ó¹¤³§"
-mapfactorysystemfactoryname[006] = "ÏÊ»îº£ÏÊÅàÑø²Û"
-mapfactorysystemfactoryname[007] = "ÉñÊ¥Ö®Ï¢"
-mapfactorysystemfactoryname[008] = "½ğÊô¿óÊ¯²É¼¯Õ¾"
-mapfactorysystemfactoryname[009] = "ÉñÊ¥Ö®Ï¢"
-mapfactorysystemfactoryname[010] = "ÉñÊ¥Ö®Ï¢"
-mapfactorysystemfactoryname[011] = "ÉñÊ¥Ö®Ï¢"
-mapfactorysystemfactoryname[012] = "Éİ³ŞÆ·¼Ó¹¤³§"
-mapfactorysystemfactoryname[013] = "»úĞµÁã¼ş¼Ó¹¤³§"
-mapfactorysystemfactoryname[014] = "×Ô¶¯Î¬ĞŞ»úÆ÷ÈË¼Ó¹¤³§"
-mapfactorysystemfactoryname[015] = "ÕÂÓãÍè×Ó¼Ó¹¤³§"
-mapfactorysystemfactoryname[016] = "ÏÈ×æÒÅÎï²É¼¯Õ¾"
-mapfactorysystemfactoryname[017] = "ÉñÊ¥Ö®Ï¢"
-mapfactorysystemfactoryname[018] = "ÈıÃ÷ÖÎ¼Ó¹¤³§"
-mapfactorysystemfactoryname[019] = "»ù´¡ĞŞÀí¹¤¾ß¼Ó¹¤³§"
-mapfactorysystemfactoryname[020] = "ÖĞĞÍÎäÆ÷Åä¼ş¼Ó¹¤³§"
-mapfactorysystemfactoryname[021] = "ÉñÊ¥Ö®Ï¢"
-mapfactorysystemfactoryname[022] = "ÉñÊ¥Ö®Ï¢"
-mapfactorysystemfactoryname[023] = "ÉñÊ¥Ö®Ï¢"
-mapfactorysystemfactoryname[024] = "ÕäÏ§¿óÊ¯²É¼¯Õ¾"
-mapfactorysystemfactoryname[025] = "Éİ³ŞÆ·¼Ó¹¤³§"
-mapfactorysystemfactoryname[026] = "ÌØÖÖºÏ½ğ¼Ó¹¤³§"
-mapfactorysystemfactoryname[027] = "ºÚ°µÊ¥¾­¸´¿Ì³§"
-mapfactorysystemfactoryname[028] = "Éİ»ª¼Ò¾ß¼Ó¹¤³§"
-mapfactorysystemfactoryname[029] = "´óĞÍÒıÇæ¼Ó¹¤³§"
-mapfactorysystemfactoryname[030] = "ÓÎ»÷Õ½Èı´ó¼ş"
-mapfactorysystemfactoryname[031] = "ÒÏ¿ÇËØ¼Ó¹¤³§"
-mapfactorysystemfactoryname[032] = "´ó¾ıÓïÂ¼³­Ğ´´¦"
-mapfactorysystemfactoryname[033] = "ÉúÎïµçÄÔ¼Ó¹¤³§"
-mapfactorysystemfactoryname[034] = "ÉñÊ¥Ö®Ï¢"
-mapfactorysystemfactoryname[035] = "µç×ÓÔª¼ş¼Ó¹¤³§"
-mapfactorysystemfactoryname[036] = "¸ß¼¶ĞŞÀí¹¤¾ß¼Ó¹¤³§"
-mapfactorysystemfactoryname[037] = "ÁúĞëÃæ¼Ó¹¤³§"
-mapfactorysystemfactoryname[038] = "ÉñÊ¥Ö®Ï¢"
-mapfactorysystemfactoryname[039] = "ÉñÊ¥Ö®Ï¢"
-mapfactorysystemfactoryname[040] = "ÉñÊ¥Ö®Ï¢"
-mapfactorysystemfactoryname[041] = "¹ÜÀíÔ±ÅàÑµ»ùµØ"
-mapfactorysystemfactoryname[042] = "Ê³ÓÃÓÍ¼Ó¹¤³§"
-mapfactorysystemfactoryname[043] = "ÉñÊ¥Ö®Ï¢"
-mapfactorysystemfactoryname[044] = "ºÏ³ÉÉñ¾­´Ø¼Ó¹¤³§"
-mapfactorysystemfactoryname[045] = "¸è¼§ÊÖ°ì¹¤³§"
-mapfactorysystemfactoryname[046] = "ÉñÊ¥Ö®Ï¢"
-mapfactorysystemfactoryname[047] = "±ø·ä¿ØÖÆÏµÍ³¼Ó¹¤³§"
-mapfactorysystemfactoryname[048] = "Ñ¹Ëõ½ºÄÒ¼Ó¹¤³§"
-mapfactorysystemfactoryname[049] = "ÉñÊ¥Ö®Ï¢"
-mapfactorysystemfactoryname[050] = "¶ÀÑÛÈ«×Ô¶¯°²±£ÑÛÇò»úÆ÷ÈË¼Ó¹¤³§"
+mapfactorysystemfactoryname[001] = "???????"
+mapfactorysystemfactoryname[002] = "????????"
+mapfactorysystemfactoryname[003] = "?????"
+mapfactorysystemfactoryname[004] = "?????????"
+mapfactorysystemfactoryname[005] = "?????????"
+mapfactorysystemfactoryname[006] = "???????"
+mapfactorysystemfactoryname[007] = "????"
+mapfactorysystemfactoryname[008] = "???????"
+mapfactorysystemfactoryname[009] = "????"
+mapfactorysystemfactoryname[010] = "????"
+mapfactorysystemfactoryname[011] = "????"
+mapfactorysystemfactoryname[012] = "??????"
+mapfactorysystemfactoryname[013] = "???????"
+mapfactorysystemfactoryname[014] = "??????????"
+mapfactorysystemfactoryname[015] = "???????"
+mapfactorysystemfactoryname[016] = "???????"
+mapfactorysystemfactoryname[017] = "????"
+mapfactorysystemfactoryname[018] = "??????"
+mapfactorysystemfactoryname[019] = "?????????"
+mapfactorysystemfactoryname[020] = "?????????"
+mapfactorysystemfactoryname[021] = "????"
+mapfactorysystemfactoryname[022] = "????"
+mapfactorysystemfactoryname[023] = "????"
+mapfactorysystemfactoryname[024] = "???????"
+mapfactorysystemfactoryname[025] = "??????"
+mapfactorysystemfactoryname[026] = "???????"
+mapfactorysystemfactoryname[027] = "???????"
+mapfactorysystemfactoryname[028] = "???????"
+mapfactorysystemfactoryname[029] = "???????"
+mapfactorysystemfactoryname[030] = "??????"
+mapfactorysystemfactoryname[031] = "??????"
+mapfactorysystemfactoryname[032] = "???????"
+mapfactorysystemfactoryname[033] = "???????"
+mapfactorysystemfactoryname[034] = "????"
+mapfactorysystemfactoryname[035] = "???????"
+mapfactorysystemfactoryname[036] = "?????????"
+mapfactorysystemfactoryname[037] = "??????"
+mapfactorysystemfactoryname[038] = "????"
+mapfactorysystemfactoryname[039] = "????"
+mapfactorysystemfactoryname[040] = "????"
+mapfactorysystemfactoryname[041] = "???????"
+mapfactorysystemfactoryname[042] = "??????"
+mapfactorysystemfactoryname[043] = "????"
+mapfactorysystemfactoryname[044] = "????????"
+mapfactorysystemfactoryname[045] = "??????"
+mapfactorysystemfactoryname[046] = "????"
+mapfactorysystemfactoryname[047] = "?????????"
+mapfactorysystemfactoryname[048] = "???????"
+mapfactorysystemfactoryname[049] = "????"
+mapfactorysystemfactoryname[050] = "???????????????"
 
 randomMAPsmallmissionshipTXT = {}
-randomMAPsmallmissionshipTXT[001] = "·ÆÑÅÀûÉÌ´¬"
-randomMAPsmallmissionshipTXT[002] = "Ï£¸ñÀ­»õ½¢"
-randomMAPsmallmissionshipTXT[003] = "¿¨¶òË¹ÉÌ´¬"
-randomMAPsmallmissionshipTXT[004] = "Î¬¸ñ¶û»õ½¢"
-randomMAPsmallmissionshipTXT[005] = "°£ºÕÂåË¹¼ÎµÂ»õ½¢"
+randomMAPsmallmissionshipTXT[001] = "?????"
+randomMAPsmallmissionshipTXT[002] = "?????"
+randomMAPsmallmissionshipTXT[003] = "?????"
+randomMAPsmallmissionshipTXT[004] = "?????"
+randomMAPsmallmissionshipTXT[005] = "????????"
 
 randomMAPsmallmissionTPYETXT = {}
-randomMAPsmallmissionTPYETXT[001] = "ÔËÊäÈÎÎñ"
-randomMAPsmallmissionTPYETXT[002] = "²É¹ºÈÎÎñ"
-randomMAPsmallmissionTPYETXT[003] = "»¤º½ÈÎÎñ"
-randomMAPsmallmissionTPYETXT[004] = "·´Ï®»÷ÈÎÎñ"
+randomMAPsmallmissionTPYETXT[001] = "????"
+randomMAPsmallmissionTPYETXT[002] = "????"
+randomMAPsmallmissionTPYETXT[003] = "????"
+randomMAPsmallmissionTPYETXT[004] = "?????"
 
 
 randomMAPsmallmissionTYPEMIDTXT = {}
-randomMAPsmallmissionTYPEMIDTXT[001] = "ÔËÊäÄ¿µÄµØÊÇ"
+randomMAPsmallmissionTYPEMIDTXT[001] = "??????"
 randomMAPsmallmissionTYPEMIDTXT[002] = ""
-randomMAPsmallmissionTYPEMIDTXT[003] = "»¤ËÍÄ¿µÄµØÊÇ"
-randomMAPsmallmissionTYPEMIDTXT[004] = "Çå½ÉÄ¿±êÄ¿Ç°ÕıÔÚ"
+randomMAPsmallmissionTYPEMIDTXT[003] = "??????"
+randomMAPsmallmissionTYPEMIDTXT[004] = "????????"
 
 randomMAPsmallmissionTPYEENDTXT = {}
-randomMAPsmallmissionTPYEENDTXT[001] = "£¨·ÅÆúÈÎÎñºó²»ÔÙµÃµ½ÈÎºÎ½±Àø£¬µ«ÊÇÄã¿ÉÒÔ×ÔÓÉ´¦ÀíÊÖÍ·²É¹ºÀ´µÄÉÌÆ·£©"
-randomMAPsmallmissionTPYEENDTXT[002] = "£¨·ÅÆúÈÎÎñºó²»ÔÙµÃµ½ÈÎºÎ½±Àø£¬µ«ÊÇÄã¿ÉÒÔ×ÔÓÉ´¦ÀíÊÖÍ·²É¹ºÀ´µÄÉÌÆ·£©"
-randomMAPsmallmissionTPYEENDTXT[003] = "£¨·ÅÆúÈÎÎñºó±»»¤º½¶ÔÏó»áÀë¿ª½¢¶Ó£¬Í¬Ê±¿Û³ıµÄÈÙÓşµãÎŞ·¨ÍË»¹£©"
-randomMAPsmallmissionTPYEENDTXT[004] = "£¨·ÅÆúÈÎÎñºó¸ÃĞÇÇøÕş¸®»áÑ°ÕÒÆäËû¹ÍÓ¶½¢¶ÓÀ´½â¾öÈëÇÖÎÊÌâ£©"
+randomMAPsmallmissionTPYEENDTXT[001] = "(?????????????,?????????????????)"
+randomMAPsmallmissionTPYEENDTXT[002] = "(?????????????,?????????????????)"
+randomMAPsmallmissionTPYEENDTXT[003] = "(???????????????,????????????)"
+randomMAPsmallmissionTPYEENDTXT[004] = "(??????????????????????????)"
 
 
 
 goodLVoutTXT = {}
 goodLVoutTXT[001] = ""
-goodLVoutTXT[002] = "£¨¾¯¸æ£¡£¡ÄãµÄÃ³Ò×µÈ¼¶³¬³öÕ½¶·µÈ¼¶Ì«¶à£¬Õâ»áµ¼ÖÂ³äÄÜÆÚ¼äÓĞ¼«¸ß¼¸ÂÊÔâÓöµĞÈË½ø¹¥£©"
+goodLVoutTXT[002] = "(??!!??????????????,???????????????????)"
 goodLVoutTXT[003] = function(text1)
-	local iText="½¢¶ÓÕıÔÚ½øĞĞ³£¹æÔ¾Ç¨³äÄÜ£¬³äÄÜÆÚ¼ä¿ÉÄÜ»áÔâÓöº£µÁ½¢¶ÓµÄÏ®»÷£¬¹æÄ£Ô½´óµÄ½¢¶ÓÔ½ÓĞÔâÓöÕ½¶·µÄ·çÏÕ£¬Çë×öºÃÕ½¶·×¼±¸"..text1..""
+	local iText="????????????,????????????????,????????????????,???????"..text1..""
 	return iText
 end
 
@@ -2331,178 +2338,178 @@ end
 
 randomMAPsmallmissionTXT = {}
 randomMAPsmallmissionTXT[001] = function(text1,text2,text3,text4,text5,text6,text7)
-	local iText="Äã½Óµ½Ò»¸öÔËÊäÈÎÎñ,ÄãĞèÒª°Ñ"..text1.."µ¥Î»µÄ"..text2.."ÔËÊäµ½"..text3.."£¬Ä¿µÄµØ¾àÀë¸ÃĞÇÇøĞèÒª½øĞĞ"..text4.."´ÎÌøÔ¾£¬Èç¹ûÍê³É£¬Äã½«»áÊÕµ½"..text5.."µÄ×Ê½ğ½±Àø"..text4.."µÄÈÙÓşµã½±Àø£¨¾¯¸æ£ºÎªÁËÔËÊäÒÔÉÏ×ÊÔ´£¬ÄãĞèÒª"..text6.."µÄ»õ²Ö¿Õ¼ä£¬ÁíÍâÎªÁË·ÀÖ¹×ÊÔ´¶ªÊ§£¬µ±µØÕş¸®»áÔ¤ÏÈ¿Û³ı"..text7.."×Ê½ğºÍ"..text4.."ÈÙÓşµã×÷Îª±£Ö¤½ğ£©"
+	local iText="?????????,????"..text1.."???"..text2.."???"..text3..",????????????"..text4.."???,????,?????"..text5.."?????"..text4.."??????(??:????????,???"..text6.."?????,??????????,?????????"..text7.."???"..text4.."????????)"
 	return iText
 end
 
 randomMAPsmallmissionTXT[002] = function(text1,text2,text3,text4,text5,text6)
-	local iText="ÈÎÎñÌõ¼ş²»Âú×ã£¬½ÓÈ¡¸ÃÈÎÎñĞèÒª"..text1.."µÄ»õ²Ö¿Õ¼ä"..text2.."µÄ×Ê½ğ»¹ÓĞ"..text3.."µÄÈÙÓşµã£¬¶øÄãµÄ½¢¶ÓÄ¿Ç°ÓµÓĞ"..text4.."µÄ»õ²Ö¿Õ¼ä"..text5.."µÄ×Ê½ğ"..text6.."µÄÈÙÓşµã"
+	local iText="???????,???????"..text1.."?????"..text2.."?????"..text3.."????,?????????"..text4.."?????"..text5.."???"..text6.."????"
 	return iText
 end
 
 randomMAPsmallmissionTXT[003] = function(text1,text2,text3,text4)
-	local iText="Äã´Ó"..text1.."½ÓÈ¡µÄÔËÊäÈÎÎñËùÒªÇóµÄ"..text2.."ÉÌÆ·ÊıÁ¿²»×ã,ÈÎÎñĞèÒªÄãĞ¯´ø"..text3.."µ¥Î»£¬µ«ÊÇÄ¿Ç°ÄãµÄ½¢¶ÓÀïÖ»ÓĞ"..text4.."µ¥Î»£¬ÊÇ·ñÒª·ÅÆúÈÎÎñ£¨ÌáÊ¾£ºÄã¿ÉÒÔÍ¨¹ı²É¹º»òÕßÆäËû·½·¨²¹×ãÈÎÎñÒªÇóµÄÊıÁ¿£©"
+	local iText="??"..text1.."???????????"..text2.."??????,???????"..text3.."??,???????????"..text4.."??,???????(??:??????????????????????)"
 	return iText
 end
----------Äã´ÓXXX½ÓÈ¡µÄÔËÊäÈÎÎñËùÒªÇóµÄXXXXÉÌÆ·ÊıÁ¿²»×ã--ÈÎÎñĞèÒªÄãĞ¯´øXXX¸ö£¬µ«ÊÇÄ¿Ç°ÄãµÄ½¢¶ÓÀïÖ»ÓĞXXX¸ö----ÊÇ·ñÒª·ÅÆúÈÎÎñ--ÌáÊ¾--Äã¿ÉÒÔÍ¨¹ı²É¹º»òÕßÆäËû·½·¨²¹×ãÈÎÎñÒªÇóµÄÊıÁ¿-------
+---------??XXX???????????XXXX??????--???????XXX?,???????????XXX?----???????--??--??????????????????????-------
 randomMAPsmallmissionTXT[004] = function(text1,text2,text3)
-	local iText="ÄãÒÑ¾­´Ó"..text1.."½ÓÈ¡ÁËÔËÊäÈÎÎñ£¬ÄãµÄÄ¿µÄµØÊÇ"..text2.."--ÄãÄ¿Ç°ÕıÔÚ"..text3.."ĞÇÇø¡£ÔÚÊÖÍ·ÓµÓĞÈÎÎñµÄÇé¿öÏÂÎŞ·¨½ÓÈ¡ĞÂµÄËæ»úÈÎÎñ£¬ÇëÎÊÊÇ·ñÒª·ÅÆúÔËÊäÈÎÎñ£¿£¿£¨·ÅÆúÈÎÎñºó¿Û³ıµÄ±£Ö¤½ğºÍÈÙÓşµãÎŞ·¨·µ»¹£¬µ«ÊÇÄã¿ÉÒÔ×ÔÓÉ´¦ÀíÊÖÍ·µÄÔËÊäÉÌÆ·£©"
+	local iText="????"..text1.."???????,??????"..text2.."--?????"..text3.."????????????????????????,?????????????(???????????????????,????????????????)"
 	return iText
 end
- ---------ÄãÒÑ¾­XXX½ÓÈ¡ÁËÔËÊäÈÎÎñ--ÄãµÄÄ¿µÄµØÊÇ--ÄãÄ¿Ç°ÕıÔÚXXµØÍ¼---ÔÚÊÖÍ·ÓµÓĞÈÎÎñµÄÇé¿öÏÂÎŞ·¨½ÓÈ¡ĞÂµÄËæ»úÈÎÎñ£¬ÇëÎÊÊÇ·ñÒª·ÅÆúÔËÊäÈÎÎñ£¿£¿£¨·ÅÆúÈÎÎñºó¿Û³ıµÄ±£Ö¤½ğºÍÈÙÓşµãÎŞ·¨·µ»¹£¬µ«ÊÇÄã¿ÉÒÔ×ÔÓÉ´¦ÀíÊÖÍ·µÄÔËÊäÉÌÆ·£©--
+ ---------???XXX???????--??????--?????XX??---?????????????????????,?????????????(???????????????????,????????????????)--
 randomMAPsmallmissionTXT[005] = function(text1,text2,text3)
-	local iText="Äã³É¹¦µÄÍê³ÉÁËÔËÊäÈÎÎñ,²¢»ñµÃÁË"..text1.."µÄÈÎÎñ±¨³êºÍ"..text2.."ÈÙÓşµã(°üº¬Ö®Ç°½»¸¶µÄ±£Ö¤½ğ£©ÁíÍâÓÉÓÚÄãµÄ³öÉ«±íÏÖ£¬Äã»¹»ñµÃÁË"..text3.."µÄÃ³Ò×¾­Ñé"
+	local iText="???????????,????"..text1.."??????"..text2.."???(??????????)??????????,?????"..text3.."?????"
 	return iText
 end 
  
---Äã³É¹¦µÄÍê³ÉÁË-ÔËÊäÈÎÎñ--²¢»ñµÃÁËXXXXµÄÈÎÎñ±¨³êºÍXXXÈÙÓşµã(°üº¬Ö®Ç°½»¸¶µÄ±£Ö¤½ğ£©--randomMAPsmallmissionENDMONEYstart
---ÓÉÓÚÄãµÄ³öÉ«±íÏÖ£¬Äã»¹»ñµÃÁËXXXµÄÃ³Ò×¾­Ñé-- 
+--???????-????--????XXXX??????XXX???(??????????)--randomMAPsmallmissionENDMONEYstart
+--????????,?????XXX?????-- 
  
 randomMAPsmallmissionTXT[006] = function(text1,text2,text3,text4,text5,text6,text7)
-	local iText="Äã½Óµ½Ò»¸ö²É¹ºÈÎÎñ,¸ÃĞÇÇøĞèÒª"..text1.."µ¥Î»µÄ"..text2.."¡£¸ù¾İÇé±¨£¬ÔÚ"..text3.."¿ÉÄÜ³öÊÛ¸ÃÉÌÆ·£¬³öÊÛµØĞÇÇø¾àÀë¸ÃÇøÓòµÄ¾àÀëÎª"..text4.."´ÎÌøÔ¾£¬²É¹ºµÄ×Ü½ğ¶îÎª"..text7.."¡£Èç¹ûÄÜ°ÑÉÌÆ·ÔË»ØÀ´£¬Äã½«»áÊÕµ½"..text5.."µÄ×Ê½ğ½±Àø"..text4.."µÄÈÙÓşµã½±Àø£¨¾¯¸æ£ºÎªÁËÔËÊäÒÔÉÏ×ÊÔ´£¬ÄãĞèÒª"..text6.."µÄ»õ²Ö¿Õ¼ä£©\n£¨µ½Ä¿µÄµØºóÇëµã»÷Ëæ»úÈÎÎñ½øĞĞ²É¹º£¬ÓĞÌØÊâµÄ¹©Ó¦ÉÌ¿ÉÒÔÎŞÊÓÃ³Ò×µÈ¼¶ÎªÄú¹©»õ£©"
+	local iText="?????????,?????"..text1.."???"..text2.."?????,?"..text3.."???????,??????????????"..text4.."???,???????"..text7.."??????????,?????"..text5.."?????"..text4.."??????(??:????????,???"..text6.."?????)\n(????????????????,???????????????????)"
 	return iText
 end 
  
 randomMAPsmallmissionTXT[007] = function(text1,text2,text3,text4,text5)
-	local iText="Äã´Ó"..text1.."½ÓÈ¡ÁËÒ»¸ö²É¹ºÈÎÎñ£¬ÈÎÎñĞèÒªÄãÇ°Íù"..text2.."²É¹º"..text3.."µ¥Î»µÄ"..text4.."¡£Ä¿Ç°ÄãµÄ¿â´æÀïÖ»ÓĞ"..text5.."µ¥Î»µÄ"..text4.."£¬ÊÇ·ñÒª·ÅÆúÈÎÎñ£¿£¨ÌáÊ¾£¬ÄãÒ²¿ÉÒÔÍ¨¹ıÆäËûÊÖ¶Î»ñÈ¡×ã¹»µÄÉÌÆ·£©"
+	local iText="??"..text1.."?????????,???????"..text2.."??"..text3.."???"..text4.."??????????"..text5.."???"..text4..",????????(??,?????????????????)"
 	return iText
 end
 
 randomMAPsmallmissionTXT[008] = function(text1)
-	local iText="ÄãÒÑ¾­´Ó"..text1.."½ÓÈ¡ÁË²É¹ºÈÎÎñ£¬ÔÚÊÖÍ·ÓµÓĞÈÎÎñµÄÇé¿öÏÂÎŞ·¨½ÓÈ¡ĞÂµÄËæ»úÈÎÎñ£¬ÇëÎÊÊÇ·ñÒª·ÅÆúÔËÊäÈÎÎñ£¿£¿£¨·ÅÆúÈÎÎñºó²»ÔÙµÃµ½ÈÎºÎ½±Àø£¬µ«ÊÇÄã¿ÉÒÔ×ÔÓÉ´¦ÀíÊÖÍ·²É¹ºÀ´µÄÉÌÆ·£©"
+	local iText="????"..text1.."???????,?????????????????????,?????????????(?????????????,?????????????????)"
 	return iText
 end
 
 randomMAPsmallmissionTXT[009] = function(text1,text2,text3,text4)
-	local iText="Äã³É¹¦µÄÍê³ÉÁË"..text4..",²¢»ñµÃÁË"..text1.."µÄÈÎÎñ±¨³êºÍ"..text2.."ÈÙÓşµã£¬ÁíÍâÓÉÓÚÄãµÄ³öÉ«±íÏÖ£¬Äã»¹»ñµÃÁË"..text3.."µÄÃ³Ò×¾­Ñé"
+	local iText="???????"..text4..",????"..text1.."??????"..text2.."???,??????????,?????"..text3.."?????"
 	return iText
 end 
 
 
 randomMAPsmallmissionTXT[010] = function(text1,text2,text3,text4)
-	local iText="Äã½Óµ½Ò»¸ö»¤ËÍÈÎÎñ,ÄãĞèÒª°Ñ1ËÒ"..text1.."»¤ËÍµ½"..text2.."£¬Ä¿µÄµØ¾àÀë¸ÃĞÇÇøĞèÒª½øĞĞ"..text3.."´ÎÌøÔ¾£¬Èç¹ûÍê³É£¬Äã½«»áÊÕµ½"..text4.."µÄ×Ê½ğ½±Àø"..text3.."µÄÈÙÓşµã½±Àø£¨¾¯¸æ£ºÈç¹ûÖĞÍ¾»¤ËÍÄ¿±ê±»´İ»ÙÔòÈÎÎñÊ§°Ü£¬¸ÃÈÎÎñĞèÒªÔ¤½»"..text3.."ÈÙÓşµã×÷Îª±£Ö¤£©"
+	local iText="?????????,????1?"..text1.."???"..text2..",????????????"..text3.."???,????,?????"..text4.."?????"..text3.."??????(??:????????????????,???????"..text3.."???????)"
 	return iText
 end
 
 randomMAPsmallmissionTXT[011] = function(text1,text2)
-	local iText="ÈÎÎñÌõ¼ş²»Âú×ã£¬½ÓÈ¡¸ÃÈÎÎñĞèÒª"..text1.."µÄÈÙÓşµã£¬¶øÄãµÄ½¢¶ÓÄ¿Ç°ÓµÓĞ"..text2.."µÄÈÙÓşµã"
+	local iText="???????,???????"..text1.."????,?????????"..text2.."????"
 	return iText
 end
 
 
 randomMAPsmallmissionTXT[012] = function(text1,text2,text3)
-	local iText="Äã´Ó"..text1.."½ÓÈ¡µÄ»¤º½ÈÎÎñÖĞĞèÒª±£»¤µÄ"..text2.."ÒÑ¾­±»´İ»Ù£¬ÈÎÎñ×Ô¶¯È¡Ïû£¬Í¬Ê±Ö®Ç°¿Û³ıµÄ"..text3.."ÈÙÓşµãÒ²ÎŞ·¨·µ»¹£¨Äã¿ÉÒÔ¼ÌĞø½ÓÈ¡ĞÂµÄËæ»úÈÎÎñ£©"
+	local iText="??"..text1.."?????????????"..text2.."?????,??????,???????"..text3.."????????(?????????????)"
 	return iText
 end
 
 
 randomMAPsmallmissionTXT[014] = function(text1,text2,text3,text4,text5)
-	local iText="ÄãÒÑ¾­´Ó"..text1.."½ÓÈ¡ÁË"..text2.."£¬"..text4..""..text5.." ÔÚÊÖÍ·ÓµÓĞÈÎÎñµÄÇé¿öÏÂÎŞ·¨½ÓÈ¡ĞÂµÄËæ»úÈÎÎñ£¬ÇëÎÊÊÇ·ñÒª·ÅÆúÈÎÎñ£¿£¿"..text3..""
+	local iText="????"..text1.."???"..text2..","..text4..""..text5.." ?????????????????????,???????????"..text3..""
 	return iText
 end
 
 randomMAPsmallmissionTXT[015] = function(text1,text2,text3,text4,text5,text6)
-	local iText="Äã½Óµ½Ò»¸öÌÖ·¥ÈÎÎñ,ÔÚ"..text1.."ÍâÎ§ĞÇÇøÓĞÒ»Ö§"..text2.."µÄ"..text3.."ÔÚ»î¶¯£¬ËûÃÇ¿ÉÄÜÊÇ"..text4.."µÄÇ°·æÕì²é½¢¶Ó£¬Èç¹ûÄãÄÜ¹»½«Æä´İ»Ù£¬ÄÇÃ´Äã¾Í¿ÉÒÔ»ñµÃ"..text5.."µÄ×Ê½ğ½±Àø"..text6.."µÄÈÙÓşµã½±Àø"
+	local iText="?????????,?"..text1.."???????"..text2.."?"..text3.."???,?????"..text4.."???????,?????????,????????"..text5.."?????"..text6.."??????"
 	return iText
 end
 
 randomMAPsmallmissionTXT[016] = function(text1)
-	local iText="ÈÎÎñÒÑ¾­È·ÈÏ£¬ÇëÇ°Íù"..text1.."ÍâÎ§ĞÇÇøÖ´ĞĞÇå½É×÷Õ½"
+	local iText="??????,???"..text1.."??????????"
 	return iText
 end
 
 randomMAPsmallmissionTXT[017] = function(text1,text2)
-	local iText="ÄãÒÑ¾­µ½´ï"..text1.."£¬"..text2.."ÕıÔÚ¸ÃĞÇÇøµÄÍâÎ§ĞÇÇø»î¶¯£¬ÊÇ·ñÒªÖ´ĞĞÇå½É×÷Õ½£¿£¨Èç¹ûÏë·ÅÆúÈÎÎñÇëÇ°ÍùÆäËûĞÇÇøÔÙµã·ñ£©"
+	local iText="?????"..text1..","..text2.."????????????,??????????(?????????????????)"
 	return iText
 end
 
 
 randomMAPsmallmissionTXT[018] = function(text1,text5,text6,text7)
-	local iText="ÄãÒÑ¾­Çå½ÉÁË"..text1.."µÄÏÈ·æ½¢¶Ó£¬ÔÚÕ½¶·½áÊøºóÄã´òÉ¨Õ½³¡»ñµÃÁË"..text5.."µÄ×Ê½ğ½±ÀøºÍ"..text6.."µÄÕ½¶·¾­Ñé»¹ÓĞ"..text7.."µÄÈÙÓşµã×÷Îª±¨³ê,ÈÎÎñ½áÊø"
+	local iText="??????"..text1.."?????,??????????????"..text5.."??????"..text6.."???????"..text7.."????????,????"
 	return iText
 end
 
 randomMAPsmallmissionTXT[019] = function(text1,text2)
-	local iText="ÄãµÄ½¢¶ÓÒÑ¾­µ½´ï"..text1.."ÍâÎ§£¬"..text2.."µÄÇ°·æÕì²ì½¢¶ÓÕıÔÚÕâ¸öÇøÓòĞĞ¶¯£¬Çå½ËÕâĞ©½¢¶Ó¿ÉÒÔÍê³ÉÈÎÎñ¡£"
+	local iText="????????"..text1.."??,"..text2.."???????????????,?????????????"
 	return iText
 end
 
 
 randomMAPsmallmissionTXT[020] = function(text1,text2,text3,text4)
-	local iText="Äã½Óµ½ÁËÒ»¸ö²É¹ºÈÎÎñ£¬ÄãĞèÒª²É¹º"..text1.."µ¥Î»µÄ"..text2..".\nÄ¿Ç°¸ÃĞÇÇøµÄÒ»Î»ÌØÊâ¹©»õÉÌÔ¸ÒâÌá¹©ÕâĞ©»õÎï£¬ÄãĞèÒªÖ§¸¶"..text3.."²¢×¼±¸ºÃ"..text4.."µÄ»õ²Ö¿Õ¼ä£¬ÇëÎÊÊÇ·ñÒª½øĞĞ²É¹º£¿£¨¾¯¸æ£ºÌØÊâ¹©»õÉÌÃ¿´ÎÈÎÎñ¶¼Ö»ÄÜÌá¹©Ò»´ÎÌØÊâ²É¹º£¬ÇëÎğÖØ¸´¹ºÂò£©"
+	local iText="??????????,?????"..text1.."???"..text2..".\n?????????????????????,?????"..text3.."????"..text4.."?????,??????????(??:????????????????????,??????)"
 	return iText
 end
 
 
 mapfactorysystemdefLV = {}
-mapfactorysystemdefLV[001] = "ÎŞ·¨µÖÓùÈÎºÎÈëÇÖ"
-mapfactorysystemdefLV[002] = "¿ÉÒÔµÖÓùĞ¡¹æÄ£µÄº£µÁºÍÌìÔÖÈëÇÖ"
-mapfactorysystemdefLV[003] = "¿ÉÒÔµÖÓùÖĞµÈ¹æÄ£µÄº£µÁºÍÌìÔÖÈëÇÖ"
-mapfactorysystemdefLV[004] = "¿ÉÒÔµÖÓù´ó¹æÄ£µÄº£µÁºÍÌìÔÖÈëÇÖ"
-mapfactorysystemdefLV[005] = "¿ÉÒÔµÖÓù³¬´ó¹æÄ£µÄº£µÁºÍÌìÔÖÈëÇÖ"
-mapfactorysystemdefLV[006] = "¿ÉÒÔµÖÓùÌØ´ó¹æÄ£µÄº£µÁºÍÌìÔÖÈëÇÖ"
+mapfactorysystemdefLV[001] = "????????"
+mapfactorysystemdefLV[002] = "???????????????"
+mapfactorysystemdefLV[003] = "????????????????"
+mapfactorysystemdefLV[004] = "???????????????"
+mapfactorysystemdefLV[005] = "????????????????"
+mapfactorysystemdefLV[006] = "????????????????"
 
 mapgoodsystemTXT = {}
 mapgoodsystemTXT[001] = function(text1,text2,text3,text4,text5,text6)
-	local iText=""..text1.."ĞÇÇøÄ¿Ç°µÄÉú²úÄÜÁ¦Ö»ÄÜÌá¹©"..text2.."µ¥Î»µÄ"..text3.."£¬ÓÉÓÚÄãµÄ½¢¶Ó²É¹ºµÄ"..text3.."ÊıÁ¿Ô¶³¬¹ıµ±µØ¾­ÏúÉÌµÄÏÖÓĞ¿â´æ£¬µ±µØ¹©»õÉÌºË¶Ô¿â´æºó·¢ÏÖ£¬Ô¼ÓĞ"..text4.."µ¥Î»µÄ"..text3.."ÎŞ·¨½»»õ£¬"..text5.."µÄ²É¹º»õ¿îÒÑ¾­Ô­Â·ÍË»Ø¡££¨½¨Òé¶Ôµ±µØµÄ"..text6.."½øĞĞÍ¶×Ê£¬Éı¼¶µ±µØµÄ²úÆ·Éú²úÁ¦£©"
+	local iText=""..text1.."?????????????"..text2.."???"..text3..",?????????"..text3.."???????????????,????????????,??"..text4.."???"..text3.."????,"..text5.."????????????(??????"..text6.."????,??????????)"
 	return iText
 end
 
 mapgoodsystemTXT[002] = function(text1,text2,text3,text4,text5,text6,text7)
-	local iText=""..text1.."ĞÇÇøÄ¿Ç°µÄ"..text2.."Éú²úµÈ¼¶Îª"..text3.."¼¶£¬Ã¿´Î¿ÉÒÔÌá¹©"..text4.."µ¥Î»µÄ"..text5..".ĞÇÇø·ÀÓùÄÜÁ¦Îª"..text6.."¼¶£¬"..text7.."£¬ÄãÊÇ·ñÒª¶ÔĞÇÇø½øĞĞÍ¶×Ê£¿"
+	local iText=""..text1.."?????"..text2.."?????"..text3.."?,??????"..text4.."???"..text5..".???????"..text6.."?,"..text7..",????????????"
 	return iText
 end
 
 mapgoodsystemTXT[003] = function(text1)
-	local iText=""..text1.."ĞÇÇøµÄ·ÀÓùÉèÊ©µÈ¼¶ÒÑ¾­´ïµ½10¼¶£¬ÎŞ·¨¼ÌĞøÉı¼¶"
+	local iText=""..text1.."?????????????10?,??????"
 	return iText
 end
 
 mapgoodsystemTXT[004] = function(text1,text2,text3)
-	local iText="ÄãÊÇ·ñÒªÍ¶×Ê"..text1.."ĞÇÇøµÄ·ÀÓùÉèÊ©£¿¸ÃÉèÊ©Ä¿Ç°µÈ¼¶Îª"..text2.."¼¶£¬Éı¼¶ËüĞèÒª"..text3.."×Ê½ğ"
+	local iText="??????"..text1.."????????????????"..text2.."?,?????"..text3.."??"
 	return iText
 end
 
 mapgoodsystemTXT[005] = function(text1,text2,text3)
-	local iText=""..text1.."ĞÇÇøµÄ·ÀÓùÉèÊ©ÒÑ¾­Éı¼¶£¬Ä¿Ç°µÈ¼¶Îª"..text2.."¼¶£¬ÎªÁË¸ĞĞ»Äã×ö³öµÄ¹±Ï×£¬µ±µØÕş¸®¸øÓëÁËÄã"..text3.."µãµÄÈÙÓşµã"
+	local iText=""..text1.."???????????,?????"..text2.."?,??????????,????????"..text3.."?????"
 	return iText
 end
 
 mapgoodsystemTXT[006] = function(text1,text2)
-	local iText="ÄãµÄ×Ê½ğ²»¹»,"..text1.."ĞÇÇøµÄ·ÀÓùÉèÊ©Éı¼¶ĞèÒª"..text2.."µÄ×Ê½ğ"
+	local iText="??????,"..text1.."???????????"..text2.."???"
 	return iText
 end
 
 
 mapgoodsystemTXT[007] = function(text1,text2)
-	local iText=""..text1.."ĞÇÇøµÄ"..text2.."µÈ¼¶ÒÑ¾­´ïµ½10¼¶£¬ÎŞ·¨¼ÌĞøÉı¼¶"
+	local iText=""..text1.."???"..text2.."??????10?,??????"
 	return iText
 end
 
 mapgoodsystemTXT[008] = function(text1,text2,text3,text4)
-	local iText="ÄãÊÇ·ñÒªÍ¶×Ê"..text1.."ĞÇÇøµÄ"..text4.."£¿¸ÃÉèÊ©Ä¿Ç°µÈ¼¶Îª"..text2.."¼¶£¬Éı¼¶ËüĞèÒª"..text3.."×Ê½ğ"
+	local iText="??????"..text1.."???"..text4.."?????????"..text2.."?,?????"..text3.."??"
 	return iText
 end
 
 
 mapgoodsystemTXT[009] = function(text1,text2,text3,text4)
-	local iText=""..text1.."ĞÇÇøµÄ"..text4.."ÒÑ¾­Éı¼¶£¬Ä¿Ç°µÈ¼¶Îª"..text2.."¼¶£¬ÎªÁË¸ĞĞ»Äã×ö³öµÄ¹±Ï×£¬µ±µØÕş¸®¸øÓëÁËÄã"..text3.."µãµÄÈÙÓşµã"
+	local iText=""..text1.."???"..text4.."????,?????"..text2.."?,??????????,????????"..text3.."?????"
 	return iText
 end
 
 mapgoodsystemTXT[010] = function(text1,text2,text3)
-	local iText="ÄãµÄ×Ê½ğ²»¹»,"..text1.."ĞÇÇøµÄ"..text3.."Éı¼¶ĞèÒª"..text2.."µÄ×Ê½ğ"
+	local iText="??????,"..text1.."???"..text3.."????"..text2.."???"
 	return iText
 end
 
 
 mapgoodsystemTXT[011] = function(text1,text2,text3)
-	local iText=""..text1.."ĞÇÇøÃ»ÓĞÈÎºÎÉÌÒµÉèÊ©.ĞÇÇø·ÀÓùÄÜÁ¦Îª"..text2.."¼¶£¬"..text3..",ÄãÊÇ·ñÒª¶ÔĞÇÇø½øĞĞÍ¶×Ê£¿"
+	local iText=""..text1.."??????????.???????"..text2.."?,"..text3..",????????????"
 	return iText
 end
 
 mapgoodsystemTXT[012] = function(text1,text2,text3,text4,text5)
-	local iText=""..text1.."ĞÇÇøÄ¿Ç°µÄ"..text2.."Éú²úµÈ¼¶Îª"..text3.."¼¶£¬Ã¿´Î¿ÉÒÔÌá¹©"..text4.."µ¥Î»µÄ"..text5..".ÄãÊÇ·ñÒªÍ¶×Ê£¿(ÒòÎªµ±µØÕşÈ¨Ô­Òò£¬ÄúÎŞ·¨½øĞĞÈÎºÎĞÇÇø·ÀÓù·½ÃæµÄÍ¶×Ê)"
+	local iText=""..text1.."?????"..text2.."?????"..text3.."?,??????"..text4.."???"..text5..".???????(????????,????????????????)"
 	return iText
 end
 
