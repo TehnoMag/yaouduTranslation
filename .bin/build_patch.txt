@@ -16,47 +16,47 @@ FileSettingsEnd
 leveldata\campaign\tutorial\rpg\script\tradecode.lua
 leveldata\campaign\tutorial\rpg\script\trademenudata_objective.lua
 ship\icons\map\map\totalmap.psd
-ship\icons\map\map\totalmap01.tga
-ship\icons\map\map\totalmap02.tga
-ship\icons\map\map\totalmap03.tga
-ship\icons\map\map\totalmap04.tga
-ship\icons\map\map\totalmap05.tga
-ship\icons\map\map\totalmap06.tga
-ship\icons\map\map\totalmap07.tga
-ship\icons\map\map\totalmap08.tga
-ship\icons\map\map\totalmap09.tga
-ship\icons\map\map\totalmap10.tga
-ship\icons\map\map\totalmap11.tga
-ship\icons\map\map\totalmap12.tga
-ship\icons\map\map\totalmap13.tga
-ship\icons\map\map\totalmap14.tga
-ship\icons\map\map\totalmap15.tga
-ship\icons\map\map\totalmap16.tga
-ship\icons\map\map\totalmap17.tga
-ship\icons\map\map\totalmap18.tga
-ship\icons\map\map\totalmap19.tga
-ship\icons\map\map\totalmap20.tga
-ship\icons\map\map\totalmap21.tga
-ship\icons\map\map\totalmap22.tga
-ship\icons\map\map\totalmap23.tga
-ship\icons\map\map\totalmap24.tga
-ship\icons\map\map\totalmap25.tga
-ship\icons\map\map\totalmap26.tga
-ship\icons\map\map\totalmap27.tga
-ship\icons\map\map\totalmap28.tga
-ship\icons\map\map\totalmap29.tga
-ship\icons\map\map\totalmap30.tga
-ship\icons\map\map\totalmap31.tga
-ship\icons\map\map\totalmap32.tga
-ship\icons\map\map\totalmap33.tga
-ship\icons\map\map\totalmap34.tga
-ship\icons\map\map\totalmap35.tga
-ship\icons\map\map\totalmap36.tga
-ship\icons\map\map\totalmap37.tga
-ship\icons\map\map\totalmap38.tga
-ship\icons\map\map\totalmap39.tga
-ship\icons\map\map\totalmap40.tga
-ship\icons\map\map\totalmap41.tga
+// ship\icons\map\map\totalmap01.tga
+// ship\icons\map\map\totalmap02.tga
+// ship\icons\map\map\totalmap03.tga
+// ship\icons\map\map\totalmap04.tga
+// ship\icons\map\map\totalmap05.tga
+// ship\icons\map\map\totalmap06.tga
+// ship\icons\map\map\totalmap07.tga
+// ship\icons\map\map\totalmap08.tga
+// ship\icons\map\map\totalmap09.tga
+// ship\icons\map\map\totalmap10.tga
+// ship\icons\map\map\totalmap11.tga
+// ship\icons\map\map\totalmap12.tga
+// ship\icons\map\map\totalmap13.tga
+// ship\icons\map\map\totalmap14.tga
+// ship\icons\map\map\totalmap15.tga
+// ship\icons\map\map\totalmap16.tga
+// ship\icons\map\map\totalmap17.tga
+// ship\icons\map\map\totalmap18.tga
+// ship\icons\map\map\totalmap19.tga
+// ship\icons\map\map\totalmap20.tga
+// ship\icons\map\map\totalmap21.tga
+// ship\icons\map\map\totalmap22.tga
+// ship\icons\map\map\totalmap23.tga
+// ship\icons\map\map\totalmap24.tga
+// ship\icons\map\map\totalmap25.tga
+// ship\icons\map\map\totalmap26.tga
+// ship\icons\map\map\totalmap27.tga
+// ship\icons\map\map\totalmap28.tga
+// ship\icons\map\map\totalmap29.tga
+// ship\icons\map\map\totalmap30.tga
+// ship\icons\map\map\totalmap31.tga
+// ship\icons\map\map\totalmap32.tga
+// ship\icons\map\map\totalmap33.tga
+// ship\icons\map\map\totalmap34.tga
+// ship\icons\map\map\totalmap35.tga
+// ship\icons\map\map\totalmap36.tga
+// ship\icons\map\map\totalmap37.tga
+// ship\icons\map\map\totalmap38.tga
+// ship\icons\map\map\totalmap39.tga
+// ship\icons\map\map\totalmap40.tga
+// ship\icons\map\map\totalmap41.tga
 ui\newui\buildsystemneed.lua
 ui\newui\carriernofighter.lua
 ui\newui\ingamemenu.lua
