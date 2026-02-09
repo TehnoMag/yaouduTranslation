@@ -2,245 +2,243 @@ Locale_Text = {}
 
 
 
-Locale_Text[100] = "ÖØĞÍÑ²Ñó½¢"
-Locale_Text[101] = "Ò»ÖÖ¾«¼ò°æµÄÕ½ÁĞÑ²Ñó½¢,ÔÚ´ó´óÏ÷ÈõÁË»ğÁ¦ºÍÌå»ıµÄÍ¬Ê±È´°²×°ÁË´óÁ¿ÖÂÃüµÄ·À¿ÕÎäÆ÷¡£½¨ÔìÌõ¼ş:Ö÷Á¦½¢Ä£¿é»òÕß³¬¿Õ¼äÄ£¿é"
-Locale_Text[110] = "·À¿ÕÇıÖğ½¢"
-Locale_Text[111] = "½«ÇıÖğ½¢µÄÖ÷ÅÚµ¯Ò©»»×°ÆÆÆ¬µ¯Í·ºó¸ÄÁ¼¶øÀ´µÄ·À¿ÕÓÃÇıÖğ½¢¡£½¨ÔìÌõ¼ş£º³¬¿Õ¼äÄ£¿éºÍÇıÖğ½¢»ú¼Ü"
-Locale_Text[120] = "Âö³åÅÚÌ¨"
-Locale_Text[121] = "µ÷ÕûÀë×ÓÅÚÌ¨»ğÁ¦Êä³ö¹¦ÂÊºó¸Ä½ø¶øÀ´µÄ·´Í§ÓÃÂö³åÅÚÌ¨¡£½¨ÔìÌõ¼ş£ºÀë×ÓÅÚÆ½Ì¨¿Æ¼¼"
-Locale_Text[125] = "½ÌÖ÷¼¶Õ½ÁĞ½¢"
-Locale_Text[126] = "ÖÆÔìÒªÇó½ÏµÍµÄÒ»ÖÖÖ§Ô®ĞÍÕ½ÁĞ½¢£¬ÓµÓĞ¿É¿¿µÄ·ÀÓùÁ¦ºÍ»ğÁ¦¡£½¨ÔìÌõ¼ş£º¿Æ¼¼Ä£¿éºÍ½ÌÖ÷Õ½ÁĞ½¢¿Æ¼¼"
-Locale_Text[130] = "ÁìÖ÷¼¶Õ½ÁĞ½¢"
-Locale_Text[131] = "Ò»ÖÖ°²×°ÁË±¤Àİ¼¶ÓãÀ×ºÍ´óÁ¿Àë×ÓÅÚµÄ¾ŞĞÍÕ½½¢£¬×¨ÃÅÓÃÀ´¹¥»÷µĞÈËµÄÖ÷Á¦½¢Èº¡£½¨ÔìÌõ¼ş£º¸ß¼¶¿Æ¼¼Ä£¿éºÍÕ½ÁĞ½¢¿Æ¼¼"
-Locale_Text[140] = "·ÀÓùÎŞÎ·½¢"
-Locale_Text[141] = "¾Ş´óµÄÖØ×°¼×ÎŞÎ·½¢£¬¿ÉÒÔÇáËÉ×èµ²µĞÈËµÄÒ»ÇĞ¹¥ÊÆ¡£µ«ÊÇÃ¿Ò»ËÒµÄ½¨Ôì¶¼·Ç³£µÄ»ºÂı£¬ĞèÒª´óÁ¿µÄÊ±¼ä  ½¨ÔìÌõ¼ş£ºÎŞÎ·½¢¿Æ¼¼"
-Locale_Text[150] = "´óĞÍÎŞÎ·½¢½ô¼±ÕÙ»½"
-Locale_Text[151] = "ÏûºÄ´óÁ¿×ÊÔ´½ô¼±ÕÙ»½Ò»ËÒÎŞÎ·½¢Ç°À´ÖúÕ½¡£"
-Locale_Text[160] = "Ö÷Á¦½¢ÕÙ»½ĞÅ±ê"
-Locale_Text[161] = "ÕÙ»½ÔÚ¸½½üĞÇÇøÖĞÑ²º½µÄ´óÖĞĞÍÕ½½¢½¢ÌøÔ¾µ½Ç°ÏßÖ§Ô®Õ½¶·"
-Locale_Text[170] = "¸ñ¶·Í»»÷½¢"
-Locale_Text[171] = "Ò»ÖÖÓµÓĞÇ¿´ó½üÕ½»ğÁ¦µÄÍ»»÷Õ½½¢,È±µãÊÇÉä³ÌÊ®·ÖµÄ½ü,ĞèÒª·É½ü²ÅÄÜ¹¥»÷¡£"
-Locale_Text[180] = "ĞÛ·äÕ½¶·»ú"
-Locale_Text[181] = "´ÓÏÈ×æ¿Æ¼¼ÖĞ»ñµÃµÄÒ»ÖÖÏÈ½øÕ½¶·»ú£¬ÓµÓĞÇ¿º·µÄÕ½¶·Á¦¡£"
-Locale_Text[190] = "ÓãÀ×ÇıÖğ½¢"
-Locale_Text[191] = "Ò»ÖÖÏÈ½øµÄ·´Ö÷Á¦½¢Õ½½¢£¬×°±¸ÓĞÏÈ½øµÄ´©¼×ÓãÀ×£¬¿ÉÒÔ¶ÔµĞÈËµÄÆì½¢ºÍ´óĞÍÖ÷Á¦½¢Ôì³ÉÓĞĞ§ÉËº¦¡£"
+Locale_Text[100] = "Heavy cruiser"
+Locale_Text[101] = "A streamlined version of the battlecruiser, with significantly reduced firepower and size while mounting a large number of deadly anti-aircraft weapons. Build condition: battleship module or hyperspace module"
+Locale_Text[110] = "Anti-aircraft destroyer"
+Locale_Text[111] = "Destroyer with improved anti-aircraft ammunition by replacing the main gun ammunition with a fragmentation warhead. Construction conditions: hyperspace module and destroyer frame"
+Locale_Text[120] = "Pulse turret"
+Locale_Text[121] = "An anti-ship impulse turret improved by adjusting the fire output of the ion gun turret. Build condition: ion cannon platform technology"
+Locale_Text[125] = "Patriarch-class battleship"
+Locale_Text[126] = "A support battleship with low manufacturing requirements and reliable defense and firepower. Build requirements: technology module and battleship technology of the Patriarch"
+Locale_Text[130] = "Lordship class battleship"
+Locale_Text[131] = "A giant battleship fitted with Bastion-class torpedoes and a large number of ion cannons, designed to attack the enemy's main fleet. Construction conditions: advanced technology module and battleship technology"
+Locale_Text[140] = "Defense dreadnought"
+Locale_Text[141] = "Huge, heavily armored dreadnought that can easily block all enemy attacks. But each one is very slow to build and takes a lot of time Build condition: dreadnought technology"
+Locale_Text[150] = "Large dreadnought emergency call"
+Locale_Text[151] = "Consume a lot of resources to summon a dreadnought urgently to help the war."
+Locale_Text[160] = "Battleship summoning beacon"
+Locale_Text[161] = "Summon medium and large battleship ships cruising in the nearby star zone to jump to the front line to support the battle"
+Locale_Text[170] = "Fighting assault ship"
+Locale_Text[171] = "A kind of assault warship with strong close combat firepower, the disadvantage is that the range is very close, you need to fly close to attack."
+Locale_Text[180] = "Stallion fighter"
+Locale_Text[181] = "An advanced fighter obtained from the ancestral technology, has a strong combat power."
+Locale_Text[190] = "Torpedo destroyer"
+Locale_Text[191] = "An advanced anti-mainship warship equipped with advanced armor-piercing torpedoes that can deal effective damage to enemy flagships and large battleships."
 
-Locale_Text[250] = "ÈøÓÈ¿ËÖ®³×"
-Locale_Text[251] = "ÏÈ×æ¿Æ¼¼µÄ²úÎï£¬Ò»ÖÖÓµÓĞÇ¿Á¦Àë×Ó¼ÓÅ©ÅÚµÄÖ§Ô®ĞÍÕ½½¢¡£  ½¨ÔìÌõ¼ş£º¸ß¼¶¿Æ¼¼Ä£¿éºÍÈøÓÈ¿ËÖ®³×¿Æ¼¼"
+Locale_Text[250] = "Key of Sayuk"
+Locale_Text[251] = "A product of ancestral technology, a support warship with powerful ion cannons.  Construction requirements: advanced technology module and Key of Sayuk technology"
 
 
-Locale_Text[200] = "Õ½¶·»ú»ú¿â"          
-Locale_Text[201] = "¿ÉÒÔÉú²ú½¢ÔØ»ú"
-Locale_Text[210] = "³¬¼¶ÅÚÍ§ÕÙ»½ÉèÊ©"
-Locale_Text[211] = "¿ÉÒÔÊÍ·Å×°¼×Í»»÷½¢Ö§Ô®Õ½¶·"
-Locale_Text[220] = "Ö÷Á¦½¢¼¶»¤¶Ü·¢ÉúÆ÷"
-Locale_Text[221] = "¿ÉÒÔ²úÉúÒ»¸öÈİÁ¿Îª100WHPµÄ´óĞÍ·À»¤¶Ü ×¢Òâ£ºÎŞ·¨ºÍÆäËû·ÀÓùÏµ×ÓÏµÍ³¼æÈİ"
-Locale_Text[225] = "Õ½ÁĞÑ²Ñó½¢»ğ¿ØËş"
-Locale_Text[226] = "¿ÉÒÔÌáÉı1±¶µÄ»ğÁ¦£¬µ«ÊÇÖ»¶Ô±¾ÌåÓĞĞ§ ×¢Òâ£ºÎŞ·¨ºÍÆäËû¹¥»÷Ïµ×ÓÏµÍ³¼æÈİ"
-Locale_Text[227] = "Õ½ÁĞÑ²Ñó½¢ÖØÁ¦¾®" 
-Locale_Text[228] = "²úÉúÒ»¸öÖØÁ¦³¡×èÖ¹µĞÈËÌøÔ¾¿¿½ü ×¢Òâ£ºÎŞ·¨ºÍÆäËû·ÀÓùÏµ×ÓÏµÍ³¼æÈİ"
-Locale_Text[229] = "Õ½ÁĞÑ²Ñó½¢ÌøÔ¾Ä£¿é"
-Locale_Text[230] = "ÈÃÕ½ÁĞÑ²Ñó½¢¿ÉÒÔ½øĞĞÌøÔ¾  ×¢Òâ£ºÎŞ·¨ºÍÆäËû·ÀÓùÏµ×ÓÏµÍ³¼æÈİ"
+Locale_Text[200] = "Fighter hangar"          
+Locale_Text[201] = "Can produce shipboard aircraft"
+Locale_Text[210] = "Super gunship summoning facility"
+Locale_Text[211] = "Can release armored assault ships to support combat"
+Locale_Text[220] = "battleship class shield generator"
+Locale_Text[221] = "Can generate a large shield with a capacity of 100WHP Note: not compatible with other defense subsystems"
+Locale_Text[225] = "Battlecruiser fire control tower"
+Locale_Text[226] = "Boosts firepower by a factor of 1, but only works on the body. Note: not compatible with other attack subsystems"
+Locale_Text[227] = "Battlecruiser gravity well" 
+Locale_Text[228] = "Generates a gravity field to stop enemies from jumping closer Caution: not compatible with other defense subsystems"
+Locale_Text[229] = "Battlecruiser jump module"
+Locale_Text[230] = "Enables battlecruisers to jump. Note: Not compatible with other defense subsystems."
 ---------------------------------------------------
-Locale_Text[300] = "ÒÆ¶¯Ä£Ê½"
-Locale_Text[301] = "½«ºËĞÄµÄÄÜÁ¿Æ½¾ù·ÖÅä¸ø´¬Ìå¸÷´¦£¬ÈøÓÈ¿Ë¿ÉÒÔ×ÔÓÉµÄÒÆ¶¯ºÍÌøÔ¾"
-Locale_Text[305] = "¹¥³ÇÄ£Ê½"
-Locale_Text[306] = "½«ºËĞÄµÄÄÜÁ¿¼¯ÖĞÊä³öµ½Ö÷ÅÚÉÏ£¬µ«ÊÇÒÆ¶¯ÄÜÁ¦½«ÊÜµ½ÏŞÖÆ"
-Locale_Text[310] = "·ÀÓùÄ£Ê½"
-Locale_Text[311] = "½«ºËĞÄµÄÄÜÁ¿ÊÍ·Å³öÀ´ĞÎ³ÉÒ»¸öÇ¿´óµÄÄÜÁ¿»¤¶Ü£¬µ«ÊÇÒÆ¶¯ºÍ¿ª»ğÄÜÁ¦½«ÊÜµ½ÏŞÖÆ"
+Locale_Text[300] = "Move mode"
+Locale_Text[301] = "Distributes the energy of the core evenly throughout the hull, and the Sayuk can move and jump freely"
+Locale_Text[305] = "Siege mode"
+Locale_Text[306] = "Focus the energy of the core to the main cannon, but the ability to move will be limited"
+Locale_Text[310] = "Defense mode"
+Locale_Text[311] = "Release the energy from the core to form a powerful energy shield, but movement and firing ability will be limited"
 
-Locale_Text[400] = "ÖØĞÍ·ÀÓùÆ½Ì¨"
-Locale_Text[401] = "¼á¹ÌµÄ·ÀÓùÆ½Ì¨£¬¿ÉÒÔµÖµ²¸÷ÖÖÎäÆ÷µÄ½ø¹¥,½¨ÔìÌõ¼ş£º¸ß¼¶¿Æ¼¼Ä£¿éºÍ¸ß¼¶Æ½Ì¨¿Æ¼¼"
+Locale_Text[400] = "Heavy defense platform"
+Locale_Text[401] = "Sturdy defense platform that can withstand all kinds of weapons, construction conditions: advanced technology module and advanced platform technology"
 
-Locale_Text[500] = "Æì½¢¼¶¿Æ¼¼Ä£¿é"
-Locale_Text[501] = "ÏÈ½øµÄ¿Æ¼¼Ä£¿é£¬ÔÊĞí½¨Ôì×î¸ß¼¶µÄ½¢¶ÓÆì½¢¡£  ½¨ÔìÌõ¼ş£º¸ß¼¶¿Æ¼¼Ä£¿é"
+Locale_Text[500] = "flagship technology module"
+Locale_Text[501] = "Advanced technology module that allows building the flagship of the highest level fleet.  Build condition: advanced tech module"
 
-Locale_Text[600] = "Ä§·½¼¶×°¼×Í»»÷½¢"
-Locale_Text[601] = "ÓµÓĞºñÖØ×°¼×µÄÖØĞÍÍ»»÷½¢£¬¿ÉÒÔÔÚÕ½³¡ÉÏ½øĞĞ³Ö¾ÃµÄÕ½¶·£¬ĞèÒª£º»¤ÎÀ½¢¹¤³§»òÕß³¬¿Õ¼äÄ£¿é"
-
-
-Locale_Text[610] = "È¨ÕÈ¼¶Ñ²Ñó½¢"        --31
-Locale_Text[615] = "Ò»ÖÖ¿ÉÒÔ´óÁ¿Éú²úµÄ·ÀÓùĞÍÑ²Ñó½¢"
+Locale_Text[600] = "Tesseract-class armored assault ship"
+Locale_Text[601] = "Heavy assault ship with heavy armor for sustained combat on the battlefield, requires: frigate factory or hyperspace module"
 
 
-Locale_Text[620] = "È¨ÕÈ¼¶¹¤³ÌĞÍ"        --32
-Locale_Text[625] = "ÓµÓĞÇ¿Á¦ĞŞÀíÄÜÁ¦µÄ¹¤³ÌĞÍÑ²Ñó½¢"
-
-Locale_Text[625] = "¿ËÀ×Äª¶û¼¶Õ½ÁĞ½¢"        --32
-Locale_Text[626] = "Ï£¸ñÀ­ÈËºÍÒ»¸öÃûÎªÏ£¶û·ÒµÄ·ÆÑÅÀûÃñ¼äÉÌ»áºÏ×÷¿ª·¢µÄÒ»ÖÖĞÂĞÍÕ½ÁĞ½¢"
-Locale_Text[630] = "Ë«ÂíÎ²ÆïÊ¿ºÅÕ½ÁĞ½¢"        --33
-Locale_Text[631] = "Ï£¶û·ÒÄ³²¿ÃÅ³¤Îäß÷µÄ×ù½¢,×÷ÎªÏ£¸ñÀ­ĞéÄâÅ¼ÏñµÄ·ÛË¿ÆïÊ¿ÍÅ¶ø×÷ÁËÌØÊâÍ¿×°"
+Locale_Text[610] = "Scepter-class cruiser" --31
+Locale_Text[615] = "A defensive cruiser that can be mass produced"
 
 
-Locale_Text[635] = "°¢ËşÀ¼ß¯¼¶-Ï£¶û·Ò·À¿ÕĞÍ"        --34
-Locale_Text[636] = "¿¨¶òË¹ÁªÃË°¢ËşÀ¼ß¯¼¶ÇıÖğ½¢µÄÒ»ÖÖÑÜÉú¸ÄĞÍ£¬ºÍÏ£¶û·ÒÁªºÏ¿ª·¢£¬¸Ã½¢¸üÉÃ³¤·À¿Õ"
+Locale_Text[620] = "Scepter-class engineering type" --32
+Locale_Text[625] = "An engineering cruiser with powerful repair capabilities"
+
+Locale_Text[625] = "Cremour-class battleship" --32
+Locale_Text[626] = "A new type of battleship developed by the Highras in cooperation with a Fai'ri private chamber of commerce named Sylphon"
+Locale_Text[630] = "Battleship Knight of the Two Ponytails" --33
+Locale_Text[631] = "The ship of the chief of a department of Sylphon, Takeshi Meow, with a special paint job as a virtual idol of Hiigara's fan knights"
 
 
-Locale_Text[645] = "ĞÅÍ½¼¶½¢ÔØ»ú-¿ÕÓÅĞÍ"        --35
-Locale_Text[646] = "Ï£¸ñÀ­×îĞÂ¿ª·¢µÄÀ¹½Ø»ú£¬ÓµÓĞ¼á¹ÌµÄ×°¼×ºÍ²»ÈõµÄĞÔÄÜ"
-
-Locale_Text[655] = "ĞÅÍ½¼¶½¢ÔØ»ú-ºäÕ¨ĞÍ"        --36
-Locale_Text[656] = "ĞÅÍ½¼¶½¢ÔØ»úµÄºäÕ¨ĞÍ£¬Ë«¹Ü»úÅÚ±»Ìæ»»³ÉÁËÁ½×ùµ¼µ¯·¢ÉäÆ÷"
-
-Locale_Text[665] = "ĞÅÍ½¼¶½¢ÔØ»ú-Õì²ìĞÍ"        --37
-Locale_Text[666] = "ĞÅÍ½¼¶½¢ÔØ»úµÄÕì²ìĞÍ£¬ÏÂ·½Ğü¹ÒÒ»¸ö´óĞÍ¼àÊÓµõ²Õ¼àÊÓÖÜÎ§Õ½³¡»·¾³"
+Locale_Text[635] = "Atalanta class - Sylphon anti-aircraft type" --34
+Locale_Text[636] = "A derivative of the Atalanta-class destroyer of the Caius League, developed in conjunction with the Sylphon, this ship is more adept at anti-aircraft defense"
 
 
-Locale_Text[675] = "Éñ¸¦¼¶Âö³åÍ§"        --38
-Locale_Text[676] = "×îĞÂ¿ª·¢µÄÒ»ÖÖ×°¼×Âö³åÍ§£¬Âö³å¹âÏß¿ÉÒÔ·´Õ½»úÒ²¿ÉÒÔ¶Ô¿¹ÅÚÍ§"
+Locale_Text[645] = "Believer class carrier - air superior" --35
+Locale_Text[646] = "Hiigara's newest interceptor, with strong armor and not weak performance"
 
-Locale_Text[685] = "Éñ¸¦¼¶µ¼µ¯Í§"        --39
-Locale_Text[686] = "×°±¸ÁËÁ½×ù¿É¿ìËÙ×°ÌîµÄÖØĞÍµ¼µ¯·¢ÉäÆ÷£¬¿ÉÒÔÓĞĞ§¶Ô¿¹Ö÷Á¦½¢"
+Locale_Text[655] = "Believer class carrier aircraft - bombing type" --36
+Locale_Text[656] = "The bombardment version of the Believer class, with the twin cannons replaced by two missile launchers"
 
-Locale_Text[695] = "Éñ¸¦¼¶¹¤³ÌÍ§"        --40
-Locale_Text[696] = "¿ÉÒÔ¿ª²É×ÊÔ´Ò²¿ÉÒÔÓÃÎ¬ĞŞ¼¤¹âĞŞ¸´Õ½½¢"
-
-Locale_Text[705] = "¿¨°ÂË¹¼¶»¤ÎÀ½¢-Àë×ÓÅÚĞÍ"        --
-Locale_Text[706] = "×°±¸ÓĞÒ»ÃÅÀë×ÓÅÚ£¬¿ÉÒÔÓĞĞ§»÷»ÙÖ÷Á¦½¢"
-
-Locale_Text[715] = "¿¨°ÂË¹¼¶»¤ÎÀ½¢-·À¿ÕÅÚĞÍ"        --
-Locale_Text[716] = "×°±¸ÓĞ·À¿ÕÅÚ£¬¿ÉÒÔÓĞ·À¿ÕºÍ»÷ÂäµĞ»ú"
-
-Locale_Text[725] = "¿¨°ÂË¹¼¶»¤ÎÀ½¢-ÓãÀ×ĞÍ"        --
-Locale_Text[726] = "×°±¸ÓĞÁ½×ùÓãÀ×·¢ÉäÆ÷£¬¿ÉÒÔÓĞĞ§»÷»ÙÖ÷Á¦½¢ºÍÖĞĞ¡ĞÍ½¢Í§"
-
-Locale_Text[735] = "¿¨°ÂË¹¼¶»¤ÎÀ½¢-Í»»÷ĞÍ"        --
-Locale_Text[736] = "×°±¸ÓĞÒ»ÃÅÀë×ÓÅÚ£¬¿ÉÒÔÓĞĞ§»÷»ÙÖ÷Á¦½¢"
-
-Locale_Text[745] = "¿¨°ÂË¹¼¶»¤ÎÀ½¢-Ö§Ô®ĞÍ"        --
-Locale_Text[746] = "×°±¸ÓĞ¶àÃÅËÙÉäÅÚºÍµç½¬ÅÚµ¯·¢ÉäÆ÷£¬¿ÉÒÔÍ»ÆÆµĞÈË½¢¶ÓµÄ·ÀÏß"
-
-Locale_Text[755] = "¿¨°ÂË¹¼¶»¤ÎÀ½¢-Õì²ìĞÍ"        --
-Locale_Text[756] = "×°±¸ÓĞÏÈ½øÕì²ìÉè±¸£¬¿ÉÒÔÓĞĞ§µÄÕì²ìµĞÈË½¢¶ÓÇé¿ö"
-
-Locale_Text[765] = "¿¨°ÂË¹¼¶»¤ÎÀ½¢-ÖÎ°²ĞÍ"        --
-Locale_Text[766] = "Ò»ÖÖÖÎ°²½¢£¬Ö÷ÒªÓÃÀ´½øĞĞÇøÓòÑ²ÂßºÍÎ¬»¤ÖÎ°²"
-
-Locale_Text[775] = "¿¨°ÂË¹¼¶»¤ÎÀ½¢-¾«Ó¢ĞÍ"        --
-Locale_Text[776] = "×°±¸ÓĞ¶àÃÅËÙÉäÅÚ£¬Àë×Ó·¢ÉäÆ÷ºÍÁ½×ùµ¼µ¯·¢Éä×°ÖÃ£¬ÓµÓĞÇ¿´óµÄ»ğÁ¦Êä³ö"
-
-Locale_Text[785] = "Ë¹¿¨·¨Èê¼¶ÇıÖğ½¢"        --
-Locale_Text[786] = "×°±¸ÓĞ¶àÖÖÎäÆ÷£¬¿ÉÒÔÁé»îµÄÓ¦¶Ô¸÷ÖÖÖĞĞ¡ĞÍÄ¿±ê£¬Ò²¿ÉÒÔ¶Ô¿¹Ö÷Á¦½¢"
-
-Locale_Text[795] = "Ë¹¿¨·¨Èê¼¶ÇıÖğ½¢-·À¿ÕĞÍ"        --
-Locale_Text[796] = "×°±¸ÓĞ´óÁ¿·À¿ÕÎäÆ÷£¬¿ÉÒÔÓĞĞ§µÄÑ¹ÖÆ¿ÕÓò"
-
-Locale_Text[805] = "Ë¹¿¨·¨Èê¼¶ÇıÖğ½¢-¾Ñ»÷ĞÍ"        --
-Locale_Text[806] = "×°±¸ÓĞÒ»ÃÅÔ¶³ÌÆì½¢¼¶Àë×ÓÊø·¢ÉäÆ÷£¬¿ÉÒÔÓĞĞ§µÄ¹¥»÷¶Ô·½Æì½¢"
-
-Locale_Text[815] = "Ë¹¿¨·¨Èê¼¶ÇıÖğ½¢-Ö§Ô®ĞÍ"        --
-Locale_Text[816] = "×°±¸Ò»ÃÅ´óĞÍĞŞÀí¹âÊø·¢ÉúÆ÷£¬¿ÉÒÔÓĞĞ§µÄ½øĞĞÔ¶¾àÀëĞŞÀí"
-
-Locale_Text[825] = "Ë¹¿¨·¨Èê¼¶ÇıÖğ½¢-Í»»÷ĞÍ"        --
-Locale_Text[826] = "×°±¸ÓĞ¶à×ùÖØÅÚºÍÓãÀ×·¢ÉäÆ÷£¬¿ÉÒÔÓĞĞ§Í»ÈëµĞÈË½¢¶ÓÕóÁĞ"
-
-Locale_Text[835] = "Ë¹¿¨·¨Èê¼¶ÇıÖğ½¢-¾«Ó¢ĞÍ"        --
-Locale_Text[836] = "×°±¸ÓĞ¶àÖÖÎäÆ÷£¬ÓµÓĞ²»ÑÇÓÚÑ²Ñó½¢µÄÕ½¶·Á¦"
-
-Locale_Text[840] = "ÁÔĞÇÕßÕ½¶·»ú"        --31
-Locale_Text[841] = "Ï£¶û·ÒºÍ¿¨¶òË¹ÁªºÏ¿ª·¢µÄÖÆ¿ÕÕ½¶·»ú"
-
-Locale_Text[850] = "ÕÙ»½·ÆÑÅÀûµÛ¹úµÚÆß´úÅ®»Ê¼¶´İĞÇ¾Ş½¢"        --31
-Locale_Text[851] = "ÕÙ»½·ÆÑÅÀûÈËµÄ´İĞÇ¾Ş½¢Ç°À´Ö§Ô®"
+Locale_Text[665] = "Believer-class carrier aircraft - reconnaissance" --37
+Locale_Text[666] = "Reconnaissance version of the Believer class, with a large surveillance pod suspended below to monitor the surrounding battlefield"
 
 
-Locale_Text[860] = "°¬ÈğÏ£¶û¼¶ÆÆ½»ÎŞÎ·½¢"
-Locale_Text[861] = "ĞÂÈñµÄ¸ßËÙÖØ¼×ÎŞÎ·½¢£¬ÓµÓĞ×ãÒÔÆ¥µĞ±¤Àİ½¢µÄÕ½¶·Á¦  ½¨ÔìÌõ¼ş£ºÏÈ½øÎŞÎ·½¢¿Æ¼¼"
+Locale_Text[675] = "Godfrey pulse boat" --38
+Locale_Text[676] = "the latest development of an armored pulse boat, pulse light can be anti-fighter and can also fight against gunships"
 
-Locale_Text[870] = "¶÷ÆæÀ­·½ÖÛ"
-Locale_Text[871] = "ÎŞĞÎÒìÎï£¬Ğé¿ÕËùÖı¡£¹ÅÀÏÔ­Ê¼£¬ÍòÎïÄª¼°¡£ÈôÆäËÕĞÑ£¬·ç±©½«Ëæ"
+Locale_Text[685] = "Shen Fu class missile boat" --39
+Locale_Text[686] = "equipped with two heavy missile launchers that can be quickly loaded and can be effective against main force ships"
 
-Locale_Text[880] = "ºÚ×¦À¹½Ø»ú"
-Locale_Text[881] = "ÅäÖÃ×ÅÄ³Ğ©ÉñÃØ¿Æ¼¼µÄ¸ßĞÔÄÜÖØ×°À¹½Ø»ú£¬¾ßÌåÔ´Í·²»Ã÷"
+Locale_Text[695] = "Shenfu-class engineering boat" --40
+Locale_Text[696] = "Can mine resources or repair warships with repair lasers"
 
-Locale_Text[890] = "ºÚÒíÖØÅÚÍ§"
-Locale_Text[891] = "ÓµÓĞÁ¼ºÃµÄÕ½³¡Éú´æÄÜÁ¦£¬ÆäÉÏ´îÔØµÄÁÑ½âÂö³å×ãÒÔËºÁÑ´óĞÍĞÇ½¢£¬µ«ºÜ¶àÊ±ºò±»ÓÃÓÚÇĞ¸îÊ§ÂäÒÅ¼£µÄÍâ¿Ç"
+Locale_Text[705] = "Kaos-class frigate - ion cannon type" --
+Locale_Text[706] = "Equipped with an ion cannon that can effectively destroy the battleship"
 
-Locale_Text[900] = "µòÁãÕß¼¶Õ½ÁĞ½¢"
-Locale_Text[901] = "ÓµÓĞºñÊµ×°¼×ºÍÇ¿¾¢ÏÏÅÚµÄÖ÷Õ½Õ½ÁĞ½¢"
+Locale_Text[715] = "Caius-class frigate - anti-aircraft gun type" --
+Locale_Text[716] = "Armed with anti-aircraft guns, can have anti-aircraft and shoot down enemy aircraft"
 
-Locale_Text[910] = "ÌìÔÖ¼¶ÔËÔØ½¢"
-Locale_Text[911] = "ÉÃ³¤ÔÚ¸´ÔÓ»·¾³ÏÂÖ´ĞĞÈÎÎñµÄ´óĞÍÔËÔØ½¢"
+Locale_Text[725] = "Caius-class frigate - torpedo type" --
+Locale_Text[726] = "equipped with two torpedo launchers, can effectively destroy battleships and small and medium-sized ships"
 
-Locale_Text[920] = "Ê¯Ïñ¹í¼¶µ¼µ¯ÇıÖğ½¢"
-Locale_Text[921] = "¶àÓÃÍ¾µ¼µ¯ÇıÖğ½¢"
+Locale_Text[735] = "Kaos-class frigate - Assault" --
+Locale_Text[736] = "Equipped with an ion cannon that can effectively destroy battleships"
 
+Locale_Text[745] = "Caius-class frigate - support" --
+Locale_Text[746] = "Armed with multiple rapid-fire cannons and plasma shell launchers, it can break through enemy fleet defenses"
 
----------------------------------------------------
+Locale_Text[755] = "Kaos-class frigate - reconnaissance" --
+Locale_Text[756] = "equipped with advanced reconnaissance equipment, can effectively reconnoitre the enemy fleet"
+
+Locale_Text[765] = "Caius-class frigate - security type" --
+Locale_Text[766] = "A type of security ship, mainly used for area patrols and security maintenance"
+
+Locale_Text[775] = "Caius-class frigate - Elite" --
+Locale_Text[776] = "Armed with multiple rapid-fire guns, ion launchers and two missile launchers, it has a powerful firepower output"
+
+Locale_Text[785] = "Scafaru-class destroyer" --
+Locale_Text[786] = "Equipped with a wide range of weapons, it is flexible enough to deal with a variety of small and medium-sized targets, and also against battleships"
+
+Locale_Text[795] = "Scafaru-class destroyer - anti-aircraft type" --
+Locale_Text[796] = "Equipped with a large number of anti-aircraft weapons, it can effectively suppress airspace"
+
+Locale_Text[805] = "Scafaru-class destroyer - sniper type" --
+Locale_Text[806] = "Equipped with a long-range flagship-class ion beam emitter that can effectively attack opposing flagships"
+
+Locale_Text[815] = "Scafaru-class destroyer - Support" --
+Locale_Text[816] = "Equipped with a large repair beam generator for effective long-range repair"
+
+Locale_Text[825] = "Scafaru-class destroyer - Assault" --
+Locale_Text[826] = "Armed with multiple heavy guns and torpedo launchers, she can effectively break into enemy fleet arrays"
+
+Locale_Text[835] = "Scafaru-class destroyer - Elite" --
+Locale_Text[836] = "Equipped with a wide range of weapons, it has the combat power of a cruiser"
+
+Locale_Text[840] = "Starhunter fighter" --31
+Locale_Text[841] = "Air fighter jointly developed by Sylphon and Caius"
+
+Locale_Text[850] = "Summoning the seventh generation Empress-class star destroyer of the Fai'ri Empire" --31
+Locale_Text[851] = "Summon Fai'ri Star Destroyer to support"
+
+Locale_Text[860] = "Ariel-class broken hand dreadnought"
+Locale_Text[861] = "Cutting-edge high-speed heavy-armored dreadnoughts, possessing combat effectiveness comparable to fortress ships. Construction conditions: advanced dreadnought technology"
+
+-- 140 text to translate
+Locale_Text[870] = "æ©å¥‡æ‹‰æ–¹èˆŸ"
+Locale_Text[871] = "æ— å½¢å¼‚ç‰©ï¼Œè™šç©ºæ‰€é“¸ã€‚å¤è€åŸå§‹ï¼Œä¸‡ç‰©è«åŠã€‚è‹¥å…¶è‹é†’ï¼Œé£æš´å°†éš"
+
+Locale_Text[880] = "é»‘çˆªæ‹¦æˆªæœº"
+Locale_Text[881] = "é…ç½®ç€æŸäº›ç¥ç§˜ç§‘æŠ€çš„é«˜æ€§èƒ½é‡è£…æ‹¦æˆªæœºï¼Œå…·ä½“æºå¤´ä¸æ˜"
+
+Locale_Text[890] = "é»‘ç¿¼é‡ç‚®è‰‡"
+Locale_Text[891] = "æ‹¥æœ‰è‰¯å¥½çš„æˆ˜åœºç”Ÿå­˜èƒ½åŠ›ï¼Œå…¶ä¸Šæ­è½½çš„è£‚è§£è„‰å†²è¶³ä»¥æ’•è£‚å¤§å‹æ˜Ÿèˆ°ï¼Œä½†å¾ˆå¤šæ—¶å€™è¢«ç”¨äºåˆ‡å‰²å¤±è½é—è¿¹çš„å¤–å£³"
+
+Locale_Text[900] = "å‡‹é›¶è€…çº§æˆ˜åˆ—èˆ°"
+Locale_Text[901] = "æ‹¥æœ‰åšå®è£…ç”²å’Œå¼ºåŠ²èˆ·ç‚®çš„ä¸»æˆ˜æˆ˜åˆ—èˆ°"
+
+Locale_Text[910] = "å¤©ç¾çº§è¿è½½èˆ°"
+Locale_Text[911] = "æ“…é•¿åœ¨å¤æ‚ç¯å¢ƒä¸‹æ‰§è¡Œä»»åŠ¡çš„å¤§å‹è¿è½½èˆ°"
+
+Locale_Text[920] = "çŸ³åƒé¬¼çº§å¯¼å¼¹é©±é€èˆ°"
+Locale_Text[921] = "å¤šç”¨é€”å¯¼å¼¹é©±é€èˆ°"
+
 ---------------------------------------------------
 ---------------------------------------------------
-Locale_Text[1000] = "´¿¾»Ë®ÌáÁ¶×°ÖÃ"            --1
-Locale_Text[1001] = "¿ÉÒÔ½«±ù¿óÈÚ»¯³Éµ­Ë®£¬Ã¿·ÖÖÓÏûºÄ1µ¥Î»µÄ±ù¿óºÍ1µ¥Î»µÄºËÈ¼ÁÏ£¬Éú²ú³ö20µ¥Î»µÄË®"
-Locale_Text[1005] = "Æ¡¾ÆÄğÔì³§"                --2
-Locale_Text[1006] = "¿ÉÒÔÓÃĞ¡ÂóÄğÔìÆ¡¾Æ£¬Ã¿·ÖÖÓÏûºÄ5µ¥Î»µÄĞ¡ÂóºÍ5µ¥Î»µÄµ­Ë®£¬Éú²ú³ö5µ¥Î»µÄÆ¡¾Æ"
 ---------------------------------------------------
-Locale_Text[1100] = "ÇâÈ¼ÁÏÌáÁ¶×°ÖÃ"            --3
-Locale_Text[1101] = "¿ÉÒÔ¸ßĞ§ÂÊµÄ½«µ­Ë®µç½â³öÇâÈ¼ÁÏ£¬Ã¿·ÖÖÓÏûºÄ10µ¥Î»µÄË®£¬Éú²ú³ö2µ¥Î»µÄÇâÈ¼ÁÏ"
-Locale_Text[1105] = "ºËÈ¼ÁÏÌáÁ¶×°ÖÃ"            --4
-Locale_Text[1106] = "´ÓÒ»Ğ©ÕäÏ¡¿óÊ¯ÖĞÌáÁ¶³öºËÈ¼ÁÏ£¬Ã¿·ÖÖÓÏûºÄ1µ¥Î»µÄÕäÏ¡¿óÊ¯£¬Éú²ú³ö20µ¥Î»µÄºËÈ¼ÁÏ"
-Locale_Text[1110] = "·´ÎïÖÊÈ¼ÁÏÌáÁ¶×°ÖÃ"        --5 
-Locale_Text[1111] = "½«´óÁ¿µÄÄÜÔ´ºÍÒ»Ğ©ÕäÏ¡ÔªËØÒ»ÆğÑ¹Ëõ³É·´ÎïÖÊÈ¼ÁÏ£¬Ã¿·ÖÖÓÏûºÄ20µ¥Î»µÄºËÈ¼ÁÏºÍ1µ¥Î»µÄÕäÏ¡¿óÊ¯£¬Éú²ú³ö10µ¥Î»µÄ·´ÎïÖÊÈ¼ÁÏ"
+Locale_Text[1000] = "Pure water refining device" --1
+Locale_Text[1001] = "Can melt ice ore into fresh water, consuming 1 unit of ice ore and 1 unit of nuclear fuel per minute to produce 20 units of water"
+Locale_Text[1005] = "beer brewery" --2
+Locale_Text[1006] = "Beer can be brewed from wheat, consuming 5 units of wheat and 5 units of fresh water per minute to produce 5 units of beer"
 ---------------------------------------------------
-Locale_Text[1200] = "Ãæ°üºæ±º·»"                --6
-Locale_Text[1201] = "½«Ğ¡ÂóÑĞÄ¥³ÉÃæ·Ûºó¸ßĞ§ÂÊµÄ¿¾ÖÆ³ÉÃæ°ü¡£Ã¿·ÖÖÓÏûºÄ20µ¥Î»µÄĞ¡Âó£¬Éú²ú³ö10µ¥Î»µÄÃæ°ü"
-Locale_Text[1205] = "¿ì²ÍÊ³Æ·µê"                --7
-Locale_Text[1206] = "½«Ãæ°üºÍÖíÈâÒ»ÆğÅëÖÆ³Éºº±¤ÈıÃ÷ÖÎµÈÃÀÊ³¡£Ã¿·ÖÖÓÏûºÄ20µ¥Î»µÄÃæ°üºÍ10µ¥Î»µÄÖíÈâ£¬Éú²ú³ö20µ¥Î»µÄÈıÃ÷ÖÎ"
-Locale_Text[1210] = "¸ß¼¶³ø·¿"                  --8 
-Locale_Text[1211] = "½«Å£Èâ¾­¹ı¾«ĞÄµÄµ÷Àí£¬ÖÆ×÷³ÉÃÀÎ¶µÄÅ£ÅÅ¡£Ã¿·ÖÖÓÏûºÄ10µ¥Î»Å£Èâ£¬Éú²ú³ö2µ¥Î»µÄÌ«¿ÕÅ£ÅÅ"
+Locale_Text[1100] = "hydrogen fuel refining device" --3
+Locale_Text[1101] = "It is possible to electrolyze fresh water to produce hydrogen fuel with high efficiency, consuming 10 units of water per minute to produce 2 units of hydrogen fuel"
+Locale_Text[1105] = "Nuclear fuel refinery" --4
+Locale_Text[1106] = "Refining nuclear fuel from some rare ores, consuming 1 unit of rare ore per minute to produce 20 units of nuclear fuel"
+Locale_Text[1110] = "Antimatter fuel refining device" --5 
+Locale_Text[1111] = "Compress a large amount of energy together with some rare elements into antimatter fuel, consuming 20 units of nuclear fuel and 1 unit of rare ore per minute to produce 10 units of antimatter fuel"
+---------------------------------------------------
+Locale_Text[1200] = "bread bakery" --6
+Locale_Text[1201] = "Grind wheat into flour and bake it efficiently into bread. Consume 20 units of wheat per minute to produce 10 units of bread"
+Locale_Text[1205] = "Fast food restaurant" --7
+Locale_Text[1206] = "Cooks bread and pork together to make burger sandwiches and other delicacies. Consume 20 units of bread and 10 units of pork per minute to produce 20 units of sandwiches"
+Locale_Text[1210] = "Advanced kitchen" --8 
+Locale_Text[1211] = "Season beef carefully to make delicious steaks. Consume 10 units of beef per minute to produce 2 units of space steak"
 
-Locale_Text[1300] = "ÈÕÓÃÆ·¼Ó¹¤Ä£¿é"            --9 
-Locale_Text[1301] = "½«Ò»Ğ©»ù´¡ºÏ½ğÖÆ×÷³É¼òµ¥µÄÉú»îÓÃÆ·¡£Ã¿·ÖÖÓÏûºÄ1Î»µÄ»ù´¡ºÏ½ğ£¬Éú²ú³ö10µ¥Î»µÄÈÕ³£Éú»îÓÃÆ·"
+Locale_Text[1300] = "Daily processing module" --9 
+Locale_Text[1301] = "Craft some basic alloys into simple household items. Consume 1 bit of basic alloy per minute to produce 10 units of daily necessities"
 
-Locale_Text[1400] = "¹ÈÎïÅ©³¡"                  --10
-Locale_Text[1401] = "ÓÃµ­Ë®ºÍÄÜÔ´¸ßĞ§ÂÊµÄÅàÓı³ö¹ÈÎïÀ´¡£Ã¿·ÖÖÓÏûºÄ10µ¥Î»µÄµ­Ë®ºÍ1µ¥Î»µÄºËÈ¼ÁÏ£¬Éú²ú³ö30µ¥Î»µÄ¹ÈÎï"
-Locale_Text[1405] = "ÉúÖíËÇÑø³¡"                --11
-Locale_Text[1406] = "ÓÃµ­Ë®ºÍ¹ÈÎïËÇÑøÉúÖí£¬È»ºóÍÀÔ×ºó»ñµÃ´óÁ¿ÖíÈâ¡£Ã¿·ÖÖÓÏûºÄ5µ¥Î»µÄµ­Ë®ºÍ10µ¥Î»µÄ¹ÈÎï£¬Éú²ú³ö5µ¥Î»µÄÖíÈâ"
-Locale_Text[1410] = "ÄÌÅ£ËÇÑø³¡"                --12
-Locale_Text[1411] = "ÓÃµ­Ë®ºÍ¹ÈÎïËÇÑøÄÌÅ££¬È»ºóÍÀÔ×ºó»ñµÃ´óÁ¿Å£Èâ¡£Ã¿·ÖÖÓÏûºÄ10µ¥Î»µÄµ­Ë®ºÍ10µ¥Î»µÄ¹ÈÎï£¬Éú²ú³ö3µ¥Î»µÄÅ£Èâ"
+Locale_Text[1400] = "Grain farm" -- 10
+Locale_Text[1401] = "Cultivate grains efficiently with fresh water and energy. Consume 10 units of fresh water and 1 unit of nuclear fuel per minute to produce 30 units of grain"
+Locale_Text[1405] = "Pig breeding farm" --11
+Locale_Text[1406] = "Raise pigs with fresh water and grains, then slaughter them to obtain large amounts of pork. Consume 5 units of fresh water and 10 units of grain per minute to produce 5 units of pork"
+Locale_Text[1410] = "Dairy farm" --12
+Locale_Text[1411] = "Raise cows with fresh water and grains, then slaughter them to obtain large amounts of beef. Every minute 10 units of fresh water and 10 units of grain are consumed to produce 3 units of beef"
 
-Locale_Text[1500] = "»ù´¡¹¤¾ßÖÆ×÷³µ¼ä"          --13
-Locale_Text[1501] = "ÓÃ¸÷ÖÖ½ğÊôÉú²ú³ö×î»ù´¡µÄÎ¬»¤¹¤¾ß¡£Ã¿·ÖÖÓÏûºÄ10µ¥Î»µÄ»ù´¡ºÏ½ğºÍ5µ¥Î»µÄ¸ßÇ¿¶ÈºÏ½ğ£¬Éú²ú³ö5µ¥Î»µÄ»ù´¡¹¤¾ß"
-Locale_Text[1505] = "¸ß¿Æ¼¼¼Ó¹¤Éè±¸¼ä"          --14
-Locale_Text[1506] = "ÔÚ»ù´¡¹¤¾ßµÄ»ù´¡ÉÏÖÆ×÷³ö¸ßĞÔÄÜµÄÎ¬»¤¹¤¾ß¡£Ã¿·ÖÖÓÏûºÄ10µ¥Î»µÄ»ù´¡¹¤¾ßºÍ5µ¥Î»µÄ¸ßÇ¿¶ÈºÏ½ğ£¬Éú²ú³ö3µ¥Î»µÄ¸ß¼¶¹¤¾ß"
-Locale_Text[1510] = "×Ô¶¯»úÆ÷ÈËÉú²úÏß"          --15      
-Locale_Text[1511] = "ÓÃ´óÁ¿½ğÊô²ÄÁÏÖÆ×÷³ö°º¹óµÄ×Ô¶¯Î¬»¤»úÆ÷ÈË¡£Ã¿·ÖÖÓÏûºÄ2µ¥Î»µÄ¸ß¼¶¹¤¾ßºÍ10µ¥Î»µÄ¸ßÇ¿¶ÈºÏ½ğ£¬Éú²ú³ö2µ¥Î»µÄ×Ô¶¯Î¬»¤»úÆ÷ÈË"
+Locale_Text[1500] = "Basic tool making workshop" --13
+Locale_Text[1501] = "Produces the most basic maintenance tools from various metals. Produce 5 units of basic tools by consuming 10 units of basic alloy and 5 units of high strength alloy every minute"
+Locale_Text[1505] = "High-tech processing equipment room" --14
+Locale_Text[1506] = "Produce a high performance maintenance tool based on the basic tool. Consume 10 units of basic tools and 5 units of high strength alloys per minute to produce 3 units of high level tools"
+Locale_Text[1510] = "Automatic robot production line" --15      
+Locale_Text[1511] = "Produce expensive automatic maintenance robots from large amounts of metal. Consume 2 units of advanced tools and 10 units of high-strength alloys per minute to produce 2 units of automated maintenance robots"
 
-Locale_Text[1600] = "»ù´¡ºÏ½ğÒ±Á¶ÈÛÂ¯"          --16
-Locale_Text[1601] = "ÓÃ¸ßÎÂ½«½ğÊô¿óÊ¯ÖĞµÄ½ğÊôÔªËØÌáÁ¶³öÀ´£¬ÖÆÔì³ÉºÏ½ğ¡£Ã¿·ÖÖÓÏûºÄ1µ¥Î»µÄ½ğÊô¿óÊ¯ºÍ1µ¥Î»µÄºËÈ¼ÁÏ£¬Éú²ú³ö10µ¥Î»µÄ»ù´¡ºÏ½ğ"
-Locale_Text[1605] = "¸ßÇ¿¶ÈºÏ½ğÒ±Á¶Éè±¸"        --17
-Locale_Text[1606] = "ÔÚ»ù´¡ºÏ½ğÉÏÌí¼ÓÒ»Ğ©ÕäÏ¡¿óÎïÔö¼ÓÇ¿¶È£¬´Ó¶øÉú²ú³ö¾ßÓĞ¸ü¸ßĞÔÄÜµÄ¸ßÇ¿¶ÈºÏ½ğ¡£Ã¿·ÖÖÓÏûºÄ10µ¥Î»µÄ»ù´¡ºÏ½ğºÍ1µ¥Î»µÄºËÈ¼ÁÏ£¬»¹ÓĞ1µ¥Î»µÄÕäÏ¡¿óÊ¯£¬Éú²ú³ö5µ¥Î»µÄ¸ßÇ¿¶ÈºÏ½ğ"
-Locale_Text[1610] = "¸ßÎÂÈÛÂ¯"                  --18
-Locale_Text[1611] = "ÓÃ¸ßĞÔÄÜµÄ¶ÍÔìÈÛÂ¯ºÍ´óÁ¿ÄÜÁ¿Ö±½Ó½«»ù´¡ºÏ½ğÉı¼¶Îª¸ßÇ¿¶ÈºÏ½ğ¡£Ã¿·ÖÖÓÏûºÄ10µ¥Î»µÄ»ù´¡ºÏ½ğºÍ3µ¥Î»µÄºËÈ¼ÁÏ£¬Éú²ú³ö10µ¥Î»µÄ¸ßÇ¿¶ÈºÏ½ğ"
-Locale_Text[1615] = "ÌØÖÖºÏ½ğÒ±Á¶Éè±¸"          --19
-Locale_Text[1616] = "ÔÚ¸ßÇ¿¶ÈºÏ½ğµÄ»ù´¡ÉÏÌí¼ÓÌØÊâÔªËØ£¬½«ÆäÉı¼¶ÎªÌØÖÖºÏ½ğ¡£Ã¿·ÖÖÓÏûºÄ10µ¥Î»µÄ¸ßÇ¿¶ÈºÏ½ğºÍ5µ¥Î»µÄÕäÏ¡¿óÊ¯1µ¥Î»µÄ·´ÎïÖÊÈ¼ÁÏ£¬Éú²ú³ö5µ¥Î»µÄÌØÖÖºÏ½ğ"
+Locale_Text[1600] = "Basic alloy smelting furnace" --16
+Locale_Text[1601] = "Refines metal elements from metal ores with high temperatures to create alloys. Consume 1 unit of metal ore and 1 unit of nuclear fuel per minute to produce 10 units of base alloy"
+Locale_Text[1605] = "High-strength alloy smelting equipment" --17
+Locale_Text[1606] = "Add some rare minerals to the base alloy to increase its strength, thus producing a high strength alloy with higher performance. Consume 10 units of base alloy and 1 unit of nuclear fuel and 1 unit of rare ore per minute to produce 5 units of high strength alloy"
+Locale_Text[1610] = "High temperature furnace" --18
+Locale_Text[1611] = "Upgrade base alloys directly to high strength alloys using high performance forge furnaces and large amounts of energy. Consume 10 units of base alloy and 3 units of nuclear fuel per minute to produce 10 units of high strength alloy"
+Locale_Text[1615] = "Special alloy smelting equipment" --19
+Locale_Text[1616] = "Add special elements to high-strength alloys to upgrade them to special alloys. Every minute consume 10 units of high-strength alloy and 5 units of rare ore 1 unit of antimatter fuel to produce 5 units of special alloy"
 
-Locale_Text[1700] = "Ğ¡¿Ú¾¶ÎäÆ÷Åä¼ş¼Ó¹¤Á÷Ë®Ïß"  --20
-Locale_Text[1701] = "ÔÚÉú²úĞ¡¿Ú¾¶ÎäÆ÷Ëù±ØĞëµÄ¸÷ÖÖÁãÅä¼ş¡£Ã¿·ÖÖÓÏûºÄ10µ¥Î»µÄ»ù´¡ºÏ½ğºÍ2µ¥Î»µÄ¸ßÇ¿¶ÈºÏ½ğ£¬Éú²ú³ö5µ¥Î»µÄĞ¡¿Ú¾¶ÎäÆ÷Åä¼ş"
-Locale_Text[1705] = "ÖĞĞÍÎäÆ÷Åä¼ş¼Ó¹¤³µ¼ä"      --21
-Locale_Text[1706] = "ÔÚÉú²úĞ¡¿Ú¾¶ÎäÆ÷Ëù±ØĞëµÄ¸÷ÖÖÁãÅä¼ş¡£Ã¿·ÖÖÓÏûºÄ20µ¥Î»µÄ»ù´¡ºÏ½ğºÍ10µ¥Î»µÄ¸ßÇ¿¶ÈºÏ½ğ£¬Éú²ú³ö5µ¥Î»µÄÖĞĞÍÎäÆ÷Åä¼ş"
-Locale_Text[1710] = "´óĞÍÎäÆ÷Åä¼ş¼Ó¹¤³§"        --22
-Locale_Text[1711] = "ÔÚÉú²úĞ¡¿Ú¾¶ÎäÆ÷Ëù±ØĞëµÄ¸÷ÖÖÁãÅä¼ş¡£Ã¿·ÖÖÓÏûºÄ10µ¥Î»µÄ¸ßÇ¿¶ÈºÏ½ğºÍ2µ¥Î»µÄÌØÖÖºÏ½ğ£¬Éú²ú³ö5µ¥Î»µÄ´óĞÍÎäÆ÷Åä¼ş"
+Locale_Text[1700] = "Small caliber weapon parts processing line" --20
+Locale_Text[1701] = "In the production of various spare parts necessary for small-caliber weapons. Every minute 10 units of basic alloy and 2 units of high-strength alloy are consumed to produce 5 units of small-caliber weapon parts"
+Locale_Text[1705] = "Medium weapon parts processing workshop" --21
+Locale_Text[1706] = "In the production of various spare parts necessary for small-caliber weapons. Every minute 20 units of basic alloy and 10 units of high strength alloy are consumed to produce 5 units of medium weapon parts"
+Locale_Text[1710] = "Large weapon parts processing plant" --22
+Locale_Text[1711] = "In the production of various spare parts necessary for small caliber weapons. Every minute, 10 units of high-strength alloys and 2 units of special alloys are consumed to produce 5 units of large weapon parts"
 
-Locale_Text[1800] = "³¬¿Õ¼äÄ£¿é"        --23
-Locale_Text[1801] = "ÏûºÄ·´ÎïÖÊÄÜÁ¿ÔÚº½Ä¸ÖÜÎ§Éú³ÉÒ»¸ö´ó·¶Î§µÄÌøÔ¾Á¢³¡£¬Òıµ¼ÓÑ¾ü½¢¶Ó½øĞĞÌøÔ¾¡£Ã¿·ÖÖÓÏûºÄ1µ¥Î»µÄ·´ÎïÖÊÄÜÁ¿"
+Locale_Text[1800] = "Hyperspace module" --23
+Locale_Text[1801] = "Consumes antimatter energy to generate a large jump stance around the carrier, guiding friendly fleets through the jump. Consumes 1 unit of antimatter energy per minute"
 
-Locale_Text[1850] = "¸ßĞ§ÄÜ·ÏË®´¦ÀíÉè±¸"        --24
-Locale_Text[1851] = "Ò»¸ö¸ßĞÔÄÜµÄ·ÏË®´¦ÀíÉèÊ©£¬¿ÉÒÔ¸ü¸ßĞ§µÄÑ­»·ÓÃË®£¬´Ó¶ø½ÚÔ¼³ö¸ü¶àµ­Ë®¸øÆäËûÉè±¸Ê¹ÓÃ¡£Ã¿·ÖÖÓ²ú³ö10µ¥Î»µÄµ­Ë®"
-Locale_Text[1860] = "Éú»îÀ¬»ø´¦ÀíÉèÊ©"        --25
-Locale_Text[1861] = "Ò»ÖÖ¸ßĞ§ÄÜµÄÉú»îÀ¬»ø´¦ÀíÉè±¸£¬¿ÉÒÔ½«Æä·Ö½â³ÉÍÁÈÀºÍ·ÊÁÏ£¬ÖÖÖ²Å©×÷Îï¡£Ã¿·ÖÖÓÏûºÄ10µ¥Î»Éú»îÀ¬»ø£¬²ú³ö3µ¥Î»µÄ¹ÈÎï"
+Locale_Text[1850] = "High-efficiency wastewater treatment facility" --24
+Locale_Text[1851] = "A high performance wastewater treatment facility that recycles water more efficiently, thus saving more fresh water for other equipment. Produces 10 units of fresh water per minute"
+Locale_Text[1860] = "domestic waste treatment facility" --25
+Locale_Text[1861] = "A high-efficiency household waste treatment facility that breaks it down into soil and fertilizer to grow crops. It consumes 10 units of household waste per minute and produces 3 units of grain"
 
-Locale_Text[1865] = "»ù´¡²¹¸øºÏ³ÉÉè±¸"        --26
-Locale_Text[1866] = "Ê¹ÓÃ»ù´¡µÄÊ³²ÄºÏ³É»ù´¡²¹¸ø¡£Ã¿·ÖÖÓÏûºÄ10µ¥Î»µÄÈıÃ÷ÖÎºÍ10µ¥Î»µÄµ­Ë®£¬²ú³ö5µ¥Î»µÄ»ù´¡²¹¸ø"
-Locale_Text[1870] = "µ¯Ò©¼Ó¹¤Éè±¸"        --27
-Locale_Text[1871] = "¿ÉÒÔ¼Ó¹¤¸÷ÖÖ¿Ú¾¶µÄµ¯Ò©ºÍÄÜÁ¿ÎäÆ÷×¨ÓÃµÄµ¯Ò©°ü¡£Ã¿·ÖÖÓÏûºÄ10µ¥Î»µÄ»ù´¡ºÏ½ğºÍ5µ¥Î»µÄºËÈ¼ÁÏ£¬²ú³ö5µ¥Î»µÄµ¯Ò©"
-Locale_Text[1875] = "ĞŞÀí²ÄÁÏÉú²úÉè±¸"        --28
-Locale_Text[1876] = "Ê¹ÓÃ¸÷ÖÖ½ğÊôÔ­²ÄÁÏÀ´Éú²úĞŞ²¹²ÄÁÏ¡£Ã¿·ÖÖÓÏûºÄ10µ¥Î»µÄ»ù´¡ºÏ½ğºÍ2µ¥Î»µÄ¸ßÇ¿¶ÈºÏ½ğ£¬²ú³ö5µ¥Î»µÄĞŞÀí²ÄÁÏ"
+Locale_Text[1865] = "Basic supply synthesis equipment" --26
+Locale_Text[1866] = "Synthesizes basic supplies using basic ingredients. Consume 10 units of sandwiches and 10 units of fresh water per minute to produce 5 units of basic supplies"
+Locale_Text[1870] = "Ammo processing equipment" --27
+Locale_Text[1871] = "Can process ammunition of various calibers and ammunition packs for energy weapons. Every minute consumes 10 units of base alloy and 5 units of nuclear fuel to produce 5 units of ammunition"
+Locale_Text[1875] = "Repair material production equipment" --28
+Locale_Text[1876] = "Uses various metal raw materials to produce repair materials. Every minute consumes 10 units of basic alloy and 2 units of high strength alloy to produce 5 units of repair material"
 
-Locale_Text[1880] = "¸ß¼¶²¹¸øÆ·Éú²ú³µ¼ä"        --29
-Locale_Text[1881] = "Ê¹ÓÃÒ»Ğ©¸ß¼¶Ê³²ÄÀ´ÖÆ×÷»ù´¡²¹¸ø¡£Ã¿·ÖÖÓÏûºÄ10µ¥Î»µÄÆ¡¾ÆºÍ10µ¥Î»µÄÌ«¿ÕÅ£ÅÅ£¬²ú³ö50µ¥Î»µÄ»ù´¡²¹¸ø"
-Locale_Text[1885] = "µ¯Ò©¼Ó¹¤Á÷Ë®Ïß"        --30
-Locale_Text[1886] = "¸ßĞ§ÂÊÉú²úµ¯Ò©µÄÁ÷Ë®Ïß¡£Ã¿·ÖÖÓÏûºÄ20µ¥Î»µÄ¸ßÇ¿¶ÈºÏ½ğºÍ10µ¥Î»µÄºËÈ¼ÁÏ£¬²ú³ö50µ¥Î»µÄµ¯Ò©"
-Locale_Text[1890] = "ĞŞÀí²ÄÁÏÉú²ú¹¤³§"        --31
-Locale_Text[1891] = "¸ßĞ§ÂÊµÄÉú²úĞŞ²¹²ÄÁÏµÄ×Ô¶¯¹¤³§¡£Ã¿·ÖÖÓÏûºÄ10µ¥Î»µÄ¸ßÇ¿¶ÈºÏ½ğºÍ1µ¥Î»µÄ×Ô¶¯Î¬ĞŞ»úÆ÷ÈË£¬²ú³ö50µ¥Î»µÄĞŞÀí²ÄÁÏ"
-
+Locale_Text[1880] = "Advanced supply production workshop" --29
+Locale_Text[1881] = "Use some advanced ingredients to make basic supplies. Consume 10 units of beer and 10 units of space steak every minute to produce 50 units of basic supplies"
+Locale_Text[1885] = "Ammo processing line" --30
+Locale_Text[1886] = "An assembly line for efficient production of ammunition. Consumes 20 units of high-strength alloy and 10 units of nuclear fuel per minute, producing 50 units of ammunition"
+Locale_Text[1890] = "Repair material production plant" --31
+Locale_Text[1891] = "Highly efficient automated factory for producing repair materials. Consumes 10 units of high-strength alloy and 1 unit of automated repair robots per minute, producing 50 units of repair material"
 

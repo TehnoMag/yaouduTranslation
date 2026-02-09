@@ -2,103 +2,103 @@ filerange 2550 5599
 rangestart 2550 5599
 
 // Subtitles
-2550	рУс╟
-2551	иХ╤╗рУс╟п╖╧Ш
-2552	кПикп╖╧Ш╪╤╠П
-2553	иХ╤╗╫╒╢╛╣дкПикп╖╧Шо╦╫з╣х╪╤
-2554	Ё╛©у╪ДлЬт╬жйа©
-2555	иХ╤╗Ё╛©у╪ДлЬт╬льп╖╣джйа©
-2556	╣ф╧Бжйа©
-2557	иХ╤╗╣ф╧Бп╖╧Шжйа©
-2558	о╦╫здёпм
-2559	©╙фТ╩Р╧ь╠у╫╒╢╛дёпмо╦╫зотй╬
-2560	дёпм╪Р╩╞
-2561	©╙фТ╩Р╧ь╠удёпм╤╞л╛кУ╪У
-2562	╦Эпбпео╒
-2563	╦Эпбпео╒
-2564	мФ╪р
-2565	лФ╩╩ : %d
-2566	╥и╢╛╤сап ё╗©уё╘
-2567	всо╣мЁ╤сап ё╗©уё╘
+2550	SHADOWS
+2551	TOGGLE SHADOW EFFECTS
+2552	DAMAGE FX LOD
+2553	SELECT DAMAGE EFFECTS LEVEL OF DETAIL FOR SHIPS
+2554	HYPERSPACE QUALITY
+2555	SET THE QUALITY OF THE HYPERSPACE EFFECTS
+2556	LIGHTING LOD
+2557	SELECT LIGHTING LEVEL OF DETAIL
+2558	DETAIL GEOMETRY
+2559	ENABLE OR DISABLE DISPLAY OF DETAIL GEOMETRY
+2560	GEOMETRY SCALING
+2561	TURN ON OR OFF DYNAMIC REDUCTION OF GEOMETRY
+2562	UPDATE INFO
+2563	UPDATE INFORMATION
+2564	Player
+2565	REPLACE : %d
+2566	Ship Queue (Empty)
+2567	Subsystem Queue (Empty)
 2568	%d / %d
 2569	<c=%06x>%d</c><c=ffffff> / %d</c>
-2570	яп╬©╤сап (©у)
-2571	╪Р╣╔
-2572	╠Йв╪
-2573	ю╖дя
-2574	в╗╪р
-2575	╣Гдт
-2576	©╙╥е
-2577	╧ь╠у
-2578	хкюЮ
-2580	КЭКй
-2581	иХ╤╗КЭКйп╖╧Ш
-2582	иН╤хф╚рф
-2583	©╙фТ/╧ь╠уиН╤хф╚рфё╗дэ╫Б╬Ж╧╡цФДжх╬й╠╣диН╤хЁЕм╩нйлБё╘
-2584	╤╞л╛дё╨Щ
-2585	иХ╤╗╤╞л╛дё╨Щп╖╧Ш
-2600	╪рт╟2ё╗уБйгюо╟Фндвжс╢0w0
-2601	©Лкысно╥ё╗хк╩З╤ту╫ё╘
-2602	╫ля╖
-2603	╣╔хксно╥
-2604	хк╩З╤ту╫
-2605	╪Л╡Исно╥╦Эпб
-2607	я║оН
-2608	╤╞╩╜жь╥е
-2609	мкЁЖ
-2610	╨Смк
-2611	обр╩╡╫
-2612	х╥╤╗
-2613	х║оШ
-2614	╤Юхксно╥
-2615	╤ах║жп
-2616	мФ╪р╣╣╟╦╧эюМ
-2617	жВ╡к╣╔
-2618	гКя║тЯ//
-2619	х╥╤╗
-2620	╫╗тЛ╧эюМфВ
-2621	╤Юхксно╥ - BETA╡Бйт╟Ф
-2622	BETA╡Бйт╟Ф
-2623	╦╗жЗ╣╔н╩ (%s)
-2624	╩╓╨╫м╖ (%s)
-2625	жВа╕╫╒ (%s)
-2627	у╫╤╥╩З (%s)
-2628	╩╓ню╫╒ (%s)
-2629	ф╫л╗ (%s)
-2630	отй╬кЫспюЮ╠П (%s)
-2631	╫╗тЛ
-2632	╦Э╤Ю╢╛ж╩
-2633	╫╗тЛ╤сап//
-2634	тщмё (%s)
-2635	х╚╡©х║оШ (%s)
-2636	х║оШ (%s)
-2637	ря╫╗Ёи
-2638	вйт╢юЮ (%s)
-2639	╥гу╫╤╥╣╔н╩ (%s)
+2570	Research Queue (Empty)
+2571	Easy
+2572	Standard
+2573	Hard
+2574	Expert
+2575	CPU
+2576	Open
+2577	Closed
+2578	Human
+2580	HAZE
+2581	TOGGLE HAZE EFFECT
+2582	DEPTH BIAS
+2583	TOGGLE DEPTH BIAS
+2584	MOTION BLUR
+2585	TOGGLE MOTION BLUR
+2600	HOMEWORLD 2
+2601	QUICK START (PLAYER VS CPU)
+2602	TUTORIAL
+2603	SINGLE PLAYER GAME
+2604	PLAYER VS CPU
+2605	CHECK FOR UPDATE
+2607	OPTIONS
+2608	MOVIES
+2609	EXIT
+2610	BACK
+2611	NEXT
+2612	OK
+2613	CANCEL
+2614	MULTIPLAYER
+2615	LOADING
+2616	PLAYER PROFILES
+2617	MAIN MENU
+2618	SELECT//
+2619	ACCEPT
+2620	BUILD MENU
+2621	MULTIPLAYER
+2622	BETA
+2623	UTILITY (%s)
+2624	CORVETTE (%s)
+2625	CAPITAL (%s)
+2627	FIGHTER (%s)
+2628	FRIGATE (%s)
+2629	PLATFORM (%s)
+2630	SHOW ALL FACILITIES (%s)
+2631	BUILD
+2632	MORE SHIPS
+2633	BUILD QUEUE//
+2634	PAUSE (%s)
+2635	CANCEL ALL (%s)
+2636	CANCEL (%s)
+2637	BUILT
+2638	RESOURCE (%s)
+2639	NON-COMBAT (%s)
 2640	%d
 2641	%s x%d
-2642	╧ь╠у
-2643	дё©Ивсо╣мЁ (%s)
-2644	╦пс╕фВвсо╣мЁ (%s)
-2655	ё╗нч╫╗тЛ╧╓вВё╘
-2656	всо╣мЁ╤сап//
-2660	╥╒иД╧эюМфВ
-2662	╠ёЁжмё╡╢в╢л╛
-2663	вт╤╞╥╒иД
-2664	╥╒иДряя║жп╣╔н╩
-2665	х╚╡©╥╒иД
-2666	рямё╡╢╫╒╢╛
+2642	CLOSE
+2643	MODULE SUBSYSTEMS (%s)
+2644	SENSOR SUBSYSTEMS (%s)
+2655	(no build job)
+2656	SUBSYSTEM QUEUE//
+2660	LAUNCH MENU
+2662	STAY DOCKED
+2663	AUTO LAUNCH
+2664	LAUNCH SELECTED
+2665	LAUNCH ALL
+2666	DOCK SLOTS
 2667	%d/%d
-2670	обть╫Ь╤х
-2671	обтьв╢л╛
-2672	гКя║тЯр╩╦Жобтьн╩жц
-2673	╢ся║жп╣дн╩жцобтьиЩ╪╤нд╪Ч
-2674	╩Ях║╡╧╤║обть╣д╦Э╤Юпео╒
-2675	╟╢╥©╪ДцШвжеепР
-2676	╟╢сно╥йЩд©еепР
-2677	╟╢мФ╪рйЩд©еепР
-2678	╪схКя║жп╣д╥©╪Д
-2679	к╒пб╥©╪Дап╠М╣дотй╬
+2670	DOWNLOAD PROGRESS
+2671	DOWNLOAD STATUS
+2672	SELECT A DOWNLOAD LOCATION
+2673	DOWNLOAD UPDATE FROM SELECTED LOCATION
+2674	GET EXTRA INFO ON THE PATCH DOWNLOAD
+2675	SORT BY LOBBY NAME
+2676	SORT BY NUMBER OF GAMES
+2677	SORT BY NUMBER OF PLAYERS
+2678	JOIN THE SELECTED LOBBY
+2679	REFRESH THE LIST OF DISPLAYED LOBBIES
 2684	Arial
 2685	Default
 2686	EuroseCond10
@@ -115,887 +115,888 @@ rangestart 2550 5599
 2697	MicrogrammaDBolExt14
 2698	MicrogrammaDBolExt18
 2699	MicrogrammaDBolExt24
-2700	╫╗тЛ
-2701	яп╬©
-2702	╡к╣╔
-2703	╦пс╕фВ
-2704	д©╠Й
-2705	╫╒╤с
-2706	╥╒иД
-2707	йб╪Ч
-2708	╣╔н╩ё╨
-2709	╧╕дэё╨
-2710	╧╔╩Вик╨╕/цК
-2711	вН╢Скы╤х
-2712	х╥хо\nвт╠╛ё©
-2713	мБ╫╩
-2714	уСпн
-2715	у╫йУ
-2716	адлЛ
-2717	рф╤╞ (%s)
-2718	╧╔╩В (%s)
-2719	╥юню (%s)
-2720	мё╡╢ (%s)
-2721	иХжц╪╞╫А╣Ц (%s)
-2722	мёж╧ (%s)
-2723	╡и╪╞ (%s)
-2724	рф╤╞╡╒╧╔╩В (%s)
-2725	Ё╛©у╪Дрф╤╞ (%s)
-2726	пчюМ (%s)
-2727	иХжцб╥╬╤╣Ц (%s)
-2728	╩ьйу (%s)
-2729	льйБдэа╕ (%s)
-2730	обр╩рЁ
-2731	иор╩рЁ
-2732	╥╣╩ь╢╛ж╩ап╠М
-2733	у╫йУ//
-2734	╧╔╩ВуСпн//
-2735	жВа╕╫╒╥╫уС (%s)
-2736	╩╓ню╫╒уСап (%s)
-2737	у╫╤╥╩Зяз╩╓ (%s)
-2738	вНп║╩╞хннЯю╦ (%s)
-2739	вН╢С╩╞хннЯю╦ (%s)
-2740	╡Л©╢╫╒╤спео╒
-2741	╧╔╩ВуСпн (F5-F7)
-2742	╦д╠Ду╫йУ (F2-F4)
-2743	╢Р©╙/╧ь╠уйб╪Чотй╬ (%s)
-2744	╢Р©╙/╧ь╠уд©╠Йотй╬ (%s)
-2745	╢Р©╙/╧ь╠у╦пс╕фВ╧эюМфВ (%s)
-2746	╢Р©╙/╧ь╠умБ╫╩я║оН (%s)
-2747	╢Р©╙/╧ь╠уадлЛ╢╟©з (%s)
-2748	╢Р©╙/╧ь╠у╫╗тЛ╧эюМфВ (%s)
-2749	╢Р©╙/╧ь╠уяп╬©╧эюМфВ (%s)
-2750	д©╠Й
-2751	д©╠Й//
-2752	жВр╙д©╠Й
-2753	╢нр╙д©╠Й
-2754	д©╠ЙоЙо╦вйао
-2758	вт╤╗рЕ (%s)
-2759	х╥хо
-2760	╢Р©╙/╧ь╠у╥╒иД╧эюМфВ (%s)
-2761	╧эюМ╠ЮвИ
-2762	╩ь╧к
-2763	╢Р©╙/╧ь╠у╤т╩╟╩ь╧к (%s)
+2700	BUILD
+2701	RESEARCH
+2702	MENU
+2703	SENSORS
+2704	OBJECTIVES
+2705	FLEET
+2706	LAUNCH
+2707	EVENTS
+2708	UNIT:
+2709	ROLE:
+2710	ATTACK DAMAGE/SEC
+2711	MAXIMUM SPEED
+2712	CONFIRM\nSCUTTLE?
+2713	DIPLOMACY
+2714	STRIKE
+2715	TACTICS
+2716	CHAT
+2717	MOVE (%s)
+2718	ATTACK (%s)
+2719	GUARD (%s)
+2720	DOCK (%s)
+2721	SET RALLY POINT (%s)
+2722	STOP (%s)
+2723	HARVEST (%s)
+2724	MOVE AND ATTACK (%s)
+2725	HYPERSPACE (%s)
+2726	REPAIR (%s)
+2727	SET WAYPOINTS (%s)
+2728	RETIRE (%s)
+2729	TOGGLE SPECIAL COMMANDS (%s)
+2730	NEXT PAGE
+2731	PREVIOUS PAGE
+2732	RETURN TO SHIP LIST
+2733	TACTICS//
+2734	STRIKE GROUPS//
+2735	Capital Phalanx (%s)
+2736	Frigate Line (%s)
+2737	Fighter Screen (%s)
+2738	MINIMIZE TASKBAR (%s)
+2739	MAXIMIZE TASKBAR (%s)
+2740	VIEW FLEET INFORMATION
+2741	STRIKE GROUP FORMATION (F5-F7)
+2742	CHANGE TACTICS (F2-F4)
+2743	TOGGLE EVENTS (%s)
+2744	TOGGLE OBJECTIVES (%s)
+2745	SENSORS MANAGER (%s)
+2746	TOGGLE DIPLOMACY OPTIONS (%s)
+2747	TOGGLE CHAT (%s)
+2748	BUILD MANAGER (%s)
+2749	TOGGLE RESEARCH MANAGER (%s)
+2750	OBJECTIVES
+2751	OBJECTIVES//
+2752	PRIMARY OBJECTIVES
+2753	SECONDARY OBJECTIVES
+2754	OBJECTIVE DETAILS
+2758	CUSTOM (%s)
+2759	CONFIRM
+2760	LAUNCH MANAGER (%s)
+2761	CONTROL GROUPS
+2762	RECALL
+2763	TOGGLE SPEECH RECALL (%s)
 2764	x%d
-2765	╥юсЫЁ║ (%s)
-2766	рЧпн (%s)
-2767	иХжц╪╞╫Ад©╠Й (%s)
-2768	╣Г╢ебЖЁЕ (%s)
-2769	╦пс╕фВи╗цХ (1000 RU) (%s)
-2770	в╟╪в
-2771	вти╠пт╧╔╩В (%s)
-2772	╥ежц©уюв (%s)
-2773	вт╠╛ (%s)
-2774	сно╥╡к╣╔ (%s)
-2775	╠Ю╪╜╣╣╟╦
-2776	иХжц//
-2777	т╓юю
-2778	╣ВуШаа╤х
-2779	я║тЯ╫╒╩у
-2780	вт╤╗рЕяуи╚//
-2781	╩Ыи╚
-2782	лУнфяуи╚
-2783	╫╚я║╤╗╣дяуи╚╠ё╢Ф╣╫яЫ╠╬ио
-2784	╢сяЫ╠╬жпя║тЯяуи╚
-2785	╫╒╩у
-2786	гКя║тЯ//
-2787	оё╦Яю╜
-2788	н╛╦Я╤Ш
-2789	ЙгЁф
-2790	╢МнСё╨╫╒╩ум╪ф╛╠ьпКн╙║╙║╙н╢я╧кУ╣д24/32н╩и╚иН╣дTGA║╒DDS╩РROT╦Яй╫╣днд╪Чё╛╢Сп║н╙64x64оЯкь
-2791	мФ╪радлЛцШвж
-2792	гКя║тЯт╓ююкЫсц╣джжвЕ
-2793	╥и╢╛т╓юю
-2794	гКя║тЯмФ╪р╫╒╩у
-2795	╦Э╦д╩Ыи╚ё╗к╚╩Врт╫╩╩╩ё╘
-2796	╦Э╦длУнфяуи╚ё╗к╚╩Врт╫╩╩╩ё╘
-2797	╣ВуШи╚╣В╨м╠╔╨м╤х
-2798	╥ефЗкЫвВ╣д╦Э╦д
-2799	с╕сцкЫвВ╣д╦Э╦д
-2800	вйт╢╣╔н╩
-2801	╣╔н╩мЁ╪ф
-2805	╩ж╦╢д╛хоиХжц
-2806	╩ж╦╢д╛хо╣дяуи╚╨м╫╒╩у
-2810	ря╟╡в╟╣двсо╣мЁ
-2811	©уопиЗ╡З╡Е╡ш
-2812	©уопдё©И╡Е╡ш
-2813	©уоп╦пс╕фВ╡Е╡ш
-2814	╠╩╩ы╧лспвсо╣мЁ
-2815	иЗ╡З╡Е╡ш
-2816	дё©И╡Е╡ш
-2817	╦пс╕фВ╡Е╡ш
-2830	и╦я║//
-2831	мФ╪р╫╒╢╛
-2832	цкся╫╒╢╛
-2833	╣пхк╫╒╢╛
-2834	жпа╒
-2835	╣╪╣╞
-2836	фДкЭ
-2837	<c=AA0000>ртобмФ╪р╥╒иЗакмЬбГясЁы:
+2765	DEFENSE FIELD (%s)
+2766	CLOAK (%s)
+2767	SET RALLY OBJECT (%s)
+2768	ELECTRO-MAGNETIC PULSE (%s)
+2769	SENSORS PING (1000 RU) (%s)
+2770	HEALTH
+2771	KAMIKAZE (%s)
+2772	DEPLOY MINES (%s)
+2773	SCUTTLE (%s)
+2774	GAME MENU (%s)
+2775	EDIT PROFILE
+2776	SETTINGS//
+2777	PREVIEW
+2778	ADJUST BRIGHTNESS
+2779	SELECT BADGE
+2780	CUSTOMIZE COLORS//
+2781	BASE COLOR
+2782	STRIPE COLOR
+2783	SAVE SELECTED COLOR TO SWATCH
+2784	SELECT COLOR FROM SWATCH
+2785	BADGE
+2786	SELECT//
+2787	HIIGARAN
+2788	VAYGR
+2789	NICKNAME
+2790	ERROR: Badge images must be: uncomp. 24/32-bits TGA, DDS or ROT format, size 64x64 pixels
+2791	PLAYER CHAT NAME
+2792	SELECT RACE FOR PREVIEW
+2793	SHIP PREVIEW
+2794	SELECT PLAYER BADGE
+2795	CHANGE BASE COLOR (DOUBLE CLICK TO SWAP)
+2796	CHANGE STRIPE COLOR (DOUBLE CLICK TO SWAP)
+2797	ADJUST HUE AND SATURATION
+2798	DISCARD CHANGES
+2799	ACCEPT CHANGES
+2800	RESOURCE UNITS
+2801	UNIT COUNT
+2805	RESTORE DEFAULTS
+2806	RESTORE DEFAULT COLORS AND EMBLEM
+2807	SALVAGE/CAPTURE (%s)
+2810	Installed Subsystems
+2811	Empty Production Slot
+2812	Empty Module Slot
+2813	Empty Sensors Slot
+2814	Destroyed Innate Subsystem
+2815	Production Slots
+2816	Module Slots
+2817	Sensors Slot
+2830	FILTERS//
+2831	PLAYER SHIPS
+2832	ALLIED SHIPS
+2833	ENEMY SHIPS
+2834	NEUTRAL
+2835	MISSILES
+2836	MISC
+2837	<c=AA0000>Player is lagging:
 2840	%s
-2841	лъЁЖмФ╪р
-2842	╡╩р╙тым╗ж╙нр
-2843	╧ь╠у
-2845	п║вИ
-2846	кЫспхк
+2841	KICK PLAYER
+2842	DON'T TELL ME ANYMORE
+2843	CLOSE
+2845	TEAM
+2846	EVERYONE
 2847	<c=00AFFF>%s></c> %s
 2848	>
 2849	<c=00AFFF>/<b>%s </b>
-2850	яп╬©╡к╣╔
-2852	иЩ╪╤
-2853	кы╤х
-2854	в╟╪в
-2855	фДкЭ
-2856	╣х╪╤
+2850	RESEARCH MENU
+2852	UPGRADES
+2853	SPEED
+2854	HEALTH
+2855	OTHER
+2856	LEVEL
 2857	RU
-2858	яп╬©╤сап//
-2859	тщмё
-2860	д╦╫╒//
-2861	дэа╕
-2862	©ф╪╪
-2863	╣╠г╟ц╩сп©исц╣диЩ╪╤оНд©
-2864	╣╠г╟ц╩сп©исц╣д©ф╪╪оНд©
-2875	╫ля╖
-2876	╤ах║╫ля╖╧ь
-2877	©╙й╪
-2878	╣ф╧Бжйа©
-2879	иХ╤╗╣ф╧Бп╖╧Шжйа©
-2880	лЫм╪╢Сп║иооч
-2881	я║тЯвН╢СлЫм╪Ёъ╢Г
-2882	лЫм╪жйа©
-2883	я║тЯлЫм╪о╦╫зжйа©
-2884	0 - ╥гЁё╣м
-2885	3 - ╣м
-2886	6 - жп╣х
-2887	9 - ╦ъ
-2888	©╧╬БЁщ
-2889	я║тЯ©╧╬БЁщжйа©
-2890	ж║м╛╡╫
-2891	я║тЯДжх╬ж║м╛╡╫дёй╫
-2892	нч
-2893	╢╧ж╠м╛╡╫
-2894	втййс╕╢╧ж╠м╛╡╫
-2895	у╫╤╥кПик
-2896	иХ╤╗у╫╤╥кПикп╖╧Ш
-2897	у╫╤╥кПикочжф
-2898	иХ╤╗©╙фТу╫кПотй╬╣двН╣м╫╒╢╛╣х╪╤
-2899	мФ╪р//
-2900	мБ╫╩
-2901	гКгС╫Ацк
-2902	к╨╩ыцкт╪
-2903	фа╠н╫Ацк
-2904	тйпМ╫Ацк
-2905	фа╠надлЛпео╒
-2906	тйпМадлЛпео╒
-2907	╥╒кмк╫адпео╒
-2908	хц╤и╫╒╢╛
-2909	тЫкмвйт╢ё╨
-2910	х╚╡©
-2911	╫сйэцкт╪
-2912	╬э╬Ьцкт╪
-2913	м╤╫╣
-2914	оРфДкШмФ╪р╥╒ЁЖ╫АцкгКгС
-2915	к╨╩ы╨мфДкШмФ╪р╢ОЁи╣дцкт╪
-2916	фа╠ню╢втфДкШмФ╪р╣д╫АцкгКгС
-2917	╫╚я║жп╣д╢╛ж╩хц╤и╦ЬфДкШмФ╪р
-2918	цЭаН<b>х╚╡©</b>╫╒╤см╤╫╣
-2919	тЫкм<c=FFD700>500 RU</c>╦ЬфДкШмФ╪р
-2920	тЫкм<c=FFD700>1000 RU</c>╦ЬфДкШмФ╪р
-2921	тЫкм<c=FFD700>5000 RU</c>╦ЬфДкШмФ╪р
-2922	тЫкм<c=FFD700>х╚╡© RU</c>╦ЬфДкШмФ╪р
-2923	╧ь╠у╢╟©з
-2940	сОрТпео╒╪гб╪
-2941	пео╒//
-2950	пщоп
-2951	ртпщопдя╤х╫Ьпп║╤╪рт╟║╥сно╥ - мф╪Ж╦ЬоКгАкилЕяИ║╤╪рт╟║╥о╣ап╧ййб╣дмФ╪р
-2952	фум╗
-2953	ртфум╗дя╤х╫Ьпп║╤╪рт╟║╥сно╥ - мф╪Ж╦Ья╟гС╦Эф╫╨Б╣д║╤╪рт╟║╥╧ййблЕяИ╣дмФ╪р
-2954	аВ╥╫
-2955	Ё╧╣влЕяИ║╤╪рт╟║╥о╣ап╣дт╜╠╬╧ййбсК╠╩аВ╥╫уъцг╡рар╤Ь╠╞вЁ╣дхыр╚ё║
-2956	вт╤╗рЕ (%s)
-2957	©╙фТжьа╕╬╝ (%s)
-2958	льйБ╪╪дэ (%s)
-2959	╪скыдэа╕ (%s)
-2960	тЖг©п╖╧Ш
-2961	х╚╡©яп╬©
-2962	вт╤╞╩Я╣цх╚╡©яп╬©
-2963	HDR╧Бтн
-2964	иХ╤╗╦ъ╤╞л╛╥╤н╖╧Бтнп╖╧Ш
-2965	HDR╧Боъ
-2966	иХ╤╗╦ъ╤╞л╛╥╤н╖╧Боъп╖╧Ш
-2967	╬╟иН
-2968	иХ╤╗╬╟иНп╖╧Ш
-2969	©╙фТ (╫Жй╣й╠╤╞╩╜жп)
-2970	©╙фТ (р╩ж╠©╙фТ)
-2971	╢╟©здёй╫
-2972	иХ╤╗отй╬дёй╫
-2973	х╚фа
-2974	╢╟©з
-2975	╫ГцФп╖╧Ш
-2976	иХ╤╗╦ъ╪╤╫ГцФп╖╧Ш
-2977	иН╤хф╚рф
-2978	иХ╤╗иН╤хф╚рф
-2979	кЫсп╫╒╢╛
-2980	╩╓╨╫м╖
-2981	╩╓ню╫╒
-2982	жВа╕╫╒
-2983	╫ЖЁ╛жВа╕╫╒
-2984	╣Гдт╡ъбт
-2985	иХ╤╗╣ГдтмФ╪р╡ъбт
-2986	╤╞л╛
-2987	им╫П
-2988	иХ╤╗╩Ви╠╣╔н╩╩Я╣ц╣дим╫Па©
-2989	жп╣х
-2990	вйт╢в╒хК
-2991	иХ╤╗вт╤╞вйт╢в╒хК
-2992	5╥жжс
-2993	10╥жжс
-2994	лТу╫
-2995	мЙЁилТу╫рт╩Я╣ц╤НмБвйт╢
-2996	╫╠юЬоД
-2997	иЗЁи©идэ╨╛спвйт╢/©ф╪╪/╫╒╢╛╣д╫╠юЬоД
-2998	╫Жсп╨╫д╦
-2999	╧ь╠уд╦╫╒сК╢╛нК
-3000	©Л╧╔╠ё╩╓
-3001	иХ╤╗©Л╧╔╠ё╩╓й╠оч
-3002	15╥жжс
-3003	ре╪ё
-3004	иЗЁилА╧╘вйт╢/©ф╪╪╣дре╪ё
-3005	╢щ╩ыкЫсп╣п╥╫д╦╫╒
-3006	╦пс╕фВтз╢кгЬсРл╫╡Б╣╫╣п╥╫Ё╛жВа╕╫╒║ё╤╗н╩╡╒╢щ╩ыкЫсп╣п╬Эд╦╫╒║ё
-3007	жВр╙д©╠Йё╨  ╢щ╩ыкЫсп╣п╥╫д╦╫╒║ё
-3020	╢╢╫╗сно╥
-3021	отй╬сно╥юЮпмпео╒
-3022	х╥хосно╥цэбК
-3023	гКйДхКсно╥цэбК
-3024	гКя║тЯсно╥юЮпм
-3025	гКйДхКсно╥цШвж
-3026	╢╢╫╗сно╥
-3027	иХжц//
-3028	сно╥цШвж
-3029	цэбК
-3030	х╥хоцэбК
-3031	сно╥юЮпм
-3032	╪схКсно╥
-3033	дЦ╪╢╫╚╪схК╣дсно╥╣дюЮпм
-3035	ж╠╫са╛╫с
-3036	TCP/IPж╠╫са╛╫с
-3037	гКя║тЯ//
-3038	╢╢╫╗TCP/IPсно╥жВ╩З
-3039	╢╢╫╗жВ╩З
-3040	╪схКдЁжВ╩З╫╗а╒╣дсно╥
-3041	╪схК
-3042	╥╣╩ьа╛╫с╫ГцФ
-3043	╥╣╩ьжВ╡к╣╔
-3046	дёй╫
-3047	╟╢дёй╫и╦я║сно╥
-3048	мФ╪р
-3049	и╦ЁЩмФ╪рхщдиа©╧Щп║╣дсно╥
-3050	сно╥и╦я║фВ
-3051	иХжцсно╥ап╠Ми╦я║фВ//
-3052	цШвж
-3053	╟╢цШвжи╦я║сно╥
-3054	╣ьм╪
-3055	╟╢╣ьм╪и╦я║сно╥
+2858	RESEARCH QUEUE//
+2859	PAUSE
+2860	MOTHERSHIP//
+2861	ABILITIES
+2862	TECHNOLOGIES
+2863	THERE ARE CURRENTLY NO UPGRADES AVAILABLE
+2864	THERE ARE CURRENTLY NO TECHNOLOGIES AVAILABLE
+2875	TUTORIAL
+2876	LOAD TUTORIAL
+2877	START
+2878	LIGHTING
+2879	TOGGLE LIGHTING EFFECTS
+2880	TEXTURE SIZE LIMIT
+2881	SELECT MAXIMUM TEXTURE SIZE
+2882	TEXTURE QUALITY
+2883	SELECT TEXTURE DETAIL QUALITY
+2884	0 - VERY LOW
+2885	3 - LOW
+2886	6 - MEDIUM
+2887	9 - HIGH
+2888	ANTI-ALIASING
+2889	SELECT ANTI-ALIASING QUALITY
+2890	FRAME SYNC
+2891	SELECT FRAME SYNCHRONIZATION METHOD
+2892	NONE
+2893	V-SYNC
+2894	ADAPTIVE
+2895	BATTLE SCARS
+2896	TOGGLE BATTLE DAMAGE DECALS
+2897	BATTLE SCAR LIMIT
+2898	SET LOWEST CLASS FOR SCAR DISPLAY
+2899	PLAYERS//
+2900	DIPLOMACY
+2901	Request Alliance
+2902	Break Alliance
+2903	Ignore Alliance
+2904	Allow Alliance
+2905	Ignore Chat
+2906	Allow Chat
+2907	Send Private Message
+2908	Transfer Ships
+2909	Donate RUs:
+2910	ALL
+2911	Accept Alliance
+2912	Decline Alliance
+2913	SURRENDER
+2914	REQUEST ALLIANCE WITH ANOTHER PLAYER
+2915	BREAK ALLIANCE WITH ANOTHER PLAYER
+2916	IGNORE ALLIANCE FROM ANOTHER PLAYER
+2917	TRANSFER SELECTED SHIPS TO ANOTHER PLAYER
+2918	SURRENDER YOUR <b>ENTIRE</b> FLEET
+2919	DONATE <c=FFD700>500 RUS</c> TO ANOTHER PLAYER
+2920	DONATE <c=FFD700>1000 RUS</c> TO ANOTHER PLAYER
+2921	DONATE <c=FFD700>5000 RUS</c> TO ANOTHER PLAYER
+2922	DONATE <c=FFD700>ALL RUS</c> TO ANOTHER PLAYER
+2923	CLOSE WINDOW
+2940	SPEECH RECALL
+2941	MESSAGES//
+2950	Casual
+2951	Play Homeworld with casual level of gameplay challenge - For players who want to experience the story of Homeworld.
+2952	Challenging
+2953	Play Homeworld with a balanced level of challenge - For players looking for a more fair take on the Homeworld experience.
+2954	Brutal
+2955	Play Homeworld in all its original, brutal glory.
+2956	CUSTOM (%s)
+2957	GRAVWELL (%s)
+2958	DRONES (%s)
+2959	SPEED BURST (%s)
+2960	ENHANCED
+2961	Complete Research
+2962	AUTO-COMPLETE ALL RESEARCH
+2963	HDR BLOOM
+2964	TOGGLE HIGH DYNAMIC RANGE BLOOM EFFECTS
+2965	HDR RAYS
+2966	TOGGLE HIGH DYNAMIC RANGE LIGHT RAYS
+2967	DEPTH OF FIELD
+2968	TOGGLE DEPTH OF FIELD EFFECTS
+2969	ON (CINEMATICS ONLY)
+2970	ON (ALWAYS)
+2971	WINDOW MODE
+2972	TOGGLE DISPLAY MODE
+2973	FULLSCREEN
+2974	WINDOWED
+2975	UI EFFECTS
+2976	TOGGLE ADVANCED UI EFFECTS
+2977	DEPTH BIAS
+2978	TOGGLE DEPTH BIAS
+2979	ALL SHIPS
+2980	CORVETTES
+2981	FRIGATES
+2982	CAPITAL SHIPS
+2983	SUPER-CAPITALS ONLY
+2984	AI Strategy
+2985	SET AI PLAYER STRATEGY
+2986	Dynamic
+2987	Bounties
+2988	SET KILL BOUNTY AMOUNT
+2989	Medium
+2990	RU Injection
+2991	SET AUTOMATIC RU GAIN
+2992	5 Minutes
+2993	10 Minutes
+2994	Challenges
+2995	COMPLETE CHALLENGES FOR BONUS RU
+2996	Crates
+2997	SPAWN RU / TECH / SHIP CRATES
+2998	Carriers Only
+2999	DISABLE MOTHERSHIP / SHIPYARD
+3000	Rush Protection
+3001	SET RUSH PROTECTION TIME
+3002	15 Minutes
+3003	Relics
+3004	SPAWN RELICS THAT GRANT RU
+3005	Destroy all enemy Motherships.
+3006	Sensors are picking up signatures of enemy Super-Capital Class vessels in the area.  Locate and destroy all enemy Motherships.
+3007	Primary Objective:  Destroy all enemy Motherships.
+3020	CREATE GAME
+3021	SHOW GAME TYPE INFORMATION
+3022	CONFIRM GAME PASSWORD
+3023	ENTER GAME PASSWORD
+3024	SELECT THE GAME TYPE
+3025	ENTER THE GAME NAME
+3026	CREATE GAME
+3027	SETUP//
+3028	GAME NAME
+3029	PASSWORD
+3030	CONFIRM PASSWORD
+3031	GAME TYPE
+3032	JOIN GAME
+3033	TYPE OF GAME YOU ARE JOINING
+3035	DirectConnection
+3036	DIRECT TCP/IP
+3037	CHOOSE//
+3038	HOST A TCP/IP GAME
+3039	HOST
+3040	JOIN A HOST'S GAME
+3041	JOIN
+3042	GO BACK TO CONNECTION SCREEN
+3043	RETURN TO MAIN MENU
+3046	MODE
+3047	FILTER GAMES BY MODE
+3048	PLAYERS
+3049	FILTER OUT GAMES WITH TOO SMALL PLAYER CAPACITY
+3050	GAME FILTERS
+3051	SET GAME LIST FILTERS//
+3052	NAME
+3053	FILTER GAMES BY NAME
+3054	MAP
+3055	FILTER GAMES BY MAP
 3056	PING
-3057	и╦ЁЩPING╢Ссзж╦╤╗ж╣╣дсно╥
-3058	гЕЁЩкЫспи╦я║лУ╪Ч
-3060	гЕЁЩх╚╡©
+3057	FILTER OUT GAMES OVER DESIGNATED PING
+3058	CLEAR ALL FILTERS
+3060	CLEAR ALL
 3120	<B>%s</B>
-3121	<B>р╙гСё╨</B> %s
-3122	<B>цХйЖё╨</B> %s
-3123	<B>тйпМё╨</B> %s
-3124	<B>дё©Иё╨</B> %s
-3125	нчцХйЖ
-3126	яп╬©
-3130	╧╔╩Впт (%s)
-3131	╥юсЫпт (%s)
-3132	╠╩╤╞ (%s)
-3135	х║оШ (%s)
-3150	цЭаН
-3151	рф╤╞
-3152	╧╔╩В
-3153	╠ё╩╓
-3154	мё╡╢
-3155	б╥╬╤╣Ц
-3156	мёж╧
-3157	мкрш
-3158	льйБ
-3159	у╫йУ
-3160	╧╔╩Впт
-3161	╥юсЫпт
-3162	╠╩╤╞
-3163	╧╔╩ВуСпн
-3164	жВа╕╫╒╥╫уС
-3165	╫Би╒
-3166	╩╓ню╫╒уСап
-3167	╬ш╫╧
-3168	жь╦╢ж╢ппж╦аН
-3169	жь╦╢г╟1╢нж╦аН
-3170	╧ь
-3171	д©╠Йё╨
-3172	╡и╪╞
-3173	╥юсЫЁ║
-3174	рЧпн
-3175	у╪аЛ
-3176	╢Рюл
-3177	╦пс╕фВи╗цХ (1000 RU)
-3178	╢Рюл/╡╤в╫
+3121	<B>Requires:</B> %s
+3122	<B>Description:</B> %s
+3123	<B>Allows:</B> %s
+3124	<B>Modules:</B> %s
+3125	No description
+3126	Research
+3130	Offensive (%s)
+3131	Defensive (%s)
+3132	Passive (%s)
+3135	Leave (%s)
+3150	ORDERS
+3151	Move
+3152	Attack
+3153	Guard
+3154	Dock
+3155	Waypoint
+3156	Stop
+3157	Retire
+3158	SPECIAL
+3159	TACTICS
+3160	Aggressive
+3161	Defensive
+3162	Passive
+3163	STRIKE GROUPS
+3164	Capital Phalanx
+3165	Leave
+3166	Frigate Line
+3167	FOCUS
+3168	OVERLAYS
+3169	Overlay 1
+3170	Off
+3171	Targeting:
+3172	Harvest
+3173	Defense Field
+3174	Cloak
+3175	Capture
+3176	Salvage
+3177	Sensor Ping (1000 RU)
+3178	Salvage/Capture
 3179	3179 xMISSINGx
-3180	╡╪юв
-3181	вт╠╛
-3182	╢щ╩ыя║╤╗╣д╫╒╢╛ё©
-3183	╥Я
-3184	йг
-3185	жь╦╢2╢н
-3186	жь╦╢3╢н
-3187	жь╦╢4╢н
-3188	у╫╤╥╩Зяз╩╓
-3189	пчюМ
+3180	Mines
+3181	Scuttle
+3182	Destroy selected ships?
+3183	No
+3184	Yes
+3185	Overlay 2
+3186	Overlay 3
+3187	Overlay 4
+3188	Fighter Screen
+3189	Repair
 3190	3190 xMISSINGx
-3191	жьа╕╬╝
-3200	сно╥дёй╫
-3201	фум╗
-3202	╢щ╩ыд╦╫╒
-3203	кюмЖ╬╨хЭ
-3204	вт╤╗рЕ
-3205	ЁУй╪вйт╢
-3206	╣м (1000)
-3207	жп (3000)
-3208	╦ъ (10000)
-3209	╣ьм╪д╛хож╣
-3214	╣╔н╩очжф
-3215	╣м
-3216	д╛хо
-3217	╦ъ
-3220	кЬ╤╗╤снИ
-3221	йг
-3222	╥Я
-3225	фПй╪н╩жц
-3226	кФ╩З
-3227	╧л╤╗
-3230	вН╨Ср╩н╩хт╠ёспиЗ╡Зпм╢╛ж╩╣дмФ╪рй╓юШ║ё
-3231	гКя║тЯсно╥дёй╫
-3232	гКя║тЯЁУй╪╣дRUа©
-3233	гКя║тЯAIмФ╪р╣ддя╤х
-3234	гКя║тЯвН╢С╣╔н╩очжф(╡╩╫╗рИеДжц╫о╣м╣д╣ГдтиХжц╧Щ╢С╣дж╣)
-3235	╫Шж╧тзсно╥й╠╦д╠Д╤снИ
-3236	тйпМвВ╠в
-3237	гКя║тЯфПй╪н╩жц
-3238	гКя║тЯсно╥кы╤х
-3239	╣ВуШц©©еп║пппгкЫ╨╛╣двйт╢а©
-3240	вйт╢╪с╠╤
-3241	╣м
-3242	╠Йв╪
-3243	╦ъ
-3244	сно╥юЮпм
-3245	гКя║тЯсно╥юЮпм
-3246	отй╬сно╥юЮпмпео╒
+3191	Gravity Well
+3200	Game Mode
+3201	Normal
+3202	Kill mothership
+3203	Deathmatch
+3204	Custom
+3205	Starting Resources
+3206	Low (1000)
+3207	Medium (3000)
+3208	High (10000)
+3209	Map Default
+3214	Unit Cap
+3215	Low
+3216	Default
+3217	High
+3220	Lock Teams
+3221	Yes
+3222	No
+3225	Start Location
+3226	Random
+3227	Fixed
+3230	The last player to have a functioning production-capable ship wins.
+3231	CHOOSE THE GAME MODE
+3232	CHOOSE THE AMOUNT OF STARTING RU'S
+3233	CHOOSE THE DIFFICULTY OF THE CPU PLAYER
+3234	CHOOSE THE MAX UNIT CAP (High is recommended for fast machines only!)
+3235	PREVENT PLAYERS FROM CHANGING TEAMS
+3236	ENABLE CHEAT CODES
+3237	CHOOSE THE TYPE OF START LOCATION
+3238	CHOOSE THE GAME SPEED
+3239	ADJUST THE AMOUNT OF RESOURCES PER ASTEROID
+3240	Resource Multiplier
+3241	Low
+3242	Standard
+3243	High
+3244	Game Type
+3245	CHOOSE THE GAME TYPE
+3246	SHOW GAME TYPE INFORMATION
 3269	3269 xMISSINGx
-3294	╣Гдт%d
-3295	адлЛ
-3296	сно╥адлЛ//
-3297	╢СлЭадлЛ//
-3298	ж╩отй╬╦цсно╥╣дадлЛоШо╒
-3299	отй╬сно╥йр╣дадлЛоШо╒
-3300	╤Юхксно╥
-3301	╢╢╫╗жВ╩З
-3302	╣ьм╪
-3303	я║оН
-3304	╢СлЭадлЛ
-3305	сно╥мФ╪р
-3306	гКя║тЯ╣ьм╪//
-3307	сно╥иХжц//
-3308	гКйДхКадлЛпео╒//
-3309	мФ╪ря║оН//
-3310	тБсЖу╫
-3311	╤Юхксно╥
-3312	╢╢╫╗пбсно╥
-3313	╪схКсно╥ё╨ %1GAMENAME%
-3314	╢╢╫╗жВ╩Зё╨ %1GAMENAME%
-3315	рЧ╡ьмФ╪рап╠М
-3316	©╙╥е
-3317	ря╧ь╠у
+3294	CPU%d
+3295	CHAT
+3296	GAME CHAT
+3297	LOBBY CHAT//
+3298	VIEW CHAT MESSAGES FOR THIS GAME ONLY
+3299	VIEW CHAT MESSAGES FOR GAME LOBBY
+3300	MULTIPLAYER
+3301	HOST GAME
+3302	MAP
+3303	OPTIONS
+3304	LOBBY CHAT
+3305	GAME PLAYERS
+3306	SELECT YOUR MAP//
+3307	GAME SETUP//
+3308	TYPE CHAT MESSAGE//
+3309	PLAYER OPTIONS//
+3310	SKIRMISH
+3311	MULTIPLAYER
+3312	CREATE NEW GAME
+3313	JOIN GAME : %1GAMENAME%
+3314	HOST GAME : %1GAMENAME%
+3315	COLLAPSE PLAYERS LIST
+3316	OPEN
+3317	CLOSED
 3318	(%dP) %s
-3319	ря╢с╥ЧнЯфВ╤о©╙
-3320	отй╬мФ╪рап╠М
-3321	жВ╩ЗIP╣ьж╥
-3322	гКя║тЯ╥жвИ
-3323	т╤╤кмФ╪рPINGж╣
-3324	гКя║тЯжжвЕ
-3325	гКтзв╪╠╦╬мпВ╨Ся║жп╦цоН
-3326	гКя║тЯфПй╪н╩жц
-3327	гКя║тЯ╣Гдт╤тйж╣ддя╤х
-3328	╦Э╦д╦цмФ╪рн╩жц╣дв╢л╛
-3329	гКя║тЯ╣ьм╪
-3330	кЫспмФ╪рап╠М
-3331	отй╬/рЧ╡ькЫспмФ╪рап╠М
-3332	╥╒кмадлЛоШо╒
-3333	оРкЫспхк╥╒кмадлЛоШо╒
-3334	оРап╠Мжп╠╩я║жп╣дмФ╪р╥╒кмгдгд╩╟
-3335	гКйДхКадлЛоШо╒
-3336	╥╣╩ь
-3337	©╙й╪сно╥
-3338	╤ах║сно╥
-3339	╤ах║ртг╟╠ё╢Ф╣дхк╩З╤ту╫╣дсно╥╢Ф╣╣
-3340	яуи╚
-3341	жжвЕ
-3342	╥жвИ
-3343	н╩жц
+3319	Disconnected from server
+3320	SHOW PLAYERS LIST
+3321	HOST COMPUTER'S IP ADDRESS
+3322	CHOOSE TEAM
+3323	REMOTE PLAYER PING
+3324	CHOOSE RACE
+3325	CHECK THIS WHEN YOU ARE READY
+3326	CHOOSE STARTING POSITION
+3327	CHOOSE THE DIFFICULTY OF THE CPU OPPONENT
+3328	CHANGE THE STATUS OF THIS PLAYER SLOT
+3329	SELECT A MAP
+3330	LIST OF ALL PLAYERS
+3331	SHOW / HIDE THE LIST OF ALL PLAYERS
+3332	SEND CHAT MESSAGE
+3333	SEND CHAT MESSAGE TO ALL
+3334	WHISPER TO THE SELECTED PLAYER IN THE PLAYER LIST
+3335	ENTER CHAT MESSAGE
+3336	GO BACK
+3337	START THE GAME
+3338	LOAD GAME
+3339	LOAD A PREVIOUSLY SAVED PLAYER VS CPU GAME
+3340	COLORS
+3341	RACE
+3342	TEAM
+3343	POSITION
 3344	PING
-3345	х╥╤╗
-3347	╥╣╩ь
-3348	©╙й╪сно╥
-3349	╥╒км
-3350	сно╥адлЛ
-3351	рЧ╡ьмФ╪рап╠М
-3352	у╧©╙мФ╪рап╠М
+3345	OK
+3347	BACK
+3348	START GAME
+3349	SEND
+3350	GAME CHAT
+3351	COLLAPSE PLAYERS LIST
+3352	EXPAND PLAYERS LIST
 3353	<b><c=aaaaff>To [Team]:</b> %1MESSAGE% </c>
 3354	<b><c=00AFFF>%1NAME%</c></b>: %2MESSAGE%
 3355	<b><c=aaaaff>[Team] </b>%1NAME%:  %2MESSAGE% </c>
-3359	я║тЯ
+3359	CHOOSE
 3360	unknown_ip
-3361	мФ╪рцШвж
-3362	╥╣╩ь
-3363	©╙й╪сно╥
+3361	PLAYER NAME
+3362	BACK
+3363	START GAME
 3364	<b><c=00AFFF>%1NAME%</c></b>: %2MESSAGE%
-3365	<b><c=FF7EFF>%1NAME%</b> гдгд╣ьк╣: %2MESSAGE%</c>
-3366	╤ах║б╪оЯ
-3367	╩ь╥ертг╟б╪жф╣дсно╥
-3368	╠Ю╪╜мФ╪р╣╣╟╦
+3365	<b><c=FF7EFF>%1NAME%</b> whispers: %2MESSAGE%</c>
+3366	LOAD RECORDED
+3367	PLAYBACK A PREVIOUSLY RECORDED GAME
+3368	EDIT PLAYER PROFILE
 3369	<b><c=FF7EFF>To</b> [%1DEST%]: %2MESSAGE%</c>
-3370	сно╥╢СлЭ
-3371	STEAM
-3372	сно╥
-3373	╢СлЭадлЛ
-3374	гКя║тЯр╩╦Жсно╥
-3375	йДхКадлЛоШо╒
-3376	╥╒км
-3377	д╛хо╟ОжЗнд╠╬(сно╥╢СлЭ)
-3378	╨Смк
-3379	к╒пб
-3380	╢╢╫╗жВ╩З
-3381	╪схКсно╥
-3382	цШвж
-3383	╣ьм╪
-3384	дёй╫
+3370	GAME LOBBY
+3371	ONLINE MULTIPLAYER
+3372	GAME
+3373	LOBBY CHAT
+3374	SELECT A GAME
+3375	TYPE CHAT MESSAGE
+3376	SEND
+3377	DEFAULT HELP TEXT (GAME LOBBY)
+3378	BACK
+3379	REFRESH
+3380	HOST GAME
+3381	JOIN GAME
+3382	NAME
+3383	MAP
+3384	MODE
 3385	x6
 3386	Ping
 3387	v.
-3388	╪рт╟ё╨жьжф╟Ф v%d.%d си9CCNсКсноюмЬа╙╨о╨╨╩╞
-3390	жпяК╢СлЭ
-3391	╪схК╥©╪Д
-3392	╥©╪Д
-3393	адлЛ
-3394	гКя║тЯр╩╦Ж╥©╪Д//
-3395	гКйДхКадлЛпео╒//
-3396	╥╒км
-3397	╪схК╥©╪Д
-3398	д╛хо╟ОжЗнд╠╬(╥ЧнЯфВ╥©╪Д)
-3399	╨Смк
-3400	к╒пб
-3401	и╦я║
-3402	╥©╪ДцШвж
-3403	сно╥йЩ
-3404	мФ╪рйЩ
-3405	адлЛ
-3406	уЩтз╪схК╥©╪Д
-3407	ря╤о©╙╨м╥©╪Д╣да╛╫с
-3408	нч╥╗╪схК╥©╪Д
-3410	сно╥йр
-3411	STEAM
-3412	сно╥
-3413	сно╥йропад
-3414	гКя║тЯсно╥//
-3415	гКйДхКадлЛпео╒//
-3416	╥╒км
-3417	╪схКсно╥
-3418	╢╢╫╗жВ╩З
-3419	вИ
-3420	╨Смк
-3421	к╒пб
-3422	сно╥пео╒
-3423	адлЛмФ╪р
+3388	HomeworldRM v%d.%d
+3390	MASTER LOBBY
+3391	JOIN LOBBY
+3392	LOBBIES
+3393	LOBBY CHAT
+3394	SELECT A LOBBY//
+3395	TYPE CHAT MESSAGE//
+3396	SEND
+3397	JOIN LOBBY
+3398	DEFAULT HELP TEXT (SERVERLOBBY)
+3399	BACK
+3400	REFRESH
+3401	FILTERS
+3402	LOBBY NAME
+3403	NUM GAMES
+3404	NUM PLAYERS
+3405	LOBBY ROOM CHAT
+3406	Joining Room
+3407	Disconnected from lobby
+3408	Unable to join lobby
+3410	GAME LOBBY
+3411	ONLINE MULTIPLAYER
+3412	GAME
+3413	GAME LOBBY CHAT
+3414	SELECT A GAME//
+3415	TYPE CHAT MESSAGE//
+3416	SEND
+3417	JOIN GAME
+3418	HOST GAME
+3419	GROUP
+3420	BACK
+3421	REFRESH
+3422	GAME INFO
+3423	CHAT PLAYERS
 3424	!WARNING - MISSING TEXT LINE! (was Willy Wonka Options)
-3425	╨Жбт
-3426	╨цся
-3427	вХж╧
-3428	лъЁЖ
-3429	оРдЁмФ╪р╥╒кмгдгд╩╟
-3430	оРдЁп║вИ╥╒кмгдгд╩╟
-3431	оРдЁ╨цся╥╒кмгдгд╩╟
-3432	╟ОжЗнд╠╬
-3433	╨Смк
-3434	х╥╤╗
-3435	сно╥цШЁф
-3436	╣ьм╪
-3437	дёй╫
-3438	мФ╪р
+3425	IGNORE
+3426	FRIEND
+3427	BAN
+3428	KICK
+3429	WHISPER TO PLAYER
+3430	WHISPER TO TEAM
+3431	WHISPER TO FRIENDS
+3432	HELP TEXT
+3433	BACK
+3434	ACCEPT
+3435	GAME NAME
+3436	MAP
+3437	MODE
+3438	PLAYERS
 3439	PING
-3440	╟Ф╠╬
-3441	╬жсРмЬ
-3442	гКйДхКадлЛпео╒
-3443	оРкЫспхк╥╒кмадлЛпео╒
-3444	оРдЁмФ╪р╥╒кмгдгд╩╟
-3445	╥╒ЁЖадлЛпео╒
-3446	вН╢СмФ╪рйЩ
-3447	оЙо╦пео╒//
-3448	╠Ю╪╜╣ГдтмФ╪рвйао
-3449	вИдзк╫ад
-3450	╫ля╖
-3451	гКя║тЯ╫ля╖дзхщ//
-3452	╫лЁл 1 - ║╤╪рт╟ё╨жьжф╟Ф║╥╪Р╫И
-3453	╫лЁл 2 - ╩Ы╠╬ж╦аН
-3454	╫лЁл 3 - ╦ъ╪╤ж╦аН
-3455	╫лЁл 4 - жп╪╤╡ывВ - ╣з2╡©╥ж
-3456	╫лЁл 5 - ╦ъ╪╤╡ывВ╧╕дэ
-3459	╦╢н╩
-3460	пб╫╗
-3461	©╙й╪
-3462	╫ля╖ж╦до
-3463	╠╬╫лЁл╫╚╫Ииэсно╥╣д╬╣м╥©ьжф║╒╣╔н╩╣дя║х║╨мрф╤╞║ё
-3464	╠╬╫лЁл╫╚╫Ииэ╩Ы╠╬╣ду╫╤╥║╒вйт╢╡и╪╞║╒╥и╢╛╫╗тЛ╨мяп╬©ж╙й╤║ё
-3465	╠╬╫лЁл╫╚╫Ьр╩╡╫╫Ииэ╧ьсз╥жвИ©ьжф║╒льйБ╡ывВ║╒иХжцб╥╬╤╣Ц╨м╧╔╩ВуСпн╣дж╙й╤║ё
-3466	╠╬©нЁл╫╚╫Ииэсп╧ь╥юйь║╒у╫йУсК╥╤н╖╣диХжц║╒хГ╨ну╧©╙г╟оъвйт╢╡и╪╞вВр╣╨мй╧сцвсо╣мЁ╣др╩п╘льйБж╦аН║ё
-3467	╠╬╫здзхщ╫Ииэак╧╔╩ВуСпн╣двИ╫╗╥╫╥╗ё╛╡╒хцмФ╪р╨мй╣а╕жП╫╔лАиЩ╣дн╛╦Я╤Ш╬Э╤с╫Ьппй╣а╕╣д╫оа©║ё
-3468	╥╣╩ьжВ╡к╣╔
-3469	╫╚╣╠г╟╣╣╟╦жп╣дхннЯиХжцх╚╡©╦╢н╩
-3470	©╙й╪я║жп╣дхннЯ
-3471	╦цхннЯря╬╜мЙЁи
-3472	╦цхннЯипн╢мЙЁи
-3473	╣Ц╩В║╟©╙й╪║╠╟╢е╔╪╢©и©╙й╪сно╥
-3480	сц╩╖тзоъ
-3481	сц╩╖тз╨ЖбтвИ
-3482	сц╩╖тзк╫адвИ
-3483	фа╠н
-3484	фа╠н ╪схК/юК©╙ ╢СлЭпео╒
-3490	╣╔хксно╥
-3491	хннЯя║тЯ
-3492	гКя║тЯхннЯ//
-3493	╤ах║у╫рш
-3494	╤ах║охг╟╠ё╢Ф╣дхннЯ
-3495	<c=00c800> (мЙЁи)</c>
-3496	<c=C81F00> (н╢мЙЁи)</c>
-3500	╢╢╫╗пб╣╣╟╦
-3501	гКйДхКдЦ╣дцШвж//
-3502	гКйДхКдЦ╣д╣╣╟╦цШЁф
-3503	╡╩р╙╢╢╫╗сц╩╖╣╣╟╦
-3504	╢╢╫╗сц╩╖╣╣╟╦
+3440	VERSION
+3441	LOCAL AREA NETWORK
+3442	ENTER YOUR CHAT MESSAGE
+3443	SEND CHAT MESSAGE TO ALL
+3444	WHISPER TO ANOTHER PLAYER
+3445	POST YOUR CHAT MESSAGE
+3446	MAX PLAYERS
+3447	EXTRA INFORMATION//
+3448	EDIT COMPUTER PLAYER PROFILE
+3449	WHISPER TO GROUP OF PLAYERS
+3450	TUTORIAL
+3451	CHOOSE TUTORIAL//
+3452	Tutorial 1 - Introduction to Homeworld: Remastered
+3453	Tutorial 2 - Basic Commands
+3454	Tutorial 3 - Advanced Commands
+3455	Tutorial 4 - Medium Gameplay - part 02
+3456	Tutorial 5 - Advanced Gameplay Features
+3459	RESET
+3460	NEW
+3461	START
+3462	LEARN TO PLAY
+3463	This Tutorial covers Camera Control, Unit Selection and Movement.
+3464	This Tutorial covers Basic Combat, Resource Collection, Shipbuilding and Research.
+3465	This Tutorial covers advanced topics such as Control Groups, Special Actions, Waypoints and Strike Groups.
+3466	This lesson covers special commands such as Guard, tactics and range settings, how to set up a forward resourcing operation and using subsystems.
+3467	This section covers the construction of Strikegroups and allows the player to test their skills against an increasingly skilled Vaygr force.
+3468	RETURN TO THE MAIN MENU
+3469	RESET MISSION SETTINGS FOR THE CURRENT PROFILE
+3470	PLAY THE SELECTED MISSION
+3471	THIS MISSION HAS BEEN COMPLETED
+3472	THIS MISSION HAS NOT BEEN COMPLETED
+3473	CLICK ON THE START BUTTON TO BEGIN
+3480	USER IS ONLINE
+3481	USER IS IN YOUR IGNORE GROUP
+3482	USER IS IN YOUR WHISPER GROUP
+3483	SUPPRESS
+3484	SUPPRESS JOIN / LEAVE LOBBY MESSAGES
+3490	SINGLE PLAYER GAME
+3491	MISSION SELECT
+3492	CHOOSE MISSION//
+3493	LOAD CAMPAIGN
+3494	LOAD A PREVIOUSLY SAVED MISSION
+3495	<c=00c800> (Complete)</c>
+3496	<c=C81F00> (Incomplete)</c>
+3500	CREATE NEW PROFILE
+3501	ENTER YOUR NAME//
+3502	ENTER YOUR PROFILE NAME
+3503	DO NOT CREATE USER PROFILE
+3504	CREATE THE USER PROFILE
 3505	3505 xMISSINGx
-3506	╣╣╟╦иХжц
-3507	иХжц//
-3508	гКя║тЯр╩╦Ж╣╣╟╦
-3509	╢╢╫╗пб╣╣╟╦
-3510	пб╣╣╟╦
-3511	╠Ю╪╜я║жп╣д╣╣╟╦
-3512	╠Ю╪╜╣╣╟╦
-3513	и╬ЁЩя║жп╣д╣╣╟╦
-3514	и╬ЁЩ╣╣╟╦
-3515	╠ёЁжожспиХжц
-3516	мФ╪р╣╣╟╦
-3517	╥╣╩ьжВ╡к╣╔
-3518	╧эюМмФ╪р╣╣╟╦
-3525	<i><c=005EBD>%1NICKNAME%</c><c=7F7F7F> ╪схКак╥©╪Д</c></i>
-3526	<i><c=005EBD>%1NICKNAME%</c><c=7F7F7F> юК©╙ак╥©╪Д</c></i>
-3530	а╛╫сюЮпм
-3531	гКя║тЯ//
-3532	тз╬жсРмЬио╫Ьппсно╥
-3533	LAN (╬жсРмЬ)
-3534	тз╩╔а╙мЬиом╗╧ЩTCP/IPп╜рИ╫Ьппсно╥
-3535	╩╔а╙мЬ (TCP/IPж╠а╙)
-3536	й╧сцSteam╫Ьппсно╥
-3537	Steam
-3538	я║сця║жп╣д╣╣╟╦╡╒╥╣╩ьжВ╡к╣╔
-3539	╨Смк
-3540	сця║жп╣да╛╫сюЮпм╢╢╫╗сно╥
-3541	х╥╤╗
-3542	уЩтзяИж╓CD Key
-3543	нч╥╗а╛╫с╣╫╥ЧнЯфВ
-3544	дЦ╠ьпКйДхКуЩх╥╣дадлЛцШ
-3545	уЩтза╛╫с╥ЧнЯфВ
-3546	CD KeyяИж╓й╖╟э
-3547	ря╢с╥ЧнЯфВ╤о©╙а╛╫с
-3548	дЦ╣дCD Keyйгнчп╖╣д
-3549	дЦ╣дЙгЁфря╠╩хкй╧сцак║ёдЦ╫╚рт"%1NICKNAME%"уБ╦ЖЙгЁфа╛╫с║ёдЦ©ирттзмФ╪р╣╣╟╦╡к╣╔жп╦Э╦ддЦ╣дЙгЁф║ё
-3550	╪схКсно╥
-3551	гКйДхКIP╣ьж╥//
-3552	гКйДхКжВ╩З╣дIP╣ьж╥
-3553	х║оШа╛╫с
-3554	а╛╫с
-3555	а╛╫ссно╥
-3560	сно╥рятщмё
-3561	тщмё
-3562	сно╥рятщмё//
-3563	╟╢об║╟╪лпЬ║╠рт╪лпЬсно╥
-3564	рЧ╡ь
-3565	╪лпЬ
-3572	и╬ЁЩ
-3573	и╬ЁЩя║жп╣д╢Ф╣╣
-3574	╤ах║сно╥
-3575	╤ах║я║жп╣д╢Ф╣╣
-3576	╤ах║у╫рш
-3577	╤ах║я║жп╣ду╫рш╢Ф╣╣
-3578	╡╔╥еб╪оЯ
-3579	╩ь╥ея║жп╣дсно╥б╪оЯ
-3580	╠ё╢Фсно╥
-3581	сц╣╠г╟нд╪ЧцШ╠ё╢Фсно╥
-3582	╠ё╢Фу╫рш
-3583	сц╣╠г╟нд╪ЧцШ╠ё╢Фу╫рш
-3584	╠ё╢Фб╪оЯ
-3585	╠ё╢ФвН╫Эр╩Ё║сно╥╣дб╪оЯ
-3586	╡╔╥е╤╞╩╜
-3587	╡╔╥ея║жп╣д╤╞╩╜
-3588	╤ах║
-3589	╤ах║╢Ф╣╣//
-3590	╤ах║
-3591	╤ах║у╫рш╢Ф╣╣//
-3592	╤ах║
-3593	╤ах║сно╥б╪оЯ//
-3594	╠ё╢Ф
-3595	╠ё╢Ф╣╠г╟сно╥//
-3596	╠ё╢Ф
-3597	╠ё╢Фу╫рш//
-3598	╠ё╢Ф
-3599	╠ё╢Фсно╥б╪оЯ//
-3600	╤╞╩╜
-3601	гКя║тЯ╤╞╩╜//
-3602	╥╣╩ьжВ╡к╣╔
-3603	╡╔╥е╤╞╩╜
-3610	╢МнС
-3611	оШо╒//
-3612	гКнПты╢нотй╬╠╬пео╒
-3613	╦Э╤Юпео╒
-3614	х╥╤╗
-3615	дЦ╣д╫╒╤сс╝╣цакй╓юШ
-3616	дЦ╣д╫╒╤сря╬╜╠╩╩В╟э
-3617	уЩтзмкЁЖ
-3618	у╫╟э
-3619	дЦ╣д╫╒╤сря╬╜у╫╟эак║ёр╙╪лпЬ╧шу╫бПё©
-3620	╪схК╥©╪Д
-3621	╢с╥ЧнЯфВ╤о©╙а╛╫с
-3622	нч╥╗╪схК╥©╪Д
-3623	╟╢сно╥цШЁфеепР
-3624	╟╢╣ьм╪цШвжеепР
-3625	╟╢сно╥дёй╫еепР
-3626	╟╢мФ╪рхкйЩеепР
-3627	╟╢ууPINGж╣еепР
-3628	╟╢сно╥╟Ф╠╬еепР
-3629	╥╣╩ь
-3630	╪схКя║жп╣дсно╥
-3631	к╒пбсно╥ап╠М
-3632	отй╬я║жпсно╥╣дсно╥пео╒
-3633	и╦я║сно╥ап╠М
-3634	тз╦цсно╥йржп╢╢╫╗пбсно╥
-3635	уЩтза╛╫с╣╫сно╥
-3636	╪Фхщ
-3637	╡╩╪Фхщ
-3650	сно╥ря╠ё╢Ф
-3651	уЩтз╠ё╢Фсно╥...
-3652	ря╡и╪╞вйт╢
-4000	хннЯ 1 - л╧дАк╧
-4001	уБйг╦ЖрЧ╡ьсз╢С╩дж╝╣ь╣доё╦Яю╜цьцэг╟из╩Ы╣ьё╛д╦╫╒╫╚тз╢к╫Ьппр╩о╣ап╣д╡Бйт║ё
-4002	хннЯ 2 - лЛй╧ж╝тб
-4003	╣ж╢О╪рт╟пго╣ё╛д╦╫╒╠ьпКм╛кЩ╣д╢╛т╠вИ╩А╨о╡╒тз╬Ь╬Ёжпу╧©╙╥юсЫ║ё
-4004	хннЯ 3 - хШюуд╥
-4005	©╙й╪тзхШюуд╥жьпбвИ╫╗оё╦Яю╜╫╒╤с║ё
-4006	хннЯ 4 - ╦Г╨мдцмБн╖
-4007	╫╒╤с╠ьпК╠э╧Щйьню╦Г╨мдцп║пппг╢ЬмБн╖╣дн╛╦Я╤Шя╡бъ╤с║ё
-4008	хннЯ 5 - ╦Г╨мдц
-4009	тз╦Г╨мдц╣дЁ╬тф╢ЬюОё╛оё╦Яю╜╫╒╤с╠ьпКиЬм╦╣╫╥юнюи╜яо╣д╥╒╬Р╣ьх╔╤Ах║иЯзм║ё
-4010	хннЯ 6 - ©╗бЕк╧╥ьЁ║
-4011	тзиЯзм╣дс╟оЛж╝обё╛д╦╫╒лЬт╬╣╫ак©╗бЕк╧╥ьЁ║║ё
-4012	хннЯ 7 - ╡п╨║
-4013	тз╠╩ю╜ЁЖЁ╛©у╪Дж╝╨Сё╛д╦╫╒╨моё╦Яю╜╫╒╤с╥╒ожкШцг╠╩охвФ╣д╥и╢╛╡п╨║кЫ╟Эн╖║ё
-4014	хннЯ 8 - нчн╥╫╒╡╢н╩
-4015	тз╡п╨║жпЁак╞вер╩крс╣спм╗оР╟м©фю╜╨мхЬсх©кж╝Ёв╣дг©╢Ст╤╧еу╫╫╒║ё
-4016	хннЯ 9 - ╥╢╩В
-4017	кВ╟Ю╫╒Ё╓лА╧╘акр╩╦Жн╛╦Я╤Ш╪╞╫А╣Ц╣двЬ╠Йё╛р╩Ё║╥╢╩В╪╢╫╚у╧©╙║ё
-4018	хннЯ 10 - хЬсх©кйь╩╓уъ
-4019	йь╩╓уъ╩ью╢ак║╜║╜
-4020	хннЯ 11 - нЧиЭ
-4021	оё╦Яю╜╫╒╤с╠ьпКур╣╫╠╬м╪нВЁ╛©у╪Д╨кпд╣д╡пф╛║ё
-4022	хннЯ 12 - хЬ╣рк╧║╓иЁ╟м
-4023	кВ╟Ю╫╒Ё╓╣дс╕╪╠пе╠Й╟янрцг╣д╫╒╤с╨мбМ©╡╤╪нЭрЩ╣╫акхЬ╣рк╧║╓иЁ╟м║ё
-4024	хннЯ 13 - ╟м©фю╜ж╝це
-4025	н╛╦Я╤ШхкуЩтзф╢цЭфф╩╣╟м©фю╜ж╝цертвХж╧нрцг╣╫╢ОхЬсх©кдгюО║ё
-4026	хннЯ 14 - ╟м©фю╜
-4027	тз╟м©фю╜жппд╣ь╢Ьё╛р╩Ё║╬Ж╤╗н╟╢СтЛнОжВхЬсх©кцЭтк╣ду╫╤╥╪╢╫╚у╧©╙║ё
-4028	хннЯ 15 - ╩ь╣╫оё╦Яю╜
-4029	╩╞╫Боё╦Яю╜╣дн╖╧╔║ё
-4030	хннЯ 1 - ©╗ю╜©к
-4031	тзйв╢нЁ╛©у╪Д╡Бйтж╝г╟ё╛д╦╫╒╫╚╫ЬппвН╨С╣дв╪╠╦║ё
-4032	хннЯ 2 - ©╗ю╜©кпго╣мБн╖
-4033	тзйтм╪сКл╫╡Б╫╒©╗и╙ау╨е╩Ц╨ой╠ё╛©БиЙ╫╒╤стБсЖакр╩╦ЖиЯць╣дпб╣пхк║ё
-4034	хннЯ 3 - жь╥╣©╗ю╜©к
-4035	д╦╫╒╫╒╤с╥╣╩ьак©╗ю╜©кё╛х╢╥╒ожкШцг╣дпггР╠╩╥ыиу╢Ы╬║║╒кШцг╣двсцЯ╠╩╦о╬║и╠╬Ьё╛╤Ьпр╢ФуъхттзтБйэ╧╔╩В║ё
-4036	хннЯ 4 - ╢С╩дж╝╣ь
-4037	юК©╙╠╔йэ╢щ╡п╣д©╗ю╜©кё╛д╦╫╒╫╒╤сл╫кВ║╒йу╪╞╢С╩дж╝╣ьио╣двйт╢╡╒в╪╠╦©╙й╪╦╢ЁПж╝у╫║ё
-4038	хннЯ 5 - ╢С╩дж╝╣ь
-4039	д╦╫╒╫╒╤стз╩ыцПкШцгпггР╣дл╘л╧хкцФг╟╫╣аы,йдн╙кШцг╣дд╦пг╦╢ЁП║ё
-4040	хннЯ 6 - вЙй╞иЁжч
-4041	╦Ы╬щкЫ╩ЯгИ╠╗ё╛д╦╫╒╫╒╤стз╤Ц╠эл╘л╧изу╬й╠╬╤ж╠лЬт╬╫Ьакр╩ф╛нёоу╣дп║пппг╢Ь║ё
-4042	хннЯ 7 - ©╗╣бйк╩╗т╟
-4043	д╦╫╒╫╒╤свт╢СпгтфжпиЬм╦л╘л╧╣ш╧З╥юоъё╛╣╚кШцг╣дЁЖожх╢╪╓е╜акр╩х╨пб╣днёоу╣пхк║ё
-4044	хннЯ 8 - ©╗╣бйк╢С╫ллц
-4045	©╗╣бйкхксцЁ╛©у╪ДржжффВю╧обакуЩтзюК©╙╣дд╦╫╒╫╒╤с║ё©БиЙхк╡╩╣ц╡╩м╛кШцгтЬ╬╜╣дм╛╟Шцгя╙у╫╣╫╣в║ё
-4046	хннЯ 9 - мЖ╩Йж╝╨ё
-4047	юК©╙ак╢Спгтфё╛д╦╫╒╫╒╤смяюКЁ╛©у╪Дрт╣В╡Ир╩╦Жг©╢С╣дрЛЁёдэа©т╢║ё
-4048	хннЯ 10 - Ё╛пбпгяп╬©у╬
-4049	тзл╘л╧╣ш╧З╠ъ╬Ёё╛д╦╫╒╫╒╤сцИиоаккЩ╣д╣зр╩╦Жд©╠Й║╙║╙р╩╦Жсп╪шж╣╣дл╘л╧яп╬©у╬║ё
-4050	хннЯ 11 -║║л╧╨юи╙ж╝це
-4051	р╩ж╖л╘л╧╫╒╤см╩о╝акр╩крбД╣╔╣д╠╬м╪нВцЁрв╢╛ё╛д╦╫╒╫╒╤с╣ж╢О╢к╣ь╡╒╡╒ЁЖйжоЮ╬х║ё
-4052	хннЯ 12 - Х╜Х╡пг╨к
-4053	л╘л╧хкн╙д╦╫╒╫╒╤сиХобощзЕё╛╡╩аох╢н╙кШцг╧╠овакр╩ж╖спюШ╣дцкся║ё
-4054	хннЯ 13 - ©╗бЕк╧╥ьЁ║
-4055	тзл╘л╧ея╬ЭйваЛ╟ё╤Ши╜иопё╣дж╦й╬обё╛д╦╫╒╫╒╤ср╙╪╓╩Нр╩╦Ж╧ь╪Э╣дм╗я╤жп╪лу╬║ё
-4056	хннЯ 14 - л╬о╒ж╝ге
-4057	╟ё╤Ши╜╫╒Ё╓╣дгИ╠╗хцд╦╫╒╫╒╤су╧©╙ак╤тфа╠ноё╦Яю╜пго╣╣дЁ╛©у╪ДржжффВ╣дм╩о╝║ё
-4058	хннЯ 15 - ╬Жу╫й╔╣ь
-4059	╡╩о╖р╩гпр╡р╙вХж╧©БиЙ╫╒╤с╣ж╢Ооё╦Яю╜╣дл╘л╧хкя╨иоак╢щ╩ыд╦╫╒╣двН╨СЁОбК║ё
-4060	хннЯ 16 - оё╦Яю╜
-4061	©БиЙхкжусз╣ж╢ОаккШцг╣д╪рт╟ё╛╣╚л╘л╧╩й╣ш╣двН╨С╪ф╩╝хтдэ╧╩р╩юмсюрщ╣ьоШцПаВ╥еуъцг║ё
-4500	вэюю
-4501	у╫╤╥
-4502	вйт╢
-4503	╫╗иХ
-4504	мБ╫╩
-4506	вэ╣ц╥ж
-4507	╦цмФ╪р╩Я╣ц╣двэлЕфю╥ж
-4508	╫╗тЛ╥и╢╛йЩ
-4509	╦цмФ╪р╫╗тЛ╣д╥и╢╛вэйЩ
-4510	кПй╖╥и╢╛йЩ
-4511	╦цмФ╪ркПй╖╣д╥и╢╛вэйЩ
-4512	╩В╩ы╥и╢╛йЩ
-4513	╦цмФ╪р╩В╩ы╣д╣п╥╫╥и╢╛вэйЩ
-4514	╥Щ╩Я╥и╢╛йЩ
-4515	╦цмФ╪р╥Щ╩Я╣д╣п╥╫╥и╢╛вэйЩ
-4516	вН╪я╥и╢╛
-4517	мФ╪р╟╝сц╣д╢╛ж╩
-4518	у╫╤╥цФ╣ц╥ж
-4519	мФ╪ртзу╫╤╥╥╫цФкЫ╣ц╣двэ╥ж
-4520	╡и╪╞╣двйт╢а©
-4521	╦цмФ╪р╡и╪╞╣двйт╢вэа©
-4522	оШ╨д╣двйт╢а©
-4523	╦цмФ╪роШ╨д╣двйт╢вэа©
-4524	╫╗тЛ╣двйт╢╡и╪╞╢╛вэйЩ
-4525	╦цмФ╪р╫╗тЛ╣двйт╢╡и╪╞╢╛вэйЩ
-4526	╫╗тЛ╣дрф╤╞╬╚а╤╢╛вэйЩ
-4527	╦цмФ╪р╫╗тЛ╣дрф╤╞╬╚а╤╢╛вэйЩ
-4528	вйт╢цФ╣ц╥ж
-4529	мФ╪ртзвйт╢╥╫цФкЫ╣ц╣двэ╥ж
-4530	иЗ╡Зпм╢╛ж╩йЩ
-4531	╦цмФ╪р╫╗тЛ╣дспиЗ╡Здэа╕╣д╢╛ж╩йЩ
-4532	всо╣мЁ
-4533	╦цмФ╪р╫╗тЛ╣двсо╣мЁвэйЩ
-4534	яп╬©╟ы╥ж╠х
-4535	╦цмФ╪рмЙЁи╣дяп╬©оНд©у╪яп╬©оНд©вэйЩ╣д╟ы╥ж╠х
-4536	яп╬©кЫ╨д╣дRUа©
-4537	╦цмФ╪р╩╗╥ятзяп╬©ио╣двйт╢вэа©
-4538	╫╗иХцФ╣ц╥ж
-4539	мФ╪ртз╫╗иХ╥╫цФкЫ╣ц╣двэ╥ж
-4540	п║вИйЩ
-4541	мФ╪р╥жЁи╣дп║вИйЩа©
-4542	йу╣╫╣дю║тЫйЩ
-4543	мФ╪р╫сйу╣дю║тЫвэйЩ
-4544	кмЁЖ╣дтЫф╥йЩ
-4545	мФ╪ркмЁЖ╣дтЫф╥вэйЩ
-4546	у╫╟эй╠╪Д
-4547	мФ╪р╣ду╫╟эй╠╪Д
-4548	мБ╫╩цФ╣ц╥ж
-4549	мФ╪ртзмБ╫╩╥╫цФкЫ╣ц╣двэ╥ж
-4550	сно╥мЁ╪фйЩ╬щ
-4551	й╓юШ
-4552	у╫╟э
-4553	мФ╪рмЁ╪фйЩ╬щ
-4554	мЁ╪фвсоНд©//
-4555	сно╥мЁ╬щйЩ╬щвэюю
-4556	у╫╤╥оЮ╧ь╥╫цФмЁ╪ф
-4557	вйт╢оЮ╧ь╥╫цФмЁ╪ф
-4558	╫╗иХоЮ╧ь╥╫цФмЁ╪ф
-4559	мБ╫╩╨м╥жвИоЮ╧ь╥╫цФмЁ╪ф
-4560	гКйДхКдЦ╣дадлЛпео╒
-4561	╥╒ЁЖдЦ╣дадлЛпео╒
-4562	г╟мЫсно╥╡к╣╔
-4563	╡╔╥еохг╟б╪жф╣дсно╥б╪оЯ
-4564	╠ё╢ФвН╫Эр╩╢нсно╥╣дб╪оЯрт╠╦╫Я╨С╧ш©╢
-4565	╥╣╩ьжВ╡к╣╔
-4566	рт╣╠г╟мФ╪р©╙й╪пбсно╥
-4600	GEARBOX SOFTWARE ╪Р╫И
-4601	╪Р╫И╤╞╩╜&╠Йж╬
-4602	╪рт╟2╤╞╩╜т╓╦Фф╛
-4603	╧ш©╢сно╥т╓╦Фф╛ё║
-4604	©╙Ё║╤╞╩╜╨м╧ййб╠Ё╬╟
-4605	хЩ©е╨кпд
-4606	╤╞╩╜ 01 - н╛╦Я╤Шо╝ю╢
-4607	оё╦Яю╜тБ╣╫н╖╧╔
-4608	╤╞╩╜ 02 - м╤╫╣╣длУ╪Ч
-4609	бМ©╡╣дфСм╪
-4610	╤╞╩╜ 03 - ╠╬м╪нВ╣дфТй╬
-4611	хЬсх©к╣дуФоЮ
-4612	╤╞╩╜ 04 - иЯзм╣дкЫтз
-4613	©╪╧е╥╒╬Р╣ь
-4614	╤╞╩╜ 05 - Ё╛©у╪ДлЬт╬╧йуо
-4615	╠╩иЯзмкЫ©ьжф
-4616	╤╞╩╜ 06 - ╣╪╨╫йЩ╬щ
-4617	охвФ╥и╢╛╡п╨║
-4618	╤╞╩╜ 07 - жЩтЛЁ╖╣дюЗй╥
-4619	хЩ©е╨кпд╣джЩтЛ
-4620	╤╞╩╜ 08 - кВ╟Ю╣дгИ╠╗ 
-4621	нчн╥╫╒╣ВйтмЙ╠о
-4622	╤╞╩╜ 09 - кВ╟Ю╣дбИ╥Ё
-4623	иСя╤
-4624	╤╞╩╜ 10 - нрцг╩╧╩Нве
-4625	╥╒ож╨кпд╣дкИф╛
-4626	╤╞╩╜ 11 - с╙╬хкВ╟Ю
-4627	н╛╦Я╤Ш©у╪Ду╬хЬ╣рк╧║╓иЁ╟м
-4628	╤╞╩╜ 12 - ╟м©фю╜╣двйао
-4629	пг©ужп╣д╩днъж╝╣ь
-4630	╤╞╩╜ 13 - ╫ЬхК╟м©фю╜
-4631	хЬсх©к║╓Ех
-4632	╤╞╩╜ 14 - ╨кпд╣д╫А╨о
-4633	лЛя║ж╝хк
-4634	╤╞╩╜ 15 - к╧р╤льй╠╢З
-4635	╫рй╬т╤╧е╣дцьцэ
-4636	жфвВвИ
-4637	жфвВвИ╫Ииэ
-4638	╤╞╩╜ 01 - н╟╢С╣дбцЁл
-4639	╤тоё╦Яю╜╣дв╥гС
-4640	╤╞╩╜ 02 - сК©╗и╙ау╨е╩А╨о
-4641	╣зр╩╢нЁ╛©у╪ДлЬт╬
-4642	╤╞╩╜ 03 - жь╥╣©╗ю╜©к
-4643	пб╣дмЧп╡
-4644	╤╞╩╜ 04 - ╩ыцПж╝рР
-4645	п╜рИффая
-4646	╤╞╩╜ 05 - е╓в╙мгйф
-4647	о╦жб╡ъ╩╝╣д╦╢ЁП
-4648	╤╞╩╜ 06 - гИ╠╗╠╩ффрК
-4649	л╘л╧╣ш╧З╣д╧Ц╡╔
-4650	╤╞╩╜ 07 - ╠╬м╪нВ╣д╬╞╦Ф
-4651	спх╔нч╩ьё║
-4652	╤╞╩╜ 08 - ╣п╥╫д╦╫╒
-4653	сКнрцгр╩яЫ╣д╪╪йУ
-4654	╤╞╩╜ 09 - пгтфйь╩╓уъ
-4655	╬ю╡Ь╣дфПт╢
-4656	╤╞╩╜ 10 - ╧╔╩Вяп╬©у╬
-4657	╣зр╩╢нм╩о╝
-4658	╤╞╩╜ 11 - ╩й╣ш╣дпео╒
-4659	л╘л╧╩й╣ш╣дж╪рБ
-4660	╤╞╩╜ 12 - Ё╛©у╪ДиХ╠╦й╖п╖
-4661	уБйг╦ЖощзЕё║
-4662	╤╞╩╜ 13 - ╟ё╤Ши╜╫╒Ё╓╣дпео╒
-4663	╥╢еяж╝╩П
-4664	╤╞╩╜ 14 - Ё╛©у╪ДржжффВ
-4665	фф╩╣ё╛х╩╨С╢╘╧Щ
-4666	╤╞╩╜ 15 - у╫╤╥в╪╠╦
-4667	вН╨С╣д╫Ь╬Э
-4668	╤╞╩╜ 16 - ©╗бвй╖х╔рБй╤
-4669	╩й╣ш╣да╕а©
-4670	╤╞╩╜ 17 - бцЁл╣джу╣Ц
-4671	╣ж╢Ооё╦Яю╜
-4700	╫╠юЬоДё╨ л╫╡Б╣╫пб╣д╫╠юЬоДё║
-4701	╫╠юЬоДё╨╫╒╢╛╫╠юЬря╥╒ожё╛ ╩ьйуак %[0]s ║ё
-4702	╫╠юЬоДё╨©ф╪╪╫╠юЬря╥╒ожё╛ ╩ьйуак %[0]s ║ё
-4703	╫╠юЬоДё╨вйт╢╫╠юЬря╥╒ожё╛ ╩ьйуак %[0]s ║ё
+3506	PROFILE SETUP
+3507	SETUP//
+3508	SELECT A PROFILE
+3509	CREATE A NEW PROFILE
+3510	NEW PROFILE
+3511	EDIT THE SELECTED PROFILE
+3512	EDIT PROFILE
+3513	DELETE THE SELECTED PROFILE
+3514	DELETE PROFILE
+3515	KEEP EXISTING SETTINGS
+3516	PLAYER PROFILES
+3517	RETURN TO MAIN MENU
+3518	MANAGE PLAYER PROFILES
+3525	<i><c=005EBD>%1NICKNAME%</c><c=7F7F7F> has joined the room</c></i>
+3526	<i><c=005EBD>%1NICKNAME%</c><c=7F7F7F> has left the room</c></i>
+3530	CONNECTION TYPE
+3531	SELECT//
+3532	PLAY A GAME ON A LOCAL AREA NETWORK
+3533	LAN (Local Area Network)
+3534	PLAY A GAME ON THE INTERNET USING TCP/IP
+3535	INTERNET (Direct TCP/IP)
+3536	PLAY A GAME USING ONLINE MULTIPLAYER
+3537	Online
+3538	USE THE SELECTED PROFILE AND RETURN TO THE MAIN MENU
+3539	BACK
+3540	HOST GAME USING SELECTED CONNECTION TYPE
+3541	ACCEPT
+3542	Authenticating CD key
+3543	Unable to connect to server
+3544	You need a proper chat name
+3545	Connecting to Server
+3546	CD Key authentication failed
+3547	Disconnected from server
+3548	Your CD Key is invalid
+3549	Your nickname is already in use.  You will be connected as "%1NICKNAME%".  You can change your nickname in the Player Profiles menu.
+3550	JOIN GAME
+3551	ENTER IP ADDRESS//
+3552	ENTER THE HOSTS IP ADDRESS
+3553	CANCEL CONNECT
+3554	CONNECT
+3555	CONNECT TO GAME
+3560	GAME PAUSED
+3561	PAUSE
+3562	GAME PAUSED//
+3563	Press Unpause to continue
+3564	HIDE
+3565	UNPAUSE
+3572	DELETE
+3573	DELETE THE SELECTED SAVED GAME
+3574	LOAD GAME
+3575	LOAD THE SELECTED SAVED GAME
+3576	LOAD CAMPAIGN
+3577	LOAD THE SELECTED SAVED CAMPAIGN
+3578	PLAY RECORDED
+3579	PLAYBACK THE SELECTED RECORDED GAME
+3580	SAVE GAME
+3581	SAVE THE GAME USING THE CURRENT FILENAME
+3582	SAVE CAMPAIGN
+3583	SAVE THE CAMPAIGN USING THE CURRENT FILENAME
+3584	SAVE RECORDED
+3585	SAVE A RECORDING OF THE LAST GAME FOR VIEWING LATER
+3586	PLAY MOVIE
+3587	PLAY THE SELECTED MOVIE
+3588	LOAD
+3589	LOAD SAVED GAME//
+3590	LOAD
+3591	LOAD SAVED CAMPAIGN//
+3592	LOAD
+3593	LOAD RECORDED GAME//
+3594	SAVE
+3595	SAVE CURRENT GAME//
+3596	SAVE
+3597	SAVE CAMPAIGN GAME//
+3598	SAVE
+3599	SAVE RECORDED GAME//
+3600	MOVIES
+3601	SELECT MOVIE
+3602	RETURN TO MAIN MENU
+3603	PLAY MOVIES
+3610	ERROR
+3611	MESSAGE//
+3612	DO NOT SHOW THIS MESSAGE AGAIN
+3613	MORE INFO
+3614	OK
+3615	YOUR FLEET IS VICTORIOUS
+3616	YOUR FLEET HAS BEEN DEFEATED
+3617	EXITING
+3618	Defeat
+3619	Your fleet has been defeated. Continue watching?
+3620	Joining Room
+3621	Disconnected from server
+3622	Unable to join room
+3623	SORT GAMES BY GAME NAME
+3624	SORT GAMES BY MAP NAME
+3625	SORT GAMES BY GAME MODE
+3626	SORT GAMES BY NUMBER OF PLAYERS
+3627	SORT GAMES BY PING
+3628	SORT GAMES BY GAME VERSION
+3629	GO BACK
+3630	JOIN THE SELECTED GAME
+3631	REFRESH THE LIST OF GAMES
+3632	SHOW GAME INFORMATION FOR THE SELECTED GAME
+3633	FILTER THE LIST OF DISPLAYED GAMES
+3634	HOST A NEW GAME IN THIS GAME LOBBY
+3635	Connecting to game
+3636	Compatible
+3637	Incompatible
+3650	GAME SAVED
+3651	SAVING GAME...
+3652	RESOURCES COLLECTED
+4000	Mission 1 - Tanis
+4001	The Mothership prepares to undertake a series of trials at Tanis, a secret Hiigaran outpost in the Great Wastelands.
+4002	Mission 2 - Angel Moon
+4003	Arriving in the Homeworld system, the Mothership must rendezvous with its crew and mount a desperate defense.
+4004	Mission 3 - Sarum
+4005	Begin rebuilding the Hiigaran Fleet at Sarum.
+4006	Mission 4 - Gehenna Outskirts
+4007	The Fleet must slip past Vaygr patrols guarding the outskirts of the Gehenna Asteroid field.
+4008	Mission 5 - Gehenna
+4009	In the dust fields of Gehenna, the Fleet must infiltrate a heavily guarded dig site to retrieve the Oracle.
+4010	Mission 6 - The Karos Graveyard
+4011	Under the influence of the Oracle, the Mothership Hyperspaces to the Karos Graveyard.
+4012	Mission 7 - Derelicts
+4013	Pulled out of Hyperspace, the Mothership and Hiigaran Fleet find themselves surrounded by Progenitor derelicts.
+4014	Mission 8 - Dreadnaught Berth
+4015	Among the derelicts lies a powerful Progenitor ship that holds the key to Balcora and Sajuuk.
+4016	Mission 9 - Counter Attack
+4017	Captain Soban has provided the coordinates of a Vaygr Assembly Point. A Counter Attack is planned.
+4018	Mission 10 - Keepers of Sajuuk
+4019	The Keepers return.
+4020	Mission 11 - Sacrifice
+4021	The Hiigaran Fleet must locate the fragments of the Bentusi Core.
+4022	Mission 12 - Thaddis Sabbah
+4023	Captain Soban's emergency beacon leads the Fleet to Thaddis Sabbah - and Makaan.
+4024	Mission 13 - Balcora Gate
+4025	The Vaygr make a desperate attempt to cripple Balcora Gate and prevent access to Sajuuk.
+4026	Mission 14 - Balcora
+4027	In the heart of Balcora, a battle will decide the fate of Sajuuk, the Great Maker.
+4028	Mission 15 - Return to Hiigara
+4029	Lift the Siege of Hiigara.
+4030	Mission 1 - Kharak System
+4031	The Mothership conducts its final preparations before the first test of the hyperspace core.
+4032	Mission 2 - Outskirts of Kharak System
+4033	The Kushan face a mysterious new enemy when trying to make contact with the scout ship Khar-Selim.
+4034	Mission 3 - Return to Kharak
+4035	The Mothership Fleet returns to Kharak to find their planet burned, their people annihilated and the survivors under attack.
+4036	Mission 4 - Great Wastelands
+4037	Narrowly escaping the desolation of Kharak, the Mothership Fleet scours the Great Wasteland to gather resources and prepare for war.
+4038	Mission 5 - Great Wastelands
+4039	The Mothership Fleet descends on the fleet that laid waste to Kharak, seeking revenge for their ruined planet.
+4040	Mission 6 - Diamond Shoals
+4041	Using captured intel, the Mothership Fleet avoids contact with Taiidan outposts, but jumps straight into a deadly asteroid field.
+4042	Mission 7 - The Gardens of Kadesh
+4043	The Mothership Fleet uses the Great Nebula to infiltrate the Taiidan Empire, but their presence angers a new and dangerous enemy.
+4044	Mission 8 - The Cathedral of Kadesh
+4045	The Kadeshi use hyperspace inhibitors to stall the fleeing Mothership Fleet.  The Kushan must fight their former brethren to the bitter end.
+4046	Mission 9 - Sea of Lost Souls
+4047	Free of the Great Nebula, the Mothership Fleet exits hyperspace to investigate a powerful anomaly.
+4048	Mission 10 - Super Nova Station
+4049	On the borders of Empire space, the Mothership Fleet selects its first target - a valuable Taiidan research station.
+4050	Mission 11 - Tenhauser Gate
+4051	A Taiidan fleet assault a lone Bentusi trade ship, but the Mothership Fleet arrives to lend a hand.
+4052	Mission 12 - Galactic Core
+4053	The Taiidan set a trap for the Mothership Fleet, but unwittingly delivers them a powerful ally.
+4054	Mission 13 - The Karos Graveyard
+4055	Under direction of Taiidan Rebel Leader, Captain Elson, the Mothership Fleet moves to activate a critical communications relay.
+4056	Mission 14 - Bridge of Sighs
+4057	Using intel from Captain Elson, the Mothership Fleet assaults the hyperspace inhibitor station blocking access to the Hiigaran System.
+4058	Mission 15 - Chapel Perilous
+4059	Desperate to stop the Kushan's advance to Hiigara, the Taiidan launch a last-ditch attempt to destroy the Mothership.
+4060	Mission 16 - Hiigara
+4061	The Kushan finally reach their Homeworld, but the Taiidan Emperor has one last plan to silence the Exiles once and for all.
+4500	OVERVIEW
+4501	COMBAT
+4502	RESOURCE
+4503	BUILDING
+4504	DIPLOMACY
+4506	OVERVIEW TOTAL
+4507	TOTAL POINTS FOR THIS PLAYER
+4508	SHIPS BUILT
+4509	TOTAL NUMBER OF SHIPS THAT PLAYER BUILT
+4510	SHIPS LOST
+4511	TOTAL NUMBER OF SHIPS THAT PLAYER LOST
+4512	ENEMY SHIPS KILLED
+4513	TOTAL NUMBER OF ENEMY SHIPS THAT PLAYER DESTROYED
+4514	ENEMY SHIPS CAPTURED
+4515	TOTAL NUMBER OF ENEMY SHIPS THAT PLAYER CAPTURED
+4516	BEST SHIP
+4517	PLAYER'S FAVOURITE SHIP
+4518	COMBAT TOTAL
+4519	TOTAL COMBAT POINTS FOR PLAYER
+4520	RESOURCES HARVESTED
+4521	TOTAL RESOURCES THAT PLAYER HARVESTED
+4522	RESOURCE SPENT
+4523	TOTAL RESOURCES THAT PLAYER SPENT
+4524	HARVESTERS BUILT
+4525	TOTAL NUMBER OF HARVESTERS THAT PLAYER BUILT
+4526	REFINERIES BUILT
+4527	TOTAL NUMBER OF REFINERIES THAT PLAYER BUILT
+4528	RESOURCES TOTAL
+4529	TOTAL RESOURCE POINT FOR PLAYER
+4530	BUILD CAPABLE SHIPS
+4531	TOTAL BUILD-CAPABLE SHIPS THAT PLAYER BUILT
+4532	SUBSYSTEMS
+4533	TOTAL SUBSYSTEMS THAT PLAYER BUILT
+4534	% RESEARCH
+4535	TOTAL PERCENT OF RESEARCH THAT PLAYER COMPLETED
+4536	RU SPENT ON RESEARCH
+4537	TOTAL RESOURCES THAT PLAYER SPENT ON RESEARCH
+4538	BUILDING TOTAL
+4539	TOTAL BUILDING POINTS FOR PLAYER
+4540	TEAM
+4541	TEAM NUMBER FOR PLAYER
+4542	TRIBUTE RECEIVED
+4543	TOTAL TRIBUTE RECEIVED BY PLAYER
+4544	TRIBUTE DONATED
+4545	TOTAL TRIBUTE DONATED BY PLAYER
+4546	TIME OF DEATH
+4547	TIME OF DEATH FOR PLAYER
+4548	DIPLOMACY TOTAL
+4549	TOTAL DIPLOMACY POINTS FOR PLAYER
+4550	GAME STATISTICS
+4551	VICTORY
+4552	DEFEAT
+4553	PLAYER STATISTICS
+4554	STATS SUBTITLE//
+4555	OVERVIEW OF ALL GAME STATS
+4556	COMBAT RELATED STATISTICS
+4557	RESOURCE RELATED STATISTICS
+4558	BUILDING AND RESEARCH RELATED STATISTICS
+4559	DIPLOMACY AND TEAM RELATED STATISTICS
+4560	TYPE YOUR CHAT MESSAGE
+4561	POST YOUR CHAT MESSAGE
+4562	RETURN TO LOBBY
+4563	PLAYBACK A PREVIOUSLY RECORDED GAME
+4564	SAVE A RECORDING OF THE LAST GAME FOR VIEWING LATER
+4565	RETURN TO THE MAIN MENU
+4566	START A NEW GAME WITH CURRENT PLAYERS
+4600	GEARBOX SOFTWARE INTRO
+4601	INTRO MOVIES & LOGOS
+4602	HOMEWORLD2 MOVIE TRAILER
+4603	WATCH THE MOVIE TRAILER!
+4604	OPENING SCENES AND BACKSTORY
+4605	THE THREE CORES
+4606	ANIMATIC 01 - Vaygr Invasion
+4607	HIIGARA UNDER SEIGE
+4608	ANIMATIC 02 - Terms of Surrender
+4609	MAKAAN'S OFFER
+4610	ANIMATIC 03 - Bentusi Intelligence
+4611	SAJUUK REVEALED
+4612	ANIMATIC 04 - Oracle Located
+4613	ARCHEOLOGICAL DIG SITES
+4614	ANIMATIC 05 - Hyperspace Malfunction
+4615	THE ORACLE TAKES CONTROL
+4616	ANIMATIC 06 - Lighthouse Data
+4617	PROGENITOR SHIPWRECK
+4618	ANIMATIC 07 - History of The Foundry
+4619	FORGING THE THREE
+4620	ANIMATIC 08 - Soban Intelligence
+4621	THE DREADNAUGHT IS COMPATIBLE
+4622	ANIMATIC 09 - Soban in Trouble
+4623	INTERROGATION
+4624	ANIMATIC 10 - We Survived
+4625	CORE FRAGMENTS LOCATED
+4626	ANIMATIC 11 - Rescue Soban
+4627	VAYGR STATION THADDIS SABBAH
+4628	ANIMATIC 12 - Balcora Data
+4629	AN INHOSPITABLE REGION OF SPACE
+4630	ANIMATIC 13 - Into Balcora
+4631	THE SAJUUK KHAR
+4632	ANIMATIC 14 - The Cores Unite
+4633	THE CHOSEN ONE
+4634	ANIMATIC 15 - Age of S'Jet
+4635	ANCIENT SECRET REVEALED
+4636	CREDITS
+4637	PRODUCTION STAFF
+4638	ANIMATIC 01 - The Great Journey
+4639	QUEST FOR HIIGARA
+4640	ANIMATIC 02 - Rendevous With the Khar-Selim
+4641	THE FIRST JUMP
+4642	ANIMATIC 03 - Return to Kharak
+4643	A NEW THREAT
+4644	ANIMATIC 04 - Reasons For Destruction
+4645	BROKEN TREATY
+4646	ANIMATIC 05 - Turning the Tides
+4647	EXACTING REVENGE
+4648	ANIMATIC 06 - Intel Decrypted
+4649	IMPERIAL BROADCAST
+4650	ANIMATIC 07 - The Bentusi Warning
+4651	NO ONE RETURNS
+4652	ANIMATIC 08 - The Enemy Mothership
+4653	TWIN TECHNOLOGIES
+4654	ANIMATIC 09 - The Protectors of Kadesh
+4655	ALTERNATE ORIGINS
+4656	ANIMATIC 10 - Attack the Research Station
+4657	FIRST STRIKE
+4658	ANIMATIC 11 - A Message From the Emperor
+4659	THE EMPEROR'S DECREE
+4660	ANIMATIC 12 - Hyperdrive Malfunction
+4661	IT'S A TRAP
+4662	ANIMATIC 13 - Captain Elson's Message
+4663	FIRES OF REBELLION
+4664	ANIMATIC 14 - The Hyperspace Inhibitor
+4665	BREAKING AND ENTERING
+4666	ANIMATIC 15 - Prepare For War
+4667	THE FINAL PUSH
+4668	ANIMATIC 16 - Karan Out of Commission
+4669	THE EMPEROR'S POWER
+4670	ANIMATIC 17 - The Journey's End
+4671	ARRIVAL AT HIIGARA
+4700	Crates: New cargo crate detected!
+4701	Crates: Ship crate secured: Recovered %s.
+4702	Crates: Research crate secured: Learned %s.
+4703	Crates: Resource crate secured: Aquired %s RU.
 5000	Frilliness
 5001	Plain
 5002	Slight frills
@@ -1030,7 +1031,7 @@ rangestart 2550 5599
 5038	100000000
 5039	1000000000
 5040	10000000000
-5041	йЩа©╪╤
+5041	ORDER OF MAGNITUDE
 5050	Sauciness
 5051	Serious
 5052	Aloof
@@ -1038,313 +1039,314 @@ rangestart 2550 5599
 5054	Sarcastic
 5055	Annoying
 5056	HOW MUCH YOU PLAN TO TRASH TALK
-5057	╦Э╤Юя║оН
-5058	╣Ц╩Врт╡И©╢╦Э╤Юя║оН
-5060	мкЁЖ╣╫Windows
-5061	вИЁижВа╕╫╒╥╫уС╧╔╩В╠Ю╤с
-5062	вИЁи╩╓ню╫╒уСап╧╔╩В╠Ю╤с
-5063	вИЁиу╫╤╥╩Зяз╩╓╧╔╩В╠Ю╤с
-5064	юК©╙╧╔╩ВуСпнап╠М
-5065	у╫╩ЗиЗ╡ЗиХй╘©Л╫щ╪Э
-5066	╩╓╨╫м╖иЗ╡ЗиХй╘©Л╫щ╪Э
-5067	╩╓╨╫м╖иЗ╡ЗиХй╘©Л╫щ╪Э
-5068	жВа╕╫╒иЗ╡ЗиХй╘©Л╫щ╪Э
-5069	╦╗жЗ╣╔н╩╫╗тЛ©Л╫щ╪Э
-5087	вжд╩
-5088	©╙фТвжд╩
-5089	льйБп╖╧Ш
-5090	╣ВуШу╫╤╥м╗я╤╣дф╣╥╠╤х
-5091	╢Р©╙/╧ь╠усно╥жп╣дср╪Э╡к╣╔
-5092	╢Р©╙ср╪Э╡к╣╔
-5093	╢Р©╙ж╝╨Сё╛©Ря║╡ывВ╫╚╩Асеохя║╤╗╬Эсц╣╔н╩
-5094	вН╣м
-5095	╠Йв╪
-5096	вН╦ъ
-5097	╩ж╦╢╡ывВиХжц
-5098	гЕЁЩя║╤╗оНд©╣дхх╪Э╥жеД
-5099	╫╚кЫспхх╪Э╩ж╦╢Ёид╛хоиХжц
-5100	╧ь
-5101	©╙
-5102	╣м
-5103	╦ъ
-5104	╪╢й╠
-5105	╣╜хК
-5106	сно╥я║оН
-5107	еДжця║оН
-5108	я║оН
-5109	©ьжф
-5110	рТф╣
-5111	йсф╣
-5112	п╖╧Ш
-5113	сно╥
-5114	ж╦аН╥╢ю║оъотй╬й╠╪Д
-5115	йС╠ЙаИцТ╤х
-5116	тйпМй╧сц╧Жфа
-5117	рТп╖рТа©
-5118	сОрТрТа©
-5119	рТюжрТа©
-5120	рТп╖иЫ╣юйЩд©
-5121	у╫╤╥м╗я╤ф╣╥╠Ёл╤х
-5122	╠Йв╪
-5123	╫╒╤ссОрТп╖╧Ш
-5124	сОрТ 1
-5125	сОрТ 2
-5126	сОрТ 3
-5127	╢Р©╙у╫╤╥м╗я╤
-5128	╢Р©╙я║х║сОрТ
-5129	отй╬╥ж╠Фбй
+5057	MORE OPTIONS
+5058	CLICK TO VIEW MORE OPTIONS
+5060	Exit To Windows
+5061	Form Capital Phalanx strike group
+5062	Form Frigate Line strike group
+5063	Form Fighter Screen strike group
+5064	Leave Strike Group
+5065	Fighter Facility Shortcut
+5066	Corvette Facility Shorcut
+5067	Frigate Facility Shortcut
+5068	Capital Ship Facility Shortcut
+5069	Utility Units Build Shortcut
+5087	SUBTITLES
+5088	ENABLE SUBTITLES
+5089	SPECIAL EFFECTS
+5090	ADJUST THE FREQUENCY OF THE BATTLE CHATTER EVENTS
+5091	TOGGLE THE IN-GAME SHIFT-RIGHT-CLICK MENU
+5092	ENABLE RIGHT-CLICK MENU
+5093	WHEN ENABLED, BANDBOX SELECTION PRIORITY WILL BE GIVEN TO MILITARY UNITS
+5094	LOWEST
+5095	STANDARD
+5096	HIGHEST
+5097	RESTORE CONTROLS
+5098	CLEAR THE HOTKEY FOR THE SELECTED ITEM
+5099	RESTORE ALL HOTKEYS TO DEFAULTS
+5100	OFF
+5101	ON
+5102	LOW
+5103	HIGH
+5104	INSTANT
+5105	FADE IN
+5106	GAME OPTIONS
+5107	CONFIGURE OPTIONS
+5108	OPTIONS
+5109	CONTROLS
+5110	AUDIO
+5111	VIDEO
+5112	ADVANCED VIDEO
+5113	GAMEPLAY
+5114	ORDER FEEDBACK DELAY
+5115	MOUSE SENSITIVITY
+5116	ENABLE EDGE OF SCREEN PAN
+5117	SFX VOLUME
+5118	SPEECH VOLUME
+5119	MUSIC VOLUME
+5120	NUMBER OF SFX CHANNELS
+5121	BATTLE CHATTER FREQUENCY
+5122	STANDARD
+5123	FLEET VOICE OVERS
+5124	VOICE 1
+5125	VOICE 2
+5126	VOICE 3
+5127	ENABLE BATTLE CHATTER
+5128	ENABLE SELECTION SPEECH
+5129	VIDEO RESOLUTION
 5130	GAMMA
-5131	т╓иХж╣
-5132	вт╤╗рЕ
-5133	о╦╫з╣х╪╤ (вН╣м вН╦ъ о╦╫з╣х╪╤т╓иХж╣)
-5134	лЫм╪жйа©
-5135	рУс╟╥ж╠Фбй
+5131	PRESETS
+5132	CUSTOM
+5133	DETAIL LEVEL (MIN MAX LOD PRESETS)
+5134	TEXTURE QUALITY
+5135	SHADOW RESOLUTION
 5136	FILTERING ANISTROPY (IS THIS OK?)
 5137	TODO
-5138	╢Р©╙╢╧ж╠м╛╡╫
+5138	ENABLE VSYNC
 5139	TODO CONTROLS OPTION
 5140	FX OPTION0
-5141	╨Смк
-5142	╩ж╦╢д╛хож╣
-5143	с╕сц
-5144	сно╥
-5145	ж╦аН╥╢ю║оъотй╬й╠╪Д
-5146	╢Р©╙NLIPS
-5147	тйпМй╧сц╧Жфа
-5148	╬Эсцд©╠Йя║тЯсеох╪╤
-5149	рТп╖рТа©
-5150	сОрТрТа©
-5151	рТюжрТа©
-5152	рТп╖иЫ╣юйЩд©
-5153	иЫрТжйа©
+5141	BACK
+5142	RESTORE DEFAULTS
+5143	APPLY
+5144	GAMEPLAY
+5145	ORDER FEEDBACK DELAY
+5146	ENABLE NLIPS
+5147	ENABLE EDGE OF SCREEN PAN
+5148	MILITARY SELECTION PRIORITY
+5149	SFX VOLUME
+5150	SPEECH VOLUME
+5151	MUSIC VOLUME
+5152	NUMBER OF SFX CHANNELS
+5153	SOUND QUALITY
 5154	TODO VIDEO OPTION
 5155	TODO CONTROLS OPTION
-5156	х║оШ
-5157	х╥╤╗
-5158	уЩтз╦Эпб
-5159	гКя║тЯобть╣ьж╥//
-5160	╨Смк
-5161	с╕сц
-5162	обть
-5163	╫╒╤спео╒//
-5164	╫╒╤спео╒
-5165	©м╩╖╤кй╧сц╣дMOD
-5166	╥ЧнЯфВ╤кй╧сц╣дMOD
-5167	╣х╢Щжп
-5168	╡ывВ╫Ьппжп//
-5169	дЦх╥╤╗бПё©
-5170	гКя║тЯ//
-5171	╥Я
-5172	йг
-5173	%s я║оН//
-5174	сно╥Ё╓╤х %d:%02d:%02d
-5175	╣ьм╪цШЁф: %s
-5176	сно╥╠╩%sтщмёак║ёгКит╣х║ё"
+5156	CANCEL
+5157	ACCEPT
+5158	UPDATING
+5159	CHOOSE DOWNLOAD LOCATION//
+5160	BACK
+5161	APPLY
+5162	DOWNLOAD
+5163	FLEET INFORMATION//
+5164	FLEET INFO
+5165	CLIENT MODS
+5166	SERVER MODS
+5167	WAITING
+5168	AN OPERATION IS IN PROGRESS//
+5169	ARE YOU SURE?
+5170	CHOOSE//
+5171	NO
+5172	YES
+5173	%s OPTIONS//
+5174	GAME LENGTH: %d:%02d:%02d
+5175	GAME MAP: %s
+5176	The game has been paused by %s. Please wait.
 5177	SelectedPlayer
-5178	адлЛ
-5179	╡╔╥еб╪оЯ
-5180	╠ё╢Фб╪оЯ
-5181	пбсно╥
-5182	гЕЁЩ╟╢╪Э
-5183	╦ц╟╢╪Энч╥╗жьпб╥жеД
-5184	╣Ц╩Вртжьпб╥жеД╟╢╪Э
-5185	╤НмБпео╒
-5186	цШвж: %1NAME%\nЁ╛а╢╫с: %2URL%\n╠ё╢Фн╩жц: %3LOC%\n╡╧╤║╢Сп║: %4SIZE% вж╫з
-5187	цШвж: %1NAME%\nЁ╛а╢╫с: %2URL%\n╠ё╢Фн╩жц: %3LOC%\n╡╧╤║╢Сп║: н╢ж╙
-5188	╪лпЬ
-5189	ж╦╤╗фад╩╥ж╠Фбй
-5190	я║тЯ
-5191	ж╦аН
-5192	©ьжф╠Ю╤с
-5193	хннЯю╦
-5194	у╫йУсКуСпн
-5195	╬╣м╥
-5196	╫╗тЛсКяп╬©
-5197	о╣мЁ
+5178	CHAT
+5179	PLAY RECORDED
+5180	SAVE RECORDED
+5181	NEW GAME
+5182	CLEAR KEY
+5183	THIS KEY CANNOT BE REASSIGNED
+5184	CLICK TO REASSIGN KEY
+5185	EXTRA INFO
+5186	Name: %1NAME%\nURL: %2URL%\nSave Location: %3LOC%\nPatch Size: %4SIZE% bytes
+5187	Name: %1NAME%\nURL: %2URL%\nSave Location: %3LOC%\nPatch Size: unknown
+5188	CONTINUE
+5189	SPECIFY SCREEN RESOLUTION
+5190	Selection
+5191	Orders
+5192	Control Groups
+5193	Taskbar
+5194	Tactics & Formations
+5195	Camera
+5196	Build & Research
+5197	System
 5198	Unassigned / FIXME
-5200	я║тЯр╙╫╗тЛ╣д╥и╢╛
-5201	╣Ц╩Вм╪╠Йрт╬ш╫╧
-5202	обр╩жж©и╫╗тЛ╣д╥и╢╛
-5203	иор╩жж©и╫╗тЛ╣д╥и╢╛
-5204	╣Ц╩Врт©╙й╪╫╗тЛ
-5205	тщмё╤сап
-5206	х║оШ╤сапоНд©
-5207	╫╚╤сапоНд©рфжа╤сап╤╔╡©
-5208	╧ь╠у╢╟©з (%s)
-5209	у╧©╙╤сап
-5210	ушфП╤сап
-5211	я║тЯр╙╫╗тЛ╣диХй╘
-5212	х╚╡©отй╬
-5213	отй╬╫╗тЛпео╒
-5214	╣╠г╟оНд©╡╩©исц
-5216	╤╗р╙╥╒иД╣д╢╛ж╩
-5217	╣Ц╩Вм╪╠Йрт╬ш╫╧
-5218	обр╩кр©и╥╒иД╣д╢╛ж╩
-5219	иор╩кр©и╥╒иД╣д╢╛ж╩
-5220	я║╤╗╢╛ж╩рт╫╚фД╥╒иД
-5221	╧ь╠у╢╟©з (%s)
-5222	╢╛ж╩╫╚╠ёЁжмё╡╢в╢л╛
-5223	╢╛ж╩╫╚╩Авт╤╞╥╒иД
-5224	╥╒иДкЫспмё╡╢жп╣д╢╛ж╩
-5225	ж╩╥╒иДя║жп╣д╢╛ж╩
-5226	╣Ц╩Врт©╙й╪яп╬©
-5227	╧ь╠у╢╟©з (%s)
-5228	я║тЯр╙яп╬©╣диХй╘
-5229	отй╬кЫспяп╬©оНд© (%s)
-5230	отй╬яп╬©пео╒
-5231	╦╗жЗ╢╛ж╩яп╬© (%s)
-5232	╩╓╨╫м╖яп╬© (%s)
-5233	жВа╕╫╒яп╬© (%s)
-5234	у╫╩Зяп╬© (%s)
-5235	╩╓ню╫╒яп╬© (%s)
-5236	ф╫л╗яп╬© (%s)
-5237	х╚╡©отй╬
-5238	╦Э╦д╦ъ╪╤отй╬иХжц
-5239	╦Э╦д╪Эел╨м©ьжфиХжц
-5240	╦Э╦дсно╥╨м╬╣м╥иХжц
-5241	╦Э╦дйсф╣иХжц
-5242	╦Э╦дрТф╣иХжц
-5243	ж╦аН╥╢ю║пео╒тзфад╩ио╠ёаТ╣дй╠╪ДЁ╓╤х
-5244	╣ВуШцЭаН╥╢ю║й╠╪Д
-5245	╣ВуШйС╠ЙаИцТ╤х
-5246	╣ВуШйС╠ЙаИцТ╤х
-5247	тйпМ/╫Шж╧╧Жфа
-5248	╢Р©╙/╧ь╠уNLIPS (╥гоъпт╥╢в╙м╦йскУ╥е)
-5249	рТп╖рТа©
-5250	╣ВуШрТп╖╣дрТа©
-5251	╫╒╤сцЭаНсОрТрТа©
-5252	╣ВуШ╫╒╤сцЭаНсОрТ╣дрТа©
-5253	╠Ё╬╟рТюжрТа©
-5254	╣ВуШ╠Ё╬╟рТюж╣дрТа©
-5255	╫ГцФрТп╖рТа©
-5256	╣ВуШсц╩╖╫ГцФрТп╖╣дрТа©
-5257	рТп╖иЫ╣юйЩд©
-5258	╣ВуШсцсз╡╔╥ерТп╖╣диЫ╣ю╣дйЩд©
-5259	вН╣м - ╪╦╨У╡╩╡╔╥еу╫╤╥м╗я╤дзхщ
-5260	╠Йв╪ - е╪╤Ш╡╔╥еу╫╤╥м╗я╤дзхщ (мф╪Ж)
-5261	вН╦ъ - ╡╔╥е╪╦╨Ух╚╡©╣ду╫╤╥м╗я╤дзхщ
-5262	н╙дЦ╣д╫╒╤ся║тЯр╩жжсОрТп╖╧Ш
-5263	╢Р©╙/╧ь╠уу╫╤╥сОрТйб╪Ч
-5264	╢Р©╙/╧ь╠уя║х║сОрТйб╪Ч
-5265	фад╩GAMMAж╣
-5266	╣ВуШфад╩╣дGAMMAж╣
-5267	╤ах║вНп║╩╞йсф╣я║оН (╣м╤ко╣мЁй╧сц)
-5268	╤ах║д╛хойсф╣я║оН (мф╪Ж)
-5269	╤ах║вН╢С╩╞йсф╣я║оН (╦ъ╤ко╣мЁй╧сц)
-5270	вт╤╗рЕотй╬я║оН (╦ъ╪╤сц╩╖в╗сц)
-5271	вН╣мнфюМжйа© (╣м╤ко╣мЁй╧сц)
-5272	вН╦ънфюМжйа© (мф╪Ж)
-5273	╢Р©╙/╧ь╠у╢╧ж╠м╛╡╫
-5274	╥ефЗкЫвВ╣д╦Э╦д╡╒╥╣╩ьжВ╡к╣╔
-5275	╩ж╦╢я║оНд╛хож╣
-5276	с╕сцкЫвВ╣д╦Э╦д╡╒╥╣╩ьжВ╡к╣╔
-5277	╥ефЗкЫвВ╣д╦Э╦д╡╒╥╣╩ь╡к╣╔
-5278	с╕сцкЫвВ╣д╦Э╦д╡╒╥╣╩ь╡к╣╔
-5279	©Ря║╡ывВ╫╚╩Асеохя║╤╗╬Эсц╣╔н╩
-5280	╥гу╫╤╥птяп╬© (%s)
-5298	╦Эпб
-5299	обть╡╒с╕сц╦Эпб
-5300	мкЁЖ╣╫Windows
-5301	мкЁЖ
-5302	╡к╣╔
-5303	вт╠╛
-5304	вт╠╛йС╠Й╩╝╧Щ
-5305	льйБ╧╔╩В
-5306	льйБ╧╔╩В
-5307	вти╠пт╧╔╩В
-5308	рф╤╞
-5309	Ё╛©у╪ДлЬт╬
-5310	╡и╪╞
-5311	╡и╪╞
-5312	╠ё╩╓
-5313	мё╡╢
-5314	ап╤с
-5315	мёж╧
-5316	х║оШ
-5317	╦пс╕фВи╗цХ (1000 RU)
-5318	пчюМ
-5319	иХжц╪╞╫А╣Ц
-5320	иХжц╪╞╫Ад©╠Й
-5321	╩ьйу╢╛ж╩
-5322	╡╪юв
-5323	рф╤╞╡╒╧╔╩Вд©╠Й
-5324	╬Эсцд©╠Йя║х║
-5325	╬Эсцд©╠Йя║х║
-5326	вИЁижВа╕╫╒╥╫уС
-5327	вИЁи╩╓ню╫╒уСап
-5328	вИЁиу╫╤╥╩Зяз╩╓
-5329	╫Би╒╧╔╩ВуСпн
-5330	иор╩жжу╫йУ
-5331	обр╩жжу╫йУ
-5332	╠╩╤╞у╫йУ
-5333	╥юсЫпту╫йУ
-5334	╧╔╩Впту╫йУ
-5335	кы╤х:2╠╤
-5336	кы╤х:1/2
-5337	кы╤х:уЩЁё
-5338	тщмё
-5339	╬ш╫╧сзфЛ╫╒
-5340	╬ш╫╧сзя║╤╗╢╛ж╩
-5341	я║тЯкЫсп╢╛ж╩
-5342	обр╩╦Ж╫╧╣Ц
-5343	иор╩╦Ж╫╧╣Ц
-5344	╥е╢С
-5345	кУп║
-5346	у╫йУ╠Йй╤ё╗TOё╘я╜╩╥иХжц
-5347	яп╬©╧эюМфВ
-5348	╫╗тЛ╧эюМфВ
-5349	╫╗тЛ╧эюМфВ (╢Р©╙/╧ь╠у)
-5350	╥╒иД╧эюМфВ
-5351	╥╒иД╧эюМфВ (╢Р©╙/╧ь╠у)
-5352	╦пс╕фВ╧эюМфВ
-5353	╢Р©╙╧ь╠уфад╩т╙кьотй╬
-5354	б╥╬╤╣ЦиХжц
-5355	б╥╬╤╣ЦиХжц
-5356	и╬ЁЩб╥╬╤╣Ц
-5357	╢Р©╙/╧ь╠уб╥╬╤╣Цотй╬
-5358	1╨е╠Ю╤с
-5359	2╨е╠Ю╤с
-5360	3╨е╠Ю╤с
-5361	4╨е╠Ю╤с
-5362	5╨е╠Ю╤с
-5363	6╨е╠Ю╤с
-5364	7╨е╠Ю╤с
-5365	8╨е╠Ю╤с
-5366	9╨е╠Ю╤с
-5367	10╨е╠Ю╤с
-5368	я║тЯ1╨е╠Ю╤с
-5369	я║тЯ2╨е╠Ю╤с
-5370	я║тЯ3╨е╠Ю╤с
-5371	я║тЯ4╨е╠Ю╤с
-5372	я║тЯ5╨е╠Ю╤с
-5373	я║тЯ6╨е╠Ю╤с
-5374	я║тЯ7╨е╠Ю╤с
-5375	я║тЯ8╨е╠Ю╤с
-5376	я║тЯ9╨е╠Ю╤с
-5377	я║тЯ10╨е╠Ю╤с
-5378	╫╗тЛ1╨еоНд©
-5379	╫╗тЛ2╨еоНд©
-5380	╫╗тЛ3╨еоНд©
-5381	╫╗тЛ4╨еоНд©
-5382	╫╗тЛ5╨еоНд©
-5383	╫╗тЛ6╨еоНд©
-5384	╫╗тЛ7╨еоНд©
-5385	╫╗тЛ8╨еоНд©
-5386	╫╗тЛ9╨еоНд©
-5387	╫╗тЛ10╨еоНд©
-5388	у╫╩ЗиЗ╡ЗиХй╘©Л╫щ╪Э
-5389	╩╓╨╫м╖иЗ╡ЗиХй╘©Л╫щ╪Э
-5390	╩╓ню╫╒иЗ╡ЗиХй╘©Л╫щ╪Э
-5391	жВа╕╫╒иЗ╡ЗиХй╘©Л╫щ╪Э
-5392	╦╗жЗ╣╔н╩╫╗тЛ©Л╫щ╪Э
-5393	дё©ИиХй╘©Л╫щ╪Э
-5394	ф╫л╗иХй╘©Л╫щ╪Э
-5395	╦пс╕фВиХй╘©Л╫щ╪Э
-5396	отй╬х╚╡©©Л╫щ╪Э
-5397	х║оШ╤сап╤╔╤коНд©
-5398	тщмё╢╛ж╩╤сап
-5399	х║оШ╤сап╤╔╤коНд©
-5400	тщмёвсо╣мЁ╤сап
+5199	SHIFT CLICK TO BUILD 5
+5200	SELECT BUILD SHIP
+5201	CLICK ICON TO FOCUS
+5202	NEXT BUILD SHIP
+5203	PREVIOUS BUILD SHIP
+5204	CLICK TO BUILD
+5205	PAUSE QUEUE
+5206	CANCEL QUEUE ITEM
+5207	MOVE QUEUE ITEM TO TOP
+5208	CLOSE WINDOW (%s)
+5209	EXPAND QUEUE
+5210	COLLAPSE QUEUE
+5211	SELECT BUILD FACILITY
+5212	SHOW ALL
+5213	SHOW BUILD INFORMATION
+5214	ITEM CURRENTLY UNAVAILABLE
+5216	SELECT LAUNCH SHIP
+5217	CLICK ICON TO FOCUS
+5218	NEXT LAUNCH SHIP
+5219	PREVIOUS LAUNCH SHIP
+5220	SELECT SHIPS TO LAUNCH
+5221	CLOSE WINDOW (%s)
+5222	SHIPS WILL REMAIN DOCKED
+5223	SHIPS WILL AUTO LAUNCH
+5224	LAUNCH ALL DOCKED SHIPS
+5225	LAUNCH SELECTED SHIPS ONLY
+5226	CLICK TO RESEARCH
+5227	CLOSE WINDOW (%s)
+5228	SELECT RESEARCH FACILITY
+5229	SHOW ALL RESEARCH (%s)
+5230	SHOW RESEARCH INFORMATION
+5231	UTILITY RESEARCH (%s)
+5232	CORVETTE RESEARCH (%s)
+5233	CAPITAL RESEARCH (%s)
+5234	FIGHTER RESEARCH (%s)
+5235	FRIGATE RESEARCH (%s)
+5236	PLATFORM RESEARCH (%s)
+5237	SHOW ALL
+5238	CHANGE ADVANCED VIDEO SETTINGS
+5239	CHANGE KEYBOARD AND CONTROL SETTINGS
+5240	CHANGE GAMEPLAY AND CAMERA SETTINGS
+5241	CHANGE VIDEO SETTINGS
+5242	CHANGE AUDIO SETTINGS
+5243	AMOUNT OF TIME ORDER FEEDBACK REMAINS ON SCREEN
+5244	ADJUST THE ORDER FEEDBACK DELAY
+5245	DETERMINES THE SENSITIVITY OF THE MOUSE POSITION
+5246	ADJUST THE SENSITIVITY OF THE MOUSE POSITION
+5247	TOGGLE EDGE OF SCREEN PANNING
+5248	TOGGLE NLIPS (NON LINEAR INVERSE PERSPECTIVE SCALING)
+5249	SOUND EFFECTS VOLUME
+5250	ADJUST THE VOLUME OF THE SOUND EFFECTS
+5251	FLEET COMMAND SPEECH VOLUME
+5252	ADJUST THE VOLUME OF THE FLEET COMMAND SPEECH
+5253	BACKGROUND MUSIC VOLUME
+5254	ADJUST THE VOLUME OF THE BACKGROUND MUSIC
+5255	UI SOUND VOLUME
+5256	ADJUST THE VOLUME OF THE USER INTERFACE SOUNDS
+5257	NUMBER OF SOUND EFFECTS CHANNELS
+5258	ADJUST THE NUMBER OF CHANNELS TO USE FOR SOUND EFFECTS
+5259	LOWEST - BATTLE CHATTER WILL ALMOST NEVER BE PLAYED
+5260	STANDARD - BATTLE CHATTER WILL BE PLAYED SOMETIMES (RECOMMENDED)
+5261	HIGHEST - BATTLE CHATTER WILL ALMOST ALWAYS BE PLAYED
+5262	SELECT VOICE FOR YOU FLEET VOICE OVER EFFECTS
+5263	TOGGLE BATTLE SPEECH EVENTS
+5264	TOGGLE SELECTION SPEECH EVENTS
+5265	SCREEN GAMMA
+5266	ADJUST THE SCREEN GAMMA
+5267	LOAD MINIMUM VIDEO OPTIONS (FOR LOW END SYSTEMS)
+5268	LOAD DEFAULT VIDEO OPTIONS (RECOMMENDED)
+5269	LOAD MAX VIDEO OPTIONS (FOR HIGH END SYSTEMS)
+5270	SPECIFY CUSTOM VIDEO OPTIONS (FOR ADVANCED USERS)
+5271	LOWEST TEXTURE QUALITY (FOR LOW END SYSTEMS)
+5272	HIGHEST TEXTURE QUALITY (RECOMMENDED)
+5273	TOGGLE VERTICAL SYNCRONIZATION
+5274	DISCARD CHANGES AND RETURN TO MAIN MENU
+5275	RESTORE DEFAULT OPTIONS
+5276	APPLY CHANGES AND RETURN TO MAIN MENU
+5277	DISCARD CHANGES AND RETURN TO MENU
+5278	APPLY CHANGES AND RETURN TO MENU
+5279	WHILE BANDBOXING PRIORITY WILL BE GIVEN TO MILITARY UNITS
+5280	NON-COMBAT RESEARCH (%s)
+5298	UPDATES
+5299	DOWNLOAD AND APPLY UPDATES
+5300	Exit to Windows
+5301	Quit
+5302	Menu
+5303	Scuttle
+5304	Scuttle Mouse Over
+5305	Special Attack
+5306	Special Attack
+5307	Kamikaze
+5308	Move
+5309	Hyperspace
+5310	Harvest
+5311	Harvest
+5312	Guard
+5313	Dock
+5314	Parade
+5315	Stop
+5316	Cancel
+5317	Sensor Ping (1000 RU)
+5318	Repair
+5319	Set Rally Point
+5320	Set Rally Object
+5321	Retire Ships
+5322	Drop Mines on Current Point
+5323	Move and Attack Targets
+5324	Military Selection
+5325	Military Selection
+5326	Form Capital Phalanx
+5327	Form Frigate Line
+5328	Form Fighter Screen
+5329	Cancel strike group
+5330	Previous Tactic
+5331	Next Tactic
+5332	Passive Tactics
+5333	Defensive Tactics
+5334	Offensive Tactics
+5335	Speed:X2
+5336	Speed:/2
+5337	Speed:Normal
+5338	Pause
+5339	Focus on Flagship
+5340	Focus on Selected
+5341	Select All Ships
+5342	Next Focus
+5343	Previous Focus
+5344	Zoom In
+5345	Zoom Out
+5346	Tactical Overlay Settings
+5347	Research Manager
+5348	Build Manager
+5349	Build Manager (Toggle)
+5350	Launch Manager
+5351	Launch Manager (toggle)
+5352	Sensors Manager
+5353	Toggle HUDs
+5354	Set Waypoints
+5355	Waypoint Editing
+5356	Delete Waypoint
+5357	Toggle Waypoint Visibility
+5358	Assign Group 1
+5359	Assign Group 2
+5360	Assign Group 3
+5361	Assign Group 4
+5362	Assign Group 5
+5363	Assign Group 6
+5364	Assign Group 7
+5365	Assign Group 8
+5366	Assign Group 9
+5367	Assign Group 10
+5368	Select Group 1
+5369	Select Group 2
+5370	Select Group 3
+5371	Select Group 4
+5372	Select Group 5
+5373	Select Group 6
+5374	Select Group 7
+5375	Select Group 8
+5376	Select Group 9
+5377	Select Group 10
+5378	Build Item 1
+5379	Build Item 2
+5380	Build Item 3
+5381	Build Item 4
+5382	Build Item 5
+5383	Build Item 6
+5384	Build Item 7
+5385	Build Item 8
+5386	Build Item 9
+5387	Build Item 10
+5388	Fighter Facility Shortcut
+5389	Corvette Facility Shorcut
+5390	Frigate Facility Shortcut
+5391	Capital Ship Facility Shortcut
+5392	Utility Unit Build Shortcut
+5393	Modules Facility Shortcut
+5394	Platform Facility Shortcut
+5395	Sensors Facility Shortcut
+5396	Show All Shortcut
+5397	Cancel Top Ship Build Queue Item
+5398	Pause Ship Queue
+5399	Cancel Top Subsystem Queue Item
+5400	Pause Subsystem Queue
 5401	Shift Mod Dn
 5402	Shift Mod Up
 5403	Control Mod Dn
@@ -1352,300 +1354,343 @@ rangestart 2550 5599
 5405	Focus Mod Dn
 5406	Focus Mod Up
 5407	SwitchPlayer
-5408	жьпбв╟ть╢╛ж╩╫е╠╬
-5409	жьпбв╟ть╫е╠╬
+5408	Ship Script Reload
+5409	Script Reload
 5410	FlightManeuverTestOne
 5411	FlightManeuverTestTwo
 5412	FlightManeuverTestThree
-5413	©Лкы╢Ф╣╣
-5414	©Лкы╤ах║
-5415	жьпб©╙й╪╧ь©╗
-5416	╫ьм╪
-5417	адлЛ
-5418	адлЛ
-5419	Джх╬╣ВуШ
-5420	Ё╛╪╤╪скы╣ВуШ
-5421	Ё╛╪╤╪скы ╧ь
-5422	╦пс╕фВ╧эюМи╦я║╣ВуШ
-5423	╣ВЁЖд©╠Й
-5424	╪╞╫А╣Ц
-5425	╣ВЁЖх╚╬ж╤сап
-5426	╣ВЁЖйб╪Ч
-5427	╣ВЁЖмБ╫╩
-5428	╣ВЁЖ╩ь╧к
-5429	╥юсЫЁ║
-5430	рЧпн
-5431	╡╤в╫
-5432	╦пс╕фВи╗цХ
-5433	╫╒╤спео╒
-5434	╣Г╢ебЖЁЕ
-5435	╢Р©╙/╧ь╠ульйБж╦аН╡к╣╔
-5436	оРг╟ф╫рф
-5437	оР╨Сф╫рф
-5438	оРвСф╫рф
-5439	оРсрф╫рф
-5440	оРиоф╫рф
-5441	оРобф╫рф
-5442	╬ш╫╧сзиор╩йб╪Ч
-5443	я║х║©уоп╣двйт╢╡и╪╞╢╛
-5444	╟яя║жп╣дд©╠Й╢с╠Ю╤сжпх╔ЁЩ
-5445	гЕЁЩкЫсп╠Ю╤с
-5446	вт╤╗рЕ╪╓╩Н
-5447	вт╤╗рЕ╧ь╠у
-5448	©╙фТ/╧ь╠увт╤╗рЕ
-5449	╣╪╣╞фКиД
-5450	╢Р©╙╫╗тЛ╧эюМфВ
-5451	╢Р©╙яп╬©╧эюМфВ
-5452	╫╒╤спео╒//
-5453	хк©зпео╒ (%s)
-5454	╤сап (%s)
-5455	нч
-5456	╣Ц╩Вм╪╠Йрт╬ш╫╧
-5457	╣Ц╩Врт╡И©╢д©╠Й
-5460	хЩ╫гуС
-5461	Ё╓иъуС
-5462	XпнуС
-5463	в╕пнуС
-5464	г╫пнуС
-5465	гРпнуС
-5466	╪╓╩НльйБ
-5467	╧ь╠ульйБ
-5468	©╙фТ/╧ь╠ульйБ
-5470	вйт╢иХй╘
-5471	╥гу╫╤╥иХй╘
-5500	║╤╪рт╟2║╥жьжф╟Ф
-5501	╫ля╖
-5502	║╤╪рт╟║╥жьжф╟Ф
-5510	тщмё╡╔╥е
-5511	╩ж╦╢╡╔╥е
-5512	гп╩╩мФ╪р
-5513	╢Р©╙/╧ь╠уу╫Ё║цтнМ
-5514	╦Э╦д╩ь╥екы╤х
-5515	вт╤╗рЕцЭаН
-5516	©╙фТжьа╕╬╝
-5517	льйБ╪╪дэ
-5518	╪скыдэа╕
-5519	╬шдэ╧╔╩В
-5550	╠ё╢Фсно╥╫Ь╤х
-5551	╤ах║охг╟╠ё╢Ф╣дсно╥
-5552	╠ё╢Фу╫рш╫Ь╤х
-5553	╤ах║охг╟╠ё╢Ф╣ду╫рш
-5554	╤ах║охг╟╠ё╢Ф╣дсно╥б╪оЯ
-5555	╦Э╦дсно╥я║оН
-5556	жпж╧сно╥╡╒мкЁЖ╣╫WINDOWS
-5557	╥╣╩ьжВ╡к╣╔
-5558	╩ьйу╫╒╤с
-5559	╧ь╠у╠╬╡к╣╔╡╒╥╣╩ьсно╥
-5560	╫Ьппобр╩╤н╫ля╖хннЯ
-5561	жьпб©╙й╪╣╠г╟╫ля╖хннЯ
-5562	жьпб©╙й╪╣╠г╟хннЯ
-5563	жьпб©╙й╪╣╠г╟╧ь©╗
-5564	╠ё╢Фсно╥
-5565	╤ах║сно╥
-5566	╠ё╢Фу╫рш
-5567	╤ах║у╫рш
-5568	╤ах║сно╥б╪оЯ
-5569	я║оН
-5570	мкЁЖ╣╫WINDOWS
-5571	мкЁЖ╣╫жВ╡к╣╔
-5572	╩ьйу
-5573	╥╣╩ьсно╥
-5574	обр╩ф╙╫ля╖ж╦до
-5575	жьпб©╙й╪╫ля╖ж╦до
-5576	жьпб©╙й╪
-5577	сно╥╡к╣╔ (си9CCNсКсноюмЬа╙╨о╨╨╩╞)
-5578	гКя║тЯ//
-5579	жпж╧╣╠г╟сно╥
-5586	╣╪ЁЖйс╫гпео╒
+5413	Quick Save
+5414	Quick Load
+5415	Restart Level
+5416	Screen Shot
+5417	Chat
+5418	Chat
+5419	Render Toggle
+5420	Super Turbo Toggle
+5421	Super Turbo Off
+5422	Sensors Manager Filters Toggle
+5423	Bring Up Objectives
+5424	Rally Point
+5425	Bring Up Global Queue
+5426	Bring Up Events
+5427	Bring Up Diplomacy
+5428	Bring Up Recall
+5429	Defense Field
+5430	Cloak
+5431	Capture (HW2)
+5432	Ping
+5433	Fleet Info
+5434	Toggle Special Commands
+5435	Toggle Special Commands Menu
+5436	Pan Forward
+5437	Pan Backward
+5438	Pan Left
+5439	Pan Right
+5440	Pan Up
+5441	Pan Down
+5442	Focus on Last Event
+5443	Select Idle Harvester
+5444	Clear Selected from Control Groups
+5445	Clear All Control Groups
+5446	Custom Activate
+5447	Custom Deactivate
+5448	Custom Toggle
+5449	Missile Volley
+5450	OPEN BUILD MANAGER
+5451	OPEN RESEARCH MANAGER
+5452	FLEET INFO//
+5453	POPULATION INFO (%s)
+5454	QUEUES (%s)
+5455	None
+5456	CLICK ICON TO FOCUS
+5457	CLICK TO VIEW OBJECTIVES
+5460	Delta Formation
+5461	Broad Formation
+5462	X Formation
+5463	Claw Formation
+5464	Wall Formation
+5465	Sphere Formation
+5466	Activate Special
+5467	DeActivate Special
+5468	Toggle Special
+5470	Resource Facility
+5471	Non-Combat Facility
+5500	HOMEWORLD 2 REMASTERED
+5501	TUTORIAL
+5502	HOMEWORLD REMASTERED
+5510	PAUSE PLAYBACK
+5511	UNPAUSE PLAYBACK
+5512	SWITCH PLAYER
+5513	TOGGLE FOG OF WAR
+5514	CHANGE PLAYBACK SPEED
+5515	Custom Command
+5516	Gravity Well
+5517	Drones
+5518	Speed Burst
+5519	Burst Attack
+5550	SAVE THE PROGRESS OF YOUR GAME
+5551	LOAD A SAVED GAME
+5552	SAVE THE PROGRESS OF YOUR CAMPAIGN
+5553	LOAD A SAVED CAMPAIGN GAME
+5554	LOAD A SAVED RECORDED GAME
+5555	CHANGE GAME OPTIONS
+5556	END GAME AND EXIT TO WINDOWS
+5557	RETURN TO MAIN MENU
+5558	RETIRE YOUR FLEET
+5559	CLOSE THIS MENU AND RETURN TO GAME
+5560	PLAY THE NEXT TUTORIAL MISSION
+5561	RESTART THE CURRENT TUTORIAL MISSION
+5562	RESTART THE CURRENT MISSION
+5563	RESTART THE CURRENT LEVEL
+5564	SAVE GAME
+5565	LOAD GAME
+5566	SAVE CAMPAIGN
+5567	LOAD CAMPAIGN
+5568	LOAD RECORDED GAME
+5569	OPTIONS
+5570	EXIT TO WINDOWS
+5571	EXIT TO MAIN MENU
+5572	RETIRE
+5573	RETURN TO GAME
+5574	NEXT TUTORIAL
+5575	RESTART TUTORIAL
+5576	RESTART
+5577	GAME MENU
+5578	SELECT//
+5579	END CURRENT GAME
+5586	Dump Camera Info
 5587	TEST TITLE
-5588	сно╥юЮпмцХйЖ//
-5589	╫ГцФрТа©
-5590	╧ь
-5591	╣м
-5592	жп
-5593	╦ъ
-5598	╬╞╦Ф
-5599	пео╒//
-4800	к╚жь╣ф╧Б
-4801	╪╚╦ъ
-4802	2кр╨╫д╦
+5588	GAME TYPE DESCRIPTION//
+5589	UI VOLUME
+5590	OFF
+5591	LOW
+5592	MEDIUM
+5593	HIGH
+5598	WARNING
+5599	MESSAGE//
+4800	DUAL LIGHT
+4801	Huge
+4802	2 Carriers
 4803	Homeworld Remastered
-4804	рт║╤╪рт╟ё╨жьжф╟Ф║╥╣д╧ФтР╫ЬппкюмЖ╬╨хЭ
+4804	Play Deathmatch using Homeworld Remastered Rules
 4805	Homeworld 1 Deathmatch
-4806	рт║╤╪рт╟1║╥╣д╬╜╣Д╧ФтР╫ЬппкюмЖ╬╨хЭ
-4807	 Homeworld 2 Deathmatch
-4808	рт║╤╪рт╟2║╥╣д╬╜╣Д╧ФтР╫ЬппкюмЖ╬╨хЭ
-4900	в╪╠╦Ё╛©у╪ДлЬт╬
-4901	вт╤╞мё╡╢жп║╜║╜
-4902	йёсЮ╫╒╢╛
-4903	рямё╡╢╫╒╢╛
-4904	©Лкымё╡╢
-4905	а╒╪╢мё╡╢кЫсп╫╒╢╛╡╒фТ╤╞Ё╛©у╪ДлЬт╬
-4906	х║оШвт╤╞мё╡╢╫ЬЁл
-4907	Ё╛©у╪ДлЬт╬
-4908	фТ╤╞Ё╛©у╪ДлЬт╬мё╡╢╫ЬЁл
-4909	╥гу╫╤╥юЮ
-4910	вйт╢юЮ
-4911	фДкЭ
-4912	╠╬м╪нВцЁрв╢╛
-4913	я║тЯ//
-4914	╫сйэлА╟╦
-4915	╬э╬ЬлА╟╦
-4916	╬ш╫╧жВа╕╫╒
-4917	мФ╪рйЩ╬щмЁ╪ф
-4918	╩В╩ы
-4919	╫╗тЛ
-4920	иЗ╢Ф
-4921	я║жп╣двсо╣мЁ
-4922	я║тЯ╫╒╤с
-4923	гЕ©у©ьжфвИ
-4924	я║жп╣д╣╔н╩
-4925	╩ж╦╢
-4926	╠ёЁж╦д╠Д
-4927	из╠Ь
-4928	а╛╫сжйа©
-4929	╥гЁё╨ц
-4930	╨ц
-4931	╡Н
-4932	╡╩дэмЙЁихц╤и║ёмФ╪рряс╣спвН╢СйЩа©╣д╦ц╫╒ж╩║ё
-4933	╢сн╩жц╧╔╩В
-4934	фПй╪н╩жц
-4935	╦ЗкФиЦоЯ╩З
-4936	иЦоЯ╩З╤╤╤╞
-4937	иЦоЯ╩З╤т╦╫╫Э╣дппн╙спак╩ьс╕║ё
-4938	иЦоЯ╩ЗпЭ╦║
-4939	╬╡ж╧й╠иЦоЯ╩З╣дтк╤╞йЩж╣
-4940	в╥вы╫╒╢╛й╠иЦоЯ╩З╣дтк╤╞йЩж╣
-4941	╣╪╣╞фКиД (%s)
-4942	╬шдэ╧╔╩В (%s)
-4943	вт╤╞©╙й╪сно╥
-4944	╣╠кЫспмФ╪рв╪╠╦╨цй╠вт╤╞©╙й╪║ё
-4945	г©жф©╙й╪
-4946	тз10цК╨Сг©жф©╙й╪сно╥
-4947	отй╬сп╨цсякЫтз╣д╥ЧнЯфВ
-4948	╨цся
-4949	╦ъ╪╤иХжц
-4950	хЩ╫гуС (%s)
-4951	Ё╓иъуС (%s)
-4952	XпнуС (%s)
-4953	в╕пнуС (%s)
-4954	г╫пнуС (%s)
-4955	гРпнуС (%s)
-4956	║╤╪рт╟ё╨жьжф╟Ф║╥ Steam ╤Юхксно╥╡Бйт╟Ф
-4957	╩╤с╜ю╢╣╫║╤╪рт╟ё╨жьжф╟Ф║╥ Steam╤Юхксно╥╡Бйт╟Фё╛уБ╦Ждёй╫╫╚║╤╪рт╟1║╥сК║╤╪рт╟2║╥╣д╤Юхк╤ту╫дёй╫хз╨отзакр╩фП║ё
-4958	уБйгр╩©Их╚пб╣ддёй╫ё╛кЭ╫╚╢Ст╪15дЙг╟╣д╢ЗбК╨мнрцгиожэ╦уп╢об╣д╢ЗбКхз╨отзакр╩фПё╛рР╢к╪╢й╧тз╥╒╡╪г╟о╕нрцгхттзе╛а╕вЖ╣ц╦Э╨ц╡╒пХр╙дЦ╣д╟ОжЗё║
-4959	ты╢нжьиЙё╛уБйгр╩╦Жхттз©╙╥╒жп╣дBETA╡Бйт╟Ф║ёдЗ╣д╥╢ю║╨мтзбшлЁио╣д╩ьс╕╩А╟ОжЗнрцгкФвер╩╢н╢н╦Эпб╤Ь╦Э╨ц╣ь╦д╠ДуБ╦Жсно╥║ё
-4960	р╙╠╗╦Фхн╨ноЮ╧ьйбоНё╛гК╥цнй http://support.gearboxsoftware.com 
-4961	тз╫Ьпп╤Юхксно╥BETAж╝г╟ё╛дЗ╠ьпКохв╒╡А╤Юхксно╥BETAук╨е║ёгКм╗╧ЩфТ╤╞фВю╢в╒╡Аук╨е║ё
-4962	╥ЧнЯфВ╬ЮюК
-4963	╥гЁё╫Э
-4964	╣╠╣ьгЬсР
-4965	╥гЁёт╤
-4966	йю╫Г╥╤н╖
-4967	кяя╟╥ЧнЯфВ╣двН╢С╥╤н╖║ё
-4968	спцэбК╠ё╩╓╣д╢СлЭ
-4969	тзйю╫Г╥╤н╖дзкяя╟╥ЧнЯфВ©идэ╩А╡ЗиЗ╦ъясЁы
-4970	╧Щбк╣ТцэбК╠ё╩╓╣дсно╥
-4971	тзкякВй╠╧Щбк╣ТспцэбК╠ё╩╓╣дсно╥║ё
-4972	цэбК╠ё╩╓╣дсно╥
-4973	фДкШмФ╪ртз╪схКж╝г╟пХр╙йДхКцэбК║ё
-4974	пХр╙цэбКё©
-4975	пХр╙р╩╦ЖцэбК
-4976	сц╩╖╫ГцФсКHUD
-4977	╫ГцФкУ╥ея║оН
-4978	цЭаНм╪╠Й
-4979	╤спн╨му╫йУм╪╠Й
-4980	╣╔н╩я║тЯ╫ГцФ
-4981	вС╡Ю╧╕дэм╪╠Й
-4982	╤╔╡©╟╢е╔
-4983	х╚╬жHUDЁъ╢Г
-4984	RUсК╪фй╠фВю╦
-4985	сц╩╖╫ГцФт╙кькУ╥е╠хюЩ %
+4806	Play Deathmatch using Classic Homeworld 1 Options
+4807	Homeworld 2 Deathmatch
+4808	Play Deathmatch using Classic Homeworld 2 Options
+4900	PREPARING FOR HYPERSPACE
+4901	AUTODOCKING UNDERWAY
+4902	Ships Remaining
+4903	Ships Docked
+4904	QUICK DOCK
+4905	INSTANTLY DOCK AND HYPERSPACE
+4906	CANCEL AUTODOCKING PROCEDURE
+4907	HYPERSPACE
+4908	INITIATE HYPERSPACE DOCKING PROCEDURE
+4909	Non-Combat
+4910	Resource
+4911	Other
+4912	BENTUSI EXCHANGE
+4913	CHOOSE//
+4914	Accept Offer
+4915	Decline Offer
+4916	FOCUS CAPITAL SHIPS
+4917	PLAYER STATS
+4918	Kill
+4919	Build
+4920	Survive
+4921	SELECTED SUBSYSTEM
+4922	SELECT FLEET
+4923	CLEAR CONTROL GROUPS
+4924	SELECTED UNIT
+4925	Revert
+4926	Keep Changes
+4927	Sentry
+4928	Connection Quality
+4929	Excellent.
+4930	Good.
+4931	Poor.
+4932	Cannot complete transfer.  Player is already at unit cap for that type.
+4933	Attack from position
+4934	SLOT
+4935	Chase Camera
+4936	Camera Shake
+4937	Camera response to nearby action.
+4938	Camera Float
+4939	Amount of camera movement when not moving.
+4940	Amount of camera movement when following ships.
+4941	MISSILE VOLLEY (%s)
+4942	BURST ATTACK (%s)
+4943	AUTOSTART GAME
+4944	Automatically starts the game when all players are ready.
+4945	FORCE START
+4946	Forces the game to start in 10 seconds.
+4947	Show Servers With Friends
+4948	Friends
+4949	Advanced Options
+4950	Delta Formation (%s)
+4951	Broad Formation (%s)
+4952	X Formation (%s)
+4953	Claw Formation (%s)
+4954	Wall Formation (%s)
+4955	Sphere Formation (%s)
+4956	Homeworld Remastered Steam Multiplayer BETA
+4957	Welcome to the Homeworld Remastered Steam Multiplayer Beta, which combines the competitive multiplayer modes for both Homeworld and Homeworld 2 into one centralized mode.
+4958	This is an all-new agglomeration that combines bits of code that are over 15 years old with bits of code that were written last week, hence the ⌠BETA■ designation as we▓re still working to improve things and want your help!
+4959	Again, this is a beta for a product that▓s still in development. Your feedback and posts on the forums will help shape this beta as we update it over time.
+4960	To report any issues, please contact us at http://support.gearboxsoftware.com.
+4961	You must sign up for the Multiplayer Beta before playing Multiplayer. ═Please sign up through the launcher.
+4962	SERVER DISTANCE
+4963	Very Near
+4964	Local Regions
+4965	Very Far
+4966	Worldwide
+4967	Maximum distance to search for servers.
+4968	Password protected lobby
+4969	Worldwide could produce very slow connections
+4970	FILTER PASSWORD PROTECTED GAMES
+4971	Filters out password protected games in your search.
+4972	PASSWORD PROTECT GAME
+4973	Require players to enter a password before joining your game.
+4974	Require Password?
+4975	Require A Password
+4976	UI & HUD
+4977	HUD Scale Options
+4978	Command Icons
+4979	Formations and Tactics Icons
+4980	Selection Panel
+4981	Left Side Utility Icons
+4982	Top Menu Buttons
+4983	Global HUD Scale
+4984	RU and Timer Panel
+4985	Global HUD Scale
 4986	Sensors and Control Groups Panel
 4987	Selection Panel: Ships Per Row
-4990	╦д╠Д╫ГцФиХ╤╗
-4991	отй╬╪фй╠фВ
-3660	гКит╨Р║╜║╜
-3661	уЩтз╢с╥ЧнЯфВ╩Ях║пео╒ё╛гКит╨С║╜║╜
-4985	х╚╬жHUDкУ╥е
-2606	╤НмБхннЯ
-4995	╢СлЭ
-4996	╥©╪Д
-4997	к╫ад
-4998	%d ╦ЖмФ╪р
-3061	йС╠Йж╦уК
-3062	╪рт╟ё╨жьжф╟Фё╗╢Сё╘
-3063	╪рт╟1╬╜╣Д╟Ф
-3064	╪рт╟ё╨жьжф╟Фё╗п║ё╘
-3065	яШгК
-3066	к╫ад
-3067	мФ╪р╣╣╟╦
-3068	╨Жбт
-3069	ф╣╣ю
-3070	╢СлЭадлЛ
-3071	нч╧ь╩╟лБ
-3072	<b><c=2a43ff>╩╤с╜ю╢╣╫ %s адлЛйр!</c></b>
-3073	й╠╪Д╠Й╪г
-3074	тзадлЛжпотй╬/рЧ╡ьй╠╪Д╠Й╪г
-3075	╪схК/юК©╙лАй╬
-3076	тзадлЛжпотй╬/рЧ╡ьмФ╪р╣д╪схК/юК©╙лАй╬
-3077	╡╩ндцВсцсО╧Щбк
-3078	тзадлЛжп╧Щбк╡╩ндцВсцсО
-4062	╨ё╣а╣д╟эмк
-4063	нрцгЁи╧╕╤╗н╩акм╪ю╜дА╨ё╣а╫╒╤с╣дю╢т╢║ёкШцг╢с╢С╩дж╝╣ьф╚т╤╣ьгЬ╣др╩©еп║пппго╝╩В╤Ью╢║ёфТ╤╞Ё╛©у╪ДлЬт╬║ё
-4064	╤НмБ║╤╪рт╟1║╥хннЯ - ╨ё╣а╣д╟эмк
-4065	<b><c=00AFFF>%1NAME%</c></b> <c=FFD800>яШгКдЗ╫ЬхКсно╥</c>: %2MESSAGE%
-4065	<b><c=00AFFF>%1NAME%</c></b> <c=FFD800>яШгКдЗ╫ЬхКсно╥ё╗к╚╩ВуБлУоШо╒╪╢©и╪схКё╘</c>║ё  %2MESSAGE%
-4066	<i><c=ff0000>яШгКн╢╥╒ЁЖ║ёдЦцг╡╩тзр╩╦Жсно╥╢СлЭжп║ё</c></i>
-4067	<i><c=ff0000>к╫адн╢╥╒ЁЖ║ёур╡╩╣╫ж╦╤╗╣дмФ╪р║ё</c></i>
-4068	<i><c=ff0000>яШгКн╢╥╒ЁЖ║ёур╡╩╣╫ж╦╤╗╣дмФ╪р║ё</c></i>
-4069	<i><c=ff0000>к╫адн╢╥╒ЁЖ║ёдЗ╡╩дэоРвт╪╨╥╒кмк╫ад║ё</c></i>
-4070	<i><c=ff0000>яШгКн╢╥╒ЁЖ║ёдЗ╡╩дэяШгКвт╪╨╪схКсно╥║ё</c></i>
-4071	<i><c=ff0000>яШгКн╢╥╒ЁЖ║ёяШгК╣дмФ╪р %s ря╬╜тздЗ╣дсно╥жп║ё</c></i>
-4072	<i><c=ff0000>яШгКн╢╥╒ЁЖ║ёмФ╪р %s ря╬╜тздЁр╩сно╥жп║ё</c></i>
-4073	р╙╩Я╣ц╦Э╤ЮхннЯё╛гК╡И©╢Steam Workshopиосисц╩╖╢╢╫╗╣д╦Э╤Юдзхщё║
-4074	пб╦Эпб╪схКакоШй╖ря╬ц╣д╤НмБхннЯ║╤╨ё╣а╣д╟эмк║╥сК╦Э╤Ю╦д╫Ьё║
-4075	тзуБ╦Жх╚пб╣д║╤╪рт╟║╥хннЯжпё╛дЦпХр╙тзм╪ю╜дАткть╫╒Ё╥мкжапппг╥юсЫо╣мЁ╣д╟╡х╚гЬдз╢щ╩ыкЭцг║ё
-
-4076	<c=FFD800>дЦяШгКак <b><c=00AFFF>%1NAME%</c></b> <c=FFD800>╫ЬхКсно╥</c>: %2MESSAGE%
+4990	Change UI Settings
+4991	Show Timer
+3660	Please Wait┘
+3661	Please wait while we get information from the server┘
+2606	EXTRA MISSIONS
+4995	Global
+4996	Match
+4997	Private
+4998	%d Players
+3061	Mouse Cursor
+3062	Homeworld Remastered (Large)
+3063	Homeworld Classic
+3064	Homeworld Remastered (Small)
+3065	Invite
+3066	Whisper
+3067	Player Profile
+3068	Ignore
+3069	Channels
+3070	Global Chat
+3071	Off Topic
+3072	<b><c=2a43ff>Welcome to %s chat!</c></b>
+3073	Time Stamps
+3074	Show/Hide Timestamps in chat
+3075	Join/Leave Notifications
+3076	Show/Hide Join and Leave Notifications in chat
+3077	Profanity Filter
+3078	Filter out profanity in chat
+4062	Raider Retreat
+4063	We've located the origin of the Turanic Raider fleets.  They came from a small, isolated planetoid located in a remote area of the Great Wasteland. Engage hyperspace.
+4064	Bonus Homeworld 1 Mission - Raider Retreat
+4065	<b><c=00AFFF>%1NAME%</c></b> <c=FFD800>invited you to a game (Double click this message to join)</c>.  %2MESSAGE%
+4066	<i><c=ff0000>Invite not sent.  You are not in a game lobby.</c></i>
+4067	<i><c=ff0000>Whisper not sent.  Could not find player.</c></i>
+4068	<i><c=ff0000>Invite not sent.  Could not find player.</c></i>
+4069	<i><c=ff0000>Whisper not sent.  Cannot whisper to yourself.</c></i>
+4070	<i><c=ff0000>Invite not sent.  Cannot invite yourself to a game.</c></i>
+4071	<i><c=ff0000>Invite not sent.  Invited player %s already in your game.</c></i>
+4072	<i><c=ff0000>Invite not sent.  Player %s is already in a game.</c></i>
+4073	For more missions, check out the user-created efforts on the internet!
+4074	New update adds the long-lost extra mission Raider Retreat, plus other changes!
+4075	In this all new Homeworld Mission, you must destroy the Turanic Raider Fleet before they reach the safety of their planetoid defences.
+4076	<c=FFD800>You invited <b><c=00AFFF>%1NAME%</c></b> <c=FFD800>to a game</c>: %2MESSAGE%
 4077	[%1STATUS%] %2COLOR%%3NAME%%4ENDCOLOR%
-4078	<i><c=005EBD>%1NAME%</c><c=7F7F7F> ╫ЬхКаксно╥</c></i>
-4079	<i><c=005EBD>%1NAME%</c><c=7F7F7F> юК©╙аксно╥</c></i>
-4080	<b><c=FF7EFF>%1NAME%</b> ╩ь╦╢: %2MESSAGE%</c>
-4081	<b><c=FF7EFF>╦Ь</b> [%1DEST%]: %2MESSAGE%</c>
-4082	<i><c=005EBD>%1NAME%</c><c=7F7F7F> ря╬╜╠╩фа╠н</c></i>
-4083	<i><c=005EBD>%1NAME%</c><c=7F7F7F> ря╬╜╠╩╫БЁЩфа╠н</c></i>
-4084	<b><c=00B0ff>юК©╙</c></b>
-4085	<b><c=00B0ff>╢СлЭ</c></b>
-4086	<b><c=00B0ff>сно╥</c></b>
-4087	<i><c=005EBD>%1NAME%</c><c=7F7F7F>╢╕сзюК©╙в╢л╛</c></i>
-4088	<i><c=ff0000>н╢ж╙цЭаН║ёйДхК / ю╢апЁЖ©исц╣дцЭаН</c></i>
-4089	<i><c=ff0000>╩ь╦╢н╢╥╒ЁЖё╨╡╩дэ╩ь╦╢╦Ь╡╩╢Фтз╣дмФ╪р</c></i>
-4090	<b><c=FFD800>дЦожтз╢╕сзюК©╙в╢л╛</c></b>
-4091	<b><c=FFD800>дЦ╡╩ты╢╕сзюК©╙в╢л╛</c></b>
-4092	<i><c=ff0000>н╢дэиХжц/╫БЁЩфа╠нё╨д©╠ЙмФ╪р╡╩╢Фтз</c></i>
-4093	фа╠н
-4094	╫БЁЩфа╠н
-4095	<c=f>/whisper</c>   <c=9>[мФ╪рцШ] - ╥╒кмк╫пе</c>
-4096	<c=f>/reply</c>   <c=9> - ╩ь╦╢вН╫Эйу╣╫╣дк╫пе</c>
-4097	<c=f>/invite</c>   <c=9>[мФ╪рцШ] - яШгКмФ╪р</c>
-4098	<c=f>/mute</c>   <c=9>[мФ╪рцШ] - фа╠нмФ╪р</c>
-4099	<c=f>/unmute</c>   <c=9>[мФ╪рцШ] - ╫БЁЩфа╠нмФ╪р</c>
-4100	<c=f>/afk</c>   <c=9> - ╫ЬхКюК©╙дёй╫</c>
-4101	<c=f>/help</c>   <c=9>- апЁЖ©исц╣дцЭаН</c>
-4102	ATIяЫй╫
-4103	╦д╠Дсно╥жп╦ъ╪╤у╫йУ╫ГцФ(ATI)╣дяЫй╫
-4104	и╚ц╓дёй╫
-4105	╣╔╩Вср╪Эю╢Д╞юю╦Э╤Юя║оН
-4106	╣╔╩Вср╪Эю╢©╙фТ
-4107	╣╔╩Вср╪Эю╢╧ь╠у
-4108	╧л╤╗
-4109	╧л╤╗ (%s)
-4110	©╙╥╒уъ
-4111	╫ЯхуоШо╒
-4112	<c=f>/roll</c>   <c=9>- ╡ЗиЗ1-100╪Д╣дкФ╩ЗйЩ</c>
-4113	<i><c=ff0000>пео╒н╢╥╒ЁЖ║ёдЗря╬╜╥╒кмакл╚╤Ю╣дпео╒ё╛гК╧Щ╪╦╥жжсжьйт║ё</c></i>
-4114	кФ╩З╪рт╟1жжвЕ
-4115	кФ╩З╪рт╟2жжвЕ
+4078	<i><c=005EBD>%1NAME%</c><c=7F7F7F> has entered a game</c></i>
+4079	<i><c=005EBD>%1NAME%</c><c=7F7F7F> has left a game</c></i>
+4080	<b><c=FF7EFF>%1NAME%</b> replies: %2MESSAGE%</c>
+4081	<b><c=FF7EFF>To</b> [%1DEST%]: %2MESSAGE%</c>
+4082	<i><c=005EBD>%1NAME%</c><c=7F7F7F> has been muted</c></i>
+4083	<i><c=005EBD>%1NAME%</c><c=7F7F7F> has been unmuted</c></i>
+4084	<b><c=00B0ff>afk</c></b>
+4085	<b><c=00B0ff>lobby</c></b>
+4086	<b><c=00B0ff>game</c></b>
+4087	<i><c=005EBD>%1NAME%</c><c=7F7F7F> is AFK</c></i>
+4088	<i><c=ff0000>Unknown command.  Type / to list commands.</c></i>
+4089	<i><c=ff0000>Reply not sent.  Cannot reply to non-existent player.</c></i>
+4090	<b><c=FFD800>You are now AFK.</c></b>
+4091	<b><c=FFD800>You are no longer AFK.</c></b>
+4092	<i><c=ff0000>Mute/Unmute not set.  Cannot mute/unmute non-existent player.</c></i>
+4093	Mute
+4094	UnMute
+4095	<c=f>/whisper</c>   <c=9>[player name]</c>
+4096	<c=f>/reply</c>   <c=9>- Reply to the last recieved private message</c>
+4097	<c=f>/invite</c>   <c=9>[player name]</c>
+4098	<c=f>/mute</c>   <c=9>[player name]</c>
+4099	<c=f>/unmute</c>   <c=9>[player name]</c>
+4100	<c=f>/afk</c>   <c=9>- Toggles Away From Keyboard mode</c>
+4101	<c=f>/help</c>   <c=9>- Lists valid commands</c>
+4102	ATI Skin
+4103	Change the appearance of the In-Game Advanced Tactical Interface
+4104	Colorblind
+4105	Right-click for more options
+4106	Right-click to toggle on
+4107	Right-click to toggle off
+4108	Fixed
+4109	FIXED (%s)
+4110	Developer
+4111	Message of the Day
+4112	<c=f>/roll</c>   <c=9>Random rolls a number between 1-100.</c>
+4113	<i><c=ff0000>Message not sent.  You have sent too many messages.  Please wait a few minutes before sending another message.</c></i>
+4114	Random HW1
+4115	Random HW2
+4200	UI Navigation
+4201	Accept
+4202	Cancel/Back
+4203	Radial Menu
+4204	4204 xMISSINGx
+4205	4205 xMISSINGx
+4206	4206 xMISSINGx
+4207	4207 xMISSINGx
+2803	Color Presets
+3136	Aggressive (%s) - Damage <c=00FF00>Up</c> / Speed <c=FF0000>Down</c>
+3137	Evasive (%s) - Damage <c=FF0000>Down</c> / Speed <c=00FF00>Up</c>
+3138	Neutral (%s) - Normal Damage / Normal Speed
+3139	Allow building of Cruisers
+3140	Enable or Disable the building of Battle and Heavy Cruisers
+3141	Strikecraft & Support Only
+3142	Alternate game mode
+5472	Aggressive Stance
+5473	Evasive Stance
+5474	Neutral Stance
+5475	TACTICAL DOT SCALE
+5476	ADJUST THE SCALE OF RED DOTS IN TACTICAL DISPLAY
+5477	GROUP SELECTION BY STRIKE GROUP
+5478	GROUP SELECTION BY STRIKE GROUP IN SELECTION PANEL AND LAUNCH MENU
+5479	Dart Formation
+5480	Dart Formation (%s)
+5481	Wedge Formation
+5482	Wedge Fromation (%s)
+5483	Cross Formation
+5484	Cross Formation (%s)
+5520	Non-Strike Group Selection
+5521	Non-Strike Group Selection (%s)
+5522	Disband Formation (%s)
+5523	Undo Formation  (%s)
+5524	Form Combat Formations  (%s)
+5525	Disband Formation 
+5526	Undo Formation  
+5527	Form Combat Formations  
+
+// Translation UI from PATCH
+5528	Buy Ship
+5529	Sell Ship <b>NOTE</b>: Not Working! Use <b>MANAGEMNT</b> menu insted
+5530	Buy Goods
+5531	Sell Goods
+5532	Switch ships/goods trade mode
+
+5533    Insufficient materials for assembly
 
 rangeend

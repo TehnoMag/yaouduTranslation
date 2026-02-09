@@ -2,246 +2,247 @@ Locale_Text = {}
 
 
 
-Locale_Text[100] = "Ö÷Á¦½¢ÕÙ»½ĞÅ±ê"
-Locale_Text[101] = "ÕÙ»½ÔÚ¸½½üĞÇÇøÖĞÑ²º½µÄ´óÖĞĞÍÕ½½¢½¢ÌøÔ¾µ½Ç°ÏßÖ§Ô®Õ½¶·"
-Locale_Text[110] = "ÑªÈĞ¼¶Õ½ÁĞ½¢"
-Locale_Text[111] = "Ò»ÖÖ×°¼×¼á¹ÌÓµÓĞ¿ìËÙ¼¤¹âÎäÆ÷µÄÏÈ½øÕ½½¢,ÑĞ·¢Ç°ÖÃÌõ¼ş:Ö÷Á¦½¢Ä£¿é"
-Locale_Text[120] = "µ¼µ¯ÎŞÎ·½¢"
-Locale_Text[121] = "Ò»ÖÖ×°±¸ÁË±¤Àİ¼¶·Éµ¯µÄ¾ŞĞÍÎŞÎ·½¢,ÑĞ·¢Ç°ÖÃÌõ¼ş:Ö÷Á¦½¢Ä£¿é ÖĞ¼¶¾ü±¸¿Æ¼¼ Õ½ÁĞ½¢¿Æ¼¼"
-Locale_Text[130] = "Âí¿¨¶÷Ö®Å­"
-Locale_Text[131] = "ÒÆ¶¯µÄÕ½ÕùÒªÈû£¬¿ÉÅÂµÄ³¬¾ŞĞÍÕ½½¢,ÑĞ·¢Ç°ÖÃÌõ¼ş:Ö÷Á¦½¢Ä£¿é µ¼µ¯ÎŞÎ·½¢¿Æ¼¼ ÖĞ¼¶¾ü±¸¿Æ¼¼ Õ½ÁĞ½¢¿Æ¼¼"
-Locale_Text[140] = "ÑªÈĞ¼¶Õ½ÁĞ½¢½ô¼±ÕÙ»½"
-Locale_Text[141] = "ÏûºÄ´óÁ¿×ÊÔ´½ô¼±ÕÙ»½Ò»ËÒÑªÈĞ¼¶Õ½ÁĞ½¢"
-Locale_Text[150] = "¼¤¹âÍ»»÷½¢±à¶Ó"
-Locale_Text[151] = "×°±¸ÁËÖÚ¶à¼¤¹âÎäÆ÷µÄÕ½½¢,¿ÉÒÔÓÃÀ´·´»¤ÎÀ½¢"
-Locale_Text[155] = "Ååµ¶¼¶Í»»÷½¢±à¶Ó"
-Locale_Text[156] = "×°±¸ÁË¸ßĞÔÄÜÍ¨ÓÃ·´½¢µ¼µ¯µÄĞ¡ĞÍÕ½½¢£¬¿ÉÒÔÒÀ¿¿ÊıÁ¿ÓÅÊÆÎ§¹¥µĞÈË"
+Locale_Text[100] = "Battleship call beacon"
+Locale_Text[101] = "Summon medium and large battleships cruising in the nearby star zone to jump to the front line to support the battle"
+Locale_Text[110] = "Bloodshed class battleship"
+Locale_Text[111] = "ä¸€ç§è£…ç”²åšå›ºæ‹¥æœ‰å¿«é€Ÿæ¿€å…‰æ­¦å™¨çš„å…ˆè¿›æˆ˜èˆ°,ç ”å‘å‰ç½®æ¡ä»¶:ä¸»åŠ›èˆ°æ¨¡å—"
+Locale_Text[120] = "Missile dreadnought"
+Locale_Text[121] = "ä¸€ç§è£…å¤‡äº†å ¡å’çº§é£å¼¹çš„å·¨å‹æ— ç•èˆ°,ç ”å‘å‰ç½®æ¡ä»¶:ä¸»åŠ›èˆ°æ¨¡å— ä¸­çº§å†›å¤‡ç§‘æŠ€ æˆ˜åˆ—èˆ°ç§‘æŠ€"
+Locale_Text[130] = "Fury of Makarn"
+Locale_Text[131] = "ç§»åŠ¨çš„æˆ˜äº‰è¦å¡ï¼Œå¯æ€•çš„è¶…å·¨å‹æˆ˜èˆ°,ç ”å‘å‰ç½®æ¡ä»¶:ä¸»åŠ›èˆ°æ¨¡å— å¯¼å¼¹æ— ç•èˆ°ç§‘æŠ€ ä¸­çº§å†›å¤‡ç§‘æŠ€ æˆ˜åˆ—èˆ°ç§‘æŠ€"
+Locale_Text[140] = "Bloodshed-class battleship emergency call"
+Locale_Text[141] = "Urgent summoning of a Bloodblade-class battleship by consuming a large amount of resources"
+Locale_Text[150] = "Laser assault ship formation"
+Locale_Text[151] = "Battleship equipped with numerous laser weapons that can be used to counter frigates"
+Locale_Text[155] = "formation of Sabre-class assault ships"
+Locale_Text[156] = "small warships equipped with high-performance general-purpose anti-ship missiles that can rely on numerical superiority to besiege the enemy"
 
 
-Locale_Text[200] = "½¢ÔØ»úÕû±¸»ú¿â"
-Locale_Text[201] = "¿ÉÒÔ×Ô¶¯ÊÍ·Å½¢ÔØ»úºÍºäÕ¨»ú½øĞĞÕ½¶·"
-Locale_Text[210] = "ÅÚÍ§»¤ÎÀ½¢´¬Îë"
-Locale_Text[211] = "¿ÉÒÔ×Ô¶¯Í¶·ÅÅÚÍ§ºÍ»¤ÎÀ½¢½øĞĞÕ½¶·"
-Locale_Text[220] = "Ö÷Á¦½¢¼¶»¤¶Ü·¢ÉúÆ÷"
-Locale_Text[221] = "¿ÉÒÔ²úÉúÒ»¸öÈİÁ¿Îª150WHPµÄ´óĞÍ·À»¤¶Ü   ×¢Òâ£ºÎŞ·¨ºÍÆäËû·ÀÓùÏµ×ÓÏµÍ³¼æÈİ"
-Locale_Text[225] = "Õ½ÁĞÑ²Ñó½¢»ğ¿ØËş"
-Locale_Text[226] = "¿ÉÒÔÌáÉı1±¶µÄ»ğÁ¦£¬µ«ÊÇÖ»¶Ô±¾ÌåÓĞĞ§ ×¢Òâ£ºÎŞ·¨ºÍÆäËû¹¥»÷Ïµ×ÓÏµÍ³¼æÈİ"
-Locale_Text[227] = "Õ½ÁĞÑ²Ñó½¢ÖØÁ¦¾®"
-Locale_Text[228] = "²úÉúÒ»¸öÖØÁ¦³¡×èÖ¹µĞÈËÌøÔ¾¿¿½ü ×¢Òâ£ºÎŞ·¨ºÍÆäËû·ÀÓùÏµ×ÓÏµÍ³¼æÈİ"
-Locale_Text[229] = "Õ½ÁĞÑ²Ñó½¢ÌøÔ¾Ä£¿é"
-Locale_Text[230] = "ÈÃÕ½ÁĞÑ²Ñó½¢¿ÉÒÔ½øĞĞÌøÔ¾  ×¢Òâ£ºÎŞ·¨ºÍÆäËû·ÀÓùÏµ×ÓÏµÍ³¼æÈİ"
+Locale_Text[200] = "shipboard aircraft ready hangar"
+Locale_Text[201] = "can automatically release shipboard aircraft and bombers for combat"
+Locale_Text[210] = "gunboat frigate dock"
+Locale_Text[211] = "can automatically launch gunships and frigates for combat"
+Locale_Text[220] = "battleship class shield generator"
+Locale_Text[221] = "Can generate a large shield with a capacity of 150WHP Note: not compatible with other defense system subsystems"
+Locale_Text[225] = "Battlecruiser fire control tower"
+Locale_Text[226] = "Boosts firepower by a factor of 1, but only works on the main body. Note: not compatible with other attack subsystems"
+Locale_Text[227] = "Battlecruiser gravity well"
+Locale_Text[228] = "Generates a gravity field to stop enemies from jumping closer Caution: not compatible with other defense subsystems"
+Locale_Text[229] = "Battlecruiser jump module"
+Locale_Text[230] = "Enables battlecruisers to jump Caution: not compatible with other defense subsystems"
 
 
-Locale_Text[300] = "Âö³åÍ»Ï®½¢"
-Locale_Text[301] = "×°±¸ÁËÖÚ¶àÂö³åÎäÆ÷µÄÕ½½¢,¿ÉÒÔÓÃÀ´·´Í§,²¢ÇÒÒ²ÓĞÒ»¶¨µÄ·´½¢¹¦ÄÜ"
+Locale_Text[300] = "Pulse raid ship"
+Locale_Text[301] = "Battleship equipped with many pulse weapons, can be used for anti-boat and also has some anti-ship capabilities"
 
-Locale_Text[310] = "¼¤¹âÊø»¤ÎÀ½¢±à¶Ó"
-Locale_Text[311] = "ĞÂĞÍµÄ¼¤¹âÊø»¤ÎÀ½¢£¬¿ËÖÆ»¤ÎÀ½¢ºÍÖ÷Á¦½¢"
-Locale_Text[320] = "·À¿Õµ¼µ¯ÇıÖğ½¢"
-Locale_Text[321] = "×°±¸ÁË×îĞÂĞÍ·À¿Õµ¼µ¯µÄ¾«Èñ·À¿ÕÇıÖğ½¢"
-Locale_Text[330] = "¶À½ÇÊŞ¼¶ÖØ×°Ñ²Ñó½¢"
-Locale_Text[331] = "×°±¸ÁË¸ßÄÜ¼¤¹âÎäÆ÷ºÍ·´½¢µ¼µ¯µÄ´óĞÍÕ½½¢ Ç°ÖÃ¿Æ¼¼£º³õ¼¶¿Æ¼¼ Ñ²Ñó½¢Ä£¿é ÇáÑ²Ñó½¢¿Æ¼¼"
-Locale_Text[340] = "ÏÈ·æ¼¶ÇáÑ²Ñó½¢"
-Locale_Text[341] = "Ò»ÖÖ½á¹¹¼òµ¥,ÊÊºÏ´óÁ¿Éú²úµÄÇáĞÍÑ²Ñó½¢ Ç°ÖÃÌõ¼ş£ºÑ²Ñó½¢Ä£¿é"
-Locale_Text[350] = "·À¿Õµ¼µ¯Ëş"
-Locale_Text[351] = "·À¿Õ·Éµ¯·¢ÉäËş,ÊÊÓÚÓÃÀ´½øĞĞ·´Í§¹¥»÷"
-Locale_Text[355] = "ÖØĞÍ·ÀÓùÆ½Ì¨"
-Locale_Text[356] = "Ò»ÖÖÓµÓĞºñÖØ×°¼×µÄ·ÀÓùÆ½Ì¨£¬¿ÉÒÔÓĞĞ§µÄ×èµ²´ó²¿·Ö½ø¹¥£¨×¢Òâ£¬¸Ã±øÖÖÎŞ·¨ÒÆ¶¯£¬Ö»ÄÜÌøÔ¾²¿Êğ£©"
-Locale_Text[360] = "ÁÔöè¼¶×°¼×½¢"
-Locale_Text[361] = "Éı¼¶°æµÄÈü²©À­Ë¹×°¼×½¢£¬ÓµÓĞ¼á¹ÌµÄ×°¼×ºÍµÍÁ®µÄ³É±¾"
-Locale_Text[370] = "Í¼ÌÚ¼¶×°¼×º½Ä¸"
-Locale_Text[371] = "»õ½¢¸Ä×°µÄÖØĞÍº½Ä¸£¬ÓµÓĞ×ã¹»µÄ×°¼×ºÍÇ¿´óµÄÉú´æÁ¦"
-
-
-Locale_Text[380] = "×°¼×Âö³åÍ§"
-Locale_Text[381] = "Î¬¸ñ¶ûÈËÌØ±ğÉè¼ÆµÄÒ»ÖÖÖØĞÍÂö³åÍ§£¬×°ÓĞÁ½ÃÅ¸ßÆµÂö³åÅÚ£¬×¨ÃÅÓÃÀ´ÔÚĞ¡ĞÍµ¥Î»»ìÕ½ÖĞ·¢»ÓÍşÁ¦"
-
-Locale_Text[390] = "ÑªÈĞ2ĞÍÕ½ÁĞ½¢"
-Locale_Text[391] = "ĞÂÒ»´úµÄÑªÈĞ¼¶Õ½ÁĞ½¢£¬ÊÇ¾ÉÓĞÑªÈĞ¼¶Õ½ÁĞ½¢µÄÈ«ÃæÉı¼¶"
+Locale_Text[310] = "Formation of laser beam frigates"
+Locale_Text[311] = "new laser beam frigate, restrains frigates and battleships"
+Locale_Text[320] = "Anti-aircraft missile destroyer"
+Locale_Text[321] = "elite anti-aircraft destroyer equipped with the latest anti-aircraft missiles"
+Locale_Text[330] = "Unicorn-class heavy cruiser"
+Locale_Text[331] = "è£…å¤‡äº†é«˜èƒ½æ¿€å…‰æ­¦å™¨å’Œåèˆ°å¯¼å¼¹çš„å¤§å‹æˆ˜èˆ° å‰ç½®ç§‘æŠ€ï¼šåˆçº§ç§‘æŠ€ å·¡æ´‹èˆ°æ¨¡å— è½»å·¡æ´‹èˆ°ç§‘æŠ€"
+Locale_Text[340] = "Vanguard-class light cruiser"
+Locale_Text[341] = "ä¸€ç§ç»“æ„ç®€å•,é€‚åˆå¤§é‡ç”Ÿäº§çš„è½»å‹å·¡æ´‹èˆ° å‰ç½®æ¡ä»¶ï¼šå·¡æ´‹èˆ°æ¨¡å—"
+Locale_Text[350] = "Anti-aircraft missile tower"
+Locale_Text[351] = "Anti-aircraft missile tower, suitable for anti-boat attacks"
+Locale_Text[355] = "heavy defense platform"
+Locale_Text[356] = "A heavily armored defense platform that can effectively block most attacks (note that the soldier cannot move and can only jump to deploy)"
+Locale_Text[360] = "Shark hunting class armored ship"
+Locale_Text[361] = "An upgraded version of the Cyberus armored ship, with strong armor and low cost"
+Locale_Text[370] = "Totem-class armored carrier"
+Locale_Text[371] = "A heavy carrier converted from a cargo ship, with sufficient armor and strong survivability"
 
 
-Locale_Text[400] = "ÖĞ¼¶¿Æ¼¼Ä£¿é"
-Locale_Text[401] = "½âËøÒ»Ğ©¸ß¼¶Ö÷Á¦½¢µÄ½¨Ôì"
+Locale_Text[380] = "armored pulse boat"
+Locale_Text[381] = "A heavy pulse boat specially designed by the Vaygr, equipped with two high-frequency pulse cannons, designed to be powerful in small unit melee"
 
-Locale_Text[410] = "¸ß¼¶¿Æ¼¼Ä£¿é"
-Locale_Text[411] = "½âËøÒ»Ğ©´óĞÍÆì½¢µÄ½¨Ôì"
-
-Locale_Text[410] = "¸ß¼¶¿Æ¼¼Ä£¿é"
-Locale_Text[411] = "½âËøÒ»Ğ©´óĞÍÆì½¢µÄ½¨Ôì"
-
-Locale_Text[500] = "Âí¿¨¶÷Ö®Å­2ĞÍ"
-Locale_Text[501] = "Ç¿´óµÄ¹¥»÷ĞÍ±¤Àİ£¬¿ÉÒÔ´İ»ÙÒ»ÇĞµĞÈË"
+Locale_Text[390] = "Blood Blade 2 battleship"
+Locale_Text[391] = "A new generation of Bloodblade-class battleships, a full upgrade of the older Bloodblade-class battleships"
 
 
-Locale_Text[510] = "À­¸ñÄÉµÄ»ìĞ¡×Ó"
-Locale_Text[511] = "ÕÙ»½³ôÃûÕÑÕÃµÄ»ìĞ¡×ÓÇ°À´ÖúÕ½"
+Locale_Text[400] = "Intermediate technology module"
+Locale_Text[401] = "Unlocks construction of some advanced starter ships"
+
+Locale_Text[410] = "Advanced tech modules"
+Locale_Text[411] = "Unlock the construction of some large flagships"
+
+Locale_Text[410] = "Advanced tech modules"
+Locale_Text[411] = "Unlock the construction of some large flagships"
+
+Locale_Text[500] = "Markarn's Fury Type 2"
+Locale_Text[501] = "Powerful attacking fortress that can destroy all enemies"
 
 
-Locale_Text[520] = "ºìÁ«¼¶µ¼µ¯¹¥³Ç½¢"
-Locale_Text[521] = "×°±¸ÁË´óĞÍºìÁ«³¬ÖØĞÍµ¼µ¯µÄ¹¥³ÇÑ²Ñó½¢£¬×¨ÃÅÓÃÀ´´ò»÷Æì½¢¼¶Ä¿±ê"
+Locale_Text[510] = "Ragnar's bastard boy"
+Locale_Text[511] = "Summon the infamous bastard boy to help in the battle"
 
 
-Locale_Text[530] = "Ë«Í·öè¼¶ÖØĞÍÏ®»÷½¢"
-Locale_Text[531] = "Á®¼ÛÁ¿²úµÄÒ»ÖÖ´óĞÍÖ÷Á¦½¢£¬ÓµÓĞºÍÕ½ÁĞ½¢¼¶±ğµ¥Î»¿¹ºâµÄÊµÁ¦"
+Locale_Text[520] = "Red Lotus-class missile siege ship"
+Locale_Text[521] = "A siege cruiser equipped with large Red Lotus super-heavy missiles, designed to strike flagship-class targets"
+
+
+Locale_Text[530] = "Double-headed Shark-class heavy assault ship"
+Locale_Text[531] = "A large battleship of cheap mass production, with the power to fight against battleship class units"
 
 
 
-Locale_Text[540] = "Âí¿¨¶÷Ö®Å­3ĞÍ"
-Locale_Text[541] = "×°±¸ÁËÇ¿´ó¼¤¹âÊøÖ÷ÅÚºÍ´óÁ¿µ¼µ¯ÕóÁĞµÄ³¬¼¶Õ½½¢£¬ÓµÓĞ»ÙÌìÃğµØµÄ¹¥»÷Á¦"
+Locale_Text[540] = "Makarn's Fury Type 3"
+Locale_Text[541] = "A super battleship equipped with a powerful laser beam main gun and a large array of missiles, with the power to destroy the earth"
 
 
-Locale_Text[550] = "ÑªÈĞ¼¶Õ½ÁĞ½¢¼ßÃğĞÍ"
-Locale_Text[551] = "×°±¸ÁËÏÈ½øĞÍ·À¿ÕÏµÍ³³¬¼¶·À¿ÕÕ½ÁĞ½¢£¬¿ÉÒÔÓĞĞ§Ñ¹ÖÆ¶Ô·½µÄ³¬¼¶Õ½¶·»ú"
+Locale_Text[550] = "Bloodshed-class battleship annihilation type"
+Locale_Text[551] = "Super air defense battleship equipped with advanced type air defense system, can effectively suppress the opponent's super fighter"
 
 
-Locale_Text[560] = "ÑªÈĞ¼¶Õ½ÁĞ½¢¼ßÃğĞÍ"
-Locale_Text[561] = "×°±¸ÁËÏÈ½øĞÍ·À¿ÕÏµÍ³³¬¼¶·À¿ÕÕ½ÁĞ½¢£¬¿ÉÒÔÓĞĞ§Ñ¹ÖÆ¶Ô·½µÄ³¬¼¶Õ½¶·»ú"
+Locale_Text[560] = "Bloodshed class battleship annihilation type"
+Locale_Text[561] = "Advanced air defense system super air defense battleship, can effectively suppress the opponent's super fighter"
 
 
-Locale_Text[570] = "Ì©Ì¹Î¬ĞŞÍ§"
-Locale_Text[571] = "´ÓÌ©ÍßÂÖ¹²ºÍ¹ú´¦ÊÕ¹ºÀ´µÄĞŞÀíÍ§£¬¿ÉÒÔ¿ìËÙĞŞÀíÕ½½¢"
+Locale_Text[570] = "Titan repair boat"
+Locale_Text[571] = "repair boat acquired from the Tawa Wheel Republic, can quickly repair warships"
 
 
-Locale_Text[580] = "¹¤³Ì»¤ÎÀ½¢"
-Locale_Text[581] = "×°±¸ÁËÔ¶³ÌĞŞÀíÏµÍ³µÄ¹¤³Ì»¤ÎÀ½¢£¬¿ÉÒÔ¿ìËÙĞŞÀíÕ½½¢"
+Locale_Text[580] = "Engineering frigate"
+Locale_Text[581] = "Engineering frigate equipped with remote repair system for fast repair of warships"
 
 --tur_repairfrigate
-Locale_Text[590] = "¹¤³ÌĞÍÖØÑ²Ñó½¢"
-Locale_Text[591] = "×°±¸ÁËÔ¶³ÌĞŞÀíÏµÍ³µÄÖØÑ²Ñó½¢£¬¿ÉÒÔÔ¶³ÌÎ¬ĞŞÊÜËğµÄÕ½½¢"
+Locale_Text[590] = "Engineering heavy cruiser"
+Locale_Text[591] = "A heavy cruiser equipped with a remote repair system that can remotely repair damaged warships"
 
-Locale_Text[595] = "Äª¶ûµÏ»ù°²´ó¾ı¼¶´İĞÇ¾Ş½¢"
-Locale_Text[596] = "×°±¸ÁË³¬¼¶¼¤¹âÕóÁĞÖ÷ÅÚµÄ³¬¼¶¾Ş½¢"
-
-
-Locale_Text[600] = "ÆÆÈĞ¼¶ÖØĞÍÀ¹½Ø»ú"
-Locale_Text[601] = "×°±¸ËÙÉä»úÅÚ£¬¿ÉÒÔÓĞĞ§ÏûÃğµĞÈË¿ÕÖĞµ¥Î» Ç°ÖÃ¿Æ¼¼£º³õ¼¶¾ü±¸¿Æ¼¼"
-Locale_Text[605] = "ÆÆÈĞ¼¶ÖØĞÍ¹¥»÷»ú"
-Locale_Text[606] = "×°±¸ËÙÉä»úÅÚ£¬¿ÉÒÔÓĞĞ§ÏûÃğµĞÈËÑ²Ñó½¢µ¥Î» Ç°ÖÃ¿Æ¼¼£º³õ¼¶¾ü±¸¿Æ¼¼"
-
-Locale_Text[610] = "Ê¬¹í¼¶ÖØĞÍÍ»»÷½¢"
-Locale_Text[611] = "ÏÈ½øµÄ¿ìËÙÍ»»÷½¢£¬¿ÉÒÔÊÊÓ¦¸÷ÖÖÇé¿ö Ç°ÖÃ¿Æ¼¼£º¹¤³Ì»¤ÎÀ½¢"
+Locale_Text[595] = "Mordecian Maharaja-class star-destroying giant"
+Locale_Text[596] = "Super megaship with super laser array main gun"
 
 
+Locale_Text[600] = "Blade breaker class heavy interceptor"
+Locale_Text[601] = "Equipped with rapid-fire cannons that can effectively destroy enemy air units Preceding technology: primary armament technology"
+Locale_Text[605] = "Blade breaker heavy attacker"
+Locale_Text[606] = "Equipped with rapid-fire cannons, can effectively destroy enemy cruiser units Preceding technology: primary armament technology"
 
-Locale_Text[615] = "Òµ»ğ¼¶µ¼µ¯Í»»÷½¢"
-Locale_Text[616] = "·¢ÉäºìÁ«µ¼µ¯½øĞĞÕ½¶·µÄÖ§Ô®ĞÍÍ»»÷½¢£¬¿ÉÒÔ¶Ô´óĞÍÆì½¢Ôì³ÉÓĞĞ§ÉËº¦"
-
-Locale_Text[620] = "ÉÁ¹âÖ®ÈĞ¼¶Õ½ÁĞÑ²Ñó½¢"
-Locale_Text[621] = "ÓµÓĞ³¬¼¶¼¤¹âÊøÖ÷ÅÚµÄÕ½ÁĞÑ²Ñó½¢£¬¿ÉÒÔÓĞĞ§µÄ½øĞĞºóÅÅµÄÖ§Ô® Ç°ÖÃ¿Æ¼¼£ºÏÈ½øÆì½¢¿Æ¼¼"
-
-Locale_Text[625] = "¾ÉÈÕÖ§ÅäÕß"
-Locale_Text[626] = "¸Õ´ïÄáÄ·¼¶³¬¼¶Õ½¶·»ú-ÓµÓĞÇ¿´óµÄÕ½¶·ĞÔÄÜÑ¹ÖÆËùÓĞµ¥Î» Ç°ÖÃ¿Æ¼¼£ºÆÆÈĞ½¢ÔØ»ú¿Æ¼¼"
-
-Locale_Text[630] = "Ğ¡ĞÍÄª¶ûµÏ»ù°²Ã³Ò×´¬"
-Locale_Text[631] = "Ò»ÖÖĞ¡ĞÍÃ³Ò×´¬£¬¿ÉÒÔÃ¿10Ãë²úÉú40RUµÄ×ÊÔ´ Ç°ÖÃ¿Æ¼¼£º´ó¾ıÍÚÃº´¬¿Æ¼¼"
-
-
-Locale_Text[640] = "Ô¼Éª·òÃÅ¸ñÀÕ¼¶¾ŞĞÍ¹¤³Ì´¬Îë"
-Locale_Text[641] = "¾ŞĞÍ´¬Îë¹¤³Ì½¢£¬ÓµÓĞ³¬¸ßĞ§µÄĞŞÀíÄÜÁ¦£¬¿ÉÒÔÊÍ·ÅĞ¡ĞÍ¹¤³Ì½¢Î¬ĞŞÕû¸ö½¢¶Ó,ÑĞ·¢Ç°ÖÃÌõ¼ş:Ö÷Á¦½¢Ä£¿é µ¼µ¯ÎŞÎ·½¢¿Æ¼¼ ÖĞ¼¶¾ü±¸¿Æ¼¼ Õ½ÁĞ½¢¿Æ¼¼"
-
-
-Locale_Text[650] = "´¬Í·×°¼×»¤¶Ü"
-Locale_Text[651] = "ÈÃÑªÈĞ2ÓµÓĞ¸ü¿É¿¿µÄ·ÀÓùÁ¦£¬µ«ÊÇ´ú¼ÛÊÇÎşÉü²¿·ÖÕıÃæ»ğÁ¦"
-
-Locale_Text[660] = "ÈëÇÖÕßÕ½¶·»ú¼×"
-Locale_Text[661] = "Ò»ÖÖ18Ã×¸ßµÄÕ½¶·»ú¼×£¬ÓµÓĞÓÅĞãµÄÖÆ¿ÕÄÜÁ¦"
-
-Locale_Text[670] = "ÈëÇÖÕßÕ½¶·»ú¼×-µ¼µ¯Îä×°"
-Locale_Text[671] = "Ò»ÖÖ18Ã×¸ßµÄÕ½¶·»ú¼×£¬×°±¸Ò»ÃÅ¼ÓÇ¿ĞÍµÄ·´Æì½¢µ¼µ¯·¢ÉäÆ÷"
-
-Locale_Text[680] = "ÈëÇÖÕßÕ½¶·»ú¼×-Âö³åÅÚÎä×°"
-Locale_Text[681] = "Ò»ÖÖ18Ã×¸ßµÄÕ½¶·»ú¼×£¬×°±¸Ò»ÃÅ¼ÓÇ¿ĞÍµÄÂö³åÅÚ·¢ÉäÆ÷"
-
-Locale_Text[690] = "ÓÎÆï±ø¼¶½¢¶Óº½Ä¸"
-Locale_Text[691] = "Ò»ÖÖ´óĞÍµÄ½¢¶Óº½Ä¸£¬ÓµÓĞ4¸ö½¨ÔìÀ¸ºÍ´óÁ¿¶ÀÓĞµÄ×¨Êô½¢ÔØ»ú"
-
-
-Locale_Text[695] = "³¤Ç¹MK2Õû±¸»ú¿â"
-Locale_Text[696] = "×°±¸ÁË¸ÃÄ£¿éºó¿ÉÒÔ²»¶ÏÆğ·É³¤Ç¹MK2Õ½¶·»úÖ§Ô®Õ½¶·"
-Locale_Text[700] = "ÌØÖÖºäÕ¨»úÕû±¸»ú¿â"
-Locale_Text[701] = "×°±¸ÁË¸ÃÄ£¿éºó¿ÉÒÔ²»¶ÏÆğ·ÉÍºÓ¥ºäÕ¨»úºÍÄ§ÌººäÕ¨»úÖ§Ô®Õ½¶·"
-Locale_Text[710] = "ÈëÇÖÕß»ú¼×Õû±¸»ú¿â"
-Locale_Text[711] = "×°±¸ÁË¸ÃÄ£¿éºó¿ÉÒÔ²»¶ÏÆğÈëÇÖÕß»ú¼×Ö§Ô®Õ½¶·"
+Locale_Text[610] = "Ghoul-class heavy assault ship"
+Locale_Text[611] = "Advanced fast assault ship that can adapt to various situations Preceding technology: engineering frigates"
 
 
 
-Locale_Text[730] = "¾üÍÅÆïÊ¿¼¶º½¿ÕÕ½ÁĞ½¢"
-Locale_Text[731] = "¾üÍÅÆïÊ¿¼¶ºÍÑªÈĞMK2ºÏÌåºóµÄÒ»ÖÖ³¬¼¶º½¿ÕÕ½ÁĞ½¢£¬ÓµÓĞÕ½ÁĞ½¢µÄ»ğÁ¦ºÍË«±¶µÄÔØ»úÈİÁ¿£¬Í¬Ê±»¹¿ÉÒÔ½¨ÔìÓÎÆï±ø¼¶º½Ä¸µÄ¶ÀÓĞ½¢ÔØ»ú£¬Ç°ÖÃÌõ¼ş£ºÈëÇÖÕßÕ½¶·»ú¼×"
+Locale_Text[615] = "Karma-class missile assault ship"
+Locale_Text[616] = "Support assault ship that fires Red Lotus missiles for combat and can deal effective damage to large flagships"
 
-Locale_Text[740] = "ÍºÓ¥ºäÕ¨»ú"
-Locale_Text[741] = "Ò»ÖÖ¿ÉÒÔ·¢Éä1400ºÁÃ×ÅÚµ¯µÄºäÕ¨»ú£¬¿ÉÒÔÓĞĞ§¹¥»÷Ö÷Á¦½¢¼¶Õ½½¢"
+Locale_Text[620] = "Flashblade class battlecruiser"
+Locale_Text[621] = "Battlecruiser with a super laser beam main gun that can effectively support the back row Preceding technology: advanced flagship technology"
 
-Locale_Text[750] = "Ä§ÌººäÕ¨»ú"
-Locale_Text[751] = "Ò»ÖÖµÍ³É±¾ºäÕ¨»ú£¬¿ÉÒÔ·¢ÉäÖØĞÍµ¼µ¯¹¥»÷µĞÈË»¤ÎÀ½¢"
+Locale_Text[625] = "Old Day Dominator"
+Locale_Text[626] = "Gundanium-class super fighter - has powerful combat performance to overwhelm all units Preceding technology: broken blade carrier technology"
 
-
-Locale_Text[770] = "³¤Ç¹Õ½¶·»úMK2"
-Locale_Text[771] = "Ò»ÖÖµÍ³É±¾Õ½¶·»ú£¬ÓµÓĞÒ»¶¨µÄ·´Í§ÄÜÁ¦"
-
-Locale_Text[780] = "³¤Ç¹Õ½¶·»úMK2ÀØÉäĞÍ"
-Locale_Text[781] = "Ò»ÖÖµÍ³É±¾Õ½¶·»ú£¬ÓµÓĞÒ»¶¨µÄ·´½¢ÄÜÁ¦"
-
-Locale_Text[790] = "ÈëÇÖÕßÕ½¶·»ú¼×-Æï±øĞÍ"
-Locale_Text[791] = "ÒÔÄ§ÌººäÕ¨»ú×÷ÎªÒÆ¶¯ÊÖ¶ÎµÄÈëÇÖÕß»ú¼×£¬ÓµÓĞ¸üÇ¿µÄ»ú¶¯ĞÔ£¬Í¬Ê±¿ÉÒÔ·¢Éäºì±¦Ê¯·Éµ¯¹¥»÷Ä¿±ê¡£"
-
-Locale_Text[800] = "ÍÌĞÇÕß¼¶ÖØĞÍ¾«Á¶´¬"
-Locale_Text[801] = "³¬´óĞÍµÄ×ÊÔ´¾«Á¶´¬£¬¿ÉÒÔÔÚ×î¶ÌÊ±¼äÄÚËÑ¹Î¹âÒ»Æ¬Ğ¡ĞĞĞÇ´ø Ç°ÖÃ¿Æ¼¼£ºÖØĞÍÕ½ÁĞÑ²Ñó½¢¿Æ¼¼"
-
-Locale_Text[805] = "Âí¿¨¶÷Ö®Å­±¤Àİ½¢-Ìú¸¡ÍÀºÅ"
-Locale_Text[806] = "Âí¿¨¶÷Ö®Å­±¤Àİ½¢¸ÄÔì³ÉµÄº½¿Õ±¤Àİ£¬Ç°ÖÃÌõ¼ş£º¾üÍÅÆïÊ¿¼¶º½¿ÕÕ½ÁĞ½¢"
-
-Locale_Text[810] = "Äª¶ûµÏ»ù°²ÇáĞÍ²É¿óÍ§"
-Locale_Text[811] = "Äª¶ûµÏ»ù°²×¨ÃÅ¿ª·¢µÄÒ»ÖÖÇáĞÍ²É¿óÍ§ Ç°ÖÃ¿Æ¼¼£º»ù´¡¾ü±¸¿Æ¼¼"
-
-Locale_Text[850] = "Ñ²Ñó½¢´¬Îë"
-Locale_Text[851] = "¿ÉÒÔ×Ô¶¯Í¶·ÅÑ²Ñó½¢½øĞĞÕ½¶·"
-
-Locale_Text[860] = "»¤ÎÀ½¢ºÍÅÚÍ§Éú²úÉèÊ©"
-Locale_Text[861] = "¿ÉÒÔ½øĞĞ»¤ÎÀ½¢ºÍÅÚÍ§Éú²ú"
-
-Locale_Text[870] = "Ñ²Ñó½¢Éú²úÉèÊ©"
-Locale_Text[871] = "¿ÉÒÔ½øĞĞÑ²Ñó½¢ºÍÕ½ÁĞÑ²Ñó½¢Éú²ú"
-
-Locale_Text[880] = "¶À½ÇÊŞ¼¶Ñ²Ñó½¢·À¿ÕĞÍ"
-Locale_Text[881] = "×°±¸ÁË¸ßÄÜ¼¤¹âÎäÆ÷ºÍ·´½¢µ¼µ¯µÄ´óĞÍÕ½½¢"
-
-Locale_Text[890] = "»ìãçÖ®ÈĞµ¼µ¯ÎŞÎ·½¢"
-Locale_Text[891] = "ÓµÓĞ´óÁ¿µ¼µ¯·¢ÉäÆ½Ì¨µÄÖØĞÍµ¼µ¯ÎŞÎ·½¢,ÑĞ·¢Ç°ÖÃÌõ¼ş:Ö÷Á¦½¢Ä£¿é µ¼µ¯ÎŞÎ·½¢¿Æ¼¼ ÖĞ¼¶¾ü±¸¿Æ¼¼ Õ½ÁĞ½¢¿Æ¼¼"
-
-Locale_Text[900] = "Í¼ÌÚ¼¶¸Ä×°Õ½ÁĞ½¢"
-Locale_Text[901] = "»õ½¢¸Ä×°³ÉµÄÕ½ÁĞ½¢,ËäÈ»Õ½¶·Á¦½Ï²î£¬µ«ÊÇ³É±¾Ïà¶ÔµÍÁ®ÊÊºÏÔÚÔçÆÚ½×¶Î¿ìËÙ·¢¶¯½ø¹¥,½¨ÔìÇ°ÖÃÌõ¼ş:Ö÷Á¦½¢Ä£¿é"
-
-Locale_Text[910] = "Í¼ÌÚ¼¶¸Ä×°º½Ä¸"
-Locale_Text[911] = "»õ½¢¸Ä×°³ÉµÄÖØĞÍº½Ä¸,Ïà¶Ô´«Í³º½Ä¸À´Ëµ½á¹¹¸ü¼Ó¼á¹Ì£¬Í¬Ê±ÄÜ¹»ÊÍ·Å¸ü¶àµÄ½¢ÔØ»ú"
+Locale_Text[630] = "Small Mordechian trade ship"
+Locale_Text[631] = "A small trading ship that can generate 40 RU of resources every 10 seconds Preceding tech: Maharaja Coal Dredger tech"
 
 
-Locale_Text[920] = "ÆÆÈĞÖ®½£"
-Locale_Text[921] = "Ò»ÖÖÏÈ½øµÄ³¬ÖØĞÍÕ½¶·»ú£¬ÓµÓĞ½£ÈĞĞÍ»úÌå¿ÉÒÔÇáËÉÍ»ÆÆµĞ·½¿ÕÓò"
+Locale_Text[640] = "Josef Mengele class giant engineering dock"
+Locale_Text[641] = "å·¨å‹èˆ¹åå·¥ç¨‹èˆ°ï¼Œæ‹¥æœ‰è¶…é«˜æ•ˆçš„ä¿®ç†èƒ½åŠ›ï¼Œå¯ä»¥é‡Šæ”¾å°å‹å·¥ç¨‹èˆ°ç»´ä¿®æ•´ä¸ªèˆ°é˜Ÿ,ç ”å‘å‰ç½®æ¡ä»¶:ä¸»åŠ›èˆ°æ¨¡å— å¯¼å¼¹æ— ç•èˆ°ç§‘æŠ€ ä¸­çº§å†›å¤‡ç§‘æŠ€ æˆ˜åˆ—èˆ°ç§‘æŠ€"
 
-Locale_Text[930] = "ÆÆêªÖ®ÈĞ"
-Locale_Text[931] = "ÆÆÈĞÖ®½£µÄ¼ò»¯°æ£¬ÓµÓĞ¸üºÃµÄ»ú¶¯ĞÔºÍ¸üÓÅĞãµÄÖÆÔì³É±¾"
 
-Locale_Text[940] = "Ê¥±®¼¶¼¤¹âÎŞÎ·½¢"
-Locale_Text[941] = "´óĞÍ¼¤¹âÅÚÎŞÎ·½¢£¬·¢Éä¸ßÄÜ¼¤¹âÊøÀ´´İ»Ù×Ô¼ºµÄÄ¿±ê,,ÑĞ·¢Ç°ÖÃÌõ¼ş:Ö÷Á¦½¢Ä£¿é ³õ¼¶¾ü±¸¿Æ¼¼ Õ½ÁĞ½¢¿Æ¼¼"
+Locale_Text[650] = "bow armor shield"
+Locale_Text[651] = "Gives Blood Blade 2 a more reliable defense, but at the cost of some frontal firepower"
 
-Locale_Text[950] = "ÖĞĞÍ·À¿ÕÆ½Ì¨"
-Locale_Text[951] = "×°±¸ÁË¶àÁª×°50ºÁÃ×ËÙÉäÅÚµÄ·À¿ÕÆ½Ì¨£¬¿ÉÒÔÓĞĞ§À¹½Ø½¢ÔØ»úÈº ĞèÒª£ºÖĞĞÍÆ½Ì¨¿Æ¼¼ºÍ³¬¿Õ¼äÔ¾Ç¨Ä£¿é"
+Locale_Text[660] = "Intruder fighter armor"
+Locale_Text[661] = "An 18 meter tall fighter mech with excellent air control"
 
-Locale_Text[960] = "ÖĞĞÍµ¼µ¯Æ½Ì¨"
-Locale_Text[961] = "×°±¸ÁË¶àÁª×°ºì±¦Ê¯µ¼µ¯µÄ·ÀÓùÆ½Ì¨£¬¿ÉÒÔÓĞĞ§·´ÖÆµĞ·½Ö÷Á¦½¢ ĞèÒª£ºÖĞĞÍÆ½Ì¨¿Æ¼¼ºÍ³¬¿Õ¼äÔ¾Ç¨Ä£¿é"
+Locale_Text[670] = "Intruder fighter mech - missile armed"
+Locale_Text[671] = "An 18 meter tall fighter mech armed with a reinforced anti-flagship missile launcher"
 
-Locale_Text[970] = "´óĞÍ¹âÊøÆ½Ì¨"
-Locale_Text[971] = "×°±¸ÁË´óĞÍÆì½¢¼¶¼¤¹âÊøµÄ´óĞÍ·ÀÓùÆ½Ì¨£¬¿ÉÒÔÓĞĞ§·´ÖÆµĞ·½Æì½¢¼¶µ¥Î» ĞèÒª£ºÖĞĞÍÆ½Ì¨¿Æ¼¼ºÍ³¬¿Õ¼äÔ¾Ç¨Ä£¿é"
+Locale_Text[680] = "Intruder fighter mech - pulse cannon armed"
+Locale_Text[681] = "An 18 meter tall fighter mech armed with a reinforced pulse cannon launcher"
 
-Locale_Text[980] = "´óĞÍµ¼µ¯Æ½Ì¨"
-Locale_Text[981] = "×°±¸ÁË´óĞÍºìÁ«µ¼µ¯µÄ´óĞÍ·ÀÓùÆ½Ì¨£¬¿ÉÒÔÓĞĞ§·´ÖÆµĞ·½´óĞÍÆì½¢ ĞèÒª£ºÖØĞÍÆ½Ì¨¿Æ¼¼ºÍ³¬¿Õ¼äÔ¾Ç¨Ä£¿é"
+Locale_Text[690] = "Ranger-class fleet carrier"
+Locale_Text[691] = "A large fleet carrier with 4 build columns and a large number of exclusive carrier aircraft"
 
-Locale_Text[990] = "´óĞÍÀØÉäÆ½Ì¨"
-Locale_Text[991] = "×°±¸ÁË´óĞÍÆì½¢¼¶¼¤¹âÊøµÄ´óĞÍ·ÀÓùÆ½Ì¨£¬¿ÉÒÔÓĞĞ§·´ÖÆµĞ·½Ö÷Á¦½¢ºÍÆì½¢ ĞèÒª£ºÖØĞÍÆ½Ì¨¿Æ¼¼ºÍ³¬¿Õ¼äÔ¾Ç¨Ä£¿é"
 
-Locale_Text[1000] = "´óĞÍ·ÀÓùÇ°ÉÚ"
-Locale_Text[1011] = "×°±¸ÁË´óÁ¿·ÀÓùÎäÆ÷µÄÇøÓòĞÔ·ÀÓùÇ°ÉÚ£¬¿ÉÒÔÓĞĞ§¿ØÖÆÒ»Æ¬ĞÇÇø ĞèÒª£ºÖØĞÍÆ½Ì¨¿Æ¼¼ºÍ³¬¿Õ¼äÔ¾Ç¨Ä£¿é"
+Locale_Text[695] = "Longshot MK2 full armament hangar"
+Locale_Text[696] = "Equipped with this module you can constantly take off Lance MK2 fighters to support the battle"
+Locale_Text[700] = "Special bomber ready hangar"
+Locale_Text[701] = "Equipped with this module you can constantly take off Condor bombers and Magic Carpet bombers to support the battle"
+Locale_Text[710] = "Intruder mechs ready hangar"
+Locale_Text[711] = "Equipped with this module, you can constantly take off Intruder mechs to support the battle"
 
-Locale_Text[1010] = "ÖØĞÍ·ÀÓùÇ°ÉÚ"
-Locale_Text[1011] = "´óĞÍµÄ·ÀÓùĞÍÇ°ÉÚ£¬×°±¸ÓĞ¶àÖØ·´½¢ÎäÆ÷ºÍ·´½¢µ¼µ¯·¢ÉäÕóÁĞ ĞèÒª£ºÖØĞÍÆ½Ì¨¿Æ¼¼ºÍ³¬¿Õ¼äÔ¾Ç¨Ä£¿é"
+
+
+Locale_Text[730] = "Legionnaire class air battleship"
+Locale_Text[731] = "A super air battleship that combines the Legionnaire class and the Bloodshed MK2, with the firepower of a battleship and double the aircraft capacity, as well as the unique carrier aircraft of a Ranger class carrier, pre-requisite: intruder fighter mech"
+
+Locale_Text[740] = "Condor bomber"
+Locale_Text[741] = "A bomber that can fire 1400mm shells and can effectively attack battleship class warships"
+
+Locale_Text[750] = "Magic carpet bomber"
+Locale_Text[751] = "A low-cost bomber that can fire heavy missiles against enemy frigates"
+
+
+Locale_Text[770] = "Longshot fighter MK2"
+Locale_Text[771] = "A low-cost fighter with some anti-boat capability"
+
+Locale_Text[780] = "Lance fighter MK2 Laser"
+Locale_Text[781] = "A low-cost fighter with some anti-ship capability"
+
+Locale_Text[790] = "Intruder Fighter Armor - Cavalry type"
+Locale_Text[791] = "An intruder mech that uses a magic carpet bomber as a means of movement, has greater mobility, and can also fire ruby missiles at targets."
+
+Locale_Text[800] = "Star Swallower class heavy refinement ship"
+Locale_Text[801] = "è¶…å¤§å‹çš„èµ„æºç²¾ç‚¼èˆ¹ï¼Œå¯ä»¥åœ¨æœ€çŸ­æ—¶é—´å†…æœåˆ®å…‰ä¸€ç‰‡å°è¡Œæ˜Ÿå¸¦ å‰ç½®ç§‘æŠ€ï¼šé‡å‹æˆ˜åˆ—å·¡æ´‹èˆ°ç§‘æŠ€"
+
+Locale_Text[805] = "Makarn's Wrath Fortress Ship - Iron Faust"
+Locale_Text[806] = "Makarn's Wrath fortress ship converted into an air fortress, pre-requisite: legion knight class air battleship"
+
+Locale_Text[810] = "Mordechian light mining craft"
+Locale_Text[811] = "A light mining boat specially developed by Mordechian Prerequisite technology: basic armament technology"
+
+Locale_Text[850] = "Cruiser dock"
+Locale_Text[851] = "Can automatically launch cruisers for combat"
+
+Locale_Text[860] = "Frigate and gunboat production facilities"
+Locale_Text[861] = "Frigate and gunboat production is possible"
+
+Locale_Text[870] = "Cruiser production facility"
+Locale_Text[871] = "Cruiser and battlecruiser production is possible"
+
+Locale_Text[880] = "Unicorn class cruiser anti-aircraft type"
+Locale_Text[881] = "Large warship equipped with high-energy laser weapons and anti-ship missiles"
+
+
+Locale_Text[890] = "Chaos Blade Missile Dreadnought"
+Locale_Text[891] = "æ‹¥æœ‰å¤§é‡å¯¼å¼¹å‘å°„å¹³å°çš„é‡å‹å¯¼å¼¹æ— ç•èˆ°,ç ”å‘å‰ç½®æ¡ä»¶:ä¸»åŠ›èˆ°æ¨¡å— å¯¼å¼¹æ— ç•èˆ°ç§‘æŠ€ ä¸­çº§å†›å¤‡ç§‘æŠ€ æˆ˜åˆ—èˆ°ç§‘æŠ€"
+
+Locale_Text[900] = "Totem-class modified battleship"
+Locale_Text[901] = "è´§èˆ°æ”¹è£…æˆçš„æˆ˜åˆ—èˆ°,è™½ç„¶æˆ˜æ–—åŠ›è¾ƒå·®ï¼Œä½†æ˜¯æˆæœ¬ç›¸å¯¹ä½å»‰é€‚åˆåœ¨æ—©æœŸé˜¶æ®µå¿«é€Ÿå‘åŠ¨è¿›æ”»,å»ºé€ å‰ç½®æ¡ä»¶:ä¸»åŠ›èˆ°æ¨¡å—"
+
+Locale_Text[910] = "Totem class modified carrier"
+Locale_Text[911] = "The heavy-duty carrier converted from a cargo ship has a stronger structure than traditional carriers and can release more carrier-based fighters"
+
+
+Locale_Text[920] = "Broken Blade"
+Locale_Text[921] = "An advanced super-heavy fighter with a blade-shaped body that can easily break through enemy airspace"
+
+Locale_Text[930] = "Broken Blade"
+Locale_Text[931] = "Simplified version of Broken Blade, with better mobility and better crafting cost"
+
+Locale_Text[940] = "Monument-class Laser Dreadnought"
+Locale_Text[941] = "å¤§å‹æ¿€å…‰ç‚®æ— ç•èˆ°ï¼Œå‘å°„é«˜èƒ½æ¿€å…‰æŸæ¥æ‘§æ¯è‡ªå·±çš„ç›®æ ‡,,ç ”å‘å‰ç½®æ¡ä»¶:ä¸»åŠ›èˆ°æ¨¡å— åˆçº§å†›å¤‡ç§‘æŠ€ æˆ˜åˆ—èˆ°ç§‘æŠ€"
+
+Locale_Text[950] = "ä¸­å‹é˜²ç©ºå¹³å°"
+Locale_Text[951] = "è£…å¤‡äº†å¤šè”è£…50æ¯«ç±³é€Ÿå°„ç‚®çš„é˜²ç©ºå¹³å°ï¼Œå¯ä»¥æœ‰æ•ˆæ‹¦æˆªèˆ°è½½æœºç¾¤ éœ€è¦ï¼šä¸­å‹å¹³å°ç§‘æŠ€å’Œè¶…ç©ºé—´è·ƒè¿æ¨¡å—"
+
+Locale_Text[960] = "ä¸­å‹å¯¼å¼¹å¹³å°"
+Locale_Text[961] = "è£…å¤‡äº†å¤šè”è£…çº¢å®çŸ³å¯¼å¼¹çš„é˜²å¾¡å¹³å°ï¼Œå¯ä»¥æœ‰æ•ˆååˆ¶æ•Œæ–¹ä¸»åŠ›èˆ° éœ€è¦ï¼šä¸­å‹å¹³å°ç§‘æŠ€å’Œè¶…ç©ºé—´è·ƒè¿æ¨¡å—"
+
+Locale_Text[970] = "å¤§å‹å…‰æŸå¹³å°"
+Locale_Text[971] = "è£…å¤‡äº†å¤§å‹æ——èˆ°çº§æ¿€å…‰æŸçš„å¤§å‹é˜²å¾¡å¹³å°ï¼Œå¯ä»¥æœ‰æ•ˆååˆ¶æ•Œæ–¹æ——èˆ°çº§å•ä½ éœ€è¦ï¼šä¸­å‹å¹³å°ç§‘æŠ€å’Œè¶…ç©ºé—´è·ƒè¿æ¨¡å—"
+
+Locale_Text[980] = "å¤§å‹å¯¼å¼¹å¹³å°"
+Locale_Text[981] = "è£…å¤‡äº†å¤§å‹çº¢è²å¯¼å¼¹çš„å¤§å‹é˜²å¾¡å¹³å°ï¼Œå¯ä»¥æœ‰æ•ˆååˆ¶æ•Œæ–¹å¤§å‹æ——èˆ° éœ€è¦ï¼šé‡å‹å¹³å°ç§‘æŠ€å’Œè¶…ç©ºé—´è·ƒè¿æ¨¡å—"
+
+Locale_Text[990] = "å¤§å‹é•­å°„å¹³å°"
+Locale_Text[991] = "è£…å¤‡äº†å¤§å‹æ——èˆ°çº§æ¿€å…‰æŸçš„å¤§å‹é˜²å¾¡å¹³å°ï¼Œå¯ä»¥æœ‰æ•ˆååˆ¶æ•Œæ–¹ä¸»åŠ›èˆ°å’Œæ——èˆ° éœ€è¦ï¼šé‡å‹å¹³å°ç§‘æŠ€å’Œè¶…ç©ºé—´è·ƒè¿æ¨¡å—"
+
+Locale_Text[1000] = "å¤§å‹é˜²å¾¡å‰å“¨"
+Locale_Text[1011] = "è£…å¤‡äº†å¤§é‡é˜²å¾¡æ­¦å™¨çš„åŒºåŸŸæ€§é˜²å¾¡å‰å“¨ï¼Œå¯ä»¥æœ‰æ•ˆæ§åˆ¶ä¸€ç‰‡æ˜ŸåŒº éœ€è¦ï¼šé‡å‹å¹³å°ç§‘æŠ€å’Œè¶…ç©ºé—´è·ƒè¿æ¨¡å—"
+
+Locale_Text[1010] = "é‡å‹é˜²å¾¡å‰å“¨"
+Locale_Text[1011] = "å¤§å‹çš„é˜²å¾¡å‹å‰å“¨ï¼Œè£…å¤‡æœ‰å¤šé‡åèˆ°æ­¦å™¨å’Œåèˆ°å¯¼å¼¹å‘å°„é˜µåˆ— éœ€è¦ï¼šé‡å‹å¹³å°ç§‘æŠ€å’Œè¶…ç©ºé—´è·ƒè¿æ¨¡å—"
 

@@ -1,448 +1,445 @@
 Locale_Text = {}
 
-Locale_Text[1] = "霉菌炮艇"
-Locale_Text[2] = "装备了小口径速射火炮霉菌炮艇,适合用来摧毁敌人战斗机,属性:防御型单位 要求：2级量产线科技"
-Locale_Text[3] = "霉菌导弹艇"
-Locale_Text[4] = "装备了小型导弹的霉菌导弹艇,属性:防御型单位 要求：2级量产线科技"
-Locale_Text[5] = "霉菌脉冲艇"
-Locale_Text[6] = "装备了重型反艇脉冲的霉菌重炮艇,属性:攻坚型单位 要求：2级量产线科技"
-
-
-
-
-
-Locale_Text[7] = "剃刀拦截机"
-Locale_Text[8] = "一种轻型的量产型战斗机，拥有较高的航速,建造条件:战斗机整备车间,属性:防御型单位"
-Locale_Text[9] = "长剑攻击机"
-Locale_Text[10] = "长剑轰炸机的反舰型号,装备了小型光子炸弹用来摧毁敌人的战舰,建造条件:战斗机整备车间,属性:防御型单位"
-Locale_Text[11] = "兵蜂浮游炮群"
-Locale_Text[12] = "菲雅利帝国大量使用的一种无人机，体积小巧成本低廉，用来执行防空任务或者在战役早期骚扰敌军,属性:防御型单位"
-Locale_Text[13] = "重型航母"
-Locale_Text[14] = "能制造舰船,拥有强大的防空火力，建造需要：主力舰生产设施,属性:生产单位"
-Locale_Text[15] = "无人采矿艇"
-Locale_Text[16] = "适用于大量制造部署的小型采矿艇"
-Locale_Text[17] = "绵羊级大型采矿驳船"
-Locale_Text[18] = "一种移动缓慢采矿周期慢长的大型采矿船,但是每次都可以采回大量的资源,建造条件:突击舰科技(提醒：只能在妖姬运载舰上停靠）"
-Locale_Text[19] = "重型突击舰"
-Locale_Text[20] = "一种迷你型的主力舰,性能可靠装甲坚固,装备各种武器应付各种敌人的进攻,属性:防御型单位（需要1级量产模块）"
-Locale_Text[21] = "前进者级离子炮护卫舰"
-Locale_Text[22] = "装备了两座离子炮塔，主要用来攻击敌人的巡洋舰。"
-Locale_Text[23] = "前进者级突击护卫舰"
-Locale_Text[24] = "装备了两座175毫米炮塔的突击型护卫舰，主要用来压制敌方的护卫舰群。"
-
-
-Locale_Text[27] = "陌刀级驱逐舰防空型"
-Locale_Text[28] = "安装了大量防空武器的陌刀型驱逐舰，可以高效的驱逐敌人的空中单位。属性:防御型单位"
-Locale_Text[29] = "SR/6型猎兵级袭击舰"
-Locale_Text[30] = "拥有高速机动能力的精锐战舰,可以投放舰载机，建造要求：快速主力舰科技,属性:攻击型单位"
-Locale_Text[31] = "精英型远行者级"
-Locale_Text[32] = "升级版的远行者级战列舰，装备了电磁轨道炮"
-Locale_Text[33] = "方阵级重炮巡洋舰"
-Locale_Text[34] = "装备了高性能电磁轨道炮的攻坚型战舰，舰首的轨道炮专门用来攻击敌人最强大的单位,属性:反旗舰单位"
-Locale_Text[35] = "阔刃级袭击舰"
-Locale_Text[36] = "装备了战列舰主炮和大威力离子加农炮的重装甲型战列巡洋舰,适合对抗任何级别的敌人"
-
-Locale_Text[37] = "妖姬运载舰"
-Locale_Text[38] = "强大的堡垒级巨舰,拥有强大的战斗力和完善的生产系统,用来压制大数量敌人的进攻，建造需要：巨型运载舰科技,属性:旗舰级压制单位"
-Locale_Text[39] = "裂痕级战列舰"
-Locale_Text[40] = "装备了大量攻程火炮的巨型战舰,可以远程轰击敌人的大型单位，也适合对抗大群敌舰,巡洋舰科技，量产路线,属性:旗舰级压制单位"
-Locale_Text[41] = "曙光级战列舰B型"
-Locale_Text[42] = "装备了大型攻城离子武器的巨型战舰，用来压制敌人的大型主力战舰,战列舰科技，量产路线,属性:旗舰级攻坚单位"
-Locale_Text[43] = "妖精女皇号"
-Locale_Text[44] = "女皇的战争座舰,可怕的战争堡垒,拥有毁灭一切的恐怖力量。属性:超级旗舰"
-
-Locale_Text[45] = "轻型防空机枪塔"
-Locale_Text[46] = "这种武器可以以极低的成本快速部署,但是生存力很低,适用于初期防空,同时可以用来拦截导弹"
-Locale_Text[47] = "轻型脉冲防御塔"
-Locale_Text[48] = "轻便型的反艇武器平台,同时可以用来拦截导弹"
-Locale_Text[49] = "轻型离子炮防御塔"
-Locale_Text[50] = "用于反护卫舰的能量炮塔,连续冲击的能量流可以对护卫舰造成一定伤害"
-Locale_Text[51] = "轻型防空炮防御塔"
-Locale_Text[52] = "安装了75mm多联装防空火炮的标准型炮塔,密集的弹幕可以对轻型战机和护航艇构成威胁,同时可以用来拦截导弹"
-Locale_Text[53] = "中型防空防御塔"
-Locale_Text[54] = "装备先进防空武器的中型防空炮塔,有效驱散敌人的攻击机群"
-Locale_Text[55] = "中型火炮防御塔"
-Locale_Text[56] = "部署了大口径重炮的防御平台,拥有长射程,适用于压制敌人的中小型战舰"
-Locale_Text[57] = "中型离子炮防御塔"
-Locale_Text[58] = "装备的重离子炮的武装平台,克制敌人的大型战舰"
-Locale_Text[59] = "要塞级巨型加农炮防御塔"
-Locale_Text[60] = "装备了巨型火炮和大量武器的巨型防御平台,可以压制敌人的主力舰群"
-Locale_Text[61] = "要塞级高能离子束防御塔"
-Locale_Text[62] = "装备大型高能离子束的巨型防御平台,可以和敌人的巨型战舰进行对抗"
-
-
-
-Locale_Text[70] = "狙击手无人机"
-Locale_Text[71] = "配备了高精度狙击炮的哨兵无人机，可以精确的狙击小型单位"
-Locale_Text[72] = "战略轰炸机-渡鸦"
-Locale_Text[73] = "一种携带了高能等离子炸弹的战略轰炸机，不过每次投弹后都需要返航装弹"
-Locale_Text[75] = "裁决舰载机"
-Locale_Text[76] = "妖精重工龙鹰攻击机的一种量产型，和原型机相比失去了大幅度升级性能的可能性"
-
-Locale_Text[80] = "资源模块"
-Locale_Text[81] = "每5秒合成10RU的资源,需要：路线选择"
-Locale_Text[85] = "兵蜂浮游炮生产线"
-Locale_Text[86] = "自动部署生产兵蜂浮游炮支援战斗，无人机会自动攻击靠近母舰的敌舰"
-Locale_Text[87] = "战斗机整备车间"
-Locale_Text[88] = "舰载战斗机的整备车间，可以让舰内搭载的战斗机完成战斗前的出击准备。"
-Locale_Text[89] = "主力舰生产设备"
-Locale_Text[90] = "主力舰生产线，用来生产小型和中型主力舰。需要：路线选择"
-
-
-Locale_Text[110] = "航母护卫舰模块"
-Locale_Text[111] = "让航母可以生产护卫舰"
-
-
-
-
-
-Locale_Text[121] = "巨型空间之门产生器"
-Locale_Text[122] = "一个巨型空间之门产生器，用来创造一个庞大的超空间通道引导妖精女皇号到达战场。必要条件：战列舰诱导力场或者巨型防御平台机架"
-Locale_Text[123] = "一个巨型空间之门产生器，用来创造一个庞大的超空间通道引导妖精女皇号到达战场。必要条件：5级战术强化"
+Locale_Text[1] = "Gunboat"
+Locale_Text[2] = "Gunboat equipped with a small caliber rapid-fire cannon, suitable for destroying enemy fighters. Attributes: Defensive unit. Requires: Level 2 mass production line technology"
+Locale_Text[3] = "Missile Boat"
+Locale_Text[4] = "Missile boat equipped with small missiles. Attributes: Defensive unit. Requires: Level 2 mass production line technology"
+Locale_Text[5] = "Pulse boat"
+Locale_Text[6] = "Heavy gunship equipped with heavy anti-boat pulses. Attributes: Offensive unit. Requires: Level 2 mass production line technology"
+
+
+
+
+
+Locale_Text[7] = "Razor Interceptor"
+Locale_Text[8] = "A light mass-produced fighter with high speed, construction condition: fighter maintenance workshop, attribute: defensive unit"
+Locale_Text[9] = "Rapier Attack Aircraft"
+Locale_Text[10] = "Anti-ship variant of the Rapier, equipped with small photon bombs to destroy enemy warships. Attributes: Defensive unit. Requires: Fighter production facility"
+Locale_Text[11] = "Soldier Bee Floating Gun Cluster"
+Locale_Text[12] = "The Fai'ri Empire uses a large number of drones, of small size and low cost, to carry out anti-aircraft missions or harass the enemy in the early stages of the battle. Attributes: Defensive unit"
+Locale_Text[13] = "Heavy Carrier"
+Locale_Text[14] = "Can manufacture ships, has a strong anti-aircraft suit. Attributes: Production unit. Requires: Battleship production facilities"
+Locale_Text[15] = "Unmanned Mining Boat"
+Locale_Text[16] = "Small mining boat suitable for mass production deployment"
+Locale_Text[17] = "Sheep class Large Mining Barge"
+Locale_Text[18] = "A slow-moving long-large mining ship, can pick up a lot of resources. Requires: Assault ship technology (reminder: can only be docked on the Demon Carrier)"
+Locale_Text[19] = "Heavy Assault Ship"
+Locale_Text[20] = "A small capital ship, with reliable performance and solid armor, equipped with a variety of weapons to deal with a variety of enemy attacks. Attributes: Defensive units. Requires: Level 1 mass production module"
+Locale_Text[21] = "Forwarder Class Ion Gun Frigate"
+Locale_Text[22] = "Equipped with two ion turrets, it is mainly used to attack enemy cruisers."
+Locale_Text[23] = "Forwarder Class Assault Frigate"
+Locale_Text[24] = "Assault frigate equipped with two 175mm turrets, mainly used to suppress enemy frigate groups."
+
+
+Locale_Text[27] = "Strider Class Destroyer Anti-Air Type"
+Locale_Text[28] = "Strider-type destroyers equipped with a large number of anti-aircraft weapons that can efficiently expel enemy air units. Attributes: Defensive unit"
+Locale_Text[29] = "SR/6 Hunter-class Assault Ship"
+Locale_Text[30] = "Elite battleship with high-speed maneuvering capability, can launch carrier aircraft. Attributes: Offensive unit. Requires: Fast battleship technology"
+Locale_Text[31] = "Elite Farseer Class"
+Locale_Text[32] = "Upgraded Farseer class battleship with electromagnetic rail gun"
+Locale_Text[33] = "Squared Class Heavy Gun Cruiser"
+Locale_Text[34] = "Attacking type warship equipped with a high performance electromagnetic rail gun, used to attack the most powerful units of the enemy. Attributes: Anti-flagship unit"
+Locale_Text[35] = "Broadblade Class Assault Ship"
+Locale_Text[36] = "A heavily armored battlecruiser equipped with a battleship main gun and a powerful ion cannon, suitable for fighting against enemies of any class."
+
+Locale_Text[37] = "Gargoyle Carrier"
+Locale_Text[38] = "Powerful fortress-class giant ship, with strong combat power and perfect production system, used to suppress a large number of enemy attacks. Requires: Giant Carrier Technology. Attributes: Flagship class suppression unit"
+Locale_Text[39] = "Rift Class Battleship"
+Locale_Text[40] = "A giant battleship equipped with a large number of offensive guns, can bombard large units of the enemy at long range, also suitable for fighting large groups of enemy ships. Requires: Cruiser technology, mass production route. Attributes: Flagship class suppression unit"
+Locale_Text[41] = "Aurora Class Battleship Type B"
+Locale_Text[42] = "Giant battleship equipped with a large siege ion weapon, used to suppress the enemy's large main battleships. Requires: Battleship technology, mass production route. Attributes: Flagship class offensive unit"
+Locale_Text[43] = "Fai'ri Queen"
+Locale_Text[44] = "The Queen's flagship, a terrifying war fortress, with the power to destroy everything. Attributes: Super flagship"
+
+Locale_Text[45] = "Light Anti-Aircraft Machine Gun Tower"
+Locale_Text[46] = "This weapon can be rapidly deployed at very low cost, but has very low survivability and is suitable only for initial air defense, while it can be used to intercept missiles"
+Locale_Text[47] = "Light Pulse Defense Tower"
+Locale_Text[48] = "Lightweight anti-boat weapon platform that can also be used to intercept missiles"
+Locale_Text[49] = "Light Ion Cannon Defense Tower"
+Locale_Text[50] = "Anti-frigate energy turrets, their energy flow adequately dealing with frigates"
+Locale_Text[51] = "Light Anti-Aircraft Gun defense Tower"
+Locale_Text[52] = "A standard turret with multiple mounted 75mm anti-aircraft guns, their dense barrage can pose a threat to light fighters and escort boats, can also be used to intercept missiles."
+Locale_Text[53] = "Medium-Sized Anti-Aircraft Defense Tower"
+Locale_Text[54] = "A medium-sized anti-aircraft turret equipped with advanced anti-aircraft weapons to effectively disperse enemy attacking aircraft"
+Locale_Text[55] = "Medium-Sized Artillery Defense Tower"
+Locale_Text[56] = "Defense platform with large-caliber heavy guns and long range for suppressing small and medium-sized enemy warships"
+Locale_Text[57] = "Medium Ion Cannon Defense Tower"
+Locale_Text[58] = "Armed platforms equipped with heavy ion cannons to counter large enemy battleships"
+Locale_Text[59] = "Fortress Class Giant Cannon Defense Tower"
+Locale_Text[60] = "A giant defense platform equipped with huge guns and a large number of weapons to suppress enemy fleets"
+Locale_Text[61] = "Fortress Class High-Energy Ion Beam Defense Tower"
+Locale_Text[62] = "A giant defense platform equipped with a large high-energy ion beam, which can fight against enemy giant warships"
+
+
+
+Locale_Text[70] = "Sniper Drones"
+Locale_Text[71] = "Sentry drones equipped with high-precision sniper cannons that can accurately snipe small units"
+Locale_Text[72] = "Dodo Strategic Bomber"
+Locale_Text[73] = "A strategic bomber that carries high-energy plasma bombs, but needs to return to reload after each drop"
+Locale_Text[75] = "Ruling Superfighter"
+Locale_Text[76] = "Fai'ri Heavy Industries Dragon Hawk attack aircraft, a mass-production type, as the prototype lost the possibility of a significant upgrade to perfomance"
+
+Locale_Text[80] = "Resource Module"
+Locale_Text[81] = "Synthesize 10 RUs every 5 seconds. Requires: Route selection"
+Locale_Text[85] = "Soldier Bee Floating Cannon Production Line"
+Locale_Text[86] = "Automatically deploy production Soldier Bee floating guns to support the battle, and the drones will automatically attack enemy ships that are close to the mothership"
+Locale_Text[87] = "Fighter Aircraft Production Facility"
+Locale_Text[88] = "The shipboard fighter's preparation workshop allows the ship's mounted fighters to complete their pre-battle sortie preparations."
+Locale_Text[89] = "Battleship Production Facility"
+Locale_Text[90] = "Battleship facility for producing small and medium-sized battleships. Required: Route selection"
+
+
+Locale_Text[110] = "Aircraft Carrier Frigate Module"
+Locale_Text[111] = "Allows carriers to produce frigates"
+
+
+
+
+
+Locale_Text[121] = "Giant Space Gate Generator"
+Locale_Text[122] = "A giant space gate generator used to create a massive hyperspace channel to guide the Fai'ri Queen to the battlefield. Requires: Battleship induced force field or Giant defense platform rack"
+Locale_Text[123] = "A giant space gate generator used to create a massive hyperspace channel to guide the Fai'ri Queen to the battlefield. Requires: Level 5 Tactical Enhancement"
 
-Locale_Text[125] = "4800毫米巨型火炮"
-Locale_Text[126] = "在船体的两侧加挂4800毫米巨型火炮平台，威力强大，可以有效的摧毁大型目标 要求：运载舰2级强化科技"
+Locale_Text[125] = "4800mm Mega Gun"
+Locale_Text[126] = "Add 4800mm giant gun platforms on both sides of the hull, powerful enough to effectively destroy large targets. Requires: Carrier level 2 enhanced technology"
 
-Locale_Text[130] = "光辉级无畏舰"
-Locale_Text[131] = "伴随妖姬运载舰一起行动的大型战舰，装备有威力强大的巨型火炮 要求：旗舰路线和无畏舰科技"
+Locale_Text[130] = "Radiance Class Dreadnought"
+Locale_Text[131] = "Large warships that acts together with the Demon Carrier, equipped with powerful giant guns. Requires: Flagship route and Dreadnought technology"
 
-Locale_Text[135] = "旗舰级护盾发生器"
-Locale_Text[136] = "产生一个强度值为450W的护盾防御场 要求：运载舰3级强化科技"
+Locale_Text[135] = "Flagship Shield Generator"
+Locale_Text[136] = "Generate a shield defense field with a strength of 450W. Requires: Carrier level 3 enhanced technology"
 
 
 
-Locale_Text[142] = "探测系统"
-Locale_Text[143] = "运载舰高级探测系统"
-Locale_Text[144] = "运载舰高级动力系统"
-Locale_Text[145] = "提升50%的运载舰速度"
-Locale_Text[138] = "超空间系统"
-Locale_Text[139] = "运载舰超空间系统"
-Locale_Text[140] = "运载舰工程系统"
-Locale_Text[141] = "快速建造系统，可以加快舰船的建造速度"
+Locale_Text[142] = "Detection System"
+Locale_Text[143] = "Carrier ship advanced detection system"
+Locale_Text[144] = "Advanced Power Systems for Carrier Ships"
+Locale_Text[145] = "Increases carrier speed by 50%"
+Locale_Text[138] = "Hyperspace System"
+Locale_Text[139] = "Carrier ship hyperspace system"
+Locale_Text[140] = "Carrier Engineering Systems"
+Locale_Text[141] = "Fast construction system to speed up ship construction"
 
 
-Locale_Text[150] = "前进者级防空护卫舰"
-Locale_Text[151] = "装备了两座四联装75毫米防空炮塔的护卫舰，主要用来防空作战"
-Locale_Text[160] = "离子浮游炮群"
-Locale_Text[161] = "小型移动式离子炮发射器，用来摧毁敌人大型单位。必要条件：塔防路线"
-Locale_Text[162] = "速射炮浮游炮群"
-Locale_Text[163] = "小型移动式四联装速射炮，用来进行防空作战。必要条件：塔防路线"
-Locale_Text[164] = "导弹浮游炮群"
-Locale_Text[165] = "小型移动式导弹发射器，用来支援战斗。必要条件：塔防路线"
-Locale_Text[170] = "中型轨道炮"
-Locale_Text[171] = "一种可移动的巨型火炮，用来摧毁敌人的大中型战舰。必要条件：塔防路线 中型防御塔科技"
-Locale_Text[175] = "大型轨道炮"
-Locale_Text[176] = "一种可怕的超级巨炮，用来摧毁敌人最强大的战舰。必要条件：塔防路线 巨型防御塔科技"
+Locale_Text[150] = "Forwarder Class Air Defense Frigates"
+Locale_Text[151] = "Frigate equipped with two quadruple 75mm anti-aircraft turrets, mainly used for anti-aircraft operations"
+Locale_Text[160] = "Ion Floating Gun Group"
+Locale_Text[161] = "Small mobile ion cannon launcher, used to destroy large enemy units. Requires: Tower defense route"
+Locale_Text[162] = "Rapid Fire Floating Gun Group"
+Locale_Text[163] = "Small mobile quadruple rapid-fire cannon used for anti-aircraft operations. Requires: Tower defense route"
+Locale_Text[164] = "Missile Floating Gun Group"
+Locale_Text[165] = "Small mobile missile launcher to support the battle. Requires: Tower defense route"
+Locale_Text[170] = "Medium-Sized Rail Gun"
+Locale_Text[171] = "A giant movable artillery used to destroy enemy medium and large warships. Requires: Tower defense route and Medium defense tower technology"
+Locale_Text[175] = "Large Rail Gun"
+Locale_Text[176] = "A terrifying super megacannon used to destroy the enemy's most powerful warships. Requires: Tower defense route and Giant defense tower technology"
 
 
 
-Locale_Text[200] = "导弹袭击舰"
-Locale_Text[201] = "装备了白河级重型巡航导弹的阔刃,属性:攻坚型单位,建造要求：导弹袭击舰科技"
-Locale_Text[210] = "陌刀级驱逐舰"
-Locale_Text[211] = "新服役的一种量产型驱逐舰，拥有优秀的性价比。建造需要：主力舰生产设施和量产型主力舰科技，属性:防御型单位"
-Locale_Text[220] = "劫火级袭击舰"
-Locale_Text[221] = "一种性能强大的巡洋舰，专门用来高效率的清除低阶战舰，需要：旗舰路线和收割者科技，属性:防御型单位"
-Locale_Text[225] = "清除者级巡洋舰"
-Locale_Text[226] = "收割者级巡洋舰的量产版，装备了两门质量加速炮，同样拥有克制小型单位的能力，需要：量产路线和巡洋舰科技，属性:防御型单位"
+Locale_Text[200] = "Missile Attack Ship"
+Locale_Text[201] = "Equipped with White River-class heavy cruise missile broadsides. Attributes: Offensive unit. Requires: Missile assault ship technology"
+Locale_Text[210] = "Strider Class Destroyer"
+Locale_Text[211] = "A newly commissioned mass-produced destroyer with excellent pound-for-pound perfomance. Requires: Battleship production facilities and Mass-produced battleship technology. Attributes: Defensive unit"
+Locale_Text[220] = "Firejack Class Assault Ship"
+Locale_Text[221] = "A powerful cruiser, specifically used to efficiently remove low-ranking warships. Requires: Flagship route and Reaper technology. Attributes: Defensive unit"
+Locale_Text[225] = "Purifier Class Cruiser"
+Locale_Text[226] = "Mass-produced version of the Reaper class cruiser, equipped with two mass-accelerator guns, also has the ability to restrain small units. Requires: Mass-produced route and Cruiser technology. Attributes: Defensive unit"
 
 
 
-Locale_Text[230] = "费纳尼亚级MK4型巡洋舰"
-Locale_Text[231] = "一种造价低廉的通用型巡洋舰，经过了数代升级，可以轻松大量生产，属性:量产型单位"
-Locale_Text[235] = "亚特兰大级巡洋舰"
-Locale_Text[236] = "一种拥有大量速射火炮的巡洋舰，适合用来压制敌人的护卫舰群。属性:防御型单位"
-Locale_Text[240] = "防空型亚特兰大"
-Locale_Text[241] = "装备了7座四联装防空炮的亚特兰大级巡洋舰，能够有效应对一切空中威胁。属性:防御型单位"
-Locale_Text[245] = "离子炮型亚特兰大"
-Locale_Text[246] = "装备了7座双联装离子炮的亚特兰大级巡洋舰，能够对敌人的大型战舰造成重创。属性:攻击型单位"
-Locale_Text[247] = "重甲型亚特兰大"
-Locale_Text[248] = "装备了重型装甲盾的亚特兰大级巡洋舰，能有效的抵御伤害。属性:防御型单位"
+Locale_Text[230] = "Fenania Class MK4 Cruiser"
+Locale_Text[231] = "An inexpensive general-purpose cruiser that has undergone several generations of upgrades and can be easily produced in large numbers. Attributes: Mass-produced unit"
+Locale_Text[235] = "Atlanta Class Cruisers"
+Locale_Text[236] = "A cruiser with a large number of rapid-fire guns, suitable for suppressing enemy frigate groups. Attributes: Defense unit"
+Locale_Text[240] = "Anti-Air Type Atlanta"
+Locale_Text[241] = "Equipped with seven quadruple anti-aircraft guns, the Atlanta-class cruiser can effectively deal with all air threats. Attributes: Defensive unit"
+Locale_Text[245] = "Ion Gun Type Atlanta"
+Locale_Text[246] = "Equipped with seven twin ion cannons, the Atlanta-class cruiser is capable of inflicting heavy damage on large enemy battleships. Attributes: Offensive unit"
+Locale_Text[247] = "Heavy Armor Type Atlanta"
+Locale_Text[248] = "Atlanta-class cruisers equipped with heavy armorthat can effectively withstand damage. Attribute: Defensive unit"
 
 
 
-Locale_Text[250] = "1400毫米重炮突击舰"
-Locale_Text[251] = "一种装备了1400毫米重炮的先进突击舰，专门用来围攻敌人的大型单位,属性:攻坚型单位,建造要求：突击舰科技"
-Locale_Text[260] = "曙光级战列舰C型"
-Locale_Text[261] = "装备了大型电磁轨道炮的巨型战舰，用来长程狙击,前提条件：战列舰科技，量产路线,属性:旗舰级攻坚单位"
-Locale_Text[270] = "暮光级轻型战列舰"
-Locale_Text[271] = "一种容易大量生产的大型战舰,装备8门1400毫米巨炮,属性:防御型单位"
+Locale_Text[250] = "1400mm Heavy Gun Assault Ship"
+Locale_Text[251] = "An advanced assault ship equipped with a 1400mm heavy gun, specifically designed to besiege the enemy's large units. Attributes: Offensive units. Requires: Assault ship technology"
+Locale_Text[260] = "Aurora Class Battleship Type C"
+Locale_Text[261] = "Battleship equipped with a large electromagnetic rail gun, used for long-range sniping. Requires: Battleship technology and mass production route. Attributes: Flagship class offensive unit"
+Locale_Text[270] = "Twilight Class Light Battleship"
+Locale_Text[271] = "A large warship easily produced in large numbers, equipped with eight 1400mm cannons. Attributes: Defensive unit"
 
 
+Locale_Text[280] = "Reincarnation-class dreadnought MK2"
+Locale_Text[281] = "A giant battleship equipped with a huge gun, used to destroy the most powerful of enemies. Attributes: Offensive unit"
 
-Locale_Text[280] = "轮回级无畏舰MK2"
-Locale_Text[281] = "装备了巨大火炮的巨型战舰，用来摧毁最强大的敌人,属性:攻坚型单位"
 
+Locale_Text[285] = "Void-class dreadnought"
+Locale_Text[286] = "A giant warship with a large number of heavy guns, suitable for dealing with dense groups of enemy ships. Attributes: Defensive unit"
 
-Locale_Text[285] = "虚空级无畏舰"
-Locale_Text[286] = "一种拥有大量重炮的巨型战舰，适合对付敌人的密集舰群,属性:防御型单位"
-Locale_Text[300] = "裂痕级战列舰2B型"
-Locale_Text[301] = "装备了电磁轨道炮炮塔的裂痕级战列舰，可以有攻击旗舰级目标"
-Locale_Text[320] = "巡回者级袭击舰"
-Locale_Text[321] = "拥有优秀综合作战性能的特种战舰，可以应付任何场面"
+Locale_Text[300] = "Rift Class Battleship Type 2B"
+Locale_Text[301] = "Rift-class battleships are equipped with electromagnetic railgun turrets to attack flagship-class targets"
+Locale_Text[320] = "Ranger Class Assault Ship"
+Locale_Text[321] = "Special warship with excellent overall combat performance that can handle any scenario"
+Locale_Text[330] = "Reaper class assault ship"
+Locale_Text[331] = "An elite cruiser with heavy armor, it can effectively harvest a large number of small and medium units"
 
-Locale_Text[330] = "收割者级袭击舰"
-Locale_Text[331] = "拥有厚重装甲的精英巡洋舰，可以有效的收割大量中小型单位"
+Locale_Text[3050] = "Shipboard Module"
+Locale_Text[3051] = "Can deploy ship-based aircraft"
 
-Locale_Text[3050] = "舰载机模块"
-Locale_Text[3051] = "可以部署舰载机"
+Locale_Text[3100] = "Mobile Refining Ship"
+Locale_Text[3101] = "Mobile resource unloading point, can have up to 6 mining boats at the same time. Each ship can generate 50 RUs per second"
 
-Locale_Text[3100] = "移动精炼船"
-Locale_Text[3101] = "移动的资源卸载点，可以同时供6艘采矿艇卸载。每艘每秒可以产生50RU的资源"
 
+Locale_Text[1510] = "Starfighter"
+Locale_Text[1511] = "A mass-production type of the Fai'ri Heavy Industries Starfighter, which lost the possibility of significant performance upgrades compared to the prototype"
+Locale_Text[1515] = "God's Punishment Aircraft"
+Locale_Text[1516] = "Excellent air superiority carrier-based aircraft, mainly to annihilate high-performance fighters"
+
+Locale_Text[1525] = "God's Punishment Carrier Aircraft - Annihilation Type"
+Locale_Text[1526] = "The super assault carrier-based aircraft can realize efficient battlefield raids, and can paralyze the opponent's core center with one blow thousands of miles away"
+
+
+
+
+Locale_Text[350] = "Soldier Bee Drone Swarm"
+Locale_Text[351] = "A low-cost unmanned fighter, used to defend the enemy's initial attack. Attributes: Defensive unit"
+
+Locale_Text[360] = "Hyperspace System"
+Locale_Text[361] = "Lets the carrier generate a hyperspace field"
+Locale_Text[370] = "Gravity Well Module"
+Locale_Text[371] = "Emits a gravity well to stop other ships from jumping"
+Locale_Text[380] = "Advanced Sensors"
+Locale_Text[381] = "Gives the carrier advanced detection capabilities"
+
+
+Locale_Text[400] = "No. 1 57mm rapid fire gun array (small)"
+Locale_Text[401] = "No. 2 57mm rapid fire gun array (small)"
+Locale_Text[402] = "No. 3 57mm rapid fire gun array (small)"
+Locale_Text[405] = "Plenty of 57mm close-in guns on both sides of the Siren Carrier's armored sides to expel fighters and gunships (requires Tier 1 tactical module)"
+
+Locale_Text[410] = "No. 1 pulse cannon array (small)"
+Locale_Text[411] = "No. 2 pulse cannon array (small)"
+Locale_Text[412] = "No. 3 pulse cannon array (small)"
+Locale_Text[415] = "Arranges a large number of pulse cannons on both sides of the Siren Carrier's armored sides to expel fighters and gunships (requires level 1 tactical module)"
 
-Locale_Text[1510] = "星辰战斗机"
-Locale_Text[1511] = "妖精重工星辰战斗机的一种量产型，和原型机相比失去了大幅度升级性能的可能性"
-Locale_Text[1515] = "神罚舰载机"
-Locale_Text[1516] = "优秀的制空舰载机，以歼灭高性能战斗机为主"
+Locale_Text[420] = "Anti-aircraft missile array No. 1 (small)"
+Locale_Text[421] = "Anti-aircraft missile array No. 2 (small)"
+Locale_Text[422] = "Anti-aircraft missile array No. 3 (small)"
+Locale_Text[425] = "Arranges a large number of small anti-aircraft missiles on both sides of the Siren Carrier's armored sides to expel fighters and gunships (requires level 1 tactical module)"
+
+Locale_Text[430] = "No.1 425mm Heavy Gun Array (Medium)"
+Locale_Text[431] = "No.2 425mm Heavy Gun Array (Medium)"
+Locale_Text[435] = "Place a large number of 425mm cannons on both sides of the Siren Carrier's weapon points to destroy the frigates and small battleships that come to siege (requires level 2 tactical module)"
+
+Locale_Text[440] = "No. 1 Rapid Fire Plasma Cannon Array (Medium)"
+Locale_Text[441] = "No. 2 Rapid Fire Plasma Cannon Array (Medium)"
+Locale_Text[445] = "Place a large number of rapid-fire plasma cannons on both sides of the Siren Carrier's weapon points to destroy the frigates and small battleships that come to siege (requires level 2 tactical modules)"
+
+Locale_Text[450] = "No. 1 Heavy Anti-Ship Missile Array (Medium)"
+Locale_Text[451] = "No. 2 Heavy Anti-Ship Missile Array (Medium)"
+Locale_Text[455] = "Place a large number of heavy anti-ship missiles on both sides of the Siren Carrier's weapon points to destroy the frigates and smaller battleships that come to siege (requires level 2 tactical modules)"
+
+Locale_Text[460] = "No.1 3500mm Mega Cannon Array (Large)"
+Locale_Text[461] = "No.2 3500mm Mega Cannon Array (Large)"
+Locale_Text[465] = "Place a 3500mm giant cannon array on both sides of the Siren Carrier's heavy weapons points to destroy all kinds of warships below large battleships (requires level 3 tactical module)"
+
+Locale_Text[470] = "No. 1 White River Super Heavy Anti-Ship Missile Array (Large)"
+Locale_Text[471] = "No. 2 White River Super Heavy Anti-Ship Missile Array (Large)"
+Locale_Text[475] = "Place a White River super heavy anti-ship missile array on both sides of the Siren Carrier's heavy weapons points to destroy all kinds of warships below large battleships (requires level 4 tactical module)"
+
+Locale_Text[480] = "No.1 side large fluctuating gun array (large)"
+Locale_Text[481] = "No.2 side large fluctuating gun array (large)"
+Locale_Text[485] = "A large fluctuating cannon array is placed on the heavy weapons points on both sides of the Siren Carrier to destroy all kinds of battleships below large battleships (requires level 3 tactical module)"
+
+Locale_Text[490] = "Bow photon accelerator gun (bow)"
+Locale_Text[491] = "Install two photon mass acceleration cannons on the bow of the Siren Carrier, the higher rate of fire is used to easily destroy enemies coming infront. (Requires Tier 4 Tactical Module)"
+
+Locale_Text[495] = "Bow large high-energy ion beam cannon (main gun)"
+Locale_Text[496] = "Install a large high-powered ion beam cannon on the bow of the Siren Carrier, powerful enough to severely damage large flagship-class warships. (Requires level 5 tactical module)"
+
+
+Locale_Text[800] = "Strengthen the hull armor value, so that the ship can withstand more blows. Requires: Corresponding hull technology"
+Locale_Text[801] = "Level 1 Hull Strengthening Module"
+Locale_Text[802] = "Level 2 Hull Strengthening Module"
+Locale_Text[803] = "Level 3 Hull Strengthening Module"
+Locale_Text[804] = "Level 4 Hull Strengthening Module"
+Locale_Text[805] = "Level 5 Hull Strengthening Module"
+Locale_Text[806] = "Level 6 Hull Strengthening Module"
+Locale_Text[807] = "Level 7 Hull Strengthening Module"
+Locale_Text[808] = "Level 8 Hull Strengthening Module"
+Locale_Text[809] = "Level 9 Hull Strengthening Module"
+Locale_Text[810] = "Level 10 Hull Strengthening Module"
 
-Locale_Text[1525] = "神罚舰载机-歼灭型"
-Locale_Text[1526] = "超级突击舰载机，可以实现高效率的战场突袭，千里之外一击瘫痪对手的核心中枢"
+Locale_Text[850] = "Shield generator, allows warships to have a shield that can be quickly restored, doubles the shield capacity per level. Requires: Corresponding shield technology"
+Locale_Text[851] = "Level 1 Shield Generator"
+Locale_Text[852] = "Level 2 Shield Generator"
+Locale_Text[853] = "Level 3 Shield Generator"
+Locale_Text[854] = "Level 4 Shield Generator"
+Locale_Text[855] = "Level 5 Shield Generator"
+Locale_Text[856] = "Level 6 Shield Generator"
+Locale_Text[857] = "Level 7 Shield Generator"
+Locale_Text[858] = "Level 8 Shield Generator"
+Locale_Text[859] = "Level 9 Shield Generator"
+Locale_Text[860] = "Level 10 Shield Generator"
 
+Locale_Text[900] = "Fire control system, can exponentially improve the attack power of warships, each level improving firepower by 50%. Requires: Corresponding fire control technology"
+Locale_Text[901] = "Level 1 Fire Control System"
+Locale_Text[902] = "Level 2 Fire Control System"
+Locale_Text[903] = "Level 3 Fire Control System"
+Locale_Text[904] = "Level 4 Fire Control System"
+Locale_Text[905] = "Level 5 Fire Control System"
+Locale_Text[906] = "Level 6 Fire Control System"
+Locale_Text[907] = "Level 7 Fire Control System"
+Locale_Text[908] = "Level 8 Fire Control System"
+Locale_Text[909] = "Level 9 Fire Control System"
+Locale_Text[910] = "Level 10 Fire Control System"
 
+Locale_Text[950] = "Repair system, can exponentially accelerate the self-repair speed of warships, doubling the repair speed per level. Requires: Corresponding repair technology"
+Locale_Text[951] = "Level 1 Repair System"
+Locale_Text[952] = "Level 2 Repair System"
+Locale_Text[953] = "Level 3 Repair System"
+Locale_Text[954] = "Level 4 Repair System"
+Locale_Text[955] = "Level 5 Repair System"
+Locale_Text[956] = "Level 6 Repair System"
+Locale_Text[957] = "Level 7 Repair System"
+Locale_Text[958] = "Level 8 Repair System"
+Locale_Text[959] = "Level 9 Repair System"
+Locale_Text[960] = "Level 10 Repair System"
 
+Locale_Text[1000] = "Upgrades the tactical performance of the carrier to unlock additional component upgrades. Requires: Corresponding flagship modules"
+Locale_Text[1001] = "Level 1 Tactical Upgrade"
+Locale_Text[1002] = "Level 2 Tactical Upgrade"
+Locale_Text[1003] = "Level 3 Tactical Upgrade"
+Locale_Text[1004] = "Level 4 Tactical Upgrade"
+Locale_Text[1005] = "Level 5 Tactical Upgrade"
 
-
-Locale_Text[350] = "兵蜂无人机群"
-Locale_Text[351] = "一种成本低廉的无人战斗机，用来防御敌人初期的进攻,属性:防御型单位"
-
-Locale_Text[360] = "超空间系统"
-Locale_Text[361] = "让航母产生一个超空间跳跃场"
-Locale_Text[370] = "重力井模块"
-Locale_Text[371] = "装备一个重力井，阻止其他舰船跳跃"
-Locale_Text[380] = "高级探测器"
-Locale_Text[381] = "让航母产生一个高级探测器，让其拥有先进的探测能力"
-
-
-Locale_Text[400] = "1号57毫米速射炮阵列（小型）"
-Locale_Text[401] = "2号57毫米速射炮阵列（小型）"
-Locale_Text[402] = "3号57毫米速射炮阵列（小型）"
-Locale_Text[405] = "在妖姬运载舰的两舷装甲版上布置大量的57毫米近防炮，用来驱逐战斗机和炮艇（需要1级战术模块）"
 
-Locale_Text[410] = "1号脉冲炮阵列（小型）"
-Locale_Text[411] = "2号脉冲炮阵列（小型）"
-Locale_Text[412] = "3号脉冲炮阵列（小型）"
-Locale_Text[415] = "在妖姬运载舰的两舷装甲版上布置大量的脉冲炮，用来驱逐战斗机和炮艇（需要1级战术模块）"
 
-Locale_Text[420] = "1号防空导弹阵列（小型）"
-Locale_Text[421] = "2号防空导弹阵列（小型）"
-Locale_Text[422] = "3号防空导弹阵列（小型）"
-Locale_Text[425] = "在妖姬运载舰的两舷装甲版上布置大量的小型防空导弹，用来驱逐战斗机和炮艇（需要1级战术模块）"
 
-Locale_Text[430] = "1号425毫米重炮阵列（中型）"
-Locale_Text[431] = "2号425毫米重炮阵列（中型）"
-Locale_Text[435] = "在妖姬运载舰的两舷武器点上布置大量的425毫米加农炮，用来摧毁前来围攻的护卫舰和小型主力舰（需要2级战术模块）"
-
-Locale_Text[440] = "1号速射电浆炮阵列（中型）"
-Locale_Text[441] = "2号速射电浆炮阵列（中型）"
-Locale_Text[445] = "在妖姬运载舰的两舷武器点上布置大量的速射电浆炮，用来摧毁前来围攻的护卫舰和小型主力舰（需要2级战术模块）"
 
-Locale_Text[450] = "1号重型反舰导弹阵列（中型）"
-Locale_Text[451] = "2号重型反舰导弹阵列（中型）"
-Locale_Text[455] = "在妖姬运载舰的两舷武器点上布置大量的重型反舰导弹，用来摧毁前来围攻的护卫舰和小型主力舰（需要2级战术模块）"
 
-Locale_Text[460] = "1号3500毫米巨炮阵列（大型）"
-Locale_Text[461] = "2号3500毫米巨炮阵列（大型）"
-Locale_Text[465] = "在妖姬运载舰的两舷重型武器点上布置一座3500毫米巨型加农炮阵列，用来摧毁大型主力舰以下的各种战舰（需要3级战术模块）"
-
-Locale_Text[470] = "1号白河超重型反舰导弹阵列（大型）"
-Locale_Text[471] = "2号白河超重型反舰导弹阵列（大型）"
-Locale_Text[475] = "在妖姬运载舰的两舷重型武器点上布置一座白河超重型反舰导弹发射阵列，用来摧毁大型主力舰以下的各种战舰（需要4级战术模块）"
+Locale_Text[2000] = "Class 1 battleship mass production module"
+Locale_Text[2001] = "Allows production of primary destroyer and frigate class starter ships, unlocks subsequent mass production modules"
+Locale_Text[2005] = "Class 2 battleship mass production module"
+Locale_Text[2006] = "Required: Level 1 battleship mass production module, allowing production of cruiser-class battleships"
+Locale_Text[2010] = "Class 3 battleship mass production module"
+Locale_Text[2011] = "Required: Level 2 Mainship Mass Production Module, allowing production of Battlecruiser-class mainships"
+Locale_Text[2015] = "Class 4 battleship mass production module"
+Locale_Text[2016] = "Required: Level 3 battleship mass production module, allowing the production of battleships"
+Locale_Text[2020] = "Class 5 battleship mass production module"
+Locale_Text[2021] = "Required: Level 4 battleship mass production module, allowing production of dreadnought class battleships"
+Locale_Text[2025] = "Fai'ri Queen fleet type summoning device"
+Locale_Text[2026] = "Required: Level 5 battleship mass production module, allowing production of Fai'ri Queen class giant ships"
 
-Locale_Text[480] = "1号侧舷大型波动炮阵列（大型）"
-Locale_Text[481] = "2号侧舷大型波动炮阵列（大型）"
-Locale_Text[485] = "在妖姬运载舰的两舷重型武器点上布置一座大型波动炮阵列，用来摧毁大型主力舰以下的各种战舰（需要3级战术模块）"
 
-Locale_Text[490] = "舰首光子加速炮（舰首）"
-Locale_Text[491] = "在妖姬运载舰的船头安装两门光子质量加速炮，较高的射速用来轻松的摧毁前来阻拦的敌人。（需要4级战术模块）"
 
-Locale_Text[495] = "舰首大型高能离子束加农炮（主炮）"
-Locale_Text[496] = "在妖姬运载舰的船头安装一门大型高能离子束加农炮，强大的威力能够重创旗舰级的大型战舰。（需要5级战术模块）"
-
-
-Locale_Text[800] = "强化船体的装甲值，让船体可以承受更多打击，需要：对应的船体科技"
-Locale_Text[801] = "1级船体强化模块"
-Locale_Text[802] = "2级船体强化模块"
-Locale_Text[803] = "3级船体强化模块"
-Locale_Text[804] = "4级船体强化模块"
-Locale_Text[805] = "5级船体强化模块"
-Locale_Text[806] = "6级船体强化模块"
-Locale_Text[807] = "7级船体强化模块"
-Locale_Text[808] = "8级船体强化模块"
-Locale_Text[809] = "9级船体强化模块"
-Locale_Text[810] = "10级船体强化模块"
+Locale_Text[2100] = "Level 1 Defense Tower Module"
+Locale_Text[2101] = "Allows production of primary small floating guns and small defense tower groups, unlocking subsequent defense tower mass production modules"
+Locale_Text[2105] = "Level 2 Defense Tower Module"
+Locale_Text[2106] = "Required: level 1 defense tower mass production module, allowing production of medium defense platforms and medium railguns"
+Locale_Text[2110] = "Level 3 defense tower module"
+Locale_Text[2111] = "Required: level 2 defense tower mass production module, allows production of large defense platforms and medium railguns"
+Locale_Text[2115] = "Level 4 defense tower module"
+Locale_Text[2116] = "Required: level 3 defense tower mass production module, allows production of giant defense platforms and large orbital cannons"
+Locale_Text[2120] = "Level 5 defense tower module"
+Locale_Text[2121] = "Required: level 4 defense tower mass production module, allows production of Messiah's Fortress"
 
-Locale_Text[850] = "护盾发生器，可以让战舰拥有一个可以快速恢复的防护盾，每级提升一倍的护盾容量，需要：对应的护盾科技"
-Locale_Text[851] = "1级护盾发生器"
-Locale_Text[852] = "2级护盾发生器"
-Locale_Text[853] = "3级护盾发生器"
-Locale_Text[854] = "4级护盾发生器"
-Locale_Text[855] = "5级护盾发生器"
-Locale_Text[856] = "6级护盾发生器"
-Locale_Text[857] = "7级护盾发生器"
-Locale_Text[858] = "8级护盾发生器"
-Locale_Text[859] = "9级护盾发生器"
-Locale_Text[860] = "10级护盾发生器"
 
-Locale_Text[900] = "火控系统，可以成倍的提升战舰的攻击力，每级提升0点5的战斗力，需要：对应的火控科技"
-Locale_Text[901] = "1级火控系统"
-Locale_Text[902] = "2级火控系统"
-Locale_Text[903] = "3级火控系统"
-Locale_Text[904] = "4级火控系统"
-Locale_Text[905] = "5级火控系统"
-Locale_Text[906] = "6级火控系统"
-Locale_Text[907] = "7级火控系统"
-Locale_Text[908] = "8级火控系统"
-Locale_Text[909] = "9级火控系统"
-Locale_Text[910] = "10级火控系统"
 
-Locale_Text[950] = "修理系统，可以成倍的加快战舰的自我修复速度，每级提升1倍的修理速度，需要：对应的修复科技"
-Locale_Text[951] = "1级修理系统"
-Locale_Text[952] = "2级修理系统"
-Locale_Text[953] = "3级修理系统"
-Locale_Text[954] = "4级修理系统"
-Locale_Text[955] = "5级修理系统"
-Locale_Text[956] = "6级修理系统"
-Locale_Text[957] = "7级修理系统"
-Locale_Text[958] = "8级修理系统"
-Locale_Text[959] = "9级修理系统"
-Locale_Text[960] = "10级修理系统"
 
-Locale_Text[1000] = "升级运载舰的战术性能，解锁更多的部件升级（需要对应的旗舰模块）"
-Locale_Text[1001] = "1级战术升级"
-Locale_Text[1002] = "2级战术升级"
-Locale_Text[1003] = "3级战术升级"
-Locale_Text[1004] = "4级战术升级"
-Locale_Text[1005] = "5级战术升级"
+Locale_Text[2200] = "Level 1 elite flagship module"
+Locale_Text[2201] = "Allow production of elite Reaper warships"
+Locale_Text[2205] = "Tier 2 elite flagship module"
+Locale_Text[2206] = "Required: level 1 elite flagship module, allows production of elite sweeper class warships"
+Locale_Text[2210] = "Level 3 elite flagship module"
+Locale_Text[2211] = "Required: level 2 elite flagship module, allowing production of elite Odin-class dreadnoughts"
+Locale_Text[2215] = "Level 4 elite flagship module"
+Locale_Text[2216] = "Required: level 3 elite flagship module, allowing production of elite Eternal-class dreadnoughts"
+Locale_Text[2220] = "Level 5 elite flagship module"
+Locale_Text[2221] = "Required: level 4 elite flagship module, allowing production of the fearsome Radiant Ruler"
+Locale_Text[2225] = "Super flagship summoning device"
+Locale_Text[2226] = "Required: level 5 elite flagship module, allows production production of Imperial Admiral-class mobile fortresses"
 
+Locale_Text[2250] = "Eternal-class war fortress"
+Locale_Text[2251] = "Advanced and powerful super megaship with powerful super main guns"
 
+Locale_Text[2300] = "Dark Goddess class dreadnought"
+Locale_Text[2301] = "Dreadnought with intensive firepower and solid armor, suitable for efficiently clearing small fleets of enemies"
 
 
 
+Locale_Text[3000] = "USS Ophelis"
+Locale_Text[3001] = "Specially modified fifth generation Queen-class giant ship with great combat power"
+Locale_Text[3005] = "Imperial-class mobile fortress"
+Locale_Text[3006] = "A mobile war fortress capable of defeating any opponent"
+Locale_Text[3010] = "Messiah Super Fortress"
+Locale_Text[3011] = "The ultimate armed fortress with indestructible armor and powerful fortress artillery"
 
-Locale_Text[2000] = "1级主力舰量产模块"
-Locale_Text[2001] = "允许生产初级的驱逐舰和护卫舰级主力舰，解锁后续主力舰量产模块"
-Locale_Text[2005] = "2级主力舰量产模块"
-Locale_Text[2006] = "需要：1级主力舰量产模块，允许生产巡洋舰级的主力舰"
-Locale_Text[2010] = "3级主力舰量产模块"
-Locale_Text[2011] = "需要：2级主力舰量产模块，允许生产战列巡洋舰级的主力舰"
-Locale_Text[2015] = "4级主力舰量产模块"
-Locale_Text[2016] = "需要：3级主力舰量产模块，允许生产战列舰"
-Locale_Text[2020] = "5级主力舰量产模块"
-Locale_Text[2021] = "需要：4级主力舰量产模块，允许生产无畏舰级的主力舰"
-Locale_Text[2025] = "妖精女皇舰队型召唤装置"
-Locale_Text[2026] = "需要：5级主力舰量产模块，允许生产妖精女皇级巨舰"
+Locale_Text[3200] = "Air Ranger class assault gunship"
+Locale_Text[3201] = "Armored assault craft equipped with 305mm mortars and a large number of small guns, used to expel small enemy warships and to besiege large targets,Attributes:Offensive unit Requirements:Escort craft technology"
 
 
+Locale_Text[3205] = "Air Ranger 2 assault ship"
+Locale_Text[3206] = "Assault ship with 175mm repeating gun, good cost performance, Attributes: assault type unit Requirements: assault ship technology (level 2 mass production module or level 1 elite module)"
 
-Locale_Text[2100] = "1级防御塔模块"
-Locale_Text[2101] = "允许生产初级的小型浮游炮和小型防御塔群，解锁后续防御塔量产模块"
-Locale_Text[2105] = "2级防御塔模块"
-Locale_Text[2106] = "需要：1级防御塔量产模块，允许生产中型防御平台和中型轨道炮"
-Locale_Text[2110] = "3级防御塔模块"
-Locale_Text[2111] = "需要：2级防御塔量产模块，允许生产大型防御平台和中型轨道炮"
-Locale_Text[2115] = "4级防御塔模块"
-Locale_Text[2116] = "需要：3级防御塔量产模块，允许生产巨型防御平台和大型轨道炮"
-Locale_Text[2120] = "5级防御塔模块"
-Locale_Text[2121] = "需要：4级防御塔量产模块，允许生产弥赛亚要塞"
+Locale_Text[3210] = "Sharjah-class armored ship"
+Locale_Text[3211] = "defensive warship equipped with heavy armor that can withstand any gunfire"
+Locale_Text[3220] = "Sweeper-class battleship"
+Locale_Text[3221] = "Advanced battleship equipped with high performance particle weapons and a large number of heavy 1400mm turrets"
 
+Locale_Text[3225] = "Ilya-class cruiser"
+Locale_Text[3226] = "High-performance elite battleship for later use as the mainstay of the fleet to support the super flagship in combat"
 
 
-
-Locale_Text[2200] = "1级精英旗舰模块"
-Locale_Text[2201] = "允许生产精锐的收割者战舰"
-Locale_Text[2205] = "2级精英旗舰模块"
-Locale_Text[2206] = "需要：1级精英旗舰模块，允许生产精锐的扫荡者级战舰"
-Locale_Text[2210] = "3级精英旗舰模块"
-Locale_Text[2211] = "需要：2级精英旗舰模块，允许生产精锐的奥丁级无畏舰"
-Locale_Text[2215] = "4级精英旗舰模块"
-Locale_Text[2216] = "需要：3级精英旗舰模块，允许生产精锐的永恒级无畏舰"
-Locale_Text[2220] = "5级精英旗舰模块"
-Locale_Text[2221] = "需要：4级精英旗舰模块，允许生产可怕的光辉裁决者"
-Locale_Text[2225] = "超级旗舰召唤装置"
-Locale_Text[2226] = "需要：5级精英旗舰模块，允许生产生产帝国上将级移动要塞"
-
-Locale_Text[2250] = "永恒级战争堡垒"
-Locale_Text[2251] = "先进而强大的超级巨舰，拥有强大的超级主炮"
-
-Locale_Text[2300] = "暗夜女神级无畏舰"
-Locale_Text[2301] = "火力密集装甲坚固的无畏舰，适合高效率清扫敌人的小规模舰队"
-
-
-
-Locale_Text[3000] = "亚菲莉丝号"
-Locale_Text[3001] = "特殊改造后的第五代女皇级巨舰，拥有强大的战斗力"
-Locale_Text[3005] = "帝国级移动要塞"
-Locale_Text[3006] = "可以移动的战争堡垒，能够战胜任何对手"
-Locale_Text[3010] = "弥赛亚超级要塞"
-Locale_Text[3011] = "终极的武装堡垒，拥有不可摧毁的装甲和强大的要塞火炮"
-
-Locale_Text[3200] = "巡空者级突击炮艇"
-Locale_Text[3201] = "装备了305毫米迫击炮和大量小型火炮的装甲突击艇，用来驱逐敌人的小型战舰，并且围攻大型目标,属性:攻坚型单位 要求：护航艇科技"
-
-
-Locale_Text[3205] = "巡空者2型突击舰"
-Locale_Text[3206] = "装备了175毫米连射火炮的突击舰，拥有不错的性价比,属性:攻坚型单位 要求：突击舰科技（2级量产模块或者1级精英模块）"
-
-Locale_Text[3210] = "沙迦级装甲舰"
-Locale_Text[3211] = "装备了厚重装甲的防御型战舰，可以抵挡任何炮火的攻击"
-Locale_Text[3220] = "扫荡者级战列舰"
-Locale_Text[3221] = "装备了高性能粒子武器和大量1400毫米重炮塔的先进战列舰"
-
-Locale_Text[3225] = "伊利亚级巡空舰"
-Locale_Text[3226] = "高性能的精锐主力舰，用于后期作为舰队主力辅助超级旗舰作战"
 
 
 --战斗机
-Locale_Text[5000] = "大型攻击无人机"
-Locale_Text[5001] = "装备了导弹和光子机枪，可以有效进行防空作战"
-Locale_Text[5010] = "长矛截击机"
-Locale_Text[5011] = "重甲高性能防空截击机，可以有效清除大部分空中单位"
-Locale_Text[5020] = "长矛攻击机"
-Locale_Text[5021] = "重甲高性能导弹攻击机，可以有效压制敌人中小型战舰"
+Locale_Text[5000] = "Large attack drone"
+Locale_Text[5001] = "Equipped with missiles and photon machine guns for effective anti-aircraft operations"
+Locale_Text[5010] = "Spear interceptor"
+Locale_Text[5011] = "Heavy armor high performance anti-air interceptor that can effectively remove most air units"
+Locale_Text[5020] = "Spear attack aircraft"
+Locale_Text[5021] = "Heavy armor high performance missile attack aircraft, can effectively suppress enemy small and medium sized warships"
 
-Locale_Text[5025] = "战略轰炸机-飞龙"
-Locale_Text[5026] = "一种携带了超重型反舰导弹的轰炸机，不过每次投弹后都需要返航装弹，而且仅能停靠索托亚级超级航母"
+Locale_Text[5025] = "Strategic bomber - Flying Dragon"
+Locale_Text[5026] = "A bomber that carries super-heavy anti-ship missiles, but needs to return to reload after each drop, and can only dock Sotoya-class supercarriers"
 
 
 --旗舰
+Locale_Text[6000] = "Radiant Ruler"
+Locale_Text[6001] = "Super dreadnought used by the Raven Sector fleet, with the most firepower"
 
+Locale_Text[6005] = "Farstrider MK3-class battleship"
+Locale_Text[6006] = "The third-generation Farstrider-class battleship, with solid defense and suitable combat power"
 
+Locale_Text[6010] = "Hayabusa-class armored ship"
+Locale_Text[6011] = "Advanced assault-type armored ship that can reach the battlefield quickly"
+Locale_Text[6015] = "Rift sweeper"
+Locale_Text[6016] = "A special warship that combines the Rift class and the Sweeper into one"
+Locale_Text[6020] = "Battleship Leyline"
+Locale_Text[6021] = "The exclusive seat ship of the Thunder Knight, with powerful siege electromagnetic cannons"
+Locale_Text[6030] = "Stardust-class destroyer"
+Locale_Text[6031] = "Powerful offensive destroyer with excellent firepower and reliable defense. Attribute:Defensive unit"
+Locale_Text[6035] = "Stardust-class destroyer anti-aircraft type"
+Locale_Text[6036] = "Super air defense destroyer with a large number of multi-linked rapid-fire guns. Attribute:Defense type unit"
+Locale_Text[6040] = "Broadblade 4-class battlecruiser"
+Locale_Text[6041] = "An upgraded version of the Broadblade 4 battlecruiser with more powerful combat capabilities, prerequisite: Broadblade 2 technology"
+Locale_Text[6045] = "Armored Broadblade 3 battlecruiser"
+Locale_Text[6046] = "Excellent armor can withstand the opponent's flagship main gun attack, high performance main gun can effectively counter the opponent's flagship, prerequisite: broadblade level 3 technology"
 
-Locale_Text[6000] = "光辉裁决者"
-Locale_Text[6001] = "乌鸦星区舰队所使用的超级无畏舰，拥有最强大的火力"
+Locale_Text[6055] = "DAWN 3 class battleship"
+Locale_Text[6056] = "Advanced battleship with solid armor and 4-link electromagnetic cannon, prerequisite: level 4 mass production technology"
 
-Locale_Text[6005] = "远行者MK3级战列舰"
-Locale_Text[6006] = "第3代的远行者级战列舰，拥有坚固的防御力和合适的战斗力"
+Locale_Text[6060] = "Sotoya-class supercarrier"
+Locale_Text[6061] = "Supercarrier with strong armor and a large number of carrier aircraft that can effectively turn the tide of battle"
 
-Locale_Text[6010] = "隼风级装甲舰"
-Locale_Text[6011] = "先进的突击型装甲舰，可以快速到达战场"
-Locale_Text[6015] = "裂痕扫荡者"
-Locale_Text[6016] = "将裂痕级和扫荡者合二为一的特种战舰"
-Locale_Text[6020] = "雷灵号战列舰"
-Locale_Text[6021] = "雷霆骑士的专属座舰，拥有强大的攻城电磁炮"
-Locale_Text[6030] = "星尘级驱逐舰"
-Locale_Text[6031] = "强大的攻坚型驱逐舰，拥有优秀的火力和可靠的防御力。属性:防御型单位"
-Locale_Text[6035] = "星尘级驱逐舰防空型"
-Locale_Text[6036] = "拥有大量多联装速射火炮的超级防空驱逐舰。属性:防御型单位"
-Locale_Text[6040] = "阔刃4级战列巡洋舰"
-Locale_Text[6041] = "升级版的阔刃4型战列巡洋舰，拥有更强大的战斗力，前提：阔刃4级科技"
-Locale_Text[6045] = "装甲型阔刃3级战列巡洋舰"
-Locale_Text[6046] = "优秀的装甲可以抵挡对方旗舰级主炮的攻击，高性能主炮可以有效反制对方旗舰，前提：阔刃3级科技"
+Locale_Text[6070] = "The third generation of Queen-class giant ships"
+Locale_Text[6071] = "This slightly older giant ship still performs well on the battlefield after modernization"
 
-Locale_Text[6055] = "破晓3级战列舰"
-Locale_Text[6056] = "拥有坚固装甲和4联装电磁炮的先进战列舰，前提：4级量产科技"
+Locale_Text[6075] = "Sixth-generation Fai'ri Queen-class giant ship type A"
+Locale_Text[6076] = "Super battleship with powerful 3500 cannon that can defeat any opponent"                          
 
-Locale_Text[6060] = "索托亚级超级航母"
-Locale_Text[6061] = "拥有坚固装甲和大量舰载机的超级航母，可以有效扭转战场的形式"
-
-Locale_Text[6070] = "第三代女皇级巨舰"
-Locale_Text[6071] = "这种略显老旧的巨舰在进行现代化改造后在战场上依然表现出色"
-
-Locale_Text[6075] = "第六代妖精女皇级巨舰A型"
-Locale_Text[6076] = "拥有强力3500加农炮的超级战舰，可以战胜任何对手"                          
-
-Locale_Text[6080] = "第七代妖精女皇级摧星巨舰"
-Locale_Text[6081] = "拥有一门超级光束主炮的摧星巨舰，可以毁灭任何对手"                          
+Locale_Text[6080] = "The seventh generation of the Fai'ri Queen-class star-destroying giant ship"
+Locale_Text[6081] = "Star Destroyer with a super beam main cannon that can destroy any opponent"                          
 
 
 
@@ -450,85 +447,81 @@ Locale_Text[6085] = "命运级战争母舰"
 Locale_Text[6086] = "拥有强大运载能力的战争母舰，可以召唤大量舰载机支援战斗"                          
 
 
-Locale_Text[6095] = "秩序级无畏舰"
-Locale_Text[6096] = "菲雅利帝国新开发的强袭无畏舰，携带了大量的护卫舰支援战局。"                          
+Locale_Text[6095] = "Order-class dreadnought"
+Locale_Text[6096] = "A newly developed strong attack dreadnought of the Fai'ri Empire, carrying a large number of frigates to support the war effort." 
 
 Locale_Text[6100] = "裂痕2H型工程型"
-Locale_Text[6101] = "大型战列舰级工程母舰"                          
-
-
+Locale_Text[6101] = "大型战列舰级工程母舰"  
 
 
 --护卫舰
-Locale_Text[7000] = "前进者级425炮支援护卫舰"
-Locale_Text[7001] = "装备了1座425毫米重型火炮的护卫舰，主要用来提供炮火支援"
-Locale_Text[7010] = "雷鸣级轨道炮"
-Locale_Text[7011] = "反旗舰的量产型轨道炮，依靠射程优势狙击敌舰"
-Locale_Text[7020] = "白羊级护卫舰MK2型"
-Locale_Text[7021] = "量产的帝国护卫舰，非常的脆弱，依靠数量来取得优势"
+Locale_Text[7000] = "Forwarder-class 425-gun support frigate"
+Locale_Text[7001] = "Frigate armed with one 425mm heavy gun, primarily used to provide gunfire support"
+Locale_Text[7010] = "Thunderer-class railgun"
+Locale_Text[7011] = "Anti-flagship mass-produced railgun that relies on range advantage to snipe enemy ships"
+Locale_Text[7020] = "White Sheep class frigate MK2 type"
+Locale_Text[7021] = "Mass-produced Imperial frigate, very vulnerable, relies on numbers to gain advantage"
 
 --主力舰
-Locale_Text[8000] = "轻羽级支援航母"
-Locale_Text[8001] = "辅助用的轻型航母，主要用来部署各种防御平台"
+Locale_Text[8000] = "Light feather class support carrier"
+Locale_Text[8001] = "Auxiliary light carrier, mainly used to deploy various defense platforms"
 
-Locale_Text[8010] = "黑猫级工程舰"
-Locale_Text[8011] = "拥有超强的修理能力的战场工程舰，同时还能精炼资源,建造条件：4级量产或者3级旗舰模块"
+Locale_Text[8010] = "Black Cat class engineering ship"
+Locale_Text[8011] = "battlefield engineering ship with superb repair capabilities, but also the ability to refine resources, construction conditions: level 4 mass production or level 3 flagship module"
 
-Locale_Text[8020] = "俱乐部级战列巡洋舰"
-Locale_Text[8021] = "由豪华游艇改装来的战列巡洋舰，虽然不如阔刃级坚固，但是10联装火箭炮可以提供强大的火力，前提：阔刃2型科技"
+Locale_Text[8020] = "Club-class battlecruiser"
+Locale_Text[8021] = "Battlecruiser converted from a luxury yacht, not as strong as the Broadblade class, but the 10-liner rocket launcher can provide powerful firepower, prerequisite: Broadblade type 2 technology"
 
-Locale_Text[8030] = "掠夺者级重型巡洋舰"
-Locale_Text[8031] = "菲雅利帝国新开发的一种大型主力舰，拥有可靠的防御力和合理的成本"
+Locale_Text[8030] = "Predator-class heavy cruiser"
+Locale_Text[8031] = "A new development in the Fai'ri Empire, a large battleship with reliable defense and reasonable cost"
 
-Locale_Text[8040] = "侵略者级导弹攻城舰"
-Locale_Text[8041] = "菲雅利帝国新开发的一种导弹攻城舰，可以快速量产来打击敌方的大型旗舰"
+Locale_Text[8040] = "Aggressor-class missile siege ship"
+Locale_Text[8041] = "A new missile siege ship developed by the Fai'ri Empire that can be quickly mass-produced to strike large enemy flagships"
 
 
 --模块
-Locale_Text[9000] = "无人机作战模块"
-Locale_Text[9001] = "弥璃级航母将会变成可怕的战场统治者，自动释放大量重型无人机和反舰无人机扫荡范围内一切敌人舰队"
-Locale_Text[9005] = "反舰无人机格纳库"
-Locale_Text[9006] = "弥璃级航母将会释放反舰无人机进行反主力舰作战，同时继续升级弥璃级航母的血量"
-Locale_Text[9010] = "重型光束武器平台"
-Locale_Text[9011] = "弥璃级航母将会变成强大离子炮发射器平台，进行远距离火力支援"
-Locale_Text[9015] = "重型导弹武器平台"
-Locale_Text[9016] = "弥璃级航母将会变成强大远程导弹发射器平台，进行远距离火力支援"
+Locale_Text[9000] = "Drone combat module"
+Locale_Text[9001] = "Mili-class carriers will become fearsome battlefield rulers, automatically releasing a large number of heavy drones and anti-ship drones to sweep away all enemy fleets within range"
+Locale_Text[9005] = "Anti-ship drone gnak"
+Locale_Text[9006] = "Yari-class carriers will release anti-ship drones for anti-mainship operations, while continuing to upgrade the Yari-class carriers' blood levels"
+Locale_Text[9010] = "Heavy beam weapon platform"
+Locale_Text[9011] = "Yari-class carriers will become powerful ion cannon launcher platforms for long-range fire support"
+Locale_Text[9015] = "Heavy missile weapon platform"
+Locale_Text[9016] = "Yari-class carriers will become powerful long-range missile launcher platforms for long-range fire support"
 
 
 
 
 --防御塔
-Locale_Text[10000] = "小型导弹防御塔"
-Locale_Text[10001] = "发射小型反舰导弹，用来反制敌人主力舰"
+Locale_Text[10000] = "Small missile defense tower"
+Locale_Text[10001] = "Fires small anti-ship missiles, used to counter enemy battleships"
 
-Locale_Text[10010] = "中型导弹防御塔"
-Locale_Text[10011] = "发射大量长程反舰导弹，用来阻挡敌人战列舰巡洋舰的进攻"
+Locale_Text[10010] = "Medium missile defense tower"
+Locale_Text[10011] = "Fires a large number of long-range anti-ship missiles, used to block enemy battleship cruisers"
 
-Locale_Text[10020] = "白河导弹发射塔"
-Locale_Text[10021] = "发射超重型白河导弹，用来阻挡敌人旗舰的进攻"
-Locale_Text[10030] = "1400毫米重炮防御平台"
-Locale_Text[10031] = "发射1400毫米重炮防御平台，用来阻挡敌人主力舰的进攻"
-Locale_Text[10040] = "重型离子加农炮塔"
-Locale_Text[10041] = "装备离子炮发射器，有效攻击敌人的战列舰"
-
-
-
-Locale_Text[13250] = "陌刀级驱逐舰-芙兰卡号"   --254
-Locale_Text[13251] = "一艘特殊型的陌刀级驱逐舰"
+Locale_Text[10020] = "White River missile launch tower"
+Locale_Text[10021] = "Launching super-heavy White River missiles, used to block enemy flagships"
+Locale_Text[10030] = "1400mm heavy artillery defense platform"
+Locale_Text[10031] = "Launch 1400mm heavy artillery defense platform, used to block enemy's battleship"
+Locale_Text[10040] = "Heavy ion cannon turret"
+Locale_Text[10041] = "Equipped with ion cannon launchers to effectively attack enemy battleships"
 
 
-Locale_Text[13260] = "安吉丽娜级袖珍战列舰"   
-Locale_Text[13261] = "一款最新开发的以火力支援为主的大型主力舰"
+Locale_Text[13250] = "Strider-class destroyer - Franka" --254
+Locale_Text[13251] = "A special type of Strider-class destroyer"
 
-Locale_Text[13270] = "安吉丽娜级重型航母"   
-Locale_Text[13271] = "拥有一定火力的重型舰队支援航母"
 
-Locale_Text[13280] = "滚滚级防空舰"   
-Locale_Text[13281] = "拥有厚重全方位装甲的移动防空平台，可以在大量舰载机的围攻中生存下来"
+Locale_Text[13260] = "Angelina-class pocket battleship"   
+Locale_Text[13261] = "A newly developed large battleship with a focus on fire support"
 
-Locale_Text[13290] = "洛神号"   
-Locale_Text[13291] = "自然选择级无畏舰"
+Locale_Text[13270] = "Angelina-class heavy aircraft carrier"   
+Locale_Text[13271] = "Heavy fleet support aircraft carrier with certain firepower"
 
+Locale_Text[13280] = "Rolling class air defense ship"   
+Locale_Text[13281] = "A mobile air defense platform with thick and all-round armor, which can survive the siege of a large number of carrier-based aircraft"
+
+Locale_Text[13290] = "Roselle"   
+Locale_Text[13291] = "Natural Selection-class Dreadnought"
 
 --------------
 
