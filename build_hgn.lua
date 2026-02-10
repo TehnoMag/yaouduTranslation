@@ -147,23 +147,23 @@ Locale_Text[860] = "Ariel-class broken hand dreadnought"
 Locale_Text[861] = "Cutting-edge high-speed heavy-armored dreadnoughts, possessing combat effectiveness comparable to fortress ships. Construction conditions: advanced dreadnought technology"
 
 -- 140 text to translate
-Locale_Text[870] = "恩奇拉方舟"
-Locale_Text[871] = "无形异物，虚空所铸。古老原始，万物莫及。若其苏醒，风暴将随"
+Locale_Text[870] = "Enkidra's Ark"
+Locale_Text[871] = "An intangible entity, forged from the void. Ancient and primordial, beyond the reach of all things. If it awakens, a storm will follow."
 
-Locale_Text[880] = "黑爪拦截机"
-Locale_Text[881] = "配置着某些神秘科技的高性能重装拦截机，具体源头不明"
+Locale_Text[880] = "Balck Claw Interceptor"
+Locale_Text[881] = "A high-performance, heavily armed interceptor equipped with certain mysterious technologies, the exact origin of which is unknown."
 
-Locale_Text[890] = "黑翼重炮艇"
-Locale_Text[891] = "拥有良好的战场生存能力，其上搭载的裂解脉冲足以撕裂大型星舰，但很多时候被用于切割失落遗迹的外壳"
+Locale_Text[890] = "Blackwing Heavy Corvette"
+Locale_Text[891] = "It possesses excellent battlefield survivability, and its onboard disintegration pulse is powerful enough to tear apart large starships, but it is often used to cut through the outer shells of lost ruins."
 
-Locale_Text[900] = "凋零者级战列舰"
-Locale_Text[901] = "拥有厚实装甲和强劲舷炮的主战战列舰"
+Locale_Text[900] = "Witherer Class Battleship"
+Locale_Text[901] = "Main battleship with thick armor and powerful side guns."
 
-Locale_Text[910] = "天灾级运载舰"
-Locale_Text[911] = "擅长在复杂环境下执行任务的大型运载舰"
+Locale_Text[910] = "Disaster Class Transport Ship"
+Locale_Text[911] = "Large transport ship that excels at performing missions in complex environments."
 
-Locale_Text[920] = "石像鬼级导弹驱逐舰"
-Locale_Text[921] = "多用途导弹驱逐舰"
+Locale_Text[920] = "Gargoyl Class Guided Missile Destroyer"
+Locale_Text[921] = "Multipurpose guided missile destroyer."
 
 ---------------------------------------------------
 ---------------------------------------------------
