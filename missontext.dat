@@ -7,7 +7,7 @@ rangestart 105001 119999
 105003  Close Menu
 105004  Explore the sector
 105005  Leave the sector
-105006  Forced Charging
+105006  Emergency Jump
 105010  Your fleet is running out of hyperspace fuel. The jump requires "..g_fleetChargeenergyList[g_fleetCharge].." hyperspace fuel.
 105011  Your fleet is currently charging the jump drives. While charging, you may encounter pirate attacks. Please be prepared for battle.\n(Warning: Any exploration on the map will increase the risk of encounters during charging.)
 105020  Charging complete, please leave the sector.

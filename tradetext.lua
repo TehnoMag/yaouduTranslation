@@ -849,7 +849,7 @@ DTM004[264] = function(text1)
 end
 
 DTM004[265] = function(text1)
-	local iText="Emergency jump requires antimatter fuel of "..text1..". Please confirm whether you need emergency charging."
+	local iText="Emergency jump requires "..text1.." antimater fuel units."
 	return iText
 end
 
@@ -949,7 +949,7 @@ DTM004[286] = "super giant"
 
 
 DTM004[290] = function(text1,text2,text3)
-	local iText="You destroyed the entire base and the subsequent reinforcement fleet. In this battle, you received a total of "..text1.." in funds, "..text2.." in combat experience, and "..text3.." in honor points as rewards."
+	local iText="You destroyed the entire base and the subsequent reinforcement fleet. In this battle, you received a total of "..text1.." funds, "..text2.." combat experience, and "..text3.." honor points as rewards."
 	return iText
 end
 
