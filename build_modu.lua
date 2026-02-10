@@ -392,7 +392,7 @@ Locale_Text[3226] = "High-performance elite battleship for later use as the main
 
 
 
---Õ½¶·»ú
+--æˆ˜æ–—æœº
 Locale_Text[5000] = "Large attack drone"
 Locale_Text[5001] = "Equipped with missiles and photon machine guns for effective anti-aircraft operations"
 Locale_Text[5010] = "Spear interceptor"
@@ -404,7 +404,7 @@ Locale_Text[5025] = "Strategic bomber - Flying Dragon"
 Locale_Text[5026] = "A bomber that carries super-heavy anti-ship missiles, but needs to return to reload after each drop, and can only dock Sotoya-class supercarriers"
 
 
---Æì½¢
+--æ——èˆ°
 Locale_Text[6000] = "Radiant Ruler"
 Locale_Text[6001] = "Super dreadnought used by the Raven Sector fleet, with the most firepower"
 
@@ -443,18 +443,18 @@ Locale_Text[6081] = "Star Destroyer with a super beam main cannon that can destr
 
 
 
-Locale_Text[6085] = "ÃüÔË¼¶Õ½ÕùÄ¸½¢"
-Locale_Text[6086] = "ÓµÓĞÇ¿´óÔËÔØÄÜÁ¦µÄÕ½ÕùÄ¸½¢£¬¿ÉÒÔÕÙ»½´óÁ¿½¢ÔØ»úÖ§Ô®Õ½¶·"                          
+Locale_Text[6085] = "Destiny-Class Warship"
+Locale_Text[6086] = "A warship with powerful carrying capacity can call upon a large number of carrier-based aircraft to support combat."                          
 
 
 Locale_Text[6095] = "Order-class dreadnought"
 Locale_Text[6096] = "A newly developed strong attack dreadnought of the Fai'ri Empire, carrying a large number of frigates to support the war effort." 
 
-Locale_Text[6100] = "ÁÑºÛ2HĞÍ¹¤³ÌĞÍ"
-Locale_Text[6101] = "´óĞÍÕ½ÁĞ½¢¼¶¹¤³ÌÄ¸½¢"  
+Locale_Text[6100] = "Crack 2H Type Engineering Ship"
+Locale_Text[6101] = "Large battleship-class engineering mothership."  
 
 
---»¤ÎÀ½¢
+--æŠ¤å«èˆ°
 Locale_Text[7000] = "Forwarder-class 425-gun support frigate"
 Locale_Text[7001] = "Frigate armed with one 425mm heavy gun, primarily used to provide gunfire support"
 Locale_Text[7010] = "Thunderer-class railgun"
@@ -462,7 +462,7 @@ Locale_Text[7011] = "Anti-flagship mass-produced railgun that relies on range ad
 Locale_Text[7020] = "White Sheep class frigate MK2 type"
 Locale_Text[7021] = "Mass-produced Imperial frigate, very vulnerable, relies on numbers to gain advantage"
 
---Ö÷Á¦½¢
+--ä¸»åŠ›èˆ°
 Locale_Text[8000] = "Light feather class support carrier"
 Locale_Text[8001] = "Auxiliary light carrier, mainly used to deploy various defense platforms"
 
@@ -479,7 +479,7 @@ Locale_Text[8040] = "Aggressor-class missile siege ship"
 Locale_Text[8041] = "A new missile siege ship developed by the Fai'ri Empire that can be quickly mass-produced to strike large enemy flagships"
 
 
---Ä£¿é
+--æ¨¡å—
 Locale_Text[9000] = "Drone combat module"
 Locale_Text[9001] = "Mili-class carriers will become fearsome battlefield rulers, automatically releasing a large number of heavy drones and anti-ship drones to sweep away all enemy fleets within range"
 Locale_Text[9005] = "Anti-ship drone gnak"
@@ -492,7 +492,7 @@ Locale_Text[9016] = "Yari-class carriers will become powerful long-range missile
 
 
 
---·ÀÓùËş
+--é˜²å¾¡å¡”
 Locale_Text[10000] = "Small missile defense tower"
 Locale_Text[10001] = "Fires small anti-ship missiles, used to counter enemy battleships"
 
