@@ -5,11 +5,11 @@ Locale_Text = {}
 Locale_Text[100] = "Battleship call beacon"
 Locale_Text[101] = "Summon medium and large battleships cruising in the nearby star zone to jump to the front line to support the battle"
 Locale_Text[110] = "Bloodshed class battleship"
-Locale_Text[111] = "一种装甲坚固拥有快速激光武器的先进战舰,研发前置条件:主力舰模块"
+Locale_Text[111] = "An advanced warship with robust armor and fast-firing laser weapons. Prerequisites: Capital Ship Module."
 Locale_Text[120] = "Missile dreadnought"
-Locale_Text[121] = "一种装备了堡垒级飞弹的巨型无畏舰,研发前置条件:主力舰模块 中级军备科技 战列舰科技"
+Locale_Text[121] = "A massive dreadnought equipped with fortress-class missiles. Prerequisites: Capital Ship Module, Intermediate Armament Technology, Battleship Technology."
 Locale_Text[130] = "Fury of Makarn"
-Locale_Text[131] = "移动的战争要塞，可怕的超巨型战舰,研发前置条件:主力舰模块 导弹无畏舰科技 中级军备科技 战列舰科技"
+Locale_Text[131] = "Mobile war fortress, terrifying super-giant warships. Prerequisites: Capital Ship Module, Missile Dreadnought Technology, Intermediate Armament Technology, Battleship Technology."
 Locale_Text[140] = "Bloodshed-class battleship emergency call"
 Locale_Text[141] = "Urgent summoning of a Bloodblade-class battleship by consuming a large amount of resources"
 Locale_Text[150] = "Laser assault ship formation"
@@ -40,9 +40,9 @@ Locale_Text[311] = "new laser beam frigate, restrains frigates and battleships"
 Locale_Text[320] = "Anti-aircraft missile destroyer"
 Locale_Text[321] = "elite anti-aircraft destroyer equipped with the latest anti-aircraft missiles"
 Locale_Text[330] = "Unicorn-class heavy cruiser"
-Locale_Text[331] = "装备了高能激光武器和反舰导弹的大型战舰 前置科技：初级科技 巡洋舰模块 轻巡洋舰科技"
+Locale_Text[331] = "Large warships equipped with high-energy laser weapons and anti-ship missiles. Prerequisites: Basic technology, Cruiser module, Light cruiser technology."
 Locale_Text[340] = "Vanguard-class light cruiser"
-Locale_Text[341] = "一种结构简单,适合大量生产的轻型巡洋舰 前置条件：巡洋舰模块"
+Locale_Text[341] = "A simple, mass-producible light cruiser. Prerequisites: Cruiser module."
 Locale_Text[350] = "Anti-aircraft missile tower"
 Locale_Text[351] = "Anti-aircraft missile tower, suitable for anti-boat attacks"
 Locale_Text[355] = "heavy defense platform"
@@ -137,7 +137,7 @@ Locale_Text[631] = "A small trading ship that can generate 40 RU of resources ev
 
 
 Locale_Text[640] = "Josef Mengele class giant engineering dock"
-Locale_Text[641] = "巨型船坞工程舰，拥有超高效的修理能力，可以释放小型工程舰维修整个舰队,研发前置条件:主力舰模块 导弹无畏舰科技 中级军备科技 战列舰科技"
+Locale_Text[641] = "The giant dockyard ship possesses highly efficient repair capabilities, capable of deploying smaller engineering ships to repair an entire fleet. Prerequisites: Capital Ship Module, Missile Dreadnought Technology, Intermediate Armament Technology, Battleship Technology."
 
 
 Locale_Text[650] = "bow armor shield"
@@ -185,7 +185,7 @@ Locale_Text[790] = "Intruder Fighter Armor - Cavalry type"
 Locale_Text[791] = "An intruder mech that uses a magic carpet bomber as a means of movement, has greater mobility, and can also fire ruby missiles at targets."
 
 Locale_Text[800] = "Star Swallower class heavy refinement ship"
-Locale_Text[801] = "超大型的资源精炼船，可以在最短时间内搜刮光一片小行星带 前置科技：重型战列巡洋舰科技"
+Locale_Text[801] = "A super-large resource refining ship can plunder an entire asteroid belt in the shortest possible time. Prerequisites: Heavy Battlecruiser technology."
 
 Locale_Text[805] = "Makarn's Wrath Fortress Ship - Iron Faust"
 Locale_Text[806] = "Makarn's Wrath fortress ship converted into an air fortress, pre-requisite: legion knight class air battleship"
@@ -207,10 +207,10 @@ Locale_Text[881] = "Large warship equipped with high-energy laser weapons and an
 
 
 Locale_Text[890] = "Chaos Blade Missile Dreadnought"
-Locale_Text[891] = "拥有大量导弹发射平台的重型导弹无畏舰,研发前置条件:主力舰模块 导弹无畏舰科技 中级军备科技 战列舰科技"
+Locale_Text[891] = "The heavy missile dreadnought, equipped with numerous missile launch platforms Prerequisites: Capital Ship Module, Missile Dreadnought Technology, Intermediate Armament Technology, and Battleship Technology."
 
 Locale_Text[900] = "Totem-class modified battleship"
-Locale_Text[901] = "货舰改装成的战列舰,虽然战斗力较差，但是成本相对低廉适合在早期阶段快速发动进攻,建造前置条件:主力舰模块"
+Locale_Text[901] = "While battleships converted from cargo ships have relatively weaker combat capabilities, their lower cost makes them suitable for launching rapid attacks in the early stages. Prerequisites: Capital Ship Module."
 
 Locale_Text[910] = "Totem class modified carrier"
 Locale_Text[911] = "The heavy-duty carrier converted from a cargo ship has a stronger structure than traditional carriers and can release more carrier-based fighters"
@@ -223,26 +223,26 @@ Locale_Text[930] = "Broken Blade"
 Locale_Text[931] = "Simplified version of Broken Blade, with better mobility and better crafting cost"
 
 Locale_Text[940] = "Monument-class Laser Dreadnought"
-Locale_Text[941] = "大型激光炮无畏舰，发射高能激光束来摧毁自己的目标,,研发前置条件:主力舰模块 初级军备科技 战列舰科技"
+Locale_Text[941] = "Large laser-cannon dreadnoughts fire high-energy laser beams to destroy their targets. Prerequisites: Capital Ship Module, Basic Armaments Technology, Battleship Technology."
 
-Locale_Text[950] = "中型防空平台"
-Locale_Text[951] = "装备了多联装50毫米速射炮的防空平台，可以有效拦截舰载机群 需要：中型平台科技和超空间跃迁模块"
+Locale_Text[950] = "Medium Air Defense Platform"
+Locale_Text[951] = "An air defense platform equipped with multiple 50mm rapid-fire cannons can effectively intercept carrier-based aircraft. Prerequisites: Medium Platform Technology and Hyperspace Warp Module."
 
-Locale_Text[960] = "中型导弹平台"
-Locale_Text[961] = "装备了多联装红宝石导弹的防御平台，可以有效反制敌方主力舰 需要：中型平台科技和超空间跃迁模块"
+Locale_Text[960] = "Medium Missile Platform"
+Locale_Text[961] = "A defensive platform equipped with multiple Ruby missile launchers, capable of effectively countering enemy capital ships. Prerequisites: Medium Platform Technology and Hyperspace Warp Module."
 
-Locale_Text[970] = "大型光束平台"
-Locale_Text[971] = "装备了大型旗舰级激光束的大型防御平台，可以有效反制敌方旗舰级单位 需要：中型平台科技和超空间跃迁模块"
+Locale_Text[970] = "Large Beam Platform"
+Locale_Text[971] = "A large defensive platform equipped with a massive flagship-level laser beam, capable of effectively countering enemy flagship-level units. Prerequisites: Medium Platform Technology and Hyperspace Warp Module."
 
-Locale_Text[980] = "大型导弹平台"
-Locale_Text[981] = "装备了大型红莲导弹的大型防御平台，可以有效反制敌方大型旗舰 需要：重型平台科技和超空间跃迁模块"
+Locale_Text[980] = "Large Missile Platform"
+Locale_Text[981] = "A large defensive platform equipped with massive Crimson Lotus missiles, capable of effectively countering enemy large flagships. Prerequisites: Heavy Platform Technology and Hyperspace Warp Module."
 
-Locale_Text[990] = "大型镭射平台"
-Locale_Text[991] = "装备了大型旗舰级激光束的大型防御平台，可以有效反制敌方主力舰和旗舰 需要：重型平台科技和超空间跃迁模块"
+Locale_Text[990] = "Large Beam Platform"
+Locale_Text[991] = "A large defensive platform equipped with a massive flagship-level laser beam, capable of effectively countering enemy capital ships and flagships. Prerequisites: Heavy Platform Technology and Hyperspace Warp Module."
 
-Locale_Text[1000] = "大型防御前哨"
-Locale_Text[1011] = "装备了大量防御武器的区域性防御前哨，可以有效控制一片星区 需要：重型平台科技和超空间跃迁模块"
+Locale_Text[1000] = "Large Defensive Outpost"
+Locale_Text[1011] = "A regional defensive outpost equipped with a large number of defensive weapons, capable of effectively controlling a sector of stars. Prerequisites: Heavy Platform Technology and Hyperspace Warp Module."
 
-Locale_Text[1010] = "重型防御前哨"
-Locale_Text[1011] = "大型的防御型前哨，装备有多重反舰武器和反舰导弹发射阵列 需要：重型平台科技和超空间跃迁模块"
+Locale_Text[1010] = "Heavy Defensive Outpost"
+Locale_Text[1011] = "A large defensive outpost equipped with multiple anti-ship weapons and anti-ship missile launch arrays. Prerequisites: Heavy Platform Technology and Hyperspace Warp Module."
 
