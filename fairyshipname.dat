@@ -35,7 +35,7 @@ rangestart 60000 69999
 60030 Civilian units
 60031 Water crystals (the larger the crystal body, the more resources it generates, but the slower it is)
 60035 Experimental battleships
-60036  无畏舰
+60036 Dreadnought
 60040 Giant turret
 60050 Armored ship
 60055 Battlecruiser
@@ -78,7 +78,7 @@ rangestart 60000 69999
 60700 Cuirassier Destroyer
 60701 Subtle Destroyer
 60705 Subtle Destroyer Anti-Aircraft
-60706  兼顾机动和火力，远征舰队的突击驱逐舰
+60706 Balancing mobility and firepower, the expeditionary fleet's assault destroyers
 60710 Executioner Cruiser
 60711 Reaper Cruiser
 60712 Remover Cruiser
@@ -163,7 +163,7 @@ rangestart 60000 69999
 61450 Dawnbreaker I Battleship
 61455 Civilian Mining Craft
 61460 Reincarnation Class Dreadnought MK2
-61462  轮回级无畏舰MK2型-滚雷
+61462 Reincarnation Class Dreadnought Mk2 - Rolling Thunder
 61465 5300mm Heavy Gun Group
 61466 Super Caliber Anti-Flagship Mega Gun
 61470 Ion Cannon Mega Cannon Array
@@ -458,11 +458,11 @@ rangestart 60000 69999
 62990 Phantom IV Ranger
 63005 Illusion V Tsunami
 63010 Illusion VIII Hunter
-63011  迅捷炮兵装
+63011 Swift Artillery Emplacement
 63015 Illusion X Nightingale
-63016  重破者兵装
-63017  星闪炮兵装
-63018  共鸣者兵装  重骑式样
+63016 Heavy Breaker Weapon
+63017 Star Flash Artillery
+63018 Resonator Armor - Heavy Cavalry Style
 63020 Illusion XII Divine Will
 63025 Phantom 4 \n city-breaking artillery suit
 63030 Illusion 5 \n scattered sword soldier
@@ -559,8 +559,8 @@ rangestart 60000 69999
 64105 Frigate Leader
 64106 Arithier Class Broken Dreadnought
 64110 Jormungandr broke delivery dreadnought
-64111  兑换耶梦加得号蓝图
-64112  分解耶梦加得号蓝图
+64111 Exchange Jormungandr Blueprint
+64112 Disassemble the Jormungandr blueprint
 64115 Quadruple 812MM electromagnetic gun
 64120 Quadruple rapid-fire 152MM electromagnetic gun
 64125 Six 356MMAATIS
@@ -586,307 +586,307 @@ rangestart 60000 69999
 64215 A mighty bombardment ship, the backbone of the fleet
 64220 Fulong Carrier
 64225 Multipurpose Combat Support Carrier, Fleet Core
-64230  命运级战争母舰
-64235  拥有强大运载能力的战争母舰
-64240  三叉戟一式
-64250  召唤幻象8猎兵
-64255  召唤幻象X夜莺
-64260  召唤三叉戟一式
-64265  裂痕2H型工程型
-64266  大型战列舰级工程母舰
-64270  晨曦号
-64271  诺亚集团修复的维格尔超级战舰
-64275  分解晨曦号蓝图
-64276  兑换晨曦号蓝图
-64280  影歌级特勤舰
-64281  菲莉妲艾特种军制式特勤舰
-64290  蜂箱级重型矿业母舰
-64291  被当作移动矿业基地的重型采矿母舰
-64300  六连装88毫米防空炮
-64301  高精度防空速射炮
-64310  兑换蜂箱级蓝图
-64311  分解蜂箱级蓝图
-64320  大黄蜂采矿浮游炮
-64321  大型舰载浮游炮
-64330  蜂鸟突击艇
-64331  装备了88毫米加特林炮的突击炮艇
-64340  犀牛武装运输艇
-64341  民用运输艇改装的88毫米防御炮艇
-64350  竹节虫大型运输驳船轰炸型
-64351  超重型运输鱼雷艇
-64360  MTXL03超级钻头
-64361  超重型鱼雷
-64370  暴雨级光束轨道炮
-64371  聚焦式光束轨道炮
-64380  阔刃MK4型战列巡洋舰
-64381  拥有全面战斗能力的大型战列巡洋舰
-64390  分解暴雨级轨道炮蓝图
-64391  兑换暴雨级轨道炮蓝图
-64400  兵蚁级防空炮艇
-64401  装备两座全向炮塔的防空炮艇
-64410  分解轮回级蓝图
-64411  兑换轮回级蓝图
-64420  薄暮级舰队航母
-64421  大型防空舰队航母
-64422  分解大G航母蓝图
-64423  兑换大G航母蓝图
-64430  晨辉级舰队航母
-64431  大型防空舰队航母
-64432  分解晨辉级蓝图
-64433  兑换晨辉级蓝图
-64440  远行者MK3型-霞光
-64441  远行者系列的最新型号
-64450  苍城级导弹袭击舰
-64451  装备了4座重型攻城导弹发射器的高速袭击舰
-64460  飞光级袭击舰
-64461  装备了长程光束炮的高速袭击舰
-64470  流影
-64471  流影
-64480  铁球工程艇
-64481  中型舰载工程艇
-64490  铁球无人战斗艇小队
-64491  衍生中型型战斗无人艇编队
-64500  铁桶无人工程机
-64501  小型工程艇
-64510  铁桶无人机小队
-64511  衍生小型战斗无人艇编队
-64520  负鼠精炼船
-64521  经过防空改装的精炼船
-64530  绚丽深渊级无畏舰
-64531  绚丽深渊，当你注视深渊，深渊早把你看光了
-64540  重型舰载炮塔
-64541  双联装1400狙击炮
-64542  大型离子束发射器
-64550  大型舰载炮塔
-64551  大型1400狙击炮
-64552  大型18联装速射防空炮
-64560  中型炮塔
-64561  中型离子炮发射器
-64562  1400毫米散弹炮
-64570  小型炮塔
-64571  3联装防空速射炮
-64572  小型脉冲炮塔
-64573  火控引导炮塔
-64580  铁剑防空导弹
-64581  微型防空导弹
-64590  龙雀反舰导弹
-64591  高速突防导弹
-64600  锏鱼雷
-64601  反舰鱼雷
-64610  即死魔眼
-64611  零号舰队与妖精重工合作建造的行星级巨构，拥有强大功能的它时刻注视着往来的舰船
-64620  幻象III凰遂
-64621  幻象3型\n共鸣者兵装 重骑式样
-64630  幻象XII神意
-64631  幻象12型\n星闪炮兵装
-64640  疾风级战列舰
-64641  与归乡者军事合作的产物，搭载双联装高精度长程光矛
-64650  疾风级战舰-追猎者
-64651  大型战列舰，拥有不错的防空火力
-64660  疾风防御型-磐岩级
-64661  配备了临时加装掩体的疾风级高速战舰
-64670  双联装光矛炮塔
-64671  瞬间高输出能量光束
-64680  双联装光矛炮塔
-64681  瞬间高输出能量光束
-64690  6联装88毫米速射炮B型
-64691  防空速射炮装甲加强型
-64700  附加装甲
-64701  临时悬挂的外附加装甲
-64710  分解绚丽深渊级蓝图
-64711  兑换绚丽深渊级蓝图
-64720  分解疾风级蓝图
-64721  兑换疾风级蓝图
-64730  魔女级战斗运载舰
-64731  阿因特斯三级战术分队指挥舰，拥有一定战斗力的运载舰
-64740  女巫级重型舰队航母
-64741  菲雅利帝国中型舰队指挥舰，更侧重运载和指挥能力的战斗运载舰。
-64750  分解魔女级蓝图
-64751  兑换魔女级蓝图
-64760  分解女巫级蓝图
-64761  兑换女巫级蓝图
-64770  游魂级战列运载舰
-64771  CPSR公司的危险区域探险综合船
-64780  分解幽魂级蓝图
-64781  兑换幽魂级蓝图
-64790  幽魂级标准星域防御战列舰
-64791  CPSR研究院推出的血刃改型量产战列舰
-64800  荣光联合级无畏舰
-64801  六年如瞬，初心无悔；共历征途，终抵繁星；联合牢不可破!
-64810  神剑勇者号无畏舰
-64811  守护之盾，勇气之剑，希望之翼。为小勇者们的大冒险，献上繁星的祝福
-64820  大型光矛投射装置
-64830  大型重击炮
-64840  分解荣光联合级
-64841  兑换荣光联合级
-64850  玄灵级星区防御无畏舰
-64851  CPSR在超大型战舰技术方面从零到壹的突破性产品
-64860  CPSR驻帝国殖民地贸易空间站
-64861  似乎不仅仅是个商业空间站
-64870  分解玄灵级蓝图
-64871  兑换玄灵级蓝图
-64880  陨星级战列驱逐舰
-64881  杀人越货、近地支援、轨道轰炸、战列对线
-64890  零点MF10TYX巡洋舰
-64891  通用战斗巡洋平台
-64900  零点LF11DXJ导弹攻城舰
-64901  反旗舰导弹巡洋平台
-64910  零点MS10JLC精炼船
-64911  大型精炼支援舰
-64920  零点LS10YGC遥修支援舰
-64921  维修友方单位
-64930  卫星岗哨-防空脉冲炮
-64931  防空岗哨
-64940  卫星岗哨-通用导弹发射器
-64941  区域反舰岗哨
-64950  卫星岗哨-反舰电磁炮
-64951  反旗舰岗哨
-64960  雷雨级突击舰
-64961  多用途突击舰
-64970  AH支援装甲
-64971  小型单兵工程支援单位
-64980  AH防卫装甲
-64981  小型单兵防卫单位
-64990  AH防卫装甲
-64991  小型单兵防卫单位
-65000  真银之锋
-65001  主力舰级前卫舰
-65010  小型速射光束炮塔
-65011  小型速射光束炮塔
-65020  分解真银之锋蓝图
-65021  兑换真银之锋蓝图
-65030  超级兵蜂战斗无人机
-65031  兵蜂?Ultra ?Pro ?Max ?Plus
-65040  狂蜂轰炸无人机
-65041  当你发现狂蜂，你可能已经被包围了
-65050  大铁盒前线支援机
-65051  飞行员的救赎
-65060  波铁亚战机级突击兵装
-65061  75自动炮可能是个束缚器
-65070  波铁亚战舰级运载舰装
-65071  你脑补一下用触手扔飞机以提高起降效率
-65080  触手失控的绚丽深渊级
-65090  被重创的荣光联合级
-65100  凰火级战斗轰炸机
-65101  拳打幼儿园，脚踢敬老院，杀人越货上佳之选
-65110  暮光级轻型战列舰
-65111  老式火炮战列舰
-65120  暴风骑士级战列巡洋舰
-65121  CPSR游魂级战斗运载舰的常备护卫舰
-65130  JZ-805飞梭
-65131  CPSR自行研发的空优战斗机
-65140  J-085侧卫
-65141  CPSR自行研发的无人截击机
-65150  H-8512恶意
-65151  CPSR自行研发的无人轰炸机
-65160  夕语级摧星巨舰华格那
-65161  双模式攻击舰
-65170  夕语级摧星航母 洛伦希尔德
-65171  双机库运载舰
-65180  幻象XIV无想
-65181  散剑重破者兵装\n第三序列制式式样
-65190  流影II
-65191  防卫浮游炮
-65200  分解洛伦希尔德蓝图
-65201  兑换洛伦希尔德蓝图
-65210  分解华格那蓝图
-65211  兑换华格那蓝图
-65220  召唤幻象XIV无想
-65230  召唤防卫解放者
-65240  召唤三叉戟A
-65250  召唤长矛舰载机
-65260  召唤剃刀舰载机
-65270  召唤超级兵蜂战斗无人机
-65280  召唤狂蜂轰炸无人机
-65290  召唤波铁亚战机级突击兵装
-65300  召唤凰火级战斗轰炸机
-65310  召唤铁球无人战斗艇小队	
-65320  召唤铁桶无人机小队	
-65330  召唤蜂鸟突击艇	
-65340  召唤竹节虫大型运输驳船轰炸型	
-65350  召唤犀牛武装运输艇
-65360  召唤恐爪
-65370  召唤黑翼炮艇
-65380  前线运输艇	
-65381  特种载具运输艇
-65390  探针级预警车
-65391  快速侦查车
-65400  先进轰炸机-撞针
-65401  飞梭空优战斗机的轰炸型号
-65410  召唤大铁盒支援机
-65420  召唤飞镖无人机
-65430  召唤飞镖轰炸机
-65440  AH防卫装甲
-65445  召唤撕裂爪无人机
-65450  巨型战术航母
-65451  巨型战术航母
-65460  告诫级超级装甲支援航母
-65461  超级装甲支援航母
-65470  分解告诫级蓝图
-65480  兑换告诫级蓝图
-65490  铁卫多功能机动镇爆装置
-65491  CPSR出品的一种用于星球内和近地轨道防御的畅销产品
-65500  誓约级无畏舰-皓银
-65501  大型反旗舰电磁炮塔无畏舰
-65510  双联装1500毫米电磁炮
-65511  重型远程轨道电磁炮
-65520  分解誓约级蓝图
-65521  兑换誓约级蓝图
-65530  远行者级超空间潜航型
-65531  （（（（呐））））
-65540  誓约级无畏舰-皓银极光
-65541  大型超级旗舰离子炮无畏舰
-65550  裂痕MK3A型
-65551  裂痕MK3C型
-65552  最新一代电磁炮战列舰
-65553  单装重型电磁炮
-65554  单装大型电磁炮
-65555  单装防空速射炮
-65560  超重型狙击舰
-65565  重型战术航母
-65570  摧星级战术航母
-65580  千月级轻型工程航母
-65581  可以搭载少量工程艇的工程航母
-65590  碎月级工程艇
-65591  轻型工程维修艇
-65600  超重型战术舰
-65601  装备了多个大型武器位的实验性战术舰
-65610  轻型战术炮艇
-65611  反战机轻型炮艇
-65620  轻型脉冲战术炮艇
-65621  反炮艇轻型炮艇
-65630  重型战术炮艇
-65631  重型反战机战术炮艇
-65640  重型脉冲战术炮艇
-65641  重型反炮艇战术炮艇
-65645  超重型战术炮艇
-65650  第八代女皇级摧星巨舰
-65651  菲雅利帝国的荣耀与象征
-65660  超旗舰级主炮塔
-65661  三联装超旗舰级5300毫米超身管加农炮
-65665  三联装超旗舰级3500毫米电磁轨道炮
-65670  三联装超旗舰级离子加农炮
-65675  三联装超旗舰级光线导弹发射器
-65680  三联装超旗舰级反舰导弹发射器
-65690  龙炎超旗舰级反舰导弹
-65691  龙炎超旗舰级反舰导弹
-65700  刺蜂级轻型炮艇
-65701  轻型防空炮艇
-65710  甲蜂级防空炮艇
-65711  防空炮艇
-65720  胡蜂级大型炮艇
-65721  大型防空炮艇
-65730  熊蜂级重型炮艇
-65731  重型防空炮艇
-65740  马蜂级超重型炮艇
-65741  超重型炮艇
-65750  分解第八代女皇级蓝图
-65751  兑换第八代女皇级蓝图
-65760  剃刀轰炸型
-65761  携带了一颗反舰导弹的剃刀战斗机
-65770  魑槐级舰队航空母舰
-65771  CPSR与泰坦共和国、库申遗留政府共同开发的舰队航空母舰
-65780  超重型从属舰
-65781  拥有4座巨型炮位的从属舰
+64230 Destiny Class Warship
+64235 Warships with powerful carrying capacity
+64240 Trident Form 1
+64250 Summon Mirage 8 Hunter
+64255 Summoning Illusion X Nightingale
+64260 Summoning Trident I
+64265 Crack 2H type engineering type
+64266 Large battleship-class engineering mothership
+64270 Dawn
+64271 The Vaygr super battleship repaired by Noah Group
+64275 Deconstruct the Dawn Blueprint
+64276 Exchange Dawn Blueprint
+64280 Shadowsong Class Special Operations Ship
+64281 Philidai Special Forces Standard Special Operations Ship
+64290 Beehive-class heavy mining mothership
+64291 Heavy mining motherships used as mobile mining bases
+64300 Six-tube 88mm anti-aircraft gun
+64301 High-precision anti-aircraft rapid-fire gun
+64310 Exchange for Beehive-grade Blueprints
+64311 Deconstruct the beehive-level blueprint
+64320 Bumblebee Mining Float Cannon
+64321 Large shipborne floating cannons
+64330 Hummingbird Assault Craft
+64331 Assault gunboat equipped with an 88mm Gatling gun
+64340 Rhino Armored Transport Boat
+64341 88mm defensive gunboat converted from civilian transport boat
+64350 Stick insect large transport barge bombing type
+64351 Super-heavy transport torpedo boat
+64360 MTXL03 Super Drill Bit
+64361 super heavy torpedo
+64370 Rainstorm-class beam railgun
+64371 Focused beam railgun
+64380 Broadblaze MK4 battlecruiser
+64381 Large battlecruisers with comprehensive combat capabilities
+64390 Deconstruct the Rainstorm-class railgun blueprint
+64391 Exchange for Rainstorm-class railgun blueprints
+64400 Soldier Ant-class anti-aircraft gunboat
+64401 Anti-aircraft gunboat equipped with two omnidirectional turrets
+64410 Deconstruct the Cycle Blueprint
+64411 Exchange for Reincarnation-level Blueprints
+64420 Twilight-class fleet carriers
+64421 Large air defense fleet aircraft carrier
+64422 Deconstruct the G-class aircraft carrier blueprint
+64423 Exchange for the G-class aircraft carrier blueprint
+64430 Morning Light-class fleet carrier
+64431 Large air defense fleet aircraft carrier
+64432 Deconstruct the Dawn Blueprint
+64433 Exchange for Dawn-class blueprints
+64440 Far Traveler MK3 - Dawn
+64441 The latest model in the Faraway series
+64450 Cangcheng-class guided missile assault ship
+64451 High-speed assault ship equipped with four heavy siege missile launchers
+64460 Flying Light-class Raider
+64461 High-speed assault ship equipped with long-range beam cannon
+64470 Flowing shadow
+64471 Flowing shadow
+64480 Iron Ball Engineering Boat
+64481 Medium-sized shipborne engineering vessel
+64490 Iron Ball Unmanned Combat Craft Squadron
+64491 Derivative medium-sized combat unmanned surface vessel formation
+64500 Iron Bucket Unmanned Engineering Machine
+64501 small engineering boat
+64510 Iron Bucket Drone Squad
+64511 Derivative small combat unmanned surface vessel formation
+64520 Opossum Refining Ship
+64521 Refining ship modified for air defense
+64530 Brilliant Abyss-class Dreadnought
+64531 A magnificent abyss; when you gaze into the abyss, the abyss has already seen everything.
+64540 Heavy shipborne turret
+64541 Twin-mounted 1400mm sniper gun
+64542 Large ion beam emitter
+64550 Large shipborne turret
+64551 Large 1400 sniper cannon
+64552 Large 18-tube rapid-fire anti-aircraft gun
+64560 Medium turret
+64561 Medium-sized ion cannon launcher
+64562 1400mm shotgun
+64570 small turret
+64571 Triple-mounted anti-aircraft rapid-fire gun
+64572 Small pulse turret
+64573 Fire control guided turret
+64580 Iron Sword anti-aircraft missile
+64581 Miniature anti-aircraft missile
+64590 Dragon Sparrow anti-ship missile
+64591 High-speed penetration missile
+64600 Mace Torpedo
+64601 anti-ship torpedoes
+64610 Death Eye
+64611 The planetary-sized megastructure, built in collaboration between Fleet Zero and Fairy Heavy Industries, possesses powerful functions and constantly monitors passing ships.
+64620 Illusion III: Phoenix's Lair
+64621 Illusion Type 3\nResonator Armor Heavy Cavalry Style
+64630 Illusion XII Divine Will
+64631 Mirage Type 12\nStar Flash Artillery Armament
+64640 Gale-class battleship
+64641 A product of military cooperation with the homecoming group, equipped with a twin-mounted high-precision long-range optical lance.
+64650 Gale-class battleship - Hunter
+64651 Large battleships with decent anti-aircraft firepower
+64660 Gale Defense Type - Rock Class
+64661 The Gale-class high-speed warships were equipped with temporary bunkers.
+64670 Twin-mounted light spear turret
+64671 Instantaneous high-output energy beam
+64680 Twin-mounted light spear turret
+64681 Instantaneous high-output energy beam
+64690 6-tube 88mm rapid-fire gun Type B
+64691 Anti-aircraft rapid-fire gun armor-enhanced version
+64700 additional armor
+64701 Temporary attached armor
+64710 Disassembling the magnificent Abyss-level blueprint
+64711 Exchange for dazzling Abyss-grade blueprints
+64720 Deconstruct the Gale-class blueprint
+64721 Exchange for Gale-class blueprints
+64730 Witch-class combat transport ship
+64731 AINTES Class III tactical squadron command ship, a transport ship with a certain combat capability
+64740 Witch-class heavy fleet carrier
+64741 The Fairy Empire's medium-sized fleet command ship, a combat transport ship that places greater emphasis on transport and command capabilities.
+64750 Disassemble Witch-level Blueprints
+64751 Exchange Witch-level Blueprints
+64760 Disassemble the Witch-level blueprint
+64761 Exchange Witch-level Blueprints
+64770 Ghost-class battleship
+64771 CPSR's Dangerous Area Exploration Vessel
+64780 Disassemble Ghost-class blueprints
+64781 Exchange Ghost-level blueprints
+64790 Ghost-class standard starfield defense battleship
+64791 CPSR Research Institute launches the Bloodblade modified mass-production battleship
+64800 Glory-class Dreadnought
+64801 Six years have passed in the blink of an eye, but our initial aspirations remain unchanged; together we have traversed the journey and finally reached the stars; our bond is unbreakable!
+64810 Divine Sword Warrior Dreadnought
+64811 A shield of protection, a sword of courage, wings of hope. May the stars bless the little heroes on their grand adventure.
+64820 Large light lance projection device
+64830 Large heavy artillery
+64840 Disintegration of the Glory Joint-Class
+64841 Exchange for Glory Union Class
+64850 Xuanling-class sector defense dreadnought
+64851 CPSR's groundbreaking product in ultra-large warship technology, taking it from zero to one.
+64860 CPSR Trade Space Station in Imperial Colonies
+64861 It seems to be more than just a commercial space station
+64870 Deconstructing the Mystic-level Blueprint
+64871 Exchange for Xuanling-level blueprints
+64880 Meteorite-class battle destroyer
+64881 Murder and looting, close air support, orbital bombardment, battleship confrontation
+64890 Zero Point MF10TYX Cruiser
+64891 General Purpose Battlecruiser Platform
+64900 Zero Point LF11DXJ Missile Siege Ship
+64901 Anti-flagship missile cruiser platform
+64910 Zero Point MS10JLC Refining Ship
+64911 Large Refining Support Ship
+64920 Zero Point LS10YGC Remote Repair Support Ship
+64921 Repairing friendly units
+64930 Satellite Sentry - Anti-aircraft Pulse Cannon
+64931 Air raid sentry post
+64940 Satellite Sentry - Universal Missile Launcher
+64941 Area anti-ship outposts
+64950 Satellite Sentinel - Anti-Ship Electromagnetic Gun
+64951 Anti-flagship sentry
+64960 Thunderstorm-class assault ship
+64961 Multipurpose assault ship
+64970 AH Support Armor
+64971 Small individual engineering support unit
+64980 AH Defensive Armor
+64981 Small individual defense units
+64990 AH Defensive Armor
+64991 Small individual defense units
+65000 True Silver Edge
+65001 Main battleship vanguard
+65010 Small rapid-fire beam turret
+65011 Small rapid-fire beam turret
+65020 Disassemble the True Silver Edge blueprint
+65021 Exchange for True Silver Edge Blueprint
+65030 Super Soldier Bee Combat Drone
+65031 soldier bee?Ultra ?Pro ?Max ?Plus
+65040 Mad Bees Bombing Drones
+65041 When you spot a swarm of bees, you're probably already surrounded.
+65050 Large metal box frontline support aircraft
+65051 pilot's redemption
+65060 Boteya fighter jet-class assault equipment
+65061 The 75mm automatic cannon might be a restraint device.
+65070 Pottias-class transport ship equipment
+65071 Imagine using tentacles to throw airplanes to improve takeoff and landing efficiency.
+65080 The dazzling abyss-level tentacles out of control
+65090 The heavily damaged Glory Combined-class
+65100 Phoenix Fire-class fighter-bomber
+65101 Punching up kindergartens, kicking nursing homes, and murdering/robbery are all excellent choices.
+65110 Twilight-class light battleship
+65111 Old-fashioned gun battleship
+65120 Storm Knight-class battlecruiser
+65121 CPSR Ghost-class combat transport ship's regular escort
+65130 JZ-805 Flying Shuttle
+65131 CPSR's independently developed air superiority fighter
+65140 J-085 Flanker
+65141 CPSR's self-developed unmanned interceptor
+65150 H-8512 malicious
+65151 CPSR's self-developed unmanned bomber
+65160 Evening Whisper-class Star Destroyer Vagra
+65161 Dual-mode attack ship
+65170 Yuuki-class Star Destroyer Carrier, Lorenhild
+65171 Double hangar carrier
+65180 Illusion XIV No Thought
+65181 Scattered Sword Breaker Weaponry\nThird Sequence Standard Design
+65190 Liuying II
+65191 Defensive floating guns
+65200 Deconstructing the Lorenhild Blueprint
+65201 Exchange for Lorenhild Blueprint
+65210 Deconstructing the Wagner Blueprint
+65211 Exchange Wagner Blueprint
+65220 Summoning Illusion XIV: No Thought
+65230 Summon Defense Liberators
+65240 Summon Trident A
+65250 Summoning Spear-based aircraft
+65260 Summon Razor carrier-based aircraft
+65270 Summon Super Soldier Bee Combat Drones
+65280 Summoning Mad Bees to Bombard Drones
+65290 Summoning the Botia fighter-class assault equipment
+65300 Summon Phoenix Fire-class fighter-bomber
+65310 Summoning the Iron Ball Unmanned Combat Boat Squadron	
+65320 Summon the Iron Bucket Drone Squad	
+65330 Summoning Hummingbird Assault Craft	
+65340 Summoning Stick Insects Large Transport Barge Bombing Type	
+65350 Summon Rhino Armored Transport Ship
+65360 Summon Dreadclaw
+65370 Summon Blackwing Gunship
+65380 Frontline transport boat	
+65381 Special vehicle transport boat
+65390 Probe-level early warning vehicle
+65391 rapid reconnaissance vehicle
+65400 Advanced Bomber - Firing Pin
+65401 bomber variant of the Flying Shuttle air superiority fighter
+65410 Summon the large metal box support unit
+65420 Summon Dart Drone
+65430 Summon Dart Bomber
+65440 AH Defensive Armor
+65445 Summon Tearclaw Drone
+65450 Giant Tactical Aircraft Carrier
+65451 Giant Tactical Aircraft Carrier
+65460 Warning-class super armored support aircraft carrier
+65461 Super Armored Support Carrier
+65470 Decompose the warning-level blueprint
+65480 Exchange Warning-level Blueprints
+65490 Iron Guard Multifunctional Mobile Bomb Suppression Device
+65491 A best-selling product from CPSR for intraplanetary and near-Earth orbit defense.
+65500 Oath-class Dreadnought - Silver
+65501 Large anti-flagship electromagnetic gun turret dreadnought
+65510 Twin-mounted 1500mm electromagnetic railgun
+65511 Heavy Long-Range Railgun
+65520 Decompose the Oath-level Blueprint
+65521 Exchange for Oath-level Blueprints
+65530 Farseeer-class hyperspace submarine
+65531 ((((Na))))
+65540 Oath-class Dreadnought - Silver Aurora
+65541 Large super flagship ion cannon dreadnought
+65550 Cracked MK3A
+65551 Cracked MK3C
+65552 The latest generation of electromagnetic railgun battleships
+65553 Single-mounted heavy electromagnetic railgun
+65554 Single-mounted large electromagnetic railgun
+65555 Single-mounted anti-aircraft rapid-fire gun
+65560 Super Heavy Sniper Ship
+65565 Heavy tactical aircraft carrier
+65570 Star-destroying tactical aircraft carrier
+65580 Thousand-Moon-class light engineering aircraft carrier
+65581 Engineering aircraft carrier capable of carrying a small number of engineering vessels
+65590 Shattered Moon-class engineering vessel
+65591 Light engineering maintenance boat
+65600 super-heavy tactical ship
+65601 An experimental tactical ship equipped with multiple large weapon bays
+65610 Light tactical gunboat
+65611 Anti-aircraft light gunboat
+65620 Light pulse tactical gunboat
+65621 Anti-gunboats and light gunboats
+65630 Heavy tactical gunboat
+65631 Heavy anti-aircraft tactical gunboat
+65640 Heavy pulse tactical gunboat
+65641 Heavy anti-gunboat tactical gunboat
+65645 super-heavy tactical gunboat
+65650 Eighth generation Empress-class star-destroying behemoth
+65651 The glory and symbol of the Fialy Empire
+65660 Super flagship main turret
+65661 Triple-mounted super-flagship 5300mm super-barreled cannon
+65665 Triple-mounted super-flagship 3500mm electromagnetic railgun
+65670 Triple-mounted ultra-flagship ion cannon
+65675 Triple-mounted super flagship-level light missile launcher
+65680 Triple-mounted super flagship-class anti-ship missile launcher
+65690 Dragon Flame Super Flagship Anti-Ship Missile
+65691 Dragon Flame Super Flagship Anti-Ship Missile
+65700 Stinger Bee-class light gunboat
+65701 Light anti-aircraft gunboat
+65710 Bee-class anti-aircraft gunboat
+65711 Anti-aircraft gunboat
+65720 Wasp-class large gunboat
+65721 Large anti-aircraft gunboat
+65730 Bumblebee-class heavy gunboat
+65731 Heavy anti-aircraft gunboat
+65740 Mass-class super-heavy gunboat
+65741 super heavy gunboat
+65750 Deconstructing the Eighth Empress-level Blueprint
+65751 Exchange for the eighth-generation Empress-level blueprint
+65760 Razor Bombing
+65761 Razor fighter carrying an anti-ship missile
+65770 Chihuai-class fleet aircraft carrier
+65771 CPSR, in collaboration with the Titan Republic and the Kushin Legacy Government, developed a fleet aircraft carrier.
+65780 super-heavy subordinate ships
+65781 Subordinate ships with four massive gun emplacements
 
 rangeend
