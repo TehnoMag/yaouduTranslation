@@ -990,7 +990,7 @@ end
 DTM004[297] = ", because you have completely destroyed the natural disaster, no new natural disasters will occur for a period of time."
 
 DTM004[298] = function(text1,text2)
-	local iText="You have discovered a wreckage area of ??"..text1.." in the nearby star sector. It appears a fierce battle has just taken place here. Valuable parts may still be salvageable, and survivors may be available for rescue. Judging from the scale, it seems feasible to conduct "..text2.." salvage operations. Should we organize a fleet for the salvage?"
+	local iText="You have discovered a debris field in the nearby star sector"..text1.." It appears that a fierce battle has just taken place here. There may still be valuable parts that can be salvaged, and there may also be survivors that can be rescued. Judging from the scale, it seems that a "..text2.." salvage operation can be carried out. Should we organize a fleet for the salvage operation?"	
 	return iText
 end
 
@@ -1000,7 +1000,7 @@ end
 
 KE04missionTXT = {}
 KE04missionTXT[001] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10)
-	local iText="??????"..text1.."??,????????,?????????"..text2..""..text3..",?????,????????"..text3..""..text4..","..text5..","..text6.."??"..text7..",?????"..text8.."??"..text9..""..text10..""
+	local iText="You dispatched a fleet"..text1.." After several days of exploration, your fleet discovered a place"..text2..""..text3.." After deliberation, the fleet commander decided to take action on"..text3..""..text4..","..text5..","..text6..""..text7..", exploring the area near"..text8..""..text9..""..text10..""	
 	return iText
 end
 
@@ -1008,143 +1008,143 @@ end
 
 
 KE04missionTXTLV01A01 = {}
-KE04missionTXTLV01A01[001] = "??"
-KE04missionTXTLV01A01[002] = "????"
-KE04missionTXTLV01A01[003] = "??"
-KE04missionTXTLV01A01[004] = "???"
-KE04missionTXTLV01A01[005] = "??"
+KE04missionTXTLV01A01[001] = "small"
+KE04missionTXTLV01A01[002] = "medium"
+KE04missionTXTLV01A01[003] = "large"
+KE04missionTXTLV01A01[004] = "super large"
+KE04missionTXTLV01A01[005] = "giant"
 
 
 KE04missionTXTLV01A02 = {}
-KE04missionTXTLV01A02[001] = "????"
-KE04missionTXTLV01A02[002] = "????"
-KE04missionTXTLV01A02[003] = "????"
-KE04missionTXTLV01A02[004] = "?????"
-KE04missionTXTLV01A02[005] = "?????"
+KE04missionTXTLV01A02[001] = "small"
+KE04missionTXTLV01A02[002] = "medium"
+KE04missionTXTLV01A02[003] = "large"
+KE04missionTXTLV01A02[004] = "super large"
+KE04missionTXTLV01A02[005] = "giant"
 
 KE04missionTXTLV01A03 = {}
-KE04missionTXTLV01A03[001] = "?????"
-KE04missionTXTLV01A03[002] = "????"
-KE04missionTXTLV01A03[003] = "??????"
-KE04missionTXTLV01A03[004] = "?????"
-KE04missionTXTLV01A03[005] = "??????"
-KE04missionTXTLV01A03[006] = "????????"
-KE04missionTXTLV01A03[007] = "?????"
-KE04missionTXTLV01A03[008] = "?????????"
-KE04missionTXTLV01A03[009] = "????"
-KE04missionTXTLV01A03[010] = "?????"
-KE04missionTXTLV01A03[011] = "??????"
-KE04missionTXTLV01A03[012] = "?????"
+KE04missionTXTLV01A03[001] = "ice asteroid belt"
+KE04missionTXTLV01A03[002] = "asteroid belt"
+KE04missionTXTLV01A03[003] = "abandoned energy facilities"
+KE04missionTXTLV01A03[004] = "abandoned residential areas"
+KE04missionTXTLV01A03[005] = "abandoned ammunition depot"
+KE04missionTXTLV01A03[006] = "abandoned steel smelting facilities"
+KE04missionTXTLV01A03[007] = "scrap parts factory"
+KE04missionTXTLV01A03[008] = "abandoned advanced treatment facilities"
+KE04missionTXTLV01A03[009] = "abandoned shipyard"
+KE04missionTXTLV01A03[010] = "abandoned battlefield"
+KE04missionTXTLV01A03[011] = "secret pirate base"
+KE04missionTXTLV01A03[012] = "secret research station"
 
 KE04missionTXTLV01A04 = {}
-KE04missionTXTLV01A04[001] = "????"
-KE04missionTXTLV01A04[002] = "????"
-KE04missionTXTLV01A04[003] = "????"
+KE04missionTXTLV01A04[001] = "mining"
+KE04missionTXTLV01A04[002] = "explore"
+KE04missionTXTLV01A04[003] = "conduct reconnaissance"
 
 KE04missionTXTLV01A05 = {}
-KE04missionTXTLV01A05[001] = "????"
-KE04missionTXTLV01A05[002] = "??"
-KE04missionTXTLV01A05[003] = "????"
+KE04missionTXTLV01A05[001] = "fortunately"
+KE04missionTXTLV01A05[002] = "but"
+KE04missionTXTLV01A05[003] = "fnfortunately"
 
 
 
 KE04missionTXTLV02A01 = {}
-KE04missionTXTLV02A01[001] = "??"
-KE04missionTXTLV02A01[002] = "??"
-KE04missionTXTLV02A01[003] = "??"
+KE04missionTXTLV02A01[001] = "mining"
+KE04missionTXTLV02A01[002] = "explore"
+KE04missionTXTLV02A01[003] = "investigation"
 
 KE04missionTXTLV02A02 = {}
-KE04missionTXTLV02A02[001] = "??????"
-KE04missionTXTLV02A02[002] = "???????"
-KE04missionTXTLV02A02[003] = "?????"
-KE04missionTXTLV02A02[004] = "???????"
-KE04missionTXTLV02A02[005] = "??????"
+KE04missionTXTLV02A02[001] = "It's going very smoothly."
+KE04missionTXTLV02A02[002] = "It's not going very well."
+KE04missionTXTLV02A02[003] = "An accident occurred"
+KE04missionTXTLV02A02[004] = "A serious accident has occurred."
+KE04missionTXTLV02A02[005] = "I've run into big trouble"
 
 KE04missionTXTLV02A03 = {}
-KE04missionTXTLV02A03[001] = "??????????"
-KE04missionTXTLV02A03[002] = "??????"
-KE04missionTXTLV02A03[003] = "??????"
-KE04missionTXTLV02A03[004] = "??????"
-KE04missionTXTLV02A03[005] = "????????"
+KE04missionTXTLV02A03[001] = "No enemy fleet detected."
+KE04missionTXTLV02A03[002] = "A small amount was found"
+KE04missionTXTLV02A03[003] = "Encountered a large number of"
+KE04missionTXTLV02A03[004] = "Encountered a massive amount"
+KE04missionTXTLV02A03[005] = "Encountered a terrifying scale"
 
 KE04missionTXTLV02A04 = {}
 KE04missionTXTLV02A04[001] = ""
-KE04missionTXTLV02A04[002] = "????"
-KE04missionTXTLV02A04[003] = "???????"
-KE04missionTXTLV02A04[004] = "?????"
-KE04missionTXTLV02A04[005] = "????"
-KE04missionTXTLV02A04[006] = "???????"
-KE04missionTXTLV02A04[007] = "????"
+KE04missionTXTLV02A04[002] = "Pirate Fleet"
+KE04missionTXTLV02A04[003] = "The Out-of-Control Ancestral Fleet"
+KE04missionTXTLV02A04[004] = "Crystal Fleet"
+KE04missionTXTLV02A04[005] = "Swarm"
+KE04missionTXTLV02A04[006] = "Vaygr Warlord Fleet"
+KE04missionTXTLV02A04[007] = "Coffin Fleet"
 
 KE04missionTXTLV03A00 = {}
 KE04missionTXTLV03A00[001] = ""
-KE04missionTXTLV03A00[002] = "??????,????"
+KE04missionTXTLV03A00[002] = "After a battle, your fleet"
 
 KE04missionTXTLV03A01 = {}
 KE04missionTXTLV03A01[000] = ""
-KE04missionTXTLV03A01[001] = "????"
-KE04missionTXTLV03A01[002] = "????"
-KE04missionTXTLV03A01[003] = "???????"
-KE04missionTXTLV03A01[004] = "????"
-KE04missionTXTLV03A01[005] = "????????"
+KE04missionTXTLV03A01[001] = "A resounding victory"
+KE04missionTXTLV03A01[002] = "To achieve victory"
+KE04missionTXTLV03A01[003] = "A lose-lose situation with the opponent"
+KE04missionTXTLV03A01[004] = "The losses are considerable."
+KE04missionTXTLV03A01[005] = "Suffered severe losses"
 
 KE04missionTXTLV03A02 = {}
 KE04missionTXTLV03A02[000] = ""
-KE04missionTXTLV03A02[001] = ",??"
-KE04missionTXTLV03A02[002] = ",??"
-KE04missionTXTLV03A02[003] = ",??"
-KE04missionTXTLV03A02[004] = ",??"
-KE04missionTXTLV03A02[005] = ",???"
+KE04missionTXTLV03A02[001] = ", approximately"
+KE04missionTXTLV03A02[002] = ", approximately"
+KE04missionTXTLV03A02[003] = ", up to"
+KE04missionTXTLV03A02[004] = ", up to"
+KE04missionTXTLV03A02[005] = ", almost"
 
 KE04missionTXTLV03A03 = {}
 KE04missionTXTLV03A03[001] = ""
-KE04missionTXTLV03A03[002] = "??????????,"
+KE04missionTXTLV03A03[002] = "One fleet's worth of warships were damaged."
 
 KE04missionTXTLV03A04 = {}
 KE04missionTXTLV03A04[000] = ""
 KE04missionTXTLV03A04[001] = ""
 KE04missionTXTLV03A04[002] = ""
-KE04missionTXTLV03A04[003] = "???????"
-KE04missionTXTLV03A04[004] = "???????"
-KE04missionTXTLV03A04[005] = "???????"
+KE04missionTXTLV03A04[003] = "Retreat is the only option."
+KE04missionTXTLV03A04[004] = "Retreat is the only option."
+KE04missionTXTLV03A04[005] = "Retreat is the only option."
 
 KE04missionTXTLV03A05 = {}
 KE04missionTXTLV03A05[001] = ""
-KE04missionTXTLV03A05[002] = "????????,"
+KE04missionTXTLV03A05[002] = "After the enemy fleet retreated, "
 
 KE04missionTXTLV03A06 = {}
-KE04missionTXTLV03A06[001] = "??????????"
-KE04missionTXTLV03A06[002] = "??????"
-KE04missionTXTLV03A06[003] = "?????????"
-KE04missionTXTLV03A06[004] = "?????????"
-KE04missionTXTLV03A06[005] = "??????????"
-KE04missionTXTLV03A06[006] = "???????"
-KE04missionTXTLV03A06[007] = "?????????"
-KE04missionTXTLV03A06[008] = "?????????"
-KE04missionTXTLV03A06[009] = "?????????"
-KE04missionTXTLV03A06[010] = "????????????"
-KE04missionTXTLV03A06[011] = "?????????????"
-KE04missionTXTLV03A06[012] = "?????????"  
+KE04missionTXTLV03A06[001] = "units of ice"
+KE04missionTXTLV03A06[002] = "units of energy block"
+KE04missionTXTLV03A06[003] = "units of metal ore"
+KE04missionTXTLV03A06[004] = "units of daily necessities"
+KE04missionTXTLV03A06[005] = "units of colonial ammunition"
+KE04missionTXTLV03A06[006] = "units of alloys"
+KE04missionTXTLV03A06[007] = "units of mechanical parts"
+KE04missionTXTLV03A06[008] = "units of nanomaterials"
+KE04missionTXTLV03A06[009] = "units of large ship hulls"
+KE04missionTXTLV03A06[010] = "units of flagship core components"
+KE04missionTXTLV03A06[011] = "they were enslaved and transformed into colonial workers."
+KE04missionTXTLV03A06[012] = "fortress-level blueprint fragments"  
 
 KE04missionTXTLV03A07 = {}
-KE04missionTXTLV03A07[001] = ",??????,?????????????????,????????????,???????1?"
+KE04missionTXTLV03A07[001] = ", it's worth mentioning that due to the clashes between your colonial fleet and the pirate fleet, the pirates have set their sights on your colony, and the pirate threat level has increased by 1 point."
 KE04missionTXTLV03A07[002] = ""
 
 KE04missionTXTLV04A01 = {}
 KE04missionTXTLV04A01[001] = ""
-KE04missionTXTLV04A01[002] = "?????"  
+KE04missionTXTLV04A01[002] = "Your fleet is"
 
 KE04missionTXTLV04A02 = {}
 KE04missionTXTLV04A02[001] = ""
-KE04missionTXTLV04A02[002] = "????"  
+KE04missionTXTLV04A02[002] = "In China"  
 
 KE04missionTXTLV04A03 = {}
 KE04missionTXTLV04A03[001] = ""
-KE04missionTXTLV04A03[002] = "??,???"  
+KE04missionTXTLV04A03[002] = "The action, in the end"  
 
 KE04missionTXTLV04A04 = {}
 KE04missionTXTLV04A04[001] = ""
-KE04missionTXTLV04A04[002] = "????"  
+KE04missionTXTLV04A04[002] = "It was obtained"  
 
 KE04missionTXT[002] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12,text13,text14,text15,text16)
 	local iText=""..text1..""..text2..""..text3..""..text4..""..text5..""..text6..""..text7..""..text13..""..text8..""..text14..""..text9..""..text15..""..text8..""..text16..""..text10..""..text11..""..text12..""
