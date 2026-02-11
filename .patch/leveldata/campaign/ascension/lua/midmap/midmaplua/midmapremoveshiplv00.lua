@@ -385,6 +385,7 @@ else
 	UI_SetTextLabelText("midmapSalvage", "m_lbSavageGoodsCount1", PATCH_PopulateSalvageGoodCount1())
 	UI_SetTextLabelText("midmapSalvage", "m_lbSavageGoodsNames2", PATCH_PopulateSalvageGoodNames2())
 	UI_SetTextLabelText("midmapSalvage", "m_lbSavageGoodsCount2", PATCH_PopulateSalvageGoodCount2())
+	UI_SetTextLabelText("midmapSalvage", "m_lbSalvageFleetEngCap", "Fleet Enginering Capacity: "..g_factorylimit)
 	UI_ShowScreen("midmapSalvage", ePopup)
 exploremission = 0
 Rule_AddInterval("midmapexploreLV00_1",10)
