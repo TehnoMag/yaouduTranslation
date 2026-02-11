@@ -990,7 +990,7 @@ end
 DTM004[297] = ", because you have completely destroyed the natural disaster, no new natural disasters will occur for a period of time."
 
 DTM004[298] = function(text1,text2)
-	local iText="You have discovered a debris field in the nearby star sector"..text1.." It appears that a fierce battle has just taken place here. There may still be valuable parts that can be salvaged, and there may also be survivors that can be rescued. Judging from the scale, it seems that a "..text2.." salvage operation can be carried out. Should we organize a fleet for the salvage operation?"	
+	local iText="We discovered a "..text1.." debris field nearby. There may still be usabale salvage and survivios there. Judging by the scale, it looks like a "..text2.." rescue operation could be possible. Should we mount a rescue operation?"	
 	return iText
 end
 
@@ -1153,104 +1153,104 @@ end
 
 factoryattackLVTXT = {}
 factoryattackLVTXT[001] = ""
-factoryattackLVTXT[002] = "??????????????????,??????????????????????"  
+factoryattackLVTXT[002] = "A pirate fleet has already established a temporary base nearby, and they could launch an attack on your fleet from this pirate base at any time." 
 
 
 factoryattackLVTXTA01 = {}
 factoryattackLVTXTA01[001] = ""
-factoryattackLVTXTA01[002] = "??"  
+factoryattackLVTXTA01[002] = "A"  
 
 factoryattackLVTXTA02 = {}
-factoryattackLVTXTA02[001] = "????"
+factoryattackLVTXTA02[001] = "Pirate Fleet"
  
 
 factoryattackLVTXTA03 = {}
 factoryattackLVTXTA03[001] = ""
-factoryattackLVTXTA03[002] = "?????"
+factoryattackLVTXTA03[002] = "Already nearby"
 
 factoryattackLVTXTA04 = {}
 factoryattackLVTXTA04[001] = ""
-factoryattackLVTXTA04[002] = "???????"
-factoryattackLVTXTA04[003] = "???????"
+factoryattackLVTXTA04[002] = "A temporary base was built"
+factoryattackLVTXTA04[003] = "A fleet was assembled"
 
 factoryattackLVTXTA05 = {}
 factoryattackLVTXTA05[001] = ""
-factoryattackLVTXTA05[002] = "???????????????"
+factoryattackLVTXTA05[002] = "The enemy could attack your colony at any time."
 
 
 
 
 factoryattackLVTXT[003] = function(text1,text2)
-	local iText=""..text1.."??????,???????????"..text1.."????????,????????"..text2.."?"
+	local iText="The size of "..text1.." has increased, meaning more "..text1.." will gather near the colony; the current threat level is "..text2..""
 	return iText
 end
 
 
 factoryattackLVTXTLVA01 = {}
-factoryattackLVTXTLVA01[001] = "???"
-factoryattackLVTXTLVA01[002] = "????"
-factoryattackLVTXTLVA01[003] = "???"
-factoryattackLVTXTLVA01[004] = "?????"
-factoryattackLVTXTLVA01[005] = "????"
+factoryattackLVTXTLVA01[001] = "small"
+factoryattackLVTXTLVA01[002] = "medium"
+factoryattackLVTXTLVA01[003] = "large"
+factoryattackLVTXTLVA01[004] = "giant"
+factoryattackLVTXTLVA01[005] = "epic"
 
 factoryattackLVTXTLVA02 = {}
-factoryattackLVTXTLVA02[001] = "???"
-factoryattackLVTXTLVA02[002] = "??"
-factoryattackLVTXTLVA02[003] = "???"
-factoryattackLVTXTLVA02[004] = "??"
-factoryattackLVTXTLVA02[005] = "???"
+factoryattackLVTXTLVA02[001] = "much smaller"
+factoryattackLVTXTLVA02[002] = "less than"
+factoryattackLVTXTLVA02[003] = "not weaker than"
+factoryattackLVTXTLVA02[004] = "stronger than"
+factoryattackLVTXTLVA02[005] = "far stronger than"
 
 factoryattackLVTXTLVA03 = {}
-factoryattackLVTXTLVA03[001] = "??????????"
-factoryattackLVTXTLVA03[002] = "??????????"
-factoryattackLVTXTLVA03[003] = "????????"
-factoryattackLVTXTLVA03[004] = "????????"
-factoryattackLVTXTLVA03[005] = "?????????"
+factoryattackLVTXTLVA03[001] = "Outer mining fleet of the colony"
+factoryattackLVTXTLVA03[002] = "Patrol fleets on the outskirts of the colony"
+factoryattackLVTXTLVA03[003] = "The core area of ??the colony"
+factoryattackLVTXTLVA03[004] = "Colonial defenses"
+factoryattackLVTXTLVA03[005] = "The core building complex of the colony"
 
 factoryattackLVTXTLVA04 = {}
-factoryattackLVTXTLVA04[001] = "???????????"
-factoryattackLVTXTLVA04[002] = "???????????"
-factoryattackLVTXTLVA04[003] = "???????"
-factoryattackLVTXTLVA04[004] = "????????????"
-factoryattackLVTXTLVA04[005] = "??????????????????"
-factoryattackLVTXTLVA04[006] = "??????????"
+factoryattackLVTXTLVA04[001] = "An interceptor fleet was dispatched to intercept it."
+factoryattackLVTXTLVA04[002] = "Assemble the fleet and engage in a decisive battle with the enemy."
+factoryattackLVTXTLVA04[003] = "Assemble all warships"
+factoryattackLVTXTLVA04[004] = "Activate all defenses to resist."
+factoryattackLVTXTLVA04[005] = "All security personnel were mobilized to defend the core building complex."
+factoryattackLVTXTLVA04[006] = "The only option was to give up resistance and evacuate."
 
 factoryattackbaseLVTXTLVA09 = {}
-factoryattackbaseLVTXTLVA09[001] = "????????"
-factoryattackbaseLVTXTLVA09[002] = "???????"
-factoryattackbaseLVTXTLVA09[003] = "??????????"
-factoryattackbaseLVTXTLVA09[004] = "?????,????????"
-factoryattackbaseLVTXTLVA09[005] = "????"
+factoryattackbaseLVTXTLVA09[001] = "Suffering heavy losses, they chose to retreat."
+factoryattackbaseLVTXTLVA09[002] = "Suffered considerable casualties"
+factoryattackbaseLVTXTLVA09[003] = "Both sides suffered heavy losses."
+factoryattackbaseLVTXTLVA09[004] = "We gained the upper hand and achieved considerable results."
+factoryattackbaseLVTXTLVA09[005] = "A resounding victory"
 
 factoryattackLVTXTLVA06 = {}
 factoryattackLVTXTLVA06[000] = ""
-factoryattackLVTXTLVA06[001] = ".??????????????"
-factoryattackLVTXTLVA06[002] = ".??????????"
-factoryattackLVTXTLVA06[003] = "????????????,"
-factoryattackLVTXTLVA06[004] = "???????,"
-factoryattackLVTXTLVA06[005] = "??????????"
-factoryattackLVTXTLVA06[006] = "?????,"
-factoryattackLVTXTLVA06[007] = "???????,"
-factoryattackLVTXTLVA06[008] = "???????????????,??????????"
+factoryattackLVTXTLVA06[001] = ". Your colonial fleet has cleaned up the battlefield and gained"
+factoryattackLVTXTLVA06[002] = ". Your colonies have lost a total of"
+factoryattackLVTXTLVA06[003] = "Slaves were converted into colonial workers,"
+factoryattackLVTXTLVA06[004] = "Units of alloys,"
+factoryattackLVTXTLVA06[005] = "units of colonial ammunition"
+factoryattackLVTXTLVA06[006] = "fleet points,"
+factoryattackLVTXTLVA06[007] = "colonial workers,"
+factoryattackLVTXTLVA06[008] = "Fortunately, a nearby Imperial patrol fleet arrived to provide support, preventing further destruction."
 
 factoryattackLVTXTLVA07 = {}
-factoryattackLVTXTLVA07[001] = "???????????,"
-factoryattackLVTXTLVA07[002] = "??????"
-factoryattackLVTXTLVA07[003] = "????"
-factoryattackLVTXTLVA07[004] = "????"
-factoryattackLVTXTLVA07[005] = "??????"
-factoryattackLVTXTLVA07[006] = "??????"
+factoryattackLVTXTLVA07[001] = "slaves and converted into colonial workers,"
+factoryattackLVTXTLVA07[002] = "Nanomaterial storage"
+factoryattackLVTXTLVA07[003] = "Food reserves"
+factoryattackLVTXTLVA07[004] = "Ore reserves"
+factoryattackLVTXTLVA07[005] = "Daily necessities reserves"
+factoryattackLVTXTLVA07[006] = "Electronic component reserves"
 
 factoryattackLVTXTLVA08 = {}
-factoryattackLVTXTLVA08[001] = "?????"
-factoryattackLVTXTLVA08[002] = "????"
-factoryattackLVTXTLVA08[003] = "????"
-factoryattackLVTXTLVA08[004] = "??????"
-factoryattackLVTXTLVA08[005] = "??????"
+factoryattackLVTXTLVA08[001] = "Crystal Cluster"
+factoryattackLVTXTLVA08[002] = "Zerg Swarm"
+factoryattackLVTXTLVA08[003] = "Coffin Fleet"
+factoryattackLVTXTLVA08[004] = "Mysterious Warlord Fleet"
+factoryattackLVTXTLVA08[005] = "Awakening Ancestor Fleet"
 
 
 factoryattackLVTXT[004] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12,text13,text14,text15,text16,text17,text18)
-	local iText="??"..text1..""..text18.."???????????,??"..text18.."???"..text2.."?????????,??"..text18.."????"..text3..".??"..text18.."???,???????"..text4..".???????,"..text18..""..text5..""..text6..""..text7..""..text8..""..text9..""..text10..""..text11..""..text12..""..text13..""..text14..""..text15..""..text16..""..text17..""
+	local iText="A"..text1..""..text18.."An attack was launched on your colony, due to"..text18.."scale"..text2.."The security forces of your colony, therefore"..text18.."select attack"..text3..". Face"..text18.."offensive, colonial security forces"..text4..".After a fierce battle,"..text18..""..text5..""..text6..""..text7..""..text8..""..text9..""..text10..""..text11..""..text12..""..text13..""..text14..""..text15..""..text16..""..text17..""
 	return iText
 end
 
