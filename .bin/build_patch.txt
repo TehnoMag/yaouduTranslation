@@ -87,6 +87,8 @@ ui\newui\rpgmission\launchmenurpgmissionm34.lua
 ui\newui\rpgmission\launchmenurpgmissionm35.lua
 ui\newui\rpgmission\launchmenurpgmissionm37.lua
 ui\newui\rpgmission\launchmenurpgmissionm40.lua
+ui\newui\rpgmission\launchmenurpgmissionm41.lua
+ui\newui\rpgmission\launchmenurpgmissionm42.lua
 ui\newui\trademenu.lua
 ui\newui\typechoose.backup.lua
 ui\newui\typechoose.lua

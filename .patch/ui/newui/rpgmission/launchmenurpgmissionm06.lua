@@ -55,7 +55,7 @@ LaunchMenuRPGmissionM06 = {
 				margin_LT = { l = PANEL_PAD_HORIZ, t = PANEL_PAD_VERT, lr = "scr", tr = "scr" },
 				margin_RB = { r = PANEL_PAD_HORIZ, b =1, rr = "scr", br = "px" },				
 				size_WH = {	w = 0.4, h = 1.2, wr = "scr", hr = "px" },		
-				max_WH = { w = 0.8, wr = "scr" },								
+				max_WH = { w = 0.4, wr = "scr" },								
 			},	
 			arrangeSep = {	x=BUTTON_SPACING_HORIZ, y=0.01, xr="scr", yr="scr",},
 			

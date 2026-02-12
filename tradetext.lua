@@ -662,7 +662,7 @@ DTM004[227] = function(iDate)
 	return iText
 end
 
--- Patched by TehnoMang
+-- Patched by TehnoMag
 -- DTM004[228] = function(text1,text2,text3,text4,text5,text6,text15,text7,text8,text9,text10,text11,text12,text13)
 --	local iText="Your fleet's engineering capabilities are: "..text1..".A total of "..text2.." units of basic alloys, "..text3.." units of slaves, "..text4.." units of medium-sized hull components, "..text5.." units of rats, "..text6.." units of medium-sized weapon components, "..text15.." units of spare crew, "..text7.." units of large hull components, "..text8.." units of large weapon components, "..text9.." units of advanced alloys, "..text10.." units of large modular living quarters, "..text11.." units of flagship weapon components, "..text12.." units of flagship power components, "..text13.." units of humanoid computers. This wreckage area yields no more valuable resources; your fleet must leave."
 --	return iText
