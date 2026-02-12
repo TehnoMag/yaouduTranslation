@@ -662,57 +662,61 @@ DTM004[227] = function(iDate)
 	return iText
 end
 
+-- Patched by TehnoMang
 -- DTM004[228] = function(text1,text2,text3,text4,text5,text6,text15,text7,text8,text9,text10,text11,text12,text13)
 --	local iText="Your fleet's engineering capabilities are: "..text1..".A total of "..text2.." units of basic alloys, "..text3.." units of slaves, "..text4.." units of medium-sized hull components, "..text5.." units of rats, "..text6.." units of medium-sized weapon components, "..text15.." units of spare crew, "..text7.." units of large hull components, "..text8.." units of large weapon components, "..text9.." units of advanced alloys, "..text10.." units of large modular living quarters, "..text11.." units of flagship weapon components, "..text12.." units of flagship power components, "..text13.." units of humanoid computers. This wreckage area yields no more valuable resources; your fleet must leave."
 --	return iText
 -- end
--- Patched by TehnoMang
 DTM004[228] = "Debries field yields no more valuable resources. Your fleet must leave."
-
-DTM004[229] = function(text1,text2,text3,ext14)
-	local iText="Your fleet's engineering capacity is "..text1..". You have discovered "..text2.." units of basic alloy and "..text3.." units of slaves. Do you want to continue salvaging? The current salvage count is "..text14..". The more times you salvage, the more materials and types you can obtain, but the stronger the enemies you will encounter when leaving the star sector."
+DTM004[229] = function(text1)
+	local iText = "The current salvage count is "..text1..".\n The more times you salvage, the more materials and types you can obtain, but the stronger enemies will be encountered when leaving the sector."
 	return iText
 end
+DTM004[230] = "No Salvage Found"
+--DTM004[229] = function(text1,text2,text3,ext14)
+--	local iText="Your fleet's engineering capacity is "..text1..". You have discovered "..text2.." units of basic alloy and "..text3.." units of slaves. Do you want to continue salvaging? The current salvage count is "..text14..". The more times you salvage, the more materials and types you can obtain, but the stronger the enemies you will encounter when leaving the star sector."
+--	return iText
+--end
 
-DTM004[230] = function(text1,text2,text3,text4,text5,text14)
-	local iText="Your fleet's engineering capacity is "..text1..". You have discovered "..text2.." units of basic alloy, "..text3.." units of slaves, "..text4.." units of medium hull components, and "..text5.." units of rats. Do you want to continue salvaging? The current salvage count is "..text14.." times. The more times you salvage, the more materials and types you will obtain, but the stronger the enemies you will encounter when leaving the sector."
-	return iText
-end
+--DTM004[230] = function(text1,text2,text3,text4,text5,text14)
+--	local iText="Your fleet's engineering capacity is "..text1..". You have discovered "..text2.." units of basic alloy, "..text3.." units of slaves, "..text4.." units of medium hull components, and "..text5.." units of rats. Do you want to continue salvaging? The current salvage count is "..text14.." times. The more times you salvage, the more materials and types you will obtain, but the stronger the enemies you will encounter when leaving the sector."
+--	return iText
+--end
 
-DTM004[231] = function(text1,text2,text3,text4,text5,text6,text15,text14)
-	local iText="Your fleet's engineering capacity is "..text1..". You have discovered "..text2.." units of basic alloy, "..text3.." units of slaves, "..text4.." units of medium-sized hull components, "..text5.." units of rats, "..text6.." units of medium-sized weapon parts, "..text15.." units of spare crew. Do you want to continue salvaging? The current salvage count is "..text14.." times. The more times you salvage, the more materials and types you can obtain, but the stronger the enemies you will encounter when leaving the sector."
-	return iText
-end
+--DTM004[231] = function(text1,text2,text3,text4,text5,text6,text15,text14)
+--	local iText="Your fleet's engineering capacity is "..text1..". You have discovered "..text2.." units of basic alloy, "..text3.." units of slaves, "..text4.." units of medium-sized hull components, "..text5.." units of rats, "..text6.." units of medium-sized weapon parts, "..text15.." units of spare crew. Do you want to continue salvaging? The current salvage count is "..text14.." times. The more times you salvage, the more materials and types you can obtain, but the stronger the enemies you will encounter when leaving the sector."
+--	return iText
+--end
 
-DTM004[232] = function(text1,text2,text3,text4,text5,text6,text15,text7,text14)
-	local iText="Your fleet's engineering capacity is "..text1..". You have discovered "..text2.." units of basic alloy, "..text3.." units of slaves, "..text4.." units of medium-sized hull components, "..text5.." units of rats, "..text6.." units of medium-sized weapon parts, "..text15.." units of spare crew members, "..text7.." units of large hull components. Do you want to continue salvaging? The current salvage count is "..text14..". The more times you salvage, the more materials and types you can obtain, but the stronger the enemies you will encounter when leaving the sector."
-	return iText
-end
+--DTM004[232] = function(text1,text2,text3,text4,text5,text6,text15,text7,text14)
+--	local iText="Your fleet's engineering capacity is "..text1..". You have discovered "..text2.." units of basic alloy, "..text3.." units of slaves, "..text4.." units of medium-sized hull components, "..text5.." units of rats, "..text6.." units of medium-sized weapon parts, "..text15.." units of spare crew members, "..text7.." units of large hull components. Do you want to continue salvaging? The current salvage count is "..text14..". The more times you salvage, the more materials and types you can obtain, but the stronger the enemies you will encounter when leaving the sector."
+--	return iText
+--end
 
-DTM004[233] = function(text1,text2,text3,text4,text5,text6,text15,text7,text8,text14)
-	local iText="Your fleet's engineering capacity is "..text1..". You have discovered "..text2.." units of basic alloy, "..text3.." units of slaves, "..text4.." units of medium hull components, "..text5.." units of rats, "..text6.." units of medium weapon parts, "..text15.." units of spare crew, "..text7.." units of large hull components, "..text8.." units of large weapon parts. Do you want to continue salvaging? The current salvage count is "..text14..". The more times you salvage, the more materials and types you can obtain, but the stronger the enemies you will encounter when leaving the star sector."
-	return iText	
-end
+--DTM004[233] = function(text1,text2,text3,text4,text5,text6,text15,text7,text8,text14)
+--	local iText="Your fleet's engineering capacity is "..text1..". You have discovered "..text2.." units of basic alloy, "..text3.." units of slaves, "..text4.." units of medium hull components, "..text5.." units of rats, "..text6.." units of medium weapon parts, "..text15.." units of spare crew, "..text7.." units of large hull components, "..text8.." units of large weapon parts. Do you want to continue salvaging? The current salvage count is "..text14..". The more times you salvage, the more materials and types you can obtain, but the stronger the enemies you will encounter when leaving the star sector."
+--	return iText	
+--end
 
-DTM004[234] = function(text1,text2,text3,text4,text5,text6,text15,text7,text8,text9,text14)
-	local iText="Your fleet's engineering capacity is "..text1..". You have discovered "..text2.." units of basic alloys, "..text3.." units of slaves, "..text4.." units of medium hull components, "..text5.." units of rats, "..text6.." units of medium weapon parts, "..text15.." units of spare crew, "..text7.." units of large hull components, "..text8.." units of large weapon parts, "..text9.." units of advanced alloys. Do you want to continue salvaging? The current salvage count is "..text14.." times. The more times you salvage, the more materials and types you can obtain, but the stronger the enemies you will encounter when leaving the star sector."
-	return iText
-end
+--DTM004[234] = function(text1,text2,text3,text4,text5,text6,text15,text7,text8,text9,text14)
+--	local iText="Your fleet's engineering capacity is "..text1..". You have discovered "..text2.." units of basic alloys, "..text3.." units of slaves, "..text4.." units of medium hull components, "..text5.." units of rats, "..text6.." units of medium weapon parts, "..text15.." units of spare crew, "..text7.." units of large hull components, "..text8.." units of large weapon parts, "..text9.." units of advanced alloys. Do you want to continue salvaging? The current salvage count is "..text14.." times. The more times you salvage, the more materials and types you can obtain, but the stronger the enemies you will encounter when leaving the star sector."
+--	return iText
+--end
 
-DTM004[235] = function(text1,text2,text3,text4,text5,text6,text15,text7,text8,text9,text10,text14)
-	local iText="Your fleet's engineering capacity is "..text1..". A total of "..text2.." units of basic alloys, "..text3.." units of slaves, "..text4.." units of medium-sized hull components, "..text5.." units of rats, "..text6.." units of medium-sized weapon parts, "..text15.." units of spare crew, "..text7.." units of large hull components, "..text8.." units of large weapon parts, "..text9.." units of advanced alloys, "..text10.." units of large modular living quarters. Continue salvaging? Current salvage count is "..text14.." times. More salvage attempts will yield more materials and types, but the enemies encountered when leaving the sector will be stronger."
-	return iText
-end
+--DTM004[235] = function(text1,text2,text3,text4,text5,text6,text15,text7,text8,text9,text10,text14)
+--	local iText="Your fleet's engineering capacity is "..text1..". A total of "..text2.." units of basic alloys, "..text3.." units of slaves, "..text4.." units of medium-sized hull components, "..text5.." units of rats, "..text6.." units of medium-sized weapon parts, "..text15.." units of spare crew, "..text7.." units of large hull components, "..text8.." units of large weapon parts, "..text9.." units of advanced alloys, "..text10.." units of large modular living quarters. Continue salvaging? Current salvage count is "..text14.." times. More salvage attempts will yield more materials and types, but the enemies encountered when leaving the sector will be stronger."
+--	return iText
+--end
 
-DTM004[236] = function(text1,text2,text3,text4,text5,text6,text15,text7,text8,text9,text10,text11,text14)
-	local iText="Your fleet's engineering capacity is "..text1..". A total of "..text2.." units of basic alloys, "..text3.." units of slaves, "..text4.." units of medium hull components, "..text5.." units of rats, "..text6.." units of medium weapon parts, "..text15.." units of spare crew, "..text7.." units of large hull components, "..text8.." units of large weapon parts, "..text9.." units of advanced alloys, "..text10.." units of large modular living quarters, "..text11.." units of flagship weapon parts. Continue salvaging? Current salvage count is "..text14.." times. More salvage attempts will yield more materials and types, but the enemies encountered when leaving the sector will be stronger."
-	return iText
-end
+--DTM004[236] = function(text1,text2,text3,text4,text5,text6,text15,text7,text8,text9,text10,text11,text14)
+--	local iText="Your fleet's engineering capacity is "..text1..". A total of "..text2.." units of basic alloys, "..text3.." units of slaves, "..text4.." units of medium hull components, "..text5.." units of rats, "..text6.." units of medium weapon parts, "..text15.." units of spare crew, "..text7.." units of large hull components, "..text8.." units of large weapon parts, "..text9.." units of advanced alloys, "..text10.." units of large modular living quarters, "..text11.." units of flagship weapon parts. Continue salvaging? Current salvage count is "..text14.." times. More salvage attempts will yield more materials and types, but the enemies encountered when leaving the sector will be stronger."
+--	return iText
+--end
 
-DTM004[237] = function(text1,text2,text3,text4,text5,text6,text15,text7,text8,text9,text10,text11,text12,text14)
-	local iText="Your fleet's engineering capacity is "..text1..". A total of "..text2.." units of basic alloys, "..text3.." units of slaves, "..text4.." units of medium hull components, "..text5.." units of rats, "..text6.." units of medium weapon parts, "..text15.." units of spare crew, "..text7.." units of large hull components, "..text8.." units of large weapon parts, "..text9.." units of advanced alloys, "..text10.." units of large modular living quarters, "..text11.." units of flagship weapon parts, "..text12.." units of flagship power components. Continue salvaging? Current salvage count is "..text14.." times. More salvage attempts will yield more materials and types, but the enemies encountered when leaving the sector will be stronger."
-	return iText
-end
+--DTM004[237] = function(text1,text2,text3,text4,text5,text6,text15,text7,text8,text9,text10,text11,text12,text14)
+--	local iText="Your fleet's engineering capacity is "..text1..". A total of "..text2.." units of basic alloys, "..text3.." units of slaves, "..text4.." units of medium hull components, "..text5.." units of rats, "..text6.." units of medium weapon parts, "..text15.." units of spare crew, "..text7.." units of large hull components, "..text8.." units of large weapon parts, "..text9.." units of advanced alloys, "..text10.." units of large modular living quarters, "..text11.." units of flagship weapon parts, "..text12.." units of flagship power components. Continue salvaging? Current salvage count is "..text14.." times. More salvage attempts will yield more materials and types, but the enemies encountered when leaving the sector will be stronger."
+--	return iText
+--end
 
 DTM004[238] = function(text1,text2,text3)
 	local iText="Your fleet's engineering capacity is "..text1..". You have discovered "..text2.." units of resources, but your fleet only has "..text3.." units of space, so you must abandon the salvage and leave the sector."

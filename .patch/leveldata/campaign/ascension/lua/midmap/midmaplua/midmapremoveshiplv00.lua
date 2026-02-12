@@ -122,6 +122,19 @@ end
 end
 
 -----------------选择是否打捞------------------------------------
+function PATCH_midmapremoveshipLV00_1()
+	if (UI_IsNamedElementVisible("midmapSalvage","btnYES")==0) then
+		UI_HideScreen('midmapSalvage')		 	   
+   		Rule_AddInterval("midmapremoveshipmissionstart",1) 
+		Rule_Remove("PATCH_midmapremoveshipLV00_1")		
+	elseif (UI_IsNamedElementVisible("midmapSalvage","btnNO")==0) then
+		UI_HideScreen('midmapSalvage')
+		removeshipbattleTXT = 0
+		Rule_AddInterval("midmapexploreLV00_1",1)
+		Rule_Remove("PATCH_midmapremoveshipLV00_1")            
+	end
+end
+
 function midmapremoveshipLV00_1()	
 	if (UI_IsNamedElementVisible("fairyMenu01","key01")==0) then
 		UI_SetElementVisible("fairyMenu01","key01",1)
@@ -302,56 +315,128 @@ Rule_Remove("midmapremoveshipmission")
 end    
 end
 
-function PATCH_PopulateSalvageGoodNames1()
+function PATCH_PopulateSalvageGoodNames1(bHasMore)
 	_ALERT("PATCH_PopulateSalvageGoodNames1")
 	local iText = ""
-	iText = iText..Goods[22].name..":\n"
-	iText = iText..Goods[33].name..":\n"
-	iText = iText..Goods[29].name..":\n"
-	iText = iText..Goods[34].name..":\n"
-	iText = iText..Goods[26].name..":\n"
-	iText = iText..Goods[76].name..":\n"
-	iText = iText..Goods[30].name..":"
+	if (bHasMore == 1) then
+		if (good22mun > 0) then
+			iText = iText..Goods[22].name..":\n"
+		end
+		if (good33mun > 0) then
+			iText = iText..Goods[33].name..":\n"
+		end
+		if (good29mun > 0) then
+			iText = iText..Goods[29].name..":\n"
+		end
+		if (good34mun > 0) then
+			iText = iText..Goods[34].name..":\n"
+		end
+		if (good26mun > 0) then
+			iText = iText..Goods[26].name..":\n"
+		end
+		if (good76mun > 0) then
+			iText = iText..Goods[76].name..":\n"
+		end
+		if (good30mun > 0) then
+			iText = iText..Goods[30].name..":"
+		end
+	else
+		iText = DTM004[230]
+	end
+	
 	return iText
 end
 
-function PATCH_PopulateSalvageGoodNames2()
+function PATCH_PopulateSalvageGoodNames2(bHasMore)
 	_ALERT("PATCH_PopulateSalvageGoodNames2")
 	local iText = ""
-	iText = iText..Goods[27].name..":\n"
-	iText = iText..Goods[23].name..":\n"
-	iText = iText..Goods[51].name..":\n"
-	iText = iText..Goods[52].name..":\n"
-	iText = iText..Goods[53].name..":\n"
-	iText = iText..Goods[36].name..":"
+	if (bHasMore == 1) then
+		if (good27mun > 0) then
+			iText = iText..Goods[27].name..":\n"
+		end
+		if (good23mun > 0) then
+			iText = iText..Goods[23].name..":\n"
+		end
+		if (good51mun > 0) then
+			iText = iText..Goods[51].name..":\n"
+		end
+		if (good52mun > 0) then
+			iText = iText..Goods[52].name..":\n"
+		end
+		if (good53mun > 0) then
+			iText = iText..Goods[53].name..":\n"
+		end
+		if (good36mun > 0) then
+			iText = iText..Goods[36].name..":"
+		end
+	else
+		iText = " "
+	end
+	
 	return iText
 end
 
-function PATCH_PopulateSalvageGoodCount1()
+function PATCH_PopulateSalvageGoodCount1(bHasMore)
 	local iText = ""
-	iText = iText..good22mun.."\n"
-	iText = iText..good33mun.."\n"
-	iText = iText..good29mun.."\n"
-	iText = iText..good34mun.."\n"
-	iText = iText..good26mun.."\n"
-	iText = iText..good76mun.."\n"
-	iText = iText..good30mun
+	if (bHasMore == 1) then
+		if (good22mun > 0) then
+			iText = iText..good22mun.."\n"
+		end
+		if (good33mun > 0) then
+			iText = iText..good33mun.."\n"
+		end
+		if (good29mun > 0) then
+			iText = iText..good29mun.."\n"
+		end
+		if (good34mun > 0) then
+			iText = iText..good34mun.."\n"
+		end
+		if (good26mun > 0) then
+			iText = iText..good26mun.."\n"
+		end
+		if (good76mun > 0) then
+			iText = iText..good76mun.."\n"
+		end
+		if (good30mun > 0) then
+			iText = iText..good30mun
+		end
+	else
+		iText = " "
+	end
+	
 	return iText
 end
 
-function PATCH_PopulateSalvageGoodCount2()
+function PATCH_PopulateSalvageGoodCount2(bHasMore)
 	local iText = ""
-	iText = iText..good27mun.."\n"
-	iText = iText..good23mun.."\n"
-	iText = iText..good51mun.."\n"
-	iText = iText..good52mun.."\n"
-	iText = iText..good53mun.."\n"
-	iText = iText..good36mun
+	if (bHasMore == 1) then
+		if (good27mun > 0) then
+			iText = iText..good27mun.."\n"
+		end
+		if (good23mun > 0) then
+		iText = iText..good23mun.."\n"
+		end
+		if (good51mun > 0) then
+			iText = iText..good51mun.."\n"
+		end
+		if (good52mun > 0) then
+			iText = iText..good52mun.."\n"
+		end
+		if (good53mun > 0) then
+			iText = iText..good53mun.."\n"
+		end
+		if (good36mun > 0) then
+			iText = iText..good36mun
+		end
+	else
+		iText = " "
+	end
+	
 	return iText
 end
 
-function PATCH_ShowSalvageResults(bHasMore)
-	if (bHasMore) then
+function PATCH_ShowSalvageResults(bHasMore, Notice)
+	if (bHasMore == 1) then
 		UI_SetElementVisible("midmapSalvage", "btnOK", 0)
 		UI_SetElementVisible("midmapSalvage", "btnYES", 1)
 		UI_SetElementVisible("midmapSalvage", "btnNO", 1)
@@ -361,123 +446,84 @@ function PATCH_ShowSalvageResults(bHasMore)
 		UI_SetElementVisible("midmapSalvage", "btnNO", 0)
 	end
 	
-	UI_SetTextLabelText("midmapSalvage", "m_lbSavageGoodsNames1", PATCH_PopulateSalvageGoodNames1())
-	UI_SetTextLabelText("midmapSalvage", "m_lbSavageGoodsCount1", PATCH_PopulateSalvageGoodCount1())
-	UI_SetTextLabelText("midmapSalvage", "m_lbSavageGoodsNames2", PATCH_PopulateSalvageGoodNames2())
-	UI_SetTextLabelText("midmapSalvage", "m_lbSavageGoodsCount2", PATCH_PopulateSalvageGoodCount2())
+	UI_SetTextLabelText("midmapSalvage", "m_lbSavageGoodsNames1", PATCH_PopulateSalvageGoodNames1(bHasMore))
+	UI_SetTextLabelText("midmapSalvage", "m_lbSavageGoodsCount1", PATCH_PopulateSalvageGoodCount1(bHasMore))
+	UI_SetTextLabelText("midmapSalvage", "m_lbSavageGoodsNames2", PATCH_PopulateSalvageGoodNames2(bHasMore))
+	UI_SetTextLabelText("midmapSalvage", "m_lbSavageGoodsCount2", PATCH_PopulateSalvageGoodCount2(bHasMore))
 	UI_SetTextLabelText("midmapSalvage", "m_lbSalvageFleetEngCap", "Fleet Enginering Capacity: "..g_factorylimit)
-	UI_SetTextLabelText("midmapSalvage", "m_lb_SalvageNotice", DTM004[228])
+	UI_SetTextLabelText("midmapSalvage", "m_lb_SalvageNotice", Notice)
 	UI_ShowScreen("midmapSalvage", ePopup)
 end
 
 function midmapremoveshipLV01()	
-if (midmapremoveshipgoodtotalW < g_weightPlay) then 
-text14 = midmapremoveshipLV
-       	 _ALERT("midmapremoveshipLV")  
-	     _ALERT(midmapremoveshipLV)  
-if (midmapremoveshipLV < midmapremoveshipLVMAX) then 
---  Rule_AddInterval("midmapremoveshipTXT",1)	
--- Patched by TehnoMag
-	Rule_AddInterval(midmapremoveshipTXT_Patched, 1)
-	     g_goods[22] = g_goods[22] + good22mun  
-	     g_goods[33] = g_goods[33] + good33mun       
-	     g_goods[29] = g_goods[29] + good29mun
-	     g_goods[34] = g_goods[34] + good34mun 
-	     g_goods[26] = g_goods[26] + good26mun  
-	     g_goods[76] = g_goods[76] + good76mun       
-	     g_goods[30] = g_goods[30] + good30mun
-	     g_goods[27] = g_goods[27] + good27mun 	
-	     g_goods[23] = g_goods[23] + good23mun  
-	     g_goods[51] = g_goods[51] + good51mun       
-	     g_goods[52] = g_goods[52] + good52mun
-	     g_goods[53] = g_goods[53] + good53mun
-	     g_goods[36] = g_goods[36] + good36mun 	             
-	      	 DTM4_SetRAMCheatKey()       
-Rule_Remove("midmapremoveshipLV01")  
-else 
------------打捞次数已满离开地图--------------
---  UI_SetElementVisible("GateMenu2","m_lblTitle",0)
---UI_SetElementVisible("GateMenu2","m_lblSubTitle",0)
---  UI_SetTextLabelText("GateMenu2","m_lblMessage",DTM004[228](g_factorylimit,good22mun,good33mun,good29mun,good34mun,good26mun,good76mun,good30mun,good27mun,good23mun,good51mun,good52mun,good53mun,good36mun))
---UI_ShowScreen("GateMenu2", ePopup)
--- Patched by TehnoMag
-	PATCH_ShowSalvageResults(false)
-exploremission = 0
-Rule_AddInterval("midmapexploreLV00_1",10)
-Rule_Remove("midmapremoveshipLV01")            
-end
-end
+	if (midmapremoveshipgoodtotalW < g_weightPlay) then 
+	text14 = midmapremoveshipLV
+		_ALERT("midmapremoveshipLV")  
+		_ALERT(midmapremoveshipLV)
+		_ALERT("midmapremoveshipLVMAX")  
+		_ALERT(midmapremoveshipLVMAX)
+		-- Patched by TehnoMag
+		-- if (midmapremoveshipLV < midmapremoveshipLVMAX) then 
+		--  Rule_AddInterval("midmapremoveshipTXT",1)	
+		if (midmapremoveshipLV <= midmapremoveshipLVMAX) then
+			Rule_AddInterval("PATCH_midmapremoveshipTXT", 1)
+		-- End Patch
+				 g_goods[22] = g_goods[22] + good22mun  
+				 g_goods[33] = g_goods[33] + good33mun       
+				 g_goods[29] = g_goods[29] + good29mun
+				 g_goods[34] = g_goods[34] + good34mun 
+				 g_goods[26] = g_goods[26] + good26mun  
+				 g_goods[76] = g_goods[76] + good76mun       
+				 g_goods[30] = g_goods[30] + good30mun
+				 g_goods[27] = g_goods[27] + good27mun 	
+				 g_goods[23] = g_goods[23] + good23mun  
+				 g_goods[51] = g_goods[51] + good51mun       
+				 g_goods[52] = g_goods[52] + good52mun
+				 g_goods[53] = g_goods[53] + good53mun
+				 g_goods[36] = g_goods[36] + good36mun 	             
+					 DTM4_SetRAMCheatKey()       
+		Rule_Remove("midmapremoveshipLV01")  
+		else 
+		-----------打捞次数已满离开地图--------------
+		-- Patched by TehnoMag
+		--  UI_SetElementVisible("GateMenu2","m_lblTitle",0)
+		--UI_SetElementVisible("GateMenu2","m_lblSubTitle",0)
+		--  UI_SetTextLabelText("GateMenu2","m_lblMessage",DTM004[228](g_factorylimit,good22mun,good33mun,good29mun,good34mun,good26mun,good76mun,good30mun,good27mun,good23mun,good51mun,good52mun,good53mun,good36mun))
+		--UI_ShowScreen("GateMenu2", ePopup)	
+			PATCH_ShowSalvageResults(0, DTM004[228])
+		-- End Patch
+		exploremission = 0
+		Rule_AddInterval("midmapexploreLV00_1",10)
+		Rule_Remove("midmapremoveshipLV01")            
+		end
+	end
 end
 
-function midmapremoveshipTXT_Patched()	
-text1 = g_factorylimit
-text2 = good22mun
-text3 = good33mun
-text4 = good29mun
-text5 = good34mun
-text6 = good26mun
-text7 = good30mun
-text8 = good27mun
-text9 = good23mun
-text10 = good51mun
-text11 = good52mun
-text12 = good53mun
-text13 = good36mun
-text14 = midmapremoveshipLV
-text15 = good76mun
-  UI_SetElementVisible("fairyMenu01","m_lblTitle",0)
-  UI_SetElementVisible("fairyMenu01","m_lblSubTitle",0)
-  if (midmapremoveshipLV == 1) then 
-  --UI_SetTextLabelText("fairyMenu01","m_lblMessage",DTM004[229](g_factorylimit,good22mun,good33mun,midmapremoveshipLV))
-  UI_ShowScreen("midmapSalvage", ePopup)		
-  Rule_AddInterval("midmapremoveshipLV00_1",1)
-  Rule_Remove("midmapremoveshipTXT_Patched") 
-  elseif (midmapremoveshipLV == 2) then 
-  --UI_SetTextLabelText("fairyMenu01","m_lblMessage",DTM004[230](g_factorylimit,good22mun,good33mun,good29mun,good34mun,midmapremoveshipLV))
-  UI_ShowScreen("midmapSalvage", ePopup)		
-  Rule_AddInterval("midmapremoveshipLV00_1",1)
-  Rule_Remove("midmapremoveshipTXT_Patched")
-  elseif (midmapremoveshipLV == 3) then 
-  --UI_SetTextLabelText("fairyMenu01","m_lblMessage",DTM004[231](g_factorylimit,good22mun,good33mun,good29mun,good34mun,good26mun,good76mun,midmapremoveshipLV))
-  UI_ShowScreen("midmapSalvage", ePopup)		
-  Rule_AddInterval("midmapremoveshipLV00_1",1)
-  Rule_Remove("midmapremoveshipTXT_Patched")   
-  elseif (midmapremoveshipLV == 4) then 
-  --UI_SetTextLabelText("fairyMenu01","m_lblMessage",DTM004[232](g_factorylimit,good22mun,good33mun,good29mun,good34mun,good26mun,good76mun,good30mun,midmapremoveshipLV))
-  UI_ShowScreen("midmapSalvage", ePopup)		
-  Rule_AddInterval("midmapremoveshipLV00_1",1)
-  Rule_Remove("midmapremoveshipTXT_Patched")   
-  elseif (midmapremoveshipLV == 5) then 
-  --UI_SetTextLabelText("fairyMenu01","m_lblMessage",DTM004[233](g_factorylimit,good22mun,good33mun,good29mun,good34mun,good26mun,good76mun,good30mun,good27mun,midmapremoveshipLV))
-  UI_ShowScreen("midmapSalvage", ePopup)		
-  Rule_AddInterval("midmapremoveshipLV00_1",1)
-  Rule_Remove("midmapremoveshipTXT_Patched")     
-  elseif (midmapremoveshipLV == 6) then 
-  --UI_SetTextLabelText("fairyMenu01","m_lblMessage",DTM004[234](g_factorylimit,good22mun,good33mun,good29mun,good34mun,good26mun,good76mun,good30mun,good27mun,good23mun,midmapremoveshipLV))
-  UI_ShowScreen("midmapSalvage", ePopup)		
-  Rule_AddInterval("midmapremoveshipLV00_1",1)
-  Rule_Remove("midmapremoveshipTXT_Patched")     
-  elseif (midmapremoveshipLV == 7) then 
-  --UI_SetTextLabelText("fairyMenu01","m_lblMessage",DTM004[235](g_factorylimit,good22mun,good33mun,good29mun,good34mun,good26mun,good76mun,good30mun,good27mun,good23mun,good51mun,midmapremoveshipLV))
-  UI_ShowScreen("midmapSalvage", ePopup)		
-  Rule_AddInterval("midmapremoveshipLV00_1",1)
-  Rule_Remove("midmapremoveshipTXT_Patched")   
-  elseif (midmapremoveshipLV == 8) then 
-  --UI_SetTextLabelText("fairyMenu01","m_lblMessage",DTM004[236](g_factorylimit,good22mun,good33mun,good29mun,good34mun,good26mun,good76mun,good30mun,good27mun,good23mun,good51mun,good52mun,midmapremoveshipLV))
-  UI_ShowScreen("midmapSalvage", ePopup)		
-  Rule_AddInterval("midmapremoveshipLV00_1",1)
-  Rule_Remove("midmapremoveshipTXT_Patched") 
-  elseif (midmapremoveshipLV == 9) then 
- -- UI_SetTextLabelText("fairyMenu01","m_lblMessage",DTM004[237](g_factorylimit,good22mun,good33mun,good29mun,good34mun,good26mun,good76mun,good30mun,good27mun,good23mun,good51mun,good52mun,good53mun,midmapremoveshipLV))
-  UI_ShowScreen("midmapSalvage", ePopup)		
-  Rule_AddInterval("midmapremoveshipLV00_1",1)
-  Rule_Remove("midmapremoveshipTXT_Patched")  
-  elseif (midmapremoveshipLV == 10) then 
-  --UI_SetTextLabelText("fairyMenu01","m_lblMessage",DTM004[228](g_factorylimit,good22mun,good33mun,good29mun,good34mun,good26mun,good76mun,good30mun,good27mun,good23mun,good51mun,good52mun,good53mun,good36mun,midmapremoveshipLV))
-  UI_ShowScreen("midmapSalvage", ePopup)		
-  Rule_AddInterval("midmapremoveshipLV00_1",1)
-  Rule_Remove("midmapremoveshipTXT_Patched")                          
-end
+function PATCH_midmapremoveshipTXT()	
+	if (midmapremoveshipLV == 1) then
+		PATCH_ShowSalvageResults(1, DTM004[229](midmapremoveshipLV))
+	elseif (midmapremoveshipLV == 2) then
+		PATCH_ShowSalvageResults(1, DTM004[229](midmapremoveshipLV))
+	elseif (midmapremoveshipLV == 3) then
+		PATCH_ShowSalvageResults(1, DTM004[229](midmapremoveshipLV))
+	elseif (midmapremoveshipLV == 4) then
+		PATCH_ShowSalvageResults(1, DTM004[229](midmapremoveshipLV))
+	elseif (midmapremoveshipLV == 5) then
+		PATCH_ShowSalvageResults(1, DTM004[229](midmapremoveshipLV))
+	elseif (midmapremoveshipLV == 6) then
+		PATCH_ShowSalvageResults(1, DTM004[229](midmapremoveshipLV))
+	elseif (midmapremoveshipLV == 7) then
+		PATCH_ShowSalvageResults(1, DTM004[229](midmapremoveshipLV))
+	elseif (midmapremoveshipLV == 8) then
+		PATCH_ShowSalvageResults(1, DTM004[229](midmapremoveshipLV))
+	elseif (midmapremoveshipLV == 9) then
+		PATCH_ShowSalvageResults(1, DTM004[229](midmapremoveshipLV))
+	elseif (midmapremoveshipLV == 10) then
+		PATCH_ShowSalvageResults(0, DTM004[228])
+	end
+	
+	Rule_AddInterval("PATCH_midmapremoveshipLV00_1",1)
+	Rule_Remove("PATCH_midmapremoveshipTXT")
 end
 
 function midmapremoveshipTXT()	
