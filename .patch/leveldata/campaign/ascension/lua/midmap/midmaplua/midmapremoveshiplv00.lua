@@ -465,7 +465,7 @@ function midmapremoveshipLV01()
 		-- Patched by TehnoMag
 		-- if (midmapremoveshipLV < midmapremoveshipLVMAX) then 
 		--  Rule_AddInterval("midmapremoveshipTXT",1)	
-		if (midmapremoveshipLV <= midmapremoveshipLVMAX) then
+		if (midmapremoveshipLV < midmapremoveshipLVMAX) then
 			Rule_AddInterval("PATCH_midmapremoveshipTXT", 1)
 		-- End Patch
 				 g_goods[22] = g_goods[22] + good22mun  
