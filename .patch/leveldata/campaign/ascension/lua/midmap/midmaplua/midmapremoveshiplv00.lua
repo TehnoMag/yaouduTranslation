@@ -350,6 +350,26 @@ function PATCH_PopulateSalvageGoodCount2()
 	return iText
 end
 
+function PATCH_ShowSalvageResults(bHasMore)
+	if (bHasMore) then
+		UI_SetElementVisible("midmapSalvage", "btnOK", 0)
+		UI_SetElementVisible("midmapSalvage", "btnYES", 1)
+		UI_SetElementVisible("midmapSalvage", "btnNO", 1)
+	else
+		UI_SetElementVisible("midmapSalvage", "btnOK", 1)
+		UI_SetElementVisible("midmapSalvage", "btnYES", 0)
+		UI_SetElementVisible("midmapSalvage", "btnNO", 0)
+	end
+	
+	UI_SetTextLabelText("midmapSalvage", "m_lbSavageGoodsNames1", PATCH_PopulateSalvageGoodNames1())
+	UI_SetTextLabelText("midmapSalvage", "m_lbSavageGoodsCount1", PATCH_PopulateSalvageGoodCount1())
+	UI_SetTextLabelText("midmapSalvage", "m_lbSavageGoodsNames2", PATCH_PopulateSalvageGoodNames2())
+	UI_SetTextLabelText("midmapSalvage", "m_lbSavageGoodsCount2", PATCH_PopulateSalvageGoodCount2())
+	UI_SetTextLabelText("midmapSalvage", "m_lbSalvageFleetEngCap", "Fleet Enginering Capacity: "..g_factorylimit)
+	UI_SetTextLabelText("midmapSalvage", "m_lb_SalvageNotice", DTM004[228])
+	UI_ShowScreen("midmapSalvage", ePopup)
+end
+
 function midmapremoveshipLV01()	
 if (midmapremoveshipgoodtotalW < g_weightPlay) then 
 text14 = midmapremoveshipLV
@@ -381,12 +401,7 @@ else
 --  UI_SetTextLabelText("GateMenu2","m_lblMessage",DTM004[228](g_factorylimit,good22mun,good33mun,good29mun,good34mun,good26mun,good76mun,good30mun,good27mun,good23mun,good51mun,good52mun,good53mun,good36mun))
 --UI_ShowScreen("GateMenu2", ePopup)
 -- Patched by TehnoMag
-	UI_SetTextLabelText("midmapSalvage", "m_lbSavageGoodsNames1", PATCH_PopulateSalvageGoodNames1())
-	UI_SetTextLabelText("midmapSalvage", "m_lbSavageGoodsCount1", PATCH_PopulateSalvageGoodCount1())
-	UI_SetTextLabelText("midmapSalvage", "m_lbSavageGoodsNames2", PATCH_PopulateSalvageGoodNames2())
-	UI_SetTextLabelText("midmapSalvage", "m_lbSavageGoodsCount2", PATCH_PopulateSalvageGoodCount2())
-	UI_SetTextLabelText("midmapSalvage", "m_lbSalvageFleetEngCap", "Fleet Enginering Capacity: "..g_factorylimit)
-	UI_ShowScreen("midmapSalvage", ePopup)
+	PATCH_ShowSalvageResults(false)
 exploremission = 0
 Rule_AddInterval("midmapexploreLV00_1",10)
 Rule_Remove("midmapremoveshipLV01")            

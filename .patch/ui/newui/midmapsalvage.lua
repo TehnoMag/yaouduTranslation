@@ -138,7 +138,30 @@ midmapSalvage = {
 					}
 				}
 			}
-		},	
+		},
+		{
+			type = "Frame",
+			clipchildren = 0,
+			
+			Layout = {
+				pos_XY = { x=.55, y=0, xr="par", hr="par" },
+				size_WH = { w=.4, h=1, wr="par", hr="par" }
+			}
+			;
+			
+			{
+				type = "TextLabel",
+				name = "m_lb_SalvageNotice",
+				wrapping = 1,
+				--giveParentMouseInput = 1,
+				
+				Text = {
+					textStyle = "RM_ShipInfoLabel_TextStyle",
+					vAlign = "Middle",
+					hAlign = "Left"
+				}
+			}
+		},
 		{
 			type = "Frame",
 			arrangetype = "horiz",
@@ -177,8 +200,9 @@ midmapSalvage = {
 					pos_XY = { x=1., y=1., xr="par", yr="par" }
 				}
 				;
-					
-				NewMenuButton("btnOK", "$71035", "", 0, BTN_FOOTER_SMALL_LAYOUT, "FEButtonStyle1", 0),
+				
+				NewMenuButton("btnOK", "$2612", "", 0, BTN_FOOTER_SMALL_LAYOUT, "FEButtonStyle1", 0),
+				NewMenuButton("btnYES", "$71035", "", 0, BTN_FOOTER_SMALL_LAYOUT, "FEButtonStyle1", 0),
 				NewMenuButton("btnNO", "$71040", "", 0, BTN_FOOTER_SMALL_LAYOUT, "FEButtonStyle1", 0)
 			}
 		}
