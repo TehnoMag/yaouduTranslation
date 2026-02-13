@@ -306,10 +306,13 @@ Rule_AddInterval("midmapremoveshipLV01",1)
 Rule_Remove("midmapremoveshipmission")  
 else 
 -----------货仓不够离开地图--------------
-  UI_SetElementVisible("GateMenu2","m_lblTitle",0)
-UI_SetElementVisible("GateMenu2","m_lblSubTitle",0)
-UI_SetTextLabelText("GateMenu2","m_lblMessage",DTM004[238](g_factorylimit,midmapremoveshipgoodtotalW,g_weightPlay))
-UI_ShowScreen("GateMenu2", ePopup) 	          
+-- Patched by TehnoMag
+--  UI_SetElementVisible("GateMenu2","m_lblTitle",0)
+--UI_SetElementVisible("GateMenu2","m_lblSubTitle",0)
+--UI_SetTextLabelText("GateMenu2","m_lblMessage",DTM004[238](g_factorylimit,midmapremoveshipgoodtotalW,g_weightPlay))
+--UI_ShowScreen("GateMenu2", ePopup) 	    
+PATCH_ShowSalvageResults(0, DTM004[231](midmapremoveshipgoodtotalW,g_weightPlay ))
+-- End Patch      
 Rule_AddInterval("midmapexploreLV00_1",10)
 Rule_Remove("midmapremoveshipmission")            
 end    
