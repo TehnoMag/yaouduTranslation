@@ -55,7 +55,7 @@ LaunchMenuRPGmissionM32 = {
 				margin_LT = { l = PANEL_PAD_HORIZ, t = PANEL_PAD_VERT, lr = "scr", tr = "scr" },
 				margin_RB = { r = PANEL_PAD_HORIZ, b =1, rr = "scr", br = "px" },				
 				size_WH = {	w = 0.4, h = 1.2, wr = "scr", hr = "px" },		
-				max_WH = { w = 0.8, wr = "scr" },								
+				max_WH = { w = 0.4, wr = "scr" },								
 			},	
 			arrangeSep = {	x=BUTTON_SPACING_HORIZ, y=0.01, xr="scr", yr="scr",},
 			
@@ -112,7 +112,8 @@ LaunchMenuRPGmissionM32 = {
 					},
 					arrangeSep = {	x=BUTTON_SPACING_HORIZ, y=0, xr="scr", yr="scr",},	
 					;
-					NewMenuButton("key02",	"$48625",	"",	0,	BTN_FOOTER_SMALL_LAYOUT,	"FEButtonStyle1",	[[UI_SetElementVisible('LaunchMenuRPGmissionM32','key02',0);]]),  --44681  关闭		
+					NewMenuButton("key01",	"$48625",	"",	0,	BTN_FOOTER_SMALL_LAYOUT,	"FEButtonStyle1",	[[UI_SetElementVisible('LaunchMenuRPGmissionM32','key01',0);]]),  --48625  远程货运任务		
+					NewMenuButton("key02",	"$105680",	"",	0,	BTN_FOOTER_SMALL_LAYOUT,	"FEButtonStyle1",	[[UI_SetElementVisible('LaunchMenuRPGmissionM32','key02',0);]]),  --105680  后宫绝境战		
 				},
 			},				
 		},

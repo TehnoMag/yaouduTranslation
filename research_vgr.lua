@@ -23,8 +23,8 @@ Locale_Text[202] = "Heavy laser battleship technology"
 Locale_Text[210] = "Summon a giant dreadnought equipped with Red Lotus Fortress-class missiles to battle"
 Locale_Text[211] = "Missile dreadnought technology"
 
-Locale_Text[220] = "Summon a Makarn's Wrath-class war fortress to support the battle"
-Locale_Text[221] = "Makarn's Wrath War Fortress"
+Locale_Text[220] = "Summon a Makaan's Wrath-class war fortress to support the battle"
+Locale_Text[221] = "Makaan's Wrath War Fortress"
 
 
 
@@ -96,11 +96,11 @@ Locale_Text[405] = "Small warships equipped with high performance general purpos
 Locale_Text[406] = "missile assault ship system"
 
 
-Locale_Text[410] = "Summon Makarn's Wrath-class war fortress to support the battle"
+Locale_Text[410] = "Summon Makaan's Wrath-class war fortress to support the battle"
 Locale_Text[411] = "Enhanced megaship skeleton"
 
 Locale_Text[414] = "Fortress-class megasaber technology"
-Locale_Text[415] = "Transform the Makarn's Wrath class war fortress into an airborne war fortress"
+Locale_Text[415] = "Transform the Makaan's Wrath class war fortress into an airborne war fortress"
 Locale_Text[416] = "Converted Fortress shipboard hangar"
 
 Locale_Text[420] = "Can build cruiser-class Red Lotus missile launchers"
@@ -111,7 +111,7 @@ Locale_Text[430] = "Can build catamaran-class battlecruisers"
 Locale_Text[431] = "Twin-hulled battlecruiser racks"
 
 
-Locale_Text[440] = "Summon third-generation Makarn's Wrath-class war fortress to support battles"
+Locale_Text[440] = "Summon third-generation Makaan's Wrath-class war fortress to support battles"
 Locale_Text[441] = "Super reinforced megaship skeleton"
 
 
@@ -147,8 +147,8 @@ Locale_Text[501] = "Gundanium-class super fighter frame"
 Locale_Text[510] = "Giant engineering ship technology"
 Locale_Text[511] = "A super-giant engineering dreadnought mech with amazing repair capabilities"
 Locale_Text[512] = "Giant dock ship racks"
-Locale_Text[513] = "增加巨型工程舰的生产速度"
-Locale_Text[514] = "巨型工程舰生产速度提升"
+Locale_Text[513] = "Increase the production speed of giant engineering ships"
+Locale_Text[514] = "Production speed of giant engineering ships increased"
 
 Locale_Text[520] = "space fighter mech technology"
 Locale_Text[521] = "An 18 meter tall reinforced powered exoskeleton that can be used as a space fighter mech when equipped with weapons"
@@ -158,8 +158,8 @@ Locale_Text[522] = "Advanced power armor rack"
 Locale_Text[530] = "Giant battle carrier technology"
 Locale_Text[531] = "A large battle carrier that can quickly release its carrier aircraft while having enough firepower"
 Locale_Text[532] = "Battle carrier rack"
-Locale_Text[533] = "增加战列航母的生产速度"
-Locale_Text[534] = "战列航母工程能力提升"
+Locale_Text[533] = "Increase the production speed of battleships"
+Locale_Text[534] = "Enhanced battleship and aircraft carrier engineering capabilities"
 
 Locale_Text[540] = "Large bomber technology"
 Locale_Text[541] = "An enhanced version of the bomber, with more anti-ship firepower"
@@ -198,17 +198,17 @@ Locale_Text[609] = "Laser Dreadnought Technology"
 Locale_Text[610] = "Use multiple rechargeable energy bins to release energy cyclically, and emit powerful and high-power energy beams"
 Locale_Text[611] = "Rotary laser charging device"
 
-Locale_Text[619] = "防御平台科技"
-Locale_Text[620] = "中型的防御平台机架，可以搭载各种巡洋舰和驱逐舰级武器"
-Locale_Text[621] = "中型平台机架"
-Locale_Text[630] = "大型的防御平台机架，可以搭载各种旗舰级武器"
-Locale_Text[641] = "大型平台机架"
-Locale_Text[630] = "大型的区域型防御前哨，装备一定数量的主力舰武器"
-Locale_Text[641] = "大型防御前哨结构体"
-Locale_Text[650] = "大型的区域型防御前哨，装备一定数量的主力舰武器"
-Locale_Text[651] = "大型防御前哨结构体"
-Locale_Text[660] = "重型的区域型防御前哨，装备一定数量的旗舰级武器"
-Locale_Text[661] = "重型防御前哨结构体"
+Locale_Text[619] = "Defense Platform Technology"
+Locale_Text[620] = "The medium-sized defense platform rack can carry various cruiser and destroyer-class weapons."
+Locale_Text[621] = "Medium-sized platform rack"
+Locale_Text[630] = "Large defense platform racks can accommodate a variety of flagship-level weapons."
+Locale_Text[641] = "Large platform rack"
+Locale_Text[630] = "Large regional defense outposts, equipped with a certain number of capital ship weapons."
+Locale_Text[641] = "Large defensive outpost structure"
+Locale_Text[650] = "Large regional defense outposts, equipped with a certain number of capital ship weapons."
+Locale_Text[651] = "Large defensive outpost structure"
+Locale_Text[660] = "Heavy regional defense outposts, equipped with a certain number of flagship-level weapons."
+Locale_Text[661] = "Heavy defensive outpost structure"
 
 
 ------------??--------------------------------------------------------

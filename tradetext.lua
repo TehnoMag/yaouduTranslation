@@ -662,7 +662,7 @@ DTM004[227] = function(iDate)
 	return iText
 end
 
--- Patched by TehnoMang
+-- Patched by TehnoMag
 -- DTM004[228] = function(text1,text2,text3,text4,text5,text6,text15,text7,text8,text9,text10,text11,text12,text13)
 --	local iText="Your fleet's engineering capabilities are: "..text1..".A total of "..text2.." units of basic alloys, "..text3.." units of slaves, "..text4.." units of medium-sized hull components, "..text5.." units of rats, "..text6.." units of medium-sized weapon components, "..text15.." units of spare crew, "..text7.." units of large hull components, "..text8.." units of large weapon components, "..text9.." units of advanced alloys, "..text10.." units of large modular living quarters, "..text11.." units of flagship weapon components, "..text12.." units of flagship power components, "..text13.." units of humanoid computers. This wreckage area yields no more valuable resources; your fleet must leave."
 --	return iText
@@ -713,18 +713,24 @@ end
 --	return iText
 --end
 
+-- DTM004[238] = function(text1,text2,text3)
+--	local iText="Your fleet's engineering capacity is "..text1..". You have discovered "..text2.." units of resources, but your fleet only has "..text3.." units of space, so you must abandon the salvage and leave the sector."
+--	return iText
+-- end
+
 DTM004[228] = "Debries field yields no more valuable resources. Your fleet must leave."
 DTM004[229] = function(text1)
 	local iText = "The current salvage count is "..text1..".\n The more times you salvage, the more materials and types you can obtain, but the stronger enemies will be encountered when leaving the sector."
 	return iText
 end
 DTM004[230] = "No Salvage Found"
--- End Patch
-
-DTM004[238] = function(text1,text2,text3)
-	local iText="Your fleet's engineering capacity is "..text1..". You have discovered "..text2.." units of resources, but your fleet only has "..text3.." units of space, so you must abandon the salvage and leave the sector."
+DTM004[231] = function(text1, text2)
+	local iText = "You have discovered"..text1.." units of valuable salvage, but only "..text2.." space in cargo are available.\n You can not contiune salvage operation."
 	return iText
 end
+-- End Patch
+
+
 
 DTM004[239] = function(text1,text2,text3)
 	local iText="The Vaygr base has been severely damaged. Your fleet can now organize a landing operation to temporarily control the base. Your fleet currently has "..text1.." marines. Proceed with the landing? The base's current level is "..text2..". Controlling it requires at least "..text3.." marines. Note: The higher your rank, the more marines your fleet will have, and the less damage you may suffer in the attack."

@@ -12,51 +12,51 @@ rangestart 100001 105000
 100035  Holy Pulser Turret
 100040  Holy Ion Turret
 100045  Hiiagaran super heavy anti-ship missile
-100050  恩奇拉方舟
-100051  无形异物，虚空所铸。古老原始，万物莫及。若其苏醒，风暴将随
-100060  大型裂解射线发射器
-100065  发射高能裂解射线
-100070  小型裂解射线发射器
-100075  发射脉冲裂解射线
-100080  守灵人
-100085  咏颂者
-100090  凋零
-100095  绝望祷言
-100100  朝圣者圣艾恩旅团造物
-100105  黑爪拦截机
-100110  配置着某些神秘科技的高性能重装拦截机
-100115  黑翼重炮艇
-100120  拥有优秀生存能力的重型炮艇
-100125  凋零者级战列舰
-100126  拥有厚实装甲和强劲舷炮的主战战列舰
-100130  天灾级运载舰
-100131  擅长在复杂环境下执行任务的大型运载舰
-100140  兑换凋零者级蓝图
-100141  分解凋零者级蓝图
-100150  兑换天灾级蓝图
-100151  分解天灾级蓝图
-100160  石像鬼级导弹驱逐舰
-100161  多用途导弹驱逐舰
-100170  终焉之奏
-100171  定向演化的高级造物
-100180  朝圣者六三型工程船
-100181  朝圣者的量产工程船
-100190  朝圣者八五型精炼船
-100191  朝圣者的量产精炼船
-100200  中型防空塔
-100201  中型防空平台
-100210  中型导弹塔
-100211  中型反舰平台
-100220  大型激光塔
-100221  大型反旗舰平台
-100230  大型导弹塔
-100231  大型反旗舰平台
-100240  大型镭射塔
-100241  大型反旗舰平台
-100250  8联装防空炮
-100251  防空速射炮
-100260  龙卷风精锐鱼雷轰炸机
-100261  空射舰载重型鱼雷的重型轰炸机
-100270  手推车空间战斗机
-100271  轻型机炮截击机
+100050  Enkidra's Ark
+100051  An intangible entity, forged from the void. Ancient and primordial, beyond the reach of all things. If it awakens, a storm will follow.
+100060  Large-scale pyrolysis ray emitter
+100065  Emitting high-energy splitting rays
+100070  Miniature pyrolysis ray emitter
+100075  Emit pulsed splitting rays
+100080  wakeman
+100085  chanter
+100090  Wither
+100095  prayer of despair
+100100  Pilgrim Saint Ion's Creations
+100105  Black Claw Interceptor
+100110  High-performance heavy-duty interceptor equipped with certain mysterious technologies
+100115  Blackwing Heavy Gunboat
+100120  Heavy gunboats with excellent survivability
+100125  Withered-class battleship
+100126  Main battleship with thick armor and powerful side guns
+100130  Disaster-class transport ship
+100131  Large transport ships that excel at performing missions in complex environments
+100140  Exchange for Wither-class blueprints
+100141  Decompose the Wither-class Blueprint
+100150  Exchange for Cataclysmic Blueprints
+100151  Decompose the Cataclysmic Blueprint
+100160  Gargoyle-class guided-missile destroyer
+100161  Multipurpose guided missile destroyer
+100170  Final Movement
+100171  Advanced creations of directed evolution
+100180  Pilgrim Type 63 Engineering Vessel
+100181  Pilgrims' mass-produced engineering ships
+100190  Pilgrim Type 85 Refined Ship
+100191  Pilgrim's mass-produced refining ship
+100200  Medium-sized air defense tower
+100201  medium-sized air defense platform
+100210  Medium missile turret
+100211  medium-sized anti-ship platform
+100220  Large laser tower
+100221  Large anti-flagship platform
+100230  large missile tower
+100231  Large anti-flagship platform
+100240  Large laser tower
+100241  Large anti-flagship platform
+100250  8-tube anti-aircraft gun
+100251  Anti-aircraft rapid-fire gun
+100260  Tornado Elite Torpedo Bomber
+100261  Heavy bombers with air-launched shipborne heavy torpedoes
+100270  Handcart Space Fighter
+100271  Light machine gun interceptor
 rangeend

@@ -55,7 +55,7 @@ LaunchMenuRPGmissionM03 = {
 				margin_LT = { l = PANEL_PAD_HORIZ, t = PANEL_PAD_VERT, lr = "scr", tr = "scr" },
 				margin_RB = { r = PANEL_PAD_HORIZ, b =1, rr = "scr", br = "px" },				
 				size_WH = {	w = 0.4, h = 1.2, wr = "scr", hr = "px" },		
-				max_WH = { w = 0.8, wr = "scr" },								
+				max_WH = { w = 0.4, wr = "scr" },								
 			},	
 			arrangeSep = {	x=BUTTON_SPACING_HORIZ, y=0.01, xr="scr", yr="scr",},
 			
@@ -113,6 +113,7 @@ LaunchMenuRPGmissionM03 = {
 					arrangeSep = {	x=BUTTON_SPACING_HORIZ, y=0, xr="scr", yr="scr",},	
 					;
 					NewMenuButton("key01",	"$48555",	"",	0,	BTN_FOOTER_SMALL_LAYOUT,	"FEButtonStyle1",	[[UI_SetElementVisible('LaunchMenuRPGmissionM03','key01',0);]]),  --44681  ¹Ø±Õ			
+					NewMenuButton("key02",	"$49175",	"",	0,	BTN_FOOTER_SMALL_LAYOUT,	"FEButtonStyle1",	[[UI_SetElementVisible('LaunchMenuRPGmissionM03','key02',0);]]),  --44681  ¹Ø±Õ		
 				},
 			},				
 		},
