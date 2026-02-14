@@ -108,7 +108,7 @@ end
 
 ----------Ö´ÐÐÌ½Ë÷ÊÂ¼þ-----------
   --Rule_AddInterval(randommidmapexploremissiontime,1)  
-	Rule_AddInterval("midmapremoveshipLV00",1)
+	Rule_AddInterval("midmapextractbaseLV01",1)
        	 _ALERT("randommidmapexploremissiontime")  
 	     _ALERT(randommidmapexploremissiontime)  
 	Rule_Remove("midmapmission03extract")      
