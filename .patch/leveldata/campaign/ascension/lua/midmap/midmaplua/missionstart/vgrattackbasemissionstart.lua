@@ -249,7 +249,7 @@ function vgrattackbasemissionbattlestart()
 		Rule_Remove("vgrattackbasemissionbattlestart")
 	end	 
 -----------------------vgrattackbasemissionbattletime-----------------------------------------------------	
-	
+		
 	function vgrattackbasemissionbattleEND()	
 if(vgrattackbasemissionbattletime == 0)and(vgrattackbasemissionbattletime == 0)and(SobGroup_Count("vgrmidmapbaseGroup") == 0)then	
     VGRBASEmissionmissionEND = 1
@@ -259,7 +259,7 @@ if(vgrattackbasemissionbattletime == 0)and(vgrattackbasemissionbattletime == 0)a
 	  Rule_AddInterval("vgrattackendstart",1)   
 	  Rule_Remove("vgrattackbasemissionbattle")  
 	  Rule_Remove("vgrattackbasemissionbattleEND")   
---elseif (SobGroup_HealthPercentage("vgrmidmapbaseGroup") < 1)and(SobGroup_HealthPercentage("vgrmidmapbaseGroup") > 0)then
+elseif (SobGroup_HealthPercentage("vgrmidmapbaseGroup") < 1)and(SobGroup_HealthPercentage("vgrmidmapbaseGroup") > 0)then
 elseif (vgrattackbasemissionbattletime == 0)and(SobGroup_HealthPercentage("vgrmidmapbaseGroup") < 0.5)and(SobGroup_HealthPercentage("vgrmidmapbaseGroup") > 0)and(SobGroup_Count("vgrmidmapbaseGroupfollw00") == 0)then
 _ALERT("midmapextractbaseENDstartCSTART") 
   midmapextractbaseLVarmy = midmapextractbaseLV*1000
@@ -267,6 +267,7 @@ _ALERT("midmapextractbaseENDstartCSTART")
   UI_SetElementVisible("fairyMenu01","m_lblSubTitle",0)
   UI_SetTextLabelText("fairyMenu01","m_lblMessage",DTM004[239](g_goods[76],midmapextractbaseLV,midmapextractbaseLVarmy))
   UI_ShowScreen("fairyMenu01", ePopup) 	
+  
   SobGroup_SwitchOwner( "vgrmidmapbaseGroup", 1)
 	 battleLVmission = 1
 	battleLVrandom = 1
@@ -344,6 +345,40 @@ end
 ---战利品计算---
 ---15级基地--15种战利品等级--套用打捞系统战利品公式--玩家打捞能力改为玩家陆战队兵力------
 
+function PATCH_ShowMissionReport_PrepareBoarding()
+	UI_SetElementVisible("missionReport", "btnOK", 0)
+	UI_SetElementVisible("missionReport", "btnYES", 1)
+	UI_SetElementVisible("missionReport", "btnNO", 1)
+	
+	UI_SetTextLabelText("missionReport", "m_lbResultParam", "Boarding Power: "..g_goods[76])
+	
+	local l1 = ""
+	l1="Base Level:\n"
+	l1=l1.."Required Borading Power:"
+	UI_SetTextLabelText("missionReport", "m_lbList1", l1)
+	
+	local l3 = ""
+	l3=midmapextractbaseLV.."\n"
+	l3=l3..midmapextractbaseLVarmylast
+	UI_SetTextLabelText("missionReport", "m_lbList1", l3)
+	
+	UI_ShowScreen("missionReport", ePopup)
+end
+
+function PATCH_midmapextractbaseENDstart02()
+	if (UI_IsNamedElementVisible("missionReport","keyOK")==0) then
+		UI_SetElementVisible("missionReport","keyOK",1)
+		UI_HideScreen('missionReport')	
+		Rule_AddInterval("vgrattackbaseControls",1)
+		Rule_Remove("PATCH_midmapextractbaseENDstart02")		
+	elseif (UI_IsNamedElementVisible("missionReport","keyNO")==0) then
+		UI_SetElementVisible("missionReport","keyNO",1)
+		UI_HideScreen('missionReport')
+		SobGroup_SwitchOwner( "vgrmidmapbaseGroup", 5)
+		Rule_AddInterval("midmapextractbaseEND",10) 
+		Rule_Remove("PATCH_midmapextractbaseENDstart02")
+	end
+end    
     
 function midmapextractbaseENDstart()
 --------占领-----------计算玩家的陆战队兵力--计算守军兵力--1级1000--占领计算等于玩家兵力扣除守军兵力----
@@ -353,10 +388,13 @@ midmapextractbaseLVarmylast = midmapextractbaseLVarmy + 100
 --if (SobGroup_HealthPercentage("vgrmidmapbaseGroup") < 1)and(SobGroup_HealthPercentage("vgrmidmapbaseGroup") > 0)then
 if (SobGroup_HealthPercentage("vgrmidmapbaseGroup") < 0.5)and(SobGroup_HealthPercentage("vgrmidmapbaseGroup") > 0)and(midmapextractfleet == 0)and(SobGroup_Count("vgrmidmapbaseGroupfollw00") == 0)then
 _ALERT("midmapextractbaseENDstartC") 
-     UI_SetElementVisible("fairyMenu01","m_lblTitle",0)
-  UI_SetElementVisible("fairyMenu01","m_lblSubTitle",0)
-  UI_SetTextLabelText("fairyMenu01","m_lblMessage",DTM004[239](g_goods[76],midmapextractbaseLV,midmapextractbaseLVarmylast))
-  UI_ShowScreen("fairyMenu01", ePopup) 	
+-- Patched By tehnoMag
+--     UI_SetElementVisible("fairyMenu01","m_lblTitle",0)
+--  UI_SetElementVisible("fairyMenu01","m_lblSubTitle",0)
+--  UI_SetTextLabelText("fairyMenu01","m_lblMessage",DTM004[239](g_goods[76],midmapextractbaseLV,midmapextractbaseLVarmylast))
+--  UI_ShowScreen("fairyMenu01", ePopup) 	
+	PATCH_ShowMissionReport_PrepareBoarding()
+-- End Patch
   vgrbase = 1
   SobGroup_SwitchOwner( "vgrmidmapbaseGroup", 1)
   Rule_AddInterval("midmapextractbaseENDstart02",1) 

@@ -1545,8 +1545,8 @@ GameScreens = {
 	
 	-- Patched by TehnoMag
 	{
-		name = "midmapSalvage",
-		filename = "DATA:\\UI\\NewUI\\midmapsalvage.lua",
+		name = "midmapReport",
+		filename = "DATA:\\UI\\NewUI\\midmapreport.lua",
 		activated = 0
 	}
 }

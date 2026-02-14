@@ -4,7 +4,7 @@ dofilepath("data:ui/newui/Styles/HWRM_Style/ControlConstructors.lua")
 
 DIALOGWIDTH = 254
 
-midmapSalvage = {
+midmapReport = {
 	stylesheet = "HW2StyleSheet",
 	
 	Layout = {
@@ -65,7 +65,7 @@ midmapSalvage = {
 					{
 						-- Goods List1
 						type = "TextLabel",
-						name = "m_lbSavageGoodsNames1",
+						name = "m_lbList1",
 						autosize=1,
 						
 						Layout = {
@@ -81,7 +81,7 @@ midmapSalvage = {
 					{
 						-- Goods List2
 						type = "TextLabel",
-						name = "m_lbSavageGoodsNames2",
+						name = "m_lbList2",
 						autosize=1,
 						
 						Layout = {
@@ -107,7 +107,7 @@ midmapSalvage = {
 					{
 						-- Goods Count1
 						type = "TextLabel",
-						name = "m_lbSavageGoodsCount1",
+						name = "m_lbList3",
 						autosize = 1,
 						
 						Layout = {
@@ -123,7 +123,7 @@ midmapSalvage = {
 					{
 						-- Goods Count2
 						type = "TextLabel",
-						name = "m_lbSavageGoodsCount2",
+						name = "m_lbList4",
 						autosize = 1,
 						
 						Layout = {
@@ -151,7 +151,7 @@ midmapSalvage = {
 			
 			{
 				type = "TextLabel",
-				name = "m_lb_SalvageNotice",
+				name = "m_lbNotice",
 				wrapping = 1,
 				--giveParentMouseInput = 1,
 				
@@ -176,7 +176,7 @@ midmapSalvage = {
 					
 			{
 				type = "TextLabel",
-				name = "m_lbSalvageFleetEngCap",
+				name = "m_lbResultParam",
 				
 				Layout = {
 					size_WH = { w=.5, h=1., wr="par", hr="par" }
