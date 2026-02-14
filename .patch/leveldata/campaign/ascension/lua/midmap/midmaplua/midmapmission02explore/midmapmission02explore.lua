@@ -108,9 +108,7 @@ end
 
 ----------Ö´ÐÐÌ½Ë÷ÊÂ¼þ-----------
   --Rule_AddInterval(randommidmapexploremissiontime,1) 
-    --for debug. set mariens forces to 1000
-	g_goods[76] = 1000
-	Rule_AddInterval("midmapextractbaseLV01",1)
+	Rule_AddInterval("midmapremoveshipLV00",1)
        	 _ALERT("randommidmapexploremissiontime")  
 	     _ALERT(randommidmapexploremissiontime)  
 	Rule_Remove("midmapmission03extract")      

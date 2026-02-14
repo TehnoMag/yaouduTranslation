@@ -737,85 +737,85 @@ end
 --	return iText
 --end
 
-DTM004[239] = "The Vaygr base has been severely damaged. Your fleet can now organize a landing operation to temporarily control the base.\n  Note: The higher your rank, the more marines your fleet will have, and the less damage you may suffer in the attack."
+--DTM004[240] = function(text1,text2,text13,text14,text15,text16,text17,text19,text18)
+--	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base. They successfully looted "..text13.." units of luxury goods, "..text14.." units of fortress-class blueprint fragments, "..text15.." units of luxury furniture, "..text16.." units of humanoid computers, "..text17.." units of advanced fortress-class blueprint fragments, and a total of "..text19.." units of various supplies. These resources occupy "..text18.." of your fleet's cargo hold space (if your fleet space is insufficient, you can only salvage a portion of these resources)."
+--	return iText
+--end
 
+--DTM004[241] = function(text1,text2,text11,text12,text13,text14,text15,text16,text19,text18)
+--	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base. You successfully looted "..text11.." units of advanced flagship blueprint fragments, "..text12.." units of Imperial Maids, "..text13.." units of luxury goods, "..text14.." units of fortress-class blueprint fragments, "..text15.." units of luxurious furniture, and "..text16.." units of humanoid computers, in addition to a total of "..text19.." units of various supplies. These resources occupy a total of "..text18.." of your fleet's cargo hold space (if your fleet's space is insufficient, you can only salvage a portion of these resources)."
+--	return iText
+--end
+
+--DTM004[242] = function(text1,text2,text9,text10,text11,text12,text13,text14,text15,text19,text18)
+--	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base. You successfully looted "..text9.." units of repair supplies, "..text10.." units of spare crew, "..text11.." units of advanced flagship blueprint fragments, "..text12.." units of Imperial Maids, "..text13.." units of luxury goods, "..text14.." units of fortress-class blueprint fragments, "..text15.." units of luxurious furniture, and a total of "..text19.." units of various supplies. These resources occupy "..text18.." of your fleet's cargo space (if your fleet space is insufficient, you can only salvage a portion of these resources)."
+--	return iText
+--end
+
+--DTM004[243] = function(text1,text2,text7,text8,text9,text10,text11,text12,text13,text14,text19,text18)
+--	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base. You successfully looted "..text7.." units of medium weapon parts, "..text8.." units of slaves, "..text9.." units of repair supplies, "..text10.." units of spare crew, "..text11.." units of advanced flagship blueprint fragments, "..text12.." units of imperial maids, "..text13.." units of luxury goods, "..text14.." units of fortress-class blueprint fragments, and a total of "..text19.." units of various supplies. These resources occupy "..text18.." of your fleet's cargo space (if your fleet space is insufficient, you can only salvage a portion of these resources)."
+--	return iText
+--end
+
+--DTM004[244] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12,text13,text18)
+--	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, supported by fleet firepower, successfully took control of the base. You also successfully looted "..text3.." units of hydrogen fuel, "..text4.." units of basic supplies, "..text5.." units of rare ore, "..text6.." units of ammunition, "..text7.." units of medium weapon parts, "..text8.." units of slaves, "..text9.." units of repair supplies, "..text10.." units of spare crew, "..text11.." units of advanced flagship blueprint fragments, "..text12.." units of imperial maids, and "..text13.." units of luxury goods. These resources occupy a total of "..text18.." of your fleet's cargo space (if your fleet has insufficient space, you can only salvage a portion of these resources)."
+--	return iText
+--end
+
+--DTM004[245] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12,text18)
+--	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, supported by fleet firepower, successfully took control of the base. You also successfully looted "..text3.." units of hydrogen fuel, "..text4.." units of basic supplies, "..text5.." units of rare ore, "..text6.." units of ammunition, "..text7.." units of medium weapon parts, "..text8.." units of slaves, "..text9.." units of repair supplies, "..text10.." units of spare crew, "..text11.." units of advanced flagship blueprint fragments, and "..text12.." units of Imperial Maids. These resources occupy a total of "..text18.." of your fleet's cargo space (if your fleet has insufficient space, you can only salvage a portion of these resources)."
+--	return iText
+--end
+
+--DTM004[246] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text18)
+--	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base. You successfully looted "..text3.." units of hydrogen fuel, "..text4.." units of basic supplies, "..text5.." units of rare ore, "..text6.." units of ammunition, "..text7.." units of medium weapon parts, "..text8.." units of slaves, "..text9.." units of repair supplies, "..text10.." units of spare crew, and "..text11.." units of advanced flagship blueprint fragments. These resources occupy a total of "..text18.." of your fleet's cargo space (if your fleet has insufficient space, you can only salvage a portion of these resources)."
+--	return iText
+--end
+
+--DTM004[247] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text18)
+--	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base. You successfully looted "..text3.." units of hydrogen fuel, "..text4.." units of basic supplies, "..text5.." units of rare ore, "..text6.." units of ammunition, "..text7.." units of medium weapon parts, "..text8.." units of slaves, "..text9.." units of repair supplies, and "..text10.." units of spare crew. These resources occupy a total of "..text18.." of your fleet's cargo space (if your fleet has insufficient space, you can only salvage a portion of these resources)."
+--	return iText
+--end
+
+--DTM004[248] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text18)
+--	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base. You successfully looted "..text3.." units of hydrogen fuel, "..text4.." units of basic supplies, "..text5.." units of rare ore, "..text6.." units of ammunition, "..text7.." units of medium weapon parts, "..text8.." units of slaves, and "..text9.." units of repair supplies. These resources occupy a total of "..text18.." of your fleet's cargo hold space (if your fleet space is insufficient, you can only salvage a portion of these resources)."
+--	return iText
+--end
+
+--DTM004[249] = function(text1,text2,text3,text4,text5,text6,text7,text8,text18)
+--	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base. You also successfully looted "..text3.." units of hydrogen fuel, "..text4.." units of basic supplies, "..text5.." units of rare ore, "..text6.." units of ammunition, "..text7.." units of medium weapon attachments, and "..text8.." units of slaves. These resources occupy a total of "..text18.." of your fleet's cargo hold space (if your fleet's space is insufficient, you can only salvage a portion of these resources)."
+--	return iText
+--end
+
+--DTM004[250] = function(text1,text2,text3,text4,text5,text6,text7,text18)
+--	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base. They successfully looted "..text3.." units of hydrogen fuel, "..text4.." units of basic supplies, "..text5.." units of rare ore, "..text6.." units of ammunition, and "..text7.." units of medium weapon attachments. These resources occupy a total of "..text18.." of your fleet's cargo space (if your fleet has insufficient space, you can only salvage a portion of these resources)."
+--	return iText
+--end
+
+--DTM004[251] = function(text1,text2,text3,text4,text5,text6,text18)
+--	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base. They also successfully looted "..text3.." units of hydrogen fuel, "..text4.." units of basic supplies, "..text5.." units of rare ore, and "..text6.." units of ammunition. These resources occupy a total of "..text18.." of your fleet's cargo hold space (if your fleet's space is insufficient, you can only salvage a portion of these resources)."
+--	return iText
+--end
+
+--DTM004[252] = function(text1,text2,text3,text4,text5,text18)
+--	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base. They also successfully looted "..text3.." units of hydrogen fuel, "..text4.." units of basic supplies, and "..text5.." units of rare ore. These resources occupy a total of "..text18.." of your fleet's cargo hold space (if your fleet's space is insufficient, you can only salvage a portion of these resources)."
+--	return iText
+--end
+
+--DTM004[253] = function(text1,text2,text3,text4,text18)
+--	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base. They also successfully looted "..text3.." units of hydrogen fuel and "..text4.." units of basic supplies. These resources occupy a total of "..text18.." of your fleet's cargo hold space (if your fleet space is insufficient, you can only salvage a portion of these resources)."
+--	return iText
+--end
+
+--DTM004[254] = function(text1,text2,text3,text18)
+--	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base and successfully looted "..text3.." units of hydrogen fuel. These resources occupy a total of "..text18.." of your fleet's cargo hold space (if your fleet space is insufficient, you can only salvage a portion of these resources)."
+--	return iText
+--end
+
+DTM004[239] = "The Vaygr base has been severely damaged. Your fleet can now organize a boarding operation to temporarily control the base.\n  Note: The higher your rank and more marines your fleet have, then less damage you may take in this operation."
+DTM004[240] = "Your marines, with the support of fleet firepower, successfully took control of the base."
 -- End Patch
 
-
-DTM004[240] = function(text1,text2,text13,text14,text15,text16,text17,text19,text18)
-	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base. They successfully looted "..text13.." units of luxury goods, "..text14.." units of fortress-class blueprint fragments, "..text15.." units of luxury furniture, "..text16.." units of humanoid computers, "..text17.." units of advanced fortress-class blueprint fragments, and a total of "..text19.." units of various supplies. These resources occupy "..text18.." of your fleet's cargo hold space (if your fleet space is insufficient, you can only salvage a portion of these resources)."
-	return iText
-end
-
-DTM004[241] = function(text1,text2,text11,text12,text13,text14,text15,text16,text19,text18)
-	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base. You successfully looted "..text11.." units of advanced flagship blueprint fragments, "..text12.." units of Imperial Maids, "..text13.." units of luxury goods, "..text14.." units of fortress-class blueprint fragments, "..text15.." units of luxurious furniture, and "..text16.." units of humanoid computers, in addition to a total of "..text19.." units of various supplies. These resources occupy a total of "..text18.." of your fleet's cargo hold space (if your fleet's space is insufficient, you can only salvage a portion of these resources)."
-	return iText
-end
-
-DTM004[242] = function(text1,text2,text9,text10,text11,text12,text13,text14,text15,text19,text18)
-	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base. You successfully looted "..text9.." units of repair supplies, "..text10.." units of spare crew, "..text11.." units of advanced flagship blueprint fragments, "..text12.." units of Imperial Maids, "..text13.." units of luxury goods, "..text14.." units of fortress-class blueprint fragments, "..text15.." units of luxurious furniture, and a total of "..text19.." units of various supplies. These resources occupy "..text18.." of your fleet's cargo space (if your fleet space is insufficient, you can only salvage a portion of these resources)."
-	return iText
-end
-
-DTM004[243] = function(text1,text2,text7,text8,text9,text10,text11,text12,text13,text14,text19,text18)
-	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base. You successfully looted "..text7.." units of medium weapon parts, "..text8.." units of slaves, "..text9.." units of repair supplies, "..text10.." units of spare crew, "..text11.." units of advanced flagship blueprint fragments, "..text12.." units of imperial maids, "..text13.." units of luxury goods, "..text14.." units of fortress-class blueprint fragments, and a total of "..text19.." units of various supplies. These resources occupy "..text18.." of your fleet's cargo space (if your fleet space is insufficient, you can only salvage a portion of these resources)."
-	return iText
-end
-
-DTM004[244] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12,text13,text18)
-	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, supported by fleet firepower, successfully took control of the base. You also successfully looted "..text3.." units of hydrogen fuel, "..text4.." units of basic supplies, "..text5.." units of rare ore, "..text6.." units of ammunition, "..text7.." units of medium weapon parts, "..text8.." units of slaves, "..text9.." units of repair supplies, "..text10.." units of spare crew, "..text11.." units of advanced flagship blueprint fragments, "..text12.." units of imperial maids, and "..text13.." units of luxury goods. These resources occupy a total of "..text18.." of your fleet's cargo space (if your fleet has insufficient space, you can only salvage a portion of these resources)."
-	return iText
-end
-
-DTM004[245] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text12,text18)
-	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, supported by fleet firepower, successfully took control of the base. You also successfully looted "..text3.." units of hydrogen fuel, "..text4.." units of basic supplies, "..text5.." units of rare ore, "..text6.." units of ammunition, "..text7.." units of medium weapon parts, "..text8.." units of slaves, "..text9.." units of repair supplies, "..text10.." units of spare crew, "..text11.." units of advanced flagship blueprint fragments, and "..text12.." units of Imperial Maids. These resources occupy a total of "..text18.." of your fleet's cargo space (if your fleet has insufficient space, you can only salvage a portion of these resources)."
-	return iText
-end
-
-DTM004[246] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text11,text18)
-	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base. You successfully looted "..text3.." units of hydrogen fuel, "..text4.." units of basic supplies, "..text5.." units of rare ore, "..text6.." units of ammunition, "..text7.." units of medium weapon parts, "..text8.." units of slaves, "..text9.." units of repair supplies, "..text10.." units of spare crew, and "..text11.." units of advanced flagship blueprint fragments. These resources occupy a total of "..text18.." of your fleet's cargo space (if your fleet has insufficient space, you can only salvage a portion of these resources)."
-	return iText
-end
-
-DTM004[247] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text10,text18)
-	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base. You successfully looted "..text3.." units of hydrogen fuel, "..text4.." units of basic supplies, "..text5.." units of rare ore, "..text6.." units of ammunition, "..text7.." units of medium weapon parts, "..text8.." units of slaves, "..text9.." units of repair supplies, and "..text10.." units of spare crew. These resources occupy a total of "..text18.." of your fleet's cargo space (if your fleet has insufficient space, you can only salvage a portion of these resources)."
-	return iText
-end
-
-DTM004[248] = function(text1,text2,text3,text4,text5,text6,text7,text8,text9,text18)
-	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base. You successfully looted "..text3.." units of hydrogen fuel, "..text4.." units of basic supplies, "..text5.." units of rare ore, "..text6.." units of ammunition, "..text7.." units of medium weapon parts, "..text8.." units of slaves, and "..text9.." units of repair supplies. These resources occupy a total of "..text18.." of your fleet's cargo hold space (if your fleet space is insufficient, you can only salvage a portion of these resources)."
-	return iText
-end
-
-DTM004[249] = function(text1,text2,text3,text4,text5,text6,text7,text8,text18)
-	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base. You also successfully looted "..text3.." units of hydrogen fuel, "..text4.." units of basic supplies, "..text5.." units of rare ore, "..text6.." units of ammunition, "..text7.." units of medium weapon attachments, and "..text8.." units of slaves. These resources occupy a total of "..text18.." of your fleet's cargo hold space (if your fleet's space is insufficient, you can only salvage a portion of these resources)."
-	return iText
-end
-
-DTM004[250] = function(text1,text2,text3,text4,text5,text6,text7,text18)
-	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base. They successfully looted "..text3.." units of hydrogen fuel, "..text4.." units of basic supplies, "..text5.." units of rare ore, "..text6.." units of ammunition, and "..text7.." units of medium weapon attachments. These resources occupy a total of "..text18.." of your fleet's cargo space (if your fleet has insufficient space, you can only salvage a portion of these resources)."
-	return iText
-end
-
-DTM004[251] = function(text1,text2,text3,text4,text5,text6,text18)
-	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base. They also successfully looted "..text3.." units of hydrogen fuel, "..text4.." units of basic supplies, "..text5.." units of rare ore, and "..text6.." units of ammunition. These resources occupy a total of "..text18.." of your fleet's cargo hold space (if your fleet's space is insufficient, you can only salvage a portion of these resources)."
-	return iText
-end
-
-DTM004[252] = function(text1,text2,text3,text4,text5,text18)
-	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base. They also successfully looted "..text3.." units of hydrogen fuel, "..text4.." units of basic supplies, and "..text5.." units of rare ore. These resources occupy a total of "..text18.." of your fleet's cargo hold space (if your fleet's space is insufficient, you can only salvage a portion of these resources)."
-	return iText
-end
-
-DTM004[253] = function(text1,text2,text3,text4,text18)
-	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base. They also successfully looted "..text3.." units of hydrogen fuel and "..text4.." units of basic supplies. These resources occupy a total of "..text18.." of your fleet's cargo hold space (if your fleet space is insufficient, you can only salvage a portion of these resources)."
-	return iText
-end
-
-DTM004[254] = function(text1,text2,text3,text18)
-	local iText="Your fleet has a total of "..text1.." marines. After suffering "..text2.." casualties, your marines, with the support of fleet firepower, successfully took control of the base and successfully looted "..text3.." units of hydrogen fuel. These resources occupy a total of "..text18.." of your fleet's cargo hold space (if your fleet space is insufficient, you can only salvage a portion of these resources)."
-	return iText
-end
 
 DTM004[255] = function(text1)
 	local iText="The commander of Vaygr Base, after assessing your fleet's combat strength, has decided to spare your life. You can choose whether to consume "..text1.." honor points to leave this map (Staying in this sector will attract the pursuit of the Vaygr fleet)."	

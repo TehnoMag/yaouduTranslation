@@ -350,7 +350,7 @@ function PATCH_ShowMissionReport_PrepareBoarding()
 	UI_SetElementVisible("midmapReport", "btnYES", 1)
 	UI_SetElementVisible("midmapReport", "btnNO", 1)
 	
-	UI_SetTextLabelText("midmapReport", "m_lbResultParam", "Boarding Power: "..g_goods[76])
+	UI_SetTextLabelText("midmapReport", "m_lbResultParam", "Boarding Party Power: "..g_goods[76])
 	
 	UI_SetTextLabelText("midmapReport", "m_lbList2", " ")
 	UI_SetTextLabelText("midmapReport", "m_lbList4", " ")
@@ -439,8 +439,7 @@ function PATCH_ShowMissionReport_BoardingResult(succeded)
 	UI_SetElementVisible("midmapReport", "btnYES", 0)
 	UI_SetElementVisible("midmapReport", "btnNO", 0)
 	
-	UI_SetTextLabelText("midmapReport", "m_lbResultParam", "Boarding Power: "..g_goods[76])
-	
+	UI_SetTextLabelText("midmapReport", "m_lbResultParam", " ")
 	UI_SetTextLabelText("midmapReport", "m_lbList1", " ")
 	UI_SetTextLabelText("midmapReport", "m_lbList2", " ")
 	UI_SetTextLabelText("midmapReport", "m_lbList3", " ")
@@ -815,7 +814,7 @@ function PATCH_ShowMissionReport_PopulateResult()
 	
 	if (good21munOUT > 0) then
 		l1=l1..Goods[21].name.."\n"
-		l3=l3..good21munOUT.."\n
+		l3=l3..good21munOUT.."\n"
 	end
 	
 	if (good43munOUT > 0) then
@@ -870,14 +869,20 @@ function PATCH_ShowMissionReport_PopulateResult()
 	
 	if (good36munOUT > 0) then
 		l2=l2..Goods[36].name.."\n"
-		l4=l4..good36munOUT.."\n""
+		l4=l4..good36munOUT.."\n"
 	end
 	
 	if (good187munOUT > 0) then
 		l2=l2..Goods[187].name.."\n"
 		l4=l4..good187munOUT.."\n"
 	end
-	
+	 
+	UI_SetTextLabelText("midmapReport", "m_lbResultParam", "Boarding Party Losses: "..armylost)
+	UI_SetTextLabelText("midmapReport", "m_lbList1", l1)
+	UI_SetTextLabelText("midmapReport", "m_lbList2", l2)
+	UI_SetTextLabelText("midmapReport", "m_lbList3", l3)
+	UI_SetTextLabelText("midmapReport", "m_lbList4", l4)
+	UI_SetTextLabelText("midmapReport", "m_lbNotice", DTM004[240])
 	
 end
 
