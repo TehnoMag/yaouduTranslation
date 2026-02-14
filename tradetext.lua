@@ -731,11 +731,15 @@ end
 -- End Patch
 
 
+-- Patched By TehnoMag
+--DTM004[239] = function(text1,text2,text3)
+--	local iText="The Vaygr base has been severely damaged. Your fleet can now organize a landing operation to temporarily control the base. Your fleet currently has "..text1.." marines. Proceed with the landing? The base's current level is "..text2..". Controlling it requires at least "..text3.." marines. Note: The higher your rank, the more marines your fleet will have, and the less damage you may suffer in the attack."
+--	return iText
+--end
 
-DTM004[239] = function(text1,text2,text3)
-	local iText="The Vaygr base has been severely damaged. Your fleet can now organize a landing operation to temporarily control the base. Your fleet currently has "..text1.." marines. Proceed with the landing? The base's current level is "..text2..". Controlling it requires at least "..text3.." marines. Note: The higher your rank, the more marines your fleet will have, and the less damage you may suffer in the attack."
-	return iText
-end
+DTM004[239] = "The Vaygr base has been severely damaged. Your fleet can now organize a landing operation to temporarily control the base.\n  Note: The higher your rank, the more marines your fleet will have, and the less damage you may suffer in the attack."
+
+-- End Patch
 
 
 DTM004[240] = function(text1,text2,text13,text14,text15,text16,text17,text19,text18)

@@ -346,34 +346,39 @@ end
 ---15级基地--15种战利品等级--套用打捞系统战利品公式--玩家打捞能力改为玩家陆战队兵力------
 
 function PATCH_ShowMissionReport_PrepareBoarding()
-	UI_SetElementVisible("missionReport", "btnOK", 0)
-	UI_SetElementVisible("missionReport", "btnYES", 1)
-	UI_SetElementVisible("missionReport", "btnNO", 1)
+	UI_SetElementVisible("midmapReport", "btnOK", 0)
+	UI_SetElementVisible("midmapReport", "btnYES", 1)
+	UI_SetElementVisible("midmapReport", "btnNO", 1)
 	
-	UI_SetTextLabelText("missionReport", "m_lbResultParam", "Boarding Power: "..g_goods[76])
+	UI_SetTextLabelText("midmapReport", "m_lbResultParam", "Boarding Power: "..g_goods[76])
+	
+	UI_SetTextLabelText("midmapReport", "m_lbList2", " ")
+	UI_SetTextLabelText("midmapReport", "m_lbList4", " ")
 	
 	local l1 = ""
 	l1="Base Level:\n"
-	l1=l1.."Required Borading Power:"
-	UI_SetTextLabelText("missionReport", "m_lbList1", l1)
+	l1=l1.."Required Boarding Power:"
+	UI_SetTextLabelText("midmapReport", "m_lbList1", l1)
 	
 	local l3 = ""
 	l3=midmapextractbaseLV.."\n"
 	l3=l3..midmapextractbaseLVarmylast
-	UI_SetTextLabelText("missionReport", "m_lbList1", l3)
+	UI_SetTextLabelText("midmapReport", "m_lbList3", l3)
 	
-	UI_ShowScreen("missionReport", ePopup)
+	UI_SetTextLabelText("midmapReport", "m_lbNotice", DTM004[239]);
+	
+	UI_ShowScreen("midmapReport", ePopup)
 end
 
 function PATCH_midmapextractbaseENDstart02()
-	if (UI_IsNamedElementVisible("missionReport","keyOK")==0) then
-		UI_SetElementVisible("missionReport","keyOK",1)
-		UI_HideScreen('missionReport')	
+	if (UI_IsNamedElementVisible("midmapReport","btnYES")==0) then
+		UI_SetElementVisible("midmapReport","btnYES",1)
+		UI_HideScreen('midmapReport')	
 		Rule_AddInterval("vgrattackbaseControls",1)
 		Rule_Remove("PATCH_midmapextractbaseENDstart02")		
-	elseif (UI_IsNamedElementVisible("missionReport","keyNO")==0) then
-		UI_SetElementVisible("missionReport","keyNO",1)
-		UI_HideScreen('missionReport')
+	elseif (UI_IsNamedElementVisible("midmapReport","btnNO")==0) then
+		UI_SetElementVisible("midmapReport","btnNO",1)
+		UI_HideScreen('midmapReport')
 		SobGroup_SwitchOwner( "vgrmidmapbaseGroup", 5)
 		Rule_AddInterval("midmapextractbaseEND",10) 
 		Rule_Remove("PATCH_midmapextractbaseENDstart02")
@@ -397,7 +402,7 @@ _ALERT("midmapextractbaseENDstartC")
 -- End Patch
   vgrbase = 1
   SobGroup_SwitchOwner( "vgrmidmapbaseGroup", 1)
-  Rule_AddInterval("midmapextractbaseENDstart02",1) 
+  Rule_AddInterval("PATCH_midmapextractbaseENDstart02",1) 
   SobGroup_SetHealth("vgrmidmapbaseGroup",0.5)  
 Rule_Remove("midmapextractbaseENDstart")  
 -----------------要塞被秒杀--要塞支援舰队被摧毁---------------------------------------

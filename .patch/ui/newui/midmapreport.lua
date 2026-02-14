@@ -35,7 +35,7 @@ midmapReport = {
 		;
 		
 		{
-			-- Salvage OPS Frame
+			-- OPS Frame
 			type = "Frame",
 			arrangetype = "vert",
 			
@@ -201,9 +201,9 @@ midmapReport = {
 				}
 				;
 				
-				NewMenuButton("btnOK", "$2612", "", 0, BTN_FOOTER_SMALL_LAYOUT, "FEButtonStyle1", [[UI_HideScreen('midmapSalvage');]]),
-				NewMenuButton("btnYES", "$71035", "", 0, BTN_FOOTER_SMALL_LAYOUT, "FEButtonStyle1", [[UI_SetElementVisible('midmapSalvage', 'btnYES', 0);]]),
-				NewMenuButton("btnNO", "$71040", "", 0, BTN_FOOTER_SMALL_LAYOUT, "FEButtonStyle1", [[UI_SetElementVisible('midmapSalvage', 'btnNO', 0);]])
+				NewMenuButton("btnOK", "$2612", "", 0, BTN_FOOTER_SMALL_LAYOUT, "FEButtonStyle1", [[UI_HideScreen('midmapReport');]]),
+				NewMenuButton("btnYES", "$71035", "", 0, BTN_FOOTER_SMALL_LAYOUT, "FEButtonStyle1", [[UI_SetElementVisible('midmapReport', 'btnYES', 0);]]),
+				NewMenuButton("btnNO", "$71040", "", 0, BTN_FOOTER_SMALL_LAYOUT, "FEButtonStyle1", [[UI_SetElementVisible('midmapReport', 'btnNO', 0);]])
 			}
 		}
 	}

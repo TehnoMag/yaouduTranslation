@@ -96,7 +96,7 @@ ui\newui\launchmenubuildsystemlv10.lua
 ui\newui\launchmenufactroygate.lua
 
 leveldata\campaign\ascension\lua\midmap\midmaplua\midmapremoveshiplv00.lua
-ui\newui\midmapsalvage.lua
+ui\newui\midmapreport.lua
 ui\newui\uisettings.lua
 leveldata\campaign\ascension\lua\midmap\midmaplua\missionstart\vgrattackbasemissionstart.lua
 leveldata\campaign\ascension\lua\midmap\midmaplua\midmapmission02explore\midmapmission02explore.lua
