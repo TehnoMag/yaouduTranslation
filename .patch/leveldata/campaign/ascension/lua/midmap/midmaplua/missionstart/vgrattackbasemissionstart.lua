@@ -433,7 +433,27 @@ function midmapextractbaseENDstart02()
 		Rule_Remove("midmapextractbaseENDstart02")
 	end
 end         
-    
+
+function PATCH_ShowMissionReport_BoardingResult(succeded)
+	UI_SetElementVisible("midmapReport", "btnOK", 1)
+	UI_SetElementVisible("midmapReport", "btnYES", 0)
+	UI_SetElementVisible("midmapReport", "btnNO", 0)
+	
+	UI_SetTextLabelText("midmapReport", "m_lbResultParam", "Boarding Power: "..g_goods[76])
+	
+	UI_SetTextLabelText("midmapReport", "m_lbList1", " ")
+	UI_SetTextLabelText("midmapReport", "m_lbList2", " ")
+	UI_SetTextLabelText("midmapReport", "m_lbList3", " ")
+	UI_SetTextLabelText("midmapReport", "m_lbList4", " ")
+	
+	if (succeded == 1) then
+		PATCH_ShowMissionReport_PopulateResult()
+	else
+		UI_SetTextLabelText("midmapReport", "m_lbNotice", "$105111");
+	end
+	
+	UI_ShowScreen("midmapReport", ePopup)
+end    
   
 function vgrattackbaseControls()
 -----------------ÅÐ¶ÏÂ½Õ½¶Ó±øÁ¦ÊÇ·ñ×ã¹»------------------------------------- 	
@@ -487,11 +507,14 @@ function vgrattackbaseControls()
   vgrbaseEXIT = 1         	
 	Rule_AddInterval("vgrattackbaseControlsmission",1) 
 	Rule_Remove("vgrattackbaseControls")   
-  else   
-    UI_SetElementVisible("GateMenu2","m_lblTitle",0)
-UI_SetElementVisible("GateMenu2","m_lblSubTitle",0)
-UI_SetTextLabelText("GateMenu2","m_lblMessage","$105111")
-UI_ShowScreen("GateMenu2", ePopup) 		
+  else
+-- Patched By TehnoMag  
+--    UI_SetElementVisible("GateMenu2","m_lblTitle",0)
+--UI_SetElementVisible("GateMenu2","m_lblSubTitle",0)
+--UI_SetTextLabelText("GateMenu2","m_lblMessage","$105111")
+--UI_ShowScreen("GateMenu2", ePopup) 
+PATCH_ShowMissionReport_BoardingResult(0)
+-- End Patch
 SobGroup_SwitchOwner( "vgrmidmapbaseGroup", 5)
   Rule_AddInterval("midmapextractbaseEND",1)
 Rule_Remove("vgrattackbaseControls")            
@@ -745,7 +768,10 @@ end
 
 
 function vgrattackbaseControlsmissionEND()	
-  Rule_AddInterval("vgrattackbaseControlsmissionTXT",1)	
+-- Patched By TegnoMag
+--  Rule_AddInterval("vgrattackbaseControlsmissionTXT",1)	
+	Rule_AddInterval("PATCH_vgrattackbaseControlsmissionTXT",1)
+-- End Patch
        g_goods[76] = g_goods[76] - armylost
 	     g_goods[4] = g_goods[4] + good04munOUT  
 	     g_goods[42] = g_goods[42] + good42munOUT       
@@ -769,6 +795,97 @@ exploremission = 0
 Rule_Remove("vgrattackbaseControlsmissionEND")            
 end
 
+function PATCH_ShowMissionReport_PopulateResult()
+	local armytotal = g_goods[76] + armylost
+	local goodOUT = good04munOUT + good42munOUT + good21munOUT + good43munOUT + good26munOUT + good33munOUT + good44munOUT + good75munOUT + good189munOUT + good35munOUT + good12munOUT + good179munOUT + good65munOUT + good36munOUT + good187munOUT
+	
+	local l1 = ""
+	local l2 = ""
+	local l3 = ""
+	local l4 = ""
+	if (good04munOUT > 0) then
+		l1=l1..Goods[4].name.."\n"
+		l3=l3..good04munOUT.."\n"
+	end
+	
+	if (good42munOUT > 0) then
+		l1=l1..Goods[42].name.."\n"
+		l3=l3..good42munOUT.."\n"
+	end
+	
+	if (good21munOUT > 0) then
+		l1=l1..Goods[21].name.."\n"
+		l3=l3..good21munOUT.."\n
+	end
+	
+	if (good43munOUT > 0) then
+		l1=l1..Goods[43].name.."\n"
+		l3=l3..good43munOUT.."\n"
+	end
+	
+	if (good26munOUT > 0) then
+		l1=l1..Goods[26].name.."\n"
+		l3=l3..good26munOUT.."\n"
+	end
+	
+	if (good33munOUT > 0) then
+		l1=l1..Goods[33].name.."\n"
+		l3=l3..good33munOUT.."\n"
+	end
+	
+	if (good44munOUT > 0) then
+		l1=l1..Goods[44].name.."\n"
+		l3=l3..good44munOUT.."\n"
+	end
+	
+	if (good75munOUT > 0) then
+		l1=l1..Goods[75].name.."\n"
+		l3=l3..good75munOUT.."\n"
+	end
+	
+	if (good189munOUT > 0) then
+		l2=l2..Goods[189].name.."\n"
+		l4=l4..good189munOUT.."\n"
+	end
+	
+	if (good35munOUT > 0) then
+		l2=l2..Goods[35].name.."\n"
+		l4=l4..good35munOUT.."\n"
+	end
+	
+	if (good12munOUT > 0) then
+		l2=l2..Goods[12].name.."\n"
+		l4=l4..good12munOUT.."\n"
+	end
+	
+	if (good179munOUT > 0) then
+		l2=l2..Goods[179].name.."\n"
+		l4=l4..good179munOUT.."\n"
+	end
+	
+	if (good65munOUT > 0) then
+		l2=l2..Goods[65].name.."\n"
+		l4=l4..good65munOUT.."\n"
+	end
+	
+	if (good36munOUT > 0) then
+		l2=l2..Goods[36].name.."\n"
+		l4=l4..good36munOUT.."\n""
+	end
+	
+	if (good187munOUT > 0) then
+		l2=l2..Goods[187].name.."\n"
+		l4=l4..good187munOUT.."\n"
+	end
+	
+	
+end
+
+function PATCH_vgrattackbaseControlsmissionTXT()
+	PATCH_ShowMissionReport_BoardingResult(1)
+	Rule_AddInterval("vgrattackbaseControlsmissionTXT_1",1)
+	Rule_Remove("PATCH_vgrattackbaseControlsmissionTXT")
+end
 
 function vgrattackbaseControlsmissionTXT()
   armytotal = g_goods[76] + armylost
