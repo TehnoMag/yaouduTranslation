@@ -440,22 +440,22 @@ end
 
 function PATCH_ShowSalvageResults(bHasMore, Notice)
 	if (bHasMore == 1) then
-		UI_SetElementVisible("midmapSalvage", "btnOK", 0)
-		UI_SetElementVisible("midmapSalvage", "btnYES", 1)
-		UI_SetElementVisible("midmapSalvage", "btnNO", 1)
+		UI_SetElementVisible("midmapReport", "btnOK", 0)
+		UI_SetElementVisible("midmapReport", "btnYES", 1)
+		UI_SetElementVisible("midmapReport", "btnNO", 1)
 	else
-		UI_SetElementVisible("midmapSalvage", "btnOK", 1)
-		UI_SetElementVisible("midmapSalvage", "btnYES", 0)
-		UI_SetElementVisible("midmapSalvage", "btnNO", 0)
+		UI_SetElementVisible("midmapReport", "btnOK", 1)
+		UI_SetElementVisible("midmapReport", "btnYES", 0)
+		UI_SetElementVisible("midmapReport", "btnNO", 0)
 	end
 	
-	UI_SetTextLabelText("midmapSalvage", "m_lbSavageGoodsNames1", PATCH_PopulateSalvageGoodNames1(bHasMore))
-	UI_SetTextLabelText("midmapSalvage", "m_lbSavageGoodsCount1", PATCH_PopulateSalvageGoodCount1(bHasMore))
-	UI_SetTextLabelText("midmapSalvage", "m_lbSavageGoodsNames2", PATCH_PopulateSalvageGoodNames2(bHasMore))
-	UI_SetTextLabelText("midmapSalvage", "m_lbSavageGoodsCount2", PATCH_PopulateSalvageGoodCount2(bHasMore))
-	UI_SetTextLabelText("midmapSalvage", "m_lbSalvageFleetEngCap", "Fleet Enginering Capacity: "..g_factorylimit)
-	UI_SetTextLabelText("midmapSalvage", "m_lb_SalvageNotice", Notice)
-	UI_ShowScreen("midmapSalvage", ePopup)
+	UI_SetTextLabelText("midmapReport", "m_lbList1", PATCH_PopulateSalvageGoodNames1(bHasMore))
+	UI_SetTextLabelText("midmapReport", "m_lbList3", PATCH_PopulateSalvageGoodCount1(bHasMore))
+	UI_SetTextLabelText("midmapReport", "m_lbList2", PATCH_PopulateSalvageGoodNames2(bHasMore))
+	UI_SetTextLabelText("midmapReport", "m_lbList4", PATCH_PopulateSalvageGoodCount2(bHasMore))
+	UI_SetTextLabelText("midmapReport", "m_lbResultParam", "Fleet Enginering Capacity: "..g_factorylimit)
+	UI_SetTextLabelText("midmapReport", "m_lbNotice", Notice)
+	UI_ShowScreen("midmapReport", ePopup)
 end
 
 function midmapremoveshipLV01()	

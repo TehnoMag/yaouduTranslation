@@ -107,7 +107,7 @@ end
          --randommidmapexploremissiontime = randommidmapexploremissiontime[random(5,5)]
 
 ----------Ö´ÐÐÌ½Ë÷ÊÂ¼þ-----------
-  --Rule_AddInterval(randommidmapexploremissiontime,1)  
+  --Rule_AddInterval(randommidmapexploremissiontime,1) 
 	Rule_AddInterval("midmapremoveshipLV00",1)
        	 _ALERT("randommidmapexploremissiontime")  
 	     _ALERT(randommidmapexploremissiontime)  
